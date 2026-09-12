@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   pipeline:
-    runs-n: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,6 +40,8 @@ jobs:
           SINCE=$(python -c "from datetime import datetime, timedelta, timezone; print((datetime.now(timezone.utc)-timedelta(days=10)).strftime('%Y-%m-%d'))")
           echo "Ingesting CTG records last-updated since ${SINCE}"
           python -m src.ingest --since "$SINCE"
+          # Skip NCT IDs whose derived JSON is newer than the cached registry row.
+          # New or updated raw records are extracted/enriched; the rest is a no-op.
           python -m src.extract --skip-existing
           python -m src.enrich --skip-existing
           python -m src.classify
@@ -62,6 +64,7 @@ jobs:
           set -euo pipefail
           git config user.name "wh-triage-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Generated outputs only. Never .env, never LLM keys, never data/cache.
           git add -- \
             dashboard/public/data/snapshot.json \
             data/snapshots \
