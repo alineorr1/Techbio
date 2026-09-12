@@ -27,6 +27,6 @@ python -m src.score
 python -m src.serve
 ```
 
-Chrome is structural only (routes, snapshot data, non-buy disclaimer). Brand restyle comes later from `weare-brand-system.md`.
+Chrome is we.are brand system v0: cream/ink shell, wine action chrome, sticky non-buy diligence banner. No buy CTAs.
 
 Deploy: repo-root `vercel.json` builds this directory. See the Operations section in the project README for secrets, weekly updates, and Vercel.

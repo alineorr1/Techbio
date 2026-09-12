@@ -61,7 +61,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
         </p>
       </PageHeader>
 
-      <Panel className="mb-4 p-3 sm:p-4">
+      <Panel className="mb-[var(--space-5)] p-3 sm:p-4">
         <div className="grid gap-3 sm:grid-cols-3">
           <label htmlFor="ranked-search" className="block">
             <FieldLabel>Search</FieldLabel>
@@ -72,7 +72,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="NCT, title, sponsor, target"
-              className="mt-1.5 h-9 w-full border border-line px-2.5"
+              className="mt-1.5 h-9 w-full rounded-none border border-line bg-cream px-2.5 font-sans text-[13px] text-ink"
             />
           </label>
           <label htmlFor="ranked-indication" className="block">
@@ -82,7 +82,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
               name="indication"
               value={indication}
               onChange={(e) => setIndication(e.target.value)}
-              className="mt-1.5 h-9 w-full border border-line px-2"
+              className="mt-1.5 h-9 w-full rounded-none border border-line bg-cream px-2 font-sans text-[13px] text-ink"
             >
               <option value="all">All indications</option>
               {indications.map((key) => (
@@ -99,7 +99,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
               name="failure_mode"
               value={mode}
               onChange={(e) => setMode(e.target.value)}
-              className="mt-1.5 h-9 w-full border border-line px-2"
+              className="mt-1.5 h-9 w-full rounded-none border border-line bg-cream px-2 font-sans text-[13px] text-ink"
             >
               <option value="all">All modes</option>
               {MODES.map((m) => (
@@ -117,7 +117,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
           <table className="w-full min-w-[720px] border-collapse text-left">
             <caption className="sr-only">Assets ranked by triage score</caption>
             <thead>
-              <tr className="border-b border-line text-left text-sm text-mute">
+              <tr className="border-b border-line text-left text-[10px] uppercase tracking-[0.16em] text-mute">
                 <th scope="col" className="px-3 py-2.5 font-medium">
                   #
                 </th>
@@ -144,15 +144,15 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
                 const ruleB = asset.score?.rule_b_organon_guard;
                 const ruleA = asset.score?.rule_a_safety_cap;
                 return (
-                  <tr key={asset.nct_id} className="border-b border-line last:border-0">
+                  <tr key={asset.nct_id} className="border-b border-line last:border-0 hover:bg-champagne/35">
                     <td className="px-3 py-3 align-top font-mono text-xs text-mute">{idx + 1}</td>
                     <td className="px-3 py-3 align-top">
-                      <ScoreMark score={asset.score?.score} />
+                      <ScoreMark score={asset.score?.score} className="text-[22px]" />
                     </td>
                     <td className="px-3 py-3 align-top">
-                      <a href={hrefFor({ name: "asset", nct: asset.nct_id })} className="block">
-                        <span className="font-mono text-xs">{asset.nct_id}</span>
-                        <span className="mt-0.5 block">{title}</span>
+                      <a href={hrefFor({ name: "asset", nct: asset.nct_id })} className="block no-underline">
+                        <span className="font-mono text-[11px] text-wine">{asset.nct_id}</span>
+                        <span className="mt-0.5 block font-serif text-[16px] leading-snug text-ink">{title}</span>
                       </a>
                       <p className="mt-1 text-[12px] text-mute">
                         {asset.indication_label || asset.indication}
@@ -163,10 +163,10 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
                       <FailureBadge mode={asset.classification?.failure_mode} />
                     </td>
                     <td className="px-3 py-3 align-top text-[12px] text-mute">{prettyPhase(asset.phase)}</td>
-                    <td className="px-3 py-3 align-top text-xs text-mute">
-                      {ruleA ? <span>Rule A</span> : null}
+                    <td className="px-3 py-3 align-top text-[11px] uppercase tracking-[0.12em] text-mute">
+                      {ruleA ? <span className="text-terra">Rule A</span> : null}
                       {ruleA && ruleB ? " · " : null}
-                      {ruleB ? <span>Rule B</span> : null}
+                      {ruleB ? <span className="text-wine">Rule B</span> : null}
                       {!ruleA && !ruleB ? "—" : null}
                     </td>
                   </tr>

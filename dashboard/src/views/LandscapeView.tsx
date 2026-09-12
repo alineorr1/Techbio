@@ -73,7 +73,7 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
         </p>
       </PageHeader>
 
-      <div className="mb-6 grid gap-4 sm:grid-cols-3">
+      <div className="mb-[var(--space-5)] grid gap-[var(--space-4)] sm:grid-cols-3">
         <Stat label="Scored assets" value={String(landscape.n_assets)} />
         <Stat
           label="Mean population capture"
@@ -87,7 +87,7 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
         />
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-[var(--space-5)] lg:grid-cols-2">
         <ChartPanel title="Score histogram" hint="Rule B caps most assets at 60 without pre-trial mechanism evidence.">
           <ResponsiveContainer width="100%" height={240}>
             <BarChart data={histogram} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
@@ -166,8 +166,8 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
 function Stat({ label, value, hint }: { label: string; value: string; hint?: string }) {
   return (
     <Panel className="p-4">
-      <p className="text-sm text-mute">{label}</p>
-      <p className="mt-2 font-mono text-2xl tabular-nums">{value}</p>
+      <p className="kicker">{label}</p>
+      <p className="mt-2 font-serif text-[28px] leading-none text-wine">{value}</p>
       {hint ? <p className="mt-2 text-[12px] text-mute">{hint}</p> : null}
     </Panel>
   );

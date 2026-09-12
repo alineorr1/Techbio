@@ -35,7 +35,7 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
 
       {note ? <EmptyNote>{note}</EmptyNote> : null}
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-2">
+      <div className="mt-[var(--space-5)] grid gap-[var(--space-5)] lg:grid-cols-2">
         <Panel className="p-4">
           <h2 className="text-[20px]">New in the top 20</h2>
           <p className="mt-1 text-[12px] text-mute">{incoming.length} assets entered the top twenty.</p>
@@ -44,9 +44,11 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
               const nct = asString(row.nct_id) || "unknown";
               return (
                 <li key={nct} className="py-3">
-                  <a href={hrefFor({ name: "asset", nct })}>
-                    <span className="font-mono text-xs">{nct}</span>
-                    <span className="mt-0.5 block">{asString(row.title) || nct}</span>
+                  <a href={hrefFor({ name: "asset", nct })} className="no-underline">
+                    <span className="font-mono text-[11px] text-wine">{nct}</span>
+                    <span className="mt-0.5 block font-serif text-[16px] text-ink">
+                      {asString(row.title) || nct}
+                    </span>
                   </a>
                   <div className="mt-1.5 flex flex-wrap items-center gap-2">
                     <ScoreMark score={asNumber(row.score)} className="text-[18px]" />
@@ -69,12 +71,14 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
               const delta = asNumber(row.delta);
               return (
                 <li key={nct} className="py-3">
-                  <a href={hrefFor({ name: "asset", nct })}>
-                    <span className="font-mono text-xs">{nct}</span>
-                    <span className="mt-0.5 block">{asString(row.title) || nct}</span>
+                  <a href={hrefFor({ name: "asset", nct })} className="no-underline">
+                    <span className="font-mono text-[11px] text-wine">{nct}</span>
+                    <span className="mt-0.5 block font-serif text-[16px] text-ink">
+                      {asString(row.title) || nct}
+                    </span>
                   </a>
-                  <p className="mt-1.5 text-sm">
-                    <span>
+                  <p className="mt-1.5 text-sm text-ink">
+                    <span className={delta != null && delta < 0 ? "text-terra" : "text-wine"}>
                       {delta == null ? "—" : `${delta > 0 ? "+" : ""}${fmtScore(delta)}`}
                     </span>
                     <span className="text-mute">

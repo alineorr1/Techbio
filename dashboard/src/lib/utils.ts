@@ -18,7 +18,7 @@ export function sourceHost(url: string): string {
   }
 }
 
-/** Evvy-inspired chart series — never default Recharts blue. */
+/** we.are chart series — wine first, never default Recharts blue. */
 export const CHART = {
   wine: "#5C2430",
   rose: "#C17B7E",
@@ -26,8 +26,9 @@ export const CHART = {
   champagne: "#E8D5C4",
   mucosa: "#A85A64",
   oxblood: "#3D1822",
-  ink: "#2A1A1F",
-  ivory: "#F7F1EA",
+  ink: "#0A0A0A",
+  ivory: "#F5F3EE",
+  ground: "#F5F3EE",
   cream: "#F3EBE3",
   hairline: "rgba(92, 36, 48, 0.16)",
   mute: "#6E565C",

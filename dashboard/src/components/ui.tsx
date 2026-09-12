@@ -3,13 +3,13 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "../lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-1.5 rounded-none font-medium tracking-[0.14em] uppercase transition-colors duration-150 disabled:opacity-40 disabled:pointer-events-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wine",
+  "inline-flex items-center justify-center gap-1.5 rounded-none font-medium tracking-[0.14em] uppercase disabled:opacity-40 disabled:pointer-events-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wine",
   {
     variants: {
       variant: {
-        default: "bg-wine text-ivory hover:bg-oxblood",
+        default: "bg-wine text-ground hover:bg-oxblood",
         ghost: "bg-transparent text-mute hover:text-ink hover:bg-champagne/60",
-        outline: "border border-wine/30 text-wine hover:bg-champagne/70",
+        outline: "border border-line text-wine hover:bg-raised",
         danger: "border border-terra/50 bg-transparent text-terra hover:bg-terra/10",
       },
       size: {
@@ -40,11 +40,11 @@ export function Badge({
   className?: string;
 }) {
   const tones = {
-    muted: "bg-transparent text-mute border-wine/20",
+    muted: "bg-transparent text-mute border-line",
     wine: "bg-wine/8 text-wine border-wine/25",
-    rose: "bg-rose/12 text-mucosa border-rose/35",
+    rose: "bg-transparent text-rose border-rose/35",
     terra: "bg-terra/10 text-terra border-terra/30",
-    champagne: "bg-champagne/80 text-oxblood border-wine/20",
+    champagne: "bg-champagne/80 text-oxblood border-line",
   };
   return (
     <span

@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from "react";
-import { EmptyNote } from "./components/chrome";
+import { DiligenceBanner, EmptyNote, Wordmark } from "./components/chrome";
 import { hrefFor, parseHash, type Route } from "./lib/hash";
 import type { Snapshot } from "./lib/types";
 import { cn } from "./lib/utils";
@@ -80,29 +80,36 @@ export default function App() {
   }, [route, snapshot]);
 
   return (
-    <div className="min-h-full">
-      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4">
+    <div className="min-h-full bg-ground text-ink">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-40 focus:bg-wine focus:px-3 focus:py-2 focus:text-ground focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-wine"
+      >
         Skip to content
       </a>
-      <header className="border-b border-line">
-        <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-5 sm:px-6">
+      <DiligenceBanner />
+      <header className="border-b border-line bg-ground">
+        <div className="mx-auto flex max-w-6xl flex-col gap-[var(--space-4)] px-4 py-[var(--space-5)] sm:px-6">
           <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-2xl font-medium">Failed asset triage</p>
-              <p className="mt-1 max-w-xl text-sm text-mute">
+              <Wordmark />
+              <p className="mt-1 font-serif text-[26px] leading-tight tracking-[-0.025em] text-ink sm:text-[30px]">
+                Failed asset triage
+              </p>
+              <p className="mt-1 max-w-xl text-[13px] text-mute">
                 Read-only ledger of stopped endometriosis and PCOS programmes. A high score means the public record is
                 compatible with a non-biological failure — not an investment recommendation.
               </p>
             </div>
             {snapshot ? (
-              <p className="font-mono text-xs text-mute">
+              <p className="font-mono text-[11px] text-mute">
                 {snapshot.snapshot_id}
                 <br />
                 {snapshot.counts.n_assets} assets
               </p>
             ) : null}
           </div>
-          <nav aria-label="Dashboard sections" className="flex flex-wrap gap-4">
+          <nav aria-label="Dashboard sections" className="flex flex-wrap gap-1">
             <NavLink href={hrefFor({ name: "ranked" })} active={route.name === "ranked"}>
               Ranked
             </NavLink>
@@ -121,8 +128,8 @@ export default function App() {
         </div>
       </header>
 
-      <main id="main" className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-        {loading ? <p className="text-sm text-mute">Loading snapshot…</p> : null}
+      <main id="main" className="mx-auto max-w-6xl px-4 py-[var(--space-6)] sm:px-6">
+        {loading ? <p className="ledger-pulse text-sm text-mute">Loading snapshot…</p> : null}
         {error ? (
           <EmptyNote>
             {error} Generate it with <code className="font-mono">python -m src.serve</code> and keep{" "}
@@ -131,7 +138,7 @@ export default function App() {
         ) : null}
         {snapshot && route.name === "ranked" ? <RankedView snapshot={snapshot} /> : null}
         {snapshot && route.name === "landscape" ? (
-          <Suspense fallback={<p className="text-sm text-mute">Loading landscape…</p>}>
+          <Suspense fallback={<p className="ledger-pulse text-sm text-mute">Loading landscape…</p>}>
             <LandscapeView snapshot={snapshot} />
           </Suspense>
         ) : null}
@@ -139,11 +146,11 @@ export default function App() {
         {snapshot && route.name === "asset" ? <AssetView snapshot={snapshot} nct={route.nct} /> : null}
       </main>
 
-      <footer className="border-t border-line">
-        <div className="mx-auto max-w-6xl px-4 py-5 text-xs text-mute sm:px-6">
+      <footer className="border-t border-line bg-ground">
+        <div className="mx-auto max-w-6xl px-4 py-[var(--space-5)] text-[12px] text-mute sm:px-6">
           Hash routes: <code className="font-mono">#/ranked</code>, <code className="font-mono">#/asset/NCT…</code>,{" "}
           <code className="font-mono">#/landscape</code>, <code className="font-mono">#/weekly</code>. Data is static{" "}
-          <code className="font-mono">/data/snapshot.json</code>.
+          <code className="font-mono">/data/snapshot.json</code>. No buy path.
         </div>
       </footer>
     </div>
@@ -163,7 +170,10 @@ function NavLink({
     <a
       href={href}
       aria-current={active ? "page" : undefined}
-      className={cn("text-sm no-underline", active ? "font-medium text-ink underline" : "text-mute")}
+      className={cn(
+        "inline-flex h-8 items-center rounded-none px-2.5 text-[10px] font-medium uppercase tracking-[0.16em] no-underline",
+        active ? "bg-wine text-ground" : "text-mute hover:bg-champagne/70 hover:text-ink",
+      )}
     >
       {children}
     </a>
