@@ -16,7 +16,10 @@ PROMPTS_DIR = ROOT / "prompts"
 
 RAW_DIR = DATA_DIR / "raw"
 RAW_CTG_DIR = RAW_DIR / "ctg"
+RAW_CTIS_DIR = RAW_DIR / "ctis"
+RAW_CTIS_SEARCH_DIR = RAW_CTIS_DIR / "_search"
 DERIVED_DIR = DATA_DIR / "derived"
+IDENTITY_DIR = DERIVED_DIR / "identity"
 EXTRACT_DIR = DERIVED_DIR / "extract"
 ENRICH_DIR = DERIVED_DIR / "enrich"
 CLASSIFY_DIR = DERIVED_DIR / "classify"
@@ -36,10 +39,17 @@ INDICATIONS_PATH = CONFIG_DIR / "indications.yaml"
 SCORING_PATH = CONFIG_DIR / "scoring.yaml"
 SPONSORS_PATH = CONFIG_DIR / "sponsors.csv"
 
+# Committed Wave-1 pins (not relocated when WH_DATA_DIR is overridden).
+SMOKE_DIR = ROOT / "data" / "smoke"
+CTIS_STATUS_MAP_PATH = SMOKE_DIR / "ctis_status_map.json"
+
 
 def ensure_dirs() -> None:
     for path in (
         RAW_CTG_DIR,
+        RAW_CTIS_DIR,
+        RAW_CTIS_SEARCH_DIR,
+        IDENTITY_DIR,
         EXTRACT_DIR,
         ENRICH_DIR,
         CLASSIFY_DIR,

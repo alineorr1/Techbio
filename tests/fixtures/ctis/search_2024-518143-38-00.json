@@ -1,0 +1,44 @@
+{
+  "showWarning": false,
+  "pagination": {
+    "totalRecords": 1,
+    "currentPage": 1,
+    "totalPages": 1,
+    "nextPage": false,
+    "prevPage": false
+  },
+  "data": [
+    {
+      "ctNumber": "2024-518143-38-00",
+      "ctStatus": 3,
+      "ctTitle": "PRODIGE 61- FFCD 1702 - FUNGEMAX  Randomized phase II study comparing 5FU/LV+Nal-IRI, gemcitabine+Nab-paclitaxel or a sequential regimen of 2 months 5FU/LV+Nal-IRI followed by two months of gemcitabine+Nab-paclitaxel, in metastatic pancreatic cancer",
+      "shortTitle": "FUNGEMAX",
+      "startDateEU": "25/10/2024",
+      "conditions": "Metastatic pancreatic cancer",
+      "trialCountries": [
+        "France:3"
+      ],
+      "decisionDateOverall": "25/10/2024",
+      "decisionDate": "FR: 25/10/2024",
+      "therapeuticAreas": [
+        "Diseases [C] - Neoplasms [C04]"
+      ],
+      "sponsor": "Fondation Franc.Cancerologie Digestive",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Phase II and Phase III (Integrated)",
+      "endPoint": "Best Objective Response (BOR): BOR is defined as complete or partial response rate according to scans and RECIST v1.1 criteria over the entire treatment period., Progression free survival (PFS): PFS is defined as the time between the date of randomization and the date of the first radiological and/or clinical progression or the date of death (for whatever reason)., Overall survival (OS): OS is defined as the time between the date of randomization and the date of death (whatever the cause)., Depth of response: This is defined as the relative difference between the sum of the largest diameters of target lesions in the NADIR (in the absence of new lesions or progression of non-target lesions) and the sum of the largest diameters of the target lesions at inclusion., Early tumor shrinkage: This is defined as the relative difference between the sum of the largest diameters of target lesions at 8 weeks and this sum at inclusion. Early decrease corresponds to a relative difference of > 20% in RECIST v1.1., Time to treatment failure is defined as the time between the date of randomization and the date of discontinuation of all protocol treatments (regardless of cause) or date last news for patients alive under treatment., Safety: Toxicities are evaluated according to NCI-CTC v4.0., Quality of life (EORTC QLQ-C30): Quality of life will be assessed according to the questionnaire of EORTC QLQ-C30, Evolution of tumoral markers: The evolution of the markers will be analysed by a graphical representation at each time points of the percentage change from baseline.",
+      "product": "PACLITAXEL\r, Onivyde pegylated liposomal 4.3 mg/ml concentrate for dispersion for infusion, GEMCITABINE, FOLINIC ACID, FLUOROURACIL",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years, 65+ years",
+      "gender": "Female, Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "288",
+      "primaryEndPoint": "The primary endpoint is the rate of patients alive without progression at 6 months after inclusion",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "15/10/2025",
+      "lastPublicationUpdate": "15/04/2026"
+    }
+  ]
+}

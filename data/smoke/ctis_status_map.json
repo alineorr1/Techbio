@@ -1,0 +1,81 @@
+{
+  "schema_version": "wave1.ctis_status.v1",
+  "source_of_truth": {
+    "retrieve": "ctPublicStatusCode",
+    "search": "ctStatus"
+  },
+  "do_not_use": [
+    "retrieve.ctStatus"
+  ],
+  "notes": [
+    "retrieve.ctStatus is APPLICATION status (string), not public trial status.",
+    "search.ctStatus is the numeric public status code; it matches retrieve.ctPublicStatusCode.",
+    "Never map public status from the retrieve.ctStatus string alone.",
+    "Wave-1 may quarantine-all-CTIS-until-mapped for the universe filter, but must still store and assert on ctPublicStatusCode."
+  ],
+  "unmapped_policy": "quarantine_until_mapped",
+  "wave1_universe_policy": "quarantine_all_ctis_until_mapped",
+  "codes": {
+    "1": {
+      "label": "Under evaluation",
+      "universe": "exclude",
+      "mapped_status": null
+    },
+    "2": {
+      "label": "Authorised, recruitment pending",
+      "universe": "exclude",
+      "mapped_status": null
+    },
+    "3": {
+      "label": "Authorised, recruiting",
+      "universe": "exclude",
+      "mapped_status": null
+    },
+    "4": {
+      "label": "Ongoing, recruiting",
+      "universe": "exclude",
+      "mapped_status": null
+    },
+    "5": {
+      "label": "Ongoing, recruitment ended",
+      "universe": "exclude_pending_end",
+      "mapped_status": null
+    },
+    "6": {
+      "label": "Temporarily halted",
+      "universe": "include_review",
+      "mapped_status": "SUSPENDED"
+    },
+    "7": {
+      "label": "Suspended",
+      "universe": "include",
+      "mapped_status": "SUSPENDED"
+    },
+    "8": {
+      "label": "Ended",
+      "universe": "include",
+      "mapped_status": "COMPLETED_OR_TERMINATED"
+    },
+    "9": {
+      "label": "Expired",
+      "universe": "include_review",
+      "mapped_status": "UNKNOWN"
+    },
+    "10": {
+      "label": "Revoked",
+      "universe": "include",
+      "mapped_status": "WITHDRAWN"
+    },
+    "11": {
+      "label": "Not authorised",
+      "universe": "exclude",
+      "mapped_status": null
+    },
+    "12": {
+      "label": "Cancelled",
+      "universe": "exclude",
+      "mapped_status": null,
+      "source": "CTIS public portal Angular enum (community docs, 2026-07-19)"
+    }
+  }
+}

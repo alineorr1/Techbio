@@ -1,0 +1,171 @@
+{
+  "showWarning": false,
+  "pagination": {
+    "totalRecords": 11,
+    "currentPage": 1,
+    "totalPages": 3,
+    "nextPage": true,
+    "prevPage": false
+  },
+  "data": [
+    {
+      "ctNumber": "2026-525272-25-00",
+      "ctStatus": 2,
+      "ctTitle": "Prospective trial of [18F]AlF-FAPI-74 for PET imaging of fibroblast activation protein in patients with endometriosis",
+      "conditions": "endometriosis",
+      "trialCountries": [
+        "Belgium:2"
+      ],
+      "decisionDateOverall": "10/07/2026",
+      "decisionDate": "BE: 10/07/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "UZ Leuven",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "Sensitivity, specificity, positive predictive value, negative predictive value, accuracy of [18F]AlF-FAPI-74 PET/CT in detecting endometriotic lesions., Semi-quantitative uptake measurements (maximal standardized uptake value (SUVmax), average SUV (SUVmean), peak SUV (SUVpeak) of endometriotic lesions on [18F]AlF-FAPI-74 PET/CT., Endometriotic lesion-to-background uptake values (SUV lesion divided by SUV background) for [18F]AlF-FAPI-74 PET/CT, using following background organs: liver, lung, gluteus muscle, mediastinal bloodpool, bowel, bone marrow (L4 if no abnormal uptake)., Total FAP-positive endometriotic burden, defined as the sum of the volumes of all lesions deemed to be endometriotic in nature., Number of additional endometriotic lesions recorded after unblinding of the surgeon during laparoscopy., Diagnostic performance of MRI in detecting endometriotic lesions, in patients in which MRI is available, and comparison with [18F]AlF-FAPI-74 PET/CT, laparoscopy and if available ultrasound., Diagnostic performance of ultrasound in detecting endometriotic lesions, in patients in which ultrasound is available, and comparison with [ 18F]AlF-FAPI-74 PET/CT, laparoscopy and if available MRI., Impact on clinical management., Psychological impact on patient of [18F]AlF-FAPI-74 PET/CT procedure., Intra- and interobserver reproducibility of [18F]AlF-FAPI-74 PET/CT., Patient safety: adverse events of [18F]AlF-FAPI-74 PET/CT., Correlation of [18F]AlF-FAPI-74 biodistribution with FAP tissue expression as measured by immunohistochemistry (IHC)., Evolution of [18F]AlF-FAPI-74 PET/CT scans in patients initiating GnRH-agonist or GnRH-antagonist medication and receiving 2 [18F]AlF-FAPI-74 PET/CT (prior and post initiation of GnRH-agonist or GnRH-antagonist medication) : (i) number of lesion; (ii) uptake; (iii) endometriotic lesion-to-background value; (iv) correlation with laparoscopy and if available MRI and/or ultrasound., Additional secondary endpoints related to the clinical investigational NeuroEXPLORER device: See Master Protocol EUDAMED_CIV-25-06-053398.",
+      "product": "Buscopan 20 mg/1 ml oplossing voor injectie",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "64",
+      "primaryEndPoint": "Evaluation of the diagnostic performance of [18F]AlF-FAPI-74 PET/CT as a non-invasive tool to diagnose deep infiltrating endometriosis and/or superficial peritoneal endometriosis, in comparison with intra-operative laparoscopic findings (current gold-standard) in women with suspected endometriosis. The diagnostic performance is evaluated by correlating the locations of endometriotic lesions on [18F]AlF-FAPI-74 PET/CT and the locations of endometriotic lesions detected during laparoscopy., Additional primary endpoints related to the clinical investigational NeuroEXPLORER device: See Master Protocol EUDAMED_CIV-25-06-053398.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "10/07/2026",
+      "lastPublicationUpdate": "11/07/2026"
+    },
+    {
+      "ctNumber": "2025-524995-53-00",
+      "ctStatus": 2,
+      "ctTitle": "Reproductive outcomes with letrozole co-treatment during ovarian stimulation in women with endometriosis undergoing IVF/ICSI: a randomised, multicentre, parallel group pragmatic trial",
+      "conditions": "Women with endometriosis undergoing IVF/ICSI",
+      "trialCountries": [
+        "Belgium:2"
+      ],
+      "decisionDateOverall": "13/05/2026",
+      "decisionDate": "BE: 13/05/2026",
+      "therapeuticAreas": [
+        "Phenomena and Processes [G] - Reproductive and Urinary Physiological Phenomena [G08]"
+      ],
+      "sponsor": "UZ Brussel",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic use (Phase IV)",
+      "endPoint": "LBR per fresh ET cycle (excluding freeze-all), defined as live birth at ≥ 24 weeks of gestation., Number of ETs needed for successful pregnancy, Miscarriage rate (defined as pregnancy loss prior to viability scan and including those confirmed on ultrasound scan up to ≤ 23 weeks 6 days gestation) for fresh and frozen ETs., Implantation rate (positive serum βhCG 10-15 days after  transfer) for fresh and frozen ETs., Clinical pregnancy rate (at least one gestational sac 4-6 weeks after transfer) for fresh and frozen ETs., Rate of ectopic pregnancy or pregnancy of unknown location for fresh and frozen ETs., For women achieving a pregnancy > 24 weeks:  \tPregnancy related complications: pre-eclampsia and pregnancy-induced hypertension, preterm birth, intrauterine growth restriction, caesarean delivery and obstetric hemorrhage. \tExtreme preterm birth (24-28 weeks of gestation) \tStill birth and termination of pregnancy  \tGestational age at delivery, Birthweight \tNeonatal admission and mortality  \tMajor congenital abnormalities, Pain score: NRS 1-10 one to four hours after OPU, Patient QOL measured at the day of fresh embryo transfer (OPU +5) and compared to baseline (FertiQOL)",
+      "product": "Letrozole Teva 2,5 mg filmomhulde tabletten",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "854",
+      "primaryEndPoint": "The primary endpoint is cumulative live birth per stimulation (or IVF/ICSI) cycle, including fresh ET and frozen ETs resulting from the same oocyte aspiration and transferred within 1 year of randomization.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "25/08/2026",
+      "lastPublicationUpdate": "26/08/2026"
+    },
+    {
+      "ctNumber": "2025-522452-16-00",
+      "ctStatus": 4,
+      "ctTitle": "A Phase 2, randomized, double-blind, placebo-controlled trial to investigate the efficacy and safety of 2 doses of vipoglanstat in patients with moderate to severe endometriosis-related pain – the NOVA trial",
+      "shortTitle": "GS-248-203",
+      "startDateEU": "05/12/2025",
+      "conditions": "Endometriosis related pain",
+      "trialCountries": [
+        "Italy:2",
+        "Hungary:4",
+        "Poland:4",
+        "Czechia:4",
+        "Bulgaria:4",
+        "Romania:4"
+      ],
+      "decisionDateOverall": "21/11/2025",
+      "decisionDate": "BG: 25/11/2025, HU: 24/11/2025, CZ: 24/11/2025, RO: 16/03/2026, IT: 21/11/2025, PL: 24/11/2025",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "Gesynta Pharma AB",
+      "sponsorType": "Pharmaceutical company",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "1. Change in mean worst NMPP NRS score from baseline to the fourth month of treatment, 2. Proportion of participants with at least 2.0 points, or at least 30%, reduction of mean worst DYS NRS score, without increase in rescue medication use, during menstrual bleeding days, from baseline to the fourth month of treatment., 3. Change in mean worst DYS NRS score from baseline to the fourth month of treatment, 4. Change in EHP-30 score from Visit 3 to Visit 7., 5. Change in EHP-30 sexual intercourse subscale score from Visit 3 to Visit 7., 6. Change in mean daily opioid rescue medication use for NMPP from baseline to the fourth month of treatment., 7. Change in mean daily opioid rescue medication use for DYS from baseline to the fourth month of treatment., 8. AEs., 9. Safety laboratory variables (clinical chemistry, hematology, and urinalysis).",
+      "product": "Vipoglanstat, The placebo formulation for GS-248 is formulated in a capsule without the active\ningredient. Both vipoglanstat capsules and placebo are identical capsules.",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 3,
+      "totalNumberEnrolled": "353",
+      "primaryEndPoint": "1. Proportion of participants with at least 2.0 points, or at least 30%, reduction of mean worst NMPP NRS score, without increase in opioid rescue medication use, during non-menstrual days, from baseline to the fourth month of treatment.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "10/06/2026",
+      "lastPublicationUpdate": "11/06/2026"
+    },
+    {
+      "ctNumber": "2025-522812-18-00",
+      "ctStatus": 2,
+      "ctTitle": "CARESS Study: Cabergoline for the Reduction of Endometriosis Symptoms and Lesion Size",
+      "conditions": "Endometriosis",
+      "trialCountries": [
+        "Spain:2"
+      ],
+      "decisionDateOverall": "17/09/2025",
+      "decisionDate": "ES: 17/09/2025",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "Hospital Clinico San Carlos",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Phase III and phase IV (Integrated)",
+      "endPoint": "Demographic and clinical characteristics: Age, BMI, ethnicity, comorbidities (diabetes, hypertension, immunosuppression, smoking), Eznian classification (a system designed to describe deep infiltrating endometriosis (DIE) in a detailed and topographical manner, complementing the limitations of other classifications such as ASRM., Changes in serum prolactin and VEGF levels as pre- and post-treatment angiogenic markers., Impact on other symptoms associated with endometriosis, such as irregular bleeding and infertility, assessed clinically and through hormonal analysis (FSH, LH, estradiol, AMH)., Safety profile: frequency and type of adverse effects related to cabergoline (nausea, vomiting, dizziness)., Quality of life measured using specific questionnaires such as the Endometriosis Health Profile (EHP-30).",
+      "product": "Sibilla diario 2 mg / 0,03 mg comprimidos recubiertos con película EFG, Dostinex 0.5 mg Tablets",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Male",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "120",
+      "primaryEndPoint": "Reduction in the size of endometriotic lesions assessed by transvaginal ultrasound/magnetic resonance imaging (MRI)/laparoscopy., Relief of pelvic pain measured by visual analogue scale (VAS) before and after treatment.",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "17/09/2025",
+      "lastPublicationUpdate": "18/09/2025"
+    },
+    {
+      "ctNumber": "2025-520637-24-00",
+      "ctStatus": 4,
+      "ctTitle": "Use of a new diagnostic tool in the detection and characterization of endometriosis lesions. ENDO-TEP",
+      "shortTitle": "RC31/23/0622",
+      "startDateEU": "23/03/2026",
+      "conditions": "Endometriosis",
+      "trialCountries": [
+        "France:4"
+      ],
+      "decisionDateOverall": "23/05/2025",
+      "decisionDate": "FR: 23/05/2025",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "Centre Hospitalier Universitaire De Toulouse",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "Analyzes of lesions in Immunohistochemistry (IHC) and results of in situ hybridization: Characterization of the markings (intensity, type of receptor expressed, etc.) for each lesion depending on the anatomical location., Analyzes of lesions in Immunohistochemistry and results of in situ hybridization: Characterization of the markings (intensity, type of receptor expressed, etc.) for each patient according to pain (VAS), Sensitivity of [18F]-FES PET/CT compared to that of MRI in the diagnosis of superficial and deep endometriosis lesions and according to their location, Degree of association between [18F] SUV intensity and ER expression (IHC) and pain intensity (VAS)",
+      "product": "EstroTep 500 MBq/mL, solution injectable",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "20",
+      "primaryEndPoint": "Characterization of the hypermetabolism of lesions on PET by analysis of SUV: Hypermetabolism present or not and quantification",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "23/05/2025",
+      "lastPublicationUpdate": "25/03/2026"
+    }
+  ]
+}
