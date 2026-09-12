@@ -1,0 +1,35 @@
+sponsor_name,normalized_name,status,as_of,source_url,notes
+Bayer,bayer,operating,2026-01-01,https://www.bayer.com/en/pharma/womens-healthcare,Large-cap; vilaprisan and P2X3 programmes discontinued as portfolio decisions
+AbbVie,abbvie,operating,2026-01-01,https://www.abbvie.com/science/pipeline.html,Holds elagolix (Orilissa); NCT03343067 stopped for business reasons not safety
+Pfizer,pfizer,operating,2026-01-01,https://www.pfizer.com,Tanezumab programme later abandoned; NCT00784693 stop text says not attributed to safety
+Organon and Co,organon,operating,2026-01-01,https://www.organon.com/news/organon-to-acquire-forendo-pharma/,Acquired Forendo; OG-6219 (HSD17B1) Phase 2 completed 2025 and discontinued
+Forendo Pharma Ltd,forendo pharma,acquired,2021-11-11,https://www.organon.com/news/organon-to-acquire-forendo-pharma/,Acquired by Organon in 2021
+Kissei Pharmaceutical Co. Ltd.,kissei,operating,2026-01-01,https://www.kissei.co.jp/e_contents/,Linzagolix partner; US Phase 3 endometriosis trials hit enrolment walls
+ObsEva SA,obseva,restructured,2023-12-31,https://www.sec.gov/Archives/edgar/data/1584947/000110465923058011/tm2315456d1_ex99-1.htm,Swiss women's health company wound down after linzagolix partnering; restructuring around 2023
+Repros Therapeutics Inc.,repros therapeutics,acquired,2017-12-12,https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm,Acquired by Allergan (now AbbVie); Proellex (telapristone) under FDA clinical hold
+Millendo Therapeutics US Inc.,millendo therapeutics,ceased,2021-06-01,https://www.sec.gov/Archives/edgar/data/1641222/000119312521187430/d179015d425.htm,PCOS NK3R programme (MLE4901) stopped; company later reverse-merged and left the indication
+Spruce Biosciences,spruce biosciences,operating,2026-01-01,https://www.sec.gov/Archives/edgar/data/1600172/000160017225000038/sprb-20250331.htm,Tildacerfont PCOS study discontinued early by the sponsor
+GlaxoSmithKline,glaxosmithkline,operating,2026-01-01,https://www.gsk.com,Epelsiban (oxytocin antagonist) withdrawn for portfolio prioritization not safety
+Mereo BioPharma,mereo biopharma,operating,2026-01-01,https://www.mereobiopharma.com,BGS649 endometriosis programme did not proceed to later development
+Zydus Therapeutics Inc.,zydus,operating,2026-01-01,https://www.zyduslife.com,Saroglitazar NAFLD/PCOS-adjacent study stopped on sponsor decision
+BioGene Pharmaceutical Ltd.,biogene pharmaceutical,unknown,2020-01-01,https://clinicaltrials.gov/study/NCT03481842,Vaginal-suppository endometriosis study withdrawn after design/sponsor change
+Breath of Life International Pharma Ltd,breath of life,unknown,2020-04-01,https://clinicaltrials.gov/study/NCT04174911,COVID-era withdrawal; operating status not independently confirmed
+Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD),nichd,operating,2026-01-01,https://www.nichd.nih.gov,Rosiglitazone endometriosis programme stopped after CV-safety meta-analysis
+University of Oxford,university of oxford,operating,2026-01-01,https://www.ox.ac.uk,Academic sponsor; recruitment failure on pituitary down-regulation IVF study
+Boston Children's Hospital,boston children's hospital,operating,2026-01-01,https://www.childrenshospital.org,IUD + norethindrone endometriosis study withdrawn: no funding
+Virginia Commonwealth University,virginia commonwealth university,operating,2026-01-01,https://www.vcu.edu,Multiple PCOS metabolic studies terminated for lack of recruitment
+University of Virginia,university of virginia,operating,2026-01-01,https://www.virginia.edu,Several early-phase androgen-suppression PCOS studies withdrawn by the study team
+Columbia University,columbia university,operating,2026-01-01,https://www.columbia.edu,Metformin ectopic-fat PCOS study: poor enrollment and lack of funding
+University of California San Francisco,university of california san francisco,operating,2026-01-01,https://www.ucsf.edu,Metformin/vitamin D/depression PCOS study: recruitment challenges
+Milton S. Hershey Medical Center,milton s. hershey medical center,operating,2026-01-01,https://www.pennstatehealth.org,Naltrexone endometriosis: PI left plus lack of funding; CBD study recruitment-limited
+Pennington Biomedical Research Center,pennington biomedical,operating,2026-01-01,https://www.pbrc.edu,PCOS reproductive-function study terminated for poor recruitment
+Wake Forest University Health Sciences,wake forest,operating,2026-01-01,https://www.wakehealth.edu,SIRT1 endometriosis study withdrawn for lack of funding
+Myovant Sciences GmbH,myovant,acquired,2023-03-10,https://www.sumitomo-pharma.com/news/20230310-1.html,Acquired by Sumitomo; relugolix combination approved — not a failed asset
+Sumitomo Pharma Switzerland GmbH,sumitomo pharma,operating,2026-01-01,https://www.sumitomo-pharma.com,Successor to Myovant for relugolix
+KU Leuven,ku leuven,operating,2026-01-01,https://www.kuleuven.be,Infliximab deep-endometriosis pain Phase 2 (completed; results not posted on CTG)
+Hospital Clinic of Barcelona,hospital clinic of barcelona,operating,2026-01-01,https://www.clinicbarcelona.org,Pentoxifylline endometriosis Phase 3 (completed; results not posted on CTG)
+National Institutes of Health Clinical Center (CC),nih clinical center,operating,2026-01-01,https://clinicalcenter.nih.gov,Raloxifene + surgery endometriosis trial NCT00001848
+Annie (Annie) T. Packard,annie t. packard,unknown,2020-01-01,https://clinicaltrials.gov/study/NCT04347135,F-18 FES imaging study; no enrollment
+Dubai Fertility Center,dubai fertility center,operating,2026-01-01,https://www.dha.gov.ae,Letrozole vs hormonal FET in PCOS withdrawn for slow recruitment
+Methodist Health System,methodist health system,operating,2026-01-01,https://www.methodisthealthsystem.org,Semaglutide PCOS study withdrawn after IRB non-approval
+University of Sao Paulo,university of sao paulo,operating,2026-01-01,https://www.usp.br,CBD endometriosis pain study terminated at interim analysis
