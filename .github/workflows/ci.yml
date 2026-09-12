@@ -1,8 +1,16 @@
 name: CI
 
+# Stop email storms from incremental pushes to main.
+# Run on PRs and manual dispatch; main push still allowed but cancels superseded runs.
 on:
-  push:
   pull_request:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   eval-and-tests:
