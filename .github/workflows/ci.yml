@@ -1,17 +1,12 @@
 name: CI
 
-# Primary: PRs + manual runs. Bulk `push` was the Gmail storm.
-# A narrow push remains only so edits to this file on main are still exercised.
 on:
+  push:
   pull_request:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/ci.yml"
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
