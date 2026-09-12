@@ -1,0 +1,216 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00682890",
+      "orgStudyIdInfo": {
+        "id": "R03HD047298",
+        "type": "NIH",
+        "link": "https://reporter.nih.gov/quickSearch/R03HD047298"
+      },
+      "organization": {
+        "fullName": "Virginia Commonwealth University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Combination Metformin and Oral Contraception for Polycystic Ovary Syndrome (PCOS)",
+      "officialTitle": "Combination Metformin and Oral Contraception for Polycystic Ovary Syndrome (PCOS)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Lack of recruitment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-05-21",
+      "studyFirstSubmitQcDate": "2008-05-22",
+      "studyFirstPostDateStruct": {
+        "date": "2008-05-23",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-01-21",
+      "resultsFirstSubmitQcDate": "2014-08-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-20",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Virginia Commonwealth University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to determine if adding Metformin, a drug that reduces insulin resistance, to birth control pills will reduce the risk of developing type 2 diabetes, high blood pressure. high lipid levels and heart disease in women with PCOS",
+      "detailedDescription": "Inclusion criteria: PCOS women between the ages of 18-45,\\< 8 periods annually, elevated serum free testosterone, normal thyroid function tests and serum prolactin, exclusion of late onset adrenal hyperplasia, acceptable health based on interview and medical history, physical exam and lab tests, ability to comply with the requirements of the study and to provide signed, witnessed informed consent."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Polycystic Ovary Syndrome",
+        "PCOS",
+        "Insulin Sensitivity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 28,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo tablet and birth control pill daily",
+          "interventionNames": [
+            "Drug: placebo"
+          ]
+        },
+        {
+          "label": "2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "metformin 2000 mg and birth control pill daily",
+          "interventionNames": [
+            "Drug: metformin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "placebo",
+          "description": "placebo birth control pill daily",
+          "armGroupLabels": [
+            "1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "metformin",
+          "description": "2000 mg per day for 3 months daily birth control pill",
+          "armGroupLabels": [
+            "2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Insulin Sensitivity Measures: Insulin Sensitivity Index (ISI)",
+          "description": "Insulin sensitivity as measured by a combination of insulin sensitivity index (ISI) which should go up after 3 month treatment period to show improvement, and insulin sensitivity (SI) which should go down after 3 month treatment period to show improvement. Note that the ISI as developed by Matsuda and DeFronzo from a calculation based on results from a standard oral glucose tolerance test (OGTT) (doi: 10.2337/diacare.22.9.1462 Diabetes Care September 1999 vol. 22 no. 9 1462-1470) is recorded as units on an arbitrary scale. SI data is based on a calculation derived from analysis of results of frequently sampled intravenous glucose tolerance test (FSIVGTT) by Bergman et al (doi:10.1172/JCI112886/J Clin Invest. 1987;79(3):790-800) and is reported with units min-1/(µlU/L).",
+          "timeFrame": "baseline and 3 months"
+        },
+        {
+          "measure": "Change in Insulin Sensitivity Measures: Insulin Sensitivity (SI)",
+          "description": "Insulin sensitivity as measured by a combination of insulin sensitivity index (ISI) which should go up after 3 month treatment period to show improvement, and insulin sensitivity (SI) which should go down after 3 month treatment period to show improvement. Note that the ISI as developed by Matsuda and DeFronzo from a calculation based on results from a standard oral glucose tolerance test (OGTT) (doi: 10.2337/diacare.22.9.1462 Diabetes Care September 1999 vol. 22 no. 9 1462-1470) is recorded as units on an arbitrary scale. SI data is based on a calculation derived from analysis of results of frequently sampled intravenous glucose tolerance test (FSIVGTT) by Bergman et al (doi:10.1172/JCI112886/J Clin Invest. 1987;79(3):790-800) and is reported with units min-1/(µlU/L).",
+          "timeFrame": "baseline and 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Ages 18-45, , 8 menstrual cycles annually, elevated serum free testosterone, normal thyroid function test and serum prolactin, exclusion of late onset adrenal hyperplasia\n\nExclusion Criteria:\n\n* Diabetes mellitus, pulmonary, cardiac, renal, hepatic, cholestatic, neurologic, psychiatric, infectious, malignant diseases,history of breast cancer, history of Deep Vein Thrombosis, pregnancy and lactation.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Leo Dunn, MD",
+          "affiliation": "DSMB",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "General Clinical Research Center",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21733508",
+          "type": "RESULT",
+          "citation": "Essah PA, Arrowood JA, Cheang KI, Adawadkar SS, Stovall DW, Nestler JE. Effect of combined metformin and oral contraceptive therapy on metabolic factors and endothelial function in overweight and obese women with polycystic ovary syndrome. Fertil Steril. 2011 Aug;96(2):501-504.e2. doi: 10.1016/j.fertnstert.2011.05.091. Epub 2011 Jul 5."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "http://www.vcu.edu/pcos"
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "study duration was relatively brief,earlier serum markers of the inflammatory process,e.g.,IL-6, were not evaluated,sample size planned was not achieved despite intensive recruitment efforts."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. John Nestler",
+        "organization": "Virginia Commonwealth University",
+        "email": "jnestler@mcvh-vcu.edu",
+        "phone": "804-828-3389"
+      }
+    }
+  }
+}

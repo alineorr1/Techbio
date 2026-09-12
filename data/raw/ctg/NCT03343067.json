@@ -1,0 +1,833 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03343067",
+      "orgStudyIdInfo": {
+        "id": "M16-383"
+      },
+      "organization": {
+        "fullName": "AbbVie",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate Safety and Efficacy of Elagolix in Participants With Endometriosis With Associated Moderate to Severe Pain",
+      "officialTitle": "A Study to Evaluate Safety and Efficacy of Elagolix Alone or Elagolix With Hormonal Add-Back in Subjects With Endometriosis With Associated Moderate to Severe Pain"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-07",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The study was terminated early for business reasons, not for safety concerns.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-10-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-10-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-13",
+      "studyFirstSubmitQcDate": "2017-11-13",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-17",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2019-10-22",
+      "resultsFirstSubmitQcDate": "2019-11-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-11-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-11-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-11-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AbbVie",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 3, dose-escalation study designed to evaluate the safety and efficacy of both elagolix alone and elagolix plus estradiol/norethindrone acetate (E2/NETA) over 24 months in the management of endometriosis with associated moderate to severe pain in premenopausal women."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Endometriosis associated pain",
+        "Elagolix",
+        "Non-menstrual pelvic pain (NMPP)",
+        "Dysmenorrhea (DYS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 11,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "EXPERIMENTAL",
+          "description": "Day 1 Through Month 3 (Open-Label): Open-Label elagolix 150 mg QD\n\nMonth 4 Through Month 24 (Double-Blind): Efficacy responders to elagolix 150 mg QD at Month 3 and continue treatment through Month 24",
+          "interventionNames": [
+            "Drug: elagolix"
+          ]
+        },
+        {
+          "label": "Arm C",
+          "type": "EXPERIMENTAL",
+          "description": "Day 1 Through Month 3 (Open-Label): Open-Label elagolix 150 mg QD\n\nMonth 4 Through Month 24 (Double-Blind): Incomplete efficacy responders to elagolix 150 mg QD at Month 3 and randomized to elagolix 200 mg BID plus E2/NETA 1/0.5 mg QD treatment group and continue treatment through Month 24.",
+          "interventionNames": [
+            "Drug: elagolix",
+            "Drug: estradiol/norethindrone acetate (E2/NETA)"
+          ]
+        },
+        {
+          "label": "Arm D",
+          "type": "EXPERIMENTAL",
+          "description": "Day 1 Through Month 3 (Open-Label): Open-Label elagolix 150 mg QD\n\nMonth 4 Through Month 6 (Double-Blind): Incomplete efficacy responders to elagolix 150 mg QD at Month 3 and randomized to elagolix 150 mg QD treatment group\n\nMonth 7 Through Month 24 (Double-Blind): Incomplete efficacy responders to elagolix 150 mg QD at Month 6 and assigned to elagolix 200 mg BID plus E2/NETA 1/0.5 mg QD treatment group and continue treatment through Month 24.",
+          "interventionNames": [
+            "Drug: elagolix",
+            "Drug: estradiol/norethindrone acetate (E2/NETA)"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "EXPERIMENTAL",
+          "description": "Day 1 Through Month 3 (Open-Label): Open-Label elagolix 150 mg QD\n\nMonth 4 Through Month 6 (Double-Blind): Incomplete efficacy responders to elagolix 150 mg QD at Month 3 and randomized to elagolix 150 mg QD treatment group\n\nMonth 7 Through Month 24 (Double-Blind): Efficacy responders to elagolix 150 mg QD at Month 6 and continue treatment through Month 24.",
+          "interventionNames": [
+            "Drug: elagolix"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "elagolix",
+          "description": "Tablets",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm B",
+            "Arm C",
+            "Arm D"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "estradiol/norethindrone acetate (E2/NETA)",
+          "description": "Capsules",
+          "armGroupLabels": [
+            "Arm C",
+            "Arm D"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of Responders at Month 6 Based on DYS Pain Scale",
+          "description": "Proportion of responders at Month 6 based upon the scale for DYS pain scale (ranging from 0 \\[none\\] to 3 \\[severe\\]) using the daily e-Diary, as well as no increased analgesic rescue use for endometriosis-associated pain.",
+          "timeFrame": "Month 6"
+        },
+        {
+          "measure": "Proportion of Responders at Month 6 Based on NMPP Pain Scale",
+          "description": "Proportion of responders at Month 6 based upon the scale for NMPP pain scale (ranging from 0 \\[none\\] to 3 \\[severe\\]) using the daily e-Diary, as well as no increased analgesic rescue use for endometriosis-associated pain.",
+          "timeFrame": "Month 6"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change From Baseline in DYS at Month 6",
+          "description": "The DYS pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "Change From Baseline in NMPP at Month 6",
+          "description": "The NMPP pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "Change From Baseline in Dyspareunia at Month 6",
+          "description": "The dyspareunia pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "Change From Baseline in Daily Diary Endometriosis-Associated Pain Score Via Numeric Rating Scale (NRS) at Month 6",
+          "description": "The NRS for overall endometriosis-associated pain ranges from 0 (none) to 10 (worst pain ever), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "Change From Baseline in Rescue Analgesic Use Across Both Classes of Rescue Analgesics (NSAIDs/Opioids) at Month 6",
+          "description": "Based on average pill counts and assessed using the daily e-Diary. Permitted non-steroidal anti-inflammatory drugs (NSAIDs) included naproxen, ibuprofen, diclofenac, and celecoxib. Permitted opioids included hydrocodone + acetaminophen and codeine phosphate + acetaminophen.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "Percentage of Participants With 30% or More Reduction From Baseline Based on the 35 Day Mean of the Daily Diary Endometriosis-Associated Pain Score Via NRS at Month 6",
+          "description": "The NRS for overall endometriosis-associated pain ranges from 0 (none) to 10 (worst pain ever), recorded in a daily eDiary and averaged monthly based on a 35-day window.",
+          "timeFrame": "Month 6"
+        },
+        {
+          "measure": "Proportion of Responders Over Time",
+          "description": "As assessed by change and percent change from baseline in average pain score and rescue analgesic use monthly for DYS, NMPP, dyspareunia, and Daily Diary endometriosis-associated pain score via NRS, respectively.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Proportion of Responders Over Time (Not Taking Into Consideration of Analgesic Use)",
+          "description": "As assessed by change and percent change from Baseline in average pain score and rescue analgesic use monthly for DYS, NMPP, dyspareunia, and Daily Diary endometriosis-associated pain score via NRS, respectively.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Change From Baseline Over Time in Monthly Average DYS Pain Score",
+          "description": "The DYS pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.\n\nThe analysis was based on a 28-day window. If a participant prematurely discontinued during the open-label period, based on the analysis window, some data might fall into Month 4 analysis.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Change From Baseline Over Time in Monthly Average NMPP Pain Score",
+          "description": "The NMPP pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Change From Baseline Over Time in Monthly Average Dyspareunia Pain Score",
+          "description": "The dyspareunia pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Change From Baseline Over Time in Monthly Average Daily Diary Endometriosis-Associated Pain Score Via NRS",
+          "description": "The NRS for overall endometriosis-associated pain ranges from 0 (none) to 10 (worst pain ever), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Percent Change From Baseline to Each Month During the Treatment Period for DYS",
+          "description": "The DYS pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Percent Change From Baseline to Each Month During the Treatment Period for NMPP",
+          "description": "The NMPP pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Percent Change From Baseline to Each Month During the Treatment Period for Dyspareunia",
+          "description": "The dyspareunia pain scale score ranged from 0 to 3 (0=none, 1=mild, 2=moderate, 3=severe), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Percent Change From Baseline to Each Month During the Treatment Period for Daily Diary Endometriosis-Associated Pain Score Via NRS",
+          "description": "The NRS for overall endometriosis-associated pain ranges from 0 (none) to 10 (worst pain ever), recorded in a daily eDiary and averaged monthly based on a 35-day window. A negative change from baseline indicates improvement.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Change From Baseline Over Time in Daily Rescue Analgesic Use Across Both Classes of Rescue Analgesics",
+          "description": "Based on average pill counts and assessed using a daily e-Diary. Permitted non-steroidal anti-inflammatory drugs (NSAIDs) included naproxen, ibuprofen, diclofenac, and celecoxib. Permitted opioids included hydrocodone + acetaminophen and codeine phosphate + acetaminophen.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Number of Analgesic Use Responders and Non-Responders Over Time",
+          "description": "Based only on reduction of rescue analgesics used. Responders were defined as:\n\n* participants with no analgesic use at screening and no analgesic use added\n* participants with NSAID only use at screening and NSAID dose stopped, decreased, or stable (\\<15% increase) and no opioid use added\n* participants with opioid only use at screening and opioid dose stopped, decreased, or stable (\\<15% increase), opioid dose stopped and NSAID substituted (any dose), opioid dose decreased and NSAID added (any dose)\n* participants with NSAID + opioid use at screening and any of the following: NSAID dose stopped + opioid analgesic use stopped, decreased, or stable (\\<15% increase); NSAID dose decreased + opioid analgesic use stopped, decreased, or stable (\\<15% increase); NSAID dose stable (\\< 15% increase) + opioid analgesic use stopped, decreased, or stable (\\<15% increase); NSAID dose increased by \\>15% + opioid analgesic use stopped; NSAID dose increased by \\>15% + opioid analgesic dose decreases.",
+          "timeFrame": "Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Patient Global Impression of Change (PGIC) Scores Over Time",
+          "description": "The PGIC is a 7-point response scale where participants rate their endometriosis related pain as: very much improved (1), much improved (2), minimally improved (3), not changed (4), minimally worse (5), much worse (6), very much worse (7).",
+          "timeFrame": "Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Overall Endometriosis-Associated Pain Via NRS (7-Day Recall) Scores Over Time",
+          "description": "The endometriosis-associated pain questionnaire is an 11-point NRS assessing overall endometriosis-associated pain over a 7-day recall period. Participants assessed their endometriosis-associated pain on a scale of 0 to 10, with 0 = no pain and 10 = worst pain ever.",
+          "timeFrame": "Month 0 (baseline), Months 1, 2, 3, 4, 5, 6"
+        },
+        {
+          "measure": "Endometriosis Health Profile-30 (EHP-30) Scores Over Time: Pain",
+          "description": "The EHP-30 is a disease-specific self-administered questionnaire used to measure health-related quality of life in women with endometriosis. Domains used in the study included Pain, Control and Powerlessness, Well-Being, Social Support, Self-Image, and Sexual Intercourse. Each domain is calculated on a scale from 0 = best possible health status to 100 = worst possible health status.",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EHP-30 Scores Over Time: Control and Powerlessness",
+          "description": "The EHP-30 is a disease-specific self-administered questionnaire used to measure health-related quality of life in women with endometriosis. Domains used in the study included Pain, Control and Powerlessness, Well-Being, Social Support, Self-Image, and Sexual Intercourse. Each domain is calculated on a scale from 0 = best possible health status to 100 = worst possible health status.",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EHP-30 Scores Over Time: Emotional Well-Being",
+          "description": "The EHP-30 is a disease-specific self-administered questionnaire used to measure health-related quality of life in women with endometriosis. Domains used in the study included Pain, Control and Powerlessness, Well-Being, Social Support, Self-Image, and Sexual Intercourse. Each domain is calculated on a scale from 0 = best possible health status to 100 = worst possible health status.",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EHP-30 Scores Over Time: Social Support",
+          "description": "The EHP-30 is a disease-specific self-administered questionnaire used to measure health-related quality of life in women with endometriosis. Domains used in the study included Pain, Control and Powerlessness, Well-Being, Social Support, Self-Image, and Sexual Intercourse. Each domain is calculated on a scale from 0 = best possible health status to 100 = worst possible health status.",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EHP-30 Scores Over Time: Self-Image",
+          "description": "The EHP-30 is a disease-specific self-administered questionnaire used to measure health-related quality of life in women with endometriosis. Domains used in the study included Pain, Control and Powerlessness, Well-Being, Social Support, Self-Image, and Sexual Intercourse. Each domain is calculated on a scale from 0 = best possible health status to 100 = worst possible health status.",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EHP-30 Scores Over Time: Sexual Intercourse",
+          "description": "The EHP-30 is a disease-specific self-administered questionnaire used to measure health-related quality of life in women with endometriosis. Domains used in the study included Pain, Control and Powerlessness, Well-Being, Social Support, Self-Image, and Sexual Intercourse. Each domain is calculated on a scale from 0 = best possible health status to 100 = worst possible health status.",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EuroQol-5D 5 Level (EQ-5D-5L) Scores Over Time: Mobility",
+          "description": "The EQ-5D-5L is a health state utility instrument with 5 items that comprise 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), each of which is rated on 5 levels of severity (1=no problem, 2=slight problems, 3=moderate problems, 4=severe problems, 5=extreme problems) and a separate visual analog scale (VAS) indicating a participant's rating of their current health status (health today) on a scale of from 0 (worst health imaginable) to 100 (best health imaginable).",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EQ-5D-5L Scores Over Time: Self-Care",
+          "description": "The EQ-5D-5L is a health state utility instrument with 5 items that comprise 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), each of which is rated on 5 levels of severity (1=no problem, 2=slight problems, 3=moderate problems, 4=severe problems, 5=extreme problems) and a separate visual analog scale (VAS) indicating a participant's rating of their current health status (health today) on a scale of from 0 (worst health imaginable) to 100 (best health imaginable).",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EQ-5D-5L Scores Over Time: Usual Activities",
+          "description": "The EQ-5D-5L is a health state utility instrument with 5 items that comprise 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), each of which is rated on 5 levels of severity (1=no problem, 2=slight problems, 3=moderate problems, 4=severe problems, 5=extreme problems) and a separate visual analog scale (VAS) indicating a participant's rating of their current health status (health today) on a scale of from 0 (worst health imaginable) to 100 (best health imaginable).",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EQ-5D-5L Scores Over Time: Pain/Discomfort",
+          "description": "The EQ-5D-5L is a health state utility instrument with 5 items that comprise 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), each of which is rated on 5 levels of severity (1=no problem, 2=slight problems, 3=moderate problems, 4=severe problems, 5=extreme problems) and a separate visual analog scale (VAS) indicating a participant's rating of their current health status (health today) on a scale of from 0 (worst health imaginable) to 100 (best health imaginable).",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EQ-5D-5L Scores Over Time: Anxiety/Depression",
+          "description": "The EQ-5D-5L is a health state utility instrument with 5 items that comprise 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), each of which is rated on 5 levels of severity (1=no problem, 2=slight problems, 3=moderate problems, 4=severe problems, 5=extreme problems) and a separate visual analog scale (VAS) indicating a participant's rating of their current health status (health today) on a scale of from 0 (worst health imaginable) to 100 (best health imaginable).",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "EQ-5D-5L VAS Scores Over Time: Health Today",
+          "description": "The EQ-5D-5L is a health state utility instrument with 5 items that comprise 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), each of which is rated on 5 levels of severity (1=no problem, 2=slight problems, 3=moderate problems, 4=severe problems, 5=extreme problems) and a separate VAS indicating a participant's rating of their current health status (health today) on a scale of from 0 (worst health imaginable) to 100 (best health imaginable).",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "Work Productivity and Activity Impairment Questionnaire: Specific Health Problem (WPAI:SHP) Scores Over Time: Percent Work Missed Due to Problem",
+          "description": "Absenteeism is presented as the mean percentage of work time missed due to health problem (as reported on the WPAI:SHP), and is calculated as: 100\\*number of hours of work missed due to health problem / (number of hours of work missed due to health problem + number of hours worked). WPAI is a questionnaire used to evaluate lost productivity; scores are presented as percentages (multiplying the scores by 100), with 0% representing no impact on productivity and 100% representing complete impact on productivity.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "WPAI:SHP Scores Over Time: Percent Impairment While Working Due to Problem",
+          "description": "Presenteeism (the extent to which health problem decreased productivity) is presented as the mean percentage of impairment while working due to health problem, and is calculated as: 100\\*scale value of question 5 on the WPAI (between 0 and 10) / 10. WPAI:SHP is a questionnaire used to evaluate lost productivity; scores are presented as percentages (multiplying the scores by 100), with 0% representing no impact on productivity and 100% representing complete impact on productivity.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "WPAI:SHP Scores Over Time: Percent Overall Work Impairment Due to Problem",
+          "description": "The mean percentage of overall work impairment due to health problem (based on the WPAI questionnaire) is presented, and is calculated as: Absenteeism (%) + extent to which health problem decreased productivity (%)\\* \\[number of hours worked / (number of hours of work missed due to health problem + number of hours worked)\\]. WPAI is a questionnaire used to evaluate lost productivity; scores are presented as percentages (multiplying the scores by 100), with 0% representing no impact on productivity and 100% representing complete impact on productivity.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "WPAI:SHP Scores Over Time: Percent Activity Impairment Due to Problem",
+          "description": "Activity impairment due to health problem (the extent to which health problem affected the ability to perform usual daily activities) is presented as the mean percentage of activity impairment, and is calculated as 100\\*scale value of WPAI question 6 (between 0 and 10) / 10. WPAI is a questionnaire used to evaluate lost productivity; scores are presented as percentages (multiplying the scores by 100), with 0% representing no impact on productivity and 100% representing complete impact on productivity.",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        },
+        {
+          "measure": "Health Endometriosis Treatment Satisfaction Questionnaire (ETSQ) Scores Over Time",
+          "description": "The 6-item ETSQ was developed to assess patient-reported satisfaction with effects on endometriosis pain, dysmenorrhea, dyspareunia, amount of bleeding tolerability and overall treatment satisfaction. The ETSQ has a 7 point response scale. The range for this scale is 0 to 36, with lower ETSQ scores reflecting lower levels of satisfaction with endometriosis treatment.",
+          "timeFrame": "Month 0 (baseline), Months 3, 6"
+        },
+        {
+          "measure": "PROMIS Fatigue Short Form 6a Scores Over Time",
+          "description": "The PROMIS Fatigue Short Form 6a is self-administered and composed of 6 questions to evaluate fatigue. Possible scores range from 6 to 30, 6 = not at all (no fatigue), and 30 = very much (most fatigue).",
+          "timeFrame": "Month 0 (baseline), Month 6"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant is a premenopausal female 18 to 49 years of age (inclusive) at the time of Screening.\n* Participant has a documented surgical diagnosis (e.g., laparoscopy or laparotomy) of endometriosis established by visualization or histology within 10 years prior to entry into Washout or Screening,\n* Participant must agree to use only those rescue analgesics permitted by the protocol during the Screening and Treatment Periods for her endometriosis-associated pain.\n* Participant must have the following documented in the e-Diary during the last 35 days prior to Study Day 1:\n\n  1. At least 2 days of \"moderate\" or \"severe\" DYS, AND either,\n  2. At least 2 days of \"moderate\" or \"severe\" NMPP and an average NMPP score of at least 1.0, OR\n  3. At least 4 days of \"moderate\" or \"severe\" NMPP and an average NMPP score of at least 0.5.\n\nExclusion Criteria:\n\n* Participant has chronic pelvic pain that is not caused by endometriosis that requires chronic analgesic therapy, which would interfere with the assessment of endometriosis-associated pain.\n* Participant is using any systemic corticosteroids for over 14 days within 3 months prior to Screening or is likely to require treatment with systemic corticosteroids during the course of the study. Over-the-counter and prescription topical, inhaled or intranasal corticosteroids are allowed.\n* Participant has a history of major depression or post-traumatic stress disorder (PTSD) within 2 years prior to screening or other major psychiatric disorder at any time\n* Participant has a history of suicide attempts or answered \"yes\" to questions 4 or 5 on the suicidal ideation portion of the Columbia-Suicide Severity Rating Scale (C-SSRS) at Screening or prior to study drug dosing on Day 1.\n* Participant has any condition that would interfere with obtaining adequate dual energy x-ray absorptiometry (DXA) measurements\n* Screening DXA results of the lumbar spine (L1 - L4), femoral neck or total hip bone mineral density (BMD) corresponding to less than 2 or more standard deviations below normal (Z-score \\< -2.0 for participants \\< 40 years of age, T-score for participants \\>= 40 years of age).\n* Participant has either\n\n  1. a newly diagnosed, clinically significant medical condition that requires therapeutic intervention (e.g., new onset hypertension) that has not been stabilized 30 days prior to enrollment on Day 1 OR\n  2. a clinically significant medical condition that is anticipated to required intervention during the course of study participation (e.g., anticipated major elective surgery) OR\n  3. an unstable medical condition that makes the participant an unsuitable candidate for the study in the opinion of the Investigator\n* Participant has any conditions contraindicated with use of E2/NETA",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "AbbVie Inc.",
+          "affiliation": "AbbVie",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pinnacle Research Group /ID# 202016",
+          "city": "Anniston",
+          "state": "Alabama",
+          "zip": "36207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.65983,
+            "lon": -85.83163
+          }
+        },
+        {
+          "facility": "Noble Clinical Research /ID# 170628",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85704",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Lynn Institute of the Ozarks /ID# 165052",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "SC Clinical Research /ID# 165049",
+          "city": "Garden Grove",
+          "state": "California",
+          "zip": "92844",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.77391,
+            "lon": -117.94145
+          }
+        },
+        {
+          "facility": "Marvel Clinical Research /ID# 169633",
+          "city": "Huntington Beach",
+          "state": "California",
+          "zip": "92647",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.6603,
+            "lon": -117.99923
+          }
+        },
+        {
+          "facility": "Health care Affiliates Medical Group /ID# 165048",
+          "city": "Santa Ana",
+          "state": "California",
+          "zip": "92704",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.74557,
+            "lon": -117.86783
+          }
+        },
+        {
+          "facility": "Western States Clinical Res /ID# 169809",
+          "city": "Wheat Ridge",
+          "state": "Colorado",
+          "zip": "80033-2896",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.7661,
+            "lon": -105.07721
+          }
+        },
+        {
+          "facility": "Nova Clinical Research, LLC /ID# 202227",
+          "city": "Bradenton",
+          "state": "Florida",
+          "zip": "34209-4616",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.49893,
+            "lon": -82.57482
+          }
+        },
+        {
+          "facility": "Midland Florida Clinical Research Center /ID# 201327",
+          "city": "DeLand",
+          "state": "Florida",
+          "zip": "32720-0920",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.02832,
+            "lon": -81.30312
+          }
+        },
+        {
+          "facility": "Southeastern Integrated Med /ID# 203109",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "Care Partners Clinical Researc /ID# 168395",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32277",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "LCC Medical Research Institute /ID# 168888",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33126",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "A Premier Clinical Research of Florida, LLC /ID# 201887",
+          "city": "Orange City",
+          "state": "Florida",
+          "zip": "32763-2833",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.94888,
+            "lon": -81.29867
+          }
+        },
+        {
+          "facility": "GCP Clinical Research, LLC /ID# 169774",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33609-4044",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Triple O Research Institute /ID# 201128",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33407-3100",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Bingham Memorial Hospital /ID# 170110",
+          "city": "Blackfoot",
+          "state": "Idaho",
+          "zip": "83221",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.19047,
+            "lon": -112.34498
+          }
+        },
+        {
+          "facility": "Leavitt Womens Healthcare /ID# 169495",
+          "city": "Idaho Falls",
+          "state": "Idaho",
+          "zip": "83404-8322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.46658,
+            "lon": -112.03414
+          }
+        },
+        {
+          "facility": "Quad Clinical Research, LLC /ID# 168294",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Quad Clinical Research, LLC /ID# 170629",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Women's Health Care, PC /ID# 165033",
+          "city": "Newburgh",
+          "state": "Indiana",
+          "zip": "47630-8940",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.94449,
+            "lon": -87.40529
+          }
+        },
+        {
+          "facility": "Delricht Research /ID# 200219",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Quad Clinical Research, LLC /ID# 200180",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63108-3204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Montana Health Research Inst /ID# 170624",
+          "city": "Billings",
+          "state": "Montana",
+          "zip": "59102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.78329,
+            "lon": -108.50069
+          }
+        },
+        {
+          "facility": "Excel Clinical Research /ID# 170620",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "Northwell health system /ID# 200162",
+          "city": "Manhasset",
+          "state": "New York",
+          "zip": "11030-3816",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79788,
+            "lon": -73.69957
+          }
+        },
+        {
+          "facility": "Radiant Research, Inc /ID# 200045",
+          "city": "Akron",
+          "state": "Ohio",
+          "zip": "44311",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.08144,
+            "lon": -81.51901
+          }
+        },
+        {
+          "facility": "Central Ohio Clinical Research /ID# 170750",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43213-3399",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Optimed Research /ID# 167642",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43235",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "VitaLink Research /ID# 168401",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "VitaLink Research /ID# 170625",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "Fusion Clinical Research of Spartanburg /ID# 200010",
+          "city": "Spartanburg",
+          "state": "South Carolina",
+          "zip": "29301-5642",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.94957,
+            "lon": -81.93205
+          }
+        },
+        {
+          "facility": "Centex Studies, Inc /ID# 169897",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77058-2705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "America's Adv. Wellness Center /ID# 170005",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77080",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "ClinRx Research, LLC /ID# 201189",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75024-5280",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "Progressive Clinical Research /ID# 205565",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Eastern Virginia Med School /ID# 165016",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23507-1627",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Seattle Reproductive Medicine /ID# 171079",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "AbbVie is committed to responsible data sharing regarding the clinical trials we sponsor. This includes access to anonymized, individual and trial-level data (analysis data sets), as well as other information (e.g., protocols and clinical study reports), as long as the trials are not part of an ongoing or planned regulatory submission. This includes requests for clinical trial data for unlicensed products and indications.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Data requests can be submitted at any time and the data will be accessible for 12 months, with possible extensions considered.",
+      "accessCriteria": "Access to this clinical trial data can be requested by any qualified researchers who engage in rigorous, independent scientific research, and will be provided following review and approval of a research proposal and Statistical Analysis Plan (SAP) and execution of a Data Sharing Agreement (DSA). For more information on the process, or to submit a request, visit the following link.",
+      "url": "https://www.abbvie.com/our-science/clinical-trials/clinical-trials-data-and-information-sharing/data-and-information-sharing-with-qualified-researchers.html"
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Due to early study termination at Treatment Month 6 with low subject enrollment, no clinically or statistically meaningful efficacy conclusions can be made. The study was terminated early for business reasons, not for safety concerns."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "AbbVie requests that any investigator or institution that plans on presenting/publishing results disclosure, provide written notification of their request 60 days prior to their presentation/publication. AbbVie requests that no presentation/publication will be instituted until 12 months after a study is completed, or after the first presentation/publication whichever occurs first. A delay may be proposed of a presentation/publication if AbbVie needs to secure patent or proprietary protection."
+      },
+      "pointOfContact": {
+        "title": "Global Medical Services",
+        "organization": "AbbVie",
+        "email": "abbvieclinicaltrials@abbvie.com",
+        "phone": "800-633-9110"
+      }
+    }
+  }
+}

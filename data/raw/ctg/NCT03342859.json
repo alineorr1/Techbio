@@ -1,0 +1,223 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03342859",
+      "orgStudyIdInfo": {
+        "id": "15791"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-000468-13",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2017",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2017"
+        }
+      ],
+      "organization": {
+        "fullName": "Bayer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Mode of Action Study of Vilaprisan and Ulipristal Acetate in Patients With Uterine Fibroids for Whom Surgery is Planned",
+      "officialTitle": "An Open-label, Parallel Group, Multi-center Study to Investigate Pharmacodynamic Effects After Daily Administration of Vilaprisan or Ulipristal Acetate for 8-12 Weeks in Patients With Uterine Fibroids for Whom Surgery (Hysterectomy or Myomectomy) is Planned"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to findings in the preclinical carcinogenicity studies for vilaprisan (BAY1002670)",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-11-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-12-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-01-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-10-26",
+      "studyFirstSubmitQcDate": "2017-11-10",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-01-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-01-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Bayer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To investigate the clinical effects of vilaprisan and ulipristal acetate at molecular and cellular level on uterine and fibroid tissue taken from patients (after surgery / biopsy)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Leiomyoma"
+      ],
+      "keywords": [
+        "Uterine fibroids",
+        "Bleeding reduction",
+        "Vilaprisan",
+        "Mode of action",
+        "Hysterectomy",
+        "Myomectomy",
+        "Pharmacodynamic"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Vilaprisan group",
+          "type": "EXPERIMENTAL",
+          "description": "Vilaprisan 2 mg oral daily over 8-12 weeks",
+          "interventionNames": [
+            "Drug: Vilaprisan, BAY1002670"
+          ]
+        },
+        {
+          "label": "Ulipristal group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Ulipristal 5 mg oral daily over 8-12 weeks",
+          "interventionNames": [
+            "Drug: Ulipristal"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "Patients undergoing surgery without any prior treatment, as control group"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vilaprisan, BAY1002670",
+          "description": "Daily single oral doses of 2 mg vilaprisan over 8-12 weeks",
+          "armGroupLabels": [
+            "Vilaprisan group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ulipristal",
+          "description": "Daily single oral doses of 5 mg ulipristal over 8-12 weeks",
+          "armGroupLabels": [
+            "Ulipristal group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The expression level of biomarker for glandular and stromal cell proliferation (Ki-67) in the endometrium of the same patient before treatment and when treated with VPR (vilaprisan) prior to surgery",
+          "description": "Pre-treatment biopsy: The endometrial biopsy will be performed between Day 6 to 13 of the menstrual cycle that occurs after the screening visit and before treatment commences. Post-treatment biopsy as second endometrial biopsy is taken (if possible within 24 hours) after end of VPR treatment.",
+          "timeFrame": "From pre-treatment biopsy to post-treatment biopsy_ Up to 20 weeks"
+        },
+        {
+          "measure": "The expression level of biomarker for myoma cell proliferation (Ki-67) in fibroid tissue of patients not treated with PRM (progesterone receptor modulator )and those who have been treated with VPR prior to surgery",
+          "description": "Fibroid tissue sample will be collected from the uterus following surgery (if possible within 24 hours) after end of VPR treatment",
+          "timeFrame": "After maximum 12 weeks of treatment"
+        },
+        {
+          "measure": "The expression level of biomarkers for apoptotic regulation in the endometrium (BCL-2 (B-cell lymphoma 2), caspase 3) of the same patient before treatment and when treated with VPR prior to surgery",
+          "description": "Pre-treatment biopsy: The endometrial biopsy will be performed between Day 6 to 13 of the menstrual cycle that occurs after the screening visit and before treatment commences. Post-treatment biopsy as second endometrial biopsy is taken (if possible within 24 hours) after end of VPR treatment",
+          "timeFrame": "From pre-treatment biopsy to post-treatment biopsy_ Up to 20 weeks"
+        },
+        {
+          "measure": "The expression level of biomarkers for apoptotic regulation in fibroid tissue (BCL-2, caspase 3) of patients not treated with PRM and those who have been treated with VPR prior to surgery",
+          "description": "Fibroid tissue sample will be collected from the uterus following surgery (if possible within 24 hours) after end of VPR treatment",
+          "timeFrame": "After maximum 12 weeks of treatment"
+        },
+        {
+          "measure": "The expression level of nuclear hormone receptors in the endometrium (progesterone receptor (PR), PR-B, estrogen receptor (ER), androgen receptor (AR)) of the same patient before treatment and when treated with VPR prior to surgery",
+          "description": "Pre-treatment biopsy: The endometrial biopsy will be performed between Day 6 to 13 of the menstrual cycle that occurs after the screening visit and before treatment commences. Post-treatment biopsy as second endometrial biopsy is taken (if possible within 24 hours) after end of VPR treatment",
+          "timeFrame": "From pre-treatment biopsy to post-treatment biopsy_ Up to 20 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The expression levels of biomarkers (Ki-67, caspase 3 and BCL-2) in the endometrium of the same patient before treatment and when treated with UPA prior to surgery",
+          "description": "Pre-treatment biopsy: The endometrial biopsy will be performed between Day 6 to 13 of the menstrual cycle that occurs after the screening visit and before treatment commences. Post-treatment biopsy as second endometrial biopsy is taken (if possible within 24 hours) after end of treatment. Fibroid tissue sample will be collected from the uterus following surgery (if possible within 24 hours) after end of treatment",
+          "timeFrame": "From pre-treatment biopsy to post-treatment biopsy_ Up to 20 weeks"
+        },
+        {
+          "measure": "The expression levels of biomarkers (Ki-67, caspase 3 and BCL-2) in fibriod tissue of patients not treated with PRM and those who have been treated with UPA prior to surgery",
+          "description": "Fibroid tissue sample will be collected from the uterus following surgery (if possible within 24 hours) after end of VPR treatment",
+          "timeFrame": "After maximum 12 weeks of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients 18 years and older and premenopausal (based on gynecological history i.e. still menstruating; no significant estrogen deficiency symptoms)\n* Diagnosis of uterine fibroids documented by ultrasound and relevant symptoms reported by the patient (e.g. heavy menstrual bleeding, pelvic pressure)\n* Patients for whom surgery (hysterectomy or myomectomy) for the treatment of symptomatic uterine fibroids is planned\n* Patients who are otherwise healthy as shown by medical history, physical and gynecological examinations, and laboratory test results\n\nExclusion Criteria:\n\n* Contraindications for the progesterone receptor modulators (PRM) vilaprisan or ulipristal acetate\n* Use of medication that might interfere with the conduct of the study or the interpretation of the results (e.g. continuing use of hormonal contraceptives, tranexamic acid or other treatments for heavy menstrual bleeding, progesterone receptor modulators, gonadotropin-releasing hormone agonist, anticoagulants, moderate and strong CYP3A4 inducers and moderate and strong CYP3A4 inhibitors within a defined time period before treatment starts.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bayer Study Director",
+          "affiliation": "Bayer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Edinburgh Royal Infirmary/ NHS Lothian",
+          "city": "Edinburgh",
+          "zip": "EH16 4TJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

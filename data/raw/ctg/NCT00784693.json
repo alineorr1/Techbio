@@ -1,0 +1,640 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00784693",
+      "orgStudyIdInfo": {
+        "id": "A4091023"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "ENDOMETRIOSIS POC",
+          "type": "OTHER",
+          "domain": "Alias Study Number"
+        }
+      ],
+      "organization": {
+        "fullName": "Pfizer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Clinical Study To Investigate The Effectiveness And Safety Of Tanezumab In Treating Pain Associated With Endometriosis",
+      "officialTitle": "A PHASE 2, 16 WEEK, MULTICENTER, RANDOMIZED, DOUBLE BLIND PLACEBO CONTROLLED, PARALLEL GROUP PROOF OF CONCEPT STUDY EVALUATING THE EFFICACY AND SAFETY OF TANEZUMAB FOR THE TREATMENT OF PAIN ASSOCIATED WITH ENDOMETRIOSIS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-04",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Further recruitment into the study was ceased on 10th December 2009, not attributed to safety. All patients recruited in the study completed all study visits.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-12-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-01-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-04-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-11-03",
+      "studyFirstSubmitQcDate": "2008-11-03",
+      "studyFirstPostDateStruct": {
+        "date": "2008-11-04",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2021-04-05",
+      "resultsFirstSubmitQcDate": "2021-04-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-04-30",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2011-03-14",
+      "dispFirstSubmitQcDate": "2011-03-14",
+      "dispFirstPostDateStruct": {
+        "date": "2011-03-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-04-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-04-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pfizer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether tanezumab is effective and safe in the treatment of pain associated with endometriosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Endometriosis",
+        "pain",
+        "tanezumab",
+        "nerve growth factor",
+        "questionnaires"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Tanezumab",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Biological: Tanezumab"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Tanezumab",
+          "description": "15 mg IV single dose",
+          "armGroupLabels": [
+            "Tanezumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo IV single dose",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change From Baseline in Average Daily Endometriosis Pain Score at Week 8",
+          "description": "Participants assessed daily endometriosis pain on an 11-point Numeric Rating Scale (NRS) of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "timeFrame": "Baseline, Week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Average Daily Endometriosis Pain Score at Weeks 4, 12, and 16",
+          "description": "Participants assessed daily endometriosis pain on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "timeFrame": "Weeks 4, 12, and 16"
+        },
+        {
+          "measure": "Average Daily Endometriosis Pain Score During Menstruation at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Endometriosis pain during menstruation was derived from the average endometriosis pain severity as recorded on an 11-point NRS of 0 to 10 (0 = no pain and 10 = pain as bad as you can imagine) over the episode of menstruation (at least 3 days of spotting or bleeding) for the 28-day period in baseline observation period and preceding each post-baseline visit. Higher score indicated greater pain.",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Average Daily Non-Menstrual Endometriosis Pain Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Non-menstrual endometriosis pain was derived from the average endometriosis pain severity as recorded on an 11-point NRS of 0 to 10 (0 = no pain and 10 = pain as bad as you can imagine) on the non-menstrual days for the 28-day period in baseline observation period and preceding each post-baseline visit. Higher score indicated greater pain.",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Worst Daily Endometriosis Pain Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Participants assessed worst endometriosis pain in the last 24 hours on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Worst Daily Endometriosis Pain Score During Menstruation at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Participants assessed worst endometriosis pain during menstruation in the last 24 hours on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over the episode of menstruation (at least 3 days of spotting or bleeding) for the 28-day period in the baseline observation period. Post-baseline value was calculated as mean of the scores over the episode of menstruation (at least 3 days of spotting or bleeding) for the 28-day period preceding the post-baseline visit.",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Worst Daily Non-Menstrual Endometriosis Pain Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Participants assessed worst endometriosis non-menstrual pain in the last 24 hours on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores on non-menstrual days for the 28-day period in the baseline observation period. Post-baseline value was calculated as mean of the scores on non-menstrual days for the 28-day period preceding the post-baseline visit.",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Average Pain Score With Intercourse at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Pain related to sexual intercourse was defined as the discomfort or pain that may occur during or after sexual intercourse with vaginal penetration. Participants assessed pain during or after sexual intercourse on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Endometriosis Symptom Severity Score (ESSS) Total Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Investigator assessed the severity of the dysmenorrhea (menstrual pain), pelvic pain and dyspareunia (painful sexual intercourse) experienced by participants occurring during the most recent menstrual cycle on a 4-point scale, where 0 = absent, 1 = mild, 2 = moderate, and 3 = severe. Total score was calculated as a sum of the individual pain scores for dysmenorrhea, dyspareunia and pelvic pain. The total score range: 0 (no pain) to 9 (worst possible pain).",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Endometriosis Health Profile 30 (EHP-30) Score at Baseline and Week 8",
+          "description": "EHP-30 is a validated quality of life (QoL) scale assessing emotional, physical and sexual function. EHP-30 consists of 30 items that assess the frequency of physical and mental manifestations of endometriosis during the previous 4 weeks on a 5-point Likert scale (0 = never, 1 = rarely, 2 = sometimes, 3 = often, 4 = always).. Scores for 6 domains (pain, control and powerlessness, emotional well-being, social support, self image, and sexual intercourse) were obtained as a sum of all relevant item scores and transformed to a 0 to 100 score range. Each domain score ranges from 0 (best possible health status) to 100 (worst possible health status).",
+          "timeFrame": "Baseline and Week 8"
+        },
+        {
+          "measure": "Global Response Assessment (GRA) at Week 8",
+          "description": "GRA questionnaire is a 7-point symmetric scale which measures participant-reported overall response to treatment compared to baseline as 1 of the following possible responses: markedly worse, moderately worse, slightly worse, no change, slightly improved, moderately improved, and markedly improved. Number of participants with each response is reported.",
+          "timeFrame": "Week 8"
+        },
+        {
+          "measure": "Participant Global Satisfaction at Week 8",
+          "description": "Participant global satisfaction is assessed using Patient Reported Treatment Impact (PRTI) which is a self-administered questionnaire containing four items to assess participant satisfaction, previous treatment, preference and willingness to continue using the study medication. Participant's response is rated on a 5-point scale where 1 = extremely satisfied, 2 = satisfied, 3 = neither satisfied nor dissatisfied, 4 = dissatisfied and 5 = extremely dissatisfied. Number of participants with each response is reported.",
+          "timeFrame": "Week 8"
+        },
+        {
+          "measure": "Participant Global Preference at Week 8",
+          "description": "Participant global preference is assessed using PRTI, which is a self-administered questionnaire containing four items to assess participant satisfaction, previous treatment, preference and willingness to continue using the study medication. Participant reported previous treatment under following categories: hormonal contraceptive, painkiller, and hormone treatment by injection, hormone treatment by tablet, surgery, and no treatment. Participant preference was assessed using following categories: definitely prefer study medication, slightly prefer study medication, no preference, slightly prefer previous treatment, and definitely prefer previous treatment. Number of participants under each of the categories is reported. For previous treatment, a single participant may be represented in more than 1 category.",
+          "timeFrame": "Week 8"
+        },
+        {
+          "measure": "Participant Willingness to Re-use Study Medication",
+          "description": "Participant willingness to re-use study medication is assessed using PRTI, which is a self-administered questionnaire containing four items to assess participant satisfaction, previous treatment, preference and willingness to continue using the study medication. Participant willingness to re-use study medication was assessed using following categories: definitely want to re-use, might want to re-use, not sure, might not want to re-use, definitely would not want to re-use.",
+          "timeFrame": "Week 8"
+        },
+        {
+          "measure": "Plasma Nerve Growth Factor (NGF) Concentration",
+          "timeFrame": "Day 1, Week 8, and Week 16 (End of Treatment)"
+        },
+        {
+          "measure": "Amount of Rescue Medication Used",
+          "description": "Mean amount of daily rescue medication (acetaminophen 500 mg tablet/capsule) taken for endometriosis associated pain (in mg) was assessed.",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Number of Participants With Treatment Emergent Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "An AE was any untoward medical occurrence in a participant who received study medication without regard to possibility of causal relationship. SAE: an AE resulting in any of following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study medication and up to 113 days after last dose that were absent before treatment or worsened relative to pre-treatment state.",
+          "timeFrame": "Baseline up to 113 days after last dose of study medication"
+        },
+        {
+          "measure": "Number of Participants With New or Worsened Neurological Examinations",
+          "description": "A neurological evaluation was performed by a consulting neurologist if adverse events suggested new or worsening peripheral neuropathy with respect to baseline or any adverse event of abnormal peripheral sensation was recorded. A neurological evaluation was done as soon as the above signs and symptoms were known, preferably within 7 days of becoming aware of such problems if possible. Neurological evaluation was done using Neuropathy Impairment Score (NIS) by investigator. Neurologic examination assessment included strength of groups of muscles of the head and neck, upper limbs and lower limbs, deep tendon reflexes and sensation (tactile, vibration, joint position sense and pin prick) of index fingers and great toes. Abnormality was judged by the investigator.",
+          "timeFrame": "Weeks 2, 4, 8, 12, and 16"
+        },
+        {
+          "measure": "Number of Participants With Anti-Drug Antibody (ADA)",
+          "description": "Serum samples were analyzed for the presence or absence of anti-tanezumab antibodies using validated semi-quantitative enzyme linked immunosorbent assay (ELISA).",
+          "timeFrame": "Day 1 (pre-dose), Weeks 2, 4, 8, and 16"
+        },
+        {
+          "measure": "Number of Participants With Positive Urine or Serum Pregnancy Test",
+          "timeFrame": "Screening, Weeks 2, 4, 8, 12, and Early termination"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Pre-menstrual women with moderate to severe endometriosis. The diagnosis of endometriosis must have been confirmed surgically within the last 8 years.\n* Subjects should have regular menstrual cycle (21 - 35 days) and must be willing to use adequate contraception (2 forms of birth control, one of which must be a barrier method). Contraception is required throughout the study (screening to 16 weeks post treatment), even if subjects discontinue prematurely.\n\nExclusion Criteria:\n\n* Previous hysterectomy\n* Surgical treatment for endometriosis within last 6 months.\n* Medical treatment for endometriosis other than combined oral contraceptive pill within the last 3 months\n* Current use of the coil or progesterone only contraceptive (the combined oral contraceptive pill is allowed).\n* Any history of malignant disease (cancer)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pfizer CT.gov Call Center",
+          "affiliation": "Pfizer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Bay Area Physicians for Women",
+          "city": "Mobile",
+          "state": "Alabama",
+          "zip": "36608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.69436,
+            "lon": -88.04305
+          }
+        },
+        {
+          "facility": "Springhill Medical Center",
+          "city": "Mobile",
+          "state": "Alabama",
+          "zip": "36608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.69436,
+            "lon": -88.04305
+          }
+        },
+        {
+          "facility": "Wilmax Clinical Research",
+          "city": "Mobile",
+          "state": "Alabama",
+          "zip": "36608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.69436,
+            "lon": -88.04305
+          }
+        },
+        {
+          "facility": "Visions Clinical Research - Tucson",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Genesis Center for Clinical Research",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Medical Center for Clinical Research",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Visions Clinical Research",
+          "city": "Boynton Beach",
+          "state": "Florida",
+          "zip": "33472",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.52535,
+            "lon": -80.06643
+          }
+        },
+        {
+          "facility": "Nature Coast Clinical Research, LLC",
+          "city": "Crystal River",
+          "state": "Florida",
+          "zip": "34429",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.90248,
+            "lon": -82.5926
+          }
+        },
+        {
+          "facility": "Jacksonville Center for Clnical Research",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Advanced Women's Healthcare",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33409",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Comprehensive Clinical Trials, LLC",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33409",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Mount Vernon Clinical Research",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30328",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Radiant Research",
+          "city": "Overland Park",
+          "state": "Kansas",
+          "zip": "66202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98223,
+            "lon": -94.67079
+          }
+        },
+        {
+          "facility": "Women's Healthcare Group",
+          "city": "Overland Park",
+          "state": "Kansas",
+          "zip": "66215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98223,
+            "lon": -94.67079
+          }
+        },
+        {
+          "facility": "N.E.C.C.R, Fall River LLC",
+          "city": "Fall River",
+          "state": "Massachusetts",
+          "zip": "02720",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.70149,
+            "lon": -71.15505
+          }
+        },
+        {
+          "facility": "Beyer Research - Women's Health Care Specialists, PC",
+          "city": "Paw Paw",
+          "state": "Michigan",
+          "zip": "49079",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.21782,
+            "lon": -85.89112
+          }
+        },
+        {
+          "facility": "Women's Clinic of Lincoln, PC",
+          "city": "Lincoln",
+          "state": "Nebraska",
+          "zip": "68510",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8,
+            "lon": -96.66696
+          }
+        },
+        {
+          "facility": "Lyndhurst Clinical Research",
+          "city": "Kernersville",
+          "state": "North Carolina",
+          "zip": "27284",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.11986,
+            "lon": -80.07365
+          }
+        },
+        {
+          "facility": "Lyndhurst Clinical Research",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Columbus Center for Women's Health Research",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Planned Parenthood of Arkansas and Eastern Oklahoma",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "Allegheny Pain Management",
+          "city": "Altoona",
+          "state": "Pennsylvania",
+          "zip": "16602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.51868,
+            "lon": -78.39474
+          }
+        },
+        {
+          "facility": "Greenville Hospital System University Medical Group, Department of OB/GYN",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "ClinSearch, LLC",
+          "city": "Chattanooga",
+          "state": "Tennessee",
+          "zip": "37421",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.04563,
+            "lon": -85.30968
+          }
+        },
+        {
+          "facility": "Whitaker's Women Care",
+          "city": "East Ridge",
+          "state": "Tennessee",
+          "zip": "37412",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.01424,
+            "lon": -85.2519
+          }
+        },
+        {
+          "facility": "Advances In Health, Inc.",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Allon Health Care",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77079",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Old Farm Obstetrics and Gynecology",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Salt Lake Research",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Women's Clinical Research Center",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "To obtain contact information for a study center near you, click here.",
+          "url": "https://trialinfoemail.pfizer.com/pages/landing.aspx?StudyID=A4091023&StudyName=A%20Clinical%20Study%20To%20Investigate%20The%20Effectiveness%20And%20Safety%20Of%20Tanezumab%20In%20Treating%20Pain%20Associated%20With%20Endometriosis"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Pfizer will provide access to individual de-identified participant data and related study documents (e.g. protocol, Statistical Analysis Plan (SAP), Clinical Study Report (CSR)) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions. Further details on Pfizer's data sharing criteria and process for requesting access can be found at: https://www.pfizer.com/science/clinical\\_trials/trial\\_data\\_and\\_results/data\\_requests.",
+      "url": "https://www.pfizer.com/science/clinical_trials/trial_data_and_results/data_requests"
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Nerve growth factor (NGF) results were reported only for plasma since a reliable assay was not available for analyzing NGF in urine. Study was prematurely terminated and recruitment was stopped due to futility shown in pre-planned interim analysis."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Pfizer has the right to review disclosures, requesting a delay of less than 60 days. Investigator will postpone single center publications until after disclosure of pooled data (all sites), less than 12 months from study completion/termination at all participating sites. Investigator may not disclose previously undisclosed confidential information other than study results."
+      },
+      "pointOfContact": {
+        "title": "Pfizer ClinicalTrials.gov Call Center",
+        "organization": "Pfizer, Inc.",
+        "email": "ClinicalTrials.gov_Inquiries@pfizer.com",
+        "phone": "1-800-718-1021"
+      }
+    }
+  }
+}

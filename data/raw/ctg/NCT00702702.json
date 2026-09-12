@@ -1,0 +1,534 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00702702",
+      "orgStudyIdInfo": {
+        "id": "ZPU-301"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Efficacy of Proellex in Pre-menopausal Anemic Women With Symptomatic Uterine Fibroids",
+      "officialTitle": "A Multi-Center, Placebo Controlled, Safety and Efficacy Study of the Selective Progesterone Receptor Modulator Proellex® (CDB-4124) in Anemic, Pre-Menopausal Women With Symptomatic Uterine Fibroids Requiring Hysterectomy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Repros stopped study for safety and FDA put study on hold because of safety.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-06-18",
+      "studyFirstSubmitQcDate": "2008-06-19",
+      "studyFirstPostDateStruct": {
+        "date": "2008-06-20",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-23",
+      "resultsFirstSubmitQcDate": "2014-08-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Eligible female subjects will be randomly assigned to one of the three treatment groups. Subjects will receive 325 mg (65 mg elemental iron) iron supplements to be taken twice daily during study drug treatment. The study duration is approximately six months, which is comprised of a 4 - 6 week screening period, a three-month drug treatment period, and a one-month follow-up period.",
+      "detailedDescription": "Eligible female subjects will be randomly assigned to one of the three treatment groups. Subjects will receive 325 mg (65 mg elemental iron) iron supplements to be taken twice daily during study drug treatment. The study duration is approximately six months, which is comprised of a 4 - 6 week screening period, a three-month drug treatment period, and a one-month follow-up period.\n\nStudy was terminated by clinical hold."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Uterine Fibroids",
+        "Anemia"
+      ],
+      "keywords": [
+        "Uterine fibroids",
+        "Anemia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 56,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "A 25 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 25 mg, 1 - 25 mg capsule and 1 placebo capsule daily for 3 months",
+          "interventionNames": [
+            "Drug: Proellex 25 mg"
+          ]
+        },
+        {
+          "label": "B 50 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 50 mg, 2 - 25 mg capsules daily for 3 months",
+          "interventionNames": [
+            "Drug: Proellex 50 mg"
+          ]
+        },
+        {
+          "label": "C Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo, 2 capsules daily for 3 months",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Proellex 25 mg",
+          "description": "Proellex 25 mg, 1 - 25 mg capsule and 1 placebo capsule daily for 3 months",
+          "armGroupLabels": [
+            "A 25 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Proellex 50 mg",
+          "description": "Proellex 50 mg, 2 - 25 mg capsules daily for 3 months",
+          "armGroupLabels": [
+            "B 50 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo, 2 capsules daily for 3 months",
+          "armGroupLabels": [
+            "C Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Hemoglobin vs Placebo",
+          "description": "Comparison between 50 mg Proellex and placebo of change in hemoglobin at month 3",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female, between the ages of 18 and 48 years with Body Mass Index (BMI) between 18 and 39, inclusive;\n* Anemic, defined as hemoglobin levels less than or equal to 10.5 g/dL and uterine fibroid-associated symptoms indicated by a history of excessive menstrual bleeding;\n* Surgical interventions for uterine fibroids (e.g. hysterectomy or myomectomy) planned or anticipated after the study;\n* Willing to comply with all study procedures, including the endometrial biopsies and blood draws for all visits, including Follow-up Visits\n\nExclusion Criteria:\n\n* Post-menopausal women or women likely to become post-menopausal during the study, defined as one or more of the following:\n\n  * Six months or more (immediately prior to Screening Visit) without a menstrual period, or\n  * Prior hysterectomy, or\n  * Prior bilateral oophorectomy (unilateral oophorectomy is not exclusionary if regular menstruation is occurring);\n* Females who have undergone a uterine arterial embolization, or endometrial ablation therapy (previous myomectomy is acceptable) for any cause;\n* Documented endometriosis or active pelvic inflammatory disease (PID);\n* Having a diagnosis, or suspected diagnosis, of carcinoma of the breast or reproductive organs;\n* Known active infection with HIV, Hepatitis A, B or C, Gonorrhea, or Chlamydia;\n* Use of prohibited concomitant medications:\n\n  1. Depo-Provera use must cease ten months prior to first dose of study drug, or\n  2. GnRH agonists use (e.g. Lupron Depot) must cease six months prior to first dose of study drug, or\n  3. Oral contraceptive or other hormonal treatments use must cease for 30 days prior to the start of the study",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre vanAs, MD, PhD",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Alabama Clinical Therapeutics",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35235",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Women's Health Research",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85015",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Advanced Clinical Research Institute",
+          "city": "Anaheim",
+          "state": "California",
+          "zip": "92801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83529,
+            "lon": -117.9145
+          }
+        },
+        {
+          "facility": "Impact Clinical Trials",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "National Institute of Clinical Research",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Downtown Women's Health Care",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Visions Clinical Research",
+          "city": "Boynton Beach",
+          "state": "Florida",
+          "zip": "33472",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.52535,
+            "lon": -80.06643
+          }
+        },
+        {
+          "facility": "OB-GYN Associates of Mid-Florida, P.A.",
+          "city": "Leesburg",
+          "state": "Florida",
+          "zip": "34748",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.81082,
+            "lon": -81.87786
+          }
+        },
+        {
+          "facility": "Segal Institute for Clinical Research",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33161",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Insignia Clinical Research (Tampa Bay Women's Center)",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Comprehensive Clinical Trials, LLC",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33409",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Phoenix Women's Center (eCast)",
+          "city": "College Park",
+          "state": "Georgia",
+          "zip": "30349",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.65344,
+            "lon": -84.44937
+          }
+        },
+        {
+          "facility": "Clinical Trials Select (ecast)",
+          "city": "Decatur",
+          "state": "Georgia",
+          "zip": "30030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.77483,
+            "lon": -84.29631
+          }
+        },
+        {
+          "facility": "Dekalb Gynecology Associates/Legacy Obstetrics & Gynecology (eCast)",
+          "city": "Decatur",
+          "state": "Georgia",
+          "zip": "30035",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.77483,
+            "lon": -84.29631
+          }
+        },
+        {
+          "facility": "Medical Network for Education and Research",
+          "city": "Decatur",
+          "state": "Georgia",
+          "zip": "30333",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.77483,
+            "lon": -84.29631
+          }
+        },
+        {
+          "facility": "Smith & Hackney",
+          "city": "Morrow",
+          "state": "Georgia",
+          "zip": "30260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.58317,
+            "lon": -84.33937
+          }
+        },
+        {
+          "facility": "Bluegrass Clinical Research, Inc.",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40291",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Clinical Trials Select (ecast)",
+          "city": "Silver Spring",
+          "state": "Maryland",
+          "zip": "20903",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.99067,
+            "lon": -77.02609
+          }
+        },
+        {
+          "facility": "Phoenix OB-GYN Associates, LLC",
+          "city": "Moorestown",
+          "state": "New Jersey",
+          "zip": "08057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96706,
+            "lon": -74.94267
+          }
+        },
+        {
+          "facility": "Central Brooklyn Medical Group (eCast)",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "Rapid Medical Research, Inc.(Elite)",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "HWC Women's Research Center",
+          "city": "Englewood",
+          "state": "Ohio",
+          "zip": "45322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.87756,
+            "lon": -84.30217
+          }
+        },
+        {
+          "facility": "SC Clinical Research Center",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "Chattanooga Medical Research, LLC",
+          "city": "Chattanooga",
+          "state": "Tennessee",
+          "zip": "37404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.04563,
+            "lon": -85.30968
+          }
+        },
+        {
+          "facility": "Advanced Research Associates",
+          "city": "Corpus Christi",
+          "state": "Texas",
+          "zip": "78414",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.80058,
+            "lon": -97.39638
+          }
+        },
+        {
+          "facility": "Advances in Health Inc.",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "The Women's Hospital of Texas, Clinical Research Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Centex Research",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77079",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Institute for Women's Health",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Seven Oaks Women's Center",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer L. Wike",
+        "organization": "Repros Therapeutics Inc.",
+        "email": "jwike@reprosrx.com",
+        "phone": "281-719-3402"
+      }
+    }
+  }
+}

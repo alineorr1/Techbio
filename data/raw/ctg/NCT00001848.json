@@ -1,0 +1,151 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00001848",
+      "orgStudyIdInfo": {
+        "id": "990012"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "99-CH-0012"
+        }
+      ],
+      "organization": {
+        "fullName": "National Institutes of Health Clinical Center (CC)",
+        "class": "NIH"
+      },
+      "briefTitle": "The Safety and Effectiveness of Surgery With or Without Raloxifene for the Treatment of Pelvic Pain Caused by Endometriosis",
+      "officialTitle": "The Safety and Effectiveness of Surgery With or Without Raloxifene (Evista (Trademark), Lilly) for the Treatment of Pelvic Pain Caused by Endometriosis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "1998-11"
+      },
+      "completionDateStruct": {
+        "date": "2006-01"
+      },
+      "studyFirstSubmitDate": "1999-11-03",
+      "studyFirstSubmitQcDate": "1999-11-03",
+      "studyFirstPostDateStruct": {
+        "date": "1999-11-04",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-09-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-09-22",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+        "class": "NIH"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "Many women with lower abdominal pain have endometriosis. Endometriosis is a condition in which the lining of the uterus (endometrium) is found outside of the uterus. The diagnosis of endometriosis is usually made at surgery. The treatment of endometriosis includes medical and surgical approaches alone or in combination. The hormone estrogen stimulates the growth of the endometrium and may also stimulate the growth of endometriosis. Medical therapies that act to decrease the level of estrogen can reduce the amount of endometriosis and pain. When therapies are discontinued, symptoms often return. In addition, medical treatment for endometriosis is expensive and is often associated with weak bones (osteoporosis) and hot flashes as a result of low levels of estrogen.\n\nSurgical treatment is removal or destruction of the endometriosis tissue. Studies show the pain from endometriosis is relieved longer with tissue removal than with destruction.\n\nThis study was developed to see if surgery followed by daily doses of Raloxifene (Evista) is effective in reducing pain, for a longer time than surgery in combination with a placebo (inactive \"sugar pill\") treatment. Raloxifene acts like estrogens in some tissues and not like estrogens in others. Postmenopausal women receiving Raloxifene for the prevention of osteoporosis had an increase in bone density and an improvement of their blood lipids (fat content in the blood). However, unlike estrogen, Raloxifene does not promote the growth of breast tissue or the uterus. If Raloxifene blocks estrogen action in the lining of the uterus (endometrium) of reproductive age women, as it does in post-menopausal women, it may also limit the growth of endometriosis and prevent the return of pain.",
+      "detailedDescription": "Many women with pelvic pain have endometriosis, a condition in which tissue from the uterine lining (endometrium) is also outside the uterus. Endometriosis pain often returns after medical treatment is stopped. Surgical therapies have had varied success in reducing pain, with laparoscopic excision of implants one of the most effective methods. Raloxifene (Evista (Trademark), Lilly), has been approved by the Food and Drug Administration for use in preventing bone loss in postmenopausal women. This compound has effects that are both similar to and different from those of the hormone estrogen. Unlike estrogen, raloxifene does not stimulate growth of the uterus or breast tissue in post-menopausal women. If raloxifene blocks estrogen action in the lining of the uterus (or endometrium) of reproductive age women, as it does in postmenopausal women, it may also limit growth of endometriosis and prevent the return of pain. This phase II randomized placebo-controlled study evaluates whether surgery followed by daily administration of raloxifene for six months reduces pain for a longer time than surgery alone."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis",
+        "Pelvic Pain"
+      ],
+      "keywords": [
+        "Estrogen Receptor",
+        "Laparoscopy",
+        "Surgical Excision",
+        "Raloxifene",
+        "Selective Estrogen Receptor Modulator",
+        "Estrogen",
+        "Endometriosis",
+        "Pelvic Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 612
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Raloxifene"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "INCLUSION CRITERIA:\n\n* Women between the ages of 18 and 45 years, who have their reproductive organs.\n* Excellent health other than a three month history of pelvic pain and documented endometriosis at laparoscopy. Chronic medications may be acceptable at the discretion of the internist associate investigator (LN). Use of antidepressants, medications for migraines and headaches, allergy medications, and treatment of bowel symptoms such as irritable bowel disease will be allowed.\n* Do not desire pregnancy for the duration of the study.\n* Are using abstinence, mechanical (condoms, diaphragms) or sterilization methods of contraception and are willing to continue using them throughout the study.\n* Willing and able to give informed consent.\n* Willing and able to comply with study requirements.\n* Less than grade III overweight or BMI less than 40 kg/m(2).\n\nEXCLUSION CRITERIA:\n\n* Women with other causes of chronic pelvic pain including infectious, gastrointestinal, musculoskeletal, neurologic or psychiatric.\n* Significant abnormalities in the physical or laboratory examination including renal and liver function more than twice the normal range.\n* Hysterectomy or bilateral salpingo-oophorectomy.\n* Pregnancy.\n* Lactation.\n* Use of hormonal contraception, selective estrogen receptor modulators, progestins, estrogens, steroids, or ovulation induction in the last 3 months.\n* Other medical or surgical treatment for endometriosis in the last 6 months.\n* Untreated abnormal pap smear or other gynecologic condition.\n* History of venous thrombosis events including deep vein thrombosis, pulmonary embolism, and retinal vein thrombosis.\n* Allergy to study drug.\n* History of stroke, complicated migraine, or documented transient ischemic attack.\n* Manic depressive illness or untreated major depression.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "National Institute of Child Health and Human Development (NICHD)",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20892",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "2178830",
+          "type": "BACKGROUND",
+          "citation": "Reiter RC. A profile of women with chronic pelvic pain. Clin Obstet Gynecol. 1990 Mar;33(1):130-6. No abstract available."
+        },
+        {
+          "pmid": "8598948",
+          "type": "BACKGROUND",
+          "citation": "Mathias SD, Kuppermann M, Liberman RF, Lipschutz RC, Steege JF. Chronic pelvic pain: prevalence, health-related quality of life, and economic correlates. Obstet Gynecol. 1996 Mar;87(3):321-7. doi: 10.1016/0029-7844(95)00458-0."
+        },
+        {
+          "pmid": "8486168",
+          "type": "BACKGROUND",
+          "citation": "Hornstein MD, Gleason RE, Orav J, Haas ST, Friedman AJ, Rein MS, Hill JA, Barbieri RL. The reproducibility of the revised American Fertility Society classification of endometriosis. Fertil Steril. 1993 May;59(5):1015-21."
+        },
+        {
+          "pmid": "21775836",
+          "type": "DERIVED",
+          "citation": "Hsu AL, Sinaii N, Segars J, Nieman LK, Stratton P. Relating pelvic pain location to surgical findings of endometriosis. Obstet Gynecol. 2011 Aug;118(2 Pt 1):223-230. doi: 10.1097/AOG.0b013e318223fed0."
+        },
+        {
+          "pmid": "21145540",
+          "type": "DERIVED",
+          "citation": "Karp BI, Sinaii N, Nieman LK, Silberstein SD, Stratton P. Migraine in women with chronic pelvic pain with and without endometriosis. Fertil Steril. 2011 Mar 1;95(3):895-9. doi: 10.1016/j.fertnstert.2010.11.037. Epub 2010 Dec 10."
+        },
+        {
+          "pmid": "18165396",
+          "type": "DERIVED",
+          "citation": "Stratton P, Sinaii N, Segars J, Koziol D, Wesley R, Zimmer C, Winkel C, Nieman LK. Return of chronic pelvic pain from endometriosis after raloxifene treatment: a randomized controlled trial. Obstet Gynecol. 2008 Jan;111(1):88-96. doi: 10.1097/01.AOG.0000297307.35024.b5."
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

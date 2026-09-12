@@ -1,0 +1,260 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00958412",
+      "orgStudyIdInfo": {
+        "id": "ZPE-201 EXT"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study Evaluating the Safety and Efficacy of Proellex® in the Treatment of Endometriosis-extension Study",
+      "officialTitle": "A Randomized, Double-blind Study Evaluating the Safety and Efficacy of Proellex® in the Treatment of Premenopausal Women With Symptomatic Endometriosis-extension Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Repros stopped the study for safety and FDA put the study on hold for safety.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-02-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-08-11",
+      "studyFirstSubmitQcDate": "2009-08-12",
+      "studyFirstPostDateStruct": {
+        "date": "2009-08-13",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-25",
+      "resultsFirstSubmitQcDate": "2019-01-23",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-02-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-01-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-02-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "ZPE-201 Extension of treatment",
+      "detailedDescription": "This is an extension of the phase II, three-arm, parallel design, dose-ranging, placebo-controlled, randomized, double-blind, multicenter study in which placebo or one (1) of two (2) dose levels of Proellex® was administered once-daily for four (4) months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Endometriosis",
+        "Pelvic pain",
+        "Oral progesterone blocker"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 18,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Proellex®",
+          "type": "EXPERIMENTAL",
+          "description": "25 mg Proellex®",
+          "interventionNames": [
+            "Drug: Proellex®"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Proellex®",
+          "description": "one (1) 25 mg capsule daily",
+          "armGroupLabels": [
+            "Proellex®"
+          ],
+          "otherNames": [
+            "CDB-4124"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To Evaluate Incidence of Adverse Events (AEs) and Safety of Proellex® Administered Once Daily",
+          "description": "Number of participants who experienced 1 or more adverse event.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Only subjects treated in the ZPE-201 study will be allowed to enter the extension study.\n* Subjects who withdrew from ZPE-201 due to lack of treatment efficacy will also be invited to participate.\n\nExclusion Criteria:\n\n* All other subjects",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "48 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Anna Chan",
+          "affiliation": "Allergan",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Advanced Clinical Therapeutics, LLC",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Medical Center for Clinical Research",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Compass Clinical Research",
+          "city": "San Ramon",
+          "state": "California",
+          "zip": "94583",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77993,
+            "lon": -121.97802
+          }
+        },
+        {
+          "facility": "Comprehensive Clinical Trials",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33409",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Physicians for Women",
+          "city": "Cary",
+          "state": "North Carolina",
+          "zip": "27518",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.79154,
+            "lon": -78.78112
+          }
+        },
+        {
+          "facility": "HWC Women's Research Center",
+          "city": "Miamisburg",
+          "state": "Ohio",
+          "zip": "45322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.64284,
+            "lon": -84.28661
+          }
+        },
+        {
+          "facility": "Clinical Trials of Texas/Institute for Women's Health",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Clinical Trials of Texas/Seven Oaks Women's Center",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Therapeutic Area Head",
+        "organization": "Allergan",
+        "email": "clinicaltrials@allergan.com",
+        "phone": "714-246-4500"
+      }
+    }
+  }
+}

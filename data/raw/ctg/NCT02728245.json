@@ -1,0 +1,243 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02728245",
+      "orgStudyIdInfo": {
+        "id": "SNUBH_GO_052"
+      },
+      "organization": {
+        "fullName": "Seoul National University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trial Comparing Preoperative Dienogest Therapy Followed by Surgery vs. Upfront Surgery to Save Ovarian Reserve in Young Women With Ovarian Endometrioma",
+      "officialTitle": "Randomized Phase 2 Trial Comparing Preoperative Dienogest Therapy Followed by Surgery vs. Upfront Surgery to Save Ovarian Reserve in Young Women With Ovarian Endometrioma",
+      "acronym": "DOROSY"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Placebo cannot be prepared",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-10",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2018-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-03-19",
+      "studyFirstSubmitQcDate": "2016-03-30",
+      "studyFirstPostDateStruct": {
+        "date": "2016-04-05",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-10-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-10-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Kidong Kim",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Seoul National University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Seoul National University Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Kyung Hee University Hospital at Gangdong",
+          "class": "OTHER"
+        },
+        {
+          "name": "Korea University Guro Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Ajou University School of Medicine",
+          "class": "OTHER"
+        },
+        {
+          "name": "Ewha Womans University Mokdong Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Asan Medical Center",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Randomized phase 2 trial comparing preoperative dienogest therapy followed by surgery vs. upfront surgery to save ovarian reserve in young women with ovarian endometrioma"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Ovarian Reserve",
+        "Endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo drug 1 tablet per day will be prescribed for 3months before surgery in ovarian endometrioma patients.\n\nDienogest(DNG) 2mg 1 tablet per day will be prescribed for 2 months from 1month after surgery.",
+          "interventionNames": [
+            "Drug: Dienogest",
+            "Drug: Placebo drug",
+            "Procedure: Surgery"
+          ]
+        },
+        {
+          "label": "Case group",
+          "type": "EXPERIMENTAL",
+          "description": "Dienogest(DNG) 2mg 1 tablet per day will be prescribed for 3months before surgery in ovarian endometrioma patients.\n\nDienogest(DNG) 2mg 1 tablet per day will be prescribed for 2 months from 1month after surgery.",
+          "interventionNames": [
+            "Drug: Dienogest",
+            "Procedure: Surgery"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dienogest",
+          "description": "Dienogest 2mg po qd",
+          "armGroupLabels": [
+            "Case group",
+            "Control group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo drug",
+          "description": "Placebo 1 table po qd",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Surgery",
+          "description": "conservative surgery without intent to oophorectomy",
+          "armGroupLabels": [
+            "Case group",
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Compare the mean change of serum Anti-Mullerian Hormone (AMH) level",
+          "timeFrame": "3 month after surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Compare the mean change of serum AMH level",
+          "timeFrame": "1 month after surgery"
+        },
+        {
+          "measure": "Compare the trend of mean change of serum AMH level",
+          "timeFrame": "1 and 3 month after surgery"
+        },
+        {
+          "measure": "Compare the mean change of serum AMH level",
+          "timeFrame": "baseline and after preoperative dienogest/placebo therapy for 3 months"
+        },
+        {
+          "measure": "Compare the revised American fertility society (AFS) score",
+          "timeFrame": "At surgery"
+        },
+        {
+          "measure": "compare the surgical time (minute)",
+          "description": "surgical time (minute)",
+          "timeFrame": "intraoperative"
+        },
+        {
+          "measure": "Brief Pain Inventory (BPI) scores",
+          "timeFrame": "baseline, 1 month after surgery and 3 month after surgery"
+        },
+        {
+          "measure": "number of participants with treatment-related adverse events as assessed by CTCAE v4.0",
+          "timeFrame": "All adverse events from randomization to postoperative 3 months"
+        },
+        {
+          "measure": "Mean change of diameter of endometrioma measured by ultrasonography after preoperative dienogest/placebo therapy for 3months",
+          "timeFrame": "baseline and after preoperative dienogest/placebo therapy for 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Unilateral ovarian endometrioma ≥ 5cm or bilateral ovarian endometriomas with any size diagnosed by ultrasonography.\n* In Patients with previous unilateral salpingo-oophorectomy (USO)\n* Unilateral ovarian endometrioma with any size is eligible\n* 20 ≤ Age ≤ 45 and premenopause\n* Plan to undergo conservative surgery for endometriomas\n\nExclusion Criteria:\n\n* Pregnant women or women who were suspected to be pregnant\n* Women with current venous thromboembolism or history of such diseases\n* Women with current arterial disease or cardiovascular diseases (e.g. myocardial infarction, cerebrovascular diseases, or ischemic heart diseases) or history of such diseases\n* Women with current diabetes with vascular lesions or history of such diseases\n* Women with current severe liver diseases or history of severe liver diseases with abnormal liver function\n* Women with current liver tumor or history of liver tumor\n* Women with current or history of sex-hormone dependent malignant tumor or women who were suspected to have a sex-hormone dependent malignant tumor\n* Women with vaginal bleeding of unknown causes\n* Women with a history of allergic reaction to elements of DNG\n* Women with galactose intolerance, Lapp lactase deficiency, glucose-galactose malabsorption\n* Women whose non-compliance is expected\n* Lactation (treatment with DNG is not recommended in lactating women due to possible excretion in breast milk)\n* Any medication that could result in an excessive accumulation, impaired metabolism, or altered excretion of the study drug or might interfere with the conduct of the study or the interpretation of the results",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "20 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Seoul National University Bundang Hospital",
+          "city": "Seongnam-si",
+          "state": "Gyeonggi-do",
+          "zip": "463707",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.43861,
+            "lon": 127.13778
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "hasResults": false
+}

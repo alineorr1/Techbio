@@ -1,0 +1,927 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03373422",
+      "orgStudyIdInfo": {
+        "id": "17472"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-000244-18",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2017",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2017"
+        }
+      ],
+      "organization": {
+        "fullName": "Bayer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Test Whether Study Drug BAY1128688 Brings Pain Relief to Women With Endometriosis and if so to Get a First Idea Which Dose(s) Work Best",
+      "officialTitle": "A Randomized, Placebo-controlled, Double-blind, Parallel-group, Multi-center, Exploratory Dose-response Study to Assess the Efficacy and Safety of Different Oral Doses of BAY1128688 in Women With Symptomatic Endometriosis Over a 12-week Treatment Period",
+      "acronym": "AKRENDO1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Study BAY1128688/17472 (AKRENDO 1) was terminated early on 20 July 2018 due to hepatotoxicity",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-11-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-07-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-10-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-23",
+      "studyFirstSubmitQcDate": "2017-12-13",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-10-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-10-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Bayer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Purpose of the study is to test whether study drug BAY1128688 brings relief for pain to women with endometriosis and if so to get a first impression which dose(s) work best."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 121,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BAY1128688 (dose 1)",
+          "type": "EXPERIMENTAL",
+          "description": "One BAY1128688 tablet (lowest dose) in the morning, one placebo tablet in the evening",
+          "interventionNames": [
+            "Drug: BAY1128688",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "BAY1128688 (dose 2)",
+          "type": "EXPERIMENTAL",
+          "description": "One BAY1128688 tablet (first intermediate dose) in the morning, one placebo tablet in the evening",
+          "interventionNames": [
+            "Drug: BAY1128688",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "BAY1128688 (dose 3)",
+          "type": "EXPERIMENTAL",
+          "description": "One BAY1128688 tablet (second intermediate dose) in the morning, one placebo tablet in the evening",
+          "interventionNames": [
+            "Drug: BAY1128688",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "BAY1128688 (dose 4)",
+          "type": "EXPERIMENTAL",
+          "description": "One BAY1128688 tablet (second intermediate dose) in the morning and one in the evening",
+          "interventionNames": [
+            "Drug: BAY1128688"
+          ]
+        },
+        {
+          "label": "BAY1128688 (dose 5)",
+          "type": "EXPERIMENTAL",
+          "description": "One BAY1128688 tablet (highest dose) in the morning and one in the evening",
+          "interventionNames": [
+            "Drug: BAY1128688"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "One placebo tablet in the morning and one in the evening",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BAY1128688",
+          "description": "Various dosing OD (once daily) and BID (twice daily)",
+          "armGroupLabels": [
+            "BAY1128688 (dose 1)",
+            "BAY1128688 (dose 2)",
+            "BAY1128688 (dose 3)",
+            "BAY1128688 (dose 4)",
+            "BAY1128688 (dose 5)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo tablets",
+          "armGroupLabels": [
+            "BAY1128688 (dose 1)",
+            "BAY1128688 (dose 2)",
+            "BAY1128688 (dose 3)",
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Absolute change in mean pain of the 7 days with worst EAPP comparing the 28-day baseline cycle (baseline period of daily pain recordings) to the 28-day end of treatment cycle (daily pain recordings during the last 28 days of the treatment period)",
+          "description": "EAPP: endometriosis-associated pelvic pain, measured on the NRS (Numerical Rating Scale) by item 1 of the ESD (Endometriosis Symptom Diary)",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of treatment-emergent adverse events",
+          "timeFrame": "18 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women of at least 18 years of age at the time of signing of informed consent\n* Women with endometriosis confirmed by at least one of the two criteria:\n\n  * surgery within the last 10 years\n  * imaging within the last 12 months\n* moderate to severe pelvic pain which will be assessed over a period of 28 days\n* Willingness to use only ibuprofen as rescue pain medication for endometriosis-associated pelvic pain\n* Willingness to use non-hormonal barrier method for contraception (here spermicide-coated condoms) from screening visit until the end of the study (unless adequate contraception is achieved by vasectomy of the partner or use of copper intrauterine device \\[IUD\\] or commitment to abstinence) and refrain from using hormonal contraception\n\nExclusion Criteria:\n\n* Pregnancy or lactation (more than three months since delivery, abortion, or lactation before start of treatment) AND no wish for pregnancy during the study\n* Altered bilirubin metabolism and liver function at Visit 1\n* Requirement to use pain medications for reasons other than endometriosis\n* Contraindications to using ibuprofen\n* Signs of hyperandrogenism\n* Absence of menstrual cycles and/or abnormal vaginal/genital bleeding\n* History of hysterectomy, tubal-ligation or bilateral ovariectomy\n* Uncontrolled thyroid disorder",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bayer Study Director",
+          "affiliation": "Bayer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medizinische Universität Graz",
+          "city": "Graz",
+          "state": "Styria",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "Kepler Universitätsklinikum",
+          "city": "Linz",
+          "state": "Upper Austria",
+          "zip": "4020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "Landeskrankenhaus - Universitätskliniken Innsbruck",
+          "city": "Innsbruck",
+          "zip": "6020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "Allgemeines Krankenhaus der Stadt Wien",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "AZ Jan Palfijn Gent",
+          "city": "Ghent",
+          "state": "Oost-Vlaanderen",
+          "zip": "9000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "CU Saint-Luc/UZ St-Luc",
+          "city": "Bruxelles - Brussel",
+          "zip": "1200",
+          "country": "Belgium"
+        },
+        {
+          "facility": "Ziekenhuis Oost-Limburg",
+          "city": "Genk",
+          "zip": "3600",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          }
+        },
+        {
+          "facility": "CHU de Tivoli",
+          "city": "La Louvière",
+          "zip": "7100",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.48657,
+            "lon": 4.18785
+          }
+        },
+        {
+          "facility": "Gynekologie MEDA s.r.o.",
+          "city": "Brno",
+          "zip": "602 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "GYN-F s.r.o.",
+          "city": "Hradec Králové",
+          "zip": "500 03",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.20923,
+            "lon": 15.83277
+          }
+        },
+        {
+          "facility": "G-Centrum Olomouc s.r.o. Dr. Skrivanek",
+          "city": "Olomouc",
+          "zip": "772 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.59552,
+            "lon": 17.25175
+          }
+        },
+        {
+          "facility": "GynCare MUDr. Michael Svec s.r.o.",
+          "city": "Pilsen",
+          "zip": "326 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.74747,
+            "lon": 13.37759
+          }
+        },
+        {
+          "facility": "Centrum gynekologicke rehabilitace",
+          "city": "Písek",
+          "zip": "39701",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.3088,
+            "lon": 14.1475
+          }
+        },
+        {
+          "facility": "Dr. Smrhova-Kovacs",
+          "city": "Tábor",
+          "zip": "39003",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.41441,
+            "lon": 14.6578
+          }
+        },
+        {
+          "facility": "Aarhus Universitetshospital, Skejby",
+          "city": "Aarhus N",
+          "zip": "8200",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 56.20367,
+            "lon": 10.17317
+          }
+        },
+        {
+          "facility": "H:S Rigshospitalet",
+          "city": "København Ø",
+          "zip": "DK-2100",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.70968,
+            "lon": 12.57862
+          }
+        },
+        {
+          "facility": "HUS / Naistenklinikka",
+          "city": "Helsinki",
+          "zip": "00290",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          }
+        },
+        {
+          "facility": "Keski-Suomen keskussairaala",
+          "city": "Jyväskylä",
+          "zip": "40620",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.24147,
+            "lon": 25.72088
+          }
+        },
+        {
+          "facility": "Lääkäriasema Cantti Oy",
+          "city": "Kuopio",
+          "zip": "70110",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.89238,
+            "lon": 27.67703
+          }
+        },
+        {
+          "facility": "Lääkärikeskus Gyneko",
+          "city": "Oulu",
+          "zip": "90100",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 65.01236,
+            "lon": 25.46816
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire - Angers",
+          "city": "Angers",
+          "zip": "49100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Cochin - Paris",
+          "city": "Paris",
+          "zip": "75674",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Vincentius-Diakonissen-Kliniken gAG",
+          "city": "Karlsruhe",
+          "state": "Baden-Wurttemberg",
+          "zip": "76199",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.00937,
+            "lon": 8.40444
+          }
+        },
+        {
+          "facility": "Praxisklinik am Rosengarten",
+          "city": "Mannheim",
+          "state": "Baden-Wurttemberg",
+          "zip": "68165",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.4891,
+            "lon": 8.46694
+          }
+        },
+        {
+          "facility": "Klinikum rechts der Isar",
+          "city": "München",
+          "state": "Bavaria",
+          "zip": "81675",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.69668,
+            "lon": 13.46314
+          }
+        },
+        {
+          "facility": "Praxis Hr. Dr. A. Gerick",
+          "city": "Aachen",
+          "state": "North Rhine-Westphalia",
+          "zip": "52072",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Praxis Hr. Dr. S. Fiedler",
+          "city": "Aachen",
+          "state": "North Rhine-Westphalia",
+          "zip": "52074",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Frauenarztpraxis Dr. Wolfgang Clemens",
+          "city": "Stolberg",
+          "state": "North Rhine-Westphalia",
+          "zip": "52222",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77368,
+            "lon": 6.22595
+          }
+        },
+        {
+          "facility": "Praxis f. Gynäkologie und Geburtshilfe",
+          "city": "Bernburg",
+          "state": "Saxony-Anhalt",
+          "zip": "06406",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.79464,
+            "lon": 11.7401
+          }
+        },
+        {
+          "facility": "Frauenarztpraxis Dr. Wetzel",
+          "city": "Blankenburg",
+          "state": "Saxony-Anhalt",
+          "zip": "38889",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.79025,
+            "lon": 10.95509
+          }
+        },
+        {
+          "facility": "Praxis Hr. Prof. Dr. A. Ebert",
+          "city": "Berlin",
+          "zip": "10787",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Charité Campus Benjamin Franklin (CBF)",
+          "city": "Berlin",
+          "zip": "12200",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Semmelweis University",
+          "city": "Budapest",
+          "zip": "1082",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Semmelweis University",
+          "city": "Budapest",
+          "zip": "1085",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Bajcsy Zsilinszky Korhaz-Rendelointezet",
+          "city": "Budapest",
+          "zip": "1106",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Robert Karoly Magankorhaz",
+          "city": "Budapest",
+          "zip": "1135",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "NAP - Rendelo, Private Clinic",
+          "city": "Debrecen",
+          "zip": "4028",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "Debreceni Egyetem Klinikai Kozpont",
+          "city": "Debrecen",
+          "zip": "4032",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "SZTE ÁOK Szent Györgyi Albert Klinikai Kozpont",
+          "city": "Szeged",
+          "zip": "6725",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.253,
+            "lon": 20.14824
+          }
+        },
+        {
+          "facility": "Fejer Megyei Szent Gyorgy Egyetemi Oktato Korhaz",
+          "city": "Székesfehérvár",
+          "zip": "8000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18995,
+            "lon": 18.41034
+          }
+        },
+        {
+          "facility": "Casa di Cura Privata Malzoni - Villa dei Platani",
+          "city": "Avellino",
+          "state": "Campania",
+          "zip": "83100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.91494,
+            "lon": 14.79103
+          }
+        },
+        {
+          "facility": "A.O.U. di Bologna Policlinico S.Orsola Malpighi",
+          "city": "Bologna",
+          "state": "Emilia-Romagna",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "A.S.U. Integrata di Udine",
+          "city": "Udine",
+          "state": "Friuli Venezia Giulia",
+          "zip": "33100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 46.0693,
+            "lon": 13.23715
+          }
+        },
+        {
+          "facility": "Fondazione Policlinico Universitario Agostino Gemelli",
+          "city": "Rome",
+          "state": "Lazio",
+          "zip": "00168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        },
+        {
+          "facility": "IRCCS A.O.U. San Martino IST Ist. Nazionale Ricerca Cancro",
+          "city": "Genoa",
+          "state": "Liguria",
+          "zip": "16132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.40478,
+            "lon": 8.94439
+          }
+        },
+        {
+          "facility": "A.O.U. Careggi",
+          "city": "Florence",
+          "state": "Tuscany",
+          "zip": "50134",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "facility": "A.O.U. Senese",
+          "city": "Siena",
+          "state": "Tuscany",
+          "zip": "53100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "A.O.U. Integrata Verona",
+          "city": "Verona",
+          "state": "Veneto",
+          "zip": "37126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.43854,
+            "lon": 10.9938
+          }
+        },
+        {
+          "facility": "Flevoziekenhuis",
+          "city": "Almere Stad",
+          "zip": "1315 RA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37025,
+            "lon": 5.21413
+          }
+        },
+        {
+          "facility": "Isala",
+          "city": "Zwolle",
+          "zip": "8025 AB",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.5125,
+            "lon": 6.09444
+          }
+        },
+        {
+          "facility": "CLINICAL MEDICAL RESEARCH Sp. z o. o.",
+          "city": "Katowice",
+          "zip": "40-001",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "Vita Longa Sp. z o.o.",
+          "city": "Katowice",
+          "zip": "40-748",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "Prywatny Gabinet Lekarski Ginekologia, Poloznictwo i Ultr.",
+          "city": "Lodz",
+          "zip": "90-602",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Specjalistyczny Gabinet Ginekologiczno-Polozniczy",
+          "city": "Lublin",
+          "zip": "20-064",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "NZOZ NOVITA, Specjalistyczne Gabinety Lekarskie",
+          "city": "Lublin",
+          "zip": "20-632",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "VitroLive Sp. z o.o.",
+          "city": "Szczecin",
+          "zip": "70-483",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.42894,
+            "lon": 14.55302
+          }
+        },
+        {
+          "facility": "Twoja Przychodnia - Szczecinskie Centrum Medyczne",
+          "city": "Szczecin",
+          "zip": "71-434",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.42894,
+            "lon": 14.55302
+          }
+        },
+        {
+          "facility": "NZOZ Zieniewicz Medical",
+          "city": "Warsaw",
+          "zip": "02-201",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Hospital Clínic i Provincial de Barcelona",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre",
+          "city": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario \"La Paz\"",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Regional de Málaga",
+          "city": "Málaga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen del Rocío",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Valencia",
+          "city": "Valencia",
+          "zip": "46014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "York Teaching Hospital NHS Foundation Trust",
+          "city": "York",
+          "state": "North Yorkshire",
+          "zip": "YO318HE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.95763,
+            "lon": -1.08271
+          }
+        },
+        {
+          "facility": "Liverpool Womens Hospital",
+          "city": "Liverpool",
+          "zip": "L8 7SS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.41058,
+            "lon": -2.97794
+          }
+        },
+        {
+          "facility": "Norfolk and Norwich Hospital",
+          "city": "Norwich",
+          "zip": "NR4 7UY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.62783,
+            "lon": 1.29834
+          }
+        },
+        {
+          "facility": "Whiston Hospital",
+          "city": "Prescot",
+          "zip": "L35 5DR",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.42948,
+            "lon": -2.80031
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37422772",
+          "type": "DERIVED",
+          "citation": "Hilpert J, Groettrup-Wolfers E, Kosturski H, Bennett L, Barnes CLK, Gude K, Gashaw I, Reif S, Steger-Hartmann T, Scheerans C, Solms A, Rottmann A, Mao G, Chapron C. Hepatotoxicity of AKR1C3 Inhibitor BAY1128688: Findings from an Early Terminated Phase IIa Trial for the Treatment of Endometriosis. Drugs R D. 2023 Sep;23(3):221-237. doi: 10.1007/s40268-023-00427-5. Epub 2023 Jul 9."
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

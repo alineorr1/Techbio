@@ -1,0 +1,269 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05670353",
+      "orgStudyIdInfo": {
+        "id": "2021/10765-0"
+      },
+      "organization": {
+        "fullName": "University of Sao Paulo",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cannabidiol for the Treatment of Pelvic Pain in Endometriosis (DREAMLAND)",
+      "officialTitle": "Cannabidiol in the Treatment of Women With Chronic Pelvic Pain Secondary to Endometriosis",
+      "acronym": "DREAMLAND"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The study was prematurely terminated due to the results of the interim analysis conducted, as outlined in the initial project plan.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-01-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-12-12",
+      "studyFirstSubmitQcDate": "2022-12-20",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Omero Benedicto Poli Neto",
+        "investigatorTitle": "Prof. Dr.",
+        "investigatorAffiliation": "University of Sao Paulo"
+      },
+      "leadSponsor": {
+        "name": "University of Sao Paulo",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this work is to conduct a randomized, double-blind, placebo-controlled clinical trial to assess the efficacy and safety of cannabis extract in women with endometriosis who have already undergone hormonal contraceptive treatment and surgery without satisfactory response.",
+      "detailedDescription": "The Dreamland study is a two-arm, parallel-group, individually randomized (1:1 allocation ratio), controlled by disease stage, participant and investigator blinded, single-site superiority trial of oral cannabis extract (CBD). CBD will be given orally starting at 10 mg daily and up-titrated to a maximum dose of 150 mg daily. Dose up-titration will be based on clinical response or side effects, whichever comes first. After 63 days of treatment, gradual withdrawal will be performed during one week. Then, at 70 days, there will be an open-label extension wherein all participants from control group will be offered a course of CBD according to the same previous protocol.\n\nThis research intends to :\n\n1. Assess whether the daily use of CBD, for nine weeks, will reduce the pain level of these women.\n2. Assess whether the daily use of CBD, for nine weeks, will modify pain threshold.\n3. Assess whether the daily use of CBD, for nine weeks, will interfere in psychological symptoms.\n4. Assess the possible adverse effects of using CBD"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis",
+        "Pelvic Pain"
+      ],
+      "keywords": [
+        "Cannabis",
+        "Endometriosis",
+        "Pelvic Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Volunteers, administrative staff, laboratory technicians, doctors who will carry out the assessments, and statisticians will be blind to the treatment group and will not know about the group treatment information.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cannabis Derivatives",
+          "type": "EXPERIMENTAL",
+          "description": "Cannabis Derivatives (98% CBD, 2% THC) will be given orally starting at 10 mg daily and up-titrated to a maximum dose of 150 mg daily. Dose up-titration will be based on clinical response or side effects, whichever comes first. After 63 days of treatment, gradual withdrawal will be performed during one week.\n\nAll patients will take hormonal contraceptives, preferably progestagen-only.\n\nAll participants will perform invasive and non-invasive procedures with the nursing team. The invasive will be blood collections, to evaluate laboratory parameters. The non-invasive ones refer to the measurement of height, weight, body temperature, and sleep pattern, as will pain threshold. In addition, they will be monitored through weekly self-assessment scales, applied remotely, electronically (cell phones or computers), with an estimated duration of ten minutes each, which will have their responses recorded in an electronic database, by the study coordination team.",
+          "interventionNames": [
+            "Drug: Cannabis Derivatives",
+            "Drug: Hormonal Contraceptive Agents"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo will be given at the same protocol described before. The bottle, label, color and density of the contents will be the same.\n\nAll patients will take hormonal contraceptives, preferably progestagen-only. Then, at 70 days, there will be an open-label extension wherein all participants from control group will be offered a course of active treatment according to the same previous protocol.\n\nAll participants will perform invasive and non-invasive procedures with the nursing team. The invasive will be blood collections, to evaluate laboratory parameters. The non-invasive ones refer to the measurement of height, weight, body temperature, and sleep pattern, as will pain threshold. In addition, they will be monitored through weekly self-assessment scales, applied remotely, electronically (cell phones or computers), with an estimated duration of ten minutes each, which will have their responses recorded in an electronic database, by the study coordination team.",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Hormonal Contraceptive Agents"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cannabis Derivatives",
+          "description": "CBD 10 mg (up-titrated until 150mg or adverse effects) daily for 9 weeks",
+          "armGroupLabels": [
+            "Cannabis Derivatives"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo 10 mg (up-titrated until 150mg or adverse effects) daily for 9 weeks",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Hormonal Contraceptive Agents",
+          "description": "All participants will be given hormonal contraceptive.",
+          "armGroupLabels": [
+            "Cannabis Derivatives",
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of patients with pain change of 30%",
+          "description": "Proportion of women with at least 30% of change in pain intensity. Pain intensity measured through visual analogue scale.",
+          "timeFrame": "Time points for assess: Week 1, Week 3, Week 4, Week 5, Week 7, Week 8, Week 9; Data will be reported through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Proportion of patients with pain change of 50%",
+          "description": "Proportion of women with at least 50% of change in pain intensity. Pain intensity measured through visual analogue scale.",
+          "timeFrame": "Time points for assess: Week 1, Week 3, Week 4, Week 5, Week 7, Week 8, Week 9; Data will be reported through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Quantitative change in pain intensity",
+          "description": "Absolute variation of pain intensity measured through visual analogue scale",
+          "timeFrame": "Time points for assess: Week 1, Week 3, Week 4, Week 5, Week 7, Week 8, Week 9; Data will be reported through study completion, an average of 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pain threshold change",
+          "description": "Changes in the thermal peripheral pain thresholds: the range of temperatures at which a participant begins to perceive heat as painful: comparison between the beginning (day 0) and the end of the protocol (day 63).",
+          "timeFrame": "Day 0, Day 63"
+        },
+        {
+          "measure": "Central sensitization change",
+          "description": "Changes in the score from Central Sensitization Inventory between the beginning (day 0) and the end of the protocol (day 63). Total scores ranging from 0-100. Higher scores mean a worse outcome. Score higher than 40 suggest central sensitization.",
+          "timeFrame": "Day 0, Day 63"
+        },
+        {
+          "measure": "Brief measure for assessing generalized anxiety disorder",
+          "description": "Changes in the score from Generalized Anxiety Disorder (GAD7) scale between the beginning (day 0) and the end of the protocol (day 63). Total scores ranging from 0-21. Higher scores mean a worse outcome. Scores higher than 10 suggest generalized anxiety disorder.",
+          "timeFrame": "Day 0, Day 63"
+        },
+        {
+          "measure": "Measure of the degree of depression severity",
+          "description": "Changes of scores for depressive symptoms over time during the study period (day 0-63) using Patient ́s Health Questionnaire-9 (PHQ-9). Total scores ranging from 0-27. Higher scores mean a worse outcome. Scores less than or equal to 4 suggest minimal depression.",
+          "timeFrame": "Day 0, Day 63"
+        },
+        {
+          "measure": "Alanine aminotransferase (ALT)",
+          "description": "Change in ALT concentration in plasma",
+          "timeFrame": "Week 0, Week 1, Week 5, Week 9."
+        },
+        {
+          "measure": "Aspartate aminotransferase (AST)",
+          "description": "Change in AST concentration in plasma",
+          "timeFrame": "Week 0, Week 1, Week 5, Week 9."
+        },
+        {
+          "measure": "Glucose",
+          "description": "Change in glucose concentration (glycemia) in plasma",
+          "timeFrame": "Week 0, Week 1, Week 5, Week 9."
+        },
+        {
+          "measure": "Bilirubin",
+          "description": "Change in bilirubin concentration in plasma",
+          "timeFrame": "Week 0, Week 1, Week 5, Week 9."
+        },
+        {
+          "measure": "Cannabidiol (CBD)",
+          "description": "Change in CBD concentration in plasma",
+          "timeFrame": "Week 0, Week 1, Week 5, Week 9."
+        },
+        {
+          "measure": "Tetrahydrocannabinol (THC)",
+          "description": "Change in THC concentration in plasma",
+          "timeFrame": "Week 0, Week 1, Week 5, Week 9."
+        },
+        {
+          "measure": "Side effects",
+          "description": "Occurrence of side effects over time during the study period (day 0-63)",
+          "timeFrame": "Week 0, Week 1 (Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7), Week 2, Week 3, Week 4, Week 5, Week 6, Week 7, Week 8, Week 9. Participants will be able to establish contact with a team doctor especially to report side effects."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women with chronic pelvic pain secondary to endometriosis surgically treated, with refractory symptoms, and who are taking complementary hormone therapy;\n* Women over 18 years of age who wish to participate in the clinical trial;\n* Willingness to voluntarily participate in the study to accept randomization to either of the two treatment arms;\n* Participating exclusively in this clinical trial during the study period;\n* Possess a telephone (cell or landline) that may be available to receive daily calls throughout the study period;\n* Signature of the Free and Informed Consent Term (TCLE) approved by the Local Research Ethics Committee.\n\nExclusion Criteria:\n\n* Chronic, severe or uncompensated medical conditions, such as: insulin-dependent diabetes (types 1 or 2); uncontrolled high blood pressure, lung disease such as asthma or other chronic obstructive pulmonary disease; hematological diseases, liver diseases, chronic kidney disease in advanced stage (grade 3, 4 and 5), metabolic disturbances and immunosuppression;\n* Use of any medication with potential interaction with CBD/THC (such as chloroquine, clobazan, warfarin, or valproic acid) or history of undesirable reactions prior to the use of this medications;\n* Inability to use oral medication;\n* Pregnancy or lactation;\n* History of alcohol or drug addiction;\n* Smoking in the last three years;\n* Marijuana use in the past three months or a lifetime history of dependence;\n* Inability to cooperate with investigators due to cognitive impairment or mental status.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Center of Chronic Pelvic Pain and Gynecologic Endoscopy of Ribeirao Preto Medical School, University of Sao Paulo",
+          "city": "Ribeirão Preto",
+          "state": "São Paulo",
+          "zip": "14049-900",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.1775,
+            "lon": -47.81028
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "All of the individual participant data collected during the trial, after deidentification",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "Immediately the following publication. No end date",
+      "accessCriteria": "Researchers who provide a methodologically sound proposal. Depending on the level of the proposed use of data, approval by an independent review committee will be required for the identified purpose."
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,231 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00787618",
+      "orgStudyIdInfo": {
+        "id": "ZP-006"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluate PK and Safety of Proellex® in Females With Various Stages of Impaired Renal Function and Healthy Females",
+      "officialTitle": "A Single-Dose, Open-Label, Parallel Group Study To Evaluate The Pharmacokinetics And Safety Profile Of PROELLEX® (CDB-4124) In Female Subjects With Various Stages Of Impaired Renal Function And In Healthy Female Volunteers"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Increased LFTs",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-11-06",
+      "studyFirstSubmitQcDate": "2008-11-06",
+      "studyFirstPostDateStruct": {
+        "date": "2008-11-07",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-25",
+      "resultsFirstSubmitQcDate": "2014-08-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-25",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "PK and safety profile of Proellex® in females with various stages of impaired renal function",
+      "detailedDescription": "The study will evaluate the pharmacokinetics and safety profile of Proellex® in females with various stages of impaired renal function and in volunteers with normal renal function"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Renal Impairment"
+      ],
+      "keywords": [
+        "Renal impairment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 6,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "50 mg Proellex Mild impairment",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "50 mg Proellex single dose Female subjects with mild renal impairment function.",
+          "interventionNames": [
+            "Drug: 50 mg Proellex"
+          ]
+        },
+        {
+          "label": "50 mg Proellex Moderate",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "50 mg Proellex, Female subjects with moderate renal impairment function.",
+          "interventionNames": [
+            "Drug: 50 mg Proellex"
+          ]
+        },
+        {
+          "label": "50 mg Proellex, Normal",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "50 mg Proellex, Female subjects with normal renal function.",
+          "interventionNames": [
+            "Drug: 50 mg Proellex"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "50 mg Proellex",
+          "description": "Single dose",
+          "armGroupLabels": [
+            "50 mg Proellex Mild impairment",
+            "50 mg Proellex Moderate",
+            "50 mg Proellex, Normal"
+          ],
+          "otherNames": [
+            "Telapristone acetate",
+            "Proellex"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cmax of Proellex",
+          "timeFrame": "48 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Speak, read, and understand English or Spanish and is willing and able to provide written informed consent on an IRB-approved form prior to the initiation of any study procedures;\n* Female, between the ages of 18 and 48 years with Body Mass Index (BMI) between 18 and 39, inclusive, is preferred\n* Subject must meet the criteria of mildly or moderately impaired renal function or have normal renal function\n* Subject with renal impairment must have evidence of stable disease\n* If on medications for treatment of the complications of renal disease, and other concommitant chronic illnesses, subject must have been taking the medications at a stable dose for at least 10 days prior to the first Proellex® dosing date and are then to be continued at the same dose for the duration of the study.\n* Negative urine pregnancy test at screening visit\n* Subject must agree to use a medically acceptable and effective non-hormonal double barrier method of birth control\n* Healthy subject must have no significant abnormal findings at the screening physical examination\n* Subject is willing to remain in the clinic for the screening visit (approximately 1 day for the first screening visit) and for the treatment visit (approximately 3 days)\n* Additional inclusion criteria may apply\n\nExclusion Criteria:\n\n* Abnormal screening visit vital signs or clinical laboratory evaluation considered clinically significant\n* Subject with clinically significant abnormal liver function\n* Pregnant or lactating females, or women who are attempting or expecting to become pregnant at any time during the study or one month after the study\n* An acute illness within five (5) days of study medication administration\n* Subject with diagnosed or suspected carcinoma of the breast, reproductive organs or any other organ system\n* Additional exclusion criteria may apply",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "48 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre van As, MD, PhD",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Clinical Pharmacology of Miami, Inc",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33014-3616",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Orlando Clinical Research Center",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32809",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "DaVita Clinical Research",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "New Orleans Center for Clinical Research - Knoxville",
+          "city": "Knoxville",
+          "state": "Tennessee",
+          "zip": "37920",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.96064,
+            "lon": -83.92074
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer Wike",
+        "organization": "Repros Therapeutics Inc.",
+        "email": "jwike@reprosrx.com",
+        "phone": "2817193402"
+      }
+    }
+  }
+}

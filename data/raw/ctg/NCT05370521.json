@@ -1,0 +1,449 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05370521",
+      "orgStudyIdInfo": {
+        "id": "SPR001-210"
+      },
+      "organization": {
+        "fullName": "Spruce Biosciences",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of Safety and Efficacy of Tildacerfont in Females With Polycystic Ovary Syndrome and Elevated Adrenal Androgens",
+      "officialTitle": "A Randomized, Placebo-Controlled, Dose Escalation Study to Evaluate the Safety and Efficacy of Tildacerfont in Adult Subjects With Polycystic Ovary Syndrome (PCOS) and Elevated Adrenal Androgens"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The study was discontinued early by the sponsor",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-05-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-08-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-08-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-05-06",
+      "studyFirstSubmitQcDate": "2022-05-06",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-11",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-07-14",
+      "resultsFirstSubmitQcDate": "2025-09-19",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-10-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Spruce Biosciences",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "An investigation of the safety and efficacy of tildacerfont in women with PCOS and elevated adrenal androgens",
+      "detailedDescription": "This was a phase 2 study to evaluate the efficacy, safety and tolerability of 3 doses of tildacerfont in approximately 39 women with PCOS and elevated adrenal androgens assessed by elevated DHEAS levels. Subjects were randomized 2:1 (tildacerfont:placebo) at baseline. The study consisted of 3 consecutive 4-week treatment periods at each dose level. Duration of participation was approximately 25 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Polycystic Ovary Syndrome"
+      ],
+      "keywords": [
+        "PCOS",
+        "Elevated Adrenal Androgen",
+        "Adrenal Disorder",
+        "Polycystic Ovary Syndrome",
+        "Womens health"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Double-blind randomization performed by IRT",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 27,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment with Tildacerfont",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects randomized in this arm received 4 weeks of 50 mg of oral tildacerfont tablet, followed by 4 weeks of 100 mg oral tildacerfont tablet, and then 4 weeks of 200 mg oral tildacerfont tablet for a total of 12 weeks of treatment.",
+          "interventionNames": [
+            "Drug: Tildacerfont"
+          ]
+        },
+        {
+          "label": "Placebo Control Arm",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Subjects randomized in this arm received 12 weeks of oral matched-placebo tablet",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tildacerfont",
+          "description": "Oral tablet formulation taken once daily.",
+          "armGroupLabels": [
+            "Treatment with Tildacerfont"
+          ],
+          "otherNames": [
+            "SPR001"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Non-active dosage form taken once daily.",
+          "armGroupLabels": [
+            "Placebo Control Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in DHEAS",
+          "description": "To evaluate the effect of tildacerfont in changing (reducing) DHEAS in subjects with PCOS and elevated adrenal androgens",
+          "timeFrame": "12 weeks (assessed at Baseline, Weeks 4, 8 and 12)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Reduction in DHEAS",
+          "description": "Number of subjects with \\>/=30% change from baseline in DHEAS",
+          "timeFrame": "12 weeks (assessed at Baseline, Weeks 4, 8 and 12)"
+        },
+        {
+          "measure": "Normalization of DHEAS",
+          "description": "Number of subjects with DHEAS =/\\< upper limit of normal for DHEAS",
+          "timeFrame": "12 weeks (assessed at Baseline, Weeks 4, 8 and 12)"
+        },
+        {
+          "measure": "Number of Subjects With TEAE as Assessed by CTCAE Version 5",
+          "description": "Evaluation of safety of tildacerfont with PCOS as measured by number of subjects with adverse events following dosing by CTCAE Version 5",
+          "timeFrame": "12 weeks (assessed at Baseline, Weeks 4, 8 and 12)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female subjects aged 18 to 40 years old at Screening visit\n* Diagnosis of PCOS (either historical or during Screening) according to NIH (1990) criteria\n* DHEAS level \\> age-matched upper limit of normal (ULN) at Screening visit\n* Agree to follow industry standard contraception guidelines within protocol\n\nExclusion Criteria:\n\n* Evidence of:\n\n  1. History of congenital adrenal hyperplasia (CAH), Cushing's syndrome, pituitary or adrenal disease\n  2. Clinically significant hyperprolactinemia\n  3. Thyroid stimulating hormone (TSH) \\<0.1 mU/mL or \\>4.5mU/mL at Screening\n  4. Cortisol levels concerning for adrenal insufficiency\n  5. Other findings suggestive of secondary cause for anovulation and/or hyperandrogenemia\n* Total testosterone levels \\>140 ng/dL, DHEAS \\>650 mcg/dL, virilization or other signs or symptoms concerning for ovarian hyperthecosis or androgen-secreting tumors\n* Medical conditions that require glucocorticoid treatment within 30 days of screening and throughout the duration of the study\n* Clinically significant unstable medical conditions, illness, or chronic diseases\n* Prior hysterectomy or bilateral oophorectomy\n* Females who are pregnant or nursing",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Eligibility for females is based on gender assignment at birth.",
+      "minimumAge": "18 Years",
+      "maximumAge": "40 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Will Charlton, MD",
+          "affiliation": "Spruce Biosciences",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Spruce Study Site",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94158",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06519",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33759",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Lake Worth",
+          "state": "Florida",
+          "zip": "33461",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.61708,
+            "lon": -80.07231
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33173",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Winter Park",
+          "state": "Florida",
+          "zip": "32792",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.6,
+            "lon": -81.33924
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Idaho Falls",
+          "state": "Idaho",
+          "zip": "83404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.46658,
+            "lon": -112.03414
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Fall River",
+          "state": "Massachusetts",
+          "zip": "02720",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.70149,
+            "lon": -71.15505
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Southfield",
+          "state": "Michigan",
+          "zip": "48034",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.47337,
+            "lon": -83.22187
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Williamsville",
+          "state": "New York",
+          "zip": "14221",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96395,
+            "lon": -78.73781
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Bedford",
+          "state": "Texas",
+          "zip": "76022",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84402,
+            "lon": -97.14307
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Spruce Study Site",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was terminated by the sponsor; therefore, there were a small number of subjects for analysis."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Chief Medical Officer",
+        "organization": "Spruce Biosciences",
+        "email": "clinicaltrials@sprucebio.com",
+        "phone": "415-655-4169"
+      }
+    }
+  }
+}

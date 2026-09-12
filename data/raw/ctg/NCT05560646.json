@@ -1,0 +1,1247 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05560646",
+      "orgStudyIdInfo": {
+        "id": "OG-6219-P001"
+      },
+      "organization": {
+        "fullName": "Organon and Co",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Investigate Efficacy and Safety of OG-6219 BID in 3 Dose Levels Compared With Placebo in Participants Aged 18 to 49 With Moderate to Severe Endometriosis-related Pain",
+      "officialTitle": "A Phase 2a/b, Randomized, Double-blind, Placebo-controlled, Parallel Group, Multicenter, Clinical Study to Evaluate the Efficacy and Safety of OG-6219 in 3 Dose Levels, in Women 18 to 49 Years of Age With Moderate to Severe Endometriosis-related Pain",
+      "acronym": "ELENA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-10-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-05-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-05-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-09-20",
+      "studyFirstSubmitQcDate": "2022-09-26",
+      "studyFirstPostDateStruct": {
+        "date": "2022-09-29",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2026-02-12",
+      "resultsFirstSubmitQcDate": "2026-04-16",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-05-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Organon and Co",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "IQVIA Pty Ltd",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this global Phase 2 study is to determine the efficacy, safety, and tolerability of 3 dose levels of OG-6219 in pre-menopausal women between 18 and 49 years of age (inclusive), who have moderate to severe endometriosis-related pain.",
+      "detailedDescription": "This is a global multicenter, Phase 2a/b, randomized, double-blind, Placebo-controlled study to assess the efficacy, safety, and tolerability of 3 dose levels of OG-6219, in pre-menopausal women 18 to 49 years of age (inclusive), who have been surgically diagnosed with endometriosis with moderate to severe endometriosis-related pain. This study includes treatment lasting approximately 16 weeks in total and is followed by a Safety Follow-up visit.\n\nPre-menopausal females aged 18 to 49 years old (inclusive), who have been surgically diagnosed with endometriosis will be screened and randomly assigned to study treatment. A minimum subset of 10 participants per treatment group (including Placebo group) will be voluntarily enrolled for optional intensive PK sampling for the entire duration of the study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Endometriosis Related Pain (ERP)",
+        "Endometriosis",
+        "Pre-menopausal women"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 354,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A: OG-6219 Dose 1",
+          "type": "EXPERIMENTAL",
+          "description": "Group A: OG-6219 Dose 1 BID",
+          "interventionNames": [
+            "Drug: OG-6219"
+          ]
+        },
+        {
+          "label": "Group B: OG-6219 Dose 2",
+          "type": "EXPERIMENTAL",
+          "description": "Group B: OG-6219 Dose 2 BID",
+          "interventionNames": [
+            "Drug: OG-6219"
+          ]
+        },
+        {
+          "label": "Group C: OG-6219 Dose 3",
+          "type": "EXPERIMENTAL",
+          "description": "Group C: OG-6219 Dose 3 BID",
+          "interventionNames": [
+            "Drug: OG-6219"
+          ]
+        },
+        {
+          "label": "Group D: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Group D: Placebo BID",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "OG-6219",
+          "description": "OG-6219 Dose 1, Dose 2, Dose 3 BID: Participants will receive (orally) OG-6219 tablets during treatment cycles.",
+          "armGroupLabels": [
+            "Group A: OG-6219 Dose 1",
+            "Group B: OG-6219 Dose 2",
+            "Group C: OG-6219 Dose 3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Participants will receive (orally) OG-6219 Placebo tablets BID during treatment cycles.",
+          "armGroupLabels": [
+            "Group D: Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change From Baseline Cycle in Mean Overall Pelvic Pain Score at Treatment Cycle 3",
+          "description": "Participants completed eDiary items for severity of their pain over the last 24 hours on 11-point NRS for dysmenorrhea or NMPP, and dyspareunia. Each item of the NRS pain severity score ranged from 0 (no pain) to 10 (worst pain imaginable), where lower score indicated a better outcome. The mean OPP score was derived by the pain score for the dysmenorrhea and NMPP items, and score ranged from 0 (no pain) to 10 (worst pain imaginable), where lower score indicated a better outcome. Baseline cycle OPP score was defined as the average daily OPP during baseline cycle.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Percentage of Participants With Treatment-Emergent Adverse Events (TEAEs) and Treatment-Emergent Serious Adverse Events (TESAEs)",
+          "description": "An adverse event (AE) was defined as any untoward medical occurrence in a clinical study participant administered an investigational product and which does not necessarily have a causal relationship with this treatment. An SAE was defined as any AE that at any dose resulted in death, was life-threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in persistent or significant disability/incapacity, was a congenital anomaly/birth defect, or was an important medical event. TEAEs were defined as events that first occur or worsen (increase in severity) after the first dose of study drug, during the treatment period, and up to 14 days (inclusive) after the last dose of study drug administration. Percentages are rounded off to the hundredth decimal place.",
+          "timeFrame": "From the first dose administration of the study drug (Day 1) up to 14 days after the last dose of study drug administration, approximately 108 days"
+        },
+        {
+          "measure": "Percentage of Participants With Treatment-Emergent Adverse Events Leading to Study Treatment Discontinuation",
+          "description": "An AE was defined as any untoward medical occurrence in a clinical study participant administered an investigational product and which does not necessarily have a causal relationship with this treatment. TEAEs were defined as events that first occur or worsen (increase in severity) after the first dose of study drug, during the treatment period, and up to 14 days (inclusive) after the last dose of study drug administration. The TEAEs leading to permanent discontinuation of study drug was identified by using the 'Action taken with study treatment' variable equal to 'Drug withdrawal' from the AE page of the electronic case report form. Percentages are rounded off to the hundredth decimal place.",
+          "timeFrame": "From the first dose administration of the study drug (Day 1) up to 14 days after the last dose of study drug administration, approximately 108 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change From Baseline Cycle in Mean Dysmenorrhea Score at Treatment Cycle 3",
+          "description": "Participants completed eDiary items for severity of their pain over the last 24 hours on 11-point NRS for dysmenorrhea. Each item of the NRS pain severity score ranged from 0 (no pain) to 10 (worst pain imaginable), where lower score indicated a better outcome. The mean dysmenorrhea score was calculated for each cycle as the total of daily dysmenorrhea scores reported during the cycle divided by the number of days during the cycle when a dysmenorrhea score was reported. Baseline cycle started at the start of menses associated with Visit 3 and ended at the day before the start of menses associated with Visit 4, or the day of Visit 4, whichever comes first.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Change From Baseline Cycle in Mean Non-Menstrual Pelvic Pain Score at Treatment Cycle 3",
+          "description": "Participants completed eDiary items for severity of their pain over the last 24 hours on 11-point NRS for dysmenorrhea. Each item of the NRS pain severity score ranged from 0 (no pain) to 10 (worst pain imaginable), where lower score indicated a better outcome. The mean NMPP score was calculated for each cycle as the total of daily NMPP scores reported during the cycle divided by the number of days during the cycle when a NMPP score was reported. Baseline cycle started at the start of menses associated with Visit 3 and ended at the day before the start of menses associated with Visit 4, or the day of Visit 4, whichever comes first.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Change From Baseline Cycle in Mean Dyspareunia Score at Treatment Cycle 3",
+          "description": "Participants completed eDiary items for severity of their pain over the last 24 hours on 11-point NRS for dyspareunia. Each item of the NRS pain severity score ranged from 0 (no pain) to 10 (worst pain imaginable), where lower score indicated a better outcome. The mean dyspareunia score was calculated for each cycle as the total of dyspareunia scores reported during each cycle divided by the number of days when participants engaged in any sexual activity that involved full vaginal penetration during each cycle (that is, the number of days during the baseline cycle when a dyspareunia score was reported). Baseline cycle started at the start of menses associated with Visit 3 and ended at the day before the start of menses associated with Visit 4, or the day of Visit 4, whichever comes first.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Change From Baseline Cycle in Mean Number of Rescue Medication Tablets Used for Endometriosis-Related Pain at Treatment Cycles 1, 2 and 3",
+          "description": "Participants were asked daily whether they used the rescue medication in the past 24 hours to treat their ERP. If yes, the number of tablets was documented. The mean number of tablets of rescue medication for ERP was calculated for each cycle as the total number of tablets of rescue medication for ERP reported during the cycle, divided by the number of days during the cycle when a value was reported. Baseline cycle started at the start of menses associated with Visit 3 and ended at the day before the start of menses associated with Visit 4, or the day of Visit 4, whichever comes first.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycles 1 (Day 32), 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Change From Baseline Cycle in Percentage of Days With Participants Used Rescue Medication for Endometriosis-Related Pain at Treatment Cycles 1, 2 and 3",
+          "description": "Participants were asked daily whether they used the rescue medication in the past 24 hours to treat their ERP. If yes, the number of tablets was documented. The percentage of days participant had used rescue medication for ERP was calculated for each cycle as the total number of days participant had used any rescue medication for ERP, divided by the number of days during the cycle when a value was reported. Baseline cycle started at the start of menses associated with Visit 3 and ended at the day before the start of menses associated with Visit 4, or the day of Visit 4, whichever comes first.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycles 1 (Day 32), 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Change From Start of Treatment Cycle 1 in Participants With Patient Global Impression of Severity (PGI-S) to Start of Treatment Cycle 2, End of Treatment Cycles 2 and 3",
+          "description": "The PGI-S was a single item measuring the overall severity of pelvic pain over the past 7 days on a 4-point Likert-type scale (0=None, 1=Mild, 2=Moderate, 3=Severe), score ranged from 0 (none) and 3 (severe), where lower score indicated a better outcome. Treatment Cycle 1 was the period between the first day of menses associated with treatment start (Visit 4) to the day prior to the first day of next menses, regardless of number of days.",
+          "timeFrame": "Start of Treatment Cycle 1 (Day 1) and start of Treatment Cycle 2 (Day 33), end of Treatment Cycles 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Percentage of Participants With Any Improvement on the Patient Global Impression of Change (PGI-C) at Start of Treatment Cycle 2 and End of Treatment Cycles 2 and 3",
+          "description": "The PGI-C was a single item measuring the change in pelvic pain since the start of the study drug on a 5-point scale (0=much better, 1=a little better, 2=no change, 3=a little worse, 4=much worse), score ranged from 0 (much better) and 4 (much worse), where lower score indicated a better outcome. Participants with any improvement on the PGI-C were defined as a PGI-C score of 0 or 1 (0=much better and 1=a little better). Treatment Cycle 2 was the period between the first day of menses associated with start of treatment Cycle 2 to the day prior to the first day of next menses, regardless of number of days.",
+          "timeFrame": "Start of Treatment Cycle 2 (Day 33), end of Treatment Cycles 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Change From Baseline Cycle in Endometriosis Health Profile-30 (EHP-30) Domains Score at Treatment Cycle 3",
+          "description": "The EHP-30 was a validated disease specific patient-reported outcome instrument measuring the health-related quality of life of women with endometriosis on a 5-point Likert-type scale (0=never, 1=rarely, 2=sometimes, 3=often, 4=always). The EHP-30 consisted of 30 items with following domains: pain (11 items), score ranged from 0 (never) to 44 (always); controls and powerlessness (6 items), score ranged from 0 (never) to 24 (always); emotional well-being (6 items), score ranged from 0 (never) to 24 (always); social support (4 items), score ranged from 0 (never) to 16 (always); and self-image (3 items), score ranged from 0 (never) to 12 (always). Each domain lower score indicated a better outcome. Total EHP-30 score ranged from 0 (never) and 120 (always), where lower score indicated a better outcome. Baseline cycle started at the start of menses associated with Visit 3 and ended at the day before the start of menses associated with Visit 4, or the day of Visit 4, whichever comes first.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in C-Telopeptide of Type I Collagen (CTX) and Procollagen Type I N-Terminal Propeptide (P1NP) at End of Treatment Cycle 3",
+          "description": "Potential effects on bone was monitored by biomarkers of bone resorption and formation. Bone resorption was determined by assessing CTX level and bone formation was determined by assessing P1NP level. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and end of Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in Bone-Specific Alkaline Phosphatase (BSAP) and Osteocalcin at End of Treatment Cycle 3",
+          "description": "Potential effects on bone was monitored by biomarkers of bone resorption and formation. Bone formation was determined by assessing BSAP and osteocalcin level. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and end of Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in N-Telopeptide of Type I Collagen (NTX) at End of Treatment Cycle 3",
+          "description": "Potential effects on bone was monitored by biomarkers of bone resorption and formation. Bone resorption was determined by assessing NTX level. Screening (Visit 1) was defined as the last measurement before study drug administration. nmol BCE/L= nanomoles of bone collagen equivalents per liter.",
+          "timeFrame": "Screening visit (Day -84) and end of Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in Tartrate-Resistant Acid Phosphatase 5b (TRAP5b) at End of Treatment Cycle 3",
+          "description": "Potential effects on bone was monitored by biomarkers of bone resorption and formation. Bone resorption was determined by assessing TRAP5b level. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and end of Treatment Cycle 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Number of Participants With Clinically Significant Laboratory Abnormalities",
+          "description": "Blood samples were collected to determine the clinical laboratory abnormalities. The laboratory assessments included chemistry, hematology and urinalysis.",
+          "timeFrame": "From the first dose administration of the study drug (Day 1) up to 14 days after the last dose of study drug administration, approximately 108 days"
+        },
+        {
+          "measure": "Mean Change From Baseline Cycle in Sum of Days on Period at Treatment Cycles 1, 2 and 3",
+          "description": "Participants recorded the presence of bleeding or spotting daily in the eDiary. The daily questions to assess bleeding pattern in the eDiary were \"1a: During the past 24 hours, did you have any vaginal bleeding or spotting? If the response is \"Yes\", then the next question is, \"1b: During the past 24 hours, have you been on your period?\". Baseline cycle started at the start of menses associated with Visit 3 and ended at the day before the start of menses associated with Visit 4, or the day of Visit 4, whichever comes first.",
+          "timeFrame": "Baseline Cycle (up to Day -28) and Treatment Cycles 1 (Day 32), 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Number of Participants With Clinically Significant Electrocardiogram (ECG) Parameters Abnormalities",
+          "description": "Triplicate standard 12-lead ECGs was obtained after the participant was in supine position for at least 5 minutes. The ECG measurements was summarized by taking the average of the available assessments. Only clinically significant ECG abnormalities are reported.",
+          "timeFrame": "From the first dose administration of the study drug (Day 1) up to 14 days after the last dose of study drug administration, approximately 108 days"
+        },
+        {
+          "measure": "Mean Change From Screening in Luteinizing Hormone (LH) and Follicle Stimulating Hormone (FSH) at 7 Days After Urine Luteinizing Hormone Surge and End of Treatment Cycles 2 and 3",
+          "description": "Blood samples were collected to determine the serum level of LH and FSH. The LH surge was determined with urine LH kit at home. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and 7 days after urine LH surge, end of Treatment Cycles 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in Estrone (E1) at 7 Days After Urine Luteinizing Hormone Surge and End of Treatment Cycles 2 and 3",
+          "description": "Blood samples were collected to determine the serum level of E1. The LH surge was determined with urine LH kit at home. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and 7 days after urine LH surge, end of Treatment Cycles 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in Progesterone, Testosterone and Dehydroepiandrosterone (DHEA) at 7 Days After Urine Luteinizing Hormone Surge and End of Treatment Cycles 2 and 3",
+          "description": "Blood samples were collected to determine the serum level of progesterone, testosterone and DHEA. The LH surge was determined with urine LH kit at home. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and 7 days after urine LH surge, end of Treatment Cycles 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in Free Testosterone and Estradiol (E2) at 7 Days After Urine Luteinizing Hormone Surge and End of Treatment Cycles 2 and 3",
+          "description": "Blood samples were collected to determine the serum level of free testosterone and E2. The LH surge was determined with urine LH kit at home. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and 7 days after urine LH surge, end of Treatment Cycles 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Mean Change From Screening in Dehydroepiandrosterone Sulfate (DHEAS) at 7 Days After Urine Luteinizing Hormone Surge and End of Treatment Cycles 2 and 3",
+          "description": "Blood samples were collected to determine the serum level of DHEAS. The LH surge was determined with urine LH kit at home. Screening (Visit 1) was defined as the last measurement before study drug administration.",
+          "timeFrame": "Screening visit (Day -84) and 7 days after urine LH surge, end of Treatment Cycles 2 (Day 64) and 3 (Day 95). Each cycle was referred to 1 menstrual cycle (approximately 21 to 32 days)."
+        },
+        {
+          "measure": "Plasma Concentrations of OG-6219 and FOR-1011",
+          "description": "Blood samples were collected to determine plasma concentration of OG-6219 and FOR-1011. The plasma concentration of OG-6219 and FOR-1011 was analyzed using an appropriate validated bioanalytical method.",
+          "timeFrame": "Pre-witness dose and 1.5 hours postdose on start of Treatment Cycle 1 (Day 1), at 7 days after urine LH surge, and end of Treatment Cycle 2; Pre-witness dose on end of Treatment Cycle 3"
+        },
+        {
+          "measure": "Maximum Concentration (Cmax) of OG-6219 and FOR-1011",
+          "description": "Blood samples were collected to determine Cmax of OG-6219 and FOR-1011. The Cmax of OG-6219 and FOR-1011 was calculated using non-compartmental method. NCA= Noncompartmental analysis.",
+          "timeFrame": "Pre-witness dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8 and 12 hours postdose on start of Treatment Cycle 1 (Day 1) and at 7 days after urine LH surge"
+        },
+        {
+          "measure": "Time Taken to Reach the Maximum Concentration (Tmax) of OG-6219 and FOR-1011",
+          "description": "Blood samples were collected to determine tmax of OG-6219 and FOR-1011. The tmax of OG-6219 and FOR-1011 was calculated using non-compartmental method.",
+          "timeFrame": "Pre-witness dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8 and 12 hours postdose on start of Treatment Cycle 1 (Day 1) and at 7 days after urine LH surge"
+        },
+        {
+          "measure": "Area Under the Plasma Concentration-Time Curve During a Dosing Interval (AUCtau) of OG-6219 and FOR-1011",
+          "description": "Blood samples were collected to determine AUCtau of OG-6219 and FOR-1011. The AUCtau of OG-6219 and FOR-1011 was calculated using non-compartmental method.",
+          "timeFrame": "Pre-witness dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8 and 12 hours postdose on start of Treatment Cycle 1 (Day 1) and at 7 days after urine LH surge"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Pre-menopausal females of age 18 to 49 years old (inclusive) at the time of signing Informed Consent (V1).\n* Surgically (laparoscopy or laparotomy) diagnosed with endometriosis\n* Moderate to severe endometriosis-related pelvic pain\n* Regular menstrual cycles\n* Is not expected to undergo a planned gynecological surgery or other surgical procedures for treatment of endometriosis during study participation.\n* Normal breast exam at V1. In participants of ≥40 years mammography or contrast-enhanced breast MRI performed within the last 12 months prior to Screening (V1) without clinically significant abnormal findings.\n* Agree not to participate in another interventional study while participating in the present study.\n* Able and willing to adhere to study procedures, including\n* agree to use 2 forms of non-hormonal contraception throughout the study\n* Must be willing and able to provide signed informed consent before any study-related activities\n* Has demonstrated compliance with ≥75% of eDiary entries\n* Has a negative pregnancy test\n\nExclusion Criteria:\n\n* Surgical history of hysterectomy and/or bilateral oophorectomy\n* Chronic pelvic and/or non-pelvic pain not caused by endometriosis that requires chronic analgesic or other chronic therapy\n* Undiagnosed (unexplained), abnormal vaginal bleeding not associated with endometriosis within the past 6 months before screening.\n* Presence of high-risk human papillomavirus (HPV).\n* Has an active sexually transmitted infection (STI) (eg, gonorrhea, chlamydia, or trichomonas).\n* Intends to become pregnant or breast feed during study participation or has a known or suspected pregnancy.\n* History of malignancy (except for basal cell or squamous cell skin cancer) before signing informed consent.\n* History of family history of hereditary abnormal hemoglobin or an enzyme deficiency that can result in methemoglobinemia.\n* Has a medical condition associated with hemolytic anemia\n* Known human immunodeficiency virus infection, and/or acute or active, recurrent/relapsing, or chronic infection (eg, hepatitis A, B, or C virus)\n* Has a clinically significant abnormal ECG or QT interval prolongation\n* Used any medication that is either a sensitive substrate, moderate, or strong inhibitor or inducer of CYP3A4 within 30 days or 10 half-lives (whichever is longer) prior to the planned first day of dosing.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Clinical Lead Late-Stage Clinical Development",
+          "affiliation": "Organon and Co",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Central Research Associates LLC dba Flourish Research",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "UAB Center for Women's Reproductive Health",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35233",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Olympia Clinical Trials",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90036",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Yale Fertility Center",
+          "city": "Orange",
+          "state": "Connecticut",
+          "zip": "06477",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.27843,
+            "lon": -73.02566
+          }
+        },
+        {
+          "facility": "Physician Care Clinical Research, LLC",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "University of South Florida",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "MediSense Inc",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30363",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Paramount Research Solutions",
+          "city": "College Park",
+          "state": "Georgia",
+          "zip": "30349",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.65344,
+            "lon": -84.44937
+          }
+        },
+        {
+          "facility": "Infinite Clinical Trials",
+          "city": "Morrow",
+          "state": "Georgia",
+          "zip": "30260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.58317,
+            "lon": -84.33937
+          }
+        },
+        {
+          "facility": "The Advanced Gynecologic Surgery Institute",
+          "city": "Park Ridge",
+          "state": "Illinois",
+          "zip": "60068",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.01114,
+            "lon": -87.84062
+          }
+        },
+        {
+          "facility": "Ochsner Health Center - Baptist McFarland Medical Plaza",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Omni Fertility and Laser Institute",
+          "city": "Shreveport",
+          "state": "Louisiana",
+          "zip": "71118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          }
+        },
+        {
+          "facility": "John Hopkins University",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Bosque Women's Care",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "University of Cincinnati",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45267-0502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Centricity Research Dublin",
+          "city": "Dublin",
+          "state": "Ohio",
+          "zip": "43016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.09923,
+            "lon": -83.11408
+          }
+        },
+        {
+          "facility": "Penn State Health Women's Health Clinic",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Clinical Research of Philadelphia, LLC",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Palmetto Clinical Research",
+          "city": "Summerville",
+          "state": "South Carolina",
+          "zip": "29485",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.0185,
+            "lon": -80.17565
+          }
+        },
+        {
+          "facility": "Chattanooga Medical Research, LLC",
+          "city": "Chattanooga",
+          "state": "Tennessee",
+          "zip": "37404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.04563,
+            "lon": -85.30968
+          }
+        },
+        {
+          "facility": "Cedar Health Research, LLC",
+          "city": "Euless",
+          "state": "Texas",
+          "zip": "76040",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.83707,
+            "lon": -97.08195
+          }
+        },
+        {
+          "facility": "The Women's Hospital of Texas",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Clinical Trial Network LLC",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77074",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Northeast Clinical Research of San Antonio",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78233",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Wasatch Clinical Research",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Tidewater Clinical Research",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Seattle Women's: Health, Research, Gynecology",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Cliniques Universitaires Saint-Luc",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "AZ Jan Palfijn Gent",
+          "city": "Ghent",
+          "zip": "9000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "Universitair Ziekenhuis Ghent",
+          "city": "Ghent",
+          "zip": "9000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "Jessa Ziekenhuis Hospital",
+          "city": "Hasselt",
+          "zip": "3500",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93106,
+            "lon": 5.33781
+          }
+        },
+        {
+          "facility": "CHU de Tivoli",
+          "city": "La Louvière",
+          "zip": "7100",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.48657,
+            "lon": 4.18785
+          }
+        },
+        {
+          "facility": "Medical Center Repromed EOOD",
+          "city": "Pleven",
+          "zip": "5800",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.41791,
+            "lon": 24.61666
+          }
+        },
+        {
+          "facility": "UMHAT \"Sv. Georgi\", EAD",
+          "city": "Plovdiv",
+          "zip": "4002",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.15387,
+            "lon": 24.75001
+          }
+        },
+        {
+          "facility": "DCC \" Ascendent\" EAD",
+          "city": "Sofia",
+          "zip": "1202",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "SHATOD - Sofia District, EOOD",
+          "city": "Sofia",
+          "zip": "1233",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "MHAT for women's health - Nadezhda, OOD",
+          "city": "Sofia",
+          "zip": "1330",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "DCC \"Alexandrovska\", EOOD",
+          "city": "Sofia",
+          "zip": "1431",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Medical Center Hera EOOD",
+          "city": "Sofia",
+          "zip": "1510",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Group practice for specialized medical care in the field of obstetrics and gynecology - Gin Art OOD",
+          "city": "Sofia",
+          "zip": "1606",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "MHAT NiaMed OOD",
+          "city": "Stara Zagora",
+          "zip": "6000",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.43205,
+            "lon": 25.64262
+          }
+        },
+        {
+          "facility": "Acibadem City Clinic MC Varna EOOD",
+          "city": "Varna",
+          "zip": "9002",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.21912,
+            "lon": 27.91024
+          }
+        },
+        {
+          "facility": "Fakultni nemocnice Brno",
+          "city": "Brno",
+          "zip": "602 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Fertimed s.r.o.",
+          "city": "Olomouc",
+          "zip": "77900",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.59552,
+            "lon": 17.25175
+          }
+        },
+        {
+          "facility": "Fakultni nemocnice Kralovske Vinohrady",
+          "city": "Prague",
+          "zip": "100 34",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Femina Sana s.r.o.",
+          "city": "Prague",
+          "zip": "130 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Ustav pro peci o matku a dite",
+          "city": "Prague",
+          "zip": "147 10",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Hopital Saint Joseph Paris",
+          "city": "Paris",
+          "state": "Paris",
+          "zip": "75674",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Cochin",
+          "city": "Paris",
+          "zip": "75014",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hopital Tenon",
+          "city": "Paris",
+          "zip": "75020",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hospital of Hautepierre",
+          "city": "Strasbourg",
+          "zip": "67200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Duesseldorf AoeR",
+          "city": "Düsseldorf",
+          "state": "North Rhine-Westphalia",
+          "zip": "40225",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.22319,
+            "lon": 6.77927
+          }
+        },
+        {
+          "facility": "Charité - Campus Benjamin Franklin",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Universitätsklinikum des Saarlandes",
+          "city": "Homburg",
+          "zip": "D-66421",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.32637,
+            "lon": 7.33867
+          }
+        },
+        {
+          "facility": "Clinexpert Kft.",
+          "city": "Budapest",
+          "zip": "1033",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Semmelweis Egyetem",
+          "city": "Budapest",
+          "zip": "1082",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Szent Anna Maganrendelo",
+          "city": "Debrecen",
+          "zip": "4024",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "Somogy Varmegyei Kaposi Mor Oktato Korhaz",
+          "city": "Kaposvár",
+          "zip": "7400",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.36667,
+            "lon": 17.8
+          }
+        },
+        {
+          "facility": "Szabolcs-Szatmar-Bereg Varmegyei Oktatokorhaz",
+          "city": "Nyíregyháza",
+          "zip": "4400",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.95539,
+            "lon": 21.71671
+          }
+        },
+        {
+          "facility": "Fondazione IRCCS CA' Granda Ospedale Maggiore Policlinico",
+          "city": "Seriate",
+          "state": "Milano",
+          "zip": "20122",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.68532,
+            "lon": 9.72487
+          }
+        },
+        {
+          "facility": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+          "city": "Rome",
+          "state": "Roma",
+          "zip": "168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        },
+        {
+          "facility": "Università di Cagliari-Presidio Policlinico Monserrato",
+          "city": "Monserrato",
+          "zip": "09042",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 39.25642,
+            "lon": 9.1444
+          }
+        },
+        {
+          "facility": "University of Siena Policlinico",
+          "city": "Siena",
+          "zip": "53100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "Centro Ricerche Cliniche di Verona s.r.l.",
+          "city": "Verona",
+          "zip": "37134",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.43854,
+            "lon": 10.9938
+          }
+        },
+        {
+          "facility": "Latvian Maritime Medical Centre",
+          "city": "Riga",
+          "zip": "LV-1005",
+          "country": "Latvia",
+          "geoPoint": {
+            "lat": 56.946,
+            "lon": 24.10589
+          }
+        },
+        {
+          "facility": "Vitols & Vitols, Ltd.",
+          "city": "Riga",
+          "zip": "LV-1006",
+          "country": "Latvia",
+          "geoPoint": {
+            "lat": 56.946,
+            "lon": 24.10589
+          }
+        },
+        {
+          "facility": "Dr. Vasaraudze's Private Clinic",
+          "city": "Riga",
+          "zip": "LV-1011",
+          "country": "Latvia",
+          "geoPoint": {
+            "lat": 56.946,
+            "lon": 24.10589
+          }
+        },
+        {
+          "facility": "Przychodnia Wielospecjalistyczna Sk-Medica Spółka Z O.O.",
+          "city": "Wroclaw",
+          "state": "Dolnoslask",
+          "zip": "54-034",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Specjalistyczna Poradnia Ginekologiczna Janusz Tomaszewski Spółka Komandytowa",
+          "city": "Bialystok",
+          "zip": "15-224",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Klinika Leczenia Niepłodności, Ginekologii i Położnictwa Bocian",
+          "city": "Bialystok",
+          "zip": "15-267",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Klinika Leczenia Niepłodności, Ginekologii i Położnictwa Bocian",
+          "city": "Katowice",
+          "zip": "40-081",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "Clinical Medical Research Sp. z o.o.",
+          "city": "Katowice",
+          "zip": "40-156",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "NZOZ Medem",
+          "city": "Katowice",
+          "zip": "40-301",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "Centra Medyczne Medyceusz",
+          "city": "Lodz",
+          "zip": "91-053",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Specjalistyczny Gabinet Ginekologiczno-Położniczy",
+          "city": "Lublin",
+          "zip": "20-064",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Centrum Medyczne Chodzki HLK",
+          "city": "Lublin",
+          "zip": "20-093",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "KO-MED Centra Kliniczne Lublin II",
+          "city": "Lublin",
+          "zip": "20-362",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "ETYKA Osrodek Badan Klinicznych",
+          "city": "Olsztyn",
+          "zip": "10-117",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.78376,
+            "lon": 20.49272
+          }
+        },
+        {
+          "facility": "Etg Siedlce",
+          "city": "Siedlce",
+          "zip": "08-110",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.16772,
+            "lon": 22.29006
+          }
+        },
+        {
+          "facility": "Klinika Leczenia Niepłodności, Ginekologii i Położnictwa Bocian",
+          "city": "Szczecin",
+          "zip": "70-225",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.42894,
+            "lon": 14.55302
+          }
+        },
+        {
+          "facility": "MICS Centrum Medyczne Torun",
+          "city": "Torun",
+          "zip": "87-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.01375,
+            "lon": 18.59814
+          }
+        },
+        {
+          "facility": "Specjalistyczna Praktyka Lekar",
+          "city": "Warsaw",
+          "zip": "00-144",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "PRATIA S.A. MTZ Clinical Research Powered by Pratia",
+          "city": "Warsaw",
+          "zip": "02-172",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "WIM Panstwowy Instytut Badawczy Centralny Szpital Kliniczny MON",
+          "city": "Warsaw",
+          "zip": "04-141",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Karolinska University Hospital",
+          "city": "Stockholm",
+          "zip": "17176",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Danderyd Sjukhus",
+          "city": "Stockholm",
+          "zip": "182 88",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "https://www.elenaendometriosisstudy.com/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Clinical Lead, Late-Stage Clinical Development",
+        "organization": "Organon LLC, a subsidiary of Organon and Co.",
+        "email": "pdrl@organon.com",
+        "phone": "551-430-6000"
+      }
+    }
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00556075",
+      "orgStudyIdInfo": {
+        "id": "ZPE-201"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Efficacy Study to Evaluate Proellex in the Treatment of Premenopausal Women With Symptomatic Endometriosis",
+      "officialTitle": "A Phase II, Three-Arm, Parallel Design, Dose-Ranging Placebo-Controlled, Randomized, Double-Blind, Multicenter Study Evaluating the Safety and Efficacy of Proellex in the Treatment of Premenopausal Women With Symptomatic Endometriosis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Clinical hold for safety",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2007-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-11-07",
+      "studyFirstSubmitQcDate": "2007-11-08",
+      "studyFirstPostDateStruct": {
+        "date": "2007-11-09",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-24",
+      "resultsFirstSubmitQcDate": "2014-08-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-25",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether Proellex is safe and effective for the treatment of symptomatic endometriosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Endometriosis",
+        "Pelvic pain",
+        "Oral progesterone blocker"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 67,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo once daily",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "25 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 25 mg once daily",
+          "interventionNames": [
+            "Drug: Proellex 25 mg"
+          ]
+        },
+        {
+          "label": "50 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 50 mg once daily",
+          "interventionNames": [
+            "Drug: Proellex 50 mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Proellex 25 mg",
+          "description": "1 capsule daily for 4 months",
+          "armGroupLabels": [
+            "25 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "1 capsule daily for 4 months",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Proellex 50 mg",
+          "description": "2 capsules daily for 4 months",
+          "armGroupLabels": [
+            "50 mg"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difference Between the 50 mg Proellex Group and Placebo Group in the Month 4 Subject Diary Composite Pain Score",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Difference Between the 25 mg and 50 mg Proellex Groups and Placebo Group in the Month 4 Subject Diary Composite Pain Score",
+          "timeFrame": "4 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Difference Between Each Treatment Group in the Subject Diary Composite Pain Score at the Monthly Visits",
+          "timeFrame": "monthly"
+        },
+        {
+          "measure": "Time to Pain-free Assessments Using the Composite Pain Score as Determined by Data Recorded in the Subject Diaries",
+          "timeFrame": "days"
+        },
+        {
+          "measure": "Duration of Pain-free Assessments Using the Composite Pain Score as Determined by Data Recorded in the Subject Diaries",
+          "timeFrame": "days"
+        },
+        {
+          "measure": "The Number of Days With Pain as Determined by Data Recorded in the Subject Diaries, Analyzed Between Treatment Groups at the Monthly Visits",
+          "timeFrame": "days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Premenopausal women aged 18-48 inclusive\n* Endometriosis documented by laparoscopic or surgical assessment within the past ten (10) years\n* Clinical symptoms of endometriosis for at least the past three (3) months\n* Endometriosis symptoms\n* Must be sexually active unless sexually inactive for endometriosis-related dyspareunia\n* Must have a regular or steady menstrual cycle lasting from 24 to 36 days and a detectable ovulation during the baseline period using an ovulation monitoring kit (for timing of endometrial biopsy)\n* Other inclusion criteria may apply\n\nExclusion Criteria:\n\n* Six (6) months or more without a menstrual period, or\n* Prior hysterectomy or\n* Prior bilateral oophorectomy\n* Diagnosis of osteopenia\n* Present history or condition that causes non-endometriosis-related dyspareunia\n* Presence of excessive bleeding or menorrhagia\n* Abnormal screening endometrial biopsy\n* Other exclusion criteria may apply",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "48 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre vanAs, MD, PhD",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Advanced Clinical Therapeutics, LLC",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Lynn Institute of the Ozarks",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "Medical Center for Clinical Research",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Compass Clinical Research",
+          "city": "San Ramon",
+          "state": "California",
+          "zip": "94583",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77993,
+            "lon": -121.97802
+          }
+        },
+        {
+          "facility": "Altus Research",
+          "city": "Lake Worth",
+          "state": "Florida",
+          "zip": "33461",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.61708,
+            "lon": -80.07231
+          }
+        },
+        {
+          "facility": "Comprehensive Clinical Trials",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33409",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Medical Associates",
+          "city": "Dubuque",
+          "state": "Iowa",
+          "zip": "52002",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.50056,
+            "lon": -90.66457
+          }
+        },
+        {
+          "facility": "Physicians for Women",
+          "city": "Cary",
+          "state": "North Carolina",
+          "zip": "27511",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.79154,
+            "lon": -78.78112
+          }
+        },
+        {
+          "facility": "Wake Research Associates",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Rapid Medical Research, Inc.",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "HWC Women's Research Center",
+          "city": "Miamisburg",
+          "state": "Ohio",
+          "zip": "45342",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.64284,
+            "lon": -84.28661
+          }
+        },
+        {
+          "facility": "SC Clinical Research Center, LLC",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "Gaffney Pharmaceutical Research",
+          "city": "Gaffney",
+          "state": "South Carolina",
+          "zip": "29340",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.07179,
+            "lon": -81.64982
+          }
+        },
+        {
+          "facility": "Greenville Pharma Research",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29615",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "Advanced Research Associates",
+          "city": "Corpus Christi",
+          "state": "Texas",
+          "zip": "78414",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.80058,
+            "lon": -97.39638
+          }
+        },
+        {
+          "facility": "Clinical Trials of Texas/Institute for Women's Health",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Clinical Trials of Texas/Seven Oaks Women's Center",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with complete study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer L. Wike",
+        "organization": "Repros Therapeutics Inc.",
+        "email": "jwike@reprosrx.com",
+        "phone": "2817193402"
+      }
+    }
+  }
+}

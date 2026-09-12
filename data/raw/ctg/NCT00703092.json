@@ -1,0 +1,195 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00703092",
+      "orgStudyIdInfo": {
+        "id": "HM11246"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2U54HD034449",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2U54HD034449"
+        }
+      ],
+      "organization": {
+        "fullName": "Virginia Commonwealth University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pilot Study:Role of Dietary Fiber in PCOS Anovulation",
+      "officialTitle": "Pilot Study: Role of Dietary Fiber in PCOS Anovulation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "P.I. left University. Study terminated",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-06-20",
+      "studyFirstSubmitQcDate": "2008-06-20",
+      "studyFirstPostDateStruct": {
+        "date": "2008-06-23",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-05-27",
+      "resultsFirstSubmitQcDate": "2014-06-27",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-06-30",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-09-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-10-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Virginia Commonwealth University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether 6 months of fiber supplementation will improve ovulation in women with polycystic ovary syndrome (PCOS).",
+      "detailedDescription": "We hypothesize that 6 months of fiber supplementation will improve ovulation in women with PCOS by improving insulin sensitivity independent of weight loss. In this pilot study, we will determine the feasibility of conducting a larger double-blind, randomized trial in women with PCOS to test this hypothesis. We will evaluate 15 women over a 10-month period, starting with a 4-month intervention-free observation period to determine the effect on ovulation of adding up to 22g/day of fiber supplementation to their usual weight-maintenance diets (to achieve 28-36 g fiber/day assuming baseline dietary fiber intake, could feasibly be translated into clinical practice."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "PCOS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Fiber-Stat",
+          "type": "EXPERIMENTAL",
+          "description": "2 tablespoons daily",
+          "interventionNames": [
+            "Drug: Fiber-Stat"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Fiber-Stat",
+          "description": "Liquid fiber supplement, 2 tablespoons twice daily.",
+          "armGroupLabels": [
+            "Fiber-Stat"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Generate Preliminary Data on the Range of Outcome Measures at Baseline and After 6 Months of Fiber Supplementation in Terms of: Ovulation Rates, Insulin Sensitivity, Concentrations of Circulating Androgens and Satiety.",
+          "timeFrame": "10 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Quantify Enrollment Strategies, Retention, Compliance, Participant Characteristics, and Data Collection Challenges.",
+          "timeFrame": "10 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women with PCOS between the ages of 18-45 years and with a body mass index of less than or equal to 45\n* Less than or equal to 8 periods annually\n* elevated serum free testosterone concentrations\n* normal thyroid function tests and serum prolactin\n* exclusion of late-onset adrenal hyperplasia\n* acceptable health based on interview, medical history,physical examination, and lab tests\n* ability to comply with the requirements of the study\n* ability and willingness to provide signed, witnessed informed consent\n\nExclusion Criteria:\n\n* Diabetes mellitus\n* Clinically significant pulmonary,cardiac ,renal,hepatic,neurologic,psychiatric,infectious,and malignant disease\n* high blood pressure\n* current or recent(within 2 months prior to study entry) injection of any drugs known or suspected to affect reproductive function including oral contraceptives,metformin,thiazolidinediones,glucocorticoids, GnRH-agonists, or anti-androgens (spironolactone,flutamide,etc)\n* documented or suspected history of use of recent (within one year) illicit drug abuse or alcoholism\n* ingestion of any investigational drugs within 4 weeks prior to study onset\n* pregnancy or lactation(less than or equal to 6 weeks postpartum)",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Paulina A Essah, M.D.",
+          "affiliation": "Virginia Commonwealth University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "VCU General Clinical Research Center",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "http://www.vcu.edu/pcos"
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. John Nestler",
+        "organization": "Virginia Commonwealth University",
+        "email": "jnestler@mcvh-vcu.edu",
+        "phone": "804-828-3389"
+      }
+    }
+  }
+}

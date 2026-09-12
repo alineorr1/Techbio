@@ -1,0 +1,375 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00735553",
+      "orgStudyIdInfo": {
+        "id": "ZPU-303"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluating the Safety and Efficacy of Proellex® (CDB-4124) in Premenopausal Women With Symptomatic Uterine Fibroids",
+      "officialTitle": "A Phase III, Three-arm, Parallel Design, Placebo-controlled, Randomized, Double-blind, Multicenter Study Evaluating the Safety and Efficacy of Proellex® (CDB-4124) in the Treatment of Premenopausal Women With Symptomatic Uterine Fibroids"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Repros stopped the study for safety and FDA put the study on hold for safety.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-08-13",
+      "studyFirstSubmitQcDate": "2008-08-13",
+      "studyFirstPostDateStruct": {
+        "date": "2008-08-15",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-25",
+      "resultsFirstSubmitQcDate": "2014-08-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Premenopausal women with symptomatic uterine fibroids will be randomized to either Proellex 25mg or 50mg or placebo for one treatment cycle (four months). Safety and effectiveness between 50 mg versus placebo, and between 25mg and placebo will be analyzed.",
+      "detailedDescription": "Subjects with documented uterine fibroids, screening UFS-QOL severity score of at least 40, and meeting other eligibility criteria will be enrolled in the study. Following screening and a pre-treatment endometrial biopsy, subjects will be assessed monthly for the four (4) month double-blinded treatment phase. The study duration is approximately six months, comprised of a one-month screening period, 4 month treatment period and one month follow-up period. Subjects' blood will be drawn in a fasting state to obtain the pre-dose trough (PK) levels of study drug at each study drug dosing/dispensation visit to determine the potential for drug accumulation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Uterine Fibroids"
+      ],
+      "keywords": [
+        "Uterine Fibroids"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 77,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "25 mg Proellex",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "25 mg oral daily dose of Proellex",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        },
+        {
+          "label": "50 mg Proellex",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "50 mg oral daily dose of Proellex",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        },
+        {
+          "label": "placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "oral daily dose of placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Proellex",
+          "description": "One 25 mg capsule of Proellex® and one placebo capsule orally daily for up to four months",
+          "armGroupLabels": [
+            "25 mg Proellex"
+          ],
+          "otherNames": [
+            "Telapristone acetate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Proellex",
+          "description": "Two 25 mg mg capsules of Proellex® orally daily for up to four months",
+          "armGroupLabels": [
+            "50 mg Proellex"
+          ],
+          "otherNames": [
+            "Telapristone acetate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Two placebo capsules orally daily for up to four months",
+          "armGroupLabels": [
+            "placebo"
+          ],
+          "otherNames": [
+            "Sugar pill"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To Determine the Efficacy of 50 mg Proellex® Versus Placebo in the Treatment of Subjects With Symptomatic Uterine Fibroids From Baseline to Month 4 as Determined by Scoring Changes in the Pictorial Blood Loss Assessment Chart (PBAC)",
+          "timeFrame": "4 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Speak, read and understand English or Spanish;\n* Not have undergone hysterectomy, uterine arterial embolization or endometrial ablation therapy (previous myomectomy is acceptable) for any cause and no surgical interventions for uterine fibroids (e.g. hysterectomy, myomectomy, uterine arterial embolization) are planned or anticipated during the study;\n* One uterine fibroid must be identifiable and measurable by transvaginal ultrasound;\n* Menstrual cycle lasting from 24 to 36 days;\n* History of excessive menstrual bleeding;\n* Negative urine pregnancy test at screening.\n\nExclusion Criteria:\n\n* Six months or more (immediately prior to Screening Visit) without a menstrual period;\n* Prior hysterectomy;\n* Prior bilateral oophorectomy;\n* Pregnant or lactating females or women who are attempting or expecting to become pregnant at any time during the study;\n* Documented endometriosis, active pelvic inflammatory disease (PID), platelet dysfunction, or Von Willebrand's Disease;\n* Any history or diagnosis of gynecological cancer or cervical dysplasia of any grade including atypical squamous cells of undetermined significance (ASCUS) associated with Human Papilloma Virus (HPV);\n* Subject with diagnosed or suspected carcinoma of the breast, reproductive organs or any other organ system;\n* Subject with known active infection with HIV, Hepatitis A, B or C, Gonorrhea, or Chlamydia or previous history of auto-immune disease or positive serum antinuclear antibodies.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "48 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre vanAs, MD, PhD",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Alabama Clinical Therapeutics",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35235",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Women's Health Research",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85015",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Genova Clinical Research, Inc.",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85741",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Women's Health Care at Frost Steet",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Downtown Women's Health Care",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Visions Clinical Research",
+          "city": "Boynton Beach",
+          "state": "Florida",
+          "zip": "33472",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.52535,
+            "lon": -80.06643
+          }
+        },
+        {
+          "facility": "OB-GYN Associates of Mid-Florida, P.A.",
+          "city": "Leesburg",
+          "state": "Florida",
+          "zip": "34748",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.81082,
+            "lon": -81.87786
+          }
+        },
+        {
+          "facility": "Miami Research Associates",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Insignia Clinical Research",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33613",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "SC Clinical Research Center",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "Advanced Research Associates",
+          "city": "Corpus Christi",
+          "state": "Texas",
+          "zip": "78414",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.80058,
+            "lon": -97.39638
+          }
+        },
+        {
+          "facility": "Advances in Health Inc.",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "The Woman's Hospital of Texas, Clinical Research Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Institute for Women's Health",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Seven Oaks Women's Ctr.",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer Wike",
+        "organization": "Repros Therapeutics Inc.",
+        "email": "jwike@reprosrx.com",
+        "phone": "2817193402"
+      }
+    }
+  }
+}

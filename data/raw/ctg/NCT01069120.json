@@ -1,0 +1,231 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01069120",
+      "orgStudyIdInfo": {
+        "id": "ZPU-307"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety of 25 and 50 mg Proellex® in the Treatment of Women With Symptomatic Uterine Fibroids",
+      "officialTitle": "A Phase III Multicenter Extension Study Evaluating the Safety of 25 and 50 mg Proellex® in the Treatment of Women Who Have Completed ZPU-301, ZPU-302, ZPU-303, or ZPU-304"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Repros stopped study due to safety and FDA placed study on hold",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-02-10",
+      "studyFirstSubmitQcDate": "2010-02-16",
+      "studyFirstPostDateStruct": {
+        "date": "2010-02-17",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-25",
+      "resultsFirstSubmitQcDate": "2014-08-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Safety and efficacy study of 25 and 50 mg doses of Proellex",
+      "detailedDescription": "The study is intended to provide more abundant safety and efficacy data of both the 25 and 50 mg doses of Proellex than ZPU-301, ZPU-302, ZPU-303 and ZPU-304 alone."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Uterine Fibroids"
+      ],
+      "keywords": [
+        "Uterine Fibroids"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 27,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "50 mg Proellex®",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "2, 25 mg capsules",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        },
+        {
+          "label": "25 mg Proellex®",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "1, 25 mg capsule",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Proellex",
+          "description": "2, 25 mg capsules once per day",
+          "armGroupLabels": [
+            "50 mg Proellex®"
+          ],
+          "otherNames": [
+            "CDB-4124"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Proellex",
+          "description": "1, 25 mg capsule once per day",
+          "armGroupLabels": [
+            "25 mg Proellex®"
+          ],
+          "otherNames": [
+            "CDB-4124"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To Assess the Incidence of Adverse Events (AE) and Serious Adverse Events (SAEs)",
+          "timeFrame": "During two 4 month treatment periods"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 1 uterine fibroid must be identifiable and measurable by Transvaginal Ultrasound (TVU)\n* Subject has a menstrual cycle lasting from 20 to 40 days.\n* Subject must have satisfactorily completed all study visits from the previous study in which she participated: ZPU-301, ZPU-302, ZPU-303, or ZPU-304\n\nExclusion Criteria:\n\n* Subjects who have not participated in 1 of the previous Repros studies: ZPU-301, ZPU-302, ZPU-303, or ZPU-304.\n* Subjects who met treatment stopping rules as per the DILI Guidance requirements while participating in ZPU-301, ZPU-302, ZPU-303, or ZPU-304",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre vanAS, PhD, Md",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Visions Clinical Research",
+          "city": "Boynton Beach",
+          "state": "Florida",
+          "zip": "33472",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.52535,
+            "lon": -80.06643
+          }
+        },
+        {
+          "facility": "Insignia Clinical Research (Tampa Bay Women's Center)",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33067",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Advances in Health Inc",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "The Women's Hospital of Texas, Clinical Research Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer Wike",
+        "organization": "Repros Therapeutics Inc.",
+        "email": "jwike@reprosrx.com",
+        "phone": "2817193402"
+      }
+    }
+  }
+}

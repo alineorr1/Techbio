@@ -1,0 +1,254 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00683917",
+      "orgStudyIdInfo": {
+        "id": "ZPU-202"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Pharmacokinetics, Safety and Efficacy Study of Proellex in Pre-menopausal Women With Symptomatic Uterine Fibroids",
+      "officialTitle": "A Multi-center, Active Controlled, Pharmacokinetic, Safety and Efficacy Study of Proellex in Pre-Menopausal Women With Symptomatic Uterine Fibroids to Assess Persistence of Response"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Repros stopped the study for safety and FDA put the study on hold for safety.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-05-22",
+      "studyFirstSubmitQcDate": "2008-05-23",
+      "studyFirstPostDateStruct": {
+        "date": "2008-05-26",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-25",
+      "resultsFirstSubmitQcDate": "2014-08-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "PK of 25 mg and 50 mg Proellex® administered once daily (QD) over a 4-month period.",
+      "detailedDescription": "The primary objective is to evaluate the pharmacokinetics (PK) of 25 mg and 50 mg Proellex® administered once daily (QD) over a 4-month period."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Uterine Fibroids"
+      ],
+      "keywords": [
+        "Uterine fibroids",
+        "Fibroids"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Proellex 25 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 25 mg",
+          "interventionNames": [
+            "Drug: Proellex 25 mg"
+          ]
+        },
+        {
+          "label": "Proellex 50 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 50 mg",
+          "interventionNames": [
+            "Drug: Proellex 50 mg"
+          ]
+        },
+        {
+          "label": "Lupron",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Lupron Depot",
+          "interventionNames": [
+            "Drug: Lupron Depot"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Proellex 25 mg",
+          "description": "Proellex 25 mg, 1 capsule daily for 4 months",
+          "armGroupLabels": [
+            "Proellex 25 mg"
+          ],
+          "otherNames": [
+            "Telapristone acetate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Proellex 50 mg",
+          "description": "Proellex 50 mg, 2 capsules daily for 4 months",
+          "armGroupLabels": [
+            "Proellex 50 mg"
+          ],
+          "otherNames": [
+            "Telapristone acetate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Lupron Depot",
+          "description": "Lupron 3.75 mg monthly intramuscular injections for 4 months",
+          "armGroupLabels": [
+            "Lupron"
+          ],
+          "otherNames": [
+            "Leuprolide acetate"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Primary Outcome Measure is the PK Characteristics of 25 mg and 50 mg Proellex.",
+          "timeFrame": "4 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female subjects between the ages of 18 and 45 years with body mass index (BMI) between 18 and 35 mg/kg2 inclusive\n* Surgical interventions for uterine fibroids (e.g., hysterectomy, myomectomy, or uterine arterial embolization) must not be planned or anticipated during the study\n* Subject must have the following uterine fibroid-associated symptom: history of excessive menstrual bleeding\n* Regular or steady menstrual cycle lasting from 24 to 36 days\n* Willing to comply with all study procedures including the endometrial biopsies and PK blood draws for all visits including follow-up visits\n* Subject must agree to use a medically acceptable and effective non-hormonal, double barrier birth control method throughout the study and for 30 days following the end of the study or discontinuation of study drug\n\nExclusion Criteria:\n\n* Documented endometriosis or active pelvic inflammatory disease\n* History of alcohol and/or drug abuse\n* Any history or diagnosis of gynecological cancer or cervical dysplasia\n* Use of an IUD\n* Use of prohibited concomitant medications:\n\n  * Use of Depo-Provera must cease 10 months prior to first dose of study drug\n  * Use of GnRH agonists (e.g., Lupron®) must cease 4 months prior to first dose of study drug and Lupton® Depot 8 months prior to the first visit\n* Known active infection with HIV; Hepatitis A, B or C; gonorrhea; or chlamydia",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre vanAs, MD, PhD",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Physician Care Clinical Research",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Advances in Health, Inc.",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "West Houston Clinical Research Services",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77055",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Centro de Estudios Cientificos y Clinicos Pharma, S.A. de C.V. (CECYC-Pharma)",
+          "city": "Mexico City",
+          "state": "Federal District",
+          "zip": "03100",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer Wike",
+        "organization": "Repros Therapeutics Inc.",
+        "email": "jwike@reprosrx.com",
+        "phone": "2817193402"
+      }
+    }
+  }
+}

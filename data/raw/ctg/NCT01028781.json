@@ -1,0 +1,156 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01028781",
+      "orgStudyIdInfo": {
+        "id": "65681"
+      },
+      "organization": {
+        "fullName": "University of North Carolina, Chapel Hill",
+        "class": "OTHER"
+      },
+      "briefTitle": "Open Label of Thalidomide in Treatment of Women With Chronic Pelvic Pain Associated With Endometriosis",
+      "officialTitle": "Open Label of Thalidomide in Treatment of Women With Chronic Pelvic Pain Associated With Endometriosis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2011-12",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Difficulty finding eligible participants and lack of funding.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2006-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-12-07",
+      "studyFirstSubmitQcDate": "2009-12-08",
+      "studyFirstPostDateStruct": {
+        "date": "2009-12-09",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2011-12-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2011-12-20",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of North Carolina, Chapel Hill",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Celgene Corporation",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients will undergo a standard history and physical examination detailing objective clinical exam findings performed by one of the co-investigators. The research coordinator will obtain baseline values for intensity of pain, quality of life, and coping strategies. Baseline serum levels inflammatory markers will then be measured. Over the course of 12 weeks Thalidomide will be titrated as tolerated to achieve a minimum of a 30% reduction of pain on VAS from week 2."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 9,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Thalidomide",
+          "type": "OTHER",
+          "description": "Thalidomide was administered and pain reports were recorded over the course of 6 months.",
+          "interventionNames": [
+            "Drug: Thalidomide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Thalidomide",
+          "description": "Pill form, 50mgs with increasing dosage up to a maximum of 250 mg qd based on pain reports, taken once daily for 14-16 weeks with one 6 month follow-up appointment.",
+          "armGroupLabels": [
+            "Thalidomide"
+          ],
+          "otherNames": [
+            "Thalomid"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "pain report",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \\> 18 years\n2. Histologically/laparoscopically confirmed endometriosis\n3. Chronic pelvic pain defined as non-menstrual pain for at least two weeks in the previous month for at least 6 months\n4. VAS of 6 or more at baseline\n5. Failure, completion or intolerance of standard treatment modalities (oral contraceptive therapy, danazol, Depo-Provera, Depo-Lupron)\n6. Patients must give written informed consent.\n7. Patients must be willing and able to comply with the FDA-mandated S.T.E.P.S.® program.\n\nExclusion Criteria:\n\n1. Pregnant and/or lactating female\n2. Users of other angiogenesis inhibitors\n3. Current use of Rifampin, rifabutin, barbiturates, glucocorticoids, phenytoin, carbamazepine, chlorpromazine, reserpine, penicillin derivatives, or St. Johns Wart in user of oral contraceptive therapy\n4. Use of aromatase inhibitors, Etanercept (Enbrel), GnRH agonists (Depo-Lupron), and Danazol within the past 3 months\n5. Use of norethindrone acetate (Aygestin) in the prior month\n6. Seizure disorder\n7. Hepatitis, or any active infection (upper respiratory infection, PID, etc)\n8. History of thromboembolic disease.\n9. Baseline neutropenia (ANC \\< 1000/mm\\^3)\n10. Any severe physical or metal illness that would interfere with the completion of the protocol\n11. Illicit drug or alcohol abuse",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Denniz Zolnoun, MD, MPH",
+          "affiliation": "University of North Carolina, Chapel Hill",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UNC Chapel Hill",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27599",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

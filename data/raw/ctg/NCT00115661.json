@@ -1,0 +1,181 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00115661",
+      "orgStudyIdInfo": {
+        "id": "2004-1013"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1K23HD043952-01A2",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1K23HD043952-01A2"
+        }
+      ],
+      "organization": {
+        "fullName": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+        "class": "NIH"
+      },
+      "briefTitle": "Use of Rosiglitazone in the Treatment of Endometriosis",
+      "officialTitle": "Treatment of Endometriosis Pain With Rosiglitazone: A Prospective Phase 2 Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to the meta-analysis about CV adverse effects of rosiglitazone.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2006-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2006-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-06-23",
+      "studyFirstSubmitQcDate": "2005-06-23",
+      "studyFirstPostDateStruct": {
+        "date": "2005-06-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-10-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-10-17",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dan Lebovic",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Wisconsin, Madison"
+      },
+      "leadSponsor": {
+        "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+        "class": "NIH"
+      },
+      "collaborators": [
+        {
+          "name": "Berlex Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to perform a pilot study on the efficacy of rosiglitazone in reducing pelvic pain in early stage endometriosis patients.",
+      "detailedDescription": "There is no current pain control in women with minimal-mild endometriosis that concomitantly allows them the chance to conceive. Women between the ages of 18 and 45 years with minimal to mild endometriosis and pelvic pain of greater than three months duration, will be enrolled into a 6-month prospective phase 2 clinical trial.\n\nComparison: Following enrollment, one week after the last menstrual period, eligible participants will be randomized to a 6-month treatment of rosiglitazone 4 mg/day. Efficacy comparisons will be made utilizing visual analog scale diaries, Short-Form McGill Pain Questionnaires and physical component summary scores of the SF-36. Secondary measures will include cytokine quantification, proteomics, gene array analyses and serious adverse effects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Peroxisome Proliferator-Activated Receptors",
+        "treatment of endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 25,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rosiglitazone"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "28-day visual analog scale diary (one for each day for 4 weeks) at baseline and at conclusion of 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Short-Form McGill Pain Questionnaire at study entry and at 3 and 6 months"
+        },
+        {
+          "measure": "Physical component summary score of the SF-36 at baseline and at 3 and 6 months"
+        },
+        {
+          "measure": "Cytokine quantification"
+        },
+        {
+          "measure": "Proteomics"
+        },
+        {
+          "measure": "Gene array analyses"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy women ages 18 - 45 years.\n* Regular menstrual cycles (24-35 days).\n* Pelvic pain ≥ 3 months with cyclical component.\n* Negative pregnancy test and must use nonhormonal contraception.\n* Non-lactating.\n* No history of liver disease.\n* Consent to participate in the study.\n* Endometriosis diagnosed from surgical specimen by routine hematoxylin and eosin staining and histological evaluation within the past 4 years.\n\nExclusion Criteria:\n\n* Major psychiatric conditions or the abuse of alcohol or drugs which would make it difficult for the subject to complete study procedures.\n* Active or prior infection with hepatitis, human immunodeficiency virus (HIV) infection, or history of high-risk activities (e.g., IV drug abuse) which would increase risk to laboratory personnel. Of note, no testing for hepatitis or HIV will be performed as part of this study and all tissues will be handled and discarded as if they were potentially infected.\n* Patients with liver dysfunction (elevated liver enzymes \\> 2 times the upper limit of normal).\n* Presence of pre-existing malignancy, including carcinoma of the breast or uterus.\n* Women with other causes of chronic pelvic pain including infectious, gastrointestinal, musculoskeletal, neurologic or psychiatric.\n* Elevated WBC.\n* NYHA functional class I-IV heart failure.\n* Diabetics.\n* Known pregnancy or positive pregnancy test.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dan I Lebovic, MD, MA",
+          "affiliation": "University of Michigan",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Michigan Health System",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "15474065",
+          "type": "BACKGROUND",
+          "citation": "Lebovic DI, Kir M, Casey CL. Peroxisome proliferator-activated receptor-gamma induces regression of endometrial explants in a rat model of endometriosis. Fertil Steril. 2004 Oct;82 Suppl 3:1008-13. doi: 10.1016/j.fertnstert.2004.02.148."
+        },
+        {
+          "pmid": "19641325",
+          "type": "DERIVED",
+          "citation": "Moravek MB, Ward EA, Lebovic DI. Thiazolidinediones as therapy for endometriosis: a case series. Gynecol Obstet Invest. 2009;68(3):167-70. doi: 10.1159/000230713. Epub 2009 Jul 30."
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,555 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02865915",
+      "orgStudyIdInfo": {
+        "id": "MLE4901-101"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-002179-91",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2016",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2016"
+        }
+      ],
+      "organization": {
+        "fullName": "Millendo Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "MLE4901 vs. Placebo for the Treatment of PCOS",
+      "officialTitle": "A Double-blind, Randomized, Parallel-group, Placebo-controlled Study of MLE4901 for the Treatment of Polycystic Ovary Syndrome (PCOS)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The risk/benefit profile no longer indicated continued development.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-08-10",
+      "studyFirstSubmitQcDate": "2016-08-10",
+      "studyFirstPostDateStruct": {
+        "date": "2016-08-15",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-06-01",
+      "resultsFirstSubmitQcDate": "2020-06-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-06-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-01-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-02-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Millendo Therapeutics US, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Medpace, Inc.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Covance",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 2b double-blind, randomized, parallel-group, placebo-controlled study of MLE4901 versus placebo in women with PCOS.",
+      "detailedDescription": "Following a Screening/Wash-out Period of up to 12 weeks, an 8-week Lead-in Period (starting with a progestin challenge) will be used to better characterize the study population. A Treatment Period of 28 weeks' duration will follow the Lead-in Period. Then, an 8-week Follow-up Period (i.e., no study drug) will be used to assess the durability of effects of MLE4901. The study duration will be approximately 48 weeks (11 months) per subject"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Polycystic Ovary Syndrome (PCOS)"
+      ],
+      "keywords": [
+        "Acne",
+        "Hirsutism",
+        "Menstrual Irregularity",
+        "Alopecia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 55,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Plain, round, biconvex, white film-coated tablets that appear identical to MLE4901 tablets",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "MLE4901",
+          "type": "EXPERIMENTAL",
+          "description": "Plain, round, biconvex, white film-coated tablets administered twice per day",
+          "interventionNames": [
+            "Drug: MLE4901"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "MLE4901",
+          "description": "For 80% of subjects randomized to MLE4901 (n=24/30), the dose is 40 mg twice daily. Six subjects (20%) randomized to higher MLE4901 dose cohorts that were promptly discontinued.",
+          "armGroupLabels": [
+            "MLE4901"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo to match active drug",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Menstrual Cycle Duration",
+          "description": "Assessment of the number of days between menstrual cycles (i.e., days between the start of a menstrual period and the start of the next consecutive menstrual period) from baseline to end of 28 week double blind treatment period",
+          "timeFrame": "28 Week double blind treatment period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Menstrual Periods",
+          "description": "Number of menstrual periods from baseline to the end of the 28 week double blind treatment period",
+          "timeFrame": "28 Week double blind treatment period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Oligo-/amenorrhea\n2. At least one of the following during Screening:\n\n   * Clinical signs of hyperandrogenism, where clinical hyperandrogenism may include hirsutism (defined as excessive terminal hair that appears in a male pattern), acne, or androgenic alopecia\n   * Biochemical hyperandrogenism refers to an elevated serum androgen level (i.e., total, bioavailable or free testosterone level ≥ULN)\n   * Polycystic ovarian morphology, defined as the presence of 12 or more follicles 2-9 mm in diameter and/or an increased ovarian volume \\>10 mL (without a cyst or dominant follicle) in either ovary\n3. Body mass index (BMI) 22 to 45 kg/m2, inclusive\n4. Must be willing to avoid use of all hair removal procedures and products during study participation\n5. Must be willing to avoid all prescription treatments for acne and not increase the dose or frequency of their current non-prescription acne treatment regimen during study participation\n6. Must be willing to avoid the use of all hair growth procedures and products during study participation\n7. Permanently surgically sterilized (bilateral salpingectomy or tubal occlusion) \\>2 years or male partner(s) has had a vasectomy \\>2 years or must consent to use two permitted medically-acceptable methods of contraception throughout the study during any sexual intercourse with a male partner. Permitted medically-acceptable methods of birth control for this study are defined as use of a male condom plus one of the following: spermicide, diaphragm with spermicide, or an intrauterine device that does not contain steroid hormones.\n\nExclusion Criteria:\n\n1. Menopausal or peri-menopausal, defined for this study as FSH (follicle stimulating hormone ) \\>10 IU/L\n2. Irregular vaginal/menstrual bleeding caused by conditions other than PCOS (e.g., uterine polyps or submucosal uterine fibroids)\n3. Abnormal Papanicolaou (Pap) test during Screening requiring follow-up sooner than 1 year after the test\n4. Uncontrolled hypo- or hyperthyroidism\n5. Post-hysterectomy or endometrial ablation\n6. Post-oophorectomy (unilateral or bilateral) or other ovarian surgery\n7. Medical history of type 1 or type 2 diabetes mellitus",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hope Research Institute, LLC",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85018",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "NEA Baptist Clinic",
+          "city": "Jonesboro",
+          "state": "Arkansas",
+          "zip": "72401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.8423,
+            "lon": -90.70428
+          }
+        },
+        {
+          "facility": "Excell Research",
+          "city": "Oceanside",
+          "state": "California",
+          "zip": "92056",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.19587,
+            "lon": -117.37948
+          }
+        },
+        {
+          "facility": "Clinical Research Consulting, LLC",
+          "city": "Milford",
+          "state": "Connecticut",
+          "zip": "06460",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.22232,
+            "lon": -73.0565
+          }
+        },
+        {
+          "facility": "Avail Clinical Research, LLC",
+          "city": "DeLand",
+          "state": "Florida",
+          "zip": "32720",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.02832,
+            "lon": -81.30312
+          }
+        },
+        {
+          "facility": "Health Care Family Rehab & Research Center",
+          "city": "Hialeah",
+          "state": "Florida",
+          "zip": "33012",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.8576,
+            "lon": -80.27811
+          }
+        },
+        {
+          "facility": "University of Florida (UF)",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Palmetto Professional Research",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33175",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Segal Institute for Clinical Research",
+          "city": "North Miami",
+          "state": "Florida",
+          "zip": "33161",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.89009,
+            "lon": -80.18671
+          }
+        },
+        {
+          "facility": "Compass Research, LLC",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32806",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Stedman Clinical Trials, LLC",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33613",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Atlanta Women's Research Institute",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30342",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Advanced Clinical Research",
+          "city": "Boise",
+          "state": "Idaho",
+          "zip": "83642",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.6135,
+            "lon": -116.20345
+          }
+        },
+        {
+          "facility": "Womens Health Practice",
+          "city": "Champaign",
+          "state": "Illinois",
+          "zip": "61820",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.11642,
+            "lon": -88.24338
+          }
+        },
+        {
+          "facility": "GTC Enterprises LLC",
+          "city": "Shawnee Mission",
+          "state": "Kansas",
+          "zip": "66218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.02,
+            "lon": -94.66583
+          }
+        },
+        {
+          "facility": "Montana Health Research Institute, Inc.",
+          "city": "Billings",
+          "state": "Montana",
+          "zip": "59102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.78329,
+            "lon": -108.50069
+          }
+        },
+        {
+          "facility": "Upstate Clinical Research Associates",
+          "city": "Williamsville",
+          "state": "New York",
+          "zip": "14221",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96395,
+            "lon": -78.73781
+          }
+        },
+        {
+          "facility": "PMG Research of Cary",
+          "city": "Cary",
+          "state": "North Carolina",
+          "zip": "27518",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.79154,
+            "lon": -78.78112
+          }
+        },
+        {
+          "facility": "Rapid Medical Research, Inc.",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Aventiv Research, Inc.",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "University Hospitals Cleveland Medical Center",
+          "city": "Mayfield Heights",
+          "state": "Ohio",
+          "zip": "44124",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.51922,
+            "lon": -81.4579
+          }
+        },
+        {
+          "facility": "Clinical Research of Tiffin",
+          "city": "Tiffin",
+          "state": "Ohio",
+          "zip": "44883",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.1145,
+            "lon": -83.17797
+          }
+        },
+        {
+          "facility": "Main Line Fertility and Reproductive Medicine",
+          "city": "Bryn Mawr",
+          "state": "Pennsylvania",
+          "zip": "19010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.30396,
+            "lon": -80.08672
+          }
+        },
+        {
+          "facility": "The Pennsylvania State University (Penn State) Milton S. Hershey Medical Center",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "University of Pennsylvania Perelman Center for Advanced Medicine - Penn Fertility Care",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Magnolia OB/GYN Research Center",
+          "city": "Myrtle Beach",
+          "state": "South Carolina",
+          "zip": "29572",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.68906,
+            "lon": -78.88669
+          }
+        },
+        {
+          "facility": "Texas Diabetes and Endocrinology, P.A. - South Austin",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78749",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Wasatch Clinical Research",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Highland Clinical Research",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84124",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Charlottesville Medical Research Center, LLC",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22911",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        },
+        {
+          "facility": "Tidewater Clinical Research, Inc.",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Due to termination of the study by the Sponsor, no patients completed the study. No efficacy data are available because study termination occurred prior to scheduled assessments."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Director of Clinical Operations",
+        "organization": "Millendo Therapeutics US, Inc.",
+        "email": "millendo@millendo.com",
+        "phone": "734-845-9000"
+      }
+    }
+  }
+}

@@ -90,6 +90,12 @@ def _classify_stop(why: str | None, source_text: str) -> tuple[str, str]:
     def has(*needles: str) -> bool:
         return any(n in w for n in needles)
 
+    # Supply/COVID closures are operational even if the sentence mentions "safety".
+    if has("shortage", "covid 19", "covid-19", "sars-cov") and not has(
+        "hepat", "clinical hold", "carcinogen"
+    ):
+        return "other", evidence
+
     # Negated safety ("not for safety concerns") is strategy, not a safety stop.
     negated_safety = has(
         "not for safety",
@@ -113,6 +119,10 @@ def _classify_stop(why: str | None, source_text: str) -> tuple[str, str]:
         "risk-benefit",
         "fda put the study on hold",
         "on hold for safety",
+        "increased lfts",
+        "lfts",
+        "liver enzyme",
+        "carcinogen",
     ):
         return "safety", evidence
     if has("irb did not", "ind issue", "ind issues", "regulatory"):

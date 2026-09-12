@@ -1,0 +1,243 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04118777",
+      "orgStudyIdInfo": {
+        "id": "123"
+      },
+      "organization": {
+        "fullName": "University of Tennessee, Chattanooga",
+        "class": "OTHER"
+      },
+      "briefTitle": "Postoperative Narcotic Use After Laparoscopic Gynecologic Surgery",
+      "officialTitle": "Postoperative Narcotic Use After Laparoscopic Gynecologic Surgery: A Randomized, Double-blind, Placebo-controlled Trial Comparing Continuous Intraperitoneal Infusion of Ropivacaine Versus Saline for Post-operative Pain Control"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-07",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Misregistered to wrong sponsor.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-05-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2020-07-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-10-01",
+      "studyFirstSubmitQcDate": "2019-10-04",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-07-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-07-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Tennessee, Chattanooga",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This will be a prospective, randomized, double blinded placebo-controlled study at Erlanger hospital. Eligible patients who provide consent will be randomized into one of two arms receiving continuous intra-peritoneal local anesthetic with 0.2% Ropivacaine or saline.",
+      "detailedDescription": "This will be a prospective, randomized, double blinded placebo-controlled study at Erlanger hospital. Eligible patients who provide consent will be randomized into one of two arms receiving continuous intra-peritoneal local anesthetic with 0.2% Ropivacaine or saline. After inclusion criteria are met and consents are obtained all patients will be sent home with a pain measurement, a pill diary to record the quantity of narcotic tablets taken, and a questionnaire nausea and vomiting symptoms.\n\nAfter placement of the ON-Q pain pump the select-a-flow rate will be set to 6 mL/hr for all study participants. . All study participants will be provided with rescue pain medications as needed. If possible non-narcotic medications such as Tylenol and non-steroidal anti-inflammatory's will be utilized first. If pain persists narcotic medications will be provided. Oxycodone 5 mg will be utilized unless a patient reported allergy exists. All rescue narcotics utilized will be converted into morphine equivalents and documented. All patients will be discharged with Oxycodone 5 mg with 35 tablets which provides pain coverage for 7 days after surgery. In addition to Oxycodone all patients will be discharged with Sprix, a nasal non-steroidal anti-inflammatory medication, as well as Zofran and movantik, a medication for narcotic induced constipation. All patients will be instructed to administer Sprix by placing one puff into each nostril every 6 hours for a total of 5 days after surgery. They will further be instructed to take oral Tylenol 1000 mg every 6 hours for a total of 4 days after surgery. Assigned research personnel will contact all patients to obtain the results of their survey and pill dairy at 48 hours and one week after surgery. Patients will then present for a two-week post-operative visit where study personnel will complete data collection. All study participants who request a narcotic refill within 6 weeks of surgery will be documented."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pelvic Pain",
+        "Endometriosis",
+        "Pelvic Prolapse"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "this will be a double-blinded study. Study participants will be randomized into one of two study arms by the pharmacy staff after using a random number generator.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "0.2 % Ropivacaine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "An ON-Q pain pump will be placed into the pelvic cavity and 0.2% Ropivacaine will be continuously administered intraperitoneally at a rate of 6 mL/hr.",
+          "interventionNames": [
+            "Drug: Ropivacaine"
+          ]
+        },
+        {
+          "label": "Saline",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "An ON-Q pain pump will be placed into the pelvic cavity and saline will be continuously administered intraperitoneally at a rate of 6 mL/hr",
+          "interventionNames": [
+            "Drug: Ropivacaine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ropivacaine",
+          "description": "0.2 % Ropivacaine will be continuously administered intraperitoneally at a rate of 6 mL/hr",
+          "armGroupLabels": [
+            "0.2 % Ropivacaine",
+            "Saline"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Amount of rescue narcotics consumed in the postoperative period, calculated as morphine equivalents.",
+          "description": "All rescue oral narcotics taken in the post-operative period will be converted to morphine equivalents and recorded",
+          "timeFrame": "6 weeks after surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "post-operative pain scores",
+          "description": "Pain scores will be obtained via the visual analog scale (VAS). The VAS tool measures pain on a scale from 0 to 10 with 0 being no pain and 10 being unbearable pain.",
+          "timeFrame": "1,2, 4, and 48 hours after surgery. 1 and 2 weeks after surgery"
+        },
+        {
+          "measure": "nausea and vomiting",
+          "description": "The postoperative nausea and vomiting impact scale will be used to measure the presence and amount of nausea and vomiting. The scale measures the amount of vomiting from 0 ( no vomiting) to 3 ( three or more episodes of vomiting). The second questions measures the presence of nausea and then the amount from o ( no nausea) to 3 ( all of the time).",
+          "timeFrame": "48 hours, 1 week, and 2 weeks after surgery"
+        },
+        {
+          "measure": "Hospital discharge",
+          "description": "Time to discharge",
+          "timeFrame": "post-operative day zero to two"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. All patients undergoing laparoscopic gynecologic surgery with either the traditional \"straight stick\" or robotic assisted techniques will be considered for eligibility. Eligible patients will include those with pelvic pain and endometriosis as well as those who present for pelvic floor reconstruction. Surgical procedures performed will include excision of endometriosis, lysis of adhesions, hysterectomy, bilateral or unilateral salpingo-oophorectomy, cystectomy, and pelvic reconstruction.\n2. Patients who are 18 years or older\n3. Patients who provide written surgical consent\n4. Patients who are capable and willing to follow up with surveys and complete pain and pill diaries\n\nExclusion Criteria:\n\n1. Patients who are unable or willing to provide consent and complete the follow up surveys and dairies\n2. Patients who are allergic to Ropivacaine\n3. Patients whose minimally invasive procedures were converted to laparotomies",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29215508",
+          "type": "BACKGROUND",
+          "citation": "Madsen AM, Stark LM, Has P, Emerson JB, Schulkin J, Matteson KA. Opioid Knowledge and Prescribing Practices Among Obstetrician-Gynecologists. Obstet Gynecol. 2018 Jan;131(1):150-157. doi: 10.1097/AOG.0000000000002407."
+        },
+        {
+          "pmid": "29112660",
+          "type": "BACKGROUND",
+          "citation": "As-Sanie S, Till SR, Mowers EL, Lim CS, Skinner BD, Fritsch L, Tsodikov A, Dalton VK, Clauw DJ, Brummett CM. Opioid Prescribing Patterns, Patient Use, and Postoperative Pain After Hysterectomy for Benign Indications. Obstet Gynecol. 2017 Dec;130(6):1261-1268. doi: 10.1097/AOG.0000000000002344."
+        },
+        {
+          "pmid": "28889218",
+          "type": "BACKGROUND",
+          "citation": "Hota LS, Warda HA, Haviland MJ, Searle FM, Hacker MR. Opioid use following gynecologic and pelvic reconstructive surgery. Int Urogynecol J. 2018 Oct;29(10):1441-1445. doi: 10.1007/s00192-017-3474-5. Epub 2017 Sep 9."
+        },
+        {
+          "pmid": "28403427",
+          "type": "BACKGROUND",
+          "citation": "Brummett CM, Waljee JF, Goesling J, Moser S, Lin P, Englesbe MJ, Bohnert ASB, Kheterpal S, Nallamothu BK. New Persistent Opioid Use After Minor and Major Surgical Procedures in US Adults. JAMA Surg. 2017 Jun 21;152(6):e170504. doi: 10.1001/jamasurg.2017.0504. Epub 2017 Jun 21."
+        },
+        {
+          "pmid": "28564673",
+          "type": "BACKGROUND",
+          "citation": "Wick EC, Grant MC, Wu CL. Postoperative Multimodal Analgesia Pain Management With Nonopioid Analgesics and Techniques: A Review. JAMA Surg. 2017 Jul 1;152(7):691-697. doi: 10.1001/jamasurg.2017.0898."
+        },
+        {
+          "pmid": "24185607",
+          "type": "BACKGROUND",
+          "citation": "Perniola A, Fant F, Magnuson A, Axelsson K, Gupta A. Postoperative pain after abdominal hysterectomy: a randomized, double-blind, controlled trial comparing continuous infusion vs patient-controlled intraperitoneal injection of local anaesthetic. Br J Anaesth. 2014 Feb;112(2):328-36. doi: 10.1093/bja/aet345. Epub 2013 Oct 31."
+        },
+        {
+          "pmid": "24327987",
+          "type": "BACKGROUND",
+          "citation": "Chung D, Lee YJ, Jo MH, Park HJ, Lim GW, Cho H, Nam EJ, Kim SW, Kim JH, Kim YT, Kim S. The ON-Q pain management system in elective gynecology oncologic surgery: Management of postoperative surgical site pain compared to intravenous patient-controlled analgesia. Obstet Gynecol Sci. 2013 Mar;56(2):93-101. doi: 10.5468/OGS.2013.56.2.93. Epub 2013 Mar 12."
+        },
+        {
+          "pmid": "15385371",
+          "type": "BACKGROUND",
+          "citation": "Gupta A, Perniola A, Axelsson K, Thorn SE, Crafoord K, Rawal N. Postoperative pain after abdominal hysterectomy: a double-blind comparison between placebo and local anesthetic infused intraperitoneally. Anesth Analg. 2004 Oct;99(4):1173-1179. doi: 10.1213/01.ANE.0000130260.24433.A2."
+        },
+        {
+          "pmid": "17658017",
+          "type": "BACKGROUND",
+          "citation": "Cottam DR, Fisher B, Atkinson J, Link D, Volk P, Friesen C, Link D, Grace B, Trovar R. A randomized trial of bupivicaine pain pumps to eliminate the need for patient controlled analgesia pumps in primary laparoscopic Roux-en-Y gastric bypass. Obes Surg. 2007 May;17(5):595-600. doi: 10.1007/s11695-007-9103-5."
+        },
+        {
+          "pmid": "19335329",
+          "type": "BACKGROUND",
+          "citation": "Yoost TR, McIntyre M, Savage SJ. Continuous infusion of local anesthetic decreases narcotic use and length of hospitalization after laparoscopic renal surgery. J Endourol. 2009 Apr;23(4):623-6. doi: 10.1089/end.2008.0586."
+        },
+        {
+          "pmid": "21997148",
+          "type": "BACKGROUND",
+          "citation": "Thornton PC, Buggy DJ. Local anaesthetic wound infusion for acute postoperative pain: a viable option? Br J Anaesth. 2011 Nov;107(5):656-8. doi: 10.1093/bja/aer293. No abstract available."
+        },
+        {
+          "pmid": "21418466",
+          "type": "BACKGROUND",
+          "citation": "Kahokehr A, Sammour T, Soop M, Hill AG. Intraperitoneal local anaesthetic in abdominal surgery - a systematic review. ANZ J Surg. 2011 Apr;81(4):237-45. doi: 10.1111/j.1445-2197.2010.05573.x. Epub 2010 Nov 17."
+        },
+        {
+          "pmid": "9215018",
+          "type": "BACKGROUND",
+          "citation": "Williamson KM, Cotton BR, Smith G. Intraperitoneal lignocaine for pain relief after total abdominal hysterectomy. Br J Anaesth. 1997 Jun;78(6):675-7. doi: 10.1093/bja/78.6.675."
+        },
+        {
+          "pmid": "27924202",
+          "type": "BACKGROUND",
+          "citation": "Lee SH, Sim WS, Kim GE, Kim HC, Jun JH, Lee JY, Shin BS, Yoo H, Jung SH, Kim J, Lee SH, Yo DK, Na YR. Randomized trial of subfascial infusion of ropivacaine for early recovery in laparoscopic colorectal cancer surgery. Korean J Anesthesiol. 2016 Dec;69(6):604-613. doi: 10.4097/kjae.2016.69.6.604. Epub 2016 Sep 28."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "hasResults": false
+}

@@ -1,13 +1,17 @@
 name: CI
 
-# Email storm mitigation: do NOT run on every push while golden labels / corpus
-# are being restored. Re-enable `push` to main after HEAD is green via workflow_dispatch.
+# Primary: PRs + manual runs. Bulk `push` was the Gmail storm.
+# A narrow push remains only so edits to this file on main are still exercised.
 on:
   pull_request:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/ci.yml"
 
 concurrency:
-  group: ci-${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:

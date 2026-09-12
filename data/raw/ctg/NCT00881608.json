@@ -1,0 +1,231 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00881608",
+      "orgStudyIdInfo": {
+        "id": "ZP-010"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study to Evaluate Menses Induction in Women Administered Proellex",
+      "officialTitle": "An Open-Label, Escalating Dose, Single Center, Cross-over Design, Phase I Study to Evaluate Menses Induction in Women Administered Proellex"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Repros stopped study for safety and the FDA put the study on hold for safety.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-04-14",
+      "studyFirstSubmitQcDate": "2009-04-14",
+      "studyFirstPostDateStruct": {
+        "date": "2009-04-15",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-26",
+      "resultsFirstSubmitQcDate": "2014-08-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-25",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine the oral dose level at which the investigative drug, Proellex, is able induce menstruation.",
+      "detailedDescription": "The purpose of this study is to determine the oral dose level at which the investigative drug, Proellex, is able to suppress endogenous progesterone in women. It is believed that giving Proellex in the early/mid-luteal phase of the cycle will suppress the effects of endogenous progesterone triggering the end of the cycle and inducing menstruation as happens naturally"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Amenorrhea"
+      ],
+      "keywords": [
+        "Menstruation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 11,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Initiation-Placebo Cycle-Five (5) placebo capsules will be dispensed to subjects to self-administer for five days starting on cycle day 18.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "3 mg Proellex",
+          "type": "EXPERIMENTAL",
+          "description": "First Cycle (3 mg)- Five (5) 3 mg capsules of Proellex will be dispensed to subjects to self-administer for five days starting on cycle day 18.",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        },
+        {
+          "label": "6 mg Proellex",
+          "type": "EXPERIMENTAL",
+          "description": "Second Cycle (6 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed ten (10) 3 mg capsules of Proellex to self-administer 2, 3 mg capsules each day for five days starting on cycle day 18.",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        },
+        {
+          "label": "12 mg Proellex",
+          "type": "EXPERIMENTAL",
+          "description": "Third Cycle (12 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed twenty (20) 3 mg capsules of Proellex to self-administer 4, 3 mg capsules for five days starting on cycle day 18.",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        },
+        {
+          "label": "25 mg Proellex",
+          "type": "EXPERIMENTAL",
+          "description": "Fourth Cycle (25 mg)-Subjects, who have not experienced menses, will be dispensed five (5) 25 mg capsules of Proellex to self-administer for five days starting on cycle day 18.",
+          "interventionNames": [
+            "Drug: Proellex"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo, 1 capsule daily for five days",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "Dummy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Proellex",
+          "description": "Proellex, one 3, 6, 12 or 25 mg capsule daily for five days",
+          "armGroupLabels": [
+            "12 mg Proellex",
+            "25 mg Proellex",
+            "3 mg Proellex",
+            "6 mg Proellex"
+          ],
+          "otherNames": [
+            "Telapristone acetate"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Day of Initial Vaginal Bleeding Event Following Treatment With Proellex.",
+          "timeFrame": "An early vaginal bleeding event lasting at least two days and occurring on or before day 24 will be deemed to have achieved an induced menses"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Duration of Vaginal Bleeding Following Treatment With Proellex.",
+          "timeFrame": "At least 2 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical laboratory tests within normal ranges\n* A normal menstrual period of 26-30 days\n* Desiring not to become pregnant\n* Agreeing to use a double barrier method of birth control for the duration of the trial\n\nExclusion Criteria:\n\n* Post-menopausal status\n* Aamenorrhea or dysfunctional uterine bleeding\n* Subjects demonstrating any clinically significant medical condition rendering the subjects infertile or marginally fertile\n* Subjects with a Body Mass Index (BMI) below 18 or over 39",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre van As, M.D., Ph.D",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Advances in Health Inc.",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer Wike",
+        "organization": "Repros Therapeutics",
+        "email": "jwike@reprosrx.com",
+        "phone": "2817193402"
+      }
+    }
+  }
+}

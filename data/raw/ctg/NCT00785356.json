@@ -1,0 +1,290 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00785356",
+      "orgStudyIdInfo": {
+        "id": "ZPU-302"
+      },
+      "organization": {
+        "fullName": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Efficacy of Proellex in Pre-Menopausal Anemic Women With Symptomatic Uterine Fibroids",
+      "officialTitle": "A Multi-Center, Placebo Controlled, Safety and Efficacy Study of the Selective Progesterone Receptor Modulator Proellex® (CDB-4124) in Anemic, Pre-Menopausal Women With Symptomatic Uterine Fibroids Requiring Hysterectomy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Repros stopped the study for safety and FDA put the study on hold for safety.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2009-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-11-03",
+      "studyFirstSubmitQcDate": "2008-11-04",
+      "studyFirstPostDateStruct": {
+        "date": "2008-11-05",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-06-25",
+      "resultsFirstSubmitQcDate": "2014-08-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-21",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Repros Therapeutics Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Subjects will be randomly assigned to one of 3 treatment groups and receive 325 mg (65 mg elemental iron) iron supplements twice daily.",
+      "detailedDescription": "Eligible female subjects will be randomly assigned to one of the three treatment groups. Subjects will receive 325 mg (65 mg elemental iron) iron supplements to be taken twice daily during study drug treatment. The study duration is approximately six months, which is comprised of a 4 - 6 week screening period, a three-month drug treatment period, and a one-month follow-up period."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Uterine Fibroids",
+        "Anemia"
+      ],
+      "keywords": [
+        "Uterine fibroids",
+        "Anemia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "25 mg Proellex",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 25 mg",
+          "interventionNames": [
+            "Drug: Proellex 25 mg"
+          ]
+        },
+        {
+          "label": "Proellex 50 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Proellex 50 mg",
+          "interventionNames": [
+            "Drug: Proellex 50 mg"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Proellex 25 mg",
+          "description": "Proellex 25 mg, 1 - 25 mg capsule and 1 placebo capsule daily for 3 months",
+          "armGroupLabels": [
+            "25 mg Proellex"
+          ],
+          "otherNames": [
+            "Telapristone acetate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Proellex 50 mg",
+          "description": "Proellex 50 mg, 2 - 25 mg capsules daily for 3 months",
+          "armGroupLabels": [
+            "Proellex 50 mg"
+          ],
+          "otherNames": [
+            "Telapristone acetate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo, 2 capsules daily for 3 months",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "Sugar pill",
+            "Dummy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Comparison Between the 50 mg Proellex® Dose Level and Placebo in the Change in Hemoglobin From Baseline to 3 Months.",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female, between the ages of 18 and 48 years with Body Mass Index (BMI) between 18 and 39, inclusive;\n* Anemic, defined as hemoglobin levels less than or equal to 10.5 g/dL and uterine fibroid-associated symptoms indicated by a history of excessive menstrual bleeding;\n* Surgical interventions for uterine fibroids (e.g. hysterectomy or myomectomy) planned or anticipated after the study;\n* Willing to comply with all study procedures, including the endometrial biopsies and blood draws for all visits, including Follow-up Visits\n\nExclusion Criteria:\n\n* Post-menopausal women or women likely to become post-menopausal during the study, defined as one or more of the following:\n\n  * Six months or more (immediately prior to Screening Visit) without a menstrual period, or\n  * Prior hysterectomy, or\n  * Prior bilateral oophorectomy (unilateral oophorectomy is not exclusionary if regular menstruation is occurring);\n* Females who have undergone a uterine arterial embolization, or endometrial ablation therapy (previous myomectomy is acceptable) for any cause;\n* Documented endometriosis or active pelvic inflammatory disease (PID);\n* Having a diagnosis, or suspected diagnosis, of carcinoma of the breast or reproductive organs;\n* Known active infection with HIV, Hepatitis A, B or C, Gonorrhea, or Chlamydia;\n* Use of prohibited concomitant medications:\n\n  1. Depo-Provera use must cease ten months prior to first dose of study drug, or\n  2. GnRH agonists use (e.g. Lupron Depot) must cease six months prior to first dose of study drug, or\n  3. Oral contraceptive or other hormonal treatments use must cease for 30 days prior to the start of the study",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "48 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Andre van As, MD, PhD",
+          "affiliation": "Repros Therapeutics Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Perinatal del Estado de Mexico del ISEM",
+          "city": "Toluca",
+          "state": "Estado de Mexico C.P.",
+          "zip": "50120",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.28786,
+            "lon": -99.65324
+          }
+        },
+        {
+          "facility": "Comité para la Prevención de la Osteoporosis COMOP",
+          "city": "Mexico City",
+          "state": "Federal District",
+          "zip": "06100",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Centro Hospitalario Nuevo Sanatorio Durango",
+          "city": "Mexico City",
+          "state": "Federal District",
+          "zip": "06700",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Instituto Nacional de Perinatología \"Isidro Espinosa de los Reyes\"",
+          "city": "Mexico City",
+          "state": "Federal District",
+          "zip": "11000",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Hospital de la Fe",
+          "city": "San Miguel de Allende",
+          "state": "Guanajuato",
+          "zip": "37775",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.91528,
+            "lon": -100.74389
+          }
+        },
+        {
+          "facility": "Hospital Universitario \"Dr. José Eleuterio González\" Facultad de Medicina de la Universidad Autónoma de Nuevo León (UANL)",
+          "city": "Monterrey",
+          "state": "Nuevo León",
+          "zip": "64460",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          }
+        },
+        {
+          "facility": "MIRC (Monterrey International Research Center)",
+          "city": "Monterrey",
+          "state": "Nuevo León",
+          "zip": "64460",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Prior to publication, Investigator shall submit to the Sponsor a copy of any proposed publication. Sponsor shall have sixty (60) days to review the proposed publication for possible disclosure of Sponsor's Confidential Information and, upon request of Sponsor, Investigator shall delete any of Sponsor's Confidential Information or withhold submission of such publication to allow Sponsor to protect its intellectual property rights"
+      },
+      "pointOfContact": {
+        "title": "Jennifer Wike",
+        "organization": "Repros Therapeutics Inc.",
+        "email": "jwike@reprosrx.com",
+        "phone": "2817193402"
+      }
+    }
+  }
+}

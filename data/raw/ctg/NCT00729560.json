@@ -1,0 +1,212 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00729560",
+      "orgStudyIdInfo": {
+        "id": "04487VCUIRB"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "GCRC0826"
+        }
+      ],
+      "organization": {
+        "fullName": "Virginia Commonwealth University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of Flutamide on Insulin and Glucose Metabolism in Women With Polycystic Ovary Syndrome",
+      "officialTitle": "Determination if Pharmacologic Blockade of Androgen Action Decreases Renal Clearance of D-Chiro-Inositol (DCI), Increases the Circulating Concentration of DCI, and Enhances Insulin-Stimulated Release of the D-chiro-inositol-containing Inositolphosphoglycan (DCI-IPG) Mediator in Obese Women With Polycystic Ovary Syndrome (PCOS)",
+      "acronym": "PCOS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Lack of recruitment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-08-05",
+      "studyFirstSubmitQcDate": "2008-08-05",
+      "studyFirstPostDateStruct": {
+        "date": "2008-08-07",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2014-05-27",
+      "resultsFirstSubmitQcDate": "2014-09-05",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-09-08",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-09-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-09-08",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Virginia Commonwealth University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Polycystic Ovary Syndrome (PCOS) is the major cause of infertility in the United States. Many women with PCOS demonstrate insulin resistance and a compensatory hyperinsulinemia.This is due to both an intrinsic form of insulin resistance unique to PCOS and, in many cases, acquired insulin resistance due to obesity. The importance of this observation lies in the fact that hyperinsulinemia appears to play an important pathogenetic role in the hyperandrogenism and anovulation of both obese and lean women with PCOS.",
+      "detailedDescription": "Hyperinsulinemia stimulates ovarian production of androgens, especially testosterone, in PCOS. Therefore, it is theoretically possible that testosterone increases urinary clearance of D-chiro-inositol (uCl(DCI) in PCOS, and that this serves as the explanation for the correlation between uClDCI and insulin sensitivity. While we regard this possibility as unlikely, it is important that it be tested. To accomplish this, we will assess obese (Body Mass Index (BMI) \\>30 kg/m2) women with and without PCOS at baseline, and again after 4 weeks of androgen action blockade with the drug flutamide. Flutamide is an antiandrogen that works by blocking the binding of androgens to the androgen receptor.\n\nWe will determine if this pharmacologic blockade i) decreases the renal clearance of DCI, ii) increases the circulating concentration of DCi, and iii) enhances the insulin-stimulated release of the D-chiro-inositol-containing inositolphosphoglycan (DCI-IPG) mediator during an OGTT."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Polycystic Ovary Syndrome"
+      ],
+      "keywords": [
+        "PCOS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1",
+          "type": "EXPERIMENTAL",
+          "description": "Flutamide",
+          "interventionNames": [
+            "Drug: Flutamide"
+          ]
+        },
+        {
+          "label": "2",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "control to arm 1",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Flutamide",
+          "description": "250 mg twice daily for 4 weeks",
+          "armGroupLabels": [
+            "1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo twice daily for 4 weeks",
+          "armGroupLabels": [
+            "2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "DCI-IPG Measurements in Blood and Urine",
+          "description": "zero participants analyzed, no assays performed",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n(1) Obese (BMI≥30 kg/m2) women with PCOS between 18-40 years of age: i) oligomenorrhea (8 menstrual periods annually), ii) biochemical hyperandrogenemia (elevated total or free testosterone), iii) normal thyroid function tests and serum prolactin, and iv) exclusion of 21α-hydroxylase deficiency by a fasting 17α-hydroxyprogesterone \\<200 ng/dl.48, (2) acceptable health on the basis of interview, medical history, physical examination, and laboratory tests (complete blood chemistry (CBC), complete metabolic panel (CMP), urinalysis, serum Beta-Human Chorionic Gonadotropin (BhCG)). (3) Signed, witnessed informed consent. (4) Ability to comply with study requirements.\n\nExclusion Criteria:\n\n(1) Diabetes mellitus by fasting glucose or oral glucose tolerance test (OGTT), or clinically significant pulmonary, cardiac, renal, hepatic, neurologic, psychiatric, infectious, neoplastic and malignant disease (other than non-melanoma skin cancer). (2) Current use of oral contraceptives. (3) Documented or suspected recent (within one year) history of drug abuse or alcoholism. (4) Ingestion of any investigational drug within two months prior to study onset.\n\n\\-",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "40 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "John E. Nestler, M.D.",
+          "affiliation": "Virginia Commonwealth University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Virginia Commonwealth University General Clinical Research Center",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "http://www.vcu.edu/pcos"
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. John Nestler",
+        "organization": "Virginia Commonwealth University",
+        "email": "jnestler@mcvh-vcu.edu",
+        "phone": "804-828-3389"
+      }
+    }
+  }
+}

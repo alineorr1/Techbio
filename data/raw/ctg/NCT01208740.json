@@ -1,0 +1,223 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01208740",
+      "orgStudyIdInfo": {
+        "id": "02/2010"
+      },
+      "organization": {
+        "fullName": "University Magna Graecia",
+        "class": "OTHER"
+      },
+      "briefTitle": "Metformin in Patients With PCOS and Predictors of Poor Ovarian Response Ongoing In-vitro Fertilization",
+      "officialTitle": "Effects of Metformin on the Ovarian Response to Gonadotropins for in Vitro Fertilization Treatment in Patients With Polycystic Ovary Syndrome and Predictors of Poor Ovarian Response"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2011-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Concerns about safety at the first interim analysis",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2009-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-05-24",
+      "studyFirstSubmitQcDate": "2010-09-23",
+      "studyFirstPostDateStruct": {
+        "date": "2010-09-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2011-05-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2011-05-24",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "oldNameTitle": "Department of Obstetrics and Gynecology",
+        "oldOrganization": "University Magna Graecia"
+      },
+      "leadSponsor": {
+        "name": "University Magna Graecia",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Metformin should be administered with caution and could be potentially dangerous in infertile patients with PCOS who show a poor ovarian response and are undergoing gonadotropin-based ovarian stimulation. However, data that address this point are totally lacking.\n\nOn the basis of these considerations, the aim of the current clinical trial was to test the hypothesis that metformin reduces the ovarian response in infertile patients with PCOS who have a potentially poor ovarian response and who undergo gonadotropin stimulation for IVF cycles.",
+      "detailedDescription": "Primary infertile patients with PCOS older than 35 years and/or with a basal follicle-stimulating hormone (FSH) level higher than 10 IU/L who were scheduled for IVF cycles were enrolled in the study protocol."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Infertility",
+        "PCOS",
+        "Prognosis for Poor Response"
+      ],
+      "keywords": [
+        "Gonadotropins",
+        "infertility",
+        "IVF",
+        "metformin",
+        "PCOS",
+        "poor prognosis",
+        "poor responder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 88,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin",
+          "type": "EXPERIMENTAL",
+          "description": "Metformin pre-treatment and co-administration",
+          "interventionNames": [
+            "Drug: Metformin"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo pre-treatment and co-administration",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "500 mg three times daily",
+          "armGroupLabels": [
+            "Metformin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "1 pill three times daily",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of cancellation due to low ovarian response",
+          "description": "Number of cancelled cycles/total cycles",
+          "timeFrame": "one month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Stimulation length",
+          "timeFrame": "one month"
+        },
+        {
+          "measure": "Gonadotropins dose",
+          "timeFrame": "one month"
+        },
+        {
+          "measure": "Ovulation rate",
+          "timeFrame": "one month"
+        },
+        {
+          "measure": "pregnancy rate",
+          "timeFrame": "one month"
+        },
+        {
+          "measure": "Live-birth rate",
+          "timeFrame": "nine months"
+        },
+        {
+          "measure": "Adverse effects",
+          "timeFrame": "one month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* PCOS\n* Prognosis for poor response\n* Infertility\n\nExclusion Criteria:\n\n* Male factor infertility\n* Tubal infertility",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "35 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Fulvio Zullo, MD",
+          "affiliation": "Department of Obstetrics and Gynecology, University \"Magna Graecia\" of Catanzaro",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Stefano Palomba, MD",
+          "affiliation": "Department of Obstetrics and Gynecology, University \"Magna Graecia\" of Catanzaro",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pugliese\" Hospital",
+          "city": "Catanzaro",
+          "state": "Italy",
+          "zip": "88100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.88247,
+            "lon": 16.60086
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21917254",
+          "type": "DERIVED",
+          "citation": "Palomba S, Falbo A, Di Cello A, Cappiello F, Tolino A, Zullo F. Does metformin affect the ovarian response to gonadotropins for in vitro fertilization treatment in patients with polycystic ovary syndrome and reduced ovarian reserve? A randomized controlled trial. Fertil Steril. 2011 Nov;96(5):1128-33. doi: 10.1016/j.fertnstert.2011.08.020. Epub 2011 Sep 13."
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

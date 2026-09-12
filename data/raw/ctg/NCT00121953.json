@@ -1,0 +1,167 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00121953",
+      "orgStudyIdInfo": {
+        "id": "2004-1012"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1K23HD043952-01A2",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1K23HD043952-01A2"
+        }
+      ],
+      "organization": {
+        "fullName": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+        "class": "NIH"
+      },
+      "briefTitle": "Effect of Rosiglitazone on Peritoneal Cytokines in Women With Endometriosis",
+      "officialTitle": "Endometriosis: Immunomodulation"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Due to the recent meta-analysis about CV adverse effects.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2008-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2008-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-07-18",
+      "studyFirstSubmitQcDate": "2005-07-18",
+      "studyFirstPostDateStruct": {
+        "date": "2005-07-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-10-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-10-17",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dan Lebovic",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Wisconsin, Madison"
+      },
+      "leadSponsor": {
+        "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+        "class": "NIH"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare the effect of rosiglitazone versus placebo on soluble proinflammatory markers in peritoneal fluid of women with endometriosis.",
+      "detailedDescription": "The overall goal of this proposal is to assess modulation of immune mechanisms in endometriosis. Endometriosis is a common ailment affecting approximately five million reproductive-aged American women. We will test the efficacy of a novel immunomodulatory drug (peroxisome proliferator activated receptor gamma, PPAR-gamma, agonist), rosiglitazone, to reduce peritoneal fluid cytokine concentrations in women with endometriosis compared with placebo controls (randomized controlled trial). Based on prior studies done by the investigator highlighting the major role of cytokines and the immune system in the genesis or propagation of endometriosis, these experiments could lead to improved translational treatment strategies and a better understanding of endometriosis. Acting through PPAR-gamma, TZDs inhibit proinflammatory cytokines as well as NF-kB, an important nuclear transcription factor for the production of many cytokines. Accordingly, since human endometrial epithelial and stromal cells contain PPAR-gamma, we felt it would be useful to evaluate the influence of a PPAR-gamma ligand, rosiglitazone, on the concentration of specific peritoneal fluid cytokines.\n\nComparison: After the pre-trial screening, eligible subjects with presumed endometriosis and age 18-45 will be consented and randomly assigned to receive either placebo (control) or rosiglitazone, Avandia®, 4 mg daily for 2 weeks. Peritoneal fluid will be collected at the time of surgery and the volume measured. All patients enrolled in the study will have their surgery during the follicular phase of the cycle in order to minimize differences in volume and cytokine concentration due to the cyclical changes. The primary measure will be the peritoneal fluid concentration comparisons of the two groups assessing six different cytokines: interleukin-1 beta, RANTES, tumor necrosis factor-alpha and vascular endothelial growth factor."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Endometriosis",
+        "Peritoneal fluid",
+        "Cytokines",
+        "Peroxisome Proliferator-Activated Receptors"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "DOUBLE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rosiglitazone"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Peritoneal fluid cytokine concentrations"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cytokine quantification"
+        },
+        {
+          "measure": "Proteomics"
+        },
+        {
+          "measure": "Gene array analyses"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy women ages 18 - 45 years.\n* Regular menstrual cycles (24-35 days).\n* Pelvic pain ≥3 months\n* Negative pregnancy test\n* Non-lactating\n* No prior (\\<3 months) use of hormonal therapy (\\<6 mos for depoprovera users)\n* No history of liver disease\n* Consent to participate in the study\n* Endometriosis diagnosed from surgical specimen by routine hematoxylin and eosin staining and histological evaluation (within the past 4 years)\n\nExclusion Criteria:\n\n* Major psychiatric conditions or the abuse of alcohol or drugs which would make it difficult for the subject to complete study procedures.\n* Active or prior infection with hepatitis, human immunodeficiency virus (HIV) infection, or history of high-risk activities (e.g., intravenous \\[IV\\] drug abuse) which would increase risk to laboratory personnel. Of note, no testing for hepatitis or HIV will be performed as part of this study and all tissues will be handled and discarded as if they were potentially infected.\n* Patients with liver dysfunction (elevated liver enzymes \\>2 times upper limit of normal).\n* Presence of pre-existing malignancy, including carcinoma of the breast or uterus.\n* Women with other causes of chronic pelvic pain including infectious, gastrointestinal, musculoskeletal, neurologic or psychiatric.\n* Elevated white blood cell (WBC) count.\n* NYHA functional class I-IV heart failure.\n* Diabetes mellitus.\n* Known pregnancy or positive pregnancy test.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dan I. Lebovic, MD, MA",
+          "affiliation": "University of Michigan",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Michigan Health System",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "15474065",
+          "type": "BACKGROUND",
+          "citation": "Lebovic DI, Kir M, Casey CL. Peroxisome proliferator-activated receptor-gamma induces regression of endometrial explants in a rat model of endometriosis. Fertil Steril. 2004 Oct;82 Suppl 3:1008-13. doi: 10.1016/j.fertnstert.2004.02.148."
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

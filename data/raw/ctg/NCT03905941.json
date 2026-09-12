@@ -1,0 +1,376 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03905941",
+      "orgStudyIdInfo": {
+        "id": "21649"
+      },
+      "organization": {
+        "fullName": "University of Virginia",
+        "class": "OTHER"
+      },
+      "briefTitle": "Relative Desirability of Metformin vs. Birth Control Pill in Treating PCOS in Women of Later Reproductive Age",
+      "officialTitle": "Relative Desirability of Metformin vs. Birth Control Pill in Treating PCOS in Women of Later Reproductive Age",
+      "acronym": "SHK002"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "No funding, time, or personnel to complete this study.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-08-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-11-25",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-11-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-04-02",
+      "studyFirstSubmitQcDate": "2019-04-05",
+      "studyFirstPostDateStruct": {
+        "date": "2019-04-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Christine Burt Solorzano",
+        "investigatorTitle": "Professor of Medicine",
+        "investigatorAffiliation": "University of Virginia"
+      },
+      "leadSponsor": {
+        "name": "University of Virginia",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this study is to determine the relative desirability of metformin vs. oral combined hormonal contraceptives (OCs) in treating Polycystic Ovary Syndrome (PCOS) in women of later reproductive age. Polycystic Ovary Syndrome Questionnaire (PCOSQ) score will be used as a proxy for patient satisfaction. In light of their respective effects on the classic and metabolic facets of PCOS, metformin will provide non-inferior patient satisfaction compared to OCs in later reproductive age women with PCOS.",
+      "detailedDescription": "This is a randomized, controlled, double-blinded, crossover study. The investigators will recruit women with PCOS in ages 40-49 yo. Subjects will be randomized to either receive metformin (2000 mg daily) or low dose oral contraceptives (OCs: 20 mcg ethinyl estradiol/norethindrone acetate 1mg) for a total of 6 months, and they will crossover to the other treatment for the following 6 months. Subjects will have the following assessed at baseline and 6 months after each study medication: blood pressure, weight, waist-to-hip ratio (WHR), average intermenstrual cycle length (in the previous 3 months), Ferriman-Gallwey score (as a measure of hirsutism), total testosterone (T), sex hormone binding globulin, calculated free T, fasting insulin, fasting glucose, 2-h glucose (during oral glucose tolerance test), Matsuda index, HgA1c, LDL-cholesterol, HDL-cholesterol, triglycerides, estimated cardiovascular risk (Framingham risk score), health-related quality of life using both PCOS questionnaire (PCOSQ) and the Short-Form Health Survey (SF-36), and severity of anxiety using Generalized Anxiety Disorder-7 (GAD-7) questionnaire. For safety surveillance, the investigators will measure electrolyte levels, renal function, liver function, and pregnancy tests immediately before study mediation initiation and every 3 months. For statistical analysis, per PCOSQ domain, the post-treatment QoL scores will be analyzed via a linear mixed model (LMM), in which the LMM will be specified in accordance with a 2 treatment by 2 period crossover design. The investigators determined that if 73 subjects complete the study, the investigators expect to have at least an 80% chance of rejecting the null hypothesis that QoL is inferior with metformin therapy vs. OCs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Polycystic Ovary Syndrome"
+      ],
+      "keywords": [
+        "Polycystic Ovary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "This is a randomized, controlled, double blinded, controlled, crossover study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin then oral combined hormonal contraceptives",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will take metformin 2000 mg/day for the first 6 months, followed by 6 months of oral combined hormonal contraceptive (OCs) with a combination of ethinyl estradiol 20 mcg/norethindrone acetate 1 mg.",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Drug: Oral combined hormonal contraceptives"
+          ]
+        },
+        {
+          "label": "Oral combined hormonal contraceptives then metformin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects will take oral combined hormonal contraceptive (OCs) with a combination of ethinyl estradiol 20 mcg/norethindrone acetate 1 mg for the first 6 months, followed by 6 months of metformin 2000 mg/day.",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Drug: Oral combined hormonal contraceptives"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Metformin 2000 mg/day will be used in this study. Metformin is a antihyperglycemic agent that is used as a first line medical therapy to treat type 2 diabetes mellitus. It is also used to prevent progression of impaired glucose tolerance. It decrease hepatic glucose production and increase insulin sensitivity.",
+          "armGroupLabels": [
+            "Metformin then oral combined hormonal contraceptives",
+            "Oral combined hormonal contraceptives then metformin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Oral combined hormonal contraceptives",
+          "description": "Oral combined hormonal contraceptive (OCs) with a combination of ethinyl estradiol 20 mcg/norethindrone acetate 1 mg will be used in this study. OCs are normally used to prevent pregnancy by suppressing ovulation and to prevent endometrial hyperplasia by inducing regular \"withdrawal\" bleeding. OCs help control both clinical and biochemical hyperandrogenism in PCOS and are considered first line medical therapy until the age of menopause.",
+          "armGroupLabels": [
+            "Metformin then oral combined hormonal contraceptives",
+            "Oral combined hormonal contraceptives then metformin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Polycystic Ovary Syndrome Health-Related Quality of Life Questionnaire (PCOSQ) score",
+          "description": "It is a 7-point scale questionnaire assessing health-related quality of life specific to PCOS in 5 different domains, with \"7\" representing optimal function and \"1\" representing poorest function.",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Polycystic Ovary Syndrome Health-Related Quality of Life Questionnaire (PCOSQ) score",
+          "description": "It is a 7-point scale questionnaire assessing health-related quality of life specific to PCOS in 5 different domains, with \"7\" representing optimal function and \"1\" representing poorest function.",
+          "timeFrame": "6 months after each intervention."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Short Form (SF)-36 score",
+          "description": "It consists of 36 items and has eight scaled scores (transformed into 0-100 scale). It assesses health related quality of life (general). The increasing score indicates better health status.",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Short Form (SF)-36 score",
+          "description": "It consists of 36 items and has eight scaled scores (transformed into 0-100 scale). It assesses health related quality of life (general). The increasing score indicates better health status.",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "General Anxiety Disorder (GAD)-7 score",
+          "description": "It consists of 7 items with a scale of 0-3, and they are summed up to a total score. Increasing scores mean a greater functional impairment.",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "General Anxiety Disorder (GAD)-7 score",
+          "description": "It consists of 7 items with a scale of 0-3, and they are summed up to a total score. Increasing scores mean a greater functional impairment.",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Total testosterone concentrations",
+          "description": "ng/dL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Total testosterone concentrations",
+          "description": "ng/dL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Calculated free testosterone concentrations",
+          "description": "pg/mL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Calculated free testosterone concentrations",
+          "description": "pg/mL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Sex hormone binding globulin",
+          "description": "nmoL/L",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Sex hormone binding globulin",
+          "description": "nmoL/L",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "LDL cholesterol level",
+          "description": "mg/dL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "LDL cholesterol level",
+          "description": "mg/dL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "HDL cholesterol level",
+          "description": "mg/dL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "HDL cholesterol level",
+          "description": "mg/dL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Triglyceride level",
+          "description": "mg/dL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Triglyceride level",
+          "description": "mg/dL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Blood pressure",
+          "description": "mmHg",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Blood pressure",
+          "description": "mmHg",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Weight",
+          "description": "kg",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Weight",
+          "description": "kg",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Body mass index",
+          "description": "kg/meter square",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Body mass index",
+          "description": "kg/meter square",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "waist-to-hip ratio",
+          "description": "It is a ratio of waist and hip circumference",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "waist-to-hip ratio",
+          "description": "It is a ratio of waist and hip circumference",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Matsuda index",
+          "description": "It is an index to assess insulin sensitivity.",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Matsuda index",
+          "description": "It is an index to assess insulin sensitivity.",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Fasting insulin",
+          "description": "uIU/mL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Fasting insulin",
+          "description": "uIU/mL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Fasting glucose",
+          "description": "mg/dL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Fasting glucose",
+          "description": "mg/dL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "2-hour glucose level during oral glucose tolerance test",
+          "description": "mg/dL",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "2-hour glucose level during oral glucose tolerance test",
+          "description": "mg/dL",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Hemoglobin A1c",
+          "description": "percent",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Hemoglobin A1c",
+          "description": "percent",
+          "timeFrame": "6 months after each intervention"
+        },
+        {
+          "measure": "Framingham risk score",
+          "description": "This is a risk assessing measure that estimates the 10 year cardiovascular risk for an individual. There is no scale for this. A total risk (in percentage) will be calculated.",
+          "timeFrame": "baseline"
+        },
+        {
+          "measure": "Framingham risk score",
+          "description": "This is a risk assessing measure that estimates the 10 year cardiovascular risk for an individual. There is no scale for this. A total risk (in percentage) will be calculated.",
+          "timeFrame": "6 months after each intervention"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women with PCOS aged 40-49 years. Subject is considered to have PCOS if she has current or verifiable history of: a) clinical and/or biochemical evidence of hyperandrogenism plus b) oligomenorrhea or irregular menstruation (substantially inconsistent menstrual cycle length). Subjects with fewer than 10 menses/year or average menstrual cycle length \\>35 days are allowed to participate if they have a compelling past history of oligomenorrhea (average menstrual cycle length \\>45 days or fewer than 9 menses/year) or irregular menstruation.\n* Screening safety labs within normal reference ranges although mild abnormalities that are common in obesity and/or hyperandrogenism will not be grounds for exclusion (see exclusion criteria).\n* Subjects must be willing and able to provide written informed consent.\n* Willingness to strictly avoid pregnancy (using non-hormonal methods) during the time of the study\n* Willingness and ability to comply with scheduled visits and study procedures\n\nExclusion Criteria:\n\n* Postmenopausal status (i.e., absence of periods for previous year plus elevated follicle stimulating hormone \\[FSH\\] level)\n* Biochemical evidence for perimenopause as defined by an anti-Mullerian hormone \\<0.5 ng/mL. As an alternative, cycle day 3 FSH \\> 9 IU/L (with concomitant estradiol level \\>80 pg/mL), if this testing is available, will serve as evidence of perimenopause status. NOTE: If FSH \\>9 IU/L on screening (but it is not cycle day 3), FSH and estradiol will be repeated on cycle day 3\n* History of hysterectomy and/or bilateral oophorectomy\n* BMI ≥ 40 kg/m2\n* Inability to comprehend what will be done during the study or why it will be done.\n* Being a study of older women with PCOS, children and men will be excluded.\n* Pregnancy or lactation within the past 6 months. Subjects with a positive pregnancy test will be informed of the result by the screening physician.\n* Prisoners.\n* History of (or clinical evidence for) Cushing's syndrome or adrenal insufficiency.\n* History of congenital adrenal hyperplasia or 17-hydroxyprogesterone (17-OHP) \\>200 ng/dL, which suggest the possibility of congenital adrenal hyperplasia. 17-OHP will be collected during follicular phase. NOTE: if a 17-OHP \\>200 ng/dL and is confirmed on repeat testing, an ACTH-stimulated 17-OHP \\<1000 ng/dL will be required for study participation.\n* Total testosterone \\>150 ng/dL, which suggests the possibility of virilizing neoplasm.\n* DHEA-S greater than 1.5 times the upper limit of normal range (mild elevations may be seen in PCOS, so elevations \\< 1.5 times the upper limit of normal will be accepted in these groups).\n* Virilization\n* Diagnosis of diabetes mellitus (DM), fasting glucose ≥ 126 mg/dL, or a hemoglobin A1c of ≥ 6.5%.\n* Abnormal thyroid stimulating hormone (TSH). Subjects with stable and adequately-treated hypothyroidism, reflected by normal TSH values, will not be excluded.\n* Moderate to severe hyperprolactinemia. Mild prolactin elevations may be seen in PCOS, and elevations \\< 1.5 times the upper limit of normal will be accepted in this group.\n* Persistent liver abnormalities, with the exception that mild bilirubin elevations will be accepted in the setting of known Gilbert's syndrome. Mild transaminase elevations may be seen in women with obesity, so elevations \\<1.5 times the upper limit of normal will be accepted in this group.\n* Persistent hematocrit \\<36% and hemoglobin \\<12 g/dL.\n* Abnormal sodium, potassium, or bicarbonate concentrations or elevated creatinine concentration.\n* Significant history of pulmonary dysfunction (e.g., asthma or COPD requiring intermittent systemic corticosteroid, pulmonary hypertension, etc.).\n* History of known or suspected congestive heart failure.\n* History of known or suspected ischemic heart disease or cerebrovascular disease.\n* History of hypertension.\n* History of uncontrolled/untreated dyslipidemia. Subjects with stable and adequately treated dyslipidemia reflected by normal lipid panel values will not be excluded.\n* History of complicated valvular heart disease (e.g. pulmonary hypertension, risk of atrial fibrillation, history of subacute bacterial endocarditis)\n* History of stroke\n* History of smoking\n* History of severe cirrhosis or liver tumor (e.g. hepatocellular adenoma or malignant hepatoma).\n* Use of anticonvulsants, rifampicin or rifabutin therapy. The interaction of these drugs with OCs will not be harmful to the subjects, but it will reduce the effectiveness of OCs.\n* History of venous thromboembolism (e.g. deep venous thrombosis (DVT), pulmonary embolism (PE)).\n* Personal history of blood clotting disorders (e.g., protein C, protein S, positive antiphospholipid antibodies).\n* First-degree relative history of blood clotting disorder, unless the same disorder has been formally excluded for the study subject.\n* History of migraine headaches.\n* History of breast, ovarian, or endometrial cancer.\n* Note: If endometrial thickness on transvaginal ultrasound is \\>8 mm in the proliferative (follicular) phase or \\>14 mm in the secretory (luteal) phase, the subject will be referred to a gynecologist for further evaluation (38). These particular subjects will be required to obtain a clearance from their gynecologist to participate in this study.\n* Note: Any abnormal labs may be repeated to exclude a lab error.\n* No medications known to affect the reproductive system can be taken in the 2 months prior to screening and in the 3 months prior to the study. Such medications include oral contraceptive pills, metformin, progestins, glucocorticoids, anti-psychotics, and/or mood stabilizers that are known to cause hormone abnormalities.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "This study is about PCOS, therefore only females will be studied.",
+      "minimumAge": "40 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Christine Burt Solorzano, MD",
+          "affiliation": "University of Virginia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Virginia",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

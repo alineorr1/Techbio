@@ -1,0 +1,710 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04641273",
+      "orgStudyIdInfo": {
+        "id": "20887"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-002066-14",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Bayer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A 2-part Trial to Learn More About How BAY1817080 Works, How Safe it is, and What the Right Dose is for Participants With Diabetic Neuropathic Pain",
+      "officialTitle": "A Randomized, Placebo-controlled, Double-blind, Parallel-group, Multicenter Combined Phase 2a/2b Study to Assess the Efficacy and Safety of BAY 1817080 in Patients With Diabetic Neuropathic Pain"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-12",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Lack of efficacy",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-09-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-10-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-11-20",
+      "studyFirstSubmitQcDate": "2020-11-20",
+      "studyFirstPostDateStruct": {
+        "date": "2020-11-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-12-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-12-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Bayer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "People suffering from diabetes often have high blood sugar levels. Over time this can affect many organs including the nerves in hands and feet and can cause a nerve pain called diabetic neuropathic pain (DNP). There are treatments for DNP but in many patients they do not reach a good pain reduction and have unwanted side effects.\n\nIn this trial, the researchers will look at how BAY1817080 works and how safe it is. They will compare it to a placebo or another treatment for DNP called pregabalin. A placebo looks like a treatment but does not have any medicine in it. The researchers will use a placebo to learn if the participants' results are due to BAY1817080 or if the results could be due to chance. The researchers will also learn more about the right dose of BAY1817080 for these participants.\n\nThe trial will include participants who have DNP and either type 1 or type 2 diabetes. It will include about 440 men and women who are at least 18 years old.\n\nThis trial will have 2 parts. In Part 1, the participants will take either BAY1817080 or the placebo. These treatments will be taken as a tablet by mouth twice a day for 8 weeks. In Part 2, participants will take BAY 1817080, pregabalin, or a matching placebo of either treatment. BAY1817080 and a placebo will be taken as a tablet by mouth twice a day for 12 weeks. Pregabalin and a placebo will be taken as a capsule by mouth twice a day for 12 weeks.\n\nThe participants in Part 1 will visit their trial site 6 times. The participants in Part 2 will visit their trial site 7 times. At these visits, the doctors will ask the participants if they have any health problems, take blood samples, and do a physical exam. They will also ask the participants to complete questionnaires about their pain and other symptoms."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neuropathic Pain Associated With Diabetic Peripheral Neuropathy"
+      ],
+      "keywords": [
+        "Diabetic Neuropathic Pain",
+        "Neuropathic Pain",
+        "Diabetic Polyneuropathy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 154,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part A: BAY1817080 150 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "In Part A, Participants will be randomized to this arm with BAY1817080 150 mg BID.",
+          "interventionNames": [
+            "Drug: BAY1817080"
+          ]
+        },
+        {
+          "label": "Part A: Placebo BID",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "In Part A, Participants will be randomized to this arm with placebo for BAY1817080.",
+          "interventionNames": [
+            "Drug: Placebo for BAY1817080"
+          ]
+        },
+        {
+          "label": "Part B: BAY1817080 25 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "In Part B, New participants will be screened for this part of the study and will be randomized to this arm with BAY1817080 25 mg BID and placebo for pregabalin.",
+          "interventionNames": [
+            "Drug: BAY1817080",
+            "Drug: Placebo for Pregabalin"
+          ]
+        },
+        {
+          "label": "Part B: BAY1817080 75 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "In Part B, New participants will be screened for this part of the study and will be randomized to this arm with BAY1817080 75 mg BID and placebo for pregabalin.",
+          "interventionNames": [
+            "Drug: BAY1817080",
+            "Drug: Placebo for Pregabalin"
+          ]
+        },
+        {
+          "label": "Part B: BAY1817080 150 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "In Part B, New participants will be screened for this part of the study and will be randomized to this arm with BAY1817080 150 mg BID and placebo for pregabalin.",
+          "interventionNames": [
+            "Drug: BAY1817080",
+            "Drug: Placebo for Pregabalin"
+          ]
+        },
+        {
+          "label": "Part B: Placebo BID",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "In Part B, New participants will be screened for this part of the study and will be randomized to this arm with placebo for BAY1817080 and placebo for pregabalin.",
+          "interventionNames": [
+            "Drug: Placebo for BAY1817080",
+            "Drug: Placebo for Pregabalin"
+          ]
+        },
+        {
+          "label": "Part B: Pregabalin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "In Part B, New participants will be screened for this part of the study and will be randomized to this arm with placebo for BAY1817080 and pregabalin.",
+          "interventionNames": [
+            "Drug: Placebo for BAY1817080",
+            "Drug: Pregabalin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BAY1817080",
+          "description": "Tablet, intake orally.",
+          "armGroupLabels": [
+            "Part A: BAY1817080 150 mg BID",
+            "Part B: BAY1817080 150 mg BID",
+            "Part B: BAY1817080 25 mg BID",
+            "Part B: BAY1817080 75 mg BID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo for BAY1817080",
+          "description": "Tablet, intake orally.",
+          "armGroupLabels": [
+            "Part A: Placebo BID",
+            "Part B: Placebo BID",
+            "Part B: Pregabalin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo for Pregabalin",
+          "description": "Capsule, intake orally.",
+          "armGroupLabels": [
+            "Part B: BAY1817080 150 mg BID",
+            "Part B: BAY1817080 25 mg BID",
+            "Part B: BAY1817080 75 mg BID",
+            "Part B: Placebo BID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pregabalin",
+          "description": "Capsule, intake orally. Starting dose 75 mg BID first week, increase to 150 mg BID in second week.",
+          "armGroupLabels": [
+            "Part B: Pregabalin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in weekly mean 24-hour average pain intensity score using the 11-point Numeric Rating Scale (NRS) from baseline to the end of intervention",
+          "description": "NRS is an one-item assessment of average neuropathic pain intensity which is presented as an 11-point Likert scale with 0 as \"no pain\" and 10 as \"worst imaginable pain\".",
+          "timeFrame": "Part A: from baseline to end of intervention (in total up to 9 weeks)"
+        },
+        {
+          "measure": "Change in weekly mean 24-hour average pain intensity score using the 11-point Numeric Rating Scale (NRS) from baseline to the end of intervention",
+          "description": "NRS is an one-item assessment of average neuropathic pain intensity which is presented as an 11-point Likert scale with 0 as \"no pain\" and 10 as \"worst imaginable pain\".",
+          "timeFrame": "Part B: from baseline to end of intervention (in total up to 13 weeks)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Neuropathic Pain Symptom Inventory (NPSI) score from baseline to the end of intervention",
+          "description": "The Neuropathic Pain Symptom Inventory (NPSI) is a PRO developed to evaluate different symptoms of neuropathic pain.",
+          "timeFrame": "Part A: at visit 2, visit 4 (day 15 +/- 2), visit 5 (day 29 +/-2) and visit 7 EOI (day 57 +/-2). Part B: at visit 2, visit 4 (day 15 +/- 2), visit 5 (day 29 +/-2), visit 7 (day 57 +/-2) and visit 8 EOI (day 85 +/-2)."
+        },
+        {
+          "measure": "Patient Global Impression of Change (PGI-C) at the end of intervention",
+          "description": "The PGI-C is an one-item, self-reported instrument used to assess patients' impression of disease severity and change, with a 7-point scale response-option. Scores range from 1 (\"very much better\") to 7 (\"very much worse\").",
+          "timeFrame": "Part A: at visit 5 (day 29 +/-2) and at end of intervention (day 57 +/- 2). Part B: at visit 5 (day 29 +/-2), at visit 7 (day 57 +/- 2) and at end of intervention (day 85 +/-2)"
+        },
+        {
+          "measure": "The proportion of participants achieving a ≥30% and a ≥50% reduction in weekly mean 24-hour average pain intensity score (i.e. responder rates using NRS)",
+          "timeFrame": "Part A: from baseline to end of intervention (in total up to 9 weeks). Part B: from baseline to end of intervention (in total up to 13 weeks)"
+        },
+        {
+          "measure": "Number of participants with treatment emergent adverse events (TEAE)",
+          "timeFrame": "Start of intervention to 14 days after stop of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults ≥ 18 years of age at the time of signing the informed consent.\n* At the time of screening, have documented diagnosis of type 1 OR type 2 diabetes mellitus (DM) with painful distal symmetrical sensorimotor neuropathy of more than 6 months duration according to modified Toronto Clinical Neuropathy Score.\n* Weekly mean 24-hour average pain NRS ≥ 4 with adequate variability (not the same score on all daily pain ratings) and compliance (non-missing pain score on at least 6 out of 7 consecutive days) in daily pain recording during the 7 day NRS baseline period.\n* Neuropathic pain according to the DN4 questionnaire (Douleur Neuropathique 4 Questions).\n* Women of childbearing potential must agree to use acceptable effective or highly effective birth control methods.\n\nExclusion Criteria:\n\n* Any differential diagnosis of peripheral diabetic neuropathy (PDN) including but not limited to other neuropathies (e.g. vitamin B12 deficiency, Chronic Inflammatory Demyelinating Polyneuropathy), polyradiculopathies, central disorders (e.g. demyelinating disease), or rheumatological disease (e.g. foot arthritis, plantar fasciitis).\n* Any other diseases or conditions that according to the investigator can compromise the function of the body systems and could result in altered absorption, excessive accumulation, impaired metabolism, or altered excretion of the study intervention (e.g. chronic bowel disease, Crohn's disease and ulcerative colitis).\n* Any serious or unstable diseases or conditions including psychiatric disorders that might interfere with the conduct of the study or the interpretation of the results.\n* Major surgery or radiological procedures (e.g. PTA (Percutaneous transluminal angioplasty) and stenting of peripheral vascular lesions in lower extremities) within 3 months before screening visit or scheduled during the study period, which might interfere pain response evaluation.\n* Symptomatic peripheral arterial disease in lower or upper extremities, including diabetic ulcers.\n* Previous use of strong opioids (e.g. oxymorphone, oxycodone) for neuropathic pain anytime, or topical use of capsaicin within 3 months prior to the screening visit.\n* History or current diagnosis of electrocardiogram (ECG) abnormalities indicating significant risk of safety for study participants.\n* Moderate-to-severe hepatic impairment defined as Child-Pugh Class B or C.\n* Have platelets ≤ 100 x 109/L, or neutrophil count \\< 1.2 x 109/L (or equivalent), hemoglobin ≤ 100 g/L for women or hemoglobin ≤ 110 g/L for men at screening.\n* Glycemic control unstable (hemoglobin HbA1c ≥11%) within 3 months prior to screening (e.g. ketoacidosis requiring hospitalization, any recent episode of hypoglycemia requiring assistance through medical intervention, uncontrolled hyperglycemia).\n* ALT \\>2xULN, or AST \\>2xULN, or total bilirubin greater than ULN, or alkaline phosphatase (AP) \\>2xULN, or INR greater than ULN (unless related to anticoagulation treatment) at screening.\n* Positive hepatitis B virus surface antigen (HBsAg) or positive hepatitis C virus antibodies (anti-HCV) and detection of mRNA (HCV-mRNA tested only if hepatitis C virus antibodies detected).\n* Estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73 m\\^2 calculated by Modification of Diet in Renal Disease (MDRD) formula (local formulas will be used where applicable.\n* Uncontrolled hypertension despite optimal treatment with antihypertensive(s), indicated by a sitting systolic blood pressure ≥ 180 mmHg and/or diastolic blood pressure ≥ 110 mmHg.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "NEUROHK s.r.o",
+          "city": "Choceň",
+          "zip": "565 01",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.00161,
+            "lon": 16.22303
+          }
+        },
+        {
+          "facility": "Clintrial s.r.o.",
+          "city": "Prague",
+          "zip": "101 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Diabet2, s.r.o.",
+          "city": "Prague",
+          "zip": "110 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Diabetologicka a endokrinologicka ambulance, Milan Kvapil",
+          "city": "Prague",
+          "zip": "149 00",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Diabetologicka a endokrinologicka ambulance, Milan Kvapil,",
+          "city": "Příbram",
+          "zip": "261 01",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.68988,
+            "lon": 14.01043
+          }
+        },
+        {
+          "facility": "Vestra Clinics s.r.o.",
+          "city": "Rychnov nad Kněžnou",
+          "zip": "516 01",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.16284,
+            "lon": 16.27488
+          }
+        },
+        {
+          "facility": "Aalborg Universitetshospital",
+          "city": "Aalborg",
+          "zip": "9000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        },
+        {
+          "facility": "Steno Diabetes Center Copenhagen",
+          "city": "Herlev",
+          "zip": "2730",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.72366,
+            "lon": 12.43998
+          }
+        },
+        {
+          "facility": "Holbæk Sygehus",
+          "city": "Holbæk",
+          "zip": "4300",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.7175,
+            "lon": 11.71279
+          }
+        },
+        {
+          "facility": "Kolding Sygehus",
+          "city": "Kolding",
+          "zip": "6000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.4904,
+            "lon": 9.47216
+          }
+        },
+        {
+          "facility": "Diagnos Klaukkalan Lääkäriasema",
+          "city": "Klaukkala",
+          "zip": "01800",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.38244,
+            "lon": 24.751
+          }
+        },
+        {
+          "facility": "Health Step Finland Oy",
+          "city": "Kuopio",
+          "zip": "70100",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.89238,
+            "lon": 27.67703
+          }
+        },
+        {
+          "facility": "Tampereen yliopistollinen sairaala, keskussairaala",
+          "city": "Tampere",
+          "zip": "33520",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 61.49911,
+            "lon": 23.78712
+          }
+        },
+        {
+          "facility": "Turun yliopistollinen keskussairaala",
+          "city": "Turku",
+          "zip": "20520",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.45148,
+            "lon": 22.26869
+          }
+        },
+        {
+          "facility": "Hopital Ambroise Pare",
+          "city": "Boulogne-Billancourt",
+          "zip": "92104",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.83545,
+            "lon": 2.24128
+          }
+        },
+        {
+          "facility": "Hôpital François Mitterrand - Dijon",
+          "city": "Dijon",
+          "zip": "21000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Hopital Carémeau - Nîmes",
+          "city": "Nîmes",
+          "zip": "30029",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "Hôpital Lariboisière - Paris",
+          "city": "Paris",
+          "zip": "75475",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "St. Josefskrankenhaus",
+          "city": "Heidelberg",
+          "state": "Baden-Wurttemberg",
+          "zip": "69115",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "Siteworks GmbH",
+          "city": "Hanover",
+          "state": "Lower Saxony",
+          "zip": "30449",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "InnoDiab Forschung GmbH",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45136",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Medamed Studienambulanz GmbH",
+          "city": "Leipzig",
+          "state": "Saxony",
+          "zip": "04315",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Praxis Hr. Dr. med. Jens Taggeselle",
+          "city": "Markkleeberg",
+          "state": "Saxony",
+          "zip": "04416",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.2755,
+            "lon": 12.36906
+          }
+        },
+        {
+          "facility": "Friedrich-Schiller-Uni. Jena",
+          "city": "Jena",
+          "state": "Thuringia",
+          "zip": "07747",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.92878,
+            "lon": 11.5899
+          }
+        },
+        {
+          "facility": "emovis GmbH",
+          "city": "Berlin",
+          "zip": "10629",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "DKD Helios Klinik Wiesbaden",
+          "city": "Wiesbaden",
+          "zip": "65191",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.08601,
+            "lon": 8.24435
+          }
+        },
+        {
+          "facility": "Coromed Smo Kft",
+          "city": "Pécs",
+          "zip": "7623",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.07617,
+            "lon": 18.22814
+          }
+        },
+        {
+          "facility": "AKTIMED Helse AS",
+          "city": "Hamar",
+          "zip": "2317",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 60.7945,
+            "lon": 11.06798
+          }
+        },
+        {
+          "facility": "Oslo Universitetssykehus HF, Ullevål",
+          "city": "Oslo",
+          "zip": "0450",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 59.91273,
+            "lon": 10.74609
+          }
+        },
+        {
+          "facility": "Oslo universitetssykehus HF, Aker",
+          "city": "Oslo",
+          "zip": "0586",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 59.91273,
+            "lon": 10.74609
+          }
+        },
+        {
+          "facility": "Centrum Badan Klinicznych PI-House",
+          "city": "Gdansk",
+          "zip": "80-546",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "Vita Longa Sp. z o.o.",
+          "city": "Katowice",
+          "zip": "40-748",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "LANDA - Specjalist. Gabinety Lekarskie",
+          "city": "Krakow",
+          "zip": "31-156",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Diamond Clinic Specjalistyczne Poradnie Lekarskie",
+          "city": "Krakow",
+          "zip": "31-559",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Instytut Diabetologii w Warszawie",
+          "city": "Warsaw",
+          "zip": "02-117",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Futuremeds sp. z o. o.",
+          "city": "Wroclaw",
+          "zip": "50-088",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "MEDISPEKTRUM s.r.o.",
+          "city": "Bratislava",
+          "zip": "851 04",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.14816,
+            "lon": 17.10674
+          }
+        },
+        {
+          "facility": "KONZILIUM s.r.o.",
+          "city": "Dubnica nad Váhom",
+          "zip": "018 41",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.95981,
+            "lon": 18.16634
+          }
+        },
+        {
+          "facility": "NEURES, s.r.o.",
+          "city": "Krompachy",
+          "zip": "053 42",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.91447,
+            "lon": 20.87514
+          }
+        },
+        {
+          "facility": "Liptovska nemocnica s poliklinikou MUDr. Ivana Stodolu",
+          "city": "Liptovský Mikuláš",
+          "zip": "03123",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 49.08061,
+            "lon": 19.62218
+          }
+        },
+        {
+          "facility": "Tatratrial s. r. o.",
+          "city": "Rožňava",
+          "zip": "04801",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.66009,
+            "lon": 20.53758
+          }
+        },
+        {
+          "facility": "Medect Clinical Trials AB",
+          "city": "Stockholm",
+          "zip": "11526",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37851336",
+          "type": "DERIVED",
+          "citation": "Bouhassira D, Tesfaye S, Sarkar A, Soisalon-Soininen S, Stemper B, Baron R. Efficacy and safety of eliapixant in diabetic neuropathic pain and prediction of placebo responders with an exploratory novel algorithm: results from the randomized controlled phase 2a PUCCINI study. Pain. 2024 Apr 1;165(4):785-795. doi: 10.1097/j.pain.0000000000003085. Epub 2023 Oct 18."
+        },
+        {
+          "pmid": "34978027",
+          "type": "DERIVED",
+          "citation": "Fletcher MC. Selectivity of the P2X3 receptor antagonist Eliapixant, and its potential use in the treatment of endometriosis. Purinergic Signal. 2022 Mar;18(1):1-3. doi: 10.1007/s11302-021-09831-5. Epub 2022 Jan 3. No abstract available."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Click here to find information about studies related to Bayer Healthcare products conducted in Europe.",
+          "url": "http://www.clinicaltrialsregister.eu/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Availability of this study's data will later be determined according to Bayer's commitment to the EFPIA/PhRMA \"Principles for responsible clinical trial data sharing\". This pertains to scope, timepoint and process of data access. As such, Bayer commits to sharing upon request from qualified researchers patient-level clinical trial data, study-level clinical trial data, and protocols from clinical trials in patients for medicines and indications approved in the US and EU as necessary for conducting legitimate research. This applies to data on new medicines and indications that have been approved by the EU and US regulatory agencies on or after January 01, 2014. Interested researchers can use www.clinicalstudydatarequest.com to request access to anonymized patient-level data and supporting documents from clinical studies to conduct research. Information on the Bayer criteria for listing studies and other relevant information is provided in the Study sponsors section of the portal."
+    }
+  },
+  "hasResults": false
+}

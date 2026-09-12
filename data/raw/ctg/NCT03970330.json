@@ -1,0 +1,263 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03970330",
+      "orgStudyIdInfo": {
+        "id": "Study00011187"
+      },
+      "organization": {
+        "fullName": "Milton S. Hershey Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Low-Dose Naltrexone in Combination With Standard Treatment in Women With Endometriosis",
+      "officialTitle": "A Randomized Double-Blind Placebo-Controlled Trial to Assess the Effectiveness of Low-Dose Naltrexone in Combination With Standard Treatment in Women With Chronic Pelvic Pain Secondary to Endometriosis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Original PI left institution, lack of funding to continue",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-01-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-06-21",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-06-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-05-15",
+      "studyFirstSubmitQcDate": "2019-05-29",
+      "studyFirstPostDateStruct": {
+        "date": "2019-05-31",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2022-08-18",
+      "resultsFirstSubmitQcDate": "2022-10-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-11-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-11-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Kristin Riley, MD",
+        "investigatorTitle": "Asst. Professor of Obstetrics and Gynecology",
+        "investigatorAffiliation": "Milton S. Hershey Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Milton S. Hershey Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if the addition of Low Dose Naltrexone to standard endometriosis treatments will improve patient reported endometriosis associated pain.",
+      "detailedDescription": "The central hypothesis of the research study is that low dose naltrexone (LDN), in combination with hormonal suppression of endometriosis (standard of care), will lead to significant improvement of endometriosis-related pain.\n\nThe proposal seeks to:\n\n1. determine if the addition of LDN to standard endometriosis treatments will improve patient- reported endometriosis associated pain using daily Visual Analogue Scale (VAS) scores and\n2. measure the impact of treatment on quality of life as measured by validated questionnaires including the Endometriosis Health Profile-30 (EHP30) and the Patient's Global Impression of Change (PGIC)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "endometriosis",
+        "pelvic pain",
+        "opioid",
+        "narcotic"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, Double Blind, Placebo Controlled Trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 9,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Low-Dose Naltrexone",
+          "type": "EXPERIMENTAL",
+          "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate",
+          "interventionNames": [
+            "Drug: Naltrexone",
+            "Drug: Norethindrone Acetate"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate",
+          "interventionNames": [
+            "Drug: Norethindrone Acetate",
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Naltrexone",
+          "description": "4.5mg daily dose, taken orally",
+          "armGroupLabels": [
+            "Low-Dose Naltrexone"
+          ],
+          "otherNames": [
+            "REVIA"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Norethindrone Acetate",
+          "description": "5 - 15mg daily dose, taken orally",
+          "armGroupLabels": [
+            "Low-Dose Naltrexone",
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "daily placebo pill, taken orally",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pain Score Area Under the Curve (AUC)",
+          "description": "Pain is reported daily using the Visual Analog Scale, a 100mm horizontal line on which the patient's pain intensity is represented by a point between the extremities of 0 (no pain) and 100 (worst pain). The final outcome measure will be calculated as area under the curve from randomization through 12-weeks of intervention. AUC was calculated using the trapezoid rule. Calculated AUC per subject across this 12-week period can range from 0 - 8300.",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "EHP-30 Score",
+          "description": "Quality of life measured by the validated Endometriosis Health Profile (EHP-30) questionnaire. Scores range from 0 (best health status) to 100 (worst health status).",
+          "timeFrame": "Baseline, 4, 8, 12, and 16 weeks"
+        },
+        {
+          "measure": "PGIC Score (Painful Periods)",
+          "description": "Patient's Global Impression of Change (PGIC) scale will be used to rate painful periods. This is a 7 point scale ranging from 1 (much worse) to 7 (much better).",
+          "timeFrame": "4, 8, 12 and 16 weeks"
+        },
+        {
+          "measure": "PGIC Score (Nonmenstrual Pelvic Pain)",
+          "description": "Patient's Global Impression of Change (PGIC) scale will be used to rate nonmenstrual pelvic pain. This is a 7 point scale ranging from 1 (much worse) to 7 (much better).",
+          "timeFrame": "4, 8, 12 and 16 weeks"
+        },
+        {
+          "measure": "PGIC Score (Dyspareunia)",
+          "description": "Patient's Global Impression of Change (PGIC) scale will be used to rate pelvic pain during sex. This is a 7 point scale ranging from 1 (much worse) to 7 (much better).",
+          "timeFrame": "4, 8, 12 and 16 weeks"
+        },
+        {
+          "measure": "Ibuprofen Use",
+          "description": "Average # of ibuprofen 200 mg pills per week during the study treatment period",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Oxycodone Use",
+          "description": "Number of subjects who used oxycodone at any time during the study",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Premenopausal female ages 18 to 45 years old on the day of signing informed consent.\n* Must agree to use only study-specific analgesic medications during the study and is not known to be intolerant to them.\n* Diagnosed with endometriosis and has had, within the last 10 years prior to signing the informed consent, surgical diagnosis with direct visualization and/or histopathologic confirmation of endometriosis.\n* Is not expected to undergo gynecological surgery or other surgical procedures for treatment of endometriosis during the study period.\n* Agrees to use contraception if not surgically sterile during the entire study.\n* Patients using oral contraceptives, LARCs and/or GnRH agonists/antagonists for contraception and/or management of endometriosis, with a stable regimen, will be able to continue in the study, however, women using oral contraceptives and GnRH agonist/antagonists will be switched to Norethindrone acetate during the 1-2 week run-in period as prescribed by principle investigator.\n\nExclusion Criteria:\n\n* Women that are pregnant, breastfeeding or trying to conceive.\n* Patients with chronic daily narcotic use and any chronic pain or frequently reoccurring pain condition, other than endometriosis, that is treated with opioids or requires analgesics for more than 7 days per month.\n* Patients with abnormal liver function tests (greater than 3x normal limit) in the past year or history of liver disease. Routine screening of liver function is not required.\n* Non-English speaking or inability to read and understand English secondary, in part, to the need to read and report daily results in English.\n* Undiagnosed vaginal bleeding\n* Patients with history of opioid, illicit drug or alcohol abuse\n* Patients currently taking thioridazine\n* Patients with a history of suicidality\n* Patients with current or history of unstable depression or other psychiatric disorder who, by PI judgement, are unstable or not well controlled\n* Known, suspected or history of cancer of the breast\n* Active deep vein thrombosis, pulmonary embolism or history of these conditions\n* Active or recent arterial thromboembolic disease (e.g., stroke, myocardial infarction)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Endometriosis is specifically associated to females.",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Kristin Riley, MD",
+          "affiliation": "Milton S. Hershey Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Penn State Hershey Medical Center",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Participant data will be shared that underlie the results reported in this article, after deidentification. Documents that will be available are the study protocol, statistical analysis plan, informed consent. Analyses is to achieve the study aims in the approved proposal.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Data will be available one year after publication according to PMCID journal guidelines.",
+      "accessCriteria": "Data will plan to be published in a peer-reviewed journal and /or posted at clinicaltrials.gov websites or other websites per request of the NIH. Materials will also be accessible through email contact of Primary Investigator."
+    }
+  },
+  "hasResults": true,
+  "resultsSection": {
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Kristin Riley",
+        "organization": "MSHersheyMC",
+        "email": "kriley1@pennstatehealth.psu.edu",
+        "phone": "717-531-6447"
+      }
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04948489",
+      "orgStudyIdInfo": {
+        "id": "IRB-P00037934"
+      },
+      "organization": {
+        "fullName": "Boston Children's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "IUD and Norethindrone Acetate for Treatment of Endometriosis",
+      "officialTitle": "Efficacy of the Levonorgestrel Intrauterine Device With Norethindrone Acetate for Treatment of Endometriosis in Adolescents and Young Adults"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "No funding",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-06-07",
+      "studyFirstSubmitQcDate": "2021-06-29",
+      "studyFirstPostDateStruct": {
+        "date": "2021-07-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Amy DiVasta, MD",
+        "investigatorTitle": "Attending Physician, Division of Adolescent/Young Adult Medicine; Associate Professor of Pediatrics, Harvard Medical School",
+        "investigatorAffiliation": "Boston Children's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Boston Children's Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Endometriosis is the most common reproductive disease afflicting young women, often leading to debilitating chronic pelvic pain and impaired quality of life. Safe, effective, and convenient long-term treatments are lacking for adolescents and young adults. The levonorgestrel-containing IUD (LNG-IUD) represents an attractive long-term drug delivery system for the treatment of endometriosis during adolescence and young adulthood. However, while the LNG-IUD has an acceptable safety profile, it is not associated with a favorable bleeding profile and may not fully suppress endometriosis pain when used as monotherapy. Investigators hypothesize that the addition of NETA will improve bleeding patterns, maximize pain control, and improve continuation rates of the IUD when the two medications are used in combination. This proposed prospective trial provides the ideal context in which to investigate these clinical questions and advance research on the best treatments for endometriosis.",
+      "detailedDescription": "Endometriosis is a major source of morbidity for U.S. females, affecting \\~49% of adolescents with chronic pelvic pain and 10% of all women of reproductive age. This percentage translates into approximately 176 million women worldwide who may suffer from endometriosis. Annual health care costs are estimated to be over $22 billion in the US alone. Over 50% of adults with endometriosis report onset of severe pelvic pain during their adolescence. Symptoms result in decreased quality of life, negative socioeconomic consequences, impaired reproductive potential, and diminished mental health. Endometriosis is a chronic disease that progresses over time in more than half of patients. Endometriosis has no cure. For adolescents in particular, this means that the impact of endometriosis and its symptoms can last for decades. Appropriate management involves not only prompt initiation of therapy, but also the maintenance of therapy for a protracted length of time.\n\nMedical therapy for endometriosis typically includes oral progestins or contraceptive pills. Though often effective, these options are associated with systemic side-effects which may further affect compliance and preclude long-term use. Furthermore, the need for repeated or regular administration compromises compliance and therefore efficacy. The levonorgestrel-releasing intrauterine system (LNG-IUD) has been evaluated as a promising treatment for endometriosis in adult women. The LNG-IUD 52 mg (Mirena) delivers levonorgestrel (LNG) to the uterine cavity at a steady rate of 20 µg/day over 5 to 6 years. The LNG causes atrophy and pseudo decidualization of the uterine lining, along with apoptosis of endometrial glands and stroma. As the LNG-IUD requires no further patient action following insertion, patient compliance is excellent. While continuation of the device is generally very good in adults, unfavorable uterine bleeding patterns are the most frequent reason for early device removal, particularly within the first 6 months. Anecdotal clinical experience suggests that combining use of the LNG-IUD with low-dose oral progestin therapy may maximize effectiveness and continuation of the LNG-IUD device in adolescents.\n\nThe investigators will recruit 80 adolescents for participation in a double-blind, randomized trial of NETA (n=40) vs. placebo (control group, n=40) for adjunct treatment to the levonorgestrel-containing IUD for pelvic pain due to endometriosis. It is believed that a combination of the locally-acting LNG-IUD plus systemic NETA may be the optimal combination to effectively treat endometriosis pain, minimize side effects, provide contraception, and control bleeding for adolescents with endometriosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Investigators will recruit 80 adolescents for participation in a double-blind, randomized trial of NETA (n=40) vs. placebo (control group, n=40) for adjunct treatment to the levonorgestrel-containing IUD for pelvic pain due to endometriosis.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "LNG IUD+ Norethindrone Acetate",
+          "type": "EXPERIMENTAL",
+          "description": "All eligible participants will have the LNG-IUD. Experimental participants will also receive norethindrone acetate 5 mg by mouth daily for 12 months.",
+          "interventionNames": [
+            "Drug: norethindrone acetate (NETA)"
+          ]
+        },
+        {
+          "label": "LNG IUD+Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "All eligible participants will have the LNG-IUD. Participants in the placebo comparator group will also receive a placebo tablet, 1 tablet by mouth daily for 12 months.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "norethindrone acetate (NETA)",
+          "description": "5mg of the NETA capsule by mouth daily for 12 months",
+          "armGroupLabels": [
+            "LNG IUD+ Norethindrone Acetate"
+          ],
+          "otherNames": [
+            "Aygestin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo capsule everyday for 12 months",
+          "armGroupLabels": [
+            "LNG IUD+Placebo"
+          ],
+          "otherNames": [
+            "gelatin capsules- filled with lactose monohydrate (0.2 gram)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Pain-Physical functioning assessed by the BPI",
+          "description": "A 7-item self-report measure. The items in this scale can be grouped into those that assess physical functioning (general activity; walking ability; normal work, including both work outside the home and housework), those that assess emotional functioning (mood; relations with people; enjoyment of life), and a single item that assesses the extent to which pain interferes with sleep. Either the item asking about the \"worst pain\" or the arithmetic mean of the four severity items can be used as measures of pain severity; the arithmetic mean of the seven interference items can be used as a measure of pain interference. The BPI is anchored between a scale of zero (no pain/interference) to ten (maximum pain/interference). The magnitude of treatment-associated change in BPI Interference Scale scores in open-label and randomized clinical trials ranges from 1 to 3 points, depending on the specific pain conditions and treatments studied.",
+          "timeFrame": "Baseline, 3 Months, 6 Months, 9 Months, 12 Months"
+        },
+        {
+          "measure": "Change in pain severity measured by Visual Analog Scale (VAS)",
+          "description": "VAS: A measurement of pain intensity, assessed by a 0 to 10 numerical rating scale, to rate maximum and average pain intensity over the preceding 7 days. Higher scores indicate more severe pain intensity.",
+          "timeFrame": "Baseline, 3 Months, 6 Months, 9 Months, 12 Months"
+        },
+        {
+          "measure": "Change in pain measured by Biberoglu and Behrman patient ratings scale (B&B pain scale)",
+          "description": "Biberoglu and Behrman patient ratings scale (B\\&B pain scale): Survey that assesses dyspareunia, dysmenorrhea, and noncyclic pelvic pain. Each is graded on a scale from 0 to 3, with higher numbers indicating more severe symptoms.",
+          "timeFrame": "Baseline, 3 Months, 6 Months, 9 Months, 12 Months"
+        },
+        {
+          "measure": "Change in Emotional functioning, assessed by the Beck Depression Inventory-II (BDI)",
+          "description": "Beck Depression Inventory-II (BDI)130, a 21-item self-report instrument that provides a rapid assessment of depressive symptoms.Total scores on the BDI range from 0 to 63. Scores below 10 should be considered to reflect \"minimal or no\" depression, with score ranges of 10 to 18, 19 to 29, and 30 to 63 reflect \"mild to moderate,\" \"moderate to severe,\" and \"severe\" depression, respectively.",
+          "timeFrame": "Baseline, 3 Months, 6 Months, 9 Months, 12 Months"
+        },
+        {
+          "measure": "Change in Participant ratings of overall improvement, assessed by the Patient Global Impression of Change scale (PGIC)",
+          "description": "This single-item self-assessed rating uses a 7-point rating scale with the options \"very much improved,\" \"much improved,\" \"minimally improved,\" \"no change,\" \"minimally worse,\" \"much worse,\" and \"very much worse.\"",
+          "timeFrame": "Baseline, 3 Months, 6 Months, 9 Months, 12 Months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in high sensitivity C-reactive protein",
+          "description": "investigators will measure changes in high sensitivity C-reactive protein (mg/L) over time to determine whether norethindrone acetate impacts inflammatory markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in interleukin-8",
+          "description": "Investigators will measure changes in interleukin-8 (pg/mL) over time to determine whether norethindrone acetate impacts inflammatory markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in tumor necrosis factor alpha",
+          "description": "Investigators will measure tumor necrosis factor alpha (pg/mL) to determine whether norethindrone acetate impacts inflammatory markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in Tissue factor pathway inhibitor (TFPI)",
+          "description": "Investigators will measure changes in TFPI to determine whether norethindrone acetate impacts prothrombotic markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in von Willebrand factor antigen",
+          "description": "Investigators will measure changes in von Willebrand factor antigen to determine whether norethindrone acetate impacts prothrombotic markers (VWFpp) to VWF antigen (VWF:Ag).",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in Factor VIII activity",
+          "description": "Investigators will measure changes in Factor VIII activity (1 U/mL) to determine whether norethindrone acetate impacts prothrombotic markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in soluble P-selectin",
+          "description": "Investigators will measure changes in soluble P- selectin (unit) over time to determine whether norethindrone acetate impacts prothrombotic markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in interleukin-6 (IL-6)",
+          "description": "Investigators will measure changes in interleukin-6 (pg/mL) over time to determine whether norethindrone acetate impacts prothrombotic markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in lipoprotein[a]",
+          "description": "Investigators will measure changes in lipoprotein\\[a\\] (mg/dL) over time to determine whether norethindrone acetate impacts prothrombotic markers.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in Measure of arterial stiffness by pulse wave velocity",
+          "description": "Pulse wave velocity is an ultrasound measurement of the rate at which pressure waves move down a blood vessel. It is collected by using two pressure monitors placed a known distance from one another, the \"Pulse Wave Distance\". Pulse wave velocity is a validated surrogate measure of arterial stiffness that is a novel biomarker for cardiovascular risk/dysfunction.",
+          "timeFrame": "Baseline, 12 months"
+        },
+        {
+          "measure": "Change in Bone mineral density Z-scores by dual energy Xray absorptiometry (DXA)",
+          "description": "DXA has been the most widely used tool for the assessment of bone mass in clinical practice. DXA measures bone in two dimensions, and allows for the calculation of aBMD. Although these measures do not capture the internal architecture of bone, they are highly correlated with bone strength. A DXA scan of the total body (less head), lumbar spine, and total hip will be obtained. Age-, race-, and gender-specific Z-scores will be calculated using appropriate reference software.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        },
+        {
+          "measure": "Change in measures of central hypersensitization measured by quantitative sensory testing.",
+          "description": "The Quantitative sensory testing (QST) is a standard method through which sensory nerve function is quantitatively measured, based on responses of the participant. It will be measured at the abdomen, as well as the arm, which serves as an internal control.",
+          "timeFrame": "Baseline, 6 months, 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female with surgically confirmed endometriosis\n* Clinical decision to begin use of the LNG-IUD\n* Age 13 to 24 years\n* Current pelvic pain (score ≥ 3 on Visual Analog Scale) that has been present for at least 2 months prior to enrollment\n* Willingness to comply with visit schedule and study protocol\n\nExclusion Criteria:\n\n* Pre-menarche or post-menopause\n* Previous gonadotropin-releasing agonist use\n* Contraindications to an IUD (e.g., cavity-distorting uterine anomaly, acute pelvic inflammatory disease, \\<3 months from postpartum endometritis or septic abortion, local neoplasm, uterine bleeding of unknown etiology, breast cancer, untreated cervicitis or vaginitis or other lower genital tract infections)\n* Active or historical venous thromboembolism, active or recent arterial thromboembolic disease\n* Impaired liver function or liver disease\n* Systemic lupus erythematosus\n* Uncontrolled diabetes or uncontrolled hypertension (BPs \\>140s/90s)\n* Hypersensitivity to any component of the NETA or LNG-IUS\n* Concurrent use of moderate or strong CYP34a inducers or inhibitors (such as erythromycin, ketoconazole, phenobarbital, rifampin)\n* Significant mental or chronic systemic illnesses that may impact pain assessment\n* Breast feeding, giving birth within the last 6 months, pregnancy, or planning to become pregnant in the next 12 month",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "13 Years",
+      "maximumAge": "24 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Amy DiVasta",
+          "affiliation": "Boston Children's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Boston Children's Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,166 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04347135",
+      "orgStudyIdInfo": {
+        "id": "19-004345"
+      },
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluating Endometriosis With 16α-(18)F-fluoro-17β-estradiol ([F-18] FES) PET/MRI",
+      "officialTitle": "Pilot Study Evaluating Endometriosis With 16α-(18)F-fluoro-17β-estradiol ([F-18] FES) PET/MRI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "No Enrollment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-10-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-04-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-04-13",
+      "studyFirstSubmitQcDate": "2020-04-13",
+      "studyFirstPostDateStruct": {
+        "date": "2020-04-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Annie (Annie) T. Packard",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Mayo Clinic"
+      },
+      "leadSponsor": {
+        "name": "Annie (Annie) T. Packard",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Researchers are trying to improve the detection of endometriosis using F-18 FES PET/MRI imaging."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "F-18 FES PET/MRI",
+          "type": "EXPERIMENTAL",
+          "description": "16α-(18)F-fluoro-17β-estradiol (\\[F-18\\] FES)",
+          "interventionNames": [
+            "Drug: F-18 FES"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "F-18 FES",
+          "description": "F-18 FES PET/MRI for detection of endometriosis.",
+          "armGroupLabels": [
+            "F-18 FES PET/MRI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Detection of Endometriosis",
+          "description": "Comparisons will be made descriptively between conventional MRI imaging, FES PET/MRI imaging and surgical/pathologic findings. Outcome data include number of detected lesions, differences in the accuracy for detection of active disease versus inactive fibrosis, and confidence score.",
+          "timeFrame": "24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Premenopausal women (18-50) with endometriosis\n\nExclusion Criteria:\n\n* Postmenopausal women\n* AP diameter when lying supine greater than 32 cm (too large for PET/MRI)\n* Unable to undergo PET/MRI for any reason (metal implants, severe claustrophobia)\n* Unable to receive IV Gadolinium contrast for any reason (renal failure eGFR \\< 60, contrast allergy)\n* Pregnant (Urine test will be provided for all patients)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ann Packard, MD",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic in Rochester",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Mayo Clinic Clinical Trials",
+          "url": "https://www.mayo.edu/research/clinical-trials"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "hasResults": false
+}
