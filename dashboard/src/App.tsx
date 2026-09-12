@@ -92,7 +92,9 @@ export default function App() {
           <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="kicker">Women&apos;s health</p>
-              <h1 className="text-[26px] leading-tight sm:text-[30px]">Failed asset triage</h1>
+              <p className="font-serif text-[26px] leading-tight tracking-[-0.025em] text-ink sm:text-[30px]">
+                Failed asset triage
+              </p>
               <p className="mt-1 max-w-xl text-[13px] text-mute">
                 Read-only ledger of stopped endometriosis and PCOS programmes. A high score means the public record is
                 compatible with a non-biological failure — not an investment recommendation.

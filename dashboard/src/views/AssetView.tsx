@@ -319,9 +319,11 @@ function FeedbackPanel({ nct }: { nct: string }) {
       <p className="mt-1 text-[12px] text-mute">
         Stays in this browser (localStorage) and copies JSONL to the clipboard. Nothing is posted to a server.
       </p>
-      <label className="mt-4 block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
+      <label htmlFor="feedback-verdict" className="mt-4 block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
         Verdict
         <select
+          id="feedback-verdict"
+          name="verdict"
           value={verdict}
           onChange={(e) => setVerdict(e.target.value as Verdict)}
           className="mt-1.5 h-9 w-full border border-wine/20 bg-cream px-2 font-sans text-[13px] text-ink"
@@ -332,9 +334,11 @@ function FeedbackPanel({ nct }: { nct: string }) {
           <option value="wrong_failure_mode">Wrong failure mode</option>
         </select>
       </label>
-      <label className="mt-3 block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
+      <label htmlFor="feedback-note" className="mt-3 block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
         Note
         <textarea
+          id="feedback-note"
+          name="note"
           value={note}
           onChange={(e) => setNote(e.target.value)}
           rows={3}

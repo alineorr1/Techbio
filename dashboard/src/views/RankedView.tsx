@@ -63,9 +63,11 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
 
       <Panel className="mb-4 p-3 sm:p-4">
         <div className="grid gap-3 sm:grid-cols-3">
-          <label className="block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
+          <label htmlFor="ranked-search" className="block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
             Search
             <input
+              id="ranked-search"
+              name="q"
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
@@ -73,9 +75,11 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
               className="mt-1.5 h-9 w-full border border-wine/20 bg-cream px-2.5 font-sans text-[13px] text-ink"
             />
           </label>
-          <label className="block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
+          <label htmlFor="ranked-indication" className="block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
             Indication
             <select
+              id="ranked-indication"
+              name="indication"
               value={indication}
               onChange={(e) => setIndication(e.target.value)}
               className="mt-1.5 h-9 w-full border border-wine/20 bg-cream px-2 font-sans text-[13px] text-ink"
@@ -88,9 +92,11 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
               ))}
             </select>
           </label>
-          <label className="block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
+          <label htmlFor="ranked-mode" className="block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
             Failure mode
             <select
+              id="ranked-mode"
+              name="failure_mode"
               value={mode}
               onChange={(e) => setMode(e.target.value)}
               className="mt-1.5 h-9 w-full border border-wine/20 bg-cream px-2 font-sans text-[13px] text-ink"
