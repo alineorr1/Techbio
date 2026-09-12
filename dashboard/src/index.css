@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", ui-serif, "Iowan Old Style", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --color-ivory: #f7f1ea;
+  --color-cream: #f3ebe3;
+  --color-wine: #5c2430;
+  --color-oxblood: #3d1822;
+  --color-rose: #c17b7e;
+  --color-mucosa: #a85a64;
+  --color-terra: #b85c4a;
+  --color-champagne: #e8d5c4;
+  --color-ink: #2a1a1f;
+  --color-mute: #6e565c;
+  --color-line: color-mix(in srgb, #5c2430 16%, transparent);
+  --color-panel: #f7f1ea;
+  --color-raised: #f3ebe3;
+  --color-paper: #2a1a1f;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background: #f7f1ea;
+  color: #2a1a1f;
+  font-family: var(--font-sans);
+}
+
+body {
+  font-size: 13px;
+  line-height: 1.42;
+  font-optical-sizing: auto;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  text-align: left;
+  border: 0;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: #2a1a1f;
+  letter-spacing: -0.025em;
+  font-optical-sizing: auto;
+}
+
+a {
+  color: #5c2430;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: #3d1822;
+}
+
+::selection {
+  background: #e8d5c4;
+  color: #3d1822;
+}
+
+input[type="range"] {
+  accent-color: #5c2430;
+  height: 2px;
+}
+
+select,
+textarea,
+input[type="text"] {
+  border-radius: 0;
+  outline: none;
+}
+
+select:focus,
+textarea:focus,
+input[type="text"]:focus {
+  border-color: #5c2430;
+}
+
+.kicker {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #a85a64;
+}
+
+.hairline {
+  border-color: color-mix(in srgb, #5c2430 16%, transparent);
+}
+
+@keyframes ledger-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.ledger-pulse {
+  animation: ledger-pulse 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ledger-pulse {
+    animation: none;
+  }
+}
