@@ -7,8 +7,7 @@ Records that share any identifier are merged with union-find so NCT ↔ EU CT
 crosswalks collapse to one programme_id. Persistence is
 ``data/derived/identity/{programme_id}.json``.
 
-This module is ingest/identity only. It does not call classify, score, serve,
-ICTRP, or ChiCTR.
+This module is ingest/identity only. It does not call classify, score, or serve.
 """
 
 from __future__ import annotations
