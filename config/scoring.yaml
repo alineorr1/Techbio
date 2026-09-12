@@ -1,0 +1,85 @@
+# All scoring weights and thresholds live here. The dashboard renders these numbers
+# next to the arithmetic so a reviewer can see how a score was produced.
+
+weights:
+  mechanism_evidence: 35
+  failure_mode: 30
+  population_definition: 20
+  asset_accessibility: 15
+
+rules:
+  # Rule A: safety failures are not re-acquisition candidates.
+  safety_score_cap: 25
+  # Rule B (Organon guard): do not score above this unless at least one
+  # independent mechanism evidence source predates the trial start date.
+  organon_guard_max_without_pretrial_evidence: 60
+
+failure_mode_scores:
+  funding_or_sponsor: 100
+  efficacy_uninterpretable: 92
+  recruitment: 86
+  strategic: 78
+  design: 70
+  regulatory: 52
+  unclear: 40
+  other: 36
+  efficacy: 10
+  safety: 4
+
+# Population component is inverted: missing female-specific variables raise the score
+# because a poorly defined population cannot have falsified the biology.
+population_booleans:
+  - diagnosis_method_stated
+  - disease_severity_stratified
+  - age_range_specified
+  - menopausal_status_specified
+  - menstrual_cycle_phase_controlled
+  - hormonal_contraceptive_use_addressed
+  - prior_treatment_history_specified
+  - biomarker_or_molecular_subtype_used
+
+accessibility:
+  sponsor_status_points:
+    ceased: 95
+    restructured: 80
+    acquired: 58
+    operating: 28
+    unknown: 42
+  phase_points:
+    PHASE3: 100
+    PHASE2: 78
+    PHASE2_PHASE3: 90
+    PHASE1_PHASE2: 60
+    PHASE1: 38
+    EARLY_PHASE1: 30
+    PHASE4: 70
+    NA: 34
+    UNKNOWN: 34
+  # Years since stop: very recent (still held tightly) and very old (stale) score lower.
+  years_since_stop:
+    peak_low: 2
+    peak_high: 8
+    max_points: 100
+
+mechanism:
+  # Map Open Targets datatype ids into the 0-100 mechanism component.
+  overall_association_scale: 100
+  genetic_bonus_scale: 40
+  known_drug_bonus: 15
+  genetic_datatype_ids:
+    - genetic_association
+    - somatic_mutation
+  literature_only_penalty: 0.45
+
+confidence:
+  unresolved_high_flag: 4
+  extraction_confidence_rank:
+    high: 1.0
+    medium: 0.75
+    low: 0.45
+
+classify:
+  enrolment_recruitment_threshold: 0.5
+  sponsor_window_quarters: 2
+  peer_stop_window_days: 180
+  female_specific_vars_for_interpretable_efficacy: 3

@@ -1,0 +1,63 @@
+# Adding a third indication is a config change, not a code change.
+# Query construction, EFO/MONDO resolution, and dashboard filters all read this file.
+
+indications:
+  endometriosis:
+    label: Endometriosis
+    synonyms:
+      - endometriosis
+      - adenomyosis
+      - endometrioma
+      - endometriotic
+      - chocolate cyst
+    efo_ids:
+      - EFO_0001065
+    mondo_ids:
+      - MONDO_0005133
+    related_mondo_ids:
+      - MONDO_0010888  # adenomyosis
+  pcos:
+    label: Polycystic ovary syndrome
+    synonyms:
+      - polycystic ovary syndrome
+      - polycystic ovarian syndrome
+      - PCOS
+      - Stein-Leventhal
+      - Stein Leventhal
+      - hyperandrogenism
+    require_paired_terms:
+      hyperandrogenism: [anovulation, oligo-ovulation, oligoovulation, amenorrhea]
+    efo_ids:
+      - EFO_0000668
+    mondo_ids:
+      - MONDO_0008487
+
+study_type: INTERVENTIONAL
+intervention_types:
+  - DRUG
+  - BIOLOGICAL
+
+# Quiet-failure / stopped-development universe
+stopped_statuses:
+  - TERMINATED
+  - WITHDRAWN
+  - SUSPENDED
+  - UNKNOWN
+
+# Completed trials that never posted results, primary completion > N years ago
+completed_no_results:
+  status: COMPLETED
+  min_years_since_primary_completion: 2
+
+# Sentinel records that must be ingested even if they posted results.
+# OG-6219 is the Organon/Forendo HSD17B1 counterexample the scoring rules exist to catch.
+always_include_ncts:
+  - NCT05560646  # OG-6219 Phase 2
+  - NCT03709420  # FOR-6219 Phase 1
+  - NCT00001848  # NIH raloxifene endometriosis (published harm)
+
+ingest:
+  page_size: 100
+  max_records: 800
+  requests_per_second: 3.0
+  max_concurrency: 4
