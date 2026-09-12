@@ -1,0 +1,79 @@
+name: Weekly corpus refresh
+
+# Monday 06:00 UTC ≈ every 7 days. Also runnable by hand from the Actions tab.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+# Needed so the bot commit can push snapshot JSON back to the default branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-pipeline
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-n: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Incremental ingest, extract cache-misses, re-score, export snapshot
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+        run: |
+          set -euo pipefail
+          SINCE=$(python -c "from datetime import datetime, timedelta, timezone; print((datetime.now(timezone.utc)-timedelta(days=10)).strftime('%Y-%m-%d'))")
+          echo "Ingesting CTG records last-updated since ${SINCE}"
+          python -m src.ingest --since "$SINCE"
+          python -m src.extract --skip-existing
+          python -m src.enrich --skip-existing
+          python -m src.classify
+          python -m src.score
+          python -m src.serve
+
+      - name: Upload snapshot artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-snapshot
+          path: |
+            data/snapshots/
+            data/reports/
+            dashboard/public/data/snapshot.json
+          if-no-files-found: error
+
+      - name: Commit generated snapshot and derived files
+        if: github.ref == 'refs/heads/main'
+        run: |
+          set -euo pipefail
+          git config user.name "wh-triage-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- \
+            dashboard/public/data/snapshot.json \
+            data/snapshots \
+            data/reports \
+            data/raw/ctg \
+            data/derived/extract \
+            data/derived/enrich \
+            data/derived/classify \
+            data/derived/score
+          if git diff --cached --quiet; then
+            echo "No generated files changed."
+            exit 0
+          fi
+          git commit -m "chore: weekly snapshot $(date -u +%F)"
+          git push

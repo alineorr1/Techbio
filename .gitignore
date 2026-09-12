@@ -1,0 +1,45 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg
+
+# LLM / HTTP caches (regenerable)
+data/cache/
+*.pyc
+
+# DuckDB WAL
+*.duckdb.wal
+data/warehouse.duckdb.wal
+
+# Node
+node_modules/
+dashboard/dist/
+dashboard/node_modules/
+.DS_Store
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+
+# Agent uploads (not part of the product)
+uploads/

@@ -1,0 +1,5 @@
+cache/
+*.duckdb.wal
+
+snapshot_20260912T011740Z.json
+snapshot_20260912T013530Z.json
