@@ -65,6 +65,10 @@ export default function App() {
   const { snapshot, error, loading } = useSnapshot();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [route]);
+
+  useEffect(() => {
     if (!snapshot) return;
     if (route.name === "asset") {
       const asset = snapshot.assets.find((row) => row.nct_id.toUpperCase() === route.nct);
