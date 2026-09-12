@@ -1,0 +1,157 @@
+{
+  "snapshot_id": "20260912T013623Z",
+  "n_assets": 551,
+  "top20": [
+    {
+      "nct_id": "NCT02669238",
+      "score": 60.0,
+      "failure_mode": "recruitment",
+      "title": "Evaluation of a Subcutaneous Progestogen Implants in the Medical Management of Painful Endometriosis"
+    },
+    {
+      "nct_id": "NCT04554693",
+      "score": 60.0,
+      "failure_mode": "funding_or_sponsor",
+      "title": "The Use of Low Dose Metronidazole to Decrease Postoperative Pain After Endometriosis Surgery"
+    },
+    {
+      "nct_id": "NCT06621342",
+      "score": 60.0,
+      "failure_mode": "recruitment",
+      "title": "Platelet Rich Plasma Uterine Infusion"
+    },
+    {
+      "nct_id": "NCT05670353",
+      "score": 59.8,
+      "failure_mode": "efficacy_uninterpretable",
+      "title": "Cannabidiol for the Treatment of Pelvic Pain in Endometriosis (DREAMLAND)"
+    },
+    {
+      "nct_id": "NCT04372121",
+      "score": 58.5,
+      "failure_mode": "recruitment",
+      "title": "Extension to Study on Efficacy and Safety of Linzagolix for the Treatment of Endometriosis-associated Pain"
+    },
+    {
+      "nct_id": "NCT03481842",
+      "score": 58.1,
+      "failure_mode": "recruitment",
+      "title": "Safety, Tolerability and Efficacy of Vaginal Suppositories for Treatment of the Endometriosis"
+    },
+    {
+      "nct_id": "NCT04347135",
+      "score": 58.1,
+      "failure_mode": "recruitment",
+      "title": "Evaluating Endometriosis With 16α-(18)F-fluoro-17β-estradiol ([F-18] FES) PET/MRI"
+    },
+    {
+      "nct_id": "NCT03380091",
+      "score": 57.7,
+      "failure_mode": "recruitment",
+      "title": "Metformin, Vitamin D, and Depression in Polycystic Ovary Syndrome (PCOS) Trial"
+    },
+    {
+      "nct_id": "NCT03970330",
+      "score": 57.7,
+      "failure_mode": "funding_or_sponsor",
+      "title": "Low-Dose Naltrexone in Combination With Standard Treatment in Women With Endometriosis"
+    },
+    {
+      "nct_id": "NCT00703092",
+      "score": 57.6,
+      "failure_mode": "funding_or_sponsor",
+      "title": "Pilot Study:Role of Dietary Fiber in PCOS Anovulation"
+    },
+    {
+      "nct_id": "NCT02038985",
+      "score": 56.7,
+      "failure_mode": "funding_or_sponsor",
+      "title": "Fluorescence Imaging + ICG Dye for Use in the Visual Diagnosis of Endometriosis"
+    },
+    {
+      "nct_id": "NCT01607320",
+      "score": 56.1,
+      "failure_mode": "recruitment",
+      "title": "Efficacy Study of Raloxifene to Induce Ovulation in Polycystic Ovarian Syndrome"
+    },
+    {
+      "nct_id": "NCT04527003",
+      "score": 56.0,
+      "failure_mode": "recruitment",
+      "title": "Cannabidiol and Management of Endometriosis Pain"
+    },
+    {
+      "nct_id": "NCT04118777",
+      "score": 55.9,
+      "failure_mode": "recruitment",
+      "title": "Postoperative Narcotic Use After Laparoscopic Gynecologic Surgery"
+    },
+    {
+      "nct_id": "NCT00518635",
+      "score": 55.5,
+      "failure_mode": "recruitment",
+      "title": "Low Dose Growth Hormone in Obese PCOS Women"
+    },
+    {
+      "nct_id": "NCT02547909",
+      "score": 55.5,
+      "failure_mode": "recruitment",
+      "title": "The Application of Probe-based Confocal Laser Endomicroscopy in the Diagnosis of Deep Endometriosis"
+    },
+    {
+      "nct_id": "NCT03325868",
+      "score": 55.2,
+      "failure_mode": "recruitment",
+      "title": "Effect of Ulipristal Acetate on Bleeding Patterns and Dysmenorrhea in Women With Adenomyosis"
+    },
+    {
+      "nct_id": "NCT04955574",
+      "score": 55.0,
+      "failure_mode": "recruitment",
+      "title": "Probiotic and Antibiotic Therapies in Women With Unexplained Infertility"
+    },
+    {
+      "nct_id": "NCT05168865",
+      "score": 54.5,
+      "failure_mode": "recruitment",
+      "title": "Letrozole Versus Hormonal Preparation in Frozen Cycles of PCOS Patients."
+    },
+    {
+      "nct_id": "NCT02079974",
+      "score": 54.1,
+      "failure_mode": "recruitment",
+      "title": "Statins: A New Therapeutic Option for Treatment of Patients With Endometriosis"
+    }
+  ],
+  "weekly": {
+    "previous_snapshot": "/workspace/data/snapshots/snapshot_20260912T013530Z.json",
+    "new_in_top20": [],
+    "moved_over_10pts": [
+      {
+        "nct_id": "NCT00784693",
+        "title": "A Clinical Study To Investigate The Effectiveness And Safety Of Tanezumab In Treating Pain Associated With Endometriosis",
+        "delta": -16.4,
+        "from": 54.0,
+        "to": 37.6,
+        "why": "6_unclear_surface_for_review"
+      },
+      {
+        "nct_id": "NCT02544776",
+        "title": "Amlodipine on Blood Flow of Preovulatory Follicle in Polycystic Ovarian Patients",
+        "delta": -12.5,
+        "from": 50.8,
+        "to": 38.3,
+        "why": "6_unclear_surface_for_review"
+      },
+      {
+        "nct_id": "NCT05647356",
+        "title": "The RolE oF Androgen Excess in MUscle Energy MetaboLism in Women With PolyCystic Ovary Syndrome (REFUEL PCOS) Study 2",
+        "delta": -12.4,
+        "from": 49.6,
+        "to": 37.2,
+        "why": "6_unclear_surface_for_review"
+      }
+    ]
+  },
+  "landscape_headline": 0.4263
+}
