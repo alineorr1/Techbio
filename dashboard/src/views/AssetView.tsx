@@ -1,9 +1,9 @@
 import { useMemo, useState } from "react";
 import { Badge, Button } from "../components/ui";
-import { EmptyNote, FailureBadge, PageHeader, Panel, ScoreMark } from "../components/chrome";
+import { EmptyNote, FailureBadge, FieldLabel, PageHeader, Panel, ScoreMark } from "../components/chrome";
 import { asNumber, asString, componentLabel, populationLabel, prettyPhase } from "../lib/format";
 import { hrefFor } from "../lib/hash";
-import { cn, sourceHost } from "../lib/utils";
+import { sourceHost } from "../lib/utils";
 import type { Asset, Snapshot } from "../lib/types";
 
 const FEEDBACK_KEY = "wh-triage-feedback.v1";
@@ -62,9 +62,7 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
   return (
     <div>
       <p className="mb-3">
-        <a href={hrefFor({ name: "ranked" })} className="text-[11px] uppercase tracking-[0.16em] no-underline">
-          ← Ranked list
-        </a>
+        <a href={hrefFor({ name: "ranked" })}>← Ranked list</a>
       </p>
       <PageHeader kicker={asset.nct_id} title={title}>
         <p>
@@ -76,23 +74,23 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
 
       <div className="mb-6 grid gap-4 lg:grid-cols-[220px_1fr]">
         <Panel className="p-4">
-          <p className="kicker">Triage score</p>
-          <ScoreMark score={asset.score?.score} className="mt-2 block text-[44px]" />
+          <FieldLabel>Triage score</FieldLabel>
+          <ScoreMark score={asset.score?.score} className="mt-2 block text-3xl" />
           <p className="mt-2 font-mono text-[11px] text-mute">
             CI {lo ?? "—"}–{hi ?? "—"}
             {asset.score?.uncertainty?.flag === "HIGH_UNCERTAINTY" ? " · high uncertainty" : ""}
           </p>
           <div className="mt-3 flex flex-wrap gap-1.5">
             <FailureBadge mode={asset.classification?.failure_mode} />
-            {asset.score?.rule_a_safety_cap ? <Badge tone="terra">Rule A</Badge> : null}
-            {asset.score?.rule_b_organon_guard ? <Badge tone="wine">Rule B</Badge> : null}
+            {asset.score?.rule_a_safety_cap ? <Badge tone="muted">Rule A</Badge> : null}
+            {asset.score?.rule_b_organon_guard ? <Badge tone="muted">Rule B</Badge> : null}
           </div>
         </Panel>
         <Panel className="p-4">
-          <p className="kicker">Arithmetic</p>
-          <p className="mt-2 font-mono text-[12px] leading-relaxed text-ink">{asset.score?.arithmetic || "—"}</p>
+          <FieldLabel>Arithmetic</FieldLabel>
+          <p className="mt-2 font-mono text-xs leading-relaxed">{asset.score?.arithmetic || "—"}</p>
           {(asset.score?.caps_applied || []).length > 0 ? (
-            <ul className="mt-3 space-y-1 text-[13px] text-wine">
+            <ul className="mt-3 space-y-1 text-sm">
               {asset.score.caps_applied.map((cap) => (
                 <li key={cap}>{cap}</li>
               ))}
@@ -115,8 +113,8 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
                         {comp.value.toFixed(1)} × {weights[key] ?? "—"}
                       </span>
                     </div>
-                    <div className="mt-1.5 h-1.5 bg-champagne">
-                      <div className="h-full bg-wine" style={{ width: `${Math.max(0, Math.min(100, comp.value))}%` }} />
+                    <div className="mt-1.5 h-1.5 bg-cream">
+                      <div className="h-full bg-ink" style={{ width: `${Math.max(0, Math.min(100, comp.value))}%` }} />
                     </div>
                     {comp.note ? <p className="mt-1.5 text-[12px] text-mute">{comp.note}</p> : null}
                   </li>
@@ -137,7 +135,7 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
             <Fact label="Post-trial items" value={String(pretrial?.posttrial_count ?? 0)} />
           </dl>
           {asset.score?.rule_b_organon_guard ? (
-            <p className="mt-4 border border-wine/20 bg-champagne/50 px-3 py-2 text-[13px] text-wine">
+            <p className="mt-4 border border-line px-3 py-2 text-sm">
               Rule B is active: no pre-trial independent mechanism evidence in this snapshot.
             </p>
           ) : (
@@ -153,18 +151,11 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
             {captured} of {checklist.length || 8} female-specific variables captured. Missing variables raise the
             population component because the trial could not have falsified the biology.
           </p>
-          <ul className="mt-4 divide-y divide-wine/10">
+          <ul className="mt-4 divide-y divide-line">
             {checklist.map((item) => (
-              <li key={item.field} className="flex items-center justify-between gap-3 py-2 text-[13px]">
+              <li key={item.field} className="flex items-center justify-between gap-3 py-2 text-sm">
                 <span>{populationLabel(item.field)}</span>
-                <span
-                  className={cn(
-                    "font-mono text-[10px] uppercase tracking-[0.14em]",
-                    item.captured ? "text-wine" : "text-terra",
-                  )}
-                >
-                  {item.captured ? "Captured" : "Missing"}
-                </span>
+                <span className="font-mono text-xs text-mute">{item.captured ? "Captured" : "Missing"}</span>
               </li>
             ))}
           </ul>
@@ -181,23 +172,23 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
             <Fact label="Stopped / completed" value={asset.completion_date || asset.primary_completion_date || "—"} />
           </dl>
           <p className="mt-4 text-[13px] text-ink">
-            <span className="kicker block mb-1">Why stopped</span>
+            <FieldLabel className="mb-1">Why stopped</FieldLabel>
             {asset.why_stopped || asset.extraction?.stop_reason_raw || "Not stated in the registry record."}
           </p>
           {asset.extraction?.stop_reason_evidence ? (
-            <blockquote className="mt-3 border-l-2 border-wine/30 pl-3 font-serif text-[15px] italic text-ink">
+            <blockquote className="mt-3 border-l-2 border-line pl-3 text-sm">
               {asset.extraction.stop_reason_evidence}
             </blockquote>
           ) : null}
-          <p className="mt-4 text-[13px] text-mute">
-            <span className="kicker block mb-1">Mechanism</span>
+          <p className="mt-4 text-sm text-mute">
+            <FieldLabel className="mb-1">Mechanism</FieldLabel>
             {asset.mechanism_summary || asset.extraction?.mechanism_summary || "—"}
           </p>
           {(asset.targets || []).length > 0 ? (
             <ul className="mt-3 flex flex-wrap gap-1.5">
               {asset.targets.map((t) => (
                 <li key={`${t.name}-${t.gene_symbol}`}>
-                  <Badge tone="champagne">
+                  <Badge tone="muted">
                     {t.name}
                     {t.gene_symbol ? ` (${t.gene_symbol})` : ""}
                   </Badge>
@@ -219,9 +210,7 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
               </li>
             ))}
           </ul>
-          <h3 className="mt-6 font-sans text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
-            On-disk sources
-          </h3>
+          <h3 className="mt-6 text-sm font-medium">On-disk sources</h3>
           <ul className="mt-2 space-y-1 font-mono text-[11px] text-mute">
             {Object.entries(asset.sources || {}).map(([key, path]) => (
               <li key={key}>
@@ -240,7 +229,7 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="kicker">{label}</dt>
+      <dt className="text-sm text-mute">{label}</dt>
       <dd className="mt-1 text-ink">{value}</dd>
     </div>
   );
@@ -257,7 +246,7 @@ function EvidenceList({ heading, items }: { heading: string; items: Array<Record
   if (!items.length) return null;
   return (
     <div className="mt-4">
-      <p className="kicker">{heading}</p>
+      <p className="text-sm text-mute">{heading}</p>
       <ul className="mt-2 space-y-2">
         {items.slice(0, 8).map((item, idx) => {
           const label =
@@ -319,14 +308,14 @@ function FeedbackPanel({ nct }: { nct: string }) {
       <p className="mt-1 text-[12px] text-mute">
         Stays in this browser (localStorage) and copies JSONL to the clipboard. Nothing is posted to a server.
       </p>
-      <label htmlFor="feedback-verdict" className="mt-4 block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
-        Verdict
+      <label htmlFor="feedback-verdict" className="mt-4 block">
+        <FieldLabel>Verdict</FieldLabel>
         <select
           id="feedback-verdict"
           name="verdict"
           value={verdict}
           onChange={(e) => setVerdict(e.target.value as Verdict)}
-          className="mt-1.5 h-9 w-full border border-wine/20 bg-cream px-2 font-sans text-[13px] text-ink"
+          className="mt-1.5 h-9 w-full border border-line px-2"
         >
           <option value="agree">Agree with score</option>
           <option value="too_high">Score too high</option>
@@ -334,15 +323,15 @@ function FeedbackPanel({ nct }: { nct: string }) {
           <option value="wrong_failure_mode">Wrong failure mode</option>
         </select>
       </label>
-      <label htmlFor="feedback-note" className="mt-3 block text-[10px] font-medium uppercase tracking-[0.16em] text-mucosa">
-        Note
+      <label htmlFor="feedback-note" className="mt-3 block">
+        <FieldLabel>Note</FieldLabel>
         <textarea
           id="feedback-note"
           name="note"
           value={note}
           onChange={(e) => setNote(e.target.value)}
           rows={3}
-          className="mt-1.5 w-full border border-wine/20 bg-cream px-2.5 py-2 font-sans text-[13px] text-ink"
+          className="mt-1.5 w-full border border-line px-2.5 py-2"
         />
       </label>
       <div className="mt-3">
@@ -350,7 +339,7 @@ function FeedbackPanel({ nct }: { nct: string }) {
           Save + copy JSONL
         </Button>
       </div>
-      {status ? <p className="mt-2 text-[12px] text-wine">{status}</p> : null}
+      {status ? <p className="mt-2 text-xs text-mute">{status}</p> : null}
       {existing.length > 0 ? (
         <p className="mt-3 text-[12px] text-mute">
           {existing.length} local note{existing.length === 1 ? "" : "s"} on this asset

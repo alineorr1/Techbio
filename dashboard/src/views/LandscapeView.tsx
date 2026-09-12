@@ -66,10 +66,10 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
 
   return (
     <div>
-      <PageHeader kicker="Landscape" title="How the corpus is shaped">
+      <PageHeader kicker="Landscape" title="Corpus shape">
         <p>
           {landscape.n_assets} assets · mean female-specific capture{" "}
-          <span className="font-serif text-ink">{fmtPct(landscape.mean_female_specific_capture, 0)}</span>
+          {fmtPct(landscape.mean_female_specific_capture, 0)}
         </p>
       </PageHeader>
 
@@ -166,8 +166,8 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
 function Stat({ label, value, hint }: { label: string; value: string; hint?: string }) {
   return (
     <Panel className="p-4">
-      <p className="kicker">{label}</p>
-      <p className="mt-2 font-serif text-[28px] leading-none text-wine">{value}</p>
+      <p className="text-sm text-mute">{label}</p>
+      <p className="mt-2 font-mono text-2xl tabular-nums">{value}</p>
       {hint ? <p className="mt-2 text-[12px] text-mute">{hint}</p> : null}
     </Panel>
   );

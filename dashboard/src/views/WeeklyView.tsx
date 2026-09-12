@@ -39,16 +39,14 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
         <Panel className="p-4">
           <h2 className="text-[20px]">New in the top 20</h2>
           <p className="mt-1 text-[12px] text-mute">{incoming.length} assets entered the top twenty.</p>
-          <ul className="mt-4 divide-y divide-wine/10">
+          <ul className="mt-4 divide-y divide-line">
             {incoming.map((row) => {
               const nct = asString(row.nct_id) || "unknown";
               return (
                 <li key={nct} className="py-3">
-                  <a href={hrefFor({ name: "asset", nct })} className="no-underline">
-                    <span className="font-mono text-[11px] text-wine">{nct}</span>
-                    <span className="mt-0.5 block font-serif text-[16px] text-ink">
-                      {asString(row.title) || nct}
-                    </span>
+                  <a href={hrefFor({ name: "asset", nct })}>
+                    <span className="font-mono text-xs">{nct}</span>
+                    <span className="mt-0.5 block">{asString(row.title) || nct}</span>
                   </a>
                   <div className="mt-1.5 flex flex-wrap items-center gap-2">
                     <ScoreMark score={asNumber(row.score)} className="text-[18px]" />
@@ -65,20 +63,18 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
         <Panel className="p-4">
           <h2 className="text-[20px]">Moved more than 10 points</h2>
           <p className="mt-1 text-[12px] text-mute">{moved.length} assets with |Δ| &gt; 10.</p>
-          <ul className="mt-4 divide-y divide-wine/10">
+          <ul className="mt-4 divide-y divide-line">
             {moved.map((row) => {
               const nct = asString(row.nct_id) || "unknown";
               const delta = asNumber(row.delta);
               return (
                 <li key={nct} className="py-3">
-                  <a href={hrefFor({ name: "asset", nct })} className="no-underline">
-                    <span className="font-mono text-[11px] text-wine">{nct}</span>
-                    <span className="mt-0.5 block font-serif text-[16px] text-ink">
-                      {asString(row.title) || nct}
-                    </span>
+                  <a href={hrefFor({ name: "asset", nct })}>
+                    <span className="font-mono text-xs">{nct}</span>
+                    <span className="mt-0.5 block">{asString(row.title) || nct}</span>
                   </a>
-                  <p className="mt-1.5 text-sm text-ink">
-                    <span className={delta != null && delta < 0 ? "text-terra" : "text-wine"}>
+                  <p className="mt-1.5 text-sm">
+                    <span>
                       {delta == null ? "—" : `${delta > 0 ? "+" : ""}${fmtScore(delta)}`}
                     </span>
                     <span className="text-mute">
