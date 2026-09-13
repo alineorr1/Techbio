@@ -32,6 +32,11 @@ export function failureModeLabel(mode: string | null | undefined): string {
   return FAILURE_MODE_LABELS[mode as FailureMode] ?? mode.replaceAll("_", " ");
 }
 
+export function failureModeWord(mode: string | null | undefined): string {
+  if (!mode) return "unclear";
+  return mode.replaceAll("_", "-");
+}
+
 export function populationLabel(field: string): string {
   return POPULATION_LABELS[field] ?? field.replaceAll("_", " ");
 }

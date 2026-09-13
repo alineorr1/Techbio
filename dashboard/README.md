@@ -27,6 +27,6 @@ python -m src.score
 python -m src.serve
 ```
 
-Chrome is structural only (routes, snapshot data, non-buy disclaimer). Brand restyle comes later from `weare-brand-system.md`.
+Chrome is the Oxman B&W lock: white ground, ink type, `we.are` wordmark, typographic diligence banner (`non-buy · rights-unknown · honest`). No wine/maroon header.
 
 Deploy: repo-root `vercel.json` builds this directory. See the Operations section in the project README for secrets, weekly updates, and Vercel.

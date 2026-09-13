@@ -42,7 +42,7 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
   if (!asset) {
     return (
       <div>
-        <PageHeader kicker="Asset" title={nct} />
+        <PageHeader kicker="asset" title={nct} />
         <EmptyNote>
           {nct} is not in this snapshot.{" "}
           <a href={hrefFor({ name: "ranked" })}>Return to the ranked list</a>.
@@ -82,8 +82,8 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
           </p>
           <div className="mt-3 flex flex-wrap gap-1.5">
             <FailureBadge mode={asset.classification?.failure_mode} />
-            {asset.score?.rule_a_safety_cap ? <Badge tone="muted">Rule A</Badge> : null}
-            {asset.score?.rule_b_organon_guard ? <Badge tone="muted">Rule B</Badge> : null}
+            {asset.score?.rule_a_safety_cap ? <Badge tone="muted">rule-a</Badge> : null}
+            {asset.score?.rule_b_organon_guard ? <Badge tone="muted">rule-b</Badge> : null}
           </div>
         </Panel>
         <Panel className="p-4">
@@ -113,7 +113,7 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
                         {comp.value.toFixed(1)} × {weights[key] ?? "—"}
                       </span>
                     </div>
-                    <div className="mt-1.5 h-1.5 bg-cream">
+                    <div className="mt-1.5 h-px bg-track">
                       <div className="h-full bg-ink" style={{ width: `${Math.max(0, Math.min(100, comp.value))}%` }} />
                     </div>
                     {comp.note ? <p className="mt-1.5 text-[12px] text-mute">{comp.note}</p> : null}
@@ -335,7 +335,7 @@ function FeedbackPanel({ nct }: { nct: string }) {
         />
       </label>
       <div className="mt-3">
-        <Button type="button" size="sm" onClick={persist}>
+        <Button type="button" variant="outline" size="sm" onClick={persist}>
           Save + copy JSONL
         </Button>
       </div>
