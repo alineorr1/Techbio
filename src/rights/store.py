@@ -66,10 +66,20 @@ def write_rights(record: dict[str, Any], root: Path | None = None) -> Path:
     validated = RightsRecord.model_validate(record).model_dump()
     if validated.get("confidence") == "empty_stub":
         validated["ownership"]["ownable"] = False
+        validated["desk_classification"] = None
         if validated.get("commercial_gate", {}).get("verdict") == "PASS":
             validated["commercial_gate"]["verdict"] = "empty_stub"
         validated["process"]["outreach"] = "none"
         assert_empty_stub_not_ownable(validated)
+    validated["shortlist_ownable"] = False
+    validated["optionable_candidate"] = False
+    validated.setdefault("process", {})["outreach"] = "none"
+    if validated.get("desk_classification") in {"WALK_AWAY", "CONTINGENT", "NEEDS_COUNSEL"}:
+        validated["ownership"]["ownable"] = False
+        if validated.get("commercial_gate", {}).get("verdict") == "PASS":
+            validated["commercial_gate"]["verdict"] = (
+                "FAIL" if validated["desk_classification"] == "WALK_AWAY" else "HOLD"
+            )
     key = content_key(nct_id=validated.get("nct_id"), programme_id=validated["programme_id"])
     path = directory / f"{key}.json"
     dump_json(path, validated)

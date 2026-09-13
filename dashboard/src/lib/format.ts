@@ -12,11 +12,15 @@ const FAILURE_MODE_LABELS: Record<FailureMode, string> = {
 
 export function gateSurface(asset: {
   gate_surface?: string | null;
+  desk_classification?: string | null;
   pre_pass?: { surface?: string | null } | null;
+  ownability?: { desk_classification?: string | null; surface?: string | null } | null;
   optionable?: boolean;
   shortlist_ownable?: boolean;
 }): string {
-  const surface = asset.pre_pass?.surface || asset.gate_surface;
+  const desk = asset.desk_classification || asset.ownability?.desk_classification;
+  if (desk === "WALK_AWAY" || desk === "CONTINGENT") return desk;
+  const surface = asset.pre_pass?.surface || asset.gate_surface || asset.ownability?.surface;
   if (surface) return surface;
   if (asset.optionable === false || asset.shortlist_ownable === false) return "NOT OPTIONABLE";
   return "NOT OPTIONABLE";
