@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { FailureBadge, FieldLabel, PageHeader, ScoreMark, StatusWord } from "../components/chrome";
 import { gateSurface, prettyPhase } from "../lib/format";
+import { labelSnapshot, labelWord } from "../lib/labels";
 import { hrefFor } from "../lib/hash";
 import type { Asset, FailureMode, Snapshot } from "../lib/types";
 
@@ -48,6 +49,8 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
     return [...keys].sort();
   }, [snapshot.assets]);
 
+  const labels = useMemo(() => labelSnapshot(snapshot.assets), [snapshot.assets]);
+
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase();
     return snapshot.assets.filter((asset) => {
@@ -63,6 +66,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
         <p>
           {rows.length} of {snapshot.assets.length}
           {snapshot.counts?.n_raw != null ? ` · ${snapshot.counts.n_raw} registry rows` : null}
+          {" · TRIAGE / RIGHTS_QUEUE / OPP — empty rights are RIGHTS_QUEUE, never OPP"}
         </p>
       </PageHeader>
 
@@ -149,6 +153,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
                   <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
                     <FailureBadge mode={asset.classification?.failure_mode} />
                     <StatusWord>{gateSurface(asset)}</StatusWord>
+                    <StatusWord>{labelWord(labels.get(asset.nct_id))}</StatusWord>
                     {ruleA ? <StatusWord>rule-a</StatusWord> : null}
                     {ruleB ? <StatusWord>rule-b</StatusWord> : null}
                     {!ruleA && !ruleB ? <StatusWord>non-buy</StatusWord> : null}

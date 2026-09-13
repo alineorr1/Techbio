@@ -27,6 +27,6 @@ python -m src.score
 python -m src.serve
 ```
 
-Chrome is the Oxman B&W lock: white ground, ink type, `we.are` wordmark, typographic diligence banner (`non-buy · rights-unknown · honest`). No wine/maroon header.
+Chrome is the Oxman B&W lock: white ground, ink type, `we.are` wordmark, typographic diligence banner (`non-buy · hypothesis for human review · mock · snapshot_id · n assets`). No wine/maroon header. No MD-LIVE banner.
 
 Deploy: repo-root `vercel.json` builds this directory. See the Operations section in the project README for secrets, weekly updates, and Vercel.

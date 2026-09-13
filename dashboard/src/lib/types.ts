@@ -37,6 +37,30 @@ export type ScoreComponent = {
 
 export type Asset = {
   nct_id: string;
+  programme_id?: string;
+  primary_display_id?: string;
+  eu_ct?: string;
+  source?: string;
+  rights?: {
+    confidence?: string;
+    desk_classification?: string | null;
+    ip?: { patent_families?: Array<{ title?: string; publication_numbers?: string[] }> };
+    modules?: { asset_ip_desk?: { adjacent_only?: boolean; public_patent_null?: boolean } };
+  };
+  ownability?: {
+    desk_classification?: string | null;
+    surface?: string | null;
+    md_status?: string | null;
+  };
+  cmc?: { confidence?: string; notes?: string };
+  pathway_505b2?: {
+    pathway?: string;
+    confidence?: string;
+    rld_ref?: string | null;
+    listed_drug_name?: string | null;
+    listed_drug_ref?: string | null;
+    exclusivity_windows?: Array<Record<string, unknown>>;
+  };
   brief_title: string | null;
   official_title: string | null;
   indication: string;
@@ -164,6 +188,8 @@ export type Asset = {
 export type Snapshot = {
   snapshot_id: string;
   created_at: string;
+  extract_model?: string;
+  extract_mode?: string;
   scoring: {
     weights: Record<string, number>;
     rules: Record<string, number>;

@@ -53,6 +53,12 @@ def test_w1b_no_openai_or_paid_llm_in_rights():
     assert "openai" not in blob
     assert "anthropic" not in blob
     assert "api.openai.com" not in blob
+    pilot = ROOT / "src" / "pilot"
+    if pilot.is_dir():
+        pblob = "\n".join(p.read_text() for p in pilot.glob("*.py")).lower()
+        assert "api.openai.com" not in pblob
+        assert "openai_api_key" not in pblob
+        assert "anthropic_api_key" not in pblob
 
 
 def test_w1b_extract_llm_not_enabled():

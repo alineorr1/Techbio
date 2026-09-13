@@ -520,6 +520,8 @@ def export_snapshot(*, dest: Path | None = None) -> Path:
     payload = {
         "snapshot_id": snap_id,
         "created_at": datetime.now(timezone.utc).isoformat(),
+        "extract_model": "mock-prompt-aware-v1",
+        "extract_mode": "mock",
         "scoring": scoring_config(),
         "indications": {
             k: {"label": v.get("label"), "efo_ids": v.get("efo_ids"), "mondo_ids": v.get("mondo_ids")}

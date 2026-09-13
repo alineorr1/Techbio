@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Badge, Button } from "../components/ui";
 import { EmptyNote, FailureBadge, FieldLabel, PageHeader, Panel, ScoreMark } from "../components/chrome";
 import { asNumber, asString, asStringList, componentLabel, gateSurface, populationLabel, prettyPhase } from "../lib/format";
+import { labelSnapshot, labelWord } from "../lib/labels";
 import { hrefFor } from "../lib/hash";
 import { sourceHost } from "../lib/utils";
 import type { Asset, Snapshot } from "../lib/types";
@@ -58,6 +59,8 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
   const pretrial = asset.score?.pretrial_mechanism;
   const checklist = asset.population_checklist || [];
   const captured = checklist.filter((item) => item.captured).length;
+  const stage = useMemo(() => labelSnapshot(snapshot.assets).get(asset.nct_id), [snapshot.assets, asset.nct_id]);
+  const mdStatus = asset.pre_pass?.md_status || asset.ownability?.md_status;
 
   return (
     <div>
@@ -82,7 +85,8 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
           </p>
           <div className="mt-3 flex flex-wrap gap-1.5">
             <FailureBadge mode={asset.classification?.failure_mode} />
-            <Badge tone="muted">{gateSurface(asset)}</Badge>
+            <Badge tone="hairline">{gateSurface(asset)}</Badge>
+            <Badge tone="muted">{labelWord(stage)}</Badge>
             {asset.score?.rule_a_safety_cap ? <Badge tone="muted">rule-a</Badge> : null}
             {asset.score?.rule_b_organon_guard ? <Badge tone="muted">rule-b</Badge> : null}
           </div>
@@ -103,20 +107,29 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
 
       <Panel className="mb-6 p-4">
         <FieldLabel>Pre-PASS / ownability</FieldLabel>
-        <p className="mt-2 font-mono text-sm">{gateSurface(asset)}</p>
+        <p className="mt-2 font-mono text-sm">
+          {gateSurface(asset)}
+          <span className="ml-3 text-mute">{labelWord(stage)}</span>
+        </p>
         <p className="mt-2 text-[13px] text-mute">
-          Empty rights are not optionable. Blind MD stays HOLD. Infra/gates only — this does not claim
-          ownability.
+          {stage?.label === "RIGHTS_QUEUE"
+            ? "Empty rights are NOT OPTIONABLE and stay RIGHTS_QUEUE, never OPP. This is a hypothesis for human review — a high score is not a buy signal and does not invent OPP."
+            : stage?.label === "OPP"
+              ? "OPP is not invented from score. Rights+path only — not a buy."
+              : "TRIAGE (stop-mode). Locked filled WALK_AWAY is not RIGHTS_QUEUE and not OPP. A high score is not a buy."}
         </p>
         <dl className="mt-4 grid grid-cols-2 gap-3 text-[13px] sm:grid-cols-4">
           <Fact label="Optionable" value={asset.optionable || asset.pre_pass?.optionable ? "yes" : "no"} />
           <Fact
-            label="Shortlist-ownable"
+            label="shortlist_ownable (gate)"
             value={asset.shortlist_ownable || asset.pre_pass?.shortlist_ownable ? "yes" : "no"}
           />
-          <Fact label="MD status" value={asset.pre_pass?.md_status || "HOLD"} />
-          <Fact label="Verdict" value={asset.pre_pass?.verdict || asset.score?.commercial_gate?.verdict as string || "HOLD"} />
+          <Fact label="MD status (record)" value={mdStatus || "—"} />
+          <Fact label="Verdict" value={asset.pre_pass?.verdict || (asset.score?.commercial_gate?.verdict as string) || "—"} />
         </dl>
+        <p className="mt-3 text-[12px] text-mute">
+          MD status is a record field only. This dashboard does not surface an MD banner.
+        </p>
         {(asset.pre_pass?.reason_codes || asset.walk_away_codes || []).length > 0 ? (
           <p className="mt-3 font-mono text-[11px] text-mute">
             {asStringList(asset.pre_pass?.reason_codes || asset.walk_away_codes).join(" · ")}

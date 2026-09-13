@@ -1,0 +1,185 @@
+{
+  "schema_version": "pilot.rights-queue.v1",
+  "cap_min": 30,
+  "cap_max": 50,
+  "cap": 50,
+  "narrative": "Empty-rights survivors are RIGHTS_QUEUE, never OPP. OPP is not invented from score. Auto-WALK generics/marketed, then cap ≤50 of RIGHTS_QUEUE before human fill. Does not loosen CONTINGENT citable-IP, withdrawn/0-enrolment, Intermezzo, REMS, or Rule B.",
+  "sort_order": [
+    "industry_single_grantor",
+    "thin_biotech",
+    "tt_named_asset",
+    "other"
+  ],
+  "large_cap_industry": [
+    "bayer",
+    "abbvie",
+    "pfizer",
+    "organon",
+    "glaxosmithkline",
+    "gsk",
+    "johnson",
+    "janssen",
+    "novartis",
+    "sanofi",
+    "merck",
+    "msd",
+    "astrazeneca",
+    "roche",
+    "genentech",
+    "lilly",
+    "eli lilly",
+    "novo nordisk",
+    "takeda",
+    "astellas",
+    "daiichi",
+    "boehringer",
+    "amgen",
+    "bristol",
+    "bms",
+    "gilead"
+  ],
+  "disregard": [
+    {
+      "code": "DESK_WALK_AWAY",
+      "kind": "desk",
+      "note": "Locked Asset IP WALK_AWAY — kill-book, not RIGHTS_QUEUE."
+    },
+    {
+      "code": "WALK_AWAY_WITHDRAWN",
+      "kind": "status",
+      "note": "Withdrawn registry status is pre-queue walk-away (E3 stays locked)."
+    },
+    {
+      "code": "WALK_AWAY_ZERO_ENROLMENT",
+      "kind": "enrolment",
+      "note": "0-enrolment is pre-queue walk-away (E3 stays locked)."
+    },
+    {
+      "code": "GENERIC_RLD",
+      "kind": "pattern",
+      "note": "Obvious generic / SOC RLD — no economic-right thesis.",
+      "patterns": [
+        "metformin",
+        "metronidazole",
+        "naltrexone",
+        "letrozole",
+        "clomiphene",
+        "clomifene",
+        "spironolactone",
+        "pioglitazone",
+        "rosiglitazone",
+        "simvastatin",
+        "atorvastatin",
+        "aspirin",
+        "ibuprofen",
+        "acetaminophen",
+        "paracetamol",
+        "prednisone",
+        "prednisolone",
+        "dexamethasone",
+        "leuprolide",
+        "leuprorelin",
+        "triptorelin",
+        "goserelin",
+        "medroxyprogesterone",
+        "dydrogesterone",
+        "norethindrone",
+        "norethisterone",
+        "norgestimate",
+        "desogestrel",
+        "drospirenone",
+        "ethinyl estradiol",
+        "ethinylestradiol",
+        "dienogest",
+        "cyproterone",
+        "ketamine",
+        "lidocaine",
+        "bupivacaine"
+      ]
+    },
+    {
+      "code": "OCP_MARKETED",
+      "kind": "pattern",
+      "note": "Marketed oral contraceptive / Lunabell-class.",
+      "patterns": [
+        "oral contraceptive",
+        "combined oral",
+        "low-dose oral contraceptive",
+        "lunabell",
+        "yaz",
+        "yasmin",
+        "diane 35",
+        "marvelon"
+      ]
+    },
+    {
+      "code": "NUTRACEUTICAL",
+      "kind": "pattern",
+      "note": "Fiber / inositol / vitamin / supplement — not a pharma right.",
+      "patterns": [
+        "fiber-stat",
+        "liquid fiber",
+        "dietary fiber",
+        "dietary fibre",
+        "inositol",
+        "myo-inositol",
+        "d-chiro",
+        "chiro-inositol",
+        "caronositol",
+        "vitamin d",
+        "vitamin e",
+        "nutraceut",
+        "dietary supplement",
+        "omega-3",
+        "berberine",
+        "cinnamon",
+        "spearmint"
+      ]
+    },
+    {
+      "code": "IMAGING_ONLY",
+      "kind": "pattern",
+      "note": "Imaging / radiotracer — not a drug option.",
+      "patterns": [
+        "f-18",
+        "f 18",
+        "fluoroestradiol",
+        "fluoro-17",
+        "fdg pet",
+        "positron emission",
+        "radiotracer",
+        "radiolabel",
+        "imaging study",
+        "diagnostic imaging"
+      ]
+    },
+    {
+      "code": "BLOOD_PRODUCT",
+      "kind": "pattern",
+      "note": "PRP / plasma / blood-product — not a small-molecule right.",
+      "patterns": [
+        "platelet rich plasma",
+        "platelet-rich plasma",
+        "prp",
+        "plasma infusion",
+        "blood product"
+      ]
+    },
+    {
+      "code": "MARKETED_CLASS",
+      "kind": "pattern",
+      "note": "Already-marketed class (Lunabell / Caronositol / Nexplanon / GnRH combo brands).",
+      "patterns": [
+        "lunabell",
+        "caronositol",
+        "nexplanon",
+        "implanon",
+        "orilissa",
+        "elagolix",
+        "yselty",
+        "myfembree",
+        "relugolix"
+      ]
+    }
+  ]
+}
