@@ -4,7 +4,22 @@ export type FailureMode =
   | "efficacy_uninterpretable"
   | "efficacy"
   | "safety"
-  | "unclear";
+  | "unclear"
+  | "never_started";
+
+export type PrePass = {
+  verdict?: string;
+  optionable?: boolean;
+  shortlist_ownable?: boolean;
+  surface?: string;
+  md_status?: string;
+  block_pass?: boolean;
+  reason_codes?: string[];
+  walk_away_codes?: string[];
+  rights_unknown?: boolean;
+  missing_ownership_fill?: boolean;
+  empty_stub?: boolean;
+};
 
 export type Link = { label: string; url: string };
 
@@ -67,6 +82,10 @@ export type Asset = {
     signals: Record<string, unknown>;
     rule_fired: string;
     notes: string;
+    commercial_gate?: Record<string, unknown>;
+    disqualifier_codes?: string[];
+    pre_pass?: PrePass;
+    walk_away_codes?: string[];
   };
   score: {
     nct_id: string;
@@ -102,7 +121,18 @@ export type Asset = {
     confidence_interval: [number, number];
     failure_mode: FailureMode;
     classification_rule: string;
+    commercial_gate?: Record<string, unknown>;
+    pre_pass?: PrePass;
+    optionable?: boolean;
+    shortlist_ownable?: boolean;
+    gate_surface?: string;
+    walk_away_codes?: string[];
   };
+  pre_pass?: PrePass;
+  optionable?: boolean;
+  shortlist_ownable?: boolean;
+  gate_surface?: string;
+  walk_away_codes?: string[];
   enrichment: {
     open_targets: Record<string, unknown>;
     europepmc: {

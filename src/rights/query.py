@@ -8,6 +8,14 @@ from __future__ import annotations
 from typing import Any
 
 from src.rights.codes import HARD_KILL_CODES
+from src.rights.gates import (
+    MISSING_OWNERSHIP_FILL,
+    NOT_OPTIONABLE,
+    NOT_OPTIONABLE_CODE,
+    RIGHTS_UNKNOWN,
+    missing_ownership_fill,
+    rights_unknown,
+)
 from src.rights.schema import empty_rights
 
 
@@ -20,8 +28,23 @@ def ownability_query(record: dict[str, Any] | None) -> dict[str, Any]:
     triggered = bool(kill.get("triggered"))
     codes = list(kill.get("codes") or [])
     confidence = rec.get("confidence") or "empty_stub"
-    ownable = bool(ownership.get("ownable")) and confidence != "empty_stub" and not triggered and not thesis
-    decision = thesis or triggered or confidence == "empty_stub" or not ownable
+    unknown = rights_unknown(rec)
+    missing_own = missing_ownership_fill(rec)
+    ownable = (
+        bool(ownership.get("ownable"))
+        and not unknown
+        and not missing_own
+        and confidence != "empty_stub"
+        and not triggered
+        and not thesis
+    )
+    decision = thesis or triggered or unknown or missing_own or not ownable
+    if unknown and RIGHTS_UNKNOWN not in codes:
+        codes.append(RIGHTS_UNKNOWN)
+    if missing_own and MISSING_OWNERSHIP_FILL not in codes:
+        codes.append(MISSING_OWNERSHIP_FILL)
+    if not ownable and NOT_OPTIONABLE_CODE not in codes:
+        codes.append(NOT_OPTIONABLE_CODE)
     return {
         "schema_version": rec.get("schema_version"),
         "nct_id": rec.get("nct_id") or identity.get("nct_id"),
@@ -32,7 +55,13 @@ def ownability_query(record: dict[str, Any] | None) -> dict[str, Any]:
         "hard_codes": list(kill.get("hard") or []),
         "soft_codes": list(kill.get("soft") or []),
         "ownership_ownable": ownable,
+        "optionable": ownable,
+        "shortlist_ownable": ownable,
+        "surface": NOT_OPTIONABLE if not ownable else "PASS",
+        "md_status": "HOLD" if not ownable else "PASS",
         "confidence": confidence,
+        "rights_unknown": unknown,
+        "missing_ownership_fill": missing_own,
         "decision_required": decision,
     }
 

@@ -17,6 +17,8 @@ rules:
   intermezzo_score_cap: 20
   teratogen_rems_hard_cap: 10
   teratogen_rems_downrank_cap: 25
+  # WITHDRAWN / enrollment=0 is walk-away, not a recruitment win (BioGene-class).
+  walk_away_score_cap: 20
 
 failure_mode_scores:
   funding_or_sponsor: 100
@@ -27,6 +29,7 @@ failure_mode_scores:
   regulatory: 52
   unclear: 40
   other: 36
+  never_started: 18
   efficacy: 10
   safety: 4
 

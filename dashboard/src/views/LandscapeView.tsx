@@ -24,6 +24,7 @@ const tooltipStyle = {
 const MODES = [
   "funding_or_sponsor",
   "recruitment",
+  "never_started",
   "efficacy_uninterpretable",
   "efficacy",
   "safety",

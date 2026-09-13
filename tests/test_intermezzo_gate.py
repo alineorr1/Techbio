@@ -4,7 +4,15 @@ from __future__ import annotations
 
 from src.classify.rules import classify_record
 from src.extract.schema import Classification, Extraction, Population, EndpointQuality, Target
-from src.rights.gates import K4_INTERMEZZO, SEX_DIFF_ALONE, evaluate_commercial_gate
+from src.rights.gates import (
+    K4_INTERMEZZO,
+    MISSING_OWNERSHIP_FILL,
+    NOT_OPTIONABLE,
+    NOT_OPTIONABLE_CODE,
+    SEX_DIFF_ALONE,
+    evaluate_commercial_gate,
+    evaluate_pre_pass,
+)
 from src.rights.schema import empty_rights
 from src.score.compute import score_asset
 
@@ -58,6 +66,12 @@ def test_empty_rights_never_pass():
     assert gate["verdict"] != "PASS"
     assert gate["empty_stub"] is True
     assert "EMPTY_RIGHTS_NOT_OWNABLE" in gate["reason_codes"]
+    assert NOT_OPTIONABLE_CODE in gate["reason_codes"]
+    pre = evaluate_pre_pass(study=_study(), rights=empty_rights("p_empty"), gate=gate)
+    assert pre["surface"] == NOT_OPTIONABLE
+    assert pre["optionable"] is False
+    assert pre["shortlist_ownable"] is False
+    assert pre["md_status"] == "HOLD"
 
 
 def test_sex_dose_alone_is_not_pass():
@@ -97,8 +111,45 @@ def test_k4_zolpidem_no_exclusivity_is_not_pass():
     assert gate["verdict"] == "FAIL"
 
 
+def _filled_ownership(rights):
+    rights["ownership"] = {
+        "status": "resolved",
+        "holder": "Test Holder LLC",
+        "ownable": True,
+        "confidence": "high",
+        "note": "Filled for gate tests. Does not claim live ownability.",
+    }
+    return rights
+
+
 def test_resolved_right_can_pass_without_sex_diff():
     rights = empty_rights("p_realright")
+    rights["confidence"] = "high"
+    rights["ip"]["right_class"] = "option"
+    rights["ip"]["listed_drug_ref"] = "NDA021007"
+    rights["ip"]["docket_empty"] = False
+    _filled_ownership(rights)
+    rights["commercial_shape"] = {"pricing_power": "present", "generic_available": False}
+    rights["ind_regulatory"]["pathway_505b2"] = {
+        "pathway": "505(b)(2)",
+        "rld_ref": "NDA021007",
+        "listed_drug_name": None,
+        "listed_drug_ref": "NDA021007",
+        "exclusivity_windows": [{"exclusivity_type": "NCE", "start": None, "end": None, "status": "active"}],
+        "orange_book_url": None,
+        "orange_book_hook": "orange_book",
+        "confidence": "high",
+    }
+    gate = evaluate_commercial_gate(study=_study(), rights=rights)
+    assert gate["verdict"] == "PASS"
+    pre = evaluate_pre_pass(study=_study(), rights=rights, gate=gate)
+    assert pre["shortlist_ownable"] is True
+    assert pre["optionable"] is True
+    assert pre["surface"] == "PASS"
+
+
+def test_missing_ownership_fill_blocks_pass():
+    rights = empty_rights("p_noown")
     rights["confidence"] = "high"
     rights["ip"]["right_class"] = "option"
     rights["ip"]["listed_drug_ref"] = "NDA021007"
@@ -115,7 +166,11 @@ def test_resolved_right_can_pass_without_sex_diff():
         "confidence": "high",
     }
     gate = evaluate_commercial_gate(study=_study(), rights=rights)
-    assert gate["verdict"] == "PASS"
+    assert gate["verdict"] != "PASS"
+    assert MISSING_OWNERSHIP_FILL in gate["reason_codes"]
+    pre = evaluate_pre_pass(study=_study(), rights=rights, gate=gate)
+    assert pre["surface"] == NOT_OPTIONABLE
+    assert pre["shortlist_ownable"] is False
 
 
 def test_classify_and_score_apply_intermezzo_gate():

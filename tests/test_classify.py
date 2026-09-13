@@ -46,17 +46,30 @@ def test_rule1_sponsor_ceased_while_enrolling():
     assert clf.rule_fired.startswith("1_")
 
 
+def _study_under_enrolled(actual=10, anticipated=100, status="TERMINATED"):
+    """Genuine under-enrolment: ESTIMATED planned + results-flow STARTED actual."""
+    study = _study(status=status, actual=anticipated, enroll_type="ESTIMATED")
+    study["resultsSection"] = {
+        "participantFlowModule": {
+            "periods": [
+                {
+                    "milestones": [
+                        {"type": "STARTED", "achievements": [{"numSubjects": actual}]},
+                    ]
+                }
+            ]
+        }
+    }
+    return study
+
+
 def test_rule2_enrolment_below_half_no_safety():
-    study = _study(actual=10)
-    # put anticipated via ESTIMATED... our helper only has one count.
-    study["protocolSection"]["designModule"]["enrollmentInfo"] = {"count": 10, "type": "ACTUAL"}
-    # inject anticipated by using results flow? Simpler: monkey anticipated via estimated stored separately.
-    # Use actual=0 which the classifier treats as ratio 0.
-    study["protocolSection"]["designModule"]["enrollmentInfo"] = {"count": 0, "type": "ACTUAL"}
+    study = _study_under_enrolled(actual=10, anticipated=100)
     ext = _ext(stop_reason_category="not_stated")
     clf = classify_record(study, ext)
     assert clf.failure_mode == "recruitment"
     assert clf.rule_fired.startswith("2_")
+    assert clf.walk_away_codes == []
 
 
 def test_rule2_does_not_fire_on_safety():
