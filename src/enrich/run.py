@@ -1,10 +1,14 @@
-"""Enrich stage: Open Targets + Europe PMC + curated sponsor CSV. Writes per-NCT JSON."""
+"""Enrich stage: Open Targets + Europe PMC + curated sponsor CSV. Writes per-NCT JSON.
+
+Wave-1b: also ensures programme identity and attaches empty rights (fill is stub).
+"""
 
 from __future__ import annotations
 
 import argparse
 import asyncio
 from datetime import datetime, timezone
+from pathlib import Path
 
 from src.config import indications_config
 from src.db import connect, dump_json, load_json, upsert
@@ -13,8 +17,11 @@ from src.enrich.opentargets import enrich_targets
 from src.enrich.sponsors import enrich_sponsor
 from src.extract.schema import Extraction
 from src.http import HttpClient
+from src.identity.programme import IdentityStore, identifiers_from_nct
 from src.ingest.ctg import nested
 from src.paths import ENRICH_DIR, EXTRACT_DIR, RAW_CTG_DIR, ensure_dirs
+from src.rights.fill import fill_rights
+from src.rights.store import attach_empty_rights, merge_sponsor_entity
 
 
 def _interventions(study: dict) -> list[str]:
@@ -46,11 +53,27 @@ async def enrich_one(http: HttpClient, nct: str, study: dict, extraction: Extrac
         nested(study, "protocolSection", "sponsorCollaboratorsModule", "leadSponsor", "name"),
     )
     sponsor = enrich_sponsor(study)
+    identity = IdentityStore()
+    programme = identity.upsert(identifiers_from_nct(nct), source="ctg", native_id=nct)
+    pid = programme["programme_id"]
+    attach_empty_rights(pid, nct_id=nct)
+    fill_rights(pid, live=False, nct_id=nct)
+    entity = (sponsor.get("sponsor_entity") or {})
+    if entity:
+        merge_sponsor_entity(pid, entity, nct_id=nct)
     return {
         "nct_id": nct,
+        "programme_id": pid,
         "open_targets": ot,
         "europepmc": epmc,
         "sponsor": sponsor,
+        "rights": {
+            "schema_version": "wave-1b.rights-stub.v1",
+            "nct_id": nct,
+            "programme_id": pid,
+            "confidence": "empty_stub",
+            "path": f"data/derived/rights/{nct}.json",
+        },
     }
 
 

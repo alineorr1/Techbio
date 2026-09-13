@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wave-1b.rights-stub.v1",
+  "title": "wave-1b.rights-stub.v1",
+  "description": "Asset IP rights stub lock. Content PK is nct_id when present; programme_id clusters only.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "programme_id",
+    "confidence",
+    "identity",
+    "counterparty",
+    "ind_regulatory",
+    "ip",
+    "fto_lite",
+    "coi",
+    "ownership",
+    "kill",
+    "process"
+  ],
+  "properties": {
+    "schema_version": { "const": "wave-1b.rights-stub.v1" },
+    "nct_id": { "type": ["string", "null"] },
+    "programme_id": { "type": "string" },
+    "confidence": { "enum": ["empty_stub", "low", "medium", "high"] },
+    "identity": {
+      "type": "object",
+      "required": ["programme_id", "thesis_mismatch", "taxonomy"],
+      "properties": {
+        "nct_id": { "type": ["string", "null"] },
+        "programme_id": { "type": "string" },
+        "eu_ct": { "type": ["string", "null"] },
+        "eudract": { "type": ["string", "null"] },
+        "asset_name": { "type": ["string", "null"] },
+        "taxonomy": {
+          "type": "object",
+          "required": ["empty"],
+          "properties": {
+            "indication": { "type": ["string", "null"] },
+            "target": { "type": ["string", "null"] },
+            "modality": { "type": ["string", "null"] },
+            "empty": { "type": "boolean" }
+          }
+        },
+        "thesis_mismatch": { "type": "boolean" },
+        "thesis_mismatch_reason": { "type": ["string", "null"] }
+      }
+    },
+    "counterparty": { "type": "object", "required": ["present", "sponsor_entity"] },
+    "ind_regulatory": { "type": "object", "required": ["cmc", "pathway_505b2"] },
+    "ip": { "type": "object", "required": ["assignment", "orange_book", "docket_empty"] },
+    "fto_lite": { "type": "object", "required": ["status", "confidence"] },
+    "coi": { "type": "object", "required": ["status"] },
+    "ownership": { "type": "object", "required": ["ownable", "confidence"] },
+    "kill": {
+      "type": "object",
+      "required": ["triggered", "codes"],
+      "properties": {
+        "triggered": { "type": "boolean" },
+        "codes": { "type": "array", "items": { "type": "string" } },
+        "hard": { "type": "array", "items": { "type": "string" } },
+        "soft": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "process": {
+      "type": "object",
+      "required": ["outreach"],
+      "properties": { "outreach": { "const": "none" } }
+    }
+  }
+}

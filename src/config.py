@@ -9,7 +9,7 @@ from typing import Any
 
 import yaml
 
-from src.paths import INDICATIONS_PATH, SCORING_PATH, SPONSORS_PATH
+from src.paths import DISQUALIFIERS_PATH, INDICATIONS_PATH, SCORING_PATH, SPONSORS_PATH
 
 
 @lru_cache(maxsize=1)
@@ -22,6 +22,12 @@ def indications_config(path: Path | None = None) -> dict[str, Any]:
 def scoring_config(path: Path | None = None) -> dict[str, Any]:
     with (path or SCORING_PATH).open() as fh:
         return yaml.safe_load(fh)
+
+
+@lru_cache(maxsize=1)
+def disqualifiers_config(path: Path | None = None) -> dict[str, Any]:
+    with (path or DISQUALIFIERS_PATH).open() as fh:
+        return yaml.safe_load(fh) or {}
 
 
 @lru_cache(maxsize=1)

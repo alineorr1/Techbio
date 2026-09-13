@@ -1,0 +1,99 @@
+# Desk-grade commercial / regulatory disqualifiers.
+# Labels are public-program matches, not biology-failure claims.
+# Applied in score/classify with explicit reason codes (Wave-1b).
+
+schema_version: wave1.disqualifiers.v0
+
+intermezzo_gate:
+  # K4: sex-diff / sex-dose alone is not a commercial PASS.
+  # An Intermezzo-shaped cheap generic with no exclusivity or pricing power
+  # must not count as PASS.
+  sex_diff_alone_not_pass: true
+  cheap_generic_no_exclusivity_not_pass: true
+  reason_code: K4_INTERMEZZO_NO_PRICING_POWER
+  sex_diff_alone_reason_code: SEX_DIFF_ALONE_NOT_PASS
+  named_products:
+    - name: intermezzo
+      aliases: [intermezzo]
+      note: "505(b)(2) zolpidem MOTN with sex-dose label. Commercial-shape match, not a biology claim."
+    - name: zolpidem
+      aliases: [zolpidem, ambien]
+      note: "Sex-dose zolpidem generics have no exclusivity/pricing power (Intermezzo-shaped)."
+
+teratogen_rems:
+  # action: hard_disqualify | strong_downrank
+  default_action: hard_disqualify
+  note: "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+  entries:
+    - substance: thalidomide
+      aliases: [thalidomide, thalomid]
+      program: THALOMID REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA REMS teratogen program. Not a biology-failure claim."
+    - substance: lenalidomide
+      aliases: [lenalidomide, revlimid]
+      program: REVLIMID REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA REMS teratogen program. Not a biology-failure claim."
+    - substance: pomalidomide
+      aliases: [pomalidomide, pomalyst]
+      program: POMALYST REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA REMS teratogen program. Not a biology-failure claim."
+    - substance: isotretinoin
+      aliases: [isotretinoin, accutane, claravis, absorica]
+      program: iPLEDGE REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA iPLEDGE REMS. Not a biology-failure claim."
+    - substance: ambrisentan
+      aliases: [ambrisentan, letairis]
+      program: Letairis REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA REMS teratogen program. Not a biology-failure claim."
+    - substance: bosentan
+      aliases: [bosentan, tracleer]
+      program: Tracleer REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA REMS teratogen program. Not a biology-failure claim."
+    - substance: macitentan
+      aliases: [macitentan, opsumit]
+      program: OPSUMIT REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA REMS teratogen program. Not a biology-failure claim."
+    - substance: mycophenolate
+      aliases: [mycophenolate, cellcept, myfortic]
+      program: Mycophenolate REMS
+      reason_code: REMS_TERATOGEN
+      action: hard_disqualify
+      note: "FDA REMS teratogen program. Not a biology-failure claim."
+    - substance: valproate
+      aliases: [valproate, valproic, depakote, divalproex]
+      program: labeled_teratogen
+      reason_code: TERATOGEN_LABELED
+      action: strong_downrank
+      note: "Labeled teratogen. Strong downrank only; not a biology-failure claim."
+    - substance: methotrexate
+      aliases: [methotrexate]
+      program: labeled_teratogen
+      reason_code: TERATOGEN_LABELED
+      action: strong_downrank
+      note: "Labeled teratogen. Strong downrank only; not a biology-failure claim."
+    - substance: misoprostol
+      aliases: [misoprostol, cytotec]
+      program: labeled_teratogen
+      reason_code: TERATOGEN_LABELED
+      action: strong_downrank
+      note: "Labeled teratogen. Strong downrank only; not a biology-failure claim."
+    - substance: finasteride
+      aliases: [finasteride, propecia, proscar]
+      program: labeled_teratogen
+      reason_code: TERATOGEN_LABELED
+      action: strong_downrank
+      note: "Labeled teratogen. Strong downrank only; not a biology-failure claim."

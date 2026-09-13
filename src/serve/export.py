@@ -23,6 +23,10 @@ from src.paths import (
     SNAPSHOT_DIR,
     ensure_dirs,
 )
+from src.identity.programme import identifiers_from_nct, programme_id_for
+from src.rights.query import ownability_query
+from src.rights.schema import cmc_of, empty_rights, pathway_505b2_of
+from src.rights.store import load_rights, rights_for_nct
 
 
 import re
@@ -94,8 +98,13 @@ def build_asset(nct: str) -> dict[str, Any] | None:
     pop = extraction.get("population") or {}
     indication = _indication(study)
     ind_label = (indications_config()["indications"].get(indication) or {}).get("label") or indication
+    pid = (enrich.get("programme_id") or programme_id_for(identifiers_from_nct(nct)))
+    rights = enrich.get("rights_record") or load_rights(nct_id=nct, programme_id=pid) or rights_for_nct(nct)
+    if not rights:
+        rights = empty_rights(pid, nct_id=nct)
     return {
         "nct_id": nct,
+        "programme_id": pid,
         "brief_title": ident.get("briefTitle"),
         "official_title": ident.get("officialTitle"),
         "indication": indication,
@@ -129,7 +138,17 @@ def build_asset(nct: str) -> dict[str, Any] | None:
                 "source_url": (enrich.get("europepmc") or {}).get("source_url"),
             },
             "sponsor": enrich.get("sponsor") or {},
+            "rights": enrich.get("rights") or {
+                "schema_version": rights.get("schema_version"),
+                "nct_id": nct,
+                "programme_id": pid,
+                "confidence": rights.get("confidence") or "empty_stub",
+            },
         },
+        "rights": rights,
+        "ownability": ownability_query(rights),
+        "cmc": cmc_of(rights) if isinstance(rights, dict) else cmc_of({}),
+        "pathway_505b2": pathway_505b2_of(rights) if isinstance(rights, dict) else pathway_505b2_of({}),
         "population_checklist": [
             {"field": f, "captured": bool(pop.get(f)), "source": "extraction.population"}
             for f in POPULATION_BOOLEAN_FIELDS
@@ -140,6 +159,7 @@ def build_asset(nct: str) -> dict[str, Any] | None:
             "extraction_json": f"data/derived/extract/{nct}.json",
             "classification_json": f"data/derived/classify/{nct}.json",
             "score_json": f"data/derived/score/{nct}.json",
+            "rights_json": f"data/derived/rights/{nct}.json",
         },
     }
 

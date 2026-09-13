@@ -11,6 +11,8 @@ from typing import Any
 from src.config import scoring_config, sponsor_rows
 from src.extract.schema import POPULATION_BOOLEAN_FIELDS, Classification, Extraction
 from src.ingest.ctg import nested, parse_date
+from src.rights.gates import evaluate_commercial_gate
+from src.rights.query import apply_gate_to_rights, ownability_query
 
 
 def _enrolment(study: dict[str, Any]) -> tuple[int | None, int | None, str | None]:
@@ -99,6 +101,21 @@ def female_specific_capture_count(extraction: Extraction) -> int:
     return sum(1 for f in POPULATION_BOOLEAN_FIELDS if getattr(extraction.population, f))
 
 
+def _extraction_names(extraction: Extraction) -> list[str]:
+    names: list[str] = []
+    for target in extraction.targets:
+        names.append(target.name)
+        if target.gene_symbol:
+            names.append(target.gene_symbol)
+    return names
+
+
+def _attach_gate(clf: Classification, gate: dict[str, Any]) -> Classification:
+    clf.commercial_gate = gate
+    clf.disqualifier_codes = list(gate.get("reason_codes") or [])
+    return clf
+
+
 def _safety_signal(extraction: Extraction, study: dict[str, Any]) -> bool:
     if extraction.stop_reason_category == "safety":
         return True
@@ -133,6 +150,7 @@ def classify_record(
     extraction: Extraction,
     enrich: dict[str, Any] | None = None,
     peer_stops: int = 0,
+    rights: dict[str, Any] | None = None,
 ) -> Classification:
     cfg = scoring_config()
     cl = cfg.get("classify") or {}
@@ -160,6 +178,11 @@ def classify_record(
     stated = extraction.stop_reason_category
     published = bool((enrich or {}).get("europepmc", {}).get("has_results_publication"))
     target_advanced = bool((enrich or {}).get("open_targets", {}).get("target_advanced_elsewhere"))
+    rights_rec = dict(rights) if rights is not None else None
+    gate = evaluate_commercial_gate(study=study, rights=rights_rec, intervention_names=_extraction_names(extraction))
+    if rights_rec is not None:
+        apply_gate_to_rights(rights_rec, gate)
+    ownability = ownability_query(rights_rec)
 
     signals: dict[str, Any] = {
         "extracted_category": stated,
@@ -177,11 +200,17 @@ def classify_record(
         "target_advanced_elsewhere": target_advanced,
         "stop_reason_evidence": extraction.stop_reason_evidence,
         "stop_reason_raw": extraction.stop_reason_raw,
+        "commercial_gate": gate,
+        "disqualifier_codes": list(gate.get("reason_codes") or []),
+        "ownability": ownability,
+        "thesis_mismatch": ownability["thesis_mismatch"],
+        "kill_triggered": ownability["kill_triggered"],
+        "kill_codes": ownability["kill_codes"],
     }
 
     # Rule 1
     if ceased and enrolment_proceeding:
-        return Classification(
+        clf = Classification(
             nct_id=extraction.nct_id,
             failure_mode="funding_or_sponsor",
             confidence="high",
@@ -190,8 +219,8 @@ def classify_record(
             notes="Sponsor ceased/restructured within two quarters of stop and enrolment was proceeding.",
         )
     # Rule 2
-    if ratio is not None and ratio < threshold and not safety:
-        return Classification(
+    elif ratio is not None and ratio < threshold and not safety:
+        clf = Classification(
             nct_id=extraction.nct_id,
             failure_mode="recruitment",
             confidence="high" if ratio < 0.25 else "medium",
@@ -200,9 +229,9 @@ def classify_record(
             notes=f"Actual enrolment {actual} vs anticipated {anticipated} (ratio={ratio:.2f}) with no safety signal.",
         )
     # Rule 3 / 4
-    if stated == "efficacy":
+    elif stated == "efficacy":
         if captured <= (min_vars - 1):
-            return Classification(
+            clf = Classification(
                 nct_id=extraction.nct_id,
                 failure_mode="efficacy_uninterpretable",
                 confidence="medium",
@@ -210,17 +239,18 @@ def classify_record(
                 rule_fired="3_efficacy_but_population_underspecified",
                 notes=f"Stated efficacy failure but only {captured} female-specific population variables captured.",
             )
-        return Classification(
-            nct_id=extraction.nct_id,
-            failure_mode="efficacy",
-            confidence="high",
-            signals=signals,
-            rule_fired="4_efficacy_with_adequate_stratification",
-            notes=f"Stated efficacy failure with {captured} population variables captured.",
-        )
+        else:
+            clf = Classification(
+                nct_id=extraction.nct_id,
+                failure_mode="efficacy",
+                confidence="high",
+                signals=signals,
+                rule_fired="4_efficacy_with_adequate_stratification",
+                notes=f"Stated efficacy failure with {captured} population variables captured.",
+            )
     # Rule 5
-    if safety:
-        return Classification(
+    elif safety:
+        clf = Classification(
             nct_id=extraction.nct_id,
             failure_mode="safety",
             confidence="high",
@@ -229,8 +259,8 @@ def classify_record(
             notes="Safety signal present; ranked down hard. No cleverness.",
         )
     # Mapped extracted categories that are operational
-    if stated == "funding_or_sponsor":
-        return Classification(
+    elif stated == "funding_or_sponsor":
+        clf = Classification(
             nct_id=extraction.nct_id,
             failure_mode="funding_or_sponsor",
             confidence="medium",
@@ -238,8 +268,8 @@ def classify_record(
             rule_fired="6_extracted_funding",
             notes="Extracted stop category is funding/sponsor; no earlier rule fired.",
         )
-    if stated == "recruitment":
-        return Classification(
+    elif stated == "recruitment":
+        clf = Classification(
             nct_id=extraction.nct_id,
             failure_mode="recruitment",
             confidence="medium",
@@ -248,11 +278,13 @@ def classify_record(
             notes="Extracted stop category is recruitment; enrolment ratio unavailable or above threshold.",
         )
     # Rule 6
-    return Classification(
-        nct_id=extraction.nct_id,
-        failure_mode="unclear",
-        confidence="low",
-        signals=signals,
-        rule_fired="6_unclear_surface_for_review",
-        notes="No earlier rule fired. Surface for human review rather than guessing.",
-    )
+    else:
+        clf = Classification(
+            nct_id=extraction.nct_id,
+            failure_mode="unclear",
+            confidence="low",
+            signals=signals,
+            rule_fired="6_unclear_surface_for_review",
+            notes="No earlier rule fired. Surface for human review rather than guessing.",
+        )
+    return _attach_gate(clf, gate)
