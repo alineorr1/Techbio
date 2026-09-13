@@ -11,7 +11,12 @@ from typing import Any
 from src.config import scoring_config, sponsor_rows
 from src.extract.schema import POPULATION_BOOLEAN_FIELDS, Classification, Extraction
 from src.ingest.ctg import nested, parse_date
-from src.rights.gates import evaluate_commercial_gate
+from src.rights.gates import (
+    WALK_AWAY_WITHDRAWN,
+    WALK_AWAY_ZERO_ENROLMENT,
+    evaluate_commercial_gate,
+    evaluate_pre_pass,
+)
 from src.rights.query import apply_gate_to_rights, ownability_query
 
 
@@ -110,9 +115,32 @@ def _extraction_names(extraction: Extraction) -> list[str]:
     return names
 
 
-def _attach_gate(clf: Classification, gate: dict[str, Any]) -> Classification:
+def _overall_status(study: dict[str, Any]) -> str:
+    return str(nested(study, "protocolSection", "statusModule", "overallStatus") or "").upper()
+
+
+def walk_away_reason_codes(study: dict[str, Any]) -> list[str]:
+    """WITHDRAWN or enrollment=0 is walk-away, not a high-value recruitment failure.
+
+    eng-pass-cell-reconcile: NCT03481842 (BioGene, WITHDRAWN, n=0), NCT04174911.
+    """
+    codes: list[str] = []
+    if _overall_status(study) == "WITHDRAWN":
+        codes.append(WALK_AWAY_WITHDRAWN)
+    actual, _anticipated, _etype = _enrolment(study)
+    info = nested(study, "protocolSection", "designModule", "enrollmentInfo") or {}
+    count = info.get("count")
+    if actual == 0 or count == 0:
+        codes.append(WALK_AWAY_ZERO_ENROLMENT)
+    return codes
+
+
+def _attach_gate(clf: Classification, gate: dict[str, Any], pre_pass: dict[str, Any] | None = None) -> Classification:
     clf.commercial_gate = gate
-    clf.disqualifier_codes = list(gate.get("reason_codes") or [])
+    clf.disqualifier_codes = list((pre_pass or gate).get("reason_codes") or gate.get("reason_codes") or [])
+    if pre_pass is not None:
+        clf.pre_pass = pre_pass
+        clf.walk_away_codes = list(pre_pass.get("walk_away_codes") or [])
     return clf
 
 
@@ -162,9 +190,7 @@ def classify_record(
     ratio = None
     if actual is not None and anticipated and anticipated > 0:
         ratio = actual / anticipated
-    # If only actual is known and is 0, treat as below threshold.
-    if ratio is None and actual == 0:
-        ratio = 0.0
+    walk_codes = walk_away_reason_codes(study)
 
     enrolment_proceeding = False
     if anticipated and actual is not None:
@@ -202,6 +228,7 @@ def classify_record(
         "stop_reason_raw": extraction.stop_reason_raw,
         "commercial_gate": gate,
         "disqualifier_codes": list(gate.get("reason_codes") or []),
+        "walk_away_codes": walk_codes,
         "ownability": ownability,
         "thesis_mismatch": ownability["thesis_mismatch"],
         "kill_triggered": ownability["kill_triggered"],
@@ -218,8 +245,30 @@ def classify_record(
             rule_fired="1_sponsor_ceased_while_enrolling",
             notes="Sponsor ceased/restructured within two quarters of stop and enrolment was proceeding.",
         )
-    # Rule 2
-    elif ratio is not None and ratio < threshold and not safety:
+    # Walk-away (before recruitment): WITHDRAWN or enrollment=0 is not a recruitment win.
+    elif walk_codes and not safety:
+        why = " / ".join(walk_codes)
+        clf = Classification(
+            nct_id=extraction.nct_id,
+            failure_mode="never_started",
+            confidence="high",
+            signals=signals,
+            rule_fired="walk_away_withdrawn_or_zero_enrolment",
+            notes=(
+                f"Walk-away ({why}): WITHDRAWN or enrollment=0 is not a high-value recruitment "
+                "failure (BioGene-class / eng-pass-cell-reconcile)."
+            ),
+            walk_away_codes=walk_codes,
+        )
+    # Rule 2 — genuine under-enrolment only (actual > 0, not withdrawn).
+    elif (
+        ratio is not None
+        and ratio < threshold
+        and not safety
+        and actual is not None
+        and actual > 0
+        and not walk_codes
+    ):
         clf = Classification(
             nct_id=extraction.nct_id,
             failure_mode="recruitment",
@@ -287,4 +336,13 @@ def classify_record(
             rule_fired="6_unclear_surface_for_review",
             notes="No earlier rule fired. Surface for human review rather than guessing.",
         )
-    return _attach_gate(clf, gate)
+    pre = evaluate_pre_pass(
+        study=study,
+        rights=rights_rec,
+        intervention_names=_extraction_names(extraction),
+        gate=gate,
+        walk_away_codes=walk_codes,
+    )
+    signals["pre_pass"] = pre
+    clf.signals = signals
+    return _attach_gate(clf, gate, pre)

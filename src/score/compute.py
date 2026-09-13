@@ -8,7 +8,8 @@ from typing import Any
 from src.config import scoring_config
 from src.extract.schema import POPULATION_BOOLEAN_FIELDS, Classification, Extraction
 from src.ingest.ctg import nested, parse_date, years_since
-from src.rights.gates import apply_score_caps, evaluate_commercial_gate
+from src.classify.rules import walk_away_reason_codes
+from src.rights.gates import apply_score_caps, evaluate_commercial_gate, evaluate_pre_pass
 from src.rights.query import apply_gate_to_rights, ownability_query
 
 
@@ -51,15 +52,36 @@ def mechanism_component(enrich: dict[str, Any], cfg: dict[str, Any]) -> dict[str
     }
 
 
-def failure_mode_component(clf: Classification, cfg: dict[str, Any]) -> dict[str, Any]:
+def failure_mode_component(
+    clf: Classification,
+    cfg: dict[str, Any],
+    *,
+    walk_away_codes: list[str] | None = None,
+) -> dict[str, Any]:
     table = cfg.get("failure_mode_scores") or {}
-    value = float(table.get(clf.failure_mode, table.get("unclear", 40)))
-    return {
+    walk_codes = list(walk_away_codes or getattr(clf, "walk_away_codes", None) or [])
+    mode = clf.failure_mode
+    note = f"Lookup of {mode} in config/scoring.yaml failure_mode_scores."
+    overridden_from = None
+    if walk_codes and mode == "recruitment":
+        # Belt-and-suspenders: even a stale recruitment classify must not inflate.
+        overridden_from = "recruitment"
+        mode = "never_started"
+        note = (
+            "Walk-away override: WITHDRAWN or enrollment=0 is not a recruitment win "
+            f"({', '.join(walk_codes)})."
+        )
+    value = float(table.get(mode, table.get("unclear", 40)))
+    out = {
         "value": round(value, 2),
-        "failure_mode": clf.failure_mode,
+        "failure_mode": mode,
         "rule_fired": clf.rule_fired,
-        "note": f"Lookup of {clf.failure_mode} in config/scoring.yaml failure_mode_scores.",
+        "note": note,
     }
+    if overridden_from:
+        out["overridden_from"] = overridden_from
+        out["reason_codes"] = walk_codes
+    return out
 
 
 def population_component(extraction: Extraction, cfg: dict[str, Any]) -> dict[str, Any]:
@@ -199,8 +221,9 @@ def score_asset(
             "note": "No named gene symbol in the extraction; Open Targets is not queried.",
         }
         enrich = {**enrich, "open_targets": ot}
+    walk_codes = list(getattr(classification, "walk_away_codes", None) or []) or walk_away_reason_codes(study)
     mech = mechanism_component(enrich, cfg)
-    fail = failure_mode_component(classification, cfg)
+    fail = failure_mode_component(classification, cfg, walk_away_codes=walk_codes)
     pop = population_component(extraction, cfg)
     acc = accessibility_component(study, enrich, cfg)
     timing = pretrial_mechanism_evidence(enrich, study)
@@ -246,7 +269,29 @@ def score_asset(
         apply_gate_to_rights(rights_rec, gate)
     capped, gate_caps = apply_score_caps(capped, gate)
     caps.extend(gate_caps)
+    if walk_codes:
+        walk_cap = float((cfg.get("rules") or {}).get("walk_away_score_cap") or 20)
+        if capped > walk_cap:
+            caps.append(f"Walk-away ({', '.join(walk_codes)}): not a recruitment win; cap {walk_cap}")
+            capped = walk_cap
+    pre_pass = evaluate_pre_pass(
+        study=study,
+        rights=rights_rec,
+        intervention_names=extra_names,
+        scoring_cfg=cfg,
+        gate=gate,
+        walk_away_codes=walk_codes,
+    )
+    if pre_pass["block_pass"] and gate.get("verdict") == "PASS":
+        gate = {**gate, "verdict": pre_pass["verdict"]}
     ownability = ownability_query(rights_rec)
+    ownability = {
+        **ownability,
+        "optionable": pre_pass["optionable"],
+        "shortlist_ownable": pre_pass["shortlist_ownable"],
+        "surface": pre_pass["surface"],
+        "md_status": pre_pass["md_status"],
+    }
 
     unc = uncertainty(extraction, cfg)
     lo = _clip(capped - unc["interval_halfwidth"])
@@ -276,10 +321,15 @@ def score_asset(
         "rule_a_safety_cap": classification.failure_mode == "safety",
         "rule_b_organon_guard": (not timing["has_pretrial_evidence"]),
         "commercial_gate": gate,
+        "pre_pass": pre_pass,
+        "optionable": pre_pass["optionable"],
+        "shortlist_ownable": pre_pass["shortlist_ownable"],
+        "gate_surface": pre_pass["surface"],
+        "walk_away_codes": walk_codes,
         "ownability": ownability,
         "pretrial_mechanism": timing,
         "uncertainty": unc,
         "confidence_interval": [round(lo, 1), round(hi, 1)],
-        "failure_mode": classification.failure_mode,
+        "failure_mode": fail["failure_mode"],
         "classification_rule": classification.rule_fired,
     }

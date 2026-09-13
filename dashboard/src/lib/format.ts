@@ -7,7 +7,20 @@ const FAILURE_MODE_LABELS: Record<FailureMode, string> = {
   efficacy: "Efficacy",
   safety: "Safety",
   unclear: "Unclear",
+  never_started: "Never started",
 };
+
+export function gateSurface(asset: {
+  gate_surface?: string | null;
+  pre_pass?: { surface?: string | null } | null;
+  optionable?: boolean;
+  shortlist_ownable?: boolean;
+}): string {
+  const surface = asset.pre_pass?.surface || asset.gate_surface;
+  if (surface) return surface;
+  if (asset.optionable === false || asset.shortlist_ownable === false) return "NOT OPTIONABLE";
+  return "NOT OPTIONABLE";
+}
 
 const POPULATION_LABELS: Record<string, string> = {
   diagnosis_method_stated: "Diagnosis method",

@@ -24,6 +24,7 @@ from src.paths import (
     ensure_dirs,
 )
 from src.identity.programme import identifiers_from_nct, programme_id_for
+from src.rights.gates import NOT_OPTIONABLE, evaluate_pre_pass
 from src.rights.query import ownability_query
 from src.rights.schema import cmc_of, empty_rights, pathway_505b2_of
 from src.rights.store import load_rights, rights_for_nct
@@ -102,6 +103,20 @@ def build_asset(nct: str) -> dict[str, Any] | None:
     rights = enrich.get("rights_record") or load_rights(nct_id=nct, programme_id=pid) or rights_for_nct(nct)
     if not rights:
         rights = empty_rights(pid, nct_id=nct)
+    walk_codes = list((clf.get("walk_away_codes") or (clf.get("signals") or {}).get("walk_away_codes") or []))
+    pre_pass = scored.get("pre_pass") or clf.get("pre_pass") or evaluate_pre_pass(
+        study=study,
+        rights=rights,
+        walk_away_codes=walk_codes,
+        gate=scored.get("commercial_gate") or clf.get("commercial_gate"),
+    )
+    ownability = {
+        **ownability_query(rights),
+        "optionable": pre_pass.get("optionable"),
+        "shortlist_ownable": pre_pass.get("shortlist_ownable"),
+        "surface": pre_pass.get("surface") or NOT_OPTIONABLE,
+        "md_status": pre_pass.get("md_status") or "HOLD",
+    }
     return {
         "nct_id": nct,
         "programme_id": pid,
@@ -146,7 +161,12 @@ def build_asset(nct: str) -> dict[str, Any] | None:
             },
         },
         "rights": rights,
-        "ownability": ownability_query(rights),
+        "ownability": ownability,
+        "pre_pass": pre_pass,
+        "optionable": bool(pre_pass.get("optionable")),
+        "shortlist_ownable": bool(pre_pass.get("shortlist_ownable")),
+        "gate_surface": pre_pass.get("surface") or NOT_OPTIONABLE,
+        "walk_away_codes": list(pre_pass.get("walk_away_codes") or walk_codes),
         "cmc": cmc_of(rights) if isinstance(rights, dict) else cmc_of({}),
         "pathway_505b2": pathway_505b2_of(rights) if isinstance(rights, dict) else pathway_505b2_of({}),
         "population_checklist": [

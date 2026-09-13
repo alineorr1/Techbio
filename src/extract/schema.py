@@ -28,6 +28,7 @@ FailureMode = Literal[
     "efficacy",
     "safety",
     "unclear",
+    "never_started",
 ]
 
 
@@ -100,6 +101,8 @@ class Classification(BaseModel):
     notes: str = ""
     commercial_gate: dict[str, object] | None = None
     disqualifier_codes: list[str] = Field(default_factory=list)
+    pre_pass: dict[str, object] | None = None
+    walk_away_codes: list[str] = Field(default_factory=list)
 
 
 POPULATION_BOOLEAN_FIELDS = [

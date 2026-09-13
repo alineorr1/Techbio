@@ -1,12 +1,13 @@
 import { useMemo, useState } from "react";
 import { FailureBadge, FieldLabel, PageHeader, ScoreMark, StatusWord } from "../components/chrome";
-import { prettyPhase } from "../lib/format";
+import { gateSurface, prettyPhase } from "../lib/format";
 import { hrefFor } from "../lib/hash";
 import type { Asset, FailureMode, Snapshot } from "../lib/types";
 
 const MODES: FailureMode[] = [
   "funding_or_sponsor",
   "recruitment",
+  "never_started",
   "efficacy_uninterpretable",
   "efficacy",
   "safety",
@@ -147,7 +148,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
                   </p>
                   <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
                     <FailureBadge mode={asset.classification?.failure_mode} />
-                    <StatusWord>rights-unknown</StatusWord>
+                    <StatusWord>{gateSurface(asset)}</StatusWord>
                     {ruleA ? <StatusWord>rule-a</StatusWord> : null}
                     {ruleB ? <StatusWord>rule-b</StatusWord> : null}
                     {!ruleA && !ruleB ? <StatusWord>non-buy</StatusWord> : null}

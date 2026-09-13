@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Badge, Button } from "../components/ui";
 import { EmptyNote, FailureBadge, FieldLabel, PageHeader, Panel, ScoreMark } from "../components/chrome";
-import { asNumber, asString, componentLabel, populationLabel, prettyPhase } from "../lib/format";
+import { asNumber, asString, asStringList, componentLabel, gateSurface, populationLabel, prettyPhase } from "../lib/format";
 import { hrefFor } from "../lib/hash";
 import { sourceHost } from "../lib/utils";
 import type { Asset, Snapshot } from "../lib/types";
@@ -82,6 +82,7 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
           </p>
           <div className="mt-3 flex flex-wrap gap-1.5">
             <FailureBadge mode={asset.classification?.failure_mode} />
+            <Badge tone="muted">{gateSurface(asset)}</Badge>
             {asset.score?.rule_a_safety_cap ? <Badge tone="muted">rule-a</Badge> : null}
             {asset.score?.rule_b_organon_guard ? <Badge tone="muted">rule-b</Badge> : null}
           </div>
@@ -99,6 +100,29 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
           <p className="mt-3 text-[13px] text-mute">{asset.classification?.notes || asset.classification?.rule_fired}</p>
         </Panel>
       </div>
+
+      <Panel className="mb-6 p-4">
+        <FieldLabel>Pre-PASS / ownability</FieldLabel>
+        <p className="mt-2 font-mono text-sm">{gateSurface(asset)}</p>
+        <p className="mt-2 text-[13px] text-mute">
+          Empty rights are not optionable. Blind MD stays HOLD. Infra/gates only — this does not claim
+          ownability.
+        </p>
+        <dl className="mt-4 grid grid-cols-2 gap-3 text-[13px] sm:grid-cols-4">
+          <Fact label="Optionable" value={asset.optionable || asset.pre_pass?.optionable ? "yes" : "no"} />
+          <Fact
+            label="Shortlist-ownable"
+            value={asset.shortlist_ownable || asset.pre_pass?.shortlist_ownable ? "yes" : "no"}
+          />
+          <Fact label="MD status" value={asset.pre_pass?.md_status || "HOLD"} />
+          <Fact label="Verdict" value={asset.pre_pass?.verdict || asset.score?.commercial_gate?.verdict as string || "HOLD"} />
+        </dl>
+        {(asset.pre_pass?.reason_codes || asset.walk_away_codes || []).length > 0 ? (
+          <p className="mt-3 font-mono text-[11px] text-mute">
+            {asStringList(asset.pre_pass?.reason_codes || asset.walk_away_codes).join(" · ")}
+          </p>
+        ) : null}
+      </Panel>
 
       <div className="grid gap-6 lg:grid-cols-2">
         <Panel className="p-4">
