@@ -43,3 +43,8 @@ Thumbs.db
 
 # Agent uploads (not part of the product)
 uploads/
+
+# LIVE spend-gate (kill switch). Never commit an allow file.
+/api-cost-budget.json
+data/reports/api_call_ledger.jsonl
+data/locks/

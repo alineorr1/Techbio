@@ -42,6 +42,8 @@ SPONSORS_PATH = CONFIG_DIR / "sponsors.csv"
 # Committed Wave-1 pins (not relocated when WH_DATA_DIR is overridden).
 SMOKE_DIR = ROOT / "data" / "smoke"
 CTIS_STATUS_MAP_PATH = SMOKE_DIR / "ctis_status_map.json"
+P1_FROZEN_NCTS_PATH = SMOKE_DIR / "p1_frozen_ncts.txt"
+API_COST_BUDGET_PATH = CONFIG_DIR / "api-cost-budget.json"
 
 
 def ensure_dirs() -> None:
