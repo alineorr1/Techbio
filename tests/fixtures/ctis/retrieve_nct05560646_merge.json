@@ -1,0 +1,50 @@
+{
+  "ctNumber": "2024-555606-46-00",
+  "ctStatus": "Authorised",
+  "ctPublicStatusCode": 8,
+  "startDateEU": "2022-10-25",
+  "endDateEU": "2025-05-28",
+  "decisionDate": "2025-05-28T12:00:00",
+  "authorizedApplication": {
+    "eudraCt": {
+      "isTransitioned": false
+    },
+    "authorizedPartI": {
+      "trialDetails": {
+        "clinicalTrialIdentifiers": {
+          "fullTitle": "A Phase 2a/b study of OG-6219 in endometriosis-related pain (CTIS mirror of NCT05560646)",
+          "publicTitle": "OG-6219 endometriosis Phase 2 (EU CTIS)",
+          "shortTitle": "OG-6219-CTIS",
+          "secondaryIdentifyingNumbers": {
+            "nctNumber": {
+              "id": 5560646,
+              "number": "NCT05560646"
+            },
+            "additionalRegistries": []
+          }
+        },
+        "trialInformation": {
+          "medicalCondition": {
+            "partIMedicalConditions": [
+              {
+                "medicalCondition": "Endometriosis",
+                "isConditionRareDisease": false
+              }
+            ]
+          }
+        }
+      },
+      "medicalConditions": [
+        {
+          "medicalCondition": "Endometriosis",
+          "isConditionRareDisease": false
+        }
+      ],
+      "products": [
+        {
+          "productName": "OG-6219"
+        }
+      ]
+    }
+  }
+}

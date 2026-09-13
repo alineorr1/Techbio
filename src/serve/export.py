@@ -18,12 +18,15 @@ from src.paths import (
     ENRICH_DIR,
     EXTRACT_DIR,
     FEEDBACK_PATH,
+    IDENTITY_DIR,
     RAW_CTG_DIR,
+    RAW_CTIS_DIR,
     SCORE_DIR,
     SNAPSHOT_DIR,
     ensure_dirs,
 )
-from src.identity.programme import identifiers_from_nct, programme_id_for
+from src.identity.programme import identifiers_from_nct, load_identity, programme_id_for
+from src.ingest.ctis_study import ctis_to_study, public_status_of
 from src.rights.gates import NOT_OPTIONABLE, evaluate_pre_pass
 from src.rights.query import ownability_query
 from src.rights.schema import cmc_of, empty_rights, pathway_505b2_of
@@ -42,6 +45,19 @@ def _keep_for_export(nct: str, indication: str, cfg: dict[str, Any] | None = Non
     if indication != "other":
         return True
     return nct in _always_include_ncts(cfg)
+
+
+def _is_programme_key(key: str) -> bool:
+    return key.startswith("p_")
+
+
+def _asset_key(asset: dict[str, Any]) -> str:
+    return (
+        asset.get("nct_id")
+        or asset.get("primary_display_id")
+        or asset.get("programme_id")
+        or ""
+    )
 
 
 def _indication(study: dict[str, Any]) -> str:
@@ -88,7 +104,163 @@ def _links(nct: str, enrich: dict[str, Any]) -> list[dict[str, str]]:
     return links
 
 
+def _ctis_links(eu_ct: str, enrich: dict[str, Any], nct: str | None = None) -> list[dict[str, str]]:
+    links = [
+        {
+            "label": "CTIS public record",
+            "url": f"https://euclinicaltrials.eu/ctis-public-api/retrieve/{eu_ct}",
+        }
+    ]
+    if nct:
+        links.extend(_links(nct, enrich))
+        return links
+    for s in ((enrich.get("open_targets") or {}).get("sources") or []):
+        if s.get("url"):
+            links.append({"label": s.get("label") or "Open Targets", "url": s["url"]})
+    sp = enrich.get("sponsor") or {}
+    if sp.get("source_url"):
+        links.append({"label": f"Sponsor status source ({sp.get('status')})", "url": sp["source_url"]})
+    return links
+
+
+def build_ctis_asset(programme_id: str) -> dict[str, Any] | None:
+    """EU-only (or CTIS-origin) scored programme. Keyed by programme_id."""
+    ext_path = EXTRACT_DIR / f"{programme_id}.json"
+    clf_path = CLASSIFY_DIR / f"{programme_id}.json"
+    score_path = SCORE_DIR / f"{programme_id}.json"
+    if not (ext_path.exists() and clf_path.exists() and score_path.exists()):
+        return None
+    extraction = load_json(ext_path)
+    clf = load_json(clf_path)
+    scored = load_json(score_path)
+    enrich = load_json(ENRICH_DIR / f"{programme_id}.json") if (ENRICH_DIR / f"{programme_id}.json").exists() else {}
+    eu_ct = scored.get("eu_ct") or extraction.get("eu_ct") or enrich.get("eu_ct")
+    identity = None
+    if (IDENTITY_DIR / f"{programme_id}.json").exists():
+        try:
+            identity = load_identity(programme_id)
+        except Exception:
+            identity = None
+    if not eu_ct and identity:
+        eu_ids = (identity.get("ids") or {}).get("eu_ct") or []
+        eu_ct = eu_ids[0] if eu_ids else None
+    raw_path = RAW_CTIS_DIR / f"{eu_ct}.json" if eu_ct else None
+    if raw_path is None or not raw_path.exists():
+        return None
+    envelope = load_json(raw_path)
+    study = ctis_to_study(envelope)
+    if _male_only(study):
+        return None
+    ident = nested(study, "protocolSection", "identificationModule") or {}
+    status = nested(study, "protocolSection", "statusModule") or {}
+    design = nested(study, "protocolSection", "designModule") or {}
+    sponsor = nested(study, "protocolSection", "sponsorCollaboratorsModule", "leadSponsor") or {}
+    conds = nested(study, "protocolSection", "conditionsModule", "conditions") or []
+    ints = nested(study, "protocolSection", "armsInterventionsModule", "interventions") or []
+    pop = extraction.get("population") or {}
+    indication = _indication(study)
+    display = scored.get("primary_display_id") or extraction.get("primary_display_id") or eu_ct
+    nct = (scored.get("nct_id") or extraction.get("nct_id") or "") or None
+    if nct and str(nct).startswith("NCT") is False:
+        nct = None
+    if not _keep_for_export(nct or display or "", indication):
+        return None
+    ind_label = (indications_config()["indications"].get(indication) or {}).get("label") or indication
+    pid = enrich.get("programme_id") or programme_id
+    rights = enrich.get("rights_record") or load_rights(nct_id=nct, programme_id=pid) or empty_rights(pid, nct_id=nct)
+    walk_codes = list((clf.get("walk_away_codes") or (clf.get("signals") or {}).get("walk_away_codes") or []))
+    pre_pass = scored.get("pre_pass") or clf.get("pre_pass") or evaluate_pre_pass(
+        study=study,
+        rights=rights,
+        walk_away_codes=walk_codes,
+        gate=scored.get("commercial_gate") or clf.get("commercial_gate"),
+    )
+    ownability = {
+        **ownability_query(rights),
+        "optionable": pre_pass.get("optionable"),
+        "shortlist_ownable": pre_pass.get("shortlist_ownable"),
+        "surface": pre_pass.get("surface") or NOT_OPTIONABLE,
+        "md_status": pre_pass.get("md_status") or "HOLD",
+    }
+    public_status = public_status_of(envelope)
+    return {
+        "nct_id": nct or display,
+        "programme_id": pid,
+        "primary_display_id": display,
+        "eu_ct": eu_ct,
+        "source": "ctis",
+        "brief_title": ident.get("briefTitle"),
+        "official_title": ident.get("officialTitle"),
+        "indication": indication,
+        "indication_label": ind_label,
+        "conditions": conds,
+        "phase": design.get("phases") or ["NA"],
+        "overall_status": status.get("overallStatus") or public_status.get("mapped_status"),
+        "why_stopped": status.get("whyStopped") or public_status.get("label"),
+        "start_date": nested(status, "startDateStruct", "date"),
+        "primary_completion_date": nested(status, "primaryCompletionDateStruct", "date"),
+        "completion_date": nested(status, "completionDateStruct", "date"),
+        "last_update_date": nested(status, "lastUpdatePostDateStruct", "date"),
+        "year_stopped": (
+            nested(status, "completionDateStruct", "date")
+            or nested(status, "primaryCompletionDateStruct", "date")
+            or ""
+        )[:4],
+        "sponsor_name": sponsor.get("name"),
+        "sponsor_class": sponsor.get("class"),
+        "sponsor_status": (enrich.get("sponsor") or {}).get("status") or "unknown",
+        "enrolment": nested(study, "protocolSection", "designModule", "enrollmentInfo"),
+        "has_results": study.get("hasResults"),
+        "interventions": [{"name": i.get("name"), "type": i.get("type")} for i in ints],
+        "targets": extraction.get("targets") or [],
+        "mechanism_summary": extraction.get("mechanism_summary"),
+        "extraction": extraction,
+        "classification": clf,
+        "score": scored,
+        "enrichment": {
+            "open_targets": enrich.get("open_targets") or {},
+            "europepmc": {
+                "has_results_publication": (enrich.get("europepmc") or {}).get("has_results_publication"),
+                "silence_after_completion": (enrich.get("europepmc") or {}).get("silence_after_completion"),
+                "papers": (enrich.get("europepmc") or {}).get("papers") or [],
+                "source_url": (enrich.get("europepmc") or {}).get("source_url"),
+            },
+            "sponsor": enrich.get("sponsor") or {},
+            "rights": enrich.get("rights") or {
+                "schema_version": rights.get("schema_version"),
+                "nct_id": nct,
+                "programme_id": pid,
+                "confidence": rights.get("confidence") or "empty_stub",
+            },
+        },
+        "rights": rights,
+        "ownability": ownability,
+        "pre_pass": pre_pass,
+        "optionable": bool(pre_pass.get("optionable")),
+        "shortlist_ownable": bool(pre_pass.get("shortlist_ownable")),
+        "gate_surface": pre_pass.get("surface") or NOT_OPTIONABLE,
+        "desk_classification": rights.get("desk_classification") if isinstance(rights, dict) else None,
+        "walk_away_codes": list(pre_pass.get("walk_away_codes") or walk_codes),
+        "cmc": cmc_of(rights) if isinstance(rights, dict) else cmc_of({}),
+        "pathway_505b2": pathway_505b2_of(rights) if isinstance(rights, dict) else pathway_505b2_of({}),
+        "population_checklist": [
+            {"field": f, "captured": bool(pop.get(f)), "source": "extraction.population"}
+            for f in POPULATION_BOOLEAN_FIELDS
+        ],
+        "links": _ctis_links(str(eu_ct), enrich, nct=nct),
+        "sources": {
+            "registry_json": f"data/raw/ctis/{eu_ct}.json",
+            "extraction_json": f"data/derived/extract/{programme_id}.json",
+            "classification_json": f"data/derived/classify/{programme_id}.json",
+            "score_json": f"data/derived/score/{programme_id}.json",
+            "rights_json": f"data/derived/rights/{nct or programme_id}.json",
+        },
+    }
+
+
 def build_asset(nct: str) -> dict[str, Any] | None:
+    if _is_programme_key(nct):
+        return build_ctis_asset(nct)
     raw_path = RAW_CTG_DIR / f"{nct}.json"
     ext_path = EXTRACT_DIR / f"{nct}.json"
     clf_path = CLASSIFY_DIR / f"{nct}.json"
@@ -134,6 +306,8 @@ def build_asset(nct: str) -> dict[str, Any] | None:
     return {
         "nct_id": nct,
         "programme_id": pid,
+        "primary_display_id": nct,
+        "source": "ctg",
         "brief_title": ident.get("briefTitle"),
         "official_title": ident.get("officialTitle"),
         "indication": indication,
@@ -253,16 +427,17 @@ def weekly_changes(current: list[dict[str, Any]], previous_path: Path | None) ->
     if not previous_path or not previous_path.exists():
         return {"previous_snapshot": None, "new_in_top20": [], "moved_over_10pts": [], "note": "No previous snapshot; this is the baseline."}
     prev = load_json(previous_path)
-    prev_assets = {a["nct_id"]: a for a in prev.get("assets") or []}
+    prev_assets = {_asset_key(a): a for a in prev.get("assets") or []}
     curr_sorted = sorted(current, key=lambda a: -((a.get("score") or {}).get("score") or 0))
     prev_sorted = sorted(prev_assets.values(), key=lambda a: -((a.get("score") or {}).get("score") or 0))
-    prev_top = {a["nct_id"] for a in prev_sorted[:20]}
+    prev_top = {_asset_key(a) for a in prev_sorted[:20]}
     new_in_top20 = []
     for a in curr_sorted[:20]:
-        if a["nct_id"] not in prev_top:
+        if _asset_key(a) not in prev_top:
             new_in_top20.append(
                 {
-                    "nct_id": a["nct_id"],
+                    "nct_id": a.get("nct_id"),
+                    "primary_display_id": a.get("primary_display_id") or a.get("nct_id"),
                     "title": a.get("brief_title"),
                     "score": (a.get("score") or {}).get("score"),
                     "failure_mode": (a.get("classification") or {}).get("failure_mode"),
@@ -271,7 +446,7 @@ def weekly_changes(current: list[dict[str, Any]], previous_path: Path | None) ->
             )
     moved = []
     for a in current:
-        old = prev_assets.get(a["nct_id"])
+        old = prev_assets.get(_asset_key(a))
         if not old:
             continue
         ds = ((a.get("score") or {}).get("score") or 0) - ((old.get("score") or {}).get("score") or 0)
@@ -306,10 +481,36 @@ def load_feedback() -> list[dict[str, Any]]:
 def export_snapshot(*, dest: Path | None = None) -> Path:
     ensure_dirs()
     assets = []
-    for path in sorted(SCORE_DIR.glob("*.json")):
+    seen_programmes: set[str] = set()
+    seen_ncts: set[str] = set()
+    ctg_paths = sorted(p for p in SCORE_DIR.glob("*.json") if not _is_programme_key(p.stem))
+    ctis_paths = sorted(p for p in SCORE_DIR.glob("*.json") if _is_programme_key(p.stem))
+    for path in ctg_paths:
         a = build_asset(path.stem)
-        if a:
-            assets.append(a)
+        if not a:
+            continue
+        assets.append(a)
+        if a.get("programme_id"):
+            seen_programmes.add(str(a["programme_id"]))
+        if a.get("nct_id"):
+            seen_ncts.add(str(a["nct_id"]))
+    n_ctis = 0
+    n_merged_skip = 0
+    for path in ctis_paths:
+        scored = load_json(path)
+        pid = str(scored.get("programme_id") or path.stem)
+        nct = scored.get("nct_id")
+        if pid in seen_programmes or (nct and nct in seen_ncts):
+            n_merged_skip += 1
+            continue
+        a = build_asset(path.stem)
+        if not a:
+            continue
+        assets.append(a)
+        n_ctis += 1
+        seen_programmes.add(pid)
+        if a.get("nct_id"):
+            seen_ncts.add(str(a["nct_id"]))
     assets.sort(key=lambda a: -((a.get("score") or {}).get("score") or 0))
     prev = None
     existing = sorted(SNAPSHOT_DIR.glob("snapshot_*.json"))
@@ -331,6 +532,9 @@ def export_snapshot(*, dest: Path | None = None) -> Path:
         "counts": {
             "n_assets": len(assets),
             "n_raw": len(list(RAW_CTG_DIR.glob("*.json"))),
+            "n_ctis_raw": len([p for p in RAW_CTIS_DIR.glob("*.json") if not p.name.startswith("_")]),
+            "n_ctis_in_snapshot": n_ctis,
+            "n_ctis_merged_skip": n_merged_skip,
             "n_optionable_candidate": sum(1 for a in assets if a.get("optionable") or a.get("shortlist_ownable")),
             "n_shortlist_ownable": sum(1 for a in assets if a.get("shortlist_ownable")),
             "n_desk_walk_away": sum(1 for a in assets if (a.get("desk_classification") or (a.get("rights") or {}).get("desk_classification")) == "WALK_AWAY"),

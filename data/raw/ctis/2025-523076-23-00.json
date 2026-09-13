@@ -1,0 +1,112 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:24Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2025-523076-23-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2025-523076-23-00",
+  "payload": {
+    "ctNumber": "2025-523076-23-00",
+    "ctPublicStatusCode": 4,
+    "startDateEU": "2026-08-17",
+    "endDateEU": null,
+    "decisionDate": "2026-04-03T16:47:34.8",
+    "publishDate": "2026-08-28T03:39:56.513342055",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Randomized, Double-blind, Placebo-controlled, Proof-of-concept Phase II Trial Investigating the Effect of Valproic Acid in Women with Adenomyosis.",
+            "publicTitle": "Treatment of adenomyosis in women of reproductive age.",
+            "shortTitle": "CHP23001",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Adenomyosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Adenomyosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "\u041c\u0418\u0413-400 400 mg \u0444\u0438\u043b\u043c\u0438\u0440\u0430\u043d\u0438 \u0442\u0430\u0431\u043b\u0435\u0442\u043a\u0438"
+          },
+          {
+            "productName": "\u041d\u0410\u0422\u0420\u0418\u0415\u0412 \u0425\u041b\u041e\u0420\u0418\u0414 \u0421\u041e\u0424\u0410\u0420\u041c\u0410 9 mg/ml \u0438\u043d\u0436\u0435\u043a\u0446\u0438\u043e\u043d\u0435\u043d \u0440\u0430\u0437\u0442\u0432\u043e\u0440"
+          },
+          {
+            "productName": "K\u043e\u043d\u0432\u0443\u043b\u0435\u043a\u0441 \u0445\u0440\u043e\u043d\u043e 500 mg \u0442\u0430\u0431\u043b\u0435\u0442\u043a\u0438 \u0441 \u0443\u0434\u044a\u043b\u0436\u0435\u043d\u043e \u043e\u0441\u0432\u043e\u0431\u043e\u0436\u0434\u0430\u0432\u0430\u043d\u0435"
+          },
+          {
+            "productName": "\u041a\u043e\u043d\u0432\u0443\u043b\u0435\u043a\u0441 100 mg/ml \u0438\u043d\u0436\u0435\u043a\u0446\u0438\u043e\u043d\u0435\u043d \u0440\u0430\u0437\u0442\u0432\u043e\u0440/\u0438\u043d\u0444\u0443\u0437\u0438\u043e\u043d\u0435\u043d \u0440\u0430\u0437\u0442\u0432\u043e\u0440"
+          },
+          {
+            "productName": "Comparator 2: hard gelatine capsules (no active compounds)"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Investigator"
+          },
+          {
+            "productName": "Subject"
+          },
+          {
+            "productName": "Monitor"
+          },
+          {
+            "productName": "Federal Institute For Drugs And Medical Devices"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Nadezhda Reproductive Science OOD"
+          }
+        ],
+        "sponsors": [
+          {
+            "sponsorName": "Nadezhda Reproductive Science OOD"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 4,
+    "field": "ctPublicStatusCode",
+    "label": "Ongoing, recruiting",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "adenomyosis"
+    ],
+    "secondary_only_match": true
+  }
+}

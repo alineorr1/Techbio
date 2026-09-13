@@ -1,0 +1,99 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:21Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-519126-20-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2024-519126-20-00",
+  "payload": {
+    "ctNumber": "2024-519126-20-00",
+    "ctPublicStatusCode": 8,
+    "startDateEU": "2024-11-15",
+    "endDateEU": "2026-06-19",
+    "decisionDate": "2024-11-15T19:39:10.777",
+    "publishDate": "2026-08-12T03:35:38.786085726",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": "2019-003645-16",
+        "isTransitioned": true
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Benefit of GnRH Agonist Before Frozen Embryo Transfer in Patients With Endometriosis and/or Adenomyosis: Randomised Prospective Study.",
+            "publicTitle": "Benefit of GnRH Agonist Before Frozen Embryo Transfer in Patients With Endometriosis and/or Adenomyosis: Randomised Prospective Study.",
+            "shortTitle": "2019_0012",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": {
+                "number": "NCT04356664"
+              },
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis",
+                  "isConditionRareDisease": false
+                },
+                {
+                  "medicalCondition": "adenomyosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis",
+            "isConditionRareDisease": false
+          },
+          {
+            "medicalCondition": "adenomyosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme \u00e0 lib\u00e9ration prolong\u00e9e sur 3 mois"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Hospital Foch"
+          }
+        ],
+        "sponsors": [
+          {
+            "sponsorName": "H\u00f4pital foch"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 8,
+    "field": "ctPublicStatusCode",
+    "label": "Ended",
+    "universe": "include",
+    "mapped_status": "COMPLETED_OR_TERMINATED",
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis",
+      "adenomyosis"
+    ],
+    "secondary_only_match": false
+  }
+}

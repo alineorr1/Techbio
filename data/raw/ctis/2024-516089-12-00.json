@@ -1,0 +1,96 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:24Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-516089-12-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2024-516089-12-00",
+  "payload": {
+    "ctNumber": "2024-516089-12-00",
+    "ctPublicStatusCode": 4,
+    "startDateEU": "2024-08-12",
+    "endDateEU": null,
+    "decisionDate": "2024-08-12T00:00:00",
+    "publishDate": "2026-05-26T03:30:53.324389552",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": "2021-005005-28",
+        "isTransitioned": true
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Assisted reproductive technology (ART) and pregnancy outcomes in women with adenomyosis (internal endometriosis) according to stimulation protocol in relation to immunological and endometrial features: a prospective, randomized study",
+            "publicTitle": "Assisted reproductive technology (ART) and pregnancy outcomes in women with adenomyosis (internal endometriosis) according to stimulation protocol in relation to immunological and endometrial features: a prospective, randomized study",
+            "shortTitle": "ADENOFERT",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "women with transvaginal ultrasound (TV-US)-based diagnosis of adenomyosis",
+                  "isConditionRareDisease": false
+                },
+                {
+                  "medicalCondition": "women without adenomyosis but with similar baseline reproductive risks",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "women with transvaginal ultrasound (TV-US)-based diagnosis of adenomyosis",
+            "isConditionRareDisease": false
+          },
+          {
+            "medicalCondition": "women without adenomyosis but with similar baseline reproductive risks",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "LEUPRORELIN"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Azienda Ospedaliero Universitaria Di Modena"
+          }
+        ],
+        "sponsors": [
+          {
+            "sponsorName": "Ministero della Salute"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 4,
+    "field": "ctPublicStatusCode",
+    "label": "Ongoing, recruiting",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "adenomyosis"
+    ],
+    "secondary_only_match": true
+  }
+}

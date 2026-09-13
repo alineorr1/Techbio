@@ -1,0 +1,47 @@
+{
+  "ctNumber": "2023-599001-99-00",
+  "ctStatus": "Ended",
+  "ctPublicStatusCode": 7,
+  "startDateEU": "2022-03-01",
+  "endDateEU": "2023-06-15",
+  "decisionDate": "2023-06-15T12:00:00",
+  "authorizedApplication": {
+    "eudraCt": {
+      "isTransitioned": false
+    },
+    "authorizedPartI": {
+      "trialDetails": {
+        "clinicalTrialIdentifiers": {
+          "fullTitle": "A Phase 2 randomised trial of letrozole for endometriosis-associated pain, temporarily halted by the sponsor",
+          "publicTitle": "Letrozole for endometriosis-associated pain",
+          "shortTitle": "ENDO-LET-SUSP",
+          "secondaryIdentifyingNumbers": {
+            "nctNumber": null,
+            "additionalRegistries": []
+          }
+        },
+        "trialInformation": {
+          "medicalCondition": {
+            "partIMedicalConditions": [
+              {
+                "medicalCondition": "Endometriosis",
+                "isConditionRareDisease": false
+              }
+            ]
+          }
+        }
+      },
+      "medicalConditions": [
+        {
+          "medicalCondition": "Endometriosis",
+          "isConditionRareDisease": false
+        }
+      ],
+      "products": [
+        {
+          "productName": "Letrozole 2.5 mg"
+        }
+      ]
+    }
+  }
+}

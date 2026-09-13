@@ -36,7 +36,8 @@ from src.paths import (
     ensure_dirs,
 )
 
-# Wave-1 feature flag: this module is the only entry point. Pipeline wiring is off.
+# Wave-1 feature flag: this module is ingest-only. Pipeline wiring is off.
+# Phase-2 score wiring is a separate opt-in module (WH_CTIS_SCORE).
 WIRED_INTO_PIPELINE = False
 FEATURE_ENV = "WH_CTIS_INGEST"
 

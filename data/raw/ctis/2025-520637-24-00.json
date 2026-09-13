@@ -1,0 +1,83 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:20Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2025-520637-24-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2025-520637-24-00",
+  "payload": {
+    "ctNumber": "2025-520637-24-00",
+    "ctPublicStatusCode": 4,
+    "startDateEU": "2026-03-23",
+    "endDateEU": null,
+    "decisionDate": "2025-05-23T15:58:55.67",
+    "publishDate": "2026-03-25T02:33:02.85325283",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Use of a new diagnostic tool in the detection and characterization of endometriosis lesions. ENDO-TEP",
+            "publicTitle": "Use of a new diagnostic tool in the detection and characterization of endometriosis lesions. ENDO-TEP",
+            "shortTitle": "RC31/23/0622",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "EstroTep 500 MBq/mL, solution injectable"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Centre Hospitalier Universitaire De Toulouse"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 4,
+    "field": "ctPublicStatusCode",
+    "label": "Ongoing, recruiting",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}
