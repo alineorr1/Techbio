@@ -59,9 +59,9 @@ python -m src.classify
 python -m src.score
 python -m src.serve
 
-# Pilot pack (D1 JSON+MD dossiers, capped rights queue, kill-book). Unpaid; no snapshot rewrite.
+# Pilot pack (D2 IC half-page + D1 dossiers, capped rights queue, kill-book, D3 rollup). Unpaid; no snapshot rewrite.
 python -m src.pilot.export --pack
-python -m src.pilot.export --ncts NCT03481842,2023-599001-99-00 --out data/pilot/exports/
+python -m src.pilot.export --ncts NCT03481842,NCT04372121,NCT03411980 --out data/pilot/exports/
 
 # Eval harness (no arguments; clean checkout)
 python -m src.eval.run

@@ -11,28 +11,28 @@
     "hypothesis_for_human_review": true
   },
   "label": "RIGHTS_QUEUE",
-  "triage": "disregard",
-  "human_fill": false,
-  "auto_walk": true,
+  "triage": "keep",
+  "human_fill": true,
+  "auto_walk": false,
   "label_note": "Empty rights are RIGHTS_QUEUE, never OPP. OPP is not invented from score.",
   "registry": {
-    "nct_id": null,
-    "programme_id": "p_07efb41627c08534",
-    "primary_display_id": "2023-599001-99-00",
-    "eu_ct": "2023-599001-99-00",
+    "nct_id": "NCT03411980",
+    "programme_id": "p_35c619b13bd4ea61",
+    "primary_display_id": "NCT03411980",
+    "eu_ct": null,
     "eudract": null,
-    "source": "ctis"
+    "source": "ctg"
   },
   "stop": {
     "mode": "unclear",
     "classification": "unclear",
     "rule_fired": "6_unclear_surface_for_review",
     "notes": "No earlier rule fired. Surface for human review rather than guessing.",
-    "overall_status": "SUSPENDED",
-    "why_stopped": "Suspended",
+    "overall_status": "COMPLETED",
+    "why_stopped": null,
     "enrolment": {
-      "count": null,
-      "type": null
+      "count": 26,
+      "type": "ACTUAL"
     }
   },
   "rights": {
@@ -51,7 +51,7 @@
       "S_LICENSE_MAP_MISSING"
     ],
     "patents": null,
-    "grantor": null,
+    "grantor": "Bayer",
     "confidence": "empty_stub",
     "empty_stub": true,
     "has_citable_ip": false
@@ -88,33 +88,43 @@
     "unknown_ok_if_marked": true
   },
   "score": {
-    "score": 47.1,
-    "arithmetic": "(18.0×35 + 40.0×30 + 100.0×20 + 58.7×15) / 100 = 47.1",
+    "score": 44.1,
+    "arithmetic": "(18.0×35 + 40.0×30 + 87.5×20 + 55.3×15) / 100 = 44.1",
     "pre_pass": {
-      "verdict": "empty_stub",
+      "verdict": null,
       "surface": "NOT OPTIONABLE",
       "optionable": false,
       "shortlist_ownable": false,
-      "md_status": "HOLD",
-      "reason_codes": [
-        "EMPTY_RIGHTS_NOT_OWNABLE",
-        "RIGHTS_UNKNOWN",
-        "NOT_OPTIONABLE",
-        "MISSING_OWNERSHIP_FILL"
-      ]
+      "md_status": null,
+      "reason_codes": []
     },
     "gate_surface": "NOT OPTIONABLE",
     "high_score_is_not_buy": true,
     "high_score_is_not_opp": true
   },
   "sources": {
-    "registry_json": "data/raw/ctis/2023-599001-99-00.json",
-    "regen": "python -m src.score.ctis --force-mock"
+    "registry_json": "data/raw/ctg/NCT03411980.json",
+    "extraction_json": "data/derived/extract/NCT03411980.json",
+    "classification_json": "data/derived/classify/NCT03411980.json",
+    "score_json": "data/derived/score/NCT03411980.json",
+    "rights_json": "data/derived/rights/NCT03411980.json"
   },
   "links": [
     {
-      "label": "CTIS public record",
-      "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2023-599001-99-00"
+      "label": "ClinicalTrials.gov record",
+      "url": "https://clinicaltrials.gov/study/NCT03411980"
+    },
+    {
+      "label": "ClinicalTrials.gov API (verbatim JSON)",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03411980"
+    },
+    {
+      "label": "Europe PMC search (NCT ID)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03411980&format=json"
+    },
+    {
+      "label": "Sponsor status source (operating)",
+      "url": "https://www.bayer.com/en/pharma/womens-healthcare"
     }
   ],
   "ic_stub": {
@@ -123,18 +133,18 @@
     "is_opp": false,
     "empty_stub_is_opp": false,
     "recommendation_kind": "HOLD",
-    "recommendation": "Not an OPP. Empty rights stay RIGHTS_QUEUE / NOT OPTIONABLE. Auto-WALK; do not invent OPP from score. Hypothesis for human review only.",
+    "recommendation": "Not an OPP. Empty rights stay RIGHTS_QUEUE / NOT OPTIONABLE. Human fill the rights stub; do not invent OPP from score. Hypothesis for human review only.",
     "not_opp_reason": "empty rights stay RIGHTS_QUEUE / NOT OPTIONABLE",
     "stop": {
       "mode": "unclear",
-      "status": "SUSPENDED",
-      "why": "Suspended",
+      "status": "COMPLETED",
+      "why": "No earlier rule fired. Surface for human review rather than guessing.",
       "rule_fired": "6_unclear_surface_for_review"
     },
     "desk": {
       "label": "RIGHTS_QUEUE",
       "disposition": null,
-      "triage": "disregard",
+      "triage": "keep",
       "kill_codes": [
         "S_TAXONOMY_FIX",
         "S_COI_UNCLEAR",
@@ -143,9 +153,9 @@
       "empty_stub": true
     },
     "grantor_ip": {
-      "grantor": null,
+      "grantor": "Bayer",
       "patents": null,
-      "one_liner": null
+      "one_liner": "Bayer. Patents: null (none found / empty docket)."
     },
     "path": {
       "readiness": "unknown",
@@ -158,11 +168,11 @@
       "unknown_ok_if_marked": true,
       "note": "unknown OK if marked"
     },
-    "buyer_class": "OTHER",
-    "next_step": "Auto-WALK; not a human-fill handoff. Empty rights stay RIGHTS_QUEUE / NOT OPTIONABLE.",
+    "buyer_class": "INDUSTRY",
+    "next_step": "Human fill the rights stub; do not invent OPP.",
     "note": "Half-page IC. Does not claim PASS or an ownable book. Dashboard MD banner remains held by CoS. No MD-LIVE chrome."
   },
-  "title": "Letrozole for endometriosis-associated pain",
-  "sponsor_name": null,
+  "title": "Pharmacokinetics and Safety of Vilaprisan in Renal Impairment",
+  "sponsor_name": "Bayer",
   "indication": "Endometriosis"
 }

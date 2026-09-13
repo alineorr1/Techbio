@@ -1,0 +1,26 @@
+{
+  "schema_version": "pilot.d3.rollup.v1",
+  "narrative": "D3 counts by T2 label and desk. OPP is not invented from score. Filled WALK_AWAY is TRIAGE disregard, not RIGHTS_QUEUE.",
+  "n_snapshot": 578,
+  "n_opp": 0,
+  "n_opp_eligible": 0,
+  "n_filled_walk_away": 17,
+  "n_rights_queue_empty": 561,
+  "by_label": {
+    "RIGHTS_QUEUE": 561,
+    "TRIAGE": 17
+  },
+  "by_desk": {
+    "(unset)": 561,
+    "WALK_AWAY": 17
+  },
+  "by_label_desk": {
+    "RIGHTS_QUEUE|(unset)": 561,
+    "TRIAGE|WALK_AWAY": 17
+  },
+  "by_empty_stub": {
+    "false": 17,
+    "true": 561
+  },
+  "note": "Hard gates untouched. Empty→NOT OPTIONABLE. CONTINGENT needs citable IP. 0 OPP expected on the current unpaid corpus."
+}
