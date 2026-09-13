@@ -53,7 +53,8 @@ def _intervention_names(study: dict[str, Any] | None, extra: list[str] | None = 
 
 
 def _has_active_exclusivity(rights: dict[str, Any]) -> bool:
-    windows = ((rights or {}).get("pathway_505b2") or {}).get("exclusivity_windows") or []
+    path = (rights or {}).get("pathway_505b2") or ((rights or {}).get("ind_regulatory") or {}).get("pathway_505b2") or {}
+    windows = path.get("exclusivity_windows") or []
     return any(isinstance(w, dict) and w.get("status") == "active" for w in windows)
 
 
@@ -190,7 +191,11 @@ def evaluate_commercial_gate(
             verdict = "empty_stub"
         notes.append("Rights confidence is empty_stub; does not imply ownability.")
 
-    ownable_class = rights.get("right_class") in {"option", "505(b)(2)", "method_of_use"}
+    ownable_class = (rights.get("right_class") or (rights.get("ip") or {}).get("right_class")) in {
+        "option",
+        "505(b)(2)",
+        "method_of_use",
+    }
     pricing = ((rights.get("commercial_shape") or {}).get("pricing_power")) == "present"
     if (
         verdict not in {"FAIL"}

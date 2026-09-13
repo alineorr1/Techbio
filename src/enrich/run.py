@@ -56,11 +56,11 @@ async def enrich_one(http: HttpClient, nct: str, study: dict, extraction: Extrac
     identity = IdentityStore()
     programme = identity.upsert(identifiers_from_nct(nct), source="ctg", native_id=nct)
     pid = programme["programme_id"]
-    attach_empty_rights(pid)
-    fill_rights(pid, live=False)
+    attach_empty_rights(pid, nct_id=nct)
+    fill_rights(pid, live=False, nct_id=nct)
     entity = (sponsor.get("sponsor_entity") or {})
     if entity:
-        merge_sponsor_entity(pid, entity)
+        merge_sponsor_entity(pid, entity, nct_id=nct)
     return {
         "nct_id": nct,
         "programme_id": pid,
@@ -68,10 +68,11 @@ async def enrich_one(http: HttpClient, nct: str, study: dict, extraction: Extrac
         "europepmc": epmc,
         "sponsor": sponsor,
         "rights": {
-            "schema_version": "wave1.rights.v0",
+            "schema_version": "wave-1b.rights-stub.v1",
+            "nct_id": nct,
             "programme_id": pid,
             "confidence": "empty_stub",
-            "path": f"data/derived/rights/{pid}.json",
+            "path": f"data/derived/rights/{nct}.json",
         },
     }
 

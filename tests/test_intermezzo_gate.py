@@ -100,14 +100,17 @@ def test_k4_zolpidem_no_exclusivity_is_not_pass():
 def test_resolved_right_can_pass_without_sex_diff():
     rights = empty_rights("p_realright")
     rights["confidence"] = "high"
-    rights["right_class"] = "option"
-    rights["listed_drug_ref"] = "NDA021007"
+    rights["ip"]["right_class"] = "option"
+    rights["ip"]["listed_drug_ref"] = "NDA021007"
+    rights["ip"]["docket_empty"] = False
     rights["commercial_shape"] = {"pricing_power": "present", "generic_available": False}
-    rights["pathway_505b2"] = {
+    rights["ind_regulatory"]["pathway_505b2"] = {
         "pathway": "505(b)(2)",
         "rld_ref": "NDA021007",
+        "listed_drug_name": None,
         "listed_drug_ref": "NDA021007",
-        "exclusivity_windows": [{"exclusivity_type": "NCE", "status": "active"}],
+        "exclusivity_windows": [{"exclusivity_type": "NCE", "start": None, "end": None, "status": "active"}],
+        "orange_book_url": None,
         "orange_book_hook": "orange_book",
         "confidence": "high",
     }
@@ -122,6 +125,9 @@ def test_classify_and_score_apply_intermezzo_gate():
     clf = classify_record(study, _ext("Intermezzo"), rights=rights)
     assert clf.commercial_gate["verdict"] == "FAIL"
     assert K4_INTERMEZZO in clf.disqualifier_codes
+    assert "K_COM_ELSEWHERE" in clf.signals["kill_codes"]
+    assert "K_VALUE_NOT_CAPTURED" in clf.signals["kill_codes"]
+    assert clf.signals["kill_triggered"] is True
 
     enrich = {
         "open_targets": {

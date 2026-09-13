@@ -14,5 +14,5 @@ def default_checklist() -> dict[str, Any]:
 def attach_cmc(record: dict[str, Any], checklist: dict[str, Any] | None = None) -> dict[str, Any]:
     payload = dict(record)
     raw = checklist if checklist is not None else default_checklist()
-    payload["cmc"] = CmcChecklist.model_validate(raw).model_dump()
+    payload.setdefault("ind_regulatory", {})["cmc"] = CmcChecklist.model_validate(raw).model_dump()
     return payload

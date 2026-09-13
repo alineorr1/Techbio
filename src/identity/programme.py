@@ -381,7 +381,7 @@ class IdentityStore:
             self._id_to_pid[nid] = new_pid
         from src.rights.store import attach_empty_rights_safe
 
-        attach_empty_rights_safe(new_pid, identity_root=self.root)
+        attach_empty_rights_safe(new_pid, identity_root=self.root, identity_record=record)
         return record
 
     def lookup(self, native_id: str) -> dict[str, Any] | None:
@@ -410,7 +410,11 @@ def write_identity(record: Mapping[str, Any], root: Path | None = None) -> Path:
     dump_json(path, record)
     from src.rights.store import attach_empty_rights_safe
 
-    attach_empty_rights_safe(str(record["programme_id"]), identity_root=directory)
+    attach_empty_rights_safe(
+        str(record["programme_id"]),
+        identity_root=directory,
+        identity_record=dict(record),
+    )
     return path
 
 

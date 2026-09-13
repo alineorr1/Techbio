@@ -115,6 +115,7 @@ def test_classify_surfaces_rems_reason_codes():
     clf = classify_record(_study("lenalidomide"), _ext("lenalidomide"), rights=empty_rights("p_len"))
     assert "REMS_TERATOGEN" in clf.disqualifier_codes
     assert clf.commercial_gate["teratogen_rems"]["hard_disqualify"] is True
+    assert "K_REG_CAPTURE_DESTROY" in clf.signals["kill_codes"]
     # Failure mode is unchanged — REMS is not a biology/safety invention.
     assert clf.failure_mode == "unclear"
     assert clf.rule_fired != "5_safety_signal"

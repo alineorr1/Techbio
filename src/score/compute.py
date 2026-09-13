@@ -9,6 +9,7 @@ from src.config import scoring_config
 from src.extract.schema import POPULATION_BOOLEAN_FIELDS, Classification, Extraction
 from src.ingest.ctg import nested, parse_date, years_since
 from src.rights.gates import apply_score_caps, evaluate_commercial_gate
+from src.rights.query import apply_gate_to_rights, ownability_query
 
 
 def _clip(x: float, lo: float = 0.0, hi: float = 100.0) -> float:
@@ -232,14 +233,20 @@ def score_asset(
         capped = organon
 
     extra_names = [t.name for t in extraction.targets] + [t.gene_symbol for t in extraction.targets if t.gene_symbol]
+    rights_rec = rights if rights is not None else (enrich or {}).get("rights_record")
+    if rights_rec:
+        rights_rec = dict(rights_rec)
     gate = evaluate_commercial_gate(
         study=study,
-        rights=rights if rights is not None else (enrich or {}).get("rights_record"),
+        rights=rights_rec,
         intervention_names=extra_names,
         scoring_cfg=cfg,
     )
+    if rights_rec:
+        apply_gate_to_rights(rights_rec, gate)
     capped, gate_caps = apply_score_caps(capped, gate)
     caps.extend(gate_caps)
+    ownability = ownability_query(rights_rec)
 
     unc = uncertainty(extraction, cfg)
     lo = _clip(capped - unc["interval_halfwidth"])
@@ -269,6 +276,7 @@ def score_asset(
         "rule_a_safety_cap": classification.failure_mode == "safety",
         "rule_b_organon_guard": (not timing["has_pretrial_evidence"]),
         "commercial_gate": gate,
+        "ownability": ownability,
         "pretrial_mechanism": timing,
         "uncertainty": unc,
         "confidence_interval": [round(lo, 1), round(hi, 1)],

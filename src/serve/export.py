@@ -24,7 +24,8 @@ from src.paths import (
     ensure_dirs,
 )
 from src.identity.programme import identifiers_from_nct, programme_id_for
-from src.rights.schema import empty_cmc, empty_pathway_505b2, empty_rights
+from src.rights.query import ownability_query
+from src.rights.schema import cmc_of, empty_rights, pathway_505b2_of
 from src.rights.store import load_rights, rights_for_nct
 
 
@@ -98,9 +99,9 @@ def build_asset(nct: str) -> dict[str, Any] | None:
     indication = _indication(study)
     ind_label = (indications_config()["indications"].get(indication) or {}).get("label") or indication
     pid = (enrich.get("programme_id") or programme_id_for(identifiers_from_nct(nct)))
-    rights = enrich.get("rights_record") or load_rights(pid) or rights_for_nct(nct)
+    rights = enrich.get("rights_record") or load_rights(nct_id=nct, programme_id=pid) or rights_for_nct(nct)
     if not rights:
-        rights = empty_rights(pid)
+        rights = empty_rights(pid, nct_id=nct)
     return {
         "nct_id": nct,
         "programme_id": pid,
@@ -139,13 +140,15 @@ def build_asset(nct: str) -> dict[str, Any] | None:
             "sponsor": enrich.get("sponsor") or {},
             "rights": enrich.get("rights") or {
                 "schema_version": rights.get("schema_version"),
+                "nct_id": nct,
                 "programme_id": pid,
                 "confidence": rights.get("confidence") or "empty_stub",
             },
         },
         "rights": rights,
-        "cmc": (rights.get("cmc") if isinstance(rights, dict) else None) or empty_cmc(),
-        "pathway_505b2": (rights.get("pathway_505b2") if isinstance(rights, dict) else None) or empty_pathway_505b2(),
+        "ownability": ownability_query(rights),
+        "cmc": cmc_of(rights) if isinstance(rights, dict) else cmc_of({}),
+        "pathway_505b2": pathway_505b2_of(rights) if isinstance(rights, dict) else pathway_505b2_of({}),
         "population_checklist": [
             {"field": f, "captured": bool(pop.get(f)), "source": "extraction.population"}
             for f in POPULATION_BOOLEAN_FIELDS
@@ -156,7 +159,7 @@ def build_asset(nct: str) -> dict[str, Any] | None:
             "extraction_json": f"data/derived/extract/{nct}.json",
             "classification_json": f"data/derived/classify/{nct}.json",
             "score_json": f"data/derived/score/{nct}.json",
-            "rights_json": f"data/derived/rights/{pid}.json",
+            "rights_json": f"data/derived/rights/{nct}.json",
         },
     }
 

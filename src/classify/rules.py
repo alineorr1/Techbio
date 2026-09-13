@@ -12,6 +12,7 @@ from src.config import scoring_config, sponsor_rows
 from src.extract.schema import POPULATION_BOOLEAN_FIELDS, Classification, Extraction
 from src.ingest.ctg import nested, parse_date
 from src.rights.gates import evaluate_commercial_gate
+from src.rights.query import apply_gate_to_rights, ownability_query
 
 
 def _enrolment(study: dict[str, Any]) -> tuple[int | None, int | None, str | None]:
@@ -177,7 +178,11 @@ def classify_record(
     stated = extraction.stop_reason_category
     published = bool((enrich or {}).get("europepmc", {}).get("has_results_publication"))
     target_advanced = bool((enrich or {}).get("open_targets", {}).get("target_advanced_elsewhere"))
-    gate = evaluate_commercial_gate(study=study, rights=rights, intervention_names=_extraction_names(extraction))
+    rights_rec = dict(rights) if rights is not None else None
+    gate = evaluate_commercial_gate(study=study, rights=rights_rec, intervention_names=_extraction_names(extraction))
+    if rights_rec is not None:
+        apply_gate_to_rights(rights_rec, gate)
+    ownability = ownability_query(rights_rec)
 
     signals: dict[str, Any] = {
         "extracted_category": stated,
@@ -197,6 +202,10 @@ def classify_record(
         "stop_reason_raw": extraction.stop_reason_raw,
         "commercial_gate": gate,
         "disqualifier_codes": list(gate.get("reason_codes") or []),
+        "ownability": ownability,
+        "thesis_mismatch": ownability["thesis_mismatch"],
+        "kill_triggered": ownability["kill_triggered"],
+        "kill_codes": ownability["kill_codes"],
     }
 
     # Rule 1

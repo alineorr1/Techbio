@@ -6,6 +6,15 @@ write empty_stub. Empty confidence never implies ownability.
 """
 
 from src.rights.exceptions import NotConfigured
-from src.rights.schema import SCHEMA_VERSION, RightsRecord, empty_rights
+from src.rights.query import decision_required, ownability_query
+from src.rights.schema import SCHEMA_VERSION, REQUIRED_BLOCKS, RightsRecord, empty_rights
 
-__all__ = ["NotConfigured", "SCHEMA_VERSION", "RightsRecord", "empty_rights"]
+__all__ = [
+    "NotConfigured",
+    "SCHEMA_VERSION",
+    "REQUIRED_BLOCKS",
+    "RightsRecord",
+    "empty_rights",
+    "ownability_query",
+    "decision_required",
+]

@@ -15,9 +15,10 @@ def default_pathway() -> dict[str, Any]:
 def attach_pathway(record: dict[str, Any], pathway: dict[str, Any] | None = None) -> dict[str, Any]:
     payload = dict(record)
     raw = pathway if pathway is not None else default_pathway()
-    payload["pathway_505b2"] = Pathway505b2.model_validate(raw).model_dump()
-    if raw.get("listed_drug_ref") and not payload.get("listed_drug_ref"):
-        payload["listed_drug_ref"] = raw["listed_drug_ref"]
+    payload.setdefault("ind_regulatory", {})["pathway_505b2"] = Pathway505b2.model_validate(raw).model_dump()
+    if raw.get("listed_drug_ref"):
+        payload.setdefault("ip", {})["listed_drug_ref"] = raw["listed_drug_ref"]
+        payload.setdefault("ip", {}).setdefault("orange_book", {})["listed_drug_ref"] = raw["listed_drug_ref"]
     return payload
 
 
