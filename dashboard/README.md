@@ -18,7 +18,7 @@ Hash routes (no server router):
 | `#/landscape` | Corpus charts when `snapshot.landscape` is present |
 | `#/weekly` | Top-20 / ±10pt moves when `snapshot.weekly` is present |
 
-A smoke snapshot from the committed ClinicalTrials.gov cache is checked in at `public/data/snapshot.json` so Vercel has data without OpenAI. To regenerate after extract/classify/score:
+A smoke snapshot from the committed ClinicalTrials.gov cache is checked in at `public/data/snapshot.json` so Vercel has data without OpenAI. `vite preview` serves `dist/`; run `npm run build` after the snapshot is present (`prebuild` fails if it is missing). To regenerate after extract/classify/score:
 
 ```bash
 python -m src.extract --force-mock   # or a real key; not required for the dashboard
