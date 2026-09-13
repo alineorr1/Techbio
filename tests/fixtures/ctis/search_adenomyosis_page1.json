@@ -1,0 +1,109 @@
+{
+  "showWarning": false,
+  "pagination": {
+    "totalRecords": 3,
+    "currentPage": 1,
+    "totalPages": 1,
+    "nextPage": false,
+    "prevPage": false
+  },
+  "data": [
+    {
+      "ctNumber": "2025-523076-23-00",
+      "ctStatus": 4,
+      "ctTitle": "Randomized, Double-blind, Placebo-controlled, Proof-of-concept Phase II Trial Investigating the Effect of Valproic Acid in Women with Adenomyosis.",
+      "shortTitle": "CHP23001",
+      "startDateEU": "17/08/2026",
+      "conditions": "Adenomyosis",
+      "trialCountries": [
+        "Bulgaria:4"
+      ],
+      "decisionDateOverall": "03/04/2026",
+      "decisionDate": "BG: 03/04/2026",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "CCDRD Cooperative Clinical Drug Research and Development AG, Nadezhda Reproductive Science OOD",
+      "sponsorType": "Pharmaceutical company, Laboratory/Research/Testing facility",
+      "trialPhase": "Therapeutic exploratory (Phase II)",
+      "endPoint": "Pre−post absolute change of each pain type associated with adenomyosis (non-menstrual pelvic pain, dysmenorrhea, dyspareunia) as documented on a VAS (in units) at each visit, Clinical Global Impressions (CGI) scale after EoT on Day 30 (+4 days) visit), Patient Global Impression of Change (PGIC) scale after EoT on Day 30 (+4 days) visit), Pre−post absolute change in the lesion(s) size after EoT on Day 30 (+4 days) visit), Pregnancy rate after the first in vitro fertilization cycle performed after a wash-out period of at least 30 days after the end of treatment",
+      "product": "МИГ-400 400 mg филмирани таблетки, НАТРИЕВ ХЛОРИД СОФАРМА 9 mg/ml инжекционен разтвор, Kонвулекс хроно 500 mg таблетки с удължено освобождаване, Конвулекс 100 mg/ml инжекционен разтвор/инфузионен разтвор, Comparator 2: hard gelatine capsules (no active compounds)",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "60",
+      "primaryEndPoint": "Pre−post absolute change between baseline and final value after 29 days treatment in AAPP, Final value at the end of 29 days of treatment in the amount of analgesic rescue medication taken (ibuprofen 400 mg tablets)",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "03/04/2026",
+      "lastPublicationUpdate": "28/08/2026"
+    },
+    {
+      "ctNumber": "2024-519126-20-00",
+      "ctStatus": 8,
+      "ctTitle": "Benefit of GnRH Agonist Before Frozen Embryo Transfer in Patients With Endometriosis and/or Adenomyosis: Randomised Prospective Study.",
+      "shortTitle": "2019_0012",
+      "startDateEU": "15/11/2024",
+      "endDateEU": "19/06/2026",
+      "conditions": "Endometriosis, adenomyosis",
+      "trialCountries": [
+        "France:8"
+      ],
+      "decisionDateOverall": "15/11/2024",
+      "decisionDate": "FR: 15/11/2024",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "Hospital Foch",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Phase III and phase IV (Integrated)",
+      "endPoint": "Number of successful implantations per number of embryos transferred;, Miscarriage defined as a spontaneous pregnancy loss after a successful implantation;, Incidence and severity of side effects related to hypoestrogenism (e.g., hot flashes, night sweats, decreased libido, mood swings, etc.)",
+      "product": "DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à libération prolongée sur 3 mois",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "180",
+      "primaryEndPoint": "The primary evaluation criterion is the clinical pregnancy rate (confirmed by the presence of a fetal heartbeat), which will be assessed in both groups during the ultrasound conducted at the final visit",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "31/07/2025",
+      "lastPublicationUpdate": "12/08/2026"
+    },
+    {
+      "ctNumber": "2024-516089-12-00",
+      "ctStatus": 4,
+      "ctTitle": "Assisted reproductive technology (ART) and pregnancy outcomes in women with adenomyosis (internal endometriosis) according to stimulation protocol in relation to immunological and endometrial features: a prospective, randomized study",
+      "shortTitle": "ADENOFERT",
+      "startDateEU": "12/08/2024",
+      "conditions": "women with transvaginal ultrasound (TV-US)-based diagnosis of adenomyosis, women without adenomyosis but with similar baseline reproductive risks",
+      "trialCountries": [
+        "Italy:4"
+      ],
+      "decisionDateOverall": "12/08/2024",
+      "decisionDate": "IT: 12/08/2024",
+      "therapeuticAreas": [
+        "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+      ],
+      "sponsor": "Azienda Ospedaliero Universitaria Di Modena",
+      "sponsorType": "Hospital/Clinic/Other health care facility",
+      "trialPhase": "Therapeutic use (Phase IV)",
+      "endPoint": "To evaluate the association of COH (Controlled Ovarian Hyperstimulation) protocols for ART (long or ultra-long protocol) with a high-dose preventive anti-inflammatory progestogen such as DNG with pregnancy and neonatal outcomes (preterm delivery, preeclampsia, cesarean section, fetal malformation, SGA, low birth weight and postpartum haemorrhage)., Secondary in-vitro sub-studies: Stimulated (P and DNG) markers of decidualization (osteopontin, prolactin) in relation to ART success in women with and without A. Immune system cell population and relative cytokines, the frequency of immune system cells, the interleukin profile, cell activity, specific receptors of pregnancy hormone involved in T cell activity in women with A in comparison to healthy subjects.",
+      "product": "LEUPRORELIN\r, -",
+      "ageRangeSecondary": [
+        ""
+      ],
+      "ageGroup": "18-64 years",
+      "gender": "Female",
+      "trialRegion": 1,
+      "totalNumberEnrolled": "500",
+      "primaryEndPoint": "To prospectively investigate the association of Adenomyosis with fertility outcomes in relation to COH protocols for ART (long or ultra-long protocol) with a preventive high-dose anti-inflammatory progestin such as dienogest (DNG).",
+      "resultsFirstReceived": "No",
+      "lastUpdated": "04/04/2025",
+      "lastPublicationUpdate": "26/05/2026"
+    }
+  ]
+}

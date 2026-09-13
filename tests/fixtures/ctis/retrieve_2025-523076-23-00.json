@@ -1,0 +1,42 @@
+{
+  "ctNumber": "2025-523076-23-00",
+  "ctStatus": "Authorised",
+  "ctPublicStatusCode": 4,
+  "startDateEU": "2026-08-17",
+  "decisionDate": "2026-04-03T16:47:34.8",
+  "publishDate": "2026-08-28T03:39:56.513342055",
+  "authorizedApplication": {
+    "eudraCt": {
+      "isTransitioned": false
+    },
+    "authorizedPartI": {
+      "trialDetails": {
+        "clinicalTrialIdentifiers": {
+          "fullTitle": "Randomized, Double-blind, Placebo-controlled, Proof-of-concept Phase II Trial Investigating the Effect of Valproic Acid in Women with Adenomyosis.",
+          "publicTitle": "Treatment of adenomyosis in women of reproductive age.",
+          "shortTitle": "CHP23001",
+          "secondaryIdentifyingNumbers": {
+            "nctNumber": null,
+            "additionalRegistries": []
+          }
+        },
+        "trialInformation": {
+          "medicalCondition": {
+            "partIMedicalConditions": [
+              {
+                "medicalCondition": "Adenomyosis",
+                "isConditionRareDisease": false
+              }
+            ]
+          }
+        }
+      },
+      "medicalConditions": [
+        {
+          "medicalCondition": "Adenomyosis",
+          "isConditionRareDisease": false
+        }
+      ]
+    }
+  }
+}
