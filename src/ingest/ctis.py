@@ -291,7 +291,16 @@ def sanitize_retrieve_payload(payload: dict[str, Any]) -> dict[str, Any]:
                 "partIMedicalConditions",
             )
         )
-    products = [{"productName": name} for name in _collect_named_products(part_i)]
+    products: list[dict[str, str]] = []
+    seen_products: set[str] = set()
+    for name in _collect_named_products(part_i):
+        if len(name) > 120:
+            continue
+        key = name.lower()
+        if key in seen_products:
+            continue
+        seen_products.add(key)
+        products.append({"productName": name})
     eudra = nested(payload, "authorizedApplication", "eudraCt") or {}
     return {
         "ctNumber": payload.get("ctNumber"),

@@ -1,0 +1,434 @@
+{
+  "schema_version": "wave1.ctis_search_expand.v1",
+  "fetched_at": "2026-09-13T06:20:11Z",
+  "bound": {
+    "max_search_hits": 400,
+    "split": {
+      "endometriosis": 200,
+      "pcos": 200
+    },
+    "universe": "shelved",
+    "notes": "CTIS public API returned 20 unique endo/PCOS synonym hits (below the 200-500 cap). All were taken. Retrieve = include/include_review only."
+  },
+  "n_search_hits": 20,
+  "n_shelved_candidates": 4,
+  "terms": [
+    {
+      "indication_key": "endometriosis",
+      "term": "endometriosis",
+      "digest": "1d43b7fec608f74f8c4b84daeed060eee68d939e75b57b703e33db129b801246",
+      "path": "data/raw/ctis/_search/1d43b7fec608f74f8c4b84daeed060eee68d939e75b57b703e33db129b801246.jsonl",
+      "n_rows": 11
+    },
+    {
+      "indication_key": "endometriosis",
+      "term": "adenomyosis",
+      "digest": "f7baae94ada80812229d8a62f539490f033af4e5aaeb311d418c0a165dfe86c5",
+      "path": "data/raw/ctis/_search/f7baae94ada80812229d8a62f539490f033af4e5aaeb311d418c0a165dfe86c5.jsonl",
+      "n_rows": 3
+    },
+    {
+      "indication_key": "endometriosis",
+      "term": "endometrioma",
+      "digest": "91dae994800414046a353e24010a8d7b49c6e29b7f36217ad356152ef76885ef",
+      "path": "data/raw/ctis/_search/91dae994800414046a353e24010a8d7b49c6e29b7f36217ad356152ef76885ef.jsonl",
+      "n_rows": 0
+    },
+    {
+      "indication_key": "endometriosis",
+      "term": "endometriotic",
+      "digest": "6fe3669631df20d4cfe8c0331b8d8c4a6b5b3b59df17b2f34fff4fcd4f9b99e1",
+      "path": "data/raw/ctis/_search/6fe3669631df20d4cfe8c0331b8d8c4a6b5b3b59df17b2f34fff4fcd4f9b99e1.jsonl",
+      "n_rows": 0
+    },
+    {
+      "indication_key": "endometriosis",
+      "term": "chocolate cyst",
+      "digest": "efd738527abbbf2645c284331070c67f8cd09e243575da3a26b765a05010cf85",
+      "path": "data/raw/ctis/_search/efd738527abbbf2645c284331070c67f8cd09e243575da3a26b765a05010cf85.jsonl",
+      "n_rows": 0
+    },
+    {
+      "indication_key": "pcos",
+      "term": "polycystic ovary syndrome",
+      "digest": "7625e3b43224a5ac661d6150546a2ebbd6f4b9f0e0e32513bfed65cfbfc2a3a1",
+      "path": "data/raw/ctis/_search/7625e3b43224a5ac661d6150546a2ebbd6f4b9f0e0e32513bfed65cfbfc2a3a1.jsonl",
+      "n_rows": 7
+    },
+    {
+      "indication_key": "pcos",
+      "term": "polycystic ovarian syndrome",
+      "digest": "5722c3bdb0e211712559dbc810ccc3ae0ff0b625577e9333bac71525f11ca03e",
+      "path": "data/raw/ctis/_search/5722c3bdb0e211712559dbc810ccc3ae0ff0b625577e9333bac71525f11ca03e.jsonl",
+      "n_rows": 0
+    },
+    {
+      "indication_key": "pcos",
+      "term": "PCOS",
+      "digest": "98baf0d606838cde2a69f7e6664d5ddc4b0560915d16851427e3e45b70dd97d0",
+      "path": "data/raw/ctis/_search/98baf0d606838cde2a69f7e6664d5ddc4b0560915d16851427e3e45b70dd97d0.jsonl",
+      "n_rows": 4
+    },
+    {
+      "indication_key": "pcos",
+      "term": "Stein-Leventhal",
+      "digest": "b54aaa10ad5864f65cf5524d493bbee4668cf6894fef62b44309babd701fa8e6",
+      "path": "data/raw/ctis/_search/b54aaa10ad5864f65cf5524d493bbee4668cf6894fef62b44309babd701fa8e6.jsonl",
+      "n_rows": 0
+    },
+    {
+      "indication_key": "pcos",
+      "term": "Stein Leventhal",
+      "digest": "2254f5c05dac3f3bb5d0e9b6d96e47146e22e7b9c02a0b04ebc9ed0aaf6a776e",
+      "path": "data/raw/ctis/_search/2254f5c05dac3f3bb5d0e9b6d96e47146e22e7b9c02a0b04ebc9ed0aaf6a776e.jsonl",
+      "n_rows": 0
+    }
+  ],
+  "hits": [
+    {
+      "ct_number": "2022-500792-31-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 11,
+      "universe": "exclude",
+      "label": "Not authorised",
+      "mapped_status": null,
+      "title": "The effect of cabergoline in infertile women on peritoneal endometriosis related dysmenorrhea, chronic pelvic pain and fertility",
+      "sponsor": "Turku University Central Hospital",
+      "product": "Lume-kapselissa puolitettu yliopiston apteekin Placebo 9 mm tabletti (sis. mikrokiteistä selluloosaa sekä magnesium stearaattia)., Dostinex 0,5 mg tablett",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2022-501310-57-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 8,
+      "universe": "include",
+      "label": "Ended",
+      "mapped_status": "COMPLETED_OR_TERMINATED",
+      "title": "A Phase 2a/b, Randomized, Double-blind, Placebo-controlled, Parallel Group, Multicenter, Clinical Study to Evaluate the Efficacy and Safety of OG-6219 in 3 Dose Levels, in Women 18 to 49 Years of Age with Moderate to Severe Endometriosis-related Pain",
+      "sponsor": "Organon LLC",
+      "product": "Placebo Tablet for OG-6219, Nalgesin S 275 mg plėvele dengtos tabletės",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2023-503477-38-00",
+      "indication_keys": [
+        "pcos"
+      ],
+      "hitting_terms": [
+        "polycystic ovary syndrome"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "Insemination in patients with polycystic ovary syndrome: gestation rates using two stimulation patterns: letrozole vs gonadotropins.",
+      "sponsor": "Hospital Universitario La Paz",
+      "product": "GONAL-f 450 IU/0.75 mL powder and solvent for solution for injection, LETROZOLE\r, Ovaleap 450 IU/0.75 mL solution for injection, Puregon 600 IU/0.72 mL solution for injection, Bemfola 75 IU/0.125 mL solution for injection in pre-filled pen",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2023-507289-14-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 5,
+      "universe": "exclude_pending_end",
+      "label": "Ongoing, recruitment ended",
+      "mapped_status": null,
+      "title": "A PHASE II, RANDOMIZED, DOUBLE BLIND STUDY TO EVALUATE THE EFFICACY AND SAFETY OF AMY109 IN WOMEN WITH ENDOMETRIOSIS",
+      "sponsor": "Chugai Pharmaceutical Co. Ltd.",
+      "product": "NAPROXEN SODIUM, DESOGESTREL, TRAMADOL HYDROCHLORIDE, IBUPROFEN, Placebo to match AMY109, Placebo to match desogestrel, Feanolla 75 microgram film-coated tablets, CODEINE PHOSPHATE, PARACETAMOL, NAPROXEN, AMY109",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2023-508417-16-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "Esketamine As treatment for chronic pain due to endometrioSis: a RCT studY",
+      "sponsor": "Reinier de Graaf Groep",
+      "product": "SODIUM CHLORIDE, Ondansetron Morningside 4 mg orodispergeerbare tabletten, Ondansetron 2 mg/ml Solution for Injection, Ketanest® S 5 mg/ml - Ampullen",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2023-509259-15-01",
+      "indication_keys": [
+        "pcos"
+      ],
+      "hitting_terms": [
+        "polycystic ovary syndrome"
+      ],
+      "ct_status": 2,
+      "universe": "exclude",
+      "label": "Authorised, recruitment pending",
+      "mapped_status": null,
+      "title": "Optimizing metformin use in polycystic ovary syndrome - A randomized controlled trial",
+      "sponsor": "HUS-yhtymae",
+      "product": "METFORMIN, METFORMIN HYDROCHLORIDE",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-514505-64-01",
+      "indication_keys": [
+        "pcos"
+      ],
+      "hitting_terms": [
+        "polycystic ovary syndrome"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "Acupuncture or Metformin for Insulin Resistance in Women with Polycystic Ovary Syndrome: A Randomized Controlled Trial",
+      "sponsor": "Karolinska Institutet",
+      "product": "Metformin Actavis 500 mg filmdragerad tablett",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-515982-32-00",
+      "indication_keys": [
+        "pcos"
+      ],
+      "hitting_terms": [
+        "polycystic ovary syndrome",
+        "PCOS"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "A Clinical Trial of Tirzepatide (LY3298176) in Subjects With Overweight or Obesity and PCOS-related Ovarian Dysfunction (PERIODS)",
+      "sponsor": "Rheinische Friedrich-Wilhelms-Universitaet Bonn",
+      "product": "Placebo to match tirzepatide in the doses 2.5, 5, 7.5, 10, 12.5, 15 mg. The placebo is manufactured and incorporated into an auto-injector, packaged and labeled to be identical to tirzepatide. Tirzepatide and placebo will be provided by the original manufacturer Eli Lilly., MEDROXYPROGESTERONE\r, TIRZEPATIDE, TIRZEPATIDE, DYDROGESTERONE\r, TIRZEPATIDE, TIRZEPATIDE, TIRZEPATIDE, GLUCOSE\r, TIRZEPATIDE",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-516089-12-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "adenomyosis"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "Assisted reproductive technology (ART) and pregnancy outcomes in women with adenomyosis (internal endometriosis) according to stimulation protocol in relation to immunological and endometrial features: a prospective, randomized study",
+      "sponsor": "Azienda Ospedaliero Universitaria Di Modena",
+      "product": "LEUPRORELIN\r, -",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-518527-29-00",
+      "indication_keys": [
+        "pcos"
+      ],
+      "hitting_terms": [
+        "polycystic ovary syndrome",
+        "PCOS"
+      ],
+      "ct_status": 8,
+      "universe": "include",
+      "label": "Ended",
+      "mapped_status": "COMPLETED_OR_TERMINATED",
+      "title": "A Phase II, randomised, multi-centric, multi-national clinical trial to evaluate the efficacy, tolerability, and safety of a fixed dose combination of Spironolactone, Pioglitazone & Metformin (SPIOMET) for adolescent girls and young adult women (AYAs) with polycystic ovary syndrome (PCOS).",
+      "sponsor": "Fundacio Sant Joan De Deu",
+      "product": "SPIO, SPIOMET, The current SPIOMET, SPIO, PIO and Placebo formulation was defined based on the compatibility study for SPIOMET carried out by Kern Pharma (see section 2.1.P.2.2.1 of IMPD).\nSPIO, PIO and Placebo formulations are considered compatible. As they have the same qualitative composition as SPIOMET, the compatibility and stability can be extrapolated from SPIOMET., PIO",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-518675-55-00",
+      "indication_keys": [
+        "pcos"
+      ],
+      "hitting_terms": [
+        "polycystic ovary syndrome",
+        "PCOS"
+      ],
+      "ct_status": 5,
+      "universe": "exclude_pending_end",
+      "label": "Ongoing, recruitment ended",
+      "mapped_status": null,
+      "title": "Towards a treatment for accelerated maturation in girls testing spiomet in a randomised placebo controlled, multicentre study.",
+      "sponsor": "Hospital Universitari De Girona Doctor Josep Trueta",
+      "product": "SPIOMET, Povidona K-30, celulosa microcristalina, croscarmelosa sódica, Polyglicol 4000,\nestearato de magnesio.",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-519126-20-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis",
+        "adenomyosis"
+      ],
+      "ct_status": 8,
+      "universe": "include",
+      "label": "Ended",
+      "mapped_status": "COMPLETED_OR_TERMINATED",
+      "title": "Benefit of GnRH Agonist Before Frozen Embryo Transfer in Patients With Endometriosis and/or Adenomyosis: Randomised Prospective Study.",
+      "sponsor": "Hospital Foch",
+      "product": "DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à libération prolongée sur 3 mois",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-519354-36-00",
+      "indication_keys": [
+        "pcos"
+      ],
+      "hitting_terms": [
+        "polycystic ovary syndrome",
+        "PCOS"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "Continuing ovulation induction with letrozole versus switching to gonadotropins in women with polycystic ovary syndrome (MOVIN-II study)",
+      "sponsor": "Amsterdam UMC Stichting",
+      "product": "HUMAN MENOPAUSAL GONADOTROPHINS, LETROZOLE, FOLLITROPIN ALFA",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2024-520423-88-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 8,
+      "universe": "include",
+      "label": "Ended",
+      "mapped_status": "COMPLETED_OR_TERMINATED",
+      "title": "Contribution of PET (positron emission tomography) scans for the preoperative assessment of symptomatic endometriosis lesions: TEP-ENDORUN",
+      "sponsor": "Centre Hospitalier Universitaire De La Reunion",
+      "product": "Furosemide 10 mg/ml solution for injection, GLUCOTRACE 185 MBq/ml solution injectable, Omnipaque 350 mg I/ml  Injektionslösung",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2025-520637-24-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "Use of a new diagnostic tool in the detection and characterization of endometriosis lesions. ENDO-TEP",
+      "sponsor": "Centre Hospitalier Universitaire De Toulouse",
+      "product": "EstroTep 500 MBq/mL, solution injectable",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2025-522452-16-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "A Phase 2, randomized, double-blind, placebo-controlled trial to investigate the efficacy and safety of 2 doses of vipoglanstat in patients with moderate to severe endometriosis-related pain – the NOVA trial",
+      "sponsor": "Gesynta Pharma AB",
+      "product": "Vipoglanstat, The placebo formulation for GS-248 is formulated in a capsule without the active\ningredient. Both vipoglanstat capsules and placebo are identical capsules.",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2025-522812-18-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 2,
+      "universe": "exclude",
+      "label": "Authorised, recruitment pending",
+      "mapped_status": null,
+      "title": "CARESS Study: Cabergoline for the Reduction of Endometriosis Symptoms and Lesion Size",
+      "sponsor": "Hospital Clinico San Carlos",
+      "product": "Sibilla diario 2 mg / 0,03 mg comprimidos recubiertos con película EFG, Dostinex 0.5 mg Tablets",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2025-523076-23-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "adenomyosis"
+      ],
+      "ct_status": 4,
+      "universe": "exclude",
+      "label": "Ongoing, recruiting",
+      "mapped_status": null,
+      "title": "Randomized, Double-blind, Placebo-controlled, Proof-of-concept Phase II Trial Investigating the Effect of Valproic Acid in Women with Adenomyosis.",
+      "sponsor": "CCDRD Cooperative Clinical Drug Research and Development AG, Nadezhda Reproductive Science OOD",
+      "product": "МИГ-400 400 mg филмирани таблетки, НАТРИЕВ ХЛОРИД СОФАРМА 9 mg/ml инжекционен разтвор, Kонвулекс хроно 500 mg таблетки с удължено освобождаване, Конвулекс 100 mg/ml инжекционен разтвор/инфузионен разтвор, Comparator 2: hard gelatine capsules (no active compounds)",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2025-524995-53-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 2,
+      "universe": "exclude",
+      "label": "Authorised, recruitment pending",
+      "mapped_status": null,
+      "title": "Reproductive outcomes with letrozole co-treatment during ovarian stimulation in women with endometriosis undergoing IVF/ICSI: a randomised, multicentre, parallel group pragmatic trial",
+      "sponsor": "UZ Brussel",
+      "product": "Letrozole Teva 2,5 mg filmomhulde tabletten",
+      "nct_guess": null
+    },
+    {
+      "ct_number": "2026-525272-25-00",
+      "indication_keys": [
+        "endometriosis"
+      ],
+      "hitting_terms": [
+        "endometriosis"
+      ],
+      "ct_status": 2,
+      "universe": "exclude",
+      "label": "Authorised, recruitment pending",
+      "mapped_status": null,
+      "title": "Prospective trial of [18F]AlF-FAPI-74 for PET imaging of fibroblast activation protein in patients with endometriosis",
+      "sponsor": "UZ Leuven",
+      "product": "Buscopan 20 mg/1 ml oplossing voor injectie",
+      "nct_guess": null
+    }
+  ]
+}

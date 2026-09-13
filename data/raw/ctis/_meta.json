@@ -2,6 +2,17 @@
   "schema_version": "wave1.raw.v1",
   "source": "https://euclinicaltrials.eu/ctis-public-api",
   "sanitized": true,
-  "notes": "PII (contacts, emails, sites, investigators, events, documents) stripped. Identifier paths, ctPublicStatusCode, titles, conditions, and product names retained. Live endometriosis synonym search 2026-09-13 plus EU-only Suspended fixture 2023-599001-99-00. OG-6219 EU CT 2022-501310-57-00 is pinned to NCT05560646 (live retrieve omitted nctNumber; same protocol title) so it merges and is not second-scored. retrieve.ctStatus application-status string is not stored as public status.",
-  "n_envelopes": 15
+  "n_envelopes": 16,
+  "expand": {
+    "date": "2026-09-13",
+    "command": "python -m src.ingest.ctis --max 400 --universe shelved --skip-unpaired",
+    "n_search_hits": 20,
+    "n_search_hit_cap": 400,
+    "indication_budgets": {"endometriosis": 200, "pcos": 200},
+    "n_shelved_candidates": 4,
+    "n_new_retrieved": 1,
+    "new_eu_ct": ["2024-518527-29-00"],
+    "notes": "CTIS public API returned 20 unique endo/PCOS synonym hits (below the 200-500 bound). All hits were taken. Retrieve was include/include_review only. Existing envelopes were not overwritten (OG-6219 NCT pin preserved). EU-only Suspended fixture 2023-599001-99-00 is retained."
+  },
+  "notes": "PII (contacts, emails, sites, investigators, events, documents) stripped. Identifier paths, ctPublicStatusCode, titles, conditions, and product names retained. Live endo+PCOS synonym search 2026-09-13 plus EU-only Suspended fixture 2023-599001-99-00. OG-6219 EU CT 2022-501310-57-00 is pinned to NCT05560646 so it merges and is not second-scored. retrieve.ctStatus application-status string is not stored as public status."
 }

@@ -369,6 +369,22 @@ def test_sanitize_retrieve_strips_contacts_and_keeps_status():
     assert clean["authorizedApplication"]["authorizedPartI"]["products"] == [
         {"productName": "Letrozole 2.5 mg"}
     ]
+    long_impd = {
+        "ctNumber": "2024-000008-00-00",
+        "ctPublicStatusCode": 8,
+        "authorizedApplication": {
+            "authorizedPartI": {
+                "products": [
+                    {"productName": "SPIOMET"},
+                    {"productName": "X" * 200},
+                    {"productName": "SPIOMET"},
+                ]
+            }
+        },
+    }
+    assert sanitize_retrieve_payload(long_impd)["authorizedApplication"]["authorizedPartI"][
+        "products"
+    ] == [{"productName": "SPIOMET"}]
     assert clean["authorizedApplication"]["authorizedPartI"]["trialDetails"][
         "clinicalTrialIdentifiers"
     ]["secondaryIdentifyingNumbers"]["nctNumber"]["number"] == "NCT01234567"
