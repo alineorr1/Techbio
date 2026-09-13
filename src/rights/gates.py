@@ -11,6 +11,7 @@ from typing import Any
 
 from src.config import disqualifiers_config, scoring_config
 from src.ingest.ctg import nested
+from src.rights.codes import HARD_KILL_CODES, PROVISIONAL_CONTINGENT_NCTS
 from src.rights.schema import empty_rights
 
 SEX_DIFF_ALONE = "SEX_DIFF_ALONE_NOT_PASS"
@@ -24,9 +25,12 @@ RIGHTS_UNKNOWN = "RIGHTS_UNKNOWN"
 MISSING_OWNERSHIP_FILL = "MISSING_OWNERSHIP_FILL"
 WALK_AWAY_WITHDRAWN = "WALK_AWAY_WITHDRAWN"
 WALK_AWAY_ZERO_ENROLMENT = "WALK_AWAY_ZERO_ENROLMENT"
+CONTINGENT_NEEDS_CITABLE_PATENT = "CONTINGENT_NEEDS_CITABLE_PATENT"
 
 RIGHTS_UNKNOWN_CONFIDENCE = frozenset({"", "empty_stub", "rights-unknown"})
 UNFILLED_OWNERSHIP_STATUS = frozenset({"", "not_yet_fetched", "unknown"})
+# Public filing number: WO / US / EP / AU (and other office prefixes). Not a title or docket nickname.
+CITABLE_PATENT_RE = re.compile(r"^(?:WO|US|EP|AU|CN|JP|CA|KR)\s*\d[\dA-Z/,.\-]*$", re.IGNORECASE)
 
 
 def _norm(text: str) -> str:
@@ -103,6 +107,117 @@ def missing_ownership_fill(rights: dict[str, Any] | None) -> bool:
     if status in UNFILLED_OWNERSHIP_STATUS:
         return True
     return False
+
+
+def is_citable_patent_number(value: str | None) -> bool:
+    """True for a public WO/US/EP/AU/… publication or application number."""
+    text = str(value or "").strip()
+    if not text:
+        return False
+    return bool(CITABLE_PATENT_RE.match(text))
+
+
+def _family_adjacent_only(family: dict[str, Any]) -> bool:
+    blob = " ".join(
+        str(family.get(key) or "")
+        for key in ("title", "family_id", "jurisdiction", "status")
+    ).lower()
+    return "adjacent" in blob
+
+
+def citable_patent_numbers(rights: dict[str, Any] | None, *, indication_specific: bool = True) -> list[str]:
+    """Citable public numbers. Adjacent-only families (BOL pMDI/Yissum) do not count."""
+    desk = ((rights or {}).get("modules") or {}).get("asset_ip_desk") or {}
+    if desk.get("public_patent_null"):
+        return []
+    found: list[str] = []
+    for family in ((rights or {}).get("ip") or {}).get("patent_families") or []:
+        if not isinstance(family, dict):
+            continue
+        if indication_specific and _family_adjacent_only(family):
+            continue
+        if indication_specific and desk.get("adjacent_only"):
+            continue
+        for raw in family.get("publication_numbers") or []:
+            if is_citable_patent_number(str(raw)):
+                found.append(str(raw).strip())
+    return list(dict.fromkeys(found))
+
+
+def has_citable_patent_number(rights: dict[str, Any] | None, *, indication_specific: bool = True) -> bool:
+    return bool(citable_patent_numbers(rights, indication_specific=indication_specific))
+
+
+def is_provisional_contingent(rights: dict[str, Any] | None) -> bool:
+    nct = (rights or {}).get("nct_id") or ((rights or {}).get("identity") or {}).get("nct_id")
+    if nct in PROVISIONAL_CONTINGENT_NCTS:
+        return True
+    desk = ((rights or {}).get("modules") or {}).get("asset_ip_desk") or {}
+    return bool(desk.get("provisional_contingent"))
+
+
+def apply_contingent_patent_bar(record: dict[str, Any]) -> dict[str, Any]:
+    """CONTINGENT requires ≥1 citable indication-specific patent/application number.
+
+    Public-null or adjacent-only dockets cannot stay CONTINGENT — they flip to
+    WALK_AWAY (desk ownership status). Empty stubs are untouched.
+    Provisional hold: nct in PROVISIONAL_CONTINGENT_NCTS (currently empty).
+    """
+    if (record.get("confidence") or "empty_stub") == "empty_stub":
+        return record
+    if (record.get("desk_classification") or "") != "CONTINGENT":
+        return record
+    if is_provisional_contingent(record):
+        record.setdefault("modules", {}).setdefault("asset_ip_desk", {})["provisional_contingent"] = True
+        record.setdefault("notes", "")
+        if "provisional CONTINGENT" not in (record.get("notes") or ""):
+            record["notes"] = (
+                (record.get("notes") or "").rstrip()
+                + " Provisional CONTINGENT pending citable public patent number."
+            ).strip()
+        return record
+    if has_citable_patent_number(record):
+        return record
+
+    record["desk_classification"] = "WALK_AWAY"
+    record["shortlist_ownable"] = False
+    record["optionable_candidate"] = False
+    record.setdefault("ownership", {})["ownable"] = False
+    record["ownership"]["recommendation"] = "walk_away"
+    note = record["ownership"].get("note") or ""
+    record["ownership"]["note"] = (
+        f"{note} desk_classification=WALK_AWAY (CONTINGENT rejected: no citable "
+        "indication-specific patent/application number)."
+    ).strip()
+    kill = dict(record.get("kill") or {})
+    hard = list(dict.fromkeys([*(kill.get("hard") or []), "K_NO_IP_EMPTY_DOCKET", "K_VALUE_NOT_CAPTURED"]))
+    hard = [c for c in hard if c in HARD_KILL_CODES or str(c).startswith("K_")]
+    soft = list(kill.get("soft") or [])
+    if "S_PRIVATE_IP_ONLY" not in soft:
+        soft.append("S_PRIVATE_IP_ONLY")
+    kill["hard"] = hard
+    kill["soft"] = soft
+    kill["codes"] = list(dict.fromkeys([*hard, *soft, CONTINGENT_NEEDS_CITABLE_PATENT]))
+    kill["triggered"] = True
+    extra = (kill.get("notes") or "").strip()
+    kill["notes"] = (
+        f"{extra} {CONTINGENT_NEEDS_CITABLE_PATENT}: no citable public number; "
+        "cannot stay CONTINGENT."
+    ).strip()
+    record["kill"] = kill
+    record["commercial_gate"] = {
+        "verdict": "FAIL",
+        "reason_codes": list(
+            dict.fromkeys([*(((record.get("commercial_gate") or {}).get("reason_codes")) or []), CONTINGENT_NEEDS_CITABLE_PATENT, NOT_OPTIONABLE_CODE])
+        ),
+        "notes": "CONTINGENT requires a citable public patent/application number; flipped to WALK_AWAY.",
+    }
+    record["notes"] = (
+        f"{record.get('notes') or ''} desk_classification=WALK_AWAY; "
+        "CONTINGENT bar: no citable indication-specific patent number. "
+        "ownable=false; shortlist_ownable=false; optionable_candidate=false."
+    ).strip()
+    return record
 
 
 def named_intermezzo(study: dict[str, Any] | None, cfg: dict[str, Any] | None = None, extra: list[str] | None = None) -> bool:
@@ -389,6 +504,30 @@ def evaluate_pre_pass(
         md_status = "HOLD"
     shortlist_ownable = optionable and verdict == "PASS"
 
+    desk = str((rights or {}).get("desk_classification") or "").upper()
+    if desk == "CONTINGENT" and not is_provisional_contingent(rights) and not has_citable_patent_number(rights):
+        desk = "WALK_AWAY"
+        if CONTINGENT_NEEDS_CITABLE_PATENT not in codes:
+            codes.append(CONTINGENT_NEEDS_CITABLE_PATENT)
+    if desk in {"WALK_AWAY", "CONTINGENT", "NEEDS_COUNSEL"}:
+        optionable = False
+        shortlist_ownable = False
+        if desk == "WALK_AWAY":
+            if verdict == "PASS":
+                verdict = "FAIL"
+            if verdict not in {"FAIL", "HOLD"}:
+                verdict = "FAIL"
+            surface = "WALK_AWAY"
+        elif desk == "CONTINGENT":
+            if verdict == "PASS":
+                verdict = "HOLD"
+            surface = "CONTINGENT"
+        else:
+            surface = NOT_OPTIONABLE
+        md_status = "LIVE"
+        if NOT_OPTIONABLE_CODE not in codes:
+            codes.append(NOT_OPTIONABLE_CODE)
+
     return {
         "verdict": verdict,
         "optionable": optionable,
@@ -402,4 +541,5 @@ def evaluate_pre_pass(
         "rights_unknown": unknown,
         "missing_ownership_fill": missing_own,
         "empty_stub": empty,
+        "desk_classification": desk or None,
     }

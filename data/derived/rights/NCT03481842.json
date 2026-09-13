@@ -1,0 +1,165 @@
+{
+  "schema_version": "wave-1b.rights-stub.v1",
+  "nct_id": "NCT03481842",
+  "programme_id": "p_4f900da37005a857",
+  "confidence": "high",
+  "desk_classification": "WALK_AWAY",
+  "shortlist_ownable": false,
+  "optionable_candidate": false,
+  "identity": {
+    "nct_id": "NCT03481842",
+    "programme_id": "p_4f900da37005a857",
+    "eu_ct": null,
+    "eudract": null,
+    "asset_name": "BioGene ELTA (axitinib/afatinib/linifanib combo)",
+    "taxonomy": {
+      "indication": "Endometriosis",
+      "target": null,
+      "modality": "small_molecule",
+      "empty": false
+    },
+    "thesis_mismatch": false,
+    "thesis_mismatch_reason": null
+  },
+  "counterparty": {
+    "present": false,
+    "holder_name": "BioGene Pharmaceutical Ltd.",
+    "holder_status": "unknown",
+    "sponsor_entity": {
+      "name": "BioGene Pharmaceutical Ltd.",
+      "legal_name": null,
+      "resolution_status": "unknown",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "unstructured_registry"
+    }
+  },
+  "ind_regulatory": {
+    "ind_number": null,
+    "ind_holder": null,
+    "status": "unknown",
+    "pathway": "unknown",
+    "cmc": {
+      "api_source_identified": "unknown",
+      "formulation_described": "unknown",
+      "impurity_profile_available": "unknown",
+      "stability_data_available": "unknown",
+      "manufacturing_site_known": "unknown",
+      "spec_available": "unknown",
+      "ctd_module_3_available": "unknown",
+      "comparability_risk": "unknown",
+      "notes": "",
+      "confidence": "high"
+    },
+    "pathway_505b2": {
+      "pathway": "unknown",
+      "rld_ref": null,
+      "listed_drug_name": null,
+      "listed_drug_ref": null,
+      "exclusivity_windows": [],
+      "orange_book_url": null,
+      "orange_book_hook": "orange_book",
+      "confidence": "high"
+    }
+  },
+  "ip": {
+    "right_class": "unknown",
+    "assignment": {
+      "status": "gap",
+      "assignee": "BioGene Pharmaceutical Ltd.",
+      "chain_of_title": []
+    },
+    "patent_families": [],
+    "orange_book": {
+      "rld_ref": null,
+      "listed_drug_ref": null,
+      "exclusivity_windows": [],
+      "url": null,
+      "hook": "orange_book",
+      "confidence": "high"
+    },
+    "listed_drug_ref": null,
+    "docket_empty": true
+  },
+  "fto_lite": {
+    "status": "unknown",
+    "blocking_refs": [],
+    "note": "Patents none found. API COM axitinib/afatinib/linifanib originators. N=0 withdrawn.",
+    "confidence": "high"
+  },
+  "coi": {
+    "status": "unclear",
+    "flags": [],
+    "note": "Public-only desk. No outreach."
+  },
+  "ownership": {
+    "status": "resolved",
+    "holder": "BioGene Pharmaceutical Ltd.",
+    "ownable": false,
+    "confidence": "high",
+    "recommendation": "walk_away",
+    "note": "desk_classification=WALK_AWAY. Asset IP public-only close. Patents none found. API COM axitinib/afatinib/linifanib originators. N=0 withdrawn. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
+  },
+  "kill": {
+    "triggered": true,
+    "codes": [
+      "K_NO_COUNTERPARTY",
+      "K_NO_IP_EMPTY_DOCKET",
+      "K_COM_ELSEWHERE",
+      "K_VALUE_NOT_CAPTURED"
+    ],
+    "hard": [
+      "K_NO_COUNTERPARTY",
+      "K_NO_IP_EMPTY_DOCKET",
+      "K_COM_ELSEWHERE",
+      "K_VALUE_NOT_CAPTURED"
+    ],
+    "soft": [],
+    "notes": "Patents none found. API COM axitinib/afatinib/linifanib originators. N=0 withdrawn."
+  },
+  "process": {
+    "outreach": "none",
+    "updated_by": "asset_ip",
+    "updated_at": "2026-09-13",
+    "note": "updated_by asset_ip 2026-09-13"
+  },
+  "commercial_shape": {
+    "sex_dose_differentiation": null,
+    "sex_diff_labeling": null,
+    "generic_available": null,
+    "pricing_power": "none"
+  },
+  "commercial_gate": {
+    "verdict": "FAIL",
+    "reason_codes": [
+      "K_NO_COUNTERPARTY",
+      "K_NO_IP_EMPTY_DOCKET",
+      "K_COM_ELSEWHERE",
+      "K_VALUE_NOT_CAPTURED",
+      "NOT_OPTIONABLE"
+    ],
+    "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. Basel entity not found public; no counterparty"
+  },
+  "modules": {
+    "asset_ip_desk": {
+      "module": "asset_ip_desk",
+      "status": "filled",
+      "confidence": "high",
+      "desk_classification": "WALK_AWAY",
+      "updated_by": "asset_ip",
+      "updated_at": "2026-09-13",
+      "blind_md": "LIVE",
+      "next_diligence_step": "None — closed",
+      "optionable_candidate": false,
+      "public_patent_null": true,
+      "adjacent_only": false,
+      "provisional_contingent": false,
+      "locked_prior": true,
+      "who_can_grant_rights": "Basel entity not found public; no counterparty",
+      "source": "asset_ip_public_only"
+    }
+  },
+  "updated_at": "2026-09-13T06:00:39Z",
+  "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. Patents none found. API COM axitinib/afatinib/linifanib originators. N=0 withdrawn. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
+}

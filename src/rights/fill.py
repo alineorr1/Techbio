@@ -79,9 +79,22 @@ def fill_rights(
         _merge_module(record, section)
     ip = record.get("ip") or {}
     filled = bool(ip.get("patent_families") or ip.get("listed_drug_ref"))
-    if not filled:
+    desk_filled = bool(record.get("desk_classification") or (record.get("modules") or {}).get("asset_ip_desk"))
+    if desk_filled:
+        record.setdefault("ownership", {})["ownable"] = False
+        record["shortlist_ownable"] = False
+        record["optionable_candidate"] = False
+        record.setdefault("process", {})["outreach"] = "none"
+        if record.get("commercial_gate", {}).get("verdict") == "PASS":
+            record["commercial_gate"]["verdict"] = (
+                "FAIL" if record.get("desk_classification") == "WALK_AWAY" else "HOLD"
+            )
+    elif not filled:
         record["confidence"] = "empty_stub"
         record.setdefault("ownership", {})["ownable"] = False
+        record["desk_classification"] = None
+        record["shortlist_ownable"] = False
+        record["optionable_candidate"] = False
         gate = record.setdefault("commercial_gate", {})
         if gate.get("verdict") == "PASS":
             gate["verdict"] = "empty_stub"
@@ -105,7 +118,18 @@ def main(argv: list[str] | None = None) -> None:
         action="store_true",
         help="Attempt live fill. Raises NotConfigured without keys; live clients are not wired.",
     )
+    parser.add_argument(
+        "--writeback",
+        action="store_true",
+        help="Write Asset IP public-only desk fills (no network / unpaid).",
+    )
+    parser.add_argument("--patch-snapshot", action="store_true")
     args = parser.parse_args(argv)
+    if args.writeback:
+        from src.rights.writeback import main as writeback_main
+
+        writeback_main(["--patch-snapshot"] if args.patch_snapshot else [])
+        return
     ids = args.programme_ids or []
     if not ids:
         print("[rights] no programme_id; nothing to fill")

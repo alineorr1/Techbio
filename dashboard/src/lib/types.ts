@@ -132,6 +132,7 @@ export type Asset = {
   optionable?: boolean;
   shortlist_ownable?: boolean;
   gate_surface?: string;
+  desk_classification?: string;
   walk_away_codes?: string[];
   enrichment: {
     open_targets: Record<string, unknown>;
@@ -187,5 +188,12 @@ export type Snapshot = {
     note?: string;
   };
   feedback: Array<Record<string, unknown>>;
-  counts: { n_assets: number; n_raw: number };
+  counts: {
+    n_assets: number;
+    n_raw: number;
+    n_optionable_candidate?: number;
+    n_shortlist_ownable?: number;
+    n_desk_walk_away?: number;
+    n_desk_contingent?: number;
+  };
 };

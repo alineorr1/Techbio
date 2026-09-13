@@ -180,6 +180,7 @@ def build_asset(nct: str) -> dict[str, Any] | None:
         "optionable": bool(pre_pass.get("optionable")),
         "shortlist_ownable": bool(pre_pass.get("shortlist_ownable")),
         "gate_surface": pre_pass.get("surface") or NOT_OPTIONABLE,
+        "desk_classification": rights.get("desk_classification") if isinstance(rights, dict) else None,
         "walk_away_codes": list(pre_pass.get("walk_away_codes") or walk_codes),
         "cmc": cmc_of(rights) if isinstance(rights, dict) else cmc_of({}),
         "pathway_505b2": pathway_505b2_of(rights) if isinstance(rights, dict) else pathway_505b2_of({}),
@@ -327,7 +328,14 @@ def export_snapshot(*, dest: Path | None = None) -> Path:
         "landscape": landscape(assets),
         "weekly": weekly_changes(assets, prev),
         "feedback": load_feedback(),
-        "counts": {"n_assets": len(assets), "n_raw": len(list(RAW_CTG_DIR.glob("*.json")))},
+        "counts": {
+            "n_assets": len(assets),
+            "n_raw": len(list(RAW_CTG_DIR.glob("*.json"))),
+            "n_optionable_candidate": sum(1 for a in assets if a.get("optionable") or a.get("shortlist_ownable")),
+            "n_shortlist_ownable": sum(1 for a in assets if a.get("shortlist_ownable")),
+            "n_desk_walk_away": sum(1 for a in assets if (a.get("desk_classification") or (a.get("rights") or {}).get("desk_classification")) == "WALK_AWAY"),
+            "n_desk_contingent": sum(1 for a in assets if (a.get("desk_classification") or (a.get("rights") or {}).get("desk_classification")) == "CONTINGENT"),
+        },
     }
     out = dest or (SNAPSHOT_DIR / f"snapshot_{snap_id}.json")
     dump_json(out, payload)

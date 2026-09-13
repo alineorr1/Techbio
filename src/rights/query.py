@@ -45,6 +45,14 @@ def ownability_query(record: dict[str, Any] | None) -> dict[str, Any]:
         codes.append(MISSING_OWNERSHIP_FILL)
     if not ownable and NOT_OPTIONABLE_CODE not in codes:
         codes.append(NOT_OPTIONABLE_CODE)
+    desk = rec.get("desk_classification")
+    if desk in {"WALK_AWAY", "CONTINGENT", "NEEDS_COUNSEL"}:
+        ownable = False
+        surface = desk if desk in {"WALK_AWAY", "CONTINGENT"} else NOT_OPTIONABLE
+        md_status = "LIVE"
+    else:
+        surface = NOT_OPTIONABLE if not ownable else "PASS"
+        md_status = "HOLD" if not ownable else "PASS"
     return {
         "schema_version": rec.get("schema_version"),
         "nct_id": rec.get("nct_id") or identity.get("nct_id"),
@@ -55,13 +63,14 @@ def ownability_query(record: dict[str, Any] | None) -> dict[str, Any]:
         "hard_codes": list(kill.get("hard") or []),
         "soft_codes": list(kill.get("soft") or []),
         "ownership_ownable": ownable,
-        "optionable": ownable,
-        "shortlist_ownable": ownable,
-        "surface": NOT_OPTIONABLE if not ownable else "PASS",
-        "md_status": "HOLD" if not ownable else "PASS",
+        "optionable": False if not ownable else ownable,
+        "shortlist_ownable": False if not ownable else ownable,
+        "surface": surface,
+        "md_status": md_status,
         "confidence": confidence,
         "rights_unknown": unknown,
         "missing_ownership_fill": missing_own,
+        "desk_classification": desk,
         "decision_required": decision,
     }
 

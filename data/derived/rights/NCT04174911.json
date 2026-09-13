@@ -1,0 +1,194 @@
+{
+  "schema_version": "wave-1b.rights-stub.v1",
+  "nct_id": "NCT04174911",
+  "programme_id": "p_1d6546b07307da4e",
+  "confidence": "medium",
+  "desk_classification": "WALK_AWAY",
+  "shortlist_ownable": false,
+  "optionable_candidate": false,
+  "identity": {
+    "nct_id": "NCT04174911",
+    "programme_id": "p_1d6546b07307da4e",
+    "eu_ct": null,
+    "eudract": null,
+    "asset_name": "BOL-DP-o-08",
+    "taxonomy": {
+      "indication": "Endometriosis",
+      "target": null,
+      "modality": "other",
+      "empty": false
+    },
+    "thesis_mismatch": false,
+    "thesis_mismatch_reason": null
+  },
+  "counterparty": {
+    "present": true,
+    "holder_name": "Breath of Life International Pharma Ltd",
+    "holder_status": "resolved",
+    "sponsor_entity": {
+      "name": "Breath of Life International Pharma Ltd",
+      "legal_name": null,
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "unstructured_registry"
+    }
+  },
+  "ind_regulatory": {
+    "ind_number": null,
+    "ind_holder": null,
+    "status": "unknown",
+    "pathway": "unknown",
+    "cmc": {
+      "api_source_identified": "unknown",
+      "formulation_described": "unknown",
+      "impurity_profile_available": "unknown",
+      "stability_data_available": "unknown",
+      "manufacturing_site_known": "unknown",
+      "spec_available": "unknown",
+      "ctd_module_3_available": "unknown",
+      "comparability_risk": "unknown",
+      "notes": "",
+      "confidence": "medium"
+    },
+    "pathway_505b2": {
+      "pathway": "unknown",
+      "rld_ref": null,
+      "listed_drug_name": null,
+      "listed_drug_ref": null,
+      "exclusivity_windows": [],
+      "orange_book_url": null,
+      "orange_book_hook": "orange_book",
+      "confidence": "medium"
+    }
+  },
+  "ip": {
+    "right_class": "unknown",
+    "assignment": {
+      "status": "gap",
+      "assignee": "Breath of Life International Pharma Ltd",
+      "chain_of_title": []
+    },
+    "patent_families": [
+      {
+        "family_id": null,
+        "jurisdiction": "AU",
+        "publication_numbers": [
+          "AU2024230822A1"
+        ],
+        "status": "unknown",
+        "title": "adjacent watchlist only — Kindeva pMDI adjacent"
+      },
+      {
+        "family_id": null,
+        "jurisdiction": "WO",
+        "publication_numbers": [
+          "WO2024182699"
+        ],
+        "status": "unknown",
+        "title": "adjacent watchlist only — Kindeva pMDI adjacent"
+      },
+      {
+        "family_id": null,
+        "jurisdiction": "WO",
+        "publication_numbers": [
+          "WO2017072762"
+        ],
+        "status": "unknown",
+        "title": "adjacent watchlist only — Yissum adjacent"
+      }
+    ],
+    "orange_book": {
+      "rld_ref": null,
+      "listed_drug_ref": null,
+      "exclusivity_windows": [],
+      "url": null,
+      "hook": "orange_book",
+      "confidence": "medium"
+    },
+    "listed_drug_ref": null,
+    "docket_empty": true
+  },
+  "fto_lite": {
+    "status": "unknown",
+    "blocking_refs": [],
+    "note": "WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT.",
+    "confidence": "medium"
+  },
+  "coi": {
+    "status": "unclear",
+    "flags": [],
+    "note": "Public-only desk. No outreach."
+  },
+  "ownership": {
+    "status": "resolved",
+    "holder": "Breath of Life International Pharma Ltd",
+    "ownable": false,
+    "confidence": "medium",
+    "recommendation": "walk_away",
+    "note": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
+  },
+  "kill": {
+    "triggered": true,
+    "codes": [
+      "K_NO_IP_EMPTY_DOCKET",
+      "K_VALUE_NOT_CAPTURED",
+      "S_PRIVATE_IP_ONLY",
+      "S_LICENSE_MAP_MISSING"
+    ],
+    "hard": [
+      "K_NO_IP_EMPTY_DOCKET",
+      "K_VALUE_NOT_CAPTURED"
+    ],
+    "soft": [
+      "S_PRIVATE_IP_ONLY",
+      "S_LICENSE_MAP_MISSING"
+    ],
+    "notes": "WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT."
+  },
+  "process": {
+    "outreach": "none",
+    "updated_by": "asset_ip",
+    "updated_at": "2026-09-13",
+    "note": "updated_by asset_ip 2026-09-13"
+  },
+  "commercial_shape": {
+    "sex_dose_differentiation": null,
+    "sex_diff_labeling": null,
+    "generic_available": null,
+    "pricing_power": "none"
+  },
+  "commercial_gate": {
+    "verdict": "FAIL",
+    "reason_codes": [
+      "K_NO_IP_EMPTY_DOCKET",
+      "K_VALUE_NOT_CAPTURED",
+      "S_PRIVATE_IP_ONLY",
+      "S_LICENSE_MAP_MISSING",
+      "NOT_OPTIONABLE"
+    ],
+    "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. BOL — no endometriosis-specific patent; Kindeva pMDI adjacent = watchlist only"
+  },
+  "modules": {
+    "asset_ip_desk": {
+      "module": "asset_ip_desk",
+      "status": "filled",
+      "confidence": "medium",
+      "desk_classification": "WALK_AWAY",
+      "updated_by": "asset_ip",
+      "updated_at": "2026-09-13",
+      "blind_md": "LIVE",
+      "next_diligence_step": "None — closed",
+      "optionable_candidate": false,
+      "public_patent_null": false,
+      "adjacent_only": true,
+      "provisional_contingent": false,
+      "locked_prior": true,
+      "who_can_grant_rights": "BOL — no endometriosis-specific patent; Kindeva pMDI adjacent = watchlist only",
+      "source": "asset_ip_public_only"
+    }
+  },
+  "updated_at": "2026-09-13T06:02:15Z",
+  "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
+}

@@ -29,6 +29,8 @@ REQUIRED_BLOCKS = (
 
 RightClass = Literal["option", "505(b)(2)", "method_of_use", "unknown"]
 RightsConfidence = Literal["empty_stub", "low", "medium", "high"]
+DeskClassification = Literal["WALK_AWAY", "CONTINGENT", "NEEDS_COUNSEL", "PASS"]
+OwnershipRecommendation = Literal["walk_away", "contingent", "hold", "needs_counsel", "unknown"]
 DeskBool = Literal["yes", "no", "unknown"]
 ResolutionStatus = Literal["unknown", "not_yet_fetched", "resolved"]
 GateVerdict = Literal["PASS", "FAIL", "HOLD", "empty_stub"]
@@ -203,6 +205,7 @@ class OwnershipBlock(BaseModel):
     holder: str | None = None
     ownable: bool = False
     confidence: RightsConfidence = "empty_stub"
+    recommendation: OwnershipRecommendation | None = None
     note: str = "Empty stub. Does not imply ownability."
 
 
@@ -216,6 +219,9 @@ class KillBlock(BaseModel):
 
 class ProcessBlock(BaseModel):
     outreach: Outreach = "none"
+    updated_by: str | None = None
+    updated_at: str | None = None
+    note: str | None = None
 
 
 class CommercialShape(BaseModel):
@@ -236,6 +242,9 @@ class RightsRecord(BaseModel):
     nct_id: str | None = None
     programme_id: str
     confidence: RightsConfidence = "empty_stub"
+    desk_classification: DeskClassification | None = None
+    shortlist_ownable: bool = False
+    optionable_candidate: bool = False
     identity: IdentityBlock
     counterparty: CounterpartyBlock = Field(default_factory=CounterpartyBlock)
     ind_regulatory: IndRegulatoryBlock = Field(default_factory=IndRegulatoryBlock)
@@ -256,10 +265,20 @@ class RightsRecord(BaseModel):
         if self.confidence == "empty_stub":
             self.ownership.ownable = False
             self.ownership.confidence = "empty_stub"
+            self.desk_classification = None
             if self.commercial_gate.verdict == "PASS":
                 self.commercial_gate.verdict = "empty_stub"
             if self.process.outreach != "none":
                 self.process.outreach = "none"
+        if self.desk_classification in {"WALK_AWAY", "CONTINGENT", "NEEDS_COUNSEL"}:
+            self.ownership.ownable = False
+            if self.commercial_gate.verdict == "PASS":
+                self.commercial_gate.verdict = "FAIL" if self.desk_classification == "WALK_AWAY" else "HOLD"
+        if self.process.outreach != "none":
+            self.process.outreach = "none"
+        # Empty / unfilled / killed / not-ownable is never optionable.
+        self.shortlist_ownable = False
+        self.optionable_candidate = False
         self.identity.programme_id = self.programme_id
         if self.nct_id:
             self.identity.nct_id = self.nct_id
@@ -312,9 +331,13 @@ def empty_rights(programme_id: str, nct_id: str | None = None, **overrides: Any)
         **(payload.get("ownership") or {}),
         "ownable": False,
         "confidence": "empty_stub",
+        "recommendation": None,
         "note": "Empty stub. Does not imply ownability.",
     }
     payload["confidence"] = "empty_stub"
+    payload["desk_classification"] = None
+    payload["shortlist_ownable"] = False
+    payload["optionable_candidate"] = False
     payload.setdefault("commercial_gate", {})
     if payload["commercial_gate"].get("verdict") == "PASS":
         payload["commercial_gate"]["verdict"] = "empty_stub"

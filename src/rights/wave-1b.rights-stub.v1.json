@@ -65,7 +65,18 @@
     "process": {
       "type": "object",
       "required": ["outreach"],
-      "properties": { "outreach": { "const": "none" } }
-    }
+      "properties": {
+        "outreach": { "const": "none" },
+        "updated_by": { "type": ["string", "null"] },
+        "updated_at": { "type": ["string", "null"] },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "desk_classification": {
+      "type": ["string", "null"],
+      "enum": ["WALK_AWAY", "CONTINGENT", "NEEDS_COUNSEL", "PASS", null]
+    },
+    "shortlist_ownable": { "type": "boolean" },
+    "optionable_candidate": { "type": "boolean" }
   }
 }
