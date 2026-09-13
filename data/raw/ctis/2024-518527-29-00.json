@@ -1,0 +1,108 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:20:11Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-518527-29-00",
+    "status": 200,
+    "cached": false
+  },
+  "native_id": "2024-518527-29-00",
+  "payload": {
+    "ctNumber": "2024-518527-29-00",
+    "ctPublicStatusCode": 8,
+    "startDateEU": "2022-05-24",
+    "endDateEU": "2026-02-27",
+    "decisionDate": "2024-11-14T11:58:43.308",
+    "publishDate": "2026-07-30T03:37:20.021396869",
+    "trialPhase": null,
+    "totalNumberEnrolled": null,
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": "2021-003177-58",
+        "isTransitioned": true
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "A Phase II, randomised, multi-centric, multi-national clinical trial to evaluate the efficacy, tolerability, and safety of a fixed dose combination of Spironolactone, Pioglitazone & Metformin (SPIOMET) for adolescent girls and young adult women (AYAs) with polycystic ovary syndrome (PCOS).",
+            "publicTitle": "A Phase II, randomised, multi-centric, multi-national clinical trial to evaluate the efficacy, tolerability, and safety of a fixed dose combination of Spironolactone, Pioglitazone & Metformin (SPIOMET) for adolescent girls and young adult women (AYAs) with polycystic ovary syndrome (PCOS).",
+            "shortTitle": "SPIOMET4HEALTH",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": {
+                "number": "NCT05394142"
+              },
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Polycystic ovary syndrome (PCOS)",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Polycystic ovary syndrome (PCOS)",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "SPIO"
+          },
+          {
+            "productName": "SPIOMET"
+          },
+          {
+            "productName": "PIO"
+          }
+        ],
+        "sponsors": []
+      }
+    }
+  },
+  "public_status": {
+    "code": 8,
+    "field": "ctPublicStatusCode",
+    "label": "Ended",
+    "universe": "include",
+    "mapped_status": "COMPLETED_OR_TERMINATED",
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "pcos",
+    "search_terms": [
+      "polycystic ovary syndrome",
+      "PCOS"
+    ],
+    "secondary_only_match": false
+  },
+  "search_row": {
+    "ctNumber": "2024-518527-29-00",
+    "ctStatus": 8,
+    "ctTitle": "A Phase II, randomised, multi-centric, multi-national clinical trial to evaluate the efficacy, tolerability, and safety of a fixed dose combination of Spironolactone, Pioglitazone & Metformin (SPIOMET) for adolescent girls and young adult women (AYAs) with polycystic ovary syndrome (PCOS).",
+    "shortTitle": "SPIOMET4HEALTH",
+    "conditions": "Polycystic ovary syndrome (PCOS)",
+    "trialPhase": "Therapeutic exploratory (Phase II)",
+    "sponsor": "Fundacio Sant Joan De Deu",
+    "sponsorType": "Patient organisation/association",
+    "product": "SPIO, SPIOMET, The current SPIOMET, SPIO, PIO and Placebo formulation was defined based on the compatibility study for SPIOMET carried out by Kern Pharma (see section 2.1.P.2.2.1 of IMPD).\nSPIO, PIO and Placebo formulations are considered compatible. As they have the same qualitative composition as SPIOMET, the compatibility and stability can be extrapolated from SPIOMET., PIO",
+    "gender": "Female",
+    "ageGroup": "0-17 years, 18-64 years",
+    "totalNumberEnrolled": "316",
+    "primaryEndPoint": "On-treatment and post-treatment ovulation rate.",
+    "resultsFirstReceived": "No",
+    "startDateEU": "24/05/2022",
+    "endDateEU": "27/02/2026",
+    "decisionDateOverall": "14/11/2024",
+    "therapeuticAreas": [
+      "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+    ]
+  }
+}

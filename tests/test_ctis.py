@@ -15,6 +15,7 @@ from src.ingest.ctis import (
     CtisClient,
     build_parser,
     condition_text_from_retrieve,
+    indication_search_budgets,
     is_secondary_only_match,
     lookup_public_status_code,
     make_raw_envelope,
@@ -22,7 +23,10 @@ from src.ingest.ctis import (
     public_status_from_search,
     resolve_indication,
     run_async,
+    sanitize_retrieve_payload,
+    search_row_is_shelved,
     search_term_plan,
+    should_retrieve_search_row,
 )
 from src.paths import CTIS_STATUS_MAP_PATH, ROOT
 
@@ -99,6 +103,17 @@ def test_cli_parses_condition_and_max():
     args = build_parser().parse_args(["--condition", "endometriosis", "--max", "50"])
     assert args.condition == "endometriosis"
     assert args.max_records == 50
+
+
+def test_cli_parses_shelved_expand_flags():
+    args = build_parser().parse_args(
+        ["--max", "400", "--universe", "shelved", "--skip-unpaired", "--overwrite"]
+    )
+    assert args.max_records == 400
+    assert args.universe == "shelved"
+    assert args.skip_unpaired is True
+    assert args.overwrite is True
+    assert args.no_sanitize is False
 
 
 def test_envelope_contract_from_live_smoke_fixture():
@@ -275,6 +290,228 @@ def test_run_async_writes_envelopes_offline(tmp_path):
     assert envelope["schema_version"] == "wave1.raw.v1"
     assert envelope["payload"]["ctPublicStatusCode"] == 3
     assert envelope["public_status"]["field"] == "ctPublicStatusCode"
+    assert "email" not in json.dumps(envelope["payload"])
     assert list(identity_dir.glob("p_*.json"))
     assert all("/search" in url for url, _ in http.posts)
     assert all("/retrieve/" in url for url in http.gets)
+
+
+def test_search_row_universe_filter():
+    ended = {"ctNumber": "2024-000008-00-00", "ctStatus": 8}
+    halted = {"ctNumber": "2024-000006-00-00", "ctStatus": 6}
+    recruiting = {"ctNumber": "2024-000003-00-00", "ctStatus": 3}
+    pending = {"ctNumber": "2024-000002-00-00", "ctStatus": 2}
+    assert search_row_is_shelved(ended)
+    assert search_row_is_shelved(halted)
+    assert not search_row_is_shelved(recruiting)
+    assert not search_row_is_shelved(pending)
+    assert should_retrieve_search_row(ended, "shelved")
+    assert not should_retrieve_search_row(recruiting, "shelved")
+    assert should_retrieve_search_row(recruiting, "all")
+
+
+def test_sanitize_retrieve_strips_contacts_and_keeps_status():
+    dirty = {
+        "ctNumber": "2024-000008-00-00",
+        "ctStatus": "Ended",
+        "ctPublicStatusCode": 8,
+        "authorizedApplication": {
+            "eudraCt": {"eudraCtCode": "2019-000000-00", "isTransitioned": True},
+            "authorizedPartI": {
+                "trialDetails": {
+                    "clinicalTrialIdentifiers": {
+                        "fullTitle": "Letrozole for endometriosis",
+                        "publicTitle": "Letrozole ENDO",
+                        "shortTitle": "LET-ENDO",
+                        "secondaryIdentifyingNumbers": {
+                            "nctNumber": {"number": "NCT01234567", "id": 1},
+                            "additionalRegistries": [],
+                        },
+                    },
+                    "trialInformation": {
+                        "medicalCondition": {
+                            "partIMedicalConditions": [
+                                {"medicalCondition": "Endometriosis", "isConditionRareDisease": False}
+                            ]
+                        }
+                    },
+                },
+                "medicalConditions": [
+                    {"medicalCondition": "Endometriosis", "isConditionRareDisease": False}
+                ],
+                "products": [{"productName": "Letrozole 2.5 mg"}],
+                "sponsors": [
+                    {
+                        "sponsorName": "Example Pharma",
+                        "email": "secret@example.com",
+                        "telephone": "+1-555-0100",
+                    }
+                ],
+                "contacts": [{"email": "pi@example.com", "firstName": "Jane", "lastName": "Doe"}],
+            },
+            "authorizedPartsII": {
+                "sites": [{"investigator": "Jane Doe", "email": "jane@hospital.eu"}]
+            },
+        },
+        "events": [{"description": "SAE"}],
+        "documents": [{"fileName": "csr.pdf"}],
+    }
+    clean = sanitize_retrieve_payload(dirty)
+    blob = json.dumps(clean)
+    assert "secret@example.com" not in blob
+    assert "jane@hospital.eu" not in blob
+    assert "Jane Doe" not in blob
+    assert "authorizedPartsII" not in blob
+    assert "events" not in blob
+    assert "documents" not in blob
+    assert "ctStatus" not in clean
+    assert clean["ctPublicStatusCode"] == 8
+    assert clean["authorizedApplication"]["authorizedPartI"]["products"] == [
+        {"productName": "Letrozole 2.5 mg"}
+    ]
+    long_impd = {
+        "ctNumber": "2024-000008-00-00",
+        "ctPublicStatusCode": 8,
+        "authorizedApplication": {
+            "authorizedPartI": {
+                "products": [
+                    {"productName": "SPIOMET"},
+                    {"productName": "X" * 200},
+                    {"productName": "SPIOMET"},
+                ]
+            }
+        },
+    }
+    assert sanitize_retrieve_payload(long_impd)["authorizedApplication"]["authorizedPartI"][
+        "products"
+    ] == [{"productName": "SPIOMET"}]
+    assert clean["authorizedApplication"]["authorizedPartI"]["trialDetails"][
+        "clinicalTrialIdentifiers"
+    ]["secondaryIdentifyingNumbers"]["nctNumber"]["number"] == "NCT01234567"
+
+
+def test_run_async_retrieves_shelved_only(tmp_path):
+    search = {
+        "pagination": {
+            "totalRecords": 3,
+            "currentPage": 1,
+            "totalPages": 1,
+            "nextPage": False,
+            "prevPage": False,
+        },
+        "data": [
+            {"ctNumber": "2024-000003-00-00", "ctStatus": 3, "ctTitle": "Recruiting endo"},
+            {"ctNumber": "2024-000008-00-00", "ctStatus": 8, "ctTitle": "Ended endo", "product": "Letrozole"},
+            {"ctNumber": "2024-000002-00-00", "ctStatus": 2, "ctTitle": "Pending endo"},
+        ],
+    }
+    retrieve = {
+        "2024-000008-00-00": {
+            "ctNumber": "2024-000008-00-00",
+            "ctPublicStatusCode": 8,
+            "authorizedApplication": {
+                "authorizedPartI": {
+                    "trialDetails": {
+                        "clinicalTrialIdentifiers": {
+                            "fullTitle": "Ended letrozole",
+                            "publicTitle": "Ended letrozole",
+                            "secondaryIdentifyingNumbers": {"nctNumber": None},
+                        },
+                        "trialInformation": {
+                            "medicalCondition": {
+                                "partIMedicalConditions": [{"medicalCondition": "Endometriosis"}]
+                            }
+                        },
+                    },
+                    "medicalConditions": [{"medicalCondition": "Endometriosis"}],
+                    "products": [{"productName": "Letrozole"}],
+                }
+            },
+        }
+    }
+    http = FakeHttp({"endometriosis": search}, retrieve)
+    raw_dir = tmp_path / "raw"
+    summary = asyncio.run(
+        run_async(
+            condition="endometriosis",
+            max_records=10,
+            page_size=10,
+            universe="shelved",
+            sanitize=True,
+            skip_existing=True,
+            raw_dir=raw_dir,
+            search_dir=tmp_path / "search",
+            identity_dir=tmp_path / "identity",
+            http=http,
+            cfg={
+                "indications": {
+                    "endometriosis": {"label": "Endometriosis", "synonyms": ["endometriosis"]}
+                }
+            },
+        )
+    )
+    assert summary["search_hits"] == 3
+    assert summary["skipped_universe"] == 2
+    assert summary["retrieved"] == 1
+    assert (raw_dir / "2024-000008-00-00.json").exists()
+    assert not (raw_dir / "2024-000003-00-00.json").exists()
+    assert http.gets == [
+        "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-000008-00-00"
+    ]
+
+
+def test_skip_existing_does_not_overwrite(tmp_path):
+    search = {
+        "pagination": {
+            "totalRecords": 1,
+            "currentPage": 1,
+            "totalPages": 1,
+            "nextPage": False,
+            "prevPage": False,
+        },
+        "data": [{"ctNumber": "2024-000008-00-00", "ctStatus": 8}],
+    }
+    http = FakeHttp({"endometriosis": search}, {"2024-000008-00-00": {"ctNumber": "2024-000008-00-00", "ctPublicStatusCode": 8}})
+    raw_dir = tmp_path / "raw"
+    raw_dir.mkdir()
+    existing = raw_dir / "2024-000008-00-00.json"
+    existing.write_text('{"native_id": "2024-000008-00-00", "keep": true}', encoding="utf-8")
+    summary = asyncio.run(
+        run_async(
+            condition="endometriosis",
+            max_records=5,
+            universe="shelved",
+            skip_existing=True,
+            raw_dir=raw_dir,
+            search_dir=tmp_path / "search",
+            identity_dir=tmp_path / "identity",
+            http=http,
+            cfg={
+                "indications": {
+                    "endometriosis": {"label": "Endometriosis", "synonyms": ["endometriosis"]}
+                }
+            },
+        )
+    )
+    assert summary["skipped_existing"] == 1
+    assert summary["retrieved"] == 0
+    assert json.loads(existing.read_text())["keep"] is True
+    assert not http.gets
+
+
+def test_search_term_plan_skips_unpaired_hyperandrogenism():
+    plan = search_term_plan("pcos", skip_unpaired=True)
+    terms = [term for _, term, _ in plan]
+    assert "PCOS" in terms
+    assert "hyperandrogenism" not in terms
+    full = search_term_plan("pcos", skip_unpaired=False)
+    assert "hyperandrogenism" in [term for _, term, _ in full]
+
+
+def test_indication_budgets_split_endo_and_pcos():
+    plan = [
+        ("endometriosis", "endometriosis", ["endometriosis"]),
+        ("pcos", "PCOS", ["PCOS"]),
+    ]
+    budgets = indication_search_budgets(plan, 400)
+    assert budgets == {"endometriosis": 200, "pcos": 200}

@@ -1,6 +1,7 @@
 """CTIS public-API ingest (Wave-1, feature-flagged).
 
 Opt-in only: ``python -m src.ingest.ctis --condition endometriosis --max 50``.
+Shelved expand: ``python -m src.ingest.ctis --max 400 --universe shelved``.
 Do not import this module from ``src.pipeline`` or the weekly cron.
 
 Search is POST /search only (GET returns 403). Retrieve is GET /retrieve/{ctNumber}.
@@ -51,6 +52,53 @@ SOURCE = "ctis"
 
 # GET /search is rejected by the portal; never call it.
 SEARCH_GET_RETURNS = 403
+
+SHELVED_UNIVERSES = frozenset({"include", "include_review"})
+UNIVERSE_MODES = frozenset({"all", "shelved"})
+# Search-row fields that are public trial metadata (no contacts / sites).
+SEARCH_ROW_KEEP = (
+    "ctNumber",
+    "ctStatus",
+    "ctTitle",
+    "shortTitle",
+    "conditions",
+    "trialPhase",
+    "sponsor",
+    "sponsorType",
+    "product",
+    "gender",
+    "ageGroup",
+    "totalNumberEnrolled",
+    "primaryEndPoint",
+    "resultsFirstReceived",
+    "startDateEU",
+    "endDateEU",
+    "decisionDateOverall",
+    "therapeuticAreas",
+)
+_PRODUCT_NAME_KEYS = (
+    "productName",
+    "inventedName",
+    "tradeName",
+    "substanceName",
+    "activeSubstance",
+)
+_PII_KEY_FRAGMENTS = (
+    "email",
+    "phone",
+    "telephone",
+    "fax",
+    "address",
+    "street",
+    "postal",
+    "zipcode",
+    "contact",
+    "investigator",
+    "firstname",
+    "lastname",
+    "fullname",
+    "orcid",
+)
 
 
 def feature_enabled(env: dict[str, str] | None = None) -> bool:
@@ -111,6 +159,186 @@ def public_status_from_search(row: dict[str, Any]) -> dict[str, Any]:
     return lookup_public_status_code(code, field="search.ctStatus")
 
 
+def in_shelved_universe(status: dict[str, Any]) -> bool:
+    return (not status.get("unmapped")) and status.get("universe") in SHELVED_UNIVERSES
+
+
+def search_row_is_shelved(row: dict[str, Any]) -> bool:
+    """True when search.ctStatus maps to include / include_review."""
+    return in_shelved_universe(public_status_from_search(row))
+
+
+def should_retrieve_search_row(row: dict[str, Any], universe: str) -> bool:
+    if universe == "all":
+        return True
+    if universe == "shelved":
+        return search_row_is_shelved(row)
+    raise ValueError(f"unknown universe mode: {universe}")
+
+
+def sanitize_search_row(row: dict[str, Any]) -> dict[str, Any]:
+    """Keep public trial metadata only. Drop contacts / sites / country lists."""
+    return {key: row[key] for key in SEARCH_ROW_KEEP if key in row and row[key] not in (None, "")}
+
+
+def _looks_like_pii_key(key: str) -> bool:
+    lowered = key.lower().replace("_", "")
+    return any(frag in lowered for frag in _PII_KEY_FRAGMENTS)
+
+
+def _collect_named_products(node: Any, found: list[str] | None = None) -> list[str]:
+    out = found if found is not None else []
+    if isinstance(node, dict):
+        for key, val in node.items():
+            if _looks_like_pii_key(str(key)):
+                continue
+            if key in _PRODUCT_NAME_KEYS and isinstance(val, str) and val.strip():
+                out.append(val.strip())
+            else:
+                _collect_named_products(val, out)
+    elif isinstance(node, list):
+        for item in node:
+            _collect_named_products(item, out)
+    return out
+
+
+def _condition_items(items: Any) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    if not isinstance(items, list):
+        return out
+    seen: set[str] = set()
+    for item in items:
+        if not isinstance(item, dict) or not item.get("medicalCondition"):
+            continue
+        label = str(item["medicalCondition"])
+        key = label.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(
+            {
+                "medicalCondition": label,
+                "isConditionRareDisease": bool(item.get("isConditionRareDisease")),
+            }
+        )
+    return out
+
+
+def _sponsor_items(payload: dict[str, Any]) -> list[dict[str, str]]:
+    part_i = nested(payload, "authorizedApplication", "authorizedPartI") or {}
+    names: list[str] = []
+    for item in part_i.get("sponsors") or []:
+        if isinstance(item, dict):
+            for key in ("sponsorName", "organisationName", "commercialName", "legalName"):
+                if item.get(key):
+                    names.append(str(item[key]))
+                    break
+    seen: set[str] = set()
+    out: list[dict[str, str]] = []
+    for name in names:
+        key = name.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"sponsorName": name})
+    return out
+
+
+def sanitize_retrieve_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    """Strip contacts, sites, investigators, events, documents. Keep identity + status."""
+    part_i = nested(payload, "authorizedApplication", "authorizedPartI") or {}
+    ident = (
+        nested(
+            part_i,
+            "trialDetails",
+            "clinicalTrialIdentifiers",
+        )
+        or {}
+    )
+    secondary = ident.get("secondaryIdentifyingNumbers") or {}
+    nct_obj = secondary.get("nctNumber")
+    nct_out: dict[str, Any] | None
+    if isinstance(nct_obj, dict) and nct_obj.get("number"):
+        nct_out = {"number": nct_obj.get("number")}
+    elif isinstance(nct_obj, str) and nct_obj.strip():
+        nct_out = {"number": nct_obj.strip()}
+    else:
+        nct_out = None
+
+    additional: list[dict[str, Any]] = []
+    extra = secondary.get("additionalRegistries") or []
+    if isinstance(extra, dict):
+        extra = [extra]
+    for item in extra:
+        if not isinstance(item, dict):
+            continue
+        kept = {
+            key: item[key]
+            for key in ("number", "registry", "name", "type", "label")
+            if item.get(key)
+        }
+        if kept:
+            additional.append(kept)
+
+    conditions = _condition_items(part_i.get("medicalConditions"))
+    if not conditions:
+        conditions = _condition_items(
+            nested(
+                part_i,
+                "trialDetails",
+                "trialInformation",
+                "medicalCondition",
+                "partIMedicalConditions",
+            )
+        )
+    products: list[dict[str, str]] = []
+    seen_products: set[str] = set()
+    for name in _collect_named_products(part_i):
+        if len(name) > 120:
+            continue
+        key = name.lower()
+        if key in seen_products:
+            continue
+        seen_products.add(key)
+        products.append({"productName": name})
+    eudra = nested(payload, "authorizedApplication", "eudraCt") or {}
+    return {
+        "ctNumber": payload.get("ctNumber"),
+        "ctPublicStatusCode": payload.get("ctPublicStatusCode"),
+        "startDateEU": payload.get("startDateEU"),
+        "endDateEU": payload.get("endDateEU"),
+        "decisionDate": payload.get("decisionDate"),
+        "publishDate": payload.get("publishDate"),
+        "trialPhase": payload.get("trialPhase"),
+        "totalNumberEnrolled": payload.get("totalNumberEnrolled"),
+        "authorizedApplication": {
+            "eudraCt": {
+                "eudraCtCode": eudra.get("eudraCtCode"),
+                "isTransitioned": eudra.get("isTransitioned"),
+            },
+            "authorizedPartI": {
+                "trialDetails": {
+                    "clinicalTrialIdentifiers": {
+                        "fullTitle": ident.get("fullTitle"),
+                        "publicTitle": ident.get("publicTitle"),
+                        "shortTitle": ident.get("shortTitle"),
+                        "secondaryIdentifyingNumbers": {
+                            "nctNumber": nct_out,
+                            "additionalRegistries": additional,
+                        },
+                    },
+                    "trialInformation": {
+                        "medicalCondition": {"partIMedicalConditions": conditions}
+                    },
+                },
+                "medicalConditions": conditions,
+                "products": products,
+                "sponsors": _sponsor_items(payload),
+            },
+        },
+    }
+
+
 def make_raw_envelope(
     *,
     url: str,
@@ -120,6 +348,7 @@ def make_raw_envelope(
     payload: dict[str, Any],
     fetched_at: str | None = None,
     match: dict[str, Any] | None = None,
+    search_row: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     envelope: dict[str, Any] = {
         "schema_version": RAW_SCHEMA_VERSION,
@@ -132,6 +361,8 @@ def make_raw_envelope(
     }
     if match is not None:
         envelope["match"] = match
+    if search_row is not None:
+        envelope["search_row"] = search_row
     return envelope
 
 
@@ -201,21 +432,50 @@ def resolve_indication(condition: str, cfg: dict[str, Any] | None = None) -> tup
     return condition.strip(), [condition.strip()]
 
 
+def unpaired_synonyms(entry: dict[str, Any]) -> set[str]:
+    """Synonyms that require a paired term (CTG Essie only — skip for CTIS search)."""
+    required = entry.get("require_paired_terms") or {}
+    return {str(term) for term in required}
+
+
 def search_term_plan(
     condition: str | None,
     cfg: dict[str, Any] | None = None,
+    *,
+    skip_unpaired: bool = False,
 ) -> list[tuple[str, str, list[str]]]:
     """Yield (indication_key, search_term, synonyms) from existing indications.yaml only."""
     entries = indication_entries(cfg)
     if condition:
         key, synonyms = resolve_indication(condition, cfg)
-        return [(key, term, synonyms) for term in synonyms]
+        skip = unpaired_synonyms(entries.get(key) or {}) if skip_unpaired else set()
+        return [(key, term, synonyms) for term in synonyms if term not in skip]
     plan: list[tuple[str, str, list[str]]] = []
     for key, entry in entries.items():
         synonyms = [str(s) for s in (entry.get("synonyms") or [])] or [key]
+        skip = unpaired_synonyms(entry) if skip_unpaired else set()
         for term in synonyms:
+            if term in skip:
+                continue
             plan.append((key, term, synonyms))
     return plan
+
+
+def indication_search_budgets(
+    plan: list[tuple[str, str, list[str]]],
+    max_records: int,
+) -> dict[str, int]:
+    """Split the unique-hit cap across indication keys so PCOS is not starved."""
+    keys: list[str] = []
+    for key, _, _ in plan:
+        if key not in keys:
+            keys.append(key)
+    if not keys:
+        return {}
+    if len(keys) == 1:
+        return {keys[0]: max_records}
+    base, extra = divmod(max_records, len(keys))
+    return {key: base + (1 if i < extra else 0) for i, key in enumerate(keys)}
 
 
 def is_secondary_only_match(
@@ -305,6 +565,10 @@ async def run_async(
     max_records: int = 50,
     page_size: int = 100,
     write_identity: bool = True,
+    universe: str = "all",
+    sanitize: bool = True,
+    skip_existing: bool = True,
+    skip_unpaired: bool = False,
     raw_dir: Path | None = None,
     search_dir: Path | None = None,
     identity_dir: Path | None = None,
@@ -315,6 +579,8 @@ async def run_async(
         raise RuntimeError(f"CTIS ingest disabled ({FEATURE_ENV}=0). Feature-flagged; not in pipeline.")
     if WIRED_INTO_PIPELINE:
         raise RuntimeError("CTIS ingest must not be wired into src.pipeline")
+    if universe not in UNIVERSE_MODES:
+        raise ValueError(f"universe must be one of {sorted(UNIVERSE_MODES)}")
 
     ensure_dirs()
     raw_dir = raw_dir or RAW_CTIS_DIR
@@ -324,7 +590,8 @@ async def run_async(
     search_dir.mkdir(parents=True, exist_ok=True)
 
     cfg = cfg or indications_config()
-    plan = search_term_plan(condition, cfg)
+    plan = search_term_plan(condition, cfg, skip_unpaired=skip_unpaired)
+    budgets = indication_search_budgets(plan, max_records)
     store = IdentityStore(identity_dir) if write_identity else None
 
     owns_http = http is None
@@ -332,43 +599,64 @@ async def run_async(
 
     searched_terms: list[str] = []
     hits_by_ct: dict[str, dict[str, Any]] = {}
+    new_hits_by_indication: dict[str, int] = {key: 0 for key in budgets}
     secondary_only = 0
     retrieved = 0
+    skipped_existing = 0
+    skipped_universe = 0
 
     async def _run(active_http: HttpClient) -> None:
-        nonlocal retrieved, secondary_only
+        nonlocal retrieved, secondary_only, skipped_existing, skipped_universe
         client = CtisClient(active_http)
-        remaining = max_records
         for indication_key, term, synonyms in plan:
-            if remaining is not None and remaining <= 0:
-                break
+            remaining_for_ind = budgets.get(indication_key, 0) - new_hits_by_indication.get(
+                indication_key, 0
+            )
+            if remaining_for_ind <= 0:
+                continue
             searched_terms.append(term)
             term_rows: list[dict[str, Any]] = []
-            async for row in client.iter_search(term, page_size=page_size, max_records=remaining):
+            async for row in client.iter_search(
+                term, page_size=page_size, max_records=remaining_for_ind
+            ):
                 ct_number = row.get("ctNumber")
                 if not ct_number:
                     continue
-                term_rows.append({k: v for k, v in row.items() if k != "_http"})
-                bucket = hits_by_ct.setdefault(
-                    ct_number,
-                    {
-                        "ct_number": ct_number,
-                        "indication_key": indication_key,
-                        "synonyms": synonyms,
-                        "hitting_terms": [],
-                        "search_row": row,
-                    },
-                )
-                if term not in bucket["hitting_terms"]:
-                    bucket["hitting_terms"].append(term)
+                clean_row = sanitize_search_row({k: v for k, v in row.items() if k != "_http"})
+                if "ctStatus" in row and "ctStatus" not in clean_row:
+                    clean_row["ctStatus"] = row["ctStatus"]
+                term_rows.append(clean_row)
+                if ct_number in hits_by_ct:
+                    if term not in hits_by_ct[ct_number]["hitting_terms"]:
+                        hits_by_ct[ct_number]["hitting_terms"].append(term)
+                    continue
+                hits_by_ct[ct_number] = {
+                    "ct_number": ct_number,
+                    "indication_key": indication_key,
+                    "synonyms": synonyms,
+                    "hitting_terms": [term],
+                    "search_row": {**row, **clean_row},
+                }
+                new_hits_by_indication[indication_key] = new_hits_by_indication.get(indication_key, 0) + 1
+                if new_hits_by_indication[indication_key] >= budgets.get(indication_key, 0):
+                    break
             write_search_jsonl(search_dir / f"{search_query_hash(term)}.jsonl", term_rows)
-            remaining = max_records - len(hits_by_ct)
 
         for ct_number, bucket in hits_by_ct.items():
+            search_row = bucket["search_row"]
+            if not should_retrieve_search_row(search_row, universe):
+                skipped_universe += 1
+                continue
+            dest = raw_dir / f"{ct_number}.json"
+            if skip_existing and dest.exists():
+                skipped_existing += 1
+                continue
             payload, meta = await client.retrieve(ct_number)
+            if sanitize:
+                payload = sanitize_retrieve_payload(payload)
             retrieved += 1
             condition_text = condition_text_from_retrieve(payload) or condition_text_from_search(
-                bucket["search_row"]
+                search_row
             )
             secondary = is_secondary_only_match(
                 indication_key=bucket["indication_key"],
@@ -390,8 +678,9 @@ async def run_async(
                 native_id=ct_number,
                 payload=payload,
                 match=match,
+                search_row=sanitize_search_row(search_row),
             )
-            dump_json(raw_dir / f"{ct_number}.json", envelope)
+            dump_json(dest, envelope)
             if store is not None:
                 store.upsert(
                     identifiers_from_ctis_retrieve(payload),
@@ -406,14 +695,25 @@ async def run_async(
     else:
         await _run(client_http)
 
+    n_raw_on_disk = len([p for p in raw_dir.glob("*.json") if not p.name.startswith("_")])
     summary = {
         "feature": "ctis_ingest",
         "wired_into_pipeline": WIRED_INTO_PIPELINE,
         "condition": condition,
+        "universe": universe,
+        "sanitize": sanitize,
+        "skip_existing": skip_existing,
+        "skip_unpaired": skip_unpaired,
         "searched_terms": searched_terms,
+        "indication_budgets": budgets,
         "search_hits": len(hits_by_ct),
+        "search_hits_by_indication": dict(new_hits_by_indication),
+        "n_shelved_candidates": len(hits_by_ct) - skipped_universe,
+        "skipped_universe": skipped_universe,
+        "skipped_existing": skipped_existing,
         "retrieved": retrieved,
         "envelopes": retrieved,
+        "n_raw_on_disk": n_raw_on_disk,
         "programmes": len(store.all()) if store is not None else 0,
         "secondary_only": secondary_only,
         "raw_dir": str(raw_dir),
@@ -423,10 +723,11 @@ async def run_async(
     }
     print(
         f"[ctis] terms={len(searched_terms)} hits={len(hits_by_ct)} "
-        f"retrieved={retrieved} secondary_only={secondary_only} "
-        f"programmes={summary['programmes']}"
+        f"universe={universe} skipped_universe={skipped_universe} "
+        f"retrieved={retrieved} skipped_existing={skipped_existing} "
+        f"secondary_only={secondary_only} programmes={summary['programmes']}"
     )
-    print(f"[ctis] envelopes at {raw_dir}")
+    print(f"[ctis] envelopes at {raw_dir} n_raw_on_disk={n_raw_on_disk}")
     return summary
 
 
@@ -440,6 +741,27 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--max", dest="max_records", type=int, default=50)
     parser.add_argument("--page-size", type=int, default=100)
+    parser.add_argument(
+        "--universe",
+        choices=sorted(UNIVERSE_MODES),
+        default="all",
+        help="all=retrieve every search hit; shelved=include/include_review only",
+    )
+    parser.add_argument(
+        "--no-sanitize",
+        action="store_true",
+        help="Write full retrieve payloads (default strips contacts/sites/PII)",
+    )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Re-retrieve even when data/raw/ctis/{ctNumber}.json already exists",
+    )
+    parser.add_argument(
+        "--skip-unpaired",
+        action="store_true",
+        help="Skip require_paired_terms synonyms (e.g. hyperandrogenism without anovulation)",
+    )
     parser.add_argument("--no-identity", action="store_true", help="Skip programme_id writes")
     return parser
 
@@ -452,6 +774,10 @@ def main(argv: list[str] | None = None) -> dict[str, Any]:
             max_records=args.max_records,
             page_size=args.page_size,
             write_identity=not args.no_identity,
+            universe=args.universe,
+            sanitize=not args.no_sanitize,
+            skip_existing=not args.overwrite,
+            skip_unpaired=args.skip_unpaired,
         )
     )
 
