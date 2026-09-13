@@ -13,6 +13,10 @@ rules:
   # Rule B (Organon guard): do not score above this unless at least one
   # independent mechanism evidence source predates the trial start date.
   organon_guard_max_without_pretrial_evidence: 60
+  # Wave-1b commercial gates. Empty rights never PASS. Not biology claims.
+  intermezzo_score_cap: 20
+  teratogen_rems_hard_cap: 10
+  teratogen_rems_downrank_cap: 25
 
 failure_mode_scores:
   funding_or_sponsor: 100

@@ -23,6 +23,9 @@ from src.paths import (
     SNAPSHOT_DIR,
     ensure_dirs,
 )
+from src.identity.programme import identifiers_from_nct, programme_id_for
+from src.rights.schema import empty_cmc, empty_pathway_505b2, empty_rights
+from src.rights.store import load_rights, rights_for_nct
 
 
 import re
@@ -94,8 +97,13 @@ def build_asset(nct: str) -> dict[str, Any] | None:
     pop = extraction.get("population") or {}
     indication = _indication(study)
     ind_label = (indications_config()["indications"].get(indication) or {}).get("label") or indication
+    pid = (enrich.get("programme_id") or programme_id_for(identifiers_from_nct(nct)))
+    rights = enrich.get("rights_record") or load_rights(pid) or rights_for_nct(nct)
+    if not rights:
+        rights = empty_rights(pid)
     return {
         "nct_id": nct,
+        "programme_id": pid,
         "brief_title": ident.get("briefTitle"),
         "official_title": ident.get("officialTitle"),
         "indication": indication,
@@ -129,7 +137,15 @@ def build_asset(nct: str) -> dict[str, Any] | None:
                 "source_url": (enrich.get("europepmc") or {}).get("source_url"),
             },
             "sponsor": enrich.get("sponsor") or {},
+            "rights": enrich.get("rights") or {
+                "schema_version": rights.get("schema_version"),
+                "programme_id": pid,
+                "confidence": rights.get("confidence") or "empty_stub",
+            },
         },
+        "rights": rights,
+        "cmc": (rights.get("cmc") if isinstance(rights, dict) else None) or empty_cmc(),
+        "pathway_505b2": (rights.get("pathway_505b2") if isinstance(rights, dict) else None) or empty_pathway_505b2(),
         "population_checklist": [
             {"field": f, "captured": bool(pop.get(f)), "source": "extraction.population"}
             for f in POPULATION_BOOLEAN_FIELDS
@@ -140,6 +156,7 @@ def build_asset(nct: str) -> dict[str, Any] | None:
             "extraction_json": f"data/derived/extract/{nct}.json",
             "classification_json": f"data/derived/classify/{nct}.json",
             "score_json": f"data/derived/score/{nct}.json",
+            "rights_json": f"data/derived/rights/{pid}.json",
         },
     }
 

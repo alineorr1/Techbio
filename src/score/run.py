@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from src.db import connect, dump_json, load_json, upsert
 from src.extract.schema import Classification, Extraction
 from src.paths import CLASSIFY_DIR, ENRICH_DIR, EXTRACT_DIR, RAW_CTG_DIR, SCORE_DIR, ensure_dirs
+from src.rights.store import rights_for_nct
 from src.score.compute import score_asset
 
 
@@ -29,7 +30,8 @@ def run(*, nct_ids: list[str] | None = None) -> dict[str, int]:
             extraction = Extraction.model_validate(load_json(EXTRACT_DIR / f"{nct}.json"))
             clf = Classification.model_validate(load_json(CLASSIFY_DIR / f"{nct}.json"))
             enrich = load_json(ENRICH_DIR / f"{nct}.json") if (ENRICH_DIR / f"{nct}.json").exists() else {}
-            scored = score_asset(study, extraction, clf, enrich)
+            rights = enrich.get("rights_record") or rights_for_nct(nct)
+            scored = score_asset(study, extraction, clf, enrich, rights=rights)
             dump_json(SCORE_DIR / f"{nct}.json", scored)
             upsert(con, "scores", nct, scored_at=now, score=scored["score"], payload_json=scored)
             n_ok += 1

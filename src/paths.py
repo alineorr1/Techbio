@@ -20,6 +20,7 @@ RAW_CTIS_DIR = RAW_DIR / "ctis"
 RAW_CTIS_SEARCH_DIR = RAW_CTIS_DIR / "_search"
 DERIVED_DIR = DATA_DIR / "derived"
 IDENTITY_DIR = DERIVED_DIR / "identity"
+RIGHTS_DIR = DERIVED_DIR / "rights"
 EXTRACT_DIR = DERIVED_DIR / "extract"
 ENRICH_DIR = DERIVED_DIR / "enrich"
 CLASSIFY_DIR = DERIVED_DIR / "classify"
@@ -38,6 +39,7 @@ CHANGE_REPORT_DIR = DATA_DIR / "reports"
 INDICATIONS_PATH = CONFIG_DIR / "indications.yaml"
 SCORING_PATH = CONFIG_DIR / "scoring.yaml"
 SPONSORS_PATH = CONFIG_DIR / "sponsors.csv"
+DISQUALIFIERS_PATH = CONFIG_DIR / "disqualifiers.yaml"
 
 # Committed Wave-1 pins (not relocated when WH_DATA_DIR is overridden).
 SMOKE_DIR = ROOT / "data" / "smoke"
@@ -50,6 +52,7 @@ def ensure_dirs() -> None:
         RAW_CTIS_DIR,
         RAW_CTIS_SEARCH_DIR,
         IDENTITY_DIR,
+        RIGHTS_DIR,
         EXTRACT_DIR,
         ENRICH_DIR,
         CLASSIFY_DIR,

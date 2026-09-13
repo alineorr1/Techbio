@@ -12,6 +12,7 @@ from src.db import connect, dump_json, load_json, upsert
 from src.extract.schema import Extraction
 from src.ingest.ctg import nct_id_of
 from src.paths import CLASSIFY_DIR, ENRICH_DIR, EXTRACT_DIR, RAW_CTG_DIR, ensure_dirs
+from src.rights.store import rights_for_nct
 
 
 def _peer_stops(studies: dict[str, dict], window_days: int = 180) -> dict[str, int]:
@@ -53,7 +54,8 @@ def run(*, nct_ids: list[str] | None = None) -> dict[str, int]:
                 continue
             extraction = Extraction.model_validate(load_json(ext_path))
             enrich = load_json(ENRICH_DIR / f"{nct}.json") if (ENRICH_DIR / f"{nct}.json").exists() else {}
-            clf = classify_record(study, extraction, enrich, peer_stops=peers.get(nct, 0))
+            rights = enrich.get("rights_record") or rights_for_nct(nct)
+            clf = classify_record(study, extraction, enrich, peer_stops=peers.get(nct, 0), rights=rights)
             payload = clf.model_dump()
             dump_json(CLASSIFY_DIR / f"{nct}.json", payload)
             upsert(

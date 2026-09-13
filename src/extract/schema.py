@@ -98,6 +98,8 @@ class Classification(BaseModel):
     signals: dict[str, object]
     rule_fired: str
     notes: str = ""
+    commercial_gate: dict[str, object] | None = None
+    disqualifier_codes: list[str] = Field(default_factory=list)
 
 
 POPULATION_BOOLEAN_FIELDS = [

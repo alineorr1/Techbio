@@ -379,7 +379,27 @@ class IdentityStore:
         self._programmes[new_pid] = record
         for nid in record["normalized_ids"]:
             self._id_to_pid[nid] = new_pid
+        from src.rights.store import attach_empty_rights_safe
+
+        attach_empty_rights_safe(new_pid, identity_root=self.root)
         return record
+
+    def lookup(self, native_id: str) -> dict[str, Any] | None:
+        """Resolve a registry id (NCT, EU CT, …) to a stored programme record."""
+        keys = {str(native_id).strip()}
+        for kind in ID_KINDS:
+            normalized = normalize_id(kind, native_id)
+            if normalized:
+                keys.add(normalized)
+        for key in keys:
+            pid = self._id_to_pid.get(key)
+            if pid and pid in self._programmes:
+                return dict(self._programmes[pid])
+        return None
+
+    def programme_id_for_native(self, native_id: str) -> str | None:
+        rec = self.lookup(native_id)
+        return None if rec is None else rec.get("programme_id")
 
 
 def write_identity(record: Mapping[str, Any], root: Path | None = None) -> Path:
@@ -388,6 +408,9 @@ def write_identity(record: Mapping[str, Any], root: Path | None = None) -> Path:
     directory.mkdir(parents=True, exist_ok=True)
     path = directory / f"{record['programme_id']}.json"
     dump_json(path, record)
+    from src.rights.store import attach_empty_rights_safe
+
+    attach_empty_rights_safe(str(record["programme_id"]), identity_root=directory)
     return path
 
 

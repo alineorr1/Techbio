@@ -23,6 +23,7 @@ wh-classify = "src.classify.run:main"
 wh-score = "src.score.run:main"
 wh-serve-export = "src.serve.export:main"
 wh-eval = "src.eval.run:main"
+wh-rights = "src.rights.fill:main"
 
 [build-system]
 requires = ["setuptools>=68"]
