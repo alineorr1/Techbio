@@ -13,7 +13,7 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
   if (!weekly) {
     return (
       <div>
-        <PageHeader kicker="Weekly" title="Change report" />
+        <PageHeader kicker="weekly" title="Change report" />
         <EmptyNote>This snapshot has no weekly block. Re-export with python -m src.serve after a second run.</EmptyNote>
       </div>
     );
@@ -25,7 +25,7 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
 
   return (
     <div>
-      <PageHeader kicker="Weekly" title="What moved since last snapshot">
+      <PageHeader kicker="weekly" title="What moved since last snapshot">
         <p>
           {weekly.previous_snapshot
             ? `Compared with ${String(weekly.previous_snapshot).split("/").pop()}`
@@ -43,7 +43,7 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
             {incoming.map((row) => {
               const nct = asString(row.nct_id) || "unknown";
               return (
-                <li key={nct} className="py-3">
+                <li key={nct} className="py-5">
                   <a href={hrefFor({ name: "asset", nct })}>
                     <span className="font-mono text-xs">{nct}</span>
                     <span className="mt-0.5 block">{asString(row.title) || nct}</span>
@@ -68,7 +68,7 @@ export function WeeklyView({ snapshot }: { snapshot: Snapshot }) {
               const nct = asString(row.nct_id) || "unknown";
               const delta = asNumber(row.delta);
               return (
-                <li key={nct} className="py-3">
+                <li key={nct} className="py-5">
                   <a href={hrefFor({ name: "asset", nct })}>
                     <span className="font-mono text-xs">{nct}</span>
                     <span className="mt-0.5 block">{asString(row.title) || nct}</span>

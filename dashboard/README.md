@@ -18,7 +18,7 @@ Hash routes (no server router):
 | `#/landscape` | Corpus charts when `snapshot.landscape` is present |
 | `#/weekly` | Top-20 / ±10pt moves when `snapshot.weekly` is present |
 
-A smoke snapshot from the committed ClinicalTrials.gov cache is checked in at `public/data/snapshot.json` so Vercel has data without OpenAI. To regenerate after extract/classify/score:
+A smoke snapshot from the committed ClinicalTrials.gov cache is checked in at `public/data/snapshot.json` so Vercel has data without OpenAI. `vite preview` serves `dist/`; run `npm run build` after the snapshot is present (`prebuild` fails if it is missing). To regenerate after extract/classify/score:
 
 ```bash
 python -m src.extract --force-mock   # or a real key; not required for the dashboard
@@ -27,6 +27,6 @@ python -m src.score
 python -m src.serve
 ```
 
-Chrome is structural only (routes, snapshot data, non-buy disclaimer). Brand restyle comes later from `weare-brand-system.md`.
+Chrome is the Oxman B&W lock: white ground, ink type, `we.are` wordmark, typographic diligence banner (`non-buy · rights-unknown · honest`). No wine/maroon header.
 
 Deploy: repo-root `vercel.json` builds this directory. See the Operations section in the project README for secrets, weekly updates, and Vercel.

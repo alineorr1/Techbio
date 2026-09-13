@@ -14,7 +14,7 @@ import { CHART, CHART_SERIES, fmtPct } from "../lib/utils";
 import type { Snapshot } from "../lib/types";
 
 const tooltipStyle = {
-  background: CHART.ivory,
+  background: CHART.ground,
   border: `1px solid ${CHART.hairline}`,
   borderRadius: 0,
   color: CHART.ink,
@@ -35,7 +35,7 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
   if (!landscape) {
     return (
       <div>
-        <PageHeader kicker="Landscape" title="Corpus shape" />
+        <PageHeader kicker="landscape" title="Corpus shape" />
         <EmptyNote>This snapshot has no landscape block. Re-export with python -m src.serve.</EmptyNote>
       </div>
     );
@@ -66,7 +66,7 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
 
   return (
     <div>
-      <PageHeader kicker="Landscape" title="Corpus shape">
+      <PageHeader kicker="landscape" title="Corpus shape">
         <p>
           {landscape.n_assets} assets · mean female-specific capture{" "}
           {fmtPct(landscape.mean_female_specific_capture, 0)}
@@ -94,8 +94,8 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
               <CartesianGrid stroke={CHART.hairline} vertical={false} />
               <XAxis dataKey="label" tick={{ fill: CHART.mute, fontSize: 10 }} axisLine={false} tickLine={false} />
               <YAxis allowDecimals={false} tick={{ fill: CHART.mute, fontSize: 10 }} axisLine={false} tickLine={false} width={28} />
-              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: "rgba(92,36,48,0.06)" }} />
-              <Bar dataKey="count" fill={CHART.wine} />
+              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: "rgba(10,10,10,0.04)" }} />
+              <Bar dataKey="count" fill={CHART.ink} />
             </BarChart>
           </ResponsiveContainer>
         </ChartPanel>
@@ -108,7 +108,7 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
               <YAxis allowDecimals={false} tick={{ fill: CHART.mute, fontSize: 10 }} axisLine={false} tickLine={false} width={28} />
               <Tooltip
                 contentStyle={tooltipStyle}
-                cursor={{ fill: "rgba(92,36,48,0.06)" }}
+                cursor={{ fill: "rgba(10,10,10,0.04)" }}
                 formatter={(value, name) => [value, failureModeLabel(String(name))]}
               />
               {MODES.map((mode, i) => (
@@ -142,7 +142,7 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
                 contentStyle={tooltipStyle}
                 formatter={(value) => [fmtPct(typeof value === "number" ? value : null, 0), "Captured"]}
               />
-              <Bar dataKey="rate" fill={CHART.rose} />
+              <Bar dataKey="rate" fill={CHART.ink} />
             </BarChart>
           </ResponsiveContainer>
         </ChartPanel>
@@ -153,8 +153,8 @@ export function LandscapeView({ snapshot }: { snapshot: Snapshot }) {
               <CartesianGrid stroke={CHART.hairline} vertical={false} />
               <XAxis dataKey="year" tick={{ fill: CHART.mute, fontSize: 10 }} axisLine={false} tickLine={false} />
               <YAxis allowDecimals={false} tick={{ fill: CHART.mute, fontSize: 10 }} axisLine={false} tickLine={false} width={28} />
-              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: "rgba(92,36,48,0.06)" }} />
-              <Bar dataKey="count" fill={CHART.oxblood} />
+              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: "rgba(10,10,10,0.04)" }} />
+              <Bar dataKey="count" fill={CHART.mid} />
             </BarChart>
           </ResponsiveContainer>
         </ChartPanel>
