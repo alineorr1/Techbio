@@ -1,0 +1,83 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:18Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2026-525272-25-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2026-525272-25-00",
+  "payload": {
+    "ctNumber": "2026-525272-25-00",
+    "ctPublicStatusCode": 2,
+    "startDateEU": null,
+    "endDateEU": null,
+    "decisionDate": "2026-07-10T16:42:12.158",
+    "publishDate": "2026-07-11T03:33:49.890717974",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Prospective trial of [18F]AlF-FAPI-74 for PET imaging of fibroblast activation protein in patients with endometriosis",
+            "publicTitle": "Prospective trial of [18F]AlF-FAPI-74 for PET imaging of fibroblast activation protein in patients with endometriosis",
+            "shortTitle": null,
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "endometriosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "endometriosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "Buscopan 20 mg/1 ml oplossing voor injectie"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "UZ Leuven"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 2,
+    "field": "ctPublicStatusCode",
+    "label": "Authorised, recruitment pending",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

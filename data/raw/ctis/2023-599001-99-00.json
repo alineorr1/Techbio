@@ -1,0 +1,74 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T00:00:00Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2023-599001-99-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2023-599001-99-00",
+  "payload": {
+    "ctNumber": "2023-599001-99-00",
+    "ctPublicStatusCode": 7,
+    "startDateEU": "2022-03-01",
+    "endDateEU": "2023-06-15",
+    "decisionDate": "2023-06-15T12:00:00",
+    "publishDate": null,
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "A Phase 2 randomised trial of letrozole for endometriosis-associated pain, temporarily halted by the sponsor",
+            "publicTitle": "Letrozole for endometriosis-associated pain",
+            "shortTitle": "ENDO-LET-SUSP",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "Letrozole 2.5 mg"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 7,
+    "field": "ctPublicStatusCode",
+    "label": "Suspended",
+    "universe": "include",
+    "mapped_status": "SUSPENDED",
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

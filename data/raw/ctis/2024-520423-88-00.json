@@ -1,0 +1,94 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:21Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-520423-88-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2024-520423-88-00",
+  "payload": {
+    "ctNumber": "2024-520423-88-00",
+    "ctPublicStatusCode": 8,
+    "startDateEU": "2023-12-12",
+    "endDateEU": "2025-04-24",
+    "decisionDate": "2025-01-29T14:47:10.35",
+    "publishDate": "2026-04-15T03:30:47.941946118",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": "2019-004361-40",
+        "isTransitioned": true
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Contribution of PET (positron emission tomography) scans for the preoperative assessment of symptomatic endometriosis lesions: TEP-ENDORUN",
+            "publicTitle": "Contribution of PET (positron emission tomography) scans for the preoperative assessment of symptomatic endometriosis lesions: TEP-ENDORUN",
+            "shortTitle": "2013/CHU/12",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": {
+                "number": "NCT04831619"
+              },
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "Furosemide 10 mg/ml solution for injection"
+          },
+          {
+            "productName": "GLUCOTRACE 185 MBq/ml solution injectable"
+          },
+          {
+            "productName": "Omnipaque 350 mg I/ml  Injektionsl\u00f6sung"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Analytical, Diagnostic and Therapeutic Techniques and Equipment [E] - Diagnosis [E01]"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Centre Hospitalier Universitaire De La Reunion"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 8,
+    "field": "ctPublicStatusCode",
+    "label": "Ended",
+    "universe": "include",
+    "mapped_status": "COMPLETED_OR_TERMINATED",
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

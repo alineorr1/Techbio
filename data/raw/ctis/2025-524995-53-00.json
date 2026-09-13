@@ -1,0 +1,83 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:19Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2025-524995-53-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2025-524995-53-00",
+  "payload": {
+    "ctNumber": "2025-524995-53-00",
+    "ctPublicStatusCode": 2,
+    "startDateEU": null,
+    "endDateEU": null,
+    "decisionDate": "2026-05-13T15:19:36.178",
+    "publishDate": "2026-08-26T03:31:27.923325667",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Reproductive outcomes with letrozole co-treatment during ovarian stimulation in women with endometriosis undergoing IVF/ICSI: a randomised, multicentre, parallel group pragmatic trial",
+            "publicTitle": "ENDO-REAL: Endometriosis and Reproductive Enhancement with Letrozole",
+            "shortTitle": null,
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Women with endometriosis undergoing IVF/ICSI",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Women with endometriosis undergoing IVF/ICSI",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "Letrozole Teva 2,5 mg filmomhulde tabletten"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Phenomena and Processes [G] - Reproductive and Urinary Physiological Phenomena [G08]"
+          },
+          {
+            "productName": "UZ Brussel"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 2,
+    "field": "ctPublicStatusCode",
+    "label": "Authorised, recruitment pending",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

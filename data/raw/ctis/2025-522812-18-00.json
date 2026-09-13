@@ -1,0 +1,86 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:20Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2025-522812-18-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2025-522812-18-00",
+  "payload": {
+    "ctNumber": "2025-522812-18-00",
+    "ctPublicStatusCode": 2,
+    "startDateEU": null,
+    "endDateEU": null,
+    "decisionDate": "2025-09-17T08:58:22.724",
+    "publishDate": "2025-09-18T03:51:25.179251386",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "CARESS Study: Cabergoline for the Reduction of Endometriosis Symptoms and Lesion Size",
+            "publicTitle": "CARESS Study: Cabergoline for the Reduction of Endometriosis Symptoms and Lesion Size",
+            "shortTitle": null,
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "Sibilla diario 2 mg / 0,03 mg comprimidos recubiertos con pel\u00edcula EFG"
+          },
+          {
+            "productName": "Dostinex 0.5 mg Tablets"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Hospital Clinico San Carlos"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 2,
+    "field": "ctPublicStatusCode",
+    "label": "Authorised, recruitment pending",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

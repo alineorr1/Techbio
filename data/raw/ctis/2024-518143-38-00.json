@@ -1,0 +1,72 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T00:00:00Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2024-518143-38-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2024-518143-38-00",
+  "payload": {
+    "ctNumber": "2024-518143-38-00",
+    "ctPublicStatusCode": 3,
+    "startDateEU": "2024-10-25",
+    "endDateEU": null,
+    "decisionDate": "2024-10-25T18:25:35.308",
+    "publishDate": "2026-04-15T03:48:01.33068466",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": "2017-004309-41",
+        "isTransitioned": true
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "PRODIGE 61- FFCD 1702 - FUNGEMAX  Randomized phase II study comparing 5FU/LV+Nal-IRI, gemcitabine+Nab-paclitaxel or a sequential regimen of 2 months 5FU/LV+Nal-IRI followed by two months of gemcitabine+Nab-paclitaxel, in metastatic pancreatic cancer",
+            "publicTitle": "Randomized phase II study comparing 5FU/LV+Nal-IRI, gemcitabine+Nab-paclitaxel or a sequential regimen of 2 months 5FU/LV+Nal-IRI followed by two months of gemcitabine+Nab-paclitaxel, in metastatic pancreatic cancer",
+            "shortTitle": "FUNGEMAX",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": {
+                "number": "NCT03693677"
+              },
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Metastatic pancreatic cancer",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Metastatic pancreatic cancer",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": []
+      }
+    }
+  },
+  "public_status": {
+    "code": 3,
+    "field": "ctPublicStatusCode",
+    "label": "Authorised, recruiting",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

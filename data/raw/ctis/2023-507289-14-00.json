@@ -1,0 +1,112 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:22Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2023-507289-14-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2023-507289-14-00",
+  "payload": {
+    "ctNumber": "2023-507289-14-00",
+    "ctPublicStatusCode": 5,
+    "startDateEU": "2024-10-21",
+    "endDateEU": null,
+    "decisionDate": "2024-05-16T18:42:18.005",
+    "publishDate": "2026-05-07T03:43:51.446466203",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "A PHASE II, RANDOMIZED, DOUBLE BLIND STUDY TO EVALUATE THE EFFICACY AND SAFETY OF AMY109 IN WOMEN WITH ENDOMETRIOSIS",
+            "publicTitle": "A study to evaluate the efficacy and safety of AMY109 in women with endometriosis",
+            "shortTitle": "AMY106EU",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "United Kingdom"
+          },
+          {
+            "productName": "NAPROXEN SODIUM"
+          },
+          {
+            "productName": "DESOGESTREL"
+          },
+          {
+            "productName": "TRAMADOL HYDROCHLORIDE"
+          },
+          {
+            "productName": "IBUPROFEN"
+          },
+          {
+            "productName": "Placebo to match AMY109"
+          },
+          {
+            "productName": "Placebo to match desogestrel"
+          },
+          {
+            "productName": "Feanolla 75 microgram film-coated tablets"
+          },
+          {
+            "productName": "CODEINE PHOSPHATE"
+          },
+          {
+            "productName": "PARACETAMOL"
+          },
+          {
+            "productName": "NAPROXEN"
+          },
+          {
+            "productName": "AMY109"
+          }
+        ],
+        "sponsors": [
+          {
+            "sponsorName": "Chugai Pharmaceutical Co., Ltd"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 5,
+    "field": "ctPublicStatusCode",
+    "label": "Ongoing, recruitment ended",
+    "universe": "exclude_pending_end",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

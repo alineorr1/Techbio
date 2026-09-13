@@ -1,0 +1,107 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:19Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2025-522452-16-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2025-522452-16-00",
+  "payload": {
+    "ctNumber": "2025-522452-16-00",
+    "ctPublicStatusCode": 4,
+    "startDateEU": "2025-12-05",
+    "endDateEU": null,
+    "decisionDate": "2025-11-21T18:59:10.633",
+    "publishDate": "2026-06-11T03:41:26.026983827",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "A Phase 2, randomized, double-blind, placebo-controlled trial to investigate the efficacy and safety of 2 doses of vipoglanstat in patients with moderate to severe endometriosis-related pain \u2013 the NOVA trial",
+            "publicTitle": "A Phase 2 trial to investigate efficacy and safety of vipoglanstat in women with endometriosis",
+            "shortTitle": "GS-248-203",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis related pain",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis related pain",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "United Kingdom"
+          },
+          {
+            "productName": "Vipoglanstat"
+          },
+          {
+            "productName": "The placebo formulation for GS-248 is formulated in a capsule without the active\ningredient. Both vipoglanstat capsules and placebo are identical capsules."
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Gesynta Pharma AB"
+          },
+          {
+            "productName": "Lablytica Life Science AB"
+          },
+          {
+            "productName": "Icon Clinical Research Limited"
+          },
+          {
+            "productName": "Scout Clinical"
+          },
+          {
+            "productName": "Medidata Solutions Inc."
+          },
+          {
+            "productName": "Almac Clinical Services Limited"
+          },
+          {
+            "productName": "Karolinska Institutet Biobank"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 4,
+    "field": "ctPublicStatusCode",
+    "label": "Ongoing, recruiting",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:23Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2022-500792-31-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2022-500792-31-00",
+  "payload": {
+    "ctNumber": "2022-500792-31-00",
+    "ctPublicStatusCode": 11,
+    "startDateEU": null,
+    "endDateEU": null,
+    "decisionDate": "2022-12-22T13:02:55.59",
+    "publishDate": "2024-06-17T18:42:42.591917686",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "The effect of cabergoline in infertile women on peritoneal endometriosis related dysmenorrhea, chronic pelvic pain and fertility",
+            "publicTitle": "The effect of cabergoline in infertile women on peritoneal endometriosis related dysmenorrhea, chronic pelvic pain and fertility",
+            "shortTitle": null,
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis in women with involuntary infertility",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis in women with involuntary infertility",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "Lume-kapselissa puolitettu yliopiston apteekin Placebo 9 mm tabletti (sis. mikrokiteist\u00e4 selluloosaa sek\u00e4 magnesium stearaattia)."
+          },
+          {
+            "productName": "Dostinex 0,5 mg tablett"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Turku University Central Hospital"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 11,
+    "field": "ctPublicStatusCode",
+    "label": "Not authorised",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "https://euclinicaltrials.eu/ctis-public-api",
+  "sanitized": true,
+  "notes": "PII (contacts, emails, sites, investigators, events, documents) stripped. Identifier paths, ctPublicStatusCode, titles, conditions, and product names retained. Live endometriosis synonym search 2026-09-13 plus EU-only Suspended fixture 2023-599001-99-00. OG-6219 EU CT 2022-501310-57-00 is pinned to NCT05560646 (live retrieve omitted nctNumber; same protocol title) so it merges and is not second-scored. retrieve.ctStatus application-status string is not stored as public status.",
+  "n_envelopes": 15
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:22Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2023-508417-16-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2023-508417-16-00",
+  "payload": {
+    "ctNumber": "2023-508417-16-00",
+    "ctPublicStatusCode": 4,
+    "startDateEU": "2024-02-14",
+    "endDateEU": null,
+    "decisionDate": "2024-01-18T15:17:08.607",
+    "publishDate": "2025-11-14T02:34:15.524210966",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "Esketamine As treatment for chronic pain due to endometrioSis: a RCT studY",
+            "publicTitle": "EASYlight study",
+            "shortTitle": "EASYlight-NEK",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": null,
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "SODIUM CHLORIDE"
+          },
+          {
+            "productName": "Ondansetron Morningside 4 mg orodispergeerbare tabletten"
+          },
+          {
+            "productName": "Ondansetron 2 mg/ml Solution for Injection"
+          },
+          {
+            "productName": "Ketanest\u00ae S 5 mg/ml - Ampullen"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Subject"
+          },
+          {
+            "productName": "Investigator"
+          },
+          {
+            "productName": "Carer"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Analytical, Diagnostic and Therapeutic Techniques and Equipment [E] - Anesthesia and Analgesia [E03]"
+          },
+          {
+            "productName": "Reinier de Graaf Groep"
+          }
+        ],
+        "sponsors": [
+          {
+            "sponsorName": "Eurocept pharmaceuticals (only esketamine)"
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 4,
+    "field": "ctPublicStatusCode",
+    "label": "Ongoing, recruiting",
+    "universe": "exclude",
+    "mapped_status": null,
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "wave1.raw.v1",
+  "source": "ctis",
+  "fetched_at": "2026-09-13T06:11:23Z",
+  "http": {
+    "url": "https://euclinicaltrials.eu/ctis-public-api/retrieve/2022-501310-57-00",
+    "status": 200,
+    "cached": true
+  },
+  "native_id": "2022-501310-57-00",
+  "payload": {
+    "ctNumber": "2022-501310-57-00",
+    "ctPublicStatusCode": 8,
+    "startDateEU": "2024-02-05",
+    "endDateEU": "2025-05-27",
+    "decisionDate": "2023-04-24T17:11:53.467",
+    "publishDate": "2026-02-14T02:39:04.188674455",
+    "authorizedApplication": {
+      "eudraCt": {
+        "eudraCtCode": null,
+        "isTransitioned": false
+      },
+      "authorizedPartI": {
+        "trialDetails": {
+          "clinicalTrialIdentifiers": {
+            "fullTitle": "A Phase 2a/b, Randomized, Double-blind, Placebo-controlled, Parallel Group, Multicenter, Clinical Study to Evaluate the Efficacy and Safety of OG-6219 in 3 Dose Levels, in Women 18 to 49 Years of Age with Moderate to Severe Endometriosis-related Pain",
+            "publicTitle": "A study to investigate efficacy and safety of OG-6219 twice a day in 3 dose levels compared with Placebo in participants aged 18 to 49 with moderate to severe endometriosis-related pain",
+            "shortTitle": "OG-6219-P001",
+            "secondaryIdentifyingNumbers": {
+              "nctNumber": {
+                "number": "NCT05560646"
+              },
+              "additionalRegistries": []
+            }
+          },
+          "trialInformation": {
+            "medicalCondition": {
+              "partIMedicalConditions": [
+                {
+                  "medicalCondition": "Endometriosis related pain",
+                  "isConditionRareDisease": false
+                }
+              ]
+            }
+          }
+        },
+        "medicalConditions": [
+          {
+            "medicalCondition": "Endometriosis related pain",
+            "isConditionRareDisease": false
+          }
+        ],
+        "products": [
+          {
+            "productName": "United States"
+          },
+          {
+            "productName": "Placebo Tablet for OG-6219"
+          },
+          {
+            "productName": "Nalgesin S 275 mg pl\u0117vele dengtos tablet\u0117s"
+          },
+          {
+            "productName": "Patients"
+          },
+          {
+            "productName": "Diseases [C] - Female Urogenital Diseases and Pregnancy Complications [C13]"
+          },
+          {
+            "productName": "Organon LLC"
+          },
+          {
+            "productName": "Autocruitment LLC"
+          },
+          {
+            "productName": "Adelphi Values LLC"
+          },
+          {
+            "productName": "Q Squared Solutions LLC"
+          },
+          {
+            "productName": "York Bioanalytical Solutions Limited"
+          },
+          {
+            "productName": "Iqvia Limited"
+          },
+          {
+            "productName": "Greenphire LLC"
+          }
+        ],
+        "sponsors": [
+          {
+            "sponsorName": "Organon LLC."
+          }
+        ]
+      }
+    }
+  },
+  "public_status": {
+    "code": 8,
+    "field": "ctPublicStatusCode",
+    "label": "Ended",
+    "universe": "include",
+    "mapped_status": "COMPLETED_OR_TERMINATED",
+    "unmapped": false
+  },
+  "match": {
+    "indication_key": "endometriosis",
+    "search_terms": [
+      "endometriosis"
+    ],
+    "secondary_only_match": false,
+    "nct_pin": "NCT05560646",
+    "nct_pin_note": "Live retrieve omitted nctNumber; NCT is the Organon OG-6219 sentinel (same protocol title). Identity merge, do not second-score."
+  }
+}
