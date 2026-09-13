@@ -1,0 +1,14 @@
+{
+  "fetched_at": "2026-09-12T22:40:00Z",
+  "source": "https://euclinicaltrials.eu/ctis-public-api",
+  "sanitized": true,
+  "notes": "PII (contacts, emails, sites, investigators) stripped. Identifier and public-status paths preserved. Live smoke retrieve 2024-518143-38-00: NCT03693677 + EudraCT 2017-004309-41, ctPublicStatusCode=3. search.ctStatus is the numeric public status code; retrieve.ctStatus is the application-status string.",
+  "files": [
+    "retrieve_2024-518143-38-00.json",
+    "retrieve_2024-519126-20-00.json",
+    "retrieve_2025-523076-23-00.json",
+    "search_2024-518143-38-00.json",
+    "search_adenomyosis_page1.json",
+    "search_endometriosis_page1.json"
+  ]
+}

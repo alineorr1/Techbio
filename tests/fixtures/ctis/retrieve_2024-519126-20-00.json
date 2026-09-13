@@ -1,0 +1,54 @@
+{
+  "ctNumber": "2024-519126-20-00",
+  "ctStatus": "Ended",
+  "ctPublicStatusCode": 8,
+  "startDateEU": "2024-11-15",
+  "decisionDate": "2024-11-15T19:39:10.777",
+  "publishDate": "2026-08-12T03:35:38.786085726",
+  "authorizedApplication": {
+    "eudraCt": {
+      "isTransitioned": true,
+      "eudraCtCode": "2019-003645-16"
+    },
+    "authorizedPartI": {
+      "trialDetails": {
+        "clinicalTrialIdentifiers": {
+          "fullTitle": "Benefit of GnRH Agonist Before Frozen Embryo Transfer in Patients With Endometriosis and/or Adenomyosis: Randomised Prospective Study.",
+          "publicTitle": "Benefit of GnRH Agonist Before Frozen Embryo Transfer in Patients With Endometriosis and/or Adenomyosis: Randomised Prospective Study.",
+          "shortTitle": "2019_0012",
+          "secondaryIdentifyingNumbers": {
+            "nctNumber": {
+              "id": 408952,
+              "number": "NCT04356664"
+            },
+            "additionalRegistries": []
+          }
+        },
+        "trialInformation": {
+          "medicalCondition": {
+            "partIMedicalConditions": [
+              {
+                "medicalCondition": "Endometriosis",
+                "isConditionRareDisease": false
+              },
+              {
+                "medicalCondition": "adenomyosis",
+                "isConditionRareDisease": false
+              }
+            ]
+          }
+        }
+      },
+      "medicalConditions": [
+        {
+          "medicalCondition": "Endometriosis",
+          "isConditionRareDisease": false
+        },
+        {
+          "medicalCondition": "adenomyosis",
+          "isConditionRareDisease": false
+        }
+      ]
+    }
+  }
+}
