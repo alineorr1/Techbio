@@ -36,6 +36,9 @@ def test_walk_away_dossier_is_not_opp_and_has_d1_fields():
     assert dossier["score"]["high_score_is_not_buy"] is True
     assert dossier["ic_stub"]["empty_stub_is_opp"] is False
     assert dossier["ic_stub"]["is_opp"] is False
+    assert dossier["ic_stub"]["status"] == "half_page"
+    assert dossier["ic_stub"]["recommendation_kind"] == "WALK"
+    assert "Empty rights stay RIGHTS_QUEUE" not in dossier["ic_stub"]["recommendation"]
     assert "economic right" in dossier["narrative_lock"]["unit_note"].lower() or dossier["narrative_lock"]["unit"] == "economic_right"
     md = render_markdown(dossier)
     assert "NOT OPTIONABLE" in md or "WALK_AWAY" in md
@@ -50,6 +53,8 @@ def test_linzagolix_path_stub_present():
     assert dossier["path"]["started"] is True
     assert dossier["label"] != LABEL_OPP
     assert dossier["rights"]["patents"]
+    assert "Empty rights stay RIGHTS_QUEUE" not in dossier["ic_stub"]["recommendation"]
+    assert dossier["ic_stub"]["recommendation_kind"] == "WALK"
 
 
 def test_write_dossier_files(tmp_path: Path):
@@ -74,6 +79,8 @@ def test_ctis_eu_example_not_optionable():
     assert dossier["rights"]["empty_stub"] is True
     assert dossier["score"]["gate_surface"] == NOT_OPTIONABLE
     assert dossier["ic_stub"]["is_opp"] is False
+    assert dossier["ic_stub"]["status"] == "half_page"
+    assert "Empty rights stay RIGHTS_QUEUE" in dossier["ic_stub"]["recommendation"]
 
 
 def test_ui_copy_holds_md_banner_and_drops_blind_md_hold():

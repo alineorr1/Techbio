@@ -6,7 +6,7 @@ Desk vocabulary: TRIAGE / RIGHTS_QUEUE / OPP.
 ## Commands
 
 ```bash
-python -m src.pilot.export --ncts NCT03481842,NCT04372121 --out data/pilot/exports/
+python -m src.pilot.export --ncts NCT03481842,NCT04372121,NCT03411980 --out data/pilot/exports/
 python -m src.pilot.export --ncts 2023-599001-99-00 --out data/pilot/ctis-eu-example/
 python -m src.pilot.export --pack
 ```
@@ -32,3 +32,7 @@ See `data/pilot/ctis-eu-example/`. Regenerate scores (ephemeral derived files) w
 ## Kill-book
 
 `data/pilot/kill-book.json` — locked WALK_AWAYs (BioGene, linzagolix, Viramal, BOL, …). Negative labels are product.
+
+## D2 IC / D3 rollup
+
+IC half-page branches by label + desk. Filled WALK_AWAY does **not** reuse empty-rights boilerplate. `data/pilot/d3-rollup.json` counts by T2 label and desk.

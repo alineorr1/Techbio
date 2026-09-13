@@ -40,6 +40,7 @@ PILOT_EXPORT_DIR = PILOT_DIR / "exports"
 PILOT_CTIS_EXAMPLE_DIR = PILOT_DIR / "ctis-eu-example"
 RIGHTS_QUEUE_PATH = PILOT_DIR / "rights_queue.json"
 KILL_BOOK_PATH = PILOT_DIR / "kill-book.json"
+D3_ROLLUP_PATH = PILOT_DIR / "d3-rollup.json"
 RIGHTS_QUEUE_RULES_PATH = CONFIG_DIR / "rights-queue.json"
 
 INDICATIONS_PATH = CONFIG_DIR / "indications.yaml"

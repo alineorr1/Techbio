@@ -16,6 +16,7 @@ from typing import Any
 
 from src.db import dump_json
 from src.paths import (
+    D3_ROLLUP_PATH,
     KILL_BOOK_PATH,
     PILOT_CTIS_EXAMPLE_DIR,
     PILOT_DIR,
@@ -28,11 +29,17 @@ from src.pilot.dossier import build_dossier, render_markdown
 from src.pilot.killbook import build_kill_book
 from src.pilot.labels import assign_label
 from src.pilot.queue import build_rights_queue, disregard_hit, label_assets
+from src.pilot.rollup import build_d3_rollup
 from src.pilot.snapshot import find_asset, load_snapshot, snapshot_assets
 from src.rights.gates import NOT_OPTIONABLE
 
 _EU_CT_RE = re.compile(r"^\d{4}-\d{6}-\d{2}-\d{2}$")
 _NCT_RE = re.compile(r"^NCT\d{8}$", re.I)
+
+# Re-QA pair: filled WALK_AWAY (BioGene, linzagolix) + one RIGHTS_QUEUE empty.
+WALK_SAMPLE_IDS = ["NCT03481842", "NCT04372121"]
+EMPTY_QUEUE_SAMPLE_ID = "NCT03411980"
+SAMPLE_EXPORT_IDS = [*WALK_SAMPLE_IDS, EMPTY_QUEUE_SAMPLE_ID]
 
 
 def parse_ids(raw: str | list[str] | None) -> list[str]:
@@ -157,7 +164,7 @@ def write_pilot_readme(dest: Path | None = None) -> Path:
         "## Commands\n"
         "\n"
         "```bash\n"
-        "python -m src.pilot.export --ncts NCT03481842,NCT04372121 --out data/pilot/exports/\n"
+        "python -m src.pilot.export --ncts NCT03481842,NCT04372121,NCT03411980 --out data/pilot/exports/\n"
         "python -m src.pilot.export --ncts 2023-599001-99-00 --out data/pilot/ctis-eu-example/\n"
         "python -m src.pilot.export --pack\n"
         "```\n"
@@ -190,7 +197,12 @@ def write_pilot_readme(dest: Path | None = None) -> Path:
         "## Kill-book\n"
         "\n"
         "`data/pilot/kill-book.json` — locked WALK_AWAYs (BioGene, linzagolix, Viramal, BOL, …). "
-        "Negative labels are product.\n",
+        "Negative labels are product.\n"
+        "\n"
+        "## D2 IC / D3 rollup\n"
+        "\n"
+        "IC half-page branches by label + desk. Filled WALK_AWAY does **not** reuse empty-rights "
+        "boilerplate. `data/pilot/d3-rollup.json` counts by T2 label and desk.\n",
         encoding="utf-8",
     )
     return path
@@ -202,7 +214,7 @@ async def export_pack() -> dict[str, Any]:
     assets = list(snap.get("assets") or [])
     labels = label_assets(assets)
     written = await export_ids(
-        ["NCT03481842", "NCT04372121"],
+        SAMPLE_EXPORT_IDS,
         out=PILOT_EXPORT_DIR,
         assets=assets,
         labels=labels,
@@ -217,13 +229,30 @@ async def export_pack() -> dict[str, Any]:
     written.append({"id": DEFAULT_EU_CT, "json": str(json_path), "md": str(md_path)})
     queue_path = export_queue(assets)
     kill_path = export_kill_book(assets)
+    rollup_path = export_rollup(assets, labels=labels)
     readme = write_pilot_readme()
     return {
         "dossiers": written,
         "queue": str(queue_path),
         "kill_book": str(kill_path),
+        "rollup": str(rollup_path),
         "readme": str(readme),
     }
+
+
+def export_rollup(
+    assets: list[dict[str, Any]] | None = None,
+    *,
+    labels: dict[str, dict[str, Any]] | None = None,
+    dest: Path | None = None,
+) -> Path:
+    rows = assets if assets is not None else snapshot_assets()
+    book = build_d3_rollup(rows, labels=labels)
+    path = dest or D3_ROLLUP_PATH
+    path.parent.mkdir(parents=True, exist_ok=True)
+    dump_json(path, book)
+    print(f"[pilot.export] d3-rollup n={book['n_snapshot']} opp={book['n_opp']} -> {path}")
+    return path
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -233,6 +262,7 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--queue", action="store_true", help="Write data/pilot/rights_queue.json")
     parser.add_argument("--kill-book", action="store_true", help="Write data/pilot/kill-book.json")
     parser.add_argument("--pack", action="store_true", help="Write sample dossiers + queue + kill-book + README")
+    parser.add_argument("--rollup", action="store_true", help="Write data/pilot/d3-rollup.json")
     args = parser.parse_args(argv)
 
     ids = parse_ids(args.ncts)
@@ -246,8 +276,10 @@ def main(argv: list[str] | None = None) -> None:
         export_queue()
     if args.kill_book:
         export_kill_book()
-    if not ids and not args.queue and not args.kill_book:
-        parser.error("pass --ncts, --queue, --kill-book, and/or --pack")
+    if args.rollup:
+        export_rollup()
+    if not ids and not args.queue and not args.kill_book and not args.rollup:
+        parser.error("pass --ncts, --queue, --kill-book, --rollup, and/or --pack")
 
 
 if __name__ == "__main__":
