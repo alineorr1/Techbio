@@ -97,6 +97,8 @@ def test_ui_copy_holds_md_banner_and_drops_blind_md_hold():
     assert "never OPP" in ranked
     assert 'label: LABEL_RIGHTS_QUEUE' in labels
     assert "Triage-keep. Overflow" not in labels
+    assert "stay RIGHTS_QUEUE, never OPP" in asset_view
+    assert "Locked filled WALK_AWAY is not RIGHTS_QUEUE" in asset_view
 
 
 def test_snapshot_not_required_for_queue_size():
