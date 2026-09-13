@@ -59,10 +59,26 @@ export function EmptyNote({ children }: { children: ReactNode }) {
   return <p className="border border-dashed border-line px-4 py-6 text-sm text-mute">{children}</p>;
 }
 
-export function DiligenceBanner() {
+export function DiligenceBanner({
+  extractModel = "mock",
+  snapshotId,
+  nAssets,
+}: {
+  extractModel?: string;
+  snapshotId?: string;
+  nAssets?: number;
+}) {
+  const model = extractModel.toLowerCase().startsWith("mock") ? "mock" : extractModel;
+  const meta = [
+    snapshotId,
+    nAssets != null ? `${nAssets} assets` : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
   return (
-    <p className="font-mono text-[11px] tracking-[0.04em] text-mute">
-      non-buy · rights-unknown · honest
-    </p>
+    <div className="font-mono text-[11px] tracking-[0.04em] text-mute">
+      <p>non-buy · hypothesis for human review · {model} · rights-unknown · honest</p>
+      {meta ? <p className="mt-1">{meta}</p> : null}
+    </div>
   );
 }

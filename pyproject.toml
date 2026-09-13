@@ -26,6 +26,7 @@ wh-eval = "src.eval.run:main"
 wh-rights = "src.rights.fill:main"
 wh-rights-writeback = "src.rights.writeback:main"
 wh-ctis-score = "src.score.ctis:main"
+wh-pilot-export = "src.pilot.export:main"
 
 [build-system]
 requires = ["setuptools>=68"]

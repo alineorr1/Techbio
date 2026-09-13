@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useState } from "react";
 import { DiligenceBanner, EmptyNote } from "./components/chrome";
 import { hrefFor, parseHash, type Route } from "./lib/hash";
+import { extractModelLabel } from "./lib/labels";
 import type { Snapshot } from "./lib/types";
 import { cn } from "./lib/utils";
 import { AssetView } from "./views/AssetView";
@@ -124,19 +125,16 @@ export default function App() {
           </div>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-xl">
-              <DiligenceBanner />
+              <DiligenceBanner
+                extractModel={extractModelLabel(snapshot)}
+                snapshotId={snapshot?.snapshot_id}
+                nAssets={snapshot?.counts.n_assets}
+              />
               <p className="mt-4 text-sm text-mute">
-                Failed asset triage. A high score means the public record is compatible with a
-                non-biological failure — not a recommendation to buy.
+                Failed asset triage. A high score is a hypothesis for human review — not a
+                recommendation to buy, and not an OPP.
               </p>
             </div>
-            {snapshot ? (
-              <p className="font-mono text-[11px] text-mute">
-                {snapshot.snapshot_id}
-                <br />
-                {snapshot.counts.n_assets} assets
-              </p>
-            ) : null}
           </div>
         </div>
       </header>

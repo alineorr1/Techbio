@@ -35,6 +35,12 @@ EVAL_RUNS_DIR = DATA_DIR / "eval" / "runs"
 WAREHOUSE_PATH = DATA_DIR / "warehouse.duckdb"
 FEEDBACK_PATH = DATA_DIR / "feedback.jsonl"
 CHANGE_REPORT_DIR = DATA_DIR / "reports"
+PILOT_DIR = DATA_DIR / "pilot"
+PILOT_EXPORT_DIR = PILOT_DIR / "exports"
+PILOT_CTIS_EXAMPLE_DIR = PILOT_DIR / "ctis-eu-example"
+RIGHTS_QUEUE_PATH = PILOT_DIR / "rights_queue.json"
+KILL_BOOK_PATH = PILOT_DIR / "kill-book.json"
+RIGHTS_QUEUE_RULES_PATH = CONFIG_DIR / "rights-queue.json"
 
 INDICATIONS_PATH = CONFIG_DIR / "indications.yaml"
 SCORING_PATH = CONFIG_DIR / "scoring.yaml"
@@ -66,6 +72,9 @@ def ensure_dirs() -> None:
         GOLDEN_DIR,
         EVAL_RUNS_DIR,
         CHANGE_REPORT_DIR,
+        PILOT_DIR,
+        PILOT_EXPORT_DIR,
+        PILOT_CTIS_EXAMPLE_DIR,
         DATA_DIR / "eval",
     ):
         path.mkdir(parents=True, exist_ok=True)

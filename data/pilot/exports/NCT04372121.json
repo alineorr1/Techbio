@@ -1,0 +1,148 @@
+{
+  "schema_version": "pilot.d1.v1",
+  "narrative_lock": {
+    "unit": "economic_right",
+    "unit_note": "The unit of value is an economic right (option / 505(b)(2) / method-of-use), not a ranked list and not an ownable portfolio.",
+    "high_score_is_not_a_buy": true,
+    "high_score_is_not_opp": true,
+    "empty_stub_is_not_opp": true,
+    "pass_language": false,
+    "ownable_portfolio_language": false,
+    "hypothesis_for_human_review": true
+  },
+  "label": "TRIAGE",
+  "triage": "disregard",
+  "label_note": "Locked Asset IP WALK_AWAY.",
+  "registry": {
+    "nct_id": "NCT04372121",
+    "programme_id": "p_d79ac79555e6767e",
+    "primary_display_id": "NCT04372121",
+    "eu_ct": null,
+    "eudract": null,
+    "source": "ctg"
+  },
+  "stop": {
+    "mode": "recruitment",
+    "classification": "recruitment",
+    "rule_fired": "6_extracted_recruitment",
+    "notes": "Extracted stop category is recruitment; enrolment ratio unavailable or above threshold.",
+    "overall_status": "TERMINATED",
+    "why_stopped": "This study is an extension of Study 18-OBE2109-002 that has been terminated due to enrolment challenges. Consequently, this study has also been terminated.",
+    "enrolment": {
+      "count": 30,
+      "type": "ACTUAL"
+    }
+  },
+  "rights": {
+    "ownable": false,
+    "optionable": false,
+    "desk_classification": "WALK_AWAY",
+    "kill_codes": [
+      "K_VALUE_NOT_CAPTURED",
+      "S_LICENSE_MAP_MISSING"
+    ],
+    "hard_codes": [
+      "K_VALUE_NOT_CAPTURED"
+    ],
+    "soft_codes": [
+      "S_LICENSE_MAP_MISSING"
+    ],
+    "patents": [
+      "WO2007/046392",
+      "WO2014/042176",
+      "US9,169,266"
+    ],
+    "grantor": "Kissei / Theramex (YSELTY EU) / Bio Genuine (China). US NDA withdrawn.",
+    "confidence": "medium",
+    "empty_stub": false,
+    "has_citable_ip": true
+  },
+  "path": {
+    "started": true,
+    "cmc": {
+      "api_source_identified": "unknown",
+      "formulation_described": "unknown",
+      "impurity_profile_available": "unknown",
+      "stability_data_available": "unknown",
+      "manufacturing_site_known": "unknown",
+      "spec_available": "unknown",
+      "ctd_module_3_available": "unknown",
+      "comparability_risk": "unknown",
+      "notes": "Oral SM; EU MAA CMC (YSELTY). US restart is not a clean 505(b)(2).",
+      "confidence": "medium"
+    },
+    "pathway_505b2": {
+      "pathway": "unknown",
+      "rld_ref": null,
+      "listed_drug_name": null,
+      "listed_drug_ref": null,
+      "exclusivity_windows": [],
+      "orange_book_url": null,
+      "orange_book_hook": "orange_book",
+      "confidence": "medium"
+    },
+    "exclusivity": {
+      "status": "unknown",
+      "windows": [],
+      "note": "unknown OK if marked"
+    },
+    "unknown_ok_if_marked": true
+  },
+  "score": {
+    "score": 58.5,
+    "arithmetic": "(18.0×35 + 86.0×30 + 75.0×20 + 76.0×15) / 100 = 58.5",
+    "pre_pass": {
+      "verdict": "HOLD",
+      "surface": "WALK_AWAY",
+      "optionable": false,
+      "shortlist_ownable": false,
+      "md_status": "LIVE",
+      "reason_codes": [
+        "NOT_OPTIONABLE"
+      ]
+    },
+    "gate_surface": "WALK_AWAY",
+    "high_score_is_not_buy": true,
+    "high_score_is_not_opp": true
+  },
+  "sources": {
+    "registry_json": "data/raw/ctg/NCT04372121.json",
+    "extraction_json": "data/derived/extract/NCT04372121.json",
+    "classification_json": "data/derived/classify/NCT04372121.json",
+    "score_json": "data/derived/score/NCT04372121.json",
+    "rights_json": "data/derived/rights/NCT04372121.json"
+  },
+  "links": [
+    {
+      "label": "ClinicalTrials.gov record",
+      "url": "https://clinicaltrials.gov/study/NCT04372121"
+    },
+    {
+      "label": "ClinicalTrials.gov API (verbatim JSON)",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04372121"
+    },
+    {
+      "label": "Europe PMC search (NCT ID)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT04372121&format=json"
+    },
+    {
+      "label": "Linzagolix: First Approval.",
+      "url": "https://europepmc.org/article/MED/35997940"
+    },
+    {
+      "label": "Sponsor status source (operating)",
+      "url": "https://www.kissei.co.jp/e_contents/"
+    }
+  ],
+  "ic_stub": {
+    "title": "Investment committee (stub)",
+    "status": "thin_stub",
+    "is_opp": false,
+    "empty_stub_is_opp": false,
+    "recommendation": "Not an OPP. Empty rights / NOT OPTIONABLE. Hypothesis for human review only.",
+    "note": "Half-page IC stub. Does not claim PASS or an ownable book. Dashboard MD banner remains held by CoS. No MD-LIVE chrome."
+  },
+  "title": "Extension to Study on Efficacy and Safety of Linzagolix for the Treatment of Endometriosis-associated Pain",
+  "sponsor_name": "Kissei Pharmaceutical Co., Ltd.",
+  "indication": "Endometriosis"
+}
