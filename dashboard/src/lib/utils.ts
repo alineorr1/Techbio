@@ -18,26 +18,22 @@ export function sourceHost(url: string): string {
   }
 }
 
-/** Evvy-inspired chart series — never default Recharts blue. */
+/** Sparse mono chart series — no tissue rainbow, no wine fills. */
 export const CHART = {
-  wine: "#5C2430",
-  rose: "#C17B7E",
-  terra: "#B85C4A",
-  champagne: "#E8D5C4",
-  mucosa: "#A85A64",
-  oxblood: "#3D1822",
-  ink: "#2A1A1F",
-  ivory: "#F7F1EA",
-  cream: "#F3EBE3",
-  hairline: "rgba(92, 36, 48, 0.16)",
-  mute: "#6E565C",
+  ink: "#0A0A0A",
+  mute: "#6B6B6B",
+  ground: "#FFFFFF",
+  hairline: "rgba(10, 10, 10, 0.12)",
+  track: "#F0F0F0",
+  mid: "#8A8A8A",
+  faint: "#C8C8C8",
 } as const;
 
 export const CHART_SERIES = [
-  CHART.wine,
-  CHART.rose,
-  CHART.terra,
-  CHART.champagne,
-  CHART.mucosa,
-  CHART.oxblood,
+  CHART.ink,
+  "#2E2E2E",
+  "#4A4A4A",
+  "#6B6B6B",
+  "#8A8A8A",
+  "#B0B0B0",
 ] as const;
