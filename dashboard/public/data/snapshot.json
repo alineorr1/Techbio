@@ -29692,7 +29692,7 @@
                 "AU2024230822A1"
               ],
               "status": "unknown",
-              "title": "adjacent pMDI BOL+Kindeva"
+              "title": "adjacent watchlist only — Kindeva pMDI adjacent"
             },
             {
               "family_id": null,
@@ -29701,7 +29701,7 @@
                 "WO2024182699"
               ],
               "status": "unknown",
-              "title": "adjacent adjacent pMDI"
+              "title": "adjacent watchlist only — Kindeva pMDI adjacent"
             },
             {
               "family_id": null,
@@ -29710,7 +29710,7 @@
                 "WO2017072762"
               ],
               "status": "unknown",
-              "title": "adjacent adjacent Yissum licensee only"
+              "title": "adjacent watchlist only — Yissum adjacent"
             }
           ],
           "orange_book": {
@@ -29727,7 +29727,7 @@
         "fto_lite": {
           "status": "unknown",
           "blocking_refs": [],
-          "note": "No endometriosis-specific patent/app number. Adjacent AU2024230822A1 / WO2024182699 / WO2017072762 (BOL+Kindeva pMDI / Yissum) do not satisfy the CONTINGENT citable-endo-number bar. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING hardened to WALK_AWAY. Do not reopen as PASS/CONTINGENT.",
+          "note": "WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT.",
           "confidence": "medium"
         },
         "coi": {
@@ -29741,7 +29741,7 @@
           "ownable": false,
           "confidence": "medium",
           "recommendation": "walk_away",
-          "note": "desk_classification=WALK_AWAY. Asset IP public-only close. No endometriosis-specific patent/app number. Adjacent AU2024230822A1 / WO2024182699 / WO2017072762 (BOL+Kindeva pMDI / Yissum) do not satisfy the CONTINGENT citable-endo-number bar. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING hardened to WALK_AWAY. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
+          "note": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
         },
         "kill": {
           "triggered": true,
@@ -29759,7 +29759,7 @@
             "S_PRIVATE_IP_ONLY",
             "S_LICENSE_MAP_MISSING"
           ],
-          "notes": "No endometriosis-specific patent/app number. Adjacent AU2024230822A1 / WO2024182699 / WO2017072762 (BOL+Kindeva pMDI / Yissum) do not satisfy the CONTINGENT citable-endo-number bar. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING hardened to WALK_AWAY. Do not reopen as PASS/CONTINGENT."
+          "notes": "WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT."
         },
         "process": {
           "outreach": "none",
@@ -29782,7 +29782,7 @@
             "S_LICENSE_MAP_MISSING",
             "NOT_OPTIONABLE"
           ],
-          "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. BOL — no endometriosis-specific patent; adjacent pMDI/Yissum only"
+          "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. BOL — no endometriosis-specific patent; Kindeva pMDI adjacent = watchlist only"
         },
         "modules": {
           "asset_ip_desk": {
@@ -29799,12 +29799,12 @@
             "adjacent_only": true,
             "provisional_contingent": false,
             "locked_prior": true,
-            "who_can_grant_rights": "BOL — no endometriosis-specific patent; adjacent pMDI/Yissum only",
+            "who_can_grant_rights": "BOL — no endometriosis-specific patent; Kindeva pMDI adjacent = watchlist only",
             "source": "asset_ip_public_only"
           }
         },
-        "updated_at": "2026-09-13T06:00:39Z",
-        "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. No endometriosis-specific patent/app number. Adjacent AU2024230822A1 / WO2024182699 / WO2017072762 (BOL+Kindeva pMDI / Yissum) do not satisfy the CONTINGENT citable-endo-number bar. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING hardened to WALK_AWAY. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
+        "updated_at": "2026-09-13T06:02:15Z",
+        "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
         "schema_version": "wave-1b.rights-stub.v1",
@@ -65588,7 +65588,7 @@
         "fto_lite": {
           "status": "unknown",
           "blocking_refs": [],
-          "note": "Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT.",
+          "note": "WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API).",
           "confidence": "medium"
         },
         "coi": {
@@ -65602,7 +65602,7 @@
           "ownable": false,
           "confidence": "medium",
           "recommendation": "walk_away",
-          "note": "desk_classification=WALK_AWAY. Asset IP public-only close. Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed (public-only watchlist note only)."
+          "note": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API). ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
         },
         "kill": {
           "triggered": true,
@@ -65618,7 +65618,7 @@
           "soft": [
             "S_PRIVATE_IP_ONLY"
           ],
-          "notes": "Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT."
+          "notes": "WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API)."
         },
         "process": {
           "outreach": "none",
@@ -65640,7 +65640,7 @@
             "S_PRIVATE_IP_ONLY",
             "NOT_OPTIONABLE"
           ],
-          "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. Viramal — no citable public patent number after Asset IP pass"
+          "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. Viramal — abandoned/platform apps are a reformulation path, not CONTINGENT"
         },
         "modules": {
           "asset_ip_desk": {
@@ -65651,18 +65651,18 @@
             "updated_by": "asset_ip",
             "updated_at": "2026-09-13",
             "blind_md": "LIVE",
-            "next_diligence_step": "None — closed (public-only watchlist note only)",
+            "next_diligence_step": "None — closed",
             "optionable_candidate": false,
             "public_patent_null": true,
             "adjacent_only": false,
             "provisional_contingent": false,
             "locked_prior": false,
-            "who_can_grant_rights": "Viramal — no citable public patent number after Asset IP pass",
+            "who_can_grant_rights": "Viramal — abandoned/platform apps are a reformulation path, not CONTINGENT",
             "source": "asset_ip_public_only"
           }
         },
-        "updated_at": "2026-09-13T06:00:39Z",
-        "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed (public-only watchlist note only)."
+        "updated_at": "2026-09-13T06:02:15Z",
+        "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API). ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
         "schema_version": "wave-1b.rights-stub.v1",

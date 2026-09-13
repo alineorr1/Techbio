@@ -298,7 +298,7 @@ def desk_fills() -> list[dict[str, Any]]:
             "asset_name": "VML-0501",
             "sponsor": "Viramal Limited",
             "sponsor_type": "industry",
-            "who_can_grant": "Viramal — no citable public patent number after Asset IP pass",
+            "who_can_grant": "Viramal — abandoned/platform apps are a reformulation path, not CONTINGENT",
             "indication": "Endometriosis",
             "modality": "small_molecule",
             "hard": ["K_COM_ELSEWHERE", "K_NO_IP_EMPTY_DOCKET"],
@@ -306,10 +306,11 @@ def desk_fills() -> list[dict[str, Any]]:
             "patents": [],
             "public_patent_null": True,
             "patents_note": (
-                "Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec "
-                "CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT."
+                "WALK_AWAY because found abandoned/platform apps still = reformulation path, "
+                "not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. "
+                "S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API)."
             ),
-            "next_diligence": "None — closed (public-only watchlist note only)",
+            "next_diligence": "None — closed",
         },
         {
             "nct_id": "NCT05370521",
@@ -452,23 +453,23 @@ def desk_fills() -> list[dict[str, Any]]:
             "asset_name": "BOL-DP-o-08",
             "sponsor": "Breath of Life International Pharma Ltd",
             "sponsor_type": "industry",
-            "who_can_grant": "BOL — no endometriosis-specific patent; adjacent pMDI/Yissum only",
+            "who_can_grant": "BOL — no endometriosis-specific patent; Kindeva pMDI adjacent = watchlist only",
             "indication": "Endometriosis",
             "modality": "other",
             "hard": ["K_NO_IP_EMPTY_DOCKET", "K_VALUE_NOT_CAPTURED"],
             "soft": ["S_PRIVATE_IP_ONLY", "S_LICENSE_MAP_MISSING"],
             "patents": [
-                {"number": "AU2024230822A1", "adjacent": True, "title": "pMDI BOL+Kindeva"},
-                {"number": "WO2024182699", "adjacent": True, "title": "adjacent pMDI"},
-                {"number": "WO2017072762", "adjacent": True, "title": "adjacent Yissum licensee only"},
+                {"number": "AU2024230822A1", "adjacent": True, "title": "watchlist only — Kindeva pMDI adjacent"},
+                {"number": "WO2024182699", "adjacent": True, "title": "watchlist only — Kindeva pMDI adjacent"},
+                {"number": "WO2017072762", "adjacent": True, "title": "watchlist only — Yissum adjacent"},
             ],
             "public_patent_null": False,
             "adjacent_only": True,
             "patents_note": (
-                "No endometriosis-specific patent/app number. Adjacent AU2024230822A1 / "
-                "WO2024182699 / WO2017072762 (BOL+Kindeva pMDI / Yissum) do not satisfy the "
-                "CONTINGENT citable-endo-number bar. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING "
-                "hardened to WALK_AWAY. Do not reopen as PASS/CONTINGENT."
+                "WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / "
+                "WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. "
+                "No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + "
+                "S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT."
             ),
             "next_diligence": "None — closed",
             "locked_prior": True,

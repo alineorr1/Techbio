@@ -85,7 +85,7 @@
   "fto_lite": {
     "status": "unknown",
     "blocking_refs": [],
-    "note": "Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT.",
+    "note": "WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API).",
     "confidence": "medium"
   },
   "coi": {
@@ -99,7 +99,7 @@
     "ownable": false,
     "confidence": "medium",
     "recommendation": "walk_away",
-    "note": "desk_classification=WALK_AWAY. Asset IP public-only close. Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed (public-only watchlist note only)."
+    "note": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API). ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
   },
   "kill": {
     "triggered": true,
@@ -115,7 +115,7 @@
     "soft": [
       "S_PRIVATE_IP_ONLY"
     ],
-    "notes": "Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT."
+    "notes": "WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API)."
   },
   "process": {
     "outreach": "none",
@@ -137,7 +137,7 @@
       "S_PRIVATE_IP_ONLY",
       "NOT_OPTIONABLE"
     ],
-    "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. Viramal — no citable public patent number after Asset IP pass"
+    "notes": "desk_classification=WALK_AWAY. Never PASS. Empty≠ownable. Viramal — abandoned/platform apps are a reformulation path, not CONTINGENT"
   },
   "modules": {
     "asset_ip_desk": {
@@ -148,16 +148,16 @@
       "updated_by": "asset_ip",
       "updated_at": "2026-09-13",
       "blind_md": "LIVE",
-      "next_diligence_step": "None — closed (public-only watchlist note only)",
+      "next_diligence_step": "None — closed",
       "optionable_candidate": false,
       "public_patent_null": true,
       "adjacent_only": false,
       "provisional_contingent": false,
       "locked_prior": false,
-      "who_can_grant_rights": "Viramal — no citable public patent number after Asset IP pass",
+      "who_can_grant_rights": "Viramal — abandoned/platform apps are a reformulation path, not CONTINGENT",
       "source": "asset_ip_public_only"
     }
   },
-  "updated_at": "2026-09-13T06:00:39Z",
-  "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. Public patent-number pass null. S_PRIVATE_IP_ONLY hardened under Pharma Exec CONTINGENT-requires-citable-number bar + K_COM_ELSEWHERE (API). Not CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed (public-only watchlist note only)."
+  "updated_at": "2026-09-13T06:02:15Z",
+  "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY because found abandoned/platform apps still = reformulation path, not CONTINGENT under the Pharma Exec citable-number bar. Do not reopen as CONTINGENT. S_PRIVATE_IP_ONLY hardened + K_COM_ELSEWHERE (API). ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
 }

@@ -76,6 +76,10 @@ def test_viramal_and_bol_flipped_to_walk_away(tmp_path: Path):
     assert bol["modules"]["asset_ip_desk"]["adjacent_only"] is True
     assert vir["ownership"]["ownable"] is False
     assert bol["ownership"]["ownable"] is False
+    assert "reformulation path" in vir["ownership"]["note"]
+    assert "not CONTINGENT" in vir["notes"]
+    assert "watchlist note only" in bol["ownership"]["note"]
+    assert "not a CONTINGENT reopen" in bol["notes"]
     assert evaluate_pre_pass(rights=vir)["verdict"] != "PASS"
     assert evaluate_pre_pass(rights=bol)["verdict"] != "PASS"
 
