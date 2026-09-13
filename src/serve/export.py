@@ -32,6 +32,18 @@ from src.rights.store import load_rights, rights_for_nct
 
 import re
 
+def _always_include_ncts(cfg: dict[str, Any] | None = None) -> set[str]:
+    cfg = cfg or indications_config()
+    return {str(nct) for nct in (cfg.get("always_include_ncts") or [])}
+
+
+def _keep_for_export(nct: str, indication: str, cfg: dict[str, Any] | None = None) -> bool:
+    """False-positive hygiene: drop indication==other unless NCT is a sentinel."""
+    if indication != "other":
+        return True
+    return nct in _always_include_ncts(cfg)
+
+
 def _indication(study: dict[str, Any]) -> str:
     cfg = indications_config()
     conds = " ".join(nested(study, "protocolSection", "conditionsModule", "conditions") or []).lower()
@@ -98,6 +110,8 @@ def build_asset(nct: str) -> dict[str, Any] | None:
     ints = nested(study, "protocolSection", "armsInterventionsModule", "interventions") or []
     pop = extraction.get("population") or {}
     indication = _indication(study)
+    if not _keep_for_export(nct, indication):
+        return None
     ind_label = (indications_config()["indications"].get(indication) or {}).get("label") or indication
     pid = (enrich.get("programme_id") or programme_id_for(identifiers_from_nct(nct)))
     rights = enrich.get("rights_record") or load_rights(nct_id=nct, programme_id=pid) or rights_for_nct(nct)
