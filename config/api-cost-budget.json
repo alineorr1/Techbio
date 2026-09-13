@@ -1,0 +1,5 @@
+{
+  "kill": true,
+  "allowlist": ["gpt-4o-mini"],
+  "ceiling_usd": 50
+}

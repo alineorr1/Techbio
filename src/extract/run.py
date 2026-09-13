@@ -70,25 +70,28 @@ async def run_async(
 ) -> dict[str, int]:
     ensure_dirs()
     extractor = Extractor(force_mock=force_mock)
-    paths = sorted(RAW_CTG_DIR.glob("*.json"))
-    if nct_ids:
-        want = set(nct_ids)
-        paths = [p for p in paths if p.stem in want]
-    counts = {"ok": 0, "quarantine": 0, "missing": 0, "skipped": 0}
-    sem = asyncio.Semaphore(8)
+    try:
+        paths = sorted(RAW_CTG_DIR.glob("*.json"))
+        if nct_ids:
+            want = set(nct_ids)
+            paths = [p for p in paths if p.stem in want]
+        counts = {"ok": 0, "quarantine": 0, "missing": 0, "skipped": 0}
+        sem = asyncio.Semaphore(8)
 
-    async def one(path: Path) -> None:
-        async with sem:
-            if skip_existing and _extract_is_fresh(path):
-                counts["skipped"] = counts.get("skipped", 0) + 1
-                return
-            study = load_json(path)
-            status = await extract_one(extractor, study, path)
-            counts[status] = counts.get(status, 0) + 1
+        async def one(path: Path) -> None:
+            async with sem:
+                if skip_existing and _extract_is_fresh(path):
+                    counts["skipped"] = counts.get("skipped", 0) + 1
+                    return
+                study = load_json(path)
+                status = await extract_one(extractor, study, path)
+                counts[status] = counts.get(status, 0) + 1
 
-    await asyncio.gather(*(one(p) for p in paths))
-    print(f"[extract] prompt={PROMPT_VERSION} model={extractor.model} {counts} n={len(paths)}")
-    return counts
+        await asyncio.gather(*(one(p) for p in paths))
+        print(f"[extract] prompt={PROMPT_VERSION} model={extractor.model} {counts} n={len(paths)}")
+        return counts
+    finally:
+        extractor.close()
 
 
 def main(argv: list[str] | None = None) -> None:
