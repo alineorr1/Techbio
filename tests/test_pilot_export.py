@@ -9,7 +9,7 @@ from src.paths import ROOT
 from src.pilot.ctis_example import DEFAULT_EU_CT, build_ctis_asset_in_memory
 from src.pilot.dossier import build_dossier, render_markdown
 from src.pilot.export import parse_ids, write_dossier
-from src.pilot.labels import LABEL_OPP
+from src.pilot.labels import LABEL_OPP, LABEL_RIGHTS_QUEUE
 from src.pilot.snapshot import find_asset, snapshot_assets
 from src.rights.codes import BIOGENE_ELTA_NCT, LINZAGOLIX_NCT
 from src.rights.gates import NOT_OPTIONABLE
@@ -69,6 +69,7 @@ def test_ctis_eu_example_not_optionable():
     assert asset["gate_surface"] == NOT_OPTIONABLE
     dossier = build_dossier(asset)
     assert dossier["registry"]["eu_ct"] == DEFAULT_EU_CT
+    assert dossier["label"] == LABEL_RIGHTS_QUEUE
     assert dossier["label"] != LABEL_OPP
     assert dossier["rights"]["empty_stub"] is True
     assert dossier["score"]["gate_surface"] == NOT_OPTIONABLE
@@ -77,9 +78,11 @@ def test_ctis_eu_example_not_optionable():
 
 def test_ui_copy_holds_md_banner_and_drops_blind_md_hold():
     asset_view = (ROOT / "dashboard" / "src" / "views" / "AssetView.tsx").read_text()
+    ranked = (ROOT / "dashboard" / "src" / "views" / "RankedView.tsx").read_text()
     chrome = (ROOT / "dashboard" / "src" / "components" / "chrome.tsx").read_text()
     app = (ROOT / "dashboard" / "src" / "App.tsx").read_text()
-    blob = asset_view + chrome + app
+    labels = (ROOT / "dashboard" / "src" / "lib" / "labels.ts").read_text()
+    blob = asset_view + ranked + chrome + app + labels
     assert "Blind MD stays HOLD" not in blob
     assert "MD-LIVE" not in blob
     assert "MD LIVE" not in blob
@@ -87,6 +90,13 @@ def test_ui_copy_holds_md_banner_and_drops_blind_md_hold():
     assert "NOT OPTIONABLE" in asset_view
     assert '|| "HOLD"' not in asset_view
     assert "mock" in chrome
+    assert "Shortlist-ownable" not in asset_view
+    assert "shortlist_ownable (gate)" in asset_view
+    assert "fill queue" not in blob.lower()
+    assert "RIGHTS_QUEUE" in ranked
+    assert "never OPP" in ranked
+    assert 'label: LABEL_RIGHTS_QUEUE' in labels
+    assert "Triage-keep. Overflow" not in labels
 
 
 def test_snapshot_not_required_for_queue_size():

@@ -30,7 +30,11 @@ def test_committed_queue_and_kill_book_contract():
     queue = load_json(RIGHTS_QUEUE_PATH)
     assert 30 <= queue["n_queue"] <= 50
     assert queue["n_opp"] == 0
+    assert queue.get("n_rights_queue", 0) >= 500
+    assert "RIGHTS_QUEUE" in (queue.get("note") or "")
+    assert "fill queue" not in (queue.get("note") or "").lower()
     assert all(row["empty_stub"] for row in queue["queue"])
+    assert all(row["label"] == "RIGHTS_QUEUE" for row in queue["queue"])
     assert BIOGENE_ELTA_NCT not in [row["nct_id"] for row in queue["queue"]]
     book = load_json(KILL_BOOK_PATH)
     assert book["n"] == 18
@@ -46,6 +50,7 @@ def test_committed_dossiers_are_not_opp():
     ctis = load_json(PILOT_CTIS_EXAMPLE_DIR / "2023-599001-99-00.json")
     assert ctis["registry"]["eu_ct"] == "2023-599001-99-00"
     assert ctis["rights"]["empty_stub"] is True
+    assert ctis["label"] == "RIGHTS_QUEUE"
     assert ctis["label"] != "OPP"
     assert ctis["score"]["gate_surface"] == NOT_OPTIONABLE
     readme = (PILOT_CTIS_EXAMPLE_DIR / "README.md").read_text()

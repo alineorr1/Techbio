@@ -13,6 +13,8 @@ export type LabelRow = {
   triage: TriageDisposition;
   note: string;
   queueTier?: string | null;
+  humanFill?: boolean;
+  autoWalk?: boolean;
 };
 
 type QueueRules = {
@@ -159,24 +161,40 @@ export function labelSnapshot(assets: Asset[], cap = QUEUE_RULES.cap): Map<strin
       out.set(key, {
         label: LABEL_OPP,
         triage: "keep",
-        note: "OPP is not a high score. Rights+path only.",
+        note: "OPP is not invented from score. Rights+path only.",
+        humanFill: false,
+        autoWalk: false,
       });
       continue;
     }
     const hit = disregardHit(asset);
     if (hit) {
-      out.set(key, {
-        label: LABEL_TRIAGE,
-        triage: "disregard",
-        note: hit.note,
-      });
+      if (isEmptyStub(asset)) {
+        out.set(key, {
+          label: LABEL_RIGHTS_QUEUE,
+          triage: "disregard",
+          note: "Empty rights are RIGHTS_QUEUE, never OPP. OPP is not invented from score.",
+          humanFill: false,
+          autoWalk: true,
+        });
+      } else {
+        out.set(key, {
+          label: LABEL_TRIAGE,
+          triage: "disregard",
+          note: hit.note,
+          humanFill: false,
+          autoWalk: true,
+        });
+      }
       continue;
     }
     if (!isEmptyStub(asset)) {
       out.set(key, {
         label: LABEL_TRIAGE,
         triage: "keep",
-        note: "Triage-keep. High score ≠ OPP.",
+        note: "TRIAGE (stop-mode). Not OPP.",
+        humanFill: false,
+        autoWalk: false,
       });
       continue;
     }
@@ -191,20 +209,14 @@ export function labelSnapshot(assets: Asset[], cap = QUEUE_RULES.cap): Map<strin
   });
 
   candidates.forEach((asset, idx) => {
-    if (idx < limit) {
-      out.set(asset.nct_id, {
-        label: LABEL_RIGHTS_QUEUE,
-        triage: "keep",
-        note: "Survived hard-kill disregard; rights empty / NOT OPTIONABLE.",
-        queueTier: queueTier(asset),
-      });
-      return;
-    }
+    const handed = idx < limit;
     out.set(asset.nct_id, {
-      label: LABEL_TRIAGE,
+      label: LABEL_RIGHTS_QUEUE,
       triage: "keep",
-      note: "Triage-keep. Overflow — not in the capped rights-fill queue.",
+      note: "Empty rights are RIGHTS_QUEUE, never OPP. OPP is not invented from score.",
       queueTier: queueTier(asset),
+      humanFill: handed,
+      autoWalk: false,
     });
   });
 

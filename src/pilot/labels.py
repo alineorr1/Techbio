@@ -1,7 +1,7 @@
-"""T2 label taxonomy: TRIAGE / RIGHTS_QUEUE / OPP.
+"""T2 desk vocabulary (Asset IP / Aline): TRIAGE / RIGHTS_QUEUE / OPP.
 
-Never badge OPP on empty_stub. High score alone is never OPP.
-OPP is rare: rights+path clear enough AND a PATH stub has been started.
+Empty-rights survivors are RIGHTS_QUEUE, never OPP.
+OPP is not invented from score alone (Eng or Asset IP).
 """
 
 from __future__ import annotations
@@ -140,29 +140,46 @@ def assign_label(
     rights: dict[str, Any] | None = None,
     disregarded: bool = False,
     in_active_queue: bool = False,
+    auto_walk: bool = False,
+    human_fill: bool | None = None,
 ) -> dict[str, Any]:
-    """Return the T2 label row. Caller decides queue membership and disregard."""
+    """T2 label. Empty rights → RIGHTS_QUEUE. Locked filled WALK_AWAY → TRIAGE.
+
+    ``disregarded`` / ``auto_walk`` / ``human_fill`` do not invent OPP and do not
+    relabel empty-rights survivors as TRIAGE. The ≤50 human-fill handoff is a
+    subset of RIGHTS_QUEUE after auto-WALK of generics/marketed.
+    """
     rec = rights if rights is not None else _rights_of(asset)
+    empty = is_empty_stub(asset, rec)
+    handed = in_active_queue if human_fill is None else human_fill
     if opp_eligible(asset, rec):
         return {
             "label": LABEL_OPP,
             "triage": TRIAGE_KEEP,
-            "note": "OPP is not a high score. Rights+path only.",
+            "human_fill": False,
+            "auto_walk": False,
+            "note": "OPP is not invented from score. Rights+path only.",
         }
-    if disregarded or _desk(asset, rec) == "WALK_AWAY":
+    if _desk(asset, rec) == "WALK_AWAY" and not empty:
         return {
             "label": LABEL_TRIAGE,
             "triage": TRIAGE_DISREGARD,
-            "note": "Pre-queue disregard or locked WALK_AWAY. Not a fill item.",
+            "human_fill": False,
+            "auto_walk": True,
+            "note": "Locked WALK_AWAY. Not RIGHTS_QUEUE (rights were filled). Not OPP.",
         }
-    if in_active_queue:
+    if empty:
         return {
             "label": LABEL_RIGHTS_QUEUE,
-            "triage": TRIAGE_KEEP,
-            "note": "Survived hard-kill disregard; rights empty / NOT OPTIONABLE. Human fill backlog.",
+            "triage": TRIAGE_DISREGARD if (disregarded or auto_walk) else TRIAGE_KEEP,
+            "human_fill": bool(handed),
+            "auto_walk": bool(auto_walk or disregarded),
+            "note": "Empty rights are RIGHTS_QUEUE, never OPP. OPP is not invented from score.",
         }
     return {
         "label": LABEL_TRIAGE,
-        "triage": TRIAGE_KEEP,
-        "note": "Triage-keep. Not in the capped rights-fill queue. High score ≠ OPP.",
+        "triage": TRIAGE_DISREGARD if disregarded else TRIAGE_KEEP,
+        "human_fill": False,
+        "auto_walk": bool(auto_walk or disregarded),
+        "note": "TRIAGE (stop-mode). Not OPP.",
     }

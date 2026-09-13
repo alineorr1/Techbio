@@ -1,4 +1,4 @@
-"""T1 + T3: pre-queue disregard + capped (≤50) Asset IP human-fill queue."""
+"""T1 + T3: auto-WALK generics/marketed, then cap ≤50 of RIGHTS_QUEUE for human fill."""
 
 from __future__ import annotations
 
@@ -156,36 +156,36 @@ def sort_key(asset: dict[str, Any], rules: dict[str, Any] | None = None) -> tupl
 
 
 def label_assets(assets: list[dict[str, Any]], *, cap: int | None = None) -> dict[str, dict[str, Any]]:
-    """Map nct/display id → label row, using the same cap as the exported queue."""
+    """Map id → T2 label. Empty-rights survivors are RIGHTS_QUEUE (never OPP)."""
     built = build_rights_queue(assets, cap=cap)
     by_id = {str(a.get("nct_id") or a.get("primary_display_id") or ""): a for a in assets}
     out: dict[str, dict[str, Any]] = {}
+    handed = {str(r.get("nct_id") or "") for r in built["queue"]}
     for row in built["disregarded"]:
         key = str(row.get("nct_id") or "")
-        if key:
-            out[key] = {
-                "label": LABEL_TRIAGE,
-                "triage": TRIAGE_DISREGARD,
-                "queue_tier": None,
-                "disregard": {"code": row.get("disregard_code"), "note": row.get("disregard_note")},
-                "note": row.get("disregard_note") or "Pre-queue disregard.",
-            }
+        asset = by_id.get(key) or {}
+        if not key:
+            continue
+        tagged = assign_label(asset, disregarded=True, auto_walk=True, human_fill=False)
+        tagged["queue_tier"] = None
+        tagged["disregard"] = {"code": row.get("disregard_code"), "note": row.get("disregard_note")}
+        out[key] = tagged
     for row in built["overflow"]:
         key = str(row.get("nct_id") or "")
         if key:
-            tagged = assign_label(by_id.get(key) or {}, in_active_queue=False)
+            tagged = assign_label(by_id.get(key) or {}, human_fill=False)
             tagged["queue_tier"] = row.get("queue_tier")
             out[key] = tagged
     for row in built["queue"]:
         key = str(row.get("nct_id") or "")
         if key:
-            tagged = assign_label(by_id.get(key) or {}, in_active_queue=True)
+            tagged = assign_label(by_id.get(key) or {}, human_fill=True)
             tagged["queue_tier"] = row.get("queue_tier")
             out[key] = tagged
     for asset in assets:
         key = str(asset.get("nct_id") or asset.get("primary_display_id") or "")
         if key and key not in out:
-            out[key] = assign_label(asset, in_active_queue=False)
+            out[key] = assign_label(asset, human_fill=key in handed)
     return out
 
 
@@ -256,6 +256,19 @@ def build_rights_queue(
         row["rank"] = idx
         row["label"] = LABEL_RIGHTS_QUEUE
         row["triage"] = TRIAGE_KEEP
+        row["human_fill"] = True
+        row["auto_walk"] = False
+    for row in overflow:
+        row["label"] = LABEL_RIGHTS_QUEUE
+        row["triage"] = TRIAGE_KEEP
+        row["human_fill"] = False
+        row["auto_walk"] = False
+    for row in disregarded:
+        empty = bool(row.get("empty_stub"))
+        row["label"] = LABEL_RIGHTS_QUEUE if empty else LABEL_TRIAGE
+        row["triage"] = TRIAGE_DISREGARD
+        row["human_fill"] = False
+        row["auto_walk"] = True
 
     public_queue = [{k: v for k, v in row.items() if k != "_asset"} for row in queue]
     public_overflow = [{k: v for k, v in row.items() if k != "_asset"} for row in overflow]

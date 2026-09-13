@@ -1,6 +1,6 @@
 {
   "schema_version": "pilot.rights-queue.v1",
-  "narrative": "Active Asset IP human-fill queue is capped at 50. Empty rights stay NOT OPTIONABLE. High score is not OPP. Disregard is pre-queue only — it does not loosen CONTINGENT citable-IP, withdrawn/0-enrolment, Intermezzo, REMS, or Rule B.",
+  "narrative": "Empty-rights survivors are RIGHTS_QUEUE, never OPP. OPP is not invented from score. Auto-WALK generics/marketed, then cap ≤50 of RIGHTS_QUEUE before human fill. Does not loosen CONTINGENT citable-IP, withdrawn/0-enrolment, Intermezzo, REMS, or Rule B.",
   "cap": 50,
   "cap_min": 30,
   "cap_max": 50,
@@ -61,7 +61,9 @@
       "matched": null,
       "rank": 1,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT04471337",
@@ -84,7 +86,9 @@
       "matched": null,
       "rank": 2,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT04851483",
@@ -107,7 +111,9 @@
       "matched": null,
       "rank": 3,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00225186",
@@ -130,7 +136,9 @@
       "matched": null,
       "rank": 4,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00225199",
@@ -153,7 +161,9 @@
       "matched": null,
       "rank": 5,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT04423744",
@@ -176,7 +186,9 @@
       "matched": null,
       "rank": 6,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT04454424",
@@ -199,7 +211,9 @@
       "matched": null,
       "rank": 7,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT03119077",
@@ -222,7 +236,9 @@
       "matched": null,
       "rank": 8,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT03573336",
@@ -245,7 +261,9 @@
       "matched": null,
       "rank": 9,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02975440",
@@ -268,7 +286,9 @@
       "matched": null,
       "rank": 10,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00185341",
@@ -291,7 +311,9 @@
       "matched": null,
       "rank": 11,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02545452",
@@ -314,7 +336,9 @@
       "matched": null,
       "rank": 12,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02434640",
@@ -337,7 +361,9 @@
       "matched": null,
       "rank": 13,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00800618",
@@ -360,7 +386,9 @@
       "matched": null,
       "rank": 14,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00784693",
@@ -383,7 +411,9 @@
       "matched": null,
       "rank": 15,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00110487",
@@ -406,7 +436,9 @@
       "matched": null,
       "rank": 16,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00318500",
@@ -429,7 +461,9 @@
       "matched": null,
       "rank": 17,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT05560646",
@@ -452,7 +486,9 @@
       "matched": null,
       "rank": 18,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT03373422",
@@ -475,7 +511,9 @@
       "matched": null,
       "rank": 19,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT03986944",
@@ -498,7 +536,9 @@
       "matched": null,
       "rank": 20,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02202408",
@@ -521,7 +561,9 @@
       "matched": null,
       "rank": 21,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02801565",
@@ -544,7 +586,9 @@
       "matched": null,
       "rank": 22,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00160420",
@@ -567,7 +611,9 @@
       "matched": null,
       "rank": 23,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT06118827",
@@ -590,7 +636,9 @@
       "matched": null,
       "rank": 24,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT05138562",
@@ -613,7 +661,9 @@
       "matched": null,
       "rank": 25,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT05664828",
@@ -636,7 +686,9 @@
       "matched": null,
       "rank": 26,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT03617263",
@@ -659,7 +711,9 @@
       "matched": null,
       "rank": 27,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00160446",
@@ -682,7 +736,9 @@
       "matched": null,
       "rank": 28,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00244452",
@@ -705,7 +761,9 @@
       "matched": null,
       "rank": 29,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT01942122",
@@ -728,7 +786,9 @@
       "matched": null,
       "rank": 30,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT06554548",
@@ -751,7 +811,9 @@
       "matched": null,
       "rank": 31,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT05868057",
@@ -774,7 +836,9 @@
       "matched": null,
       "rank": 32,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT04417972",
@@ -797,7 +861,9 @@
       "matched": null,
       "rank": 33,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT05894135",
@@ -820,7 +886,9 @@
       "matched": null,
       "rank": 34,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT06595797",
@@ -843,7 +911,9 @@
       "matched": null,
       "rank": 35,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT03709420",
@@ -866,7 +936,9 @@
       "matched": null,
       "rank": 36,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00109512",
@@ -889,7 +961,9 @@
       "matched": null,
       "rank": 37,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00117481",
@@ -912,7 +986,9 @@
       "matched": null,
       "rank": 38,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02031523",
@@ -935,7 +1011,9 @@
       "matched": null,
       "rank": 39,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT01329796",
@@ -958,7 +1036,9 @@
       "matched": null,
       "rank": 40,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00160433",
@@ -981,7 +1061,9 @@
       "matched": null,
       "rank": 41,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00556075",
@@ -1004,7 +1086,9 @@
       "matched": null,
       "rank": 42,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00958412",
@@ -1027,7 +1111,9 @@
       "matched": null,
       "rank": 43,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02865915",
@@ -1050,7 +1136,9 @@
       "matched": null,
       "rank": 44,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT04327934",
@@ -1073,7 +1161,9 @@
       "matched": null,
       "rank": 45,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT02785822",
@@ -1096,7 +1186,9 @@
       "matched": null,
       "rank": 46,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT01428193",
@@ -1119,7 +1211,9 @@
       "matched": null,
       "rank": 47,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT00884819",
@@ -1142,7 +1236,9 @@
       "matched": null,
       "rank": 48,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT04942015",
@@ -1165,7 +1261,9 @@
       "matched": null,
       "rank": 49,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     },
     {
       "nct_id": "NCT03937401",
@@ -1188,7 +1286,9 @@
       "matched": null,
       "rank": 50,
       "label": "RIGHTS_QUEUE",
-      "triage": "keep"
+      "triage": "keep",
+      "human_fill": true,
+      "auto_walk": false
     }
   ],
   "overflow_ncts": [
@@ -1311,5 +1411,6 @@
     "NCT03927651",
     "NCT02265861"
   ],
-  "note": "Active fill queue is the `queue` array (≤50). Overflow survived disregard but is TRIAGE keep, not an active RIGHTS_QUEUE item. Gate surface stays NOT OPTIONABLE until rights+path clear. High score ≠ OPP."
+  "n_rights_queue": 561,
+  "note": "Empty-rights survivors are RIGHTS_QUEUE, never OPP. OPP is not invented from score. The `queue` array is the ≤50 human-fill handoff after auto-WALK of generics/marketed. Overflow stays RIGHTS_QUEUE but is not handed to a human yet. Gate surface stays NOT OPTIONABLE until rights+path clear."
 }

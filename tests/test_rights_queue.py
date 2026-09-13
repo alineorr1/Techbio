@@ -5,7 +5,8 @@ from __future__ import annotations
 import json
 
 from src.paths import RIGHTS_QUEUE_RULES_PATH, ROOT
-from src.pilot.queue import build_rights_queue, disregard_hit
+from src.pilot.labels import LABEL_RIGHTS_QUEUE, is_empty_stub
+from src.pilot.queue import build_rights_queue, disregard_hit, label_assets
 from src.pilot.snapshot import snapshot_assets
 from src.rights.codes import BIOGENE_ELTA_NCT, LINZAGOLIX_NCT
 
@@ -38,4 +39,18 @@ def test_live_snapshot_queue_is_capped_and_not_opp():
     assert all(row["empty_stub"] for row in built["queue"])
     assert all(row["optionable"] is False for row in built["queue"])
     assert all(row["label"] == "RIGHTS_QUEUE" for row in built["queue"])
+    assert all(row["label"] == "RIGHTS_QUEUE" for row in built["overflow"])
     assert "industry_single_grantor" in built["sort_order"]
+
+    tagged = label_assets(assets)
+    empty_ids = [
+        str(a.get("nct_id") or "")
+        for a in assets
+        if is_empty_stub(a) and a.get("nct_id")
+    ]
+    assert len(empty_ids) >= 500
+    assert all(tagged[nct]["label"] == LABEL_RIGHTS_QUEUE for nct in empty_ids)
+    assert all(tagged[nct]["label"] != "OPP" for nct in empty_ids)
+    assert sum(1 for row in tagged.values() if row.get("human_fill")) <= 50
+    assert tagged[BIOGENE_ELTA_NCT]["label"] != LABEL_RIGHTS_QUEUE
+    assert tagged[LINZAGOLIX_NCT]["label"] != LABEL_RIGHTS_QUEUE

@@ -10,9 +10,11 @@
     "ownable_portfolio_language": false,
     "hypothesis_for_human_review": true
   },
-  "label": "TRIAGE",
+  "label": "RIGHTS_QUEUE",
   "triage": "disregard",
-  "label_note": "Pre-queue disregard or locked WALK_AWAY. Not a fill item.",
+  "human_fill": false,
+  "auto_walk": true,
+  "label_note": "Empty rights are RIGHTS_QUEUE, never OPP. OPP is not invented from score.",
   "registry": {
     "nct_id": null,
     "programme_id": "p_07efb41627c08534",
@@ -120,7 +122,7 @@
     "status": "thin_stub",
     "is_opp": false,
     "empty_stub_is_opp": false,
-    "recommendation": "Not an OPP. Empty rights / NOT OPTIONABLE. Hypothesis for human review only.",
+    "recommendation": "Not an OPP. Empty rights stay RIGHTS_QUEUE / NOT OPTIONABLE. Hypothesis for human review only.",
     "note": "Half-page IC stub. Does not claim PASS or an ownable book. Dashboard MD banner remains held by CoS. No MD-LIVE chrome."
   },
   "title": "Letrozole for endometriosis-associated pain",

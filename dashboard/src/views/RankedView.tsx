@@ -66,7 +66,7 @@ export function RankedView({ snapshot }: { snapshot: Snapshot }) {
         <p>
           {rows.length} of {snapshot.assets.length}
           {snapshot.counts?.n_raw != null ? ` · ${snapshot.counts.n_raw} registry rows` : null}
-          {" · TRIAGE / RIGHTS_QUEUE / OPP — OPP is not a high score"}
+          {" · TRIAGE / RIGHTS_QUEUE / OPP — empty rights are RIGHTS_QUEUE, never OPP"}
         </p>
       </PageHeader>
 

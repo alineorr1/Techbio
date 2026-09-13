@@ -1,6 +1,6 @@
 {
   "schema_version": "pilot.kill-book.v1",
-  "narrative": "Locked WALK_AWAY closes. Negative labels are product. These rows are not optionable, not OPP, and not a rights-fill queue. Economic right unit only — a high triage score does not reopen a kill.",
+  "narrative": "Locked WALK_AWAY closes. Negative labels are product. These rows are not optionable, not OPP, and not RIGHTS_QUEUE. Economic right unit only — a high triage score does not reopen a kill.",
   "n": 18,
   "ncts": [
     "NCT02669238",

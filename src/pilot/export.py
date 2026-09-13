@@ -65,10 +65,12 @@ def _public_queue_payload(built: dict[str, Any]) -> dict[str, Any]:
         "rules": built["rules"],
         "queue": built["queue"],
         "overflow_ncts": [row.get("nct_id") for row in built.get("overflow") or []],
+        "n_rights_queue": built.get("n_empty_stub", 0),
         "note": (
-            "Active fill queue is the `queue` array (≤50). Overflow survived disregard "
-            "but is TRIAGE keep, not an active RIGHTS_QUEUE item. "
-            f"Gate surface stays {NOT_OPTIONABLE} until rights+path clear. High score ≠ OPP."
+            "Empty-rights survivors are RIGHTS_QUEUE, never OPP. OPP is not invented from score. "
+            "The `queue` array is the ≤50 human-fill handoff after auto-WALK of "
+            "generics/marketed. Overflow stays RIGHTS_QUEUE but is not handed to a human yet. "
+            f"Gate surface stays {NOT_OPTIONABLE} until rights+path clear."
         ),
     }
 
@@ -150,6 +152,7 @@ def write_pilot_readme(dest: Path | None = None) -> Path:
         "# Pilot pack (Ali D1 + Pharma Exec bar)\n"
         "\n"
         "Unpaid mock extract only. No paid LLM. No public marketing. No MD-LIVE dashboard banner.\n"
+        "Desk vocabulary: TRIAGE / RIGHTS_QUEUE / OPP.\n"
         "\n"
         "## Commands\n"
         "\n"
@@ -170,13 +173,14 @@ def write_pilot_readme(dest: Path | None = None) -> Path:
         "Nexplanon / elagolix brands), imaging-only, blood-product / PRP.\n"
         "4. Remaining **empty-stub / NOT OPTIONABLE** rows that survived those hard kills "
         "are sorted: industry single-grantor → thin biotech → TT named-asset → other.\n"
-        "5. **Cap 50** (floor 30 / ceiling 50). Overflow stays TRIAGE keep, not the active queue.\n"
+        "5. **Cap ≤50** (floor 30 / ceiling 50) of RIGHTS_QUEUE before anything is handed "
+        "to human fill. Overflow stays **RIGHTS_QUEUE** (never OPP); it is not the handoff set.\n"
         "\n"
-        "Disregard does **not** loosen: empty→NOT OPTIONABLE; CONTINGENT needs citable IP; "
+        "Auto-WALK does **not** loosen: empty→NOT OPTIONABLE; CONTINGENT needs citable IP; "
         "Intermezzo; REMS; Rule B.\n"
         "\n"
-        "`RIGHTS_QUEUE` is the capped human-fill backlog. `OPP` is rare and **never** "
-        "applied to `empty_stub`. High score ≠ OPP.\n"
+        "Desk vocabulary: **TRIAGE** / **RIGHTS_QUEUE** / **OPP**. Empty-rights survivors "
+        "(~514 on this corpus) are **RIGHTS_QUEUE**, never OPP. OPP is not invented from score.\n"
         "\n"
         "## E7 CTIS EU example\n"
         "\n"

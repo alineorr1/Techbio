@@ -6,6 +6,7 @@ from typing import Any
 
 from src.pilot.labels import (
     LABEL_OPP,
+    LABEL_RIGHTS_QUEUE,
     assign_label,
     gate_surface_of,
     is_empty_stub,
@@ -92,7 +93,13 @@ def build_dossier(
     empty = is_empty_stub(asset, rights)
     labels = label_row or assign_label(asset, rights=rights)
     if empty and labels.get("label") == LABEL_OPP:
-        labels = {**labels, "label": "TRIAGE", "triage": "keep", "note": "empty_stub is never OPP."}
+        labels = {
+            **labels,
+            "label": LABEL_RIGHTS_QUEUE,
+            "triage": "keep",
+            "human_fill": False,
+            "note": "Empty rights are RIGHTS_QUEUE, never OPP. OPP is not invented from score.",
+        }
     pre = asset.get("pre_pass") or {}
     clf = asset.get("classification") or {}
     cmc = asset.get("cmc") if isinstance(asset.get("cmc"), dict) else cmc_of(rights)
@@ -109,6 +116,8 @@ def build_dossier(
         "narrative_lock": NARRATIVE_LOCK,
         "label": labels.get("label"),
         "triage": labels.get("triage"),
+        "human_fill": bool(labels.get("human_fill")),
+        "auto_walk": bool(labels.get("auto_walk")),
         "label_note": labels.get("note"),
         "registry": {
             "nct_id": asset.get("nct_id") if str(asset.get("nct_id") or "").startswith("NCT") else None,
@@ -170,9 +179,9 @@ def build_dossier(
             "is_opp": labels.get("label") == LABEL_OPP and not empty,
             "empty_stub_is_opp": False,
             "recommendation": (
-                "Not an OPP. Empty rights / NOT OPTIONABLE. Hypothesis for human review only."
+                "Not an OPP. Empty rights stay RIGHTS_QUEUE / NOT OPTIONABLE. Hypothesis for human review only."
                 if empty or labels.get("label") != LABEL_OPP
-                else "OPP candidate — rights+path only; not a buy."
+                else "OPP candidate — rights+path only; not a buy. OPP is not invented from score."
             ),
             "note": (
                 "Half-page IC stub. Does not claim PASS or an ownable book. "
@@ -219,8 +228,10 @@ def render_markdown(dossier: dict[str, Any]) -> str:
         "",
         f"- Label: `{dossier.get('label')}`",
         f"- Triage: `{dossier.get('triage')}`",
+        f"- Human-fill handoff: `{'yes' if dossier.get('human_fill') else 'no'}`",
+        f"- Auto-WALK: `{'yes' if dossier.get('auto_walk') else 'no'}`",
         f"- Note: {dossier.get('label_note') or '—'}",
-        f"- OPP on empty_stub: **no**",
+        f"- OPP on empty_stub: **no** (empty rights are RIGHTS_QUEUE, never OPP)",
         "",
         "## Registry",
         "",

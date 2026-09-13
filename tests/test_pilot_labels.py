@@ -25,8 +25,13 @@ def test_empty_stub_is_never_opp():
     }
     assert is_empty_stub(asset)
     assert opp_eligible(asset) is False
+    assert assign_label(asset)["label"] == LABEL_RIGHTS_QUEUE
     assert assign_label(asset)["label"] != LABEL_OPP
     assert assign_label(asset, in_active_queue=True)["label"] == LABEL_RIGHTS_QUEUE
+    auto = assign_label(asset, auto_walk=True, human_fill=False)
+    assert auto["label"] == LABEL_RIGHTS_QUEUE
+    assert auto["human_fill"] is False
+    assert auto["auto_walk"] is True
 
 
 def test_high_score_alone_is_not_opp():
@@ -83,3 +88,4 @@ def test_walk_away_is_triage_disregard():
     assert row["label"] == LABEL_TRIAGE
     assert row["triage"] == "disregard"
     assert row["label"] != LABEL_OPP
+    assert row["label"] != LABEL_RIGHTS_QUEUE

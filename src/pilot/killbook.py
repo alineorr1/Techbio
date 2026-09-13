@@ -14,7 +14,7 @@ SCHEMA_VERSION = "pilot.kill-book.v1"
 
 NARRATIVE = (
     "Locked WALK_AWAY closes. Negative labels are product. "
-    "These rows are not optionable, not OPP, and not a rights-fill queue. "
+    "These rows are not optionable, not OPP, and not RIGHTS_QUEUE. "
     "Economic right unit only — a high triage score does not reopen a kill."
 )
 

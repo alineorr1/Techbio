@@ -112,13 +112,13 @@ export function AssetView({ snapshot, nct }: { snapshot: Snapshot; nct: string }
           <span className="ml-3 text-mute">{labelWord(stage)}</span>
         </p>
         <p className="mt-2 text-[13px] text-mute">
-          Empty rights are NOT OPTIONABLE. This is a hypothesis for human review — a high score is
-          not a buy signal and does not make an asset OPP.
+          Empty rights are NOT OPTIONABLE and stay RIGHTS_QUEUE, never OPP. This is a hypothesis
+          for human review — a high score is not a buy signal and does not invent OPP.
         </p>
         <dl className="mt-4 grid grid-cols-2 gap-3 text-[13px] sm:grid-cols-4">
           <Fact label="Optionable" value={asset.optionable || asset.pre_pass?.optionable ? "yes" : "no"} />
           <Fact
-            label="Shortlist-ownable"
+            label="shortlist_ownable (gate)"
             value={asset.shortlist_ownable || asset.pre_pass?.shortlist_ownable ? "yes" : "no"}
           />
           <Fact label="MD status (record)" value={mdStatus || "—"} />
