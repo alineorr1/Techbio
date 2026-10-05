@@ -219,5 +219,48 @@
       ]
     }
   },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007889",
+          "term": "Leiomyoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009379",
+          "term": "Neoplasms, Muscle Tissue"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C586669",
+          "term": "vilaprisan"
+        },
+        {
+          "id": "C094854",
+          "term": "ulipristal"
+        }
+      ]
+    }
+  },
   "hasResults": false
 }

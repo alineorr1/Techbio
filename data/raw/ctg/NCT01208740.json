@@ -219,5 +219,54 @@
       ]
     }
   },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007246",
+          "term": "Infertility"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
   "hasResults": false
 }

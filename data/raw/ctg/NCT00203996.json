@@ -410,8 +410,1776 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Aim 1: Placebo",
+          "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+        },
+        {
+          "id": "FG001",
+          "title": "Aim 1: Pioglitazone",
+          "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+        },
+        {
+          "id": "FG002",
+          "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+          "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+        },
+        {
+          "id": "FG003",
+          "title": "Aim 2: PCOS + SDB With CPAP",
+          "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+        },
+        {
+          "id": "FG004",
+          "title": "Aim 2: Matched Controls With CPAP",
+          "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+        },
+        {
+          "id": "FG005",
+          "title": "Aim 3: REM Frag - SWS Supp - Baseline",
+          "description": "Each subject was assessed under three experimental conditions in the following order.\n\nREM fragmentation: Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed.\n\nSWS suppression: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed.\n\nBaseline: \"Baseline\" sleep (i.e., with no experimental intervention) assessment is recorded. This assessment may have been recorded as the first, second, or third intervention."
+        },
+        {
+          "id": "FG006",
+          "title": "Aim 3: REM Frag - Baseline - SWS Supp",
+          "description": "Each subject was assessed under three experimental conditions in the following order.\n\nREM fragmentation: Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed.\n\nBaseline: \"Baseline\" sleep (i.e., with no experimental intervention) assessment is recorded. This assessment may have been recorded as the first, second, or third intervention.\n\nSWS suppression: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed."
+        },
+        {
+          "id": "FG007",
+          "title": "Aim 3: Baseline - REM Frag - SWS Supp",
+          "description": "Each subject was assessed under three experimental conditions in the following order.\n\nBaseline: \"Baseline\" sleep (i.e., with no experimental intervention) assessment is recorded. This assessment may have been recorded as the first, second, or third intervention.\n\nREM fragmentation: Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed.\n\nSWS suppression: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed."
+        },
+        {
+          "id": "FG008",
+          "title": "Aim 3: SWS Supp - REM Frag - Baseline",
+          "description": "Each subject was assessed under three experimental conditions in the following order.\n\nSWS suppression: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed.\n\nREM fragmentation: Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed.\n\nBaseline: \"Baseline\" sleep (i.e., with no experimental intervention) assessment is recorded. This assessment may have been recorded as the first, second, or third intervention."
+        },
+        {
+          "id": "FG009",
+          "title": "Aim 3: Baseline - SWS Supp - REM Frag",
+          "description": "Each subject was assessed under three experimental conditions in the following order.\n\nBaseline: \"Baseline\" sleep (i.e., with no experimental intervention) assessment is recorded. This assessment may have been recorded as the first, second, or third intervention.\n\nSWS suppression: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed.\n\nREM fragmentation: Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "19"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Aim 3 Only: First Intervention",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Aim 3 Only: Washout",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Aim 3 Only: Second Intervention",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Aim 3 Only: Second Washout",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Aim 3 Only: Third Intervention",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "CPAP machine malfunction",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Scheduling issue",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG005",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG006",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG007",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG008",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG009",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Aim 1: Placebo",
+          "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+        },
+        {
+          "id": "BG001",
+          "title": "Aim 1: Pioglitazone",
+          "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+        },
+        {
+          "id": "BG002",
+          "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+          "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+        },
+        {
+          "id": "BG003",
+          "title": "Aim 2: PCOS + SDB With CPAP",
+          "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+        },
+        {
+          "id": "BG004",
+          "title": "Aim 2: Matched Controls With CPAP",
+          "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+        },
+        {
+          "id": "BG005",
+          "title": "Aim 3: All Participants",
+          "description": "Includes groups randomized to any experimental ordering in Aim 3"
+        },
+        {
+          "id": "BG006",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "0"
+            },
+            {
+              "groupId": "BG001",
+              "value": "0"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            },
+            {
+              "groupId": "BG003",
+              "value": "19"
+            },
+            {
+              "groupId": "BG004",
+              "value": "4"
+            },
+            {
+              "groupId": "BG005",
+              "value": "14"
+            },
+            {
+              "groupId": "BG006",
+              "value": "37"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG003",
+                      "value": "31.2",
+                      "spread": "5.3"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "32.2",
+                      "spread": "5.8"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "24.6",
+                      "spread": "2.7"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "28.8",
+                      "spread": "4.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG003",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "28"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG006",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Aim 1: Apnea-Hypopnea Index (AHI) [Baseline]",
+          "description": "Apnea-hypopnea index (AHI) is an index used to assess the severity of sleep apnea based on the total number of complete cessations (apnea) and partial obstructions (hypopnea) of breathing occurring per hour of sleep.",
+          "populationDescription": "No participants were randomized to these study arms.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 1: Placebo",
+              "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 1: Pioglitazone",
+              "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG002",
+              "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+              "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Aim 1: Apnea-hypopnea Index (AHI) [After Treatment]",
+          "description": "Apnea-hypopnea index (AHI) is an index used to assess the severity of sleep apnea based on the total number of complete cessations (apnea) and partial obstructions (hypopnea) of breathing occurring per hour of sleep.",
+          "populationDescription": "No participants were randomized to these study arms.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 1: Placebo",
+              "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 1: Pioglitazone",
+              "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG002",
+              "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+              "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Aim 2: Insulin Sensitivity Index (SI) From Intravenous Glucose Tolerance Test [Baseline]",
+          "description": "Insulin sensitivity Index (SI) is the increase in net fractional glucose clearance rate per unit change in plasma insulin concentration after an intravenous glucose load. SI quantifies the capacity of insulin to promote glucose disposal.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "mU/(liter x min)",
+          "timeFrame": "baseline (0 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.87",
+                      "spread": "0.13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.67",
+                      "spread": "1.01"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Aim 2: Insulin Sensitivity Index (SI) From Intravenous Glucose Tolerance Test [After CPAP]",
+          "description": "Insulin sensitivity Index (SI) is the increase in net fractional glucose clearance rate per unit change in plasma insulin concentration after an intravenous glucose load. SI quantifies the capacity of insulin to promote glucose disposal.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "mU/(liter x min)",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.93",
+                      "spread": "0.17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.57",
+                      "spread": "0.34"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 1: Blood Pressure [Baseline]",
+          "description": "Blood pressure is the pressure of blood within the arteries, produced primarily by the contraction of the heart muscle.",
+          "populationDescription": "No participants were randomized to these study arms.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "baseline (0 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 1: Placebo",
+              "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 1: Pioglitazone",
+              "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG002",
+              "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+              "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 1: Blood Pressure [After Treatment]",
+          "description": "Blood pressure is the pressure of blood within the arteries, produced primarily by the contraction of the heart muscle.",
+          "populationDescription": "No participants were randomized to these study arms.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 1: Placebo",
+              "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 1: Pioglitazone",
+              "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG002",
+              "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+              "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 1: Visceral Adiposity [Baseline]",
+          "description": "Visceral adiposity refers to the degree of fat located in the peritoneal cavity (abdominal area) that surrounds the body's internal organs.",
+          "populationDescription": "No participants were randomized to this arm.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "up to half of an hour",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 1: Placebo",
+              "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 1: Pioglitazone",
+              "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG002",
+              "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+              "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 1: Visceral Adiposity [After Treatment]",
+          "description": "Visceral adiposity refers to the degree of fat located in the peritoneal cavity (abdominal area) that surrounds the body's internal organs.",
+          "populationDescription": "No participants were randomized to this arm.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "up to half of an hour",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 1: Placebo",
+              "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 1: Pioglitazone",
+              "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm."
+            },
+            {
+              "id": "OG002",
+              "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+              "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 2: Mean Cortisol Levels Over 24 Hours, Per Patient [Baseline]",
+          "description": "This outcome is defined as the average concentration of cortisol (a glucocorticoid produced by the adrenal gland) in the blood, measured repeatedly over a 24 hour period in each patient individually.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "microgram/deciliter",
+          "timeFrame": "10 minutes, over a period of 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.6",
+                      "spread": "0.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.1",
+                      "spread": "0.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Aim 2: Acute Insulin Resistance to Intravenous Glucose (AIRg) [Baseline]",
+          "description": "Acute insulin resistance to intravenous glucose (AIRg) is a measure of the secretion of insulin during the first 10 minutes after an intravenous glucose load. AIRg addresses adequacy of insulin secretion.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "mU/(liter x min)",
+          "timeFrame": "baseline (0 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1711",
+                      "spread": "370"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "695",
+                      "spread": "228"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Aim 2: Acute Insulin Resistance to Intravenous Glucose (AIRg) [After CPAP]",
+          "description": "Acute insulin resistance to intravenous glucose (AIRg) is a measure of the secretion of insulin during the first 10 minutes after an intravenous glucose load. AIRg addresses adequacy of insulin secretion.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "mU/(liter x min)",
+          "timeFrame": "8 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1614",
+                      "spread": "385"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "722",
+                      "spread": "211"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 2: Mean Cortisol Levels Over 24 Hours, Per Patient [After Treatment]",
+          "description": "This outcome is defined as the average concentration of cortisol (a glucocorticoid produced by the adrenal gland) in the blood, measured repeatedly over a 24 hour period in each patient individually.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "microgram/deciliter",
+          "timeFrame": "10 minutes, over a period of 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.8",
+                      "spread": "0.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "spread": "0.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 2: Mean Leptin Levels Over 24 Hours, Per Patient [Baseline]",
+          "description": "This outcome is defined as the average concentration of leptin (a hormone produced by the fat cells that affects feeding behavior and appetite) in the blood, measured repeatedly over a 24 hour period in each patient individually.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "nanogram/milliliter",
+          "timeFrame": "15 minutes over a period of 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67.6",
+                      "spread": "10.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56.9",
+                      "spread": "1.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Aim 2: Mean Leptin Levels Over 24 Hours, Per Patient [After Treatment]",
+          "description": "This outcome is defined as the average concentration of leptin (a hormone produced by the fat cells that affects feeding behavior and appetite) in the blood, measured repeatedly over a 24 hour period in each patient individually.",
+          "populationDescription": "The recruitment of control subjects for this protocol was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria. As a consequence, the sample size of control subjects was insufficient to allow for any meaningful conclusions to be drawn. Statistical analyses were not possible due to insufficient sample size.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "nanogram/milliliter",
+          "timeFrame": "15 minutes over a period of 24 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 2: PCOS + SDB With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 2: Matched Controls With CPAP",
+              "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "65.8",
+                      "spread": "9.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "57.4",
+                      "spread": "2.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Aim 3: Insulin Sensitivity Index (SI) From Intravenous Glucose Tolerance Test [Baseline]",
+          "description": "Insulin sensitivity Index (SI) is the increase in net fractional glucose clearance rate per unit change in plasma insulin concentration after an intravenous glucose load. SI quantifies the capacity of insulin to promote glucose disposal.",
+          "populationDescription": "Due to technical issues, REM fragmentation data were not analyzable. Technical issues also resulted in non-analyzable data for two subjects in the SWS suppression study, thereby decreasing the sample size from 11 to 9 subjects.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "mU/(liter x min)",
+          "timeFrame": "Baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 3: REM Fragmentation",
+              "description": "Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 3: SWS Suppression",
+              "description": "Slow wave sleep (SWS) suppression: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG001",
+                      "value": "8.42",
+                      "spread": "1.12"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Aim 3: Insulin Sensitivity Index (SI) From Intravenous Glucose Tolerance Test [After 3 Nights of SWS Suppression]",
+          "description": "Insulin sensitivity Index (SI) is the increase in net fractional glucose clearance rate per unit change in plasma insulin concentration after an intravenous glucose load. SI quantifies the capacity of insulin to promote glucose disposal.",
+          "populationDescription": "Due to technical issues, REM fragmentation data were not analyzable. Technical issues also resulted in non-analyzable data for two subjects in the SWS suppression study, thereby decreasing the sample size from 11 to 9 subjects.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Error",
+          "unitOfMeasure": "mU/(liter x min)",
+          "timeFrame": "3 nights",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aim 3: REM Fragmentation",
+              "description": "Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed."
+            },
+            {
+              "id": "OG001",
+              "title": "Aim 3: SWS Suppression",
+              "description": "Slow wave sleep (SWS) suppression: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG001",
+                      "value": "5.87",
+                      "spread": "0.74"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Aim 1: Placebo",
+          "description": "One of the 3 treatment arms in Aim 1: Placebo. No subjects were randomized to this arm.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "Aim 1: Pioglitazone",
+          "description": "One of the 3 treatment arms in Aim 1: Pioglitazone. No subjects were randomized to this arm.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG002",
+          "title": "Aim 1: Leuprolide + Estrogen/Progestin",
+          "description": "One of the 3 treatment arms in Aim 1: Leuprolide + estrogen/progestin replacement. No subjects were randomized to this arm.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG003",
+          "title": "Aim 2: PCOS + SDB With CPAP",
+          "description": "One of the 2 study groups in Aim 2: Women with polycystic ovary syndrome (PCOS) and sleep disordered breathing (SDB) were treated with 8 weeks of continuous positive airway pressure (CPAP).",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 19,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 19
+        },
+        {
+          "id": "EG004",
+          "title": "Aim 2: Matched Controls With CPAP",
+          "description": "One of the 2 study groups in Aim 2: Women who were of similar age to those in the PCOS+SDB group were treated with 8 weeks of continuous positive airway pressure (CPAP).",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG005",
+          "title": "Aim 3: REM Fragmentation",
+          "description": "Rapid eye movement (REM) sleep will be fragmented by experimentally induced microarousals for 3 consecutive nights and non-REM sleep will be left undisturbed.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 14,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 14
+        },
+        {
+          "id": "EG006",
+          "title": "Aim 3: SWS Suppression",
+          "description": "SWS: Slow wave activity will be suppressed without awakening the subject and REM sleep will be left undisturbed.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 14,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 14
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Vaginal bleeding",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Abnormal vaginal bleeding is any vaginal bleeding unrelated to normal menstruation.",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 0
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 0
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 0
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 19
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG005",
+              "numAffected": 0,
+              "numAtRisk": 14
+            },
+            {
+              "groupId": "EG006",
+              "numAffected": 0,
+              "numAtRisk": 14
+            }
+          ]
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "No participants were randomized to any of the 3 study arms in Aim 1. Also, the recruitment of control subjects for Aim 2 was hindered by the difficulty in finding subjects who met both inclusion and exclusion criteria."
@@ -426,5 +2194,267 @@
         "phone": "(773) 702-6138"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011085",
+          "term": "Polycystic Ovary Syndrome"
+        },
+        {
+          "id": "D020181",
+          "term": "Sleep Apnea, Obstructive"
+        },
+        {
+          "id": "D024821",
+          "term": "Metabolic Syndrome"
+        },
+        {
+          "id": "D018149",
+          "term": "Glucose Intolerance"
+        },
+        {
+          "id": "D007333",
+          "term": "Insulin Resistance"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010048",
+          "term": "Ovarian Cysts"
+        },
+        {
+          "id": "D003560",
+          "term": "Cysts"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D010049",
+          "term": "Ovarian Diseases"
+        },
+        {
+          "id": "D000291",
+          "term": "Adnexal Diseases"
+        },
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D012891",
+          "term": "Sleep Apnea Syndromes"
+        },
+        {
+          "id": "D001049",
+          "term": "Apnea"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D020919",
+          "term": "Sleep Disorders, Intrinsic"
+        },
+        {
+          "id": "D020920",
+          "term": "Dyssomnias"
+        },
+        {
+          "id": "D012893",
+          "term": "Sleep Wake Disorders"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D006946",
+          "term": "Hyperinsulinism"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D006943",
+          "term": "Hyperglycemia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D045422",
+          "term": "Continuous Positive Airway Pressure"
+        },
+        {
+          "id": "D004967",
+          "term": "Estrogens"
+        },
+        {
+          "id": "D016729",
+          "term": "Leuprolide"
+        },
+        {
+          "id": "D000077205",
+          "term": "Pioglitazone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011175",
+          "term": "Positive-Pressure Respiration"
+        },
+        {
+          "id": "D012121",
+          "term": "Respiration, Artificial"
+        },
+        {
+          "id": "D058109",
+          "term": "Airway Management"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D012138",
+          "term": "Respiratory Therapy"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D045162",
+          "term": "Thiazolidinediones"
+        },
+        {
+          "id": "D013844",
+          "term": "Thiazoles"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

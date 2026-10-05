@@ -1,0 +1,208 @@
+{
+  "nct_id": "NCT03343067",
+  "programme_id": "p_cdd51c5f2e9af8af",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT03343067",
+      "hit_count": 5,
+      "papers": [
+        {
+          "id": "31037916",
+          "source": "MED",
+          "pmid": "31037916",
+          "pmcid": "PMC6500084",
+          "doi": "10.22074/ijfs.2019.5736",
+          "title": "Molecular Targets for Endometriosis Therapy: Where We Are and Where We Are Going?",
+          "pub_year": "2019",
+          "first_publication_date": "2019-04-27",
+          "journal": "Int J Fertil Steril",
+          "authors": "Barra F, Laganà AS, Casarin J, Ghezzi F, Ferro Desideri L, Scala C, Ferrero S.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/31037916"
+        },
+        {
+          "id": "30194661",
+          "source": "MED",
+          "pmid": "30194661",
+          "pmcid": "PMC6244606",
+          "doi": "10.1007/s40265-018-0977-4",
+          "title": "Elagolix: First Global Approval.",
+          "pub_year": "2018",
+          "first_publication_date": "2018-09-01",
+          "journal": "Drugs",
+          "authors": "Lamb YN.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/30194661"
+        },
+        {
+          "id": "33294846",
+          "source": "MED",
+          "pmid": "33294846",
+          "pmcid": "PMC7708701",
+          "doi": "10.1177/2633494120964517",
+          "title": "Elagolix in the treatment of endometriosis: impact beyond pain symptoms.",
+          "pub_year": "2020",
+          "first_publication_date": "2020-01-01",
+          "journal": "Ther Adv Reprod Health",
+          "authors": "Archer DF, Soliman AM, Agarwal SK, Taylor HS.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/33294846"
+        },
+        {
+          "id": "31862211",
+          "source": "MED",
+          "pmid": "31862211",
+          "pmcid": "PMC7175958",
+          "doi": "10.1016/j.neubiorev.2019.12.004",
+          "title": "Endometriosis and pain in the adolescent- striking early to limit suffering: A narrative review.",
+          "pub_year": "2020",
+          "first_publication_date": "2019-12-17",
+          "journal": "Neurosci Biobehav Rev",
+          "authors": "Sieberg CB, Lunde CE, Borsook D.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/31862211"
+        },
+        {
+          "id": "34405378",
+          "source": "MED",
+          "pmid": "34405378",
+          "pmcid": "PMC9156507",
+          "doi": "10.1007/s11154-021-09666-w",
+          "title": "Hormonal treatments for endometriosis: The endocrine background.",
+          "pub_year": "2022",
+          "first_publication_date": "2021-08-17",
+          "journal": "Rev Endocr Metab Disord",
+          "authors": "Vannuccini S, Clemenza S, Rossi M, Petraglia F.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/34405378"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "31037916",
+        "source": "MED",
+        "pmid": "31037916",
+        "pmcid": "PMC6500084",
+        "doi": "10.22074/ijfs.2019.5736",
+        "title": "Molecular Targets for Endometriosis Therapy: Where We Are and Where We Are Going?",
+        "pub_year": "2019",
+        "first_publication_date": "2019-04-27",
+        "journal": "Int J Fertil Steril",
+        "authors": "Barra F, Laganà AS, Casarin J, Ghezzi F, Ferro Desideri L, Scala C, Ferrero S.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/31037916"
+      },
+      {
+        "id": "30194661",
+        "source": "MED",
+        "pmid": "30194661",
+        "pmcid": "PMC6244606",
+        "doi": "10.1007/s40265-018-0977-4",
+        "title": "Elagolix: First Global Approval.",
+        "pub_year": "2018",
+        "first_publication_date": "2018-09-01",
+        "journal": "Drugs",
+        "authors": "Lamb YN.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/30194661"
+      },
+      {
+        "id": "33294846",
+        "source": "MED",
+        "pmid": "33294846",
+        "pmcid": "PMC7708701",
+        "doi": "10.1177/2633494120964517",
+        "title": "Elagolix in the treatment of endometriosis: impact beyond pain symptoms.",
+        "pub_year": "2020",
+        "first_publication_date": "2020-01-01",
+        "journal": "Ther Adv Reprod Health",
+        "authors": "Archer DF, Soliman AM, Agarwal SK, Taylor HS.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/33294846"
+      },
+      {
+        "id": "31862211",
+        "source": "MED",
+        "pmid": "31862211",
+        "pmcid": "PMC7175958",
+        "doi": "10.1016/j.neubiorev.2019.12.004",
+        "title": "Endometriosis and pain in the adolescent- striking early to limit suffering: A narrative review.",
+        "pub_year": "2020",
+        "first_publication_date": "2019-12-17",
+        "journal": "Neurosci Biobehav Rev",
+        "authors": "Sieberg CB, Lunde CE, Borsook D.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/31862211"
+      },
+      {
+        "id": "34405378",
+        "source": "MED",
+        "pmid": "34405378",
+        "pmcid": "PMC9156507",
+        "doi": "10.1007/s11154-021-09666-w",
+        "title": "Hormonal treatments for endometriosis: The endocrine background.",
+        "pub_year": "2022",
+        "first_publication_date": "2021-08-17",
+        "journal": "Rev Endocr Metab Disord",
+        "authors": "Vannuccini S, Clemenza S, Rossi M, Petraglia F.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/34405378"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2019,
+      2018,
+      2020,
+      2020,
+      2022
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03343067&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "AbbVie",
+    "matched_lead": "AbbVie",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.abbvie.com/science/pipeline.html",
+    "notes": "Holds elagolix (Orilissa); NCT03343067 stopped for business reasons not safety",
+    "sponsor_entity": {
+      "name": "AbbVie",
+      "legal_name": "AbbVie",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT03343067",
+    "programme_id": "p_cdd51c5f2e9af8af",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT03343067.json"
+  }
+}

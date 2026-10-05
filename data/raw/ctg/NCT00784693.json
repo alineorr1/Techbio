@@ -617,8 +617,5513 @@
       "url": "https://www.pfizer.com/science/clinical_trials/trial_data_and_results/data_requests"
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Tanezumab",
+          "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "Treated",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "20"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "19"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Lack of Efficacy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Randomized but not Treated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Other",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Full analysis set (FAS) included all randomized participants who received at least 1 dose of study medication and completed greater than or equal to (\\>=)12 days of baseline observation period.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Tanezumab",
+          "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "22"
+            },
+            {
+              "groupId": "BG001",
+              "value": "25"
+            },
+            {
+              "groupId": "BG002",
+              "value": "47"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30",
+                      "spread": "6.7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30.4",
+                      "spread": "6.4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "30.2",
+                      "spread": "6.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "47"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change From Baseline in Average Daily Endometriosis Pain Score at Week 8",
+          "description": "Participants assessed daily endometriosis pain on an 11-point Numeric Rating Scale (NRS) of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "populationDescription": "Restricted full analysis set (rFAS) included all randomized participants who received at least 1 dose of study medication and completed \\>=12 days of baseline observation period and who had provided baseline and primary efficacy data for \\>=12 days of the baseline and \\>=15 days of each of first 2 post-randomization 28-day observation periods.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.45",
+                      "spread": "1.218"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.50",
+                      "spread": "1.363"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Change at Week 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.88",
+                      "spread": "2.653"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-3.51",
+                      "spread": "1.714"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Week 8: Analysis was based on analysis of co-variance (ANCOVA) model with main effects of treatment, contraceptive use and baseline severity of pain.",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "paramType": "Least Squares Mean Difference",
+              "paramValue": "0.41",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.87",
+              "ciUpperLimit": "1.69",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.75"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Average Daily Endometriosis Pain Score at Weeks 4, 12, and 16",
+          "description": "Participants assessed daily endometriosis pain on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "populationDescription": "Restricted FAS. Here 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Weeks 4, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.55",
+                      "spread": "1.999"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.94",
+                      "spread": "1.814"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.22",
+                      "spread": "2.113"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.45",
+                      "spread": "1.631"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.12",
+                      "spread": "2.320"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.15",
+                      "spread": "2.338"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Average Daily Endometriosis Pain Score During Menstruation at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Endometriosis pain during menstruation was derived from the average endometriosis pain severity as recorded on an 11-point NRS of 0 to 10 (0 = no pain and 10 = pain as bad as you can imagine) over the episode of menstruation (at least 3 days of spotting or bleeding) for the 28-day period in baseline observation period and preceding each post-baseline visit. Higher score indicated greater pain.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure and 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.04",
+                      "spread": "1.377"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.54",
+                      "spread": "1.756"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.98",
+                      "spread": "2.503"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.72",
+                      "spread": "2.155"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.99",
+                      "spread": "2.724"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.18",
+                      "spread": "1.540"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.92",
+                      "spread": "2.801"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.52",
+                      "spread": "2.117"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.66",
+                      "spread": "2.297"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.94",
+                      "spread": "2.847"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Average Daily Non-Menstrual Endometriosis Pain Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Non-menstrual endometriosis pain was derived from the average endometriosis pain severity as recorded on an 11-point NRS of 0 to 10 (0 = no pain and 10 = pain as bad as you can imagine) on the non-menstrual days for the 28-day period in baseline observation period and preceding each post-baseline visit. Higher score indicated greater pain.",
+          "populationDescription": "Restricted FAS. Here 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.25",
+                      "spread": "1.617"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.21",
+                      "spread": "1.348"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.42",
+                      "spread": "1.935"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.77",
+                      "spread": "1.885"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.38",
+                      "spread": "2.240"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.81",
+                      "spread": "2.038"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.98",
+                      "spread": "2.124"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.33",
+                      "spread": "1.513"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.86",
+                      "spread": "2.341"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.91",
+                      "spread": "2.288"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Worst Daily Endometriosis Pain Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Participants assessed worst endometriosis pain in the last 24 hours on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "populationDescription": "Restricted FAS. Here 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.20",
+                      "spread": "1.265"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.84",
+                      "spread": "1.297"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.21",
+                      "spread": "2.053"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.00",
+                      "spread": "2.216"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.20",
+                      "spread": "2.465"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.64",
+                      "spread": "2.373"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.02",
+                      "spread": "2.612"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.18",
+                      "spread": "2.465"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.87",
+                      "spread": "2.477"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.12",
+                      "spread": "2.818"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Worst Daily Endometriosis Pain Score During Menstruation at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Participants assessed worst endometriosis pain during menstruation in the last 24 hours on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over the episode of menstruation (at least 3 days of spotting or bleeding) for the 28-day period in the baseline observation period. Post-baseline value was calculated as mean of the scores over the episode of menstruation (at least 3 days of spotting or bleeding) for the 28-day period preceding the post-baseline visit.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure and 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.98",
+                      "spread": "1.084"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.67",
+                      "spread": "1.632"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.78",
+                      "spread": "2.532"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.02",
+                      "spread": "2.488"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.60",
+                      "spread": "3.022"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.19",
+                      "spread": "2.356"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.58",
+                      "spread": "3.198"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.34",
+                      "spread": "3.072"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.54",
+                      "spread": "2.752"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.03",
+                      "spread": "3.306"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Worst Daily Non-Menstrual Endometriosis Pain Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Participants assessed worst endometriosis non-menstrual pain in the last 24 hours on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores on non-menstrual days for the 28-day period in the baseline observation period. Post-baseline value was calculated as mean of the scores on non-menstrual days for the 28-day period preceding the post-baseline visit.",
+          "populationDescription": "Restricted FAS. Here 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.86",
+                      "spread": "1.629"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.60",
+                      "spread": "1.299"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.06",
+                      "spread": "2.038"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.75",
+                      "spread": "2.360"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.99",
+                      "spread": "2.331"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.37",
+                      "spread": "2.527"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.79",
+                      "spread": "2.646"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.03",
+                      "spread": "2.358"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.61",
+                      "spread": "2.475"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.85",
+                      "spread": "2.807"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Average Pain Score With Intercourse at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Pain related to sexual intercourse was defined as the discomfort or pain that may occur during or after sexual intercourse with vaginal penetration. Participants assessed pain during or after sexual intercourse on an 11-point NRS of 0 to 10, where 0 = no pain and 10 = pain as bad as you can imagine. Higher score indicated greater pain. Baseline value was calculated as mean of the scores over 28 days in the baseline observation period. Post-baseline value was calculated as mean of the scores over the 28-day period preceding the post-baseline visit.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure and 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.21",
+                      "spread": "3.209"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.19",
+                      "spread": "2.757"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.32",
+                      "spread": "2.687"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.03",
+                      "spread": "2.298"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.70",
+                      "spread": "2.884"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.92",
+                      "spread": "2.869"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.99",
+                      "spread": "2.485"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.57",
+                      "spread": "2.337"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.29",
+                      "spread": "2.976"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.05",
+                      "spread": "2.442"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Endometriosis Symptom Severity Score (ESSS) Total Score at Baseline, Weeks 4, 8, 12, and 16",
+          "description": "Investigator assessed the severity of the dysmenorrhea (menstrual pain), pelvic pain and dyspareunia (painful sexual intercourse) experienced by participants occurring during the most recent menstrual cycle on a 4-point scale, where 0 = absent, 1 = mild, 2 = moderate, and 3 = severe. Total score was calculated as a sum of the individual pain scores for dysmenorrhea, dyspareunia and pelvic pain. The total score range: 0 (no pain) to 9 (worst possible pain).",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure and 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.08",
+                      "spread": "1.379"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.00",
+                      "spread": "1.109"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.00",
+                      "spread": "1.871"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.58",
+                      "spread": "2.712"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.89",
+                      "spread": "2.571"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.83",
+                      "spread": "2.443"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.42",
+                      "spread": "2.575"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.63",
+                      "spread": "1.996"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.83",
+                      "spread": "3.070"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.17",
+                      "spread": "2.791"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Endometriosis Health Profile 30 (EHP-30) Score at Baseline and Week 8",
+          "description": "EHP-30 is a validated quality of life (QoL) scale assessing emotional, physical and sexual function. EHP-30 consists of 30 items that assess the frequency of physical and mental manifestations of endometriosis during the previous 4 weeks on a 5-point Likert scale (0 = never, 1 = rarely, 2 = sometimes, 3 = often, 4 = always).. Scores for 6 domains (pain, control and powerlessness, emotional well-being, social support, self image, and sexual intercourse) were obtained as a sum of all relevant item scores and transformed to a 0 to 100 score range. Each domain score ranges from 0 (best possible health status) to 100 (worst possible health status).",
+          "populationDescription": "Restricted FAS. Here 'number analyzed' signifies those participants who were evaluable for specified category for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "Baseline and Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline: Pain",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.97",
+                      "spread": "14.661"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56.68",
+                      "spread": "13.213"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline: Control & Powerlessness",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "69.96",
+                      "spread": "20.250"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "64.84",
+                      "spread": "22.098"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline: Emotional well-being",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52.85",
+                      "spread": "18.005"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "41.15",
+                      "spread": "21.671"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline: Social support",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57.57",
+                      "spread": "24.701"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "46.48",
+                      "spread": "26.018"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline: Self-image",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.51",
+                      "spread": "29.700"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "45.31",
+                      "spread": "27.550"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Baseline: Sexual intercourse",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.93",
+                      "spread": "37.835"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "65.36",
+                      "spread": "23.490"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8: Pain",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28.34",
+                      "spread": "17.179"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26.30",
+                      "spread": "23.325"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8: Control & Powerlessness",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28.92",
+                      "spread": "20.437"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27.98",
+                      "spread": "34.298"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8: Emotional well-being",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.94",
+                      "spread": "17.664"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.37",
+                      "spread": "19.300"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8: Social support",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "36.33",
+                      "spread": "28.706"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26.34",
+                      "spread": "30.636"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8: Self-image",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31.86",
+                      "spread": "23.613"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24.40",
+                      "spread": "27.632"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8: Sexual intercourse",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45.45",
+                      "spread": "32.822"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29.20",
+                      "spread": "31.654"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Global Response Assessment (GRA) at Week 8",
+          "description": "GRA questionnaire is a 7-point symmetric scale which measures participant-reported overall response to treatment compared to baseline as 1 of the following possible responses: markedly worse, moderately worse, slightly worse, no change, slightly improved, moderately improved, and markedly improved. Number of participants with each response is reported.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Markedly Worse",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Moderately Worse",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Slightly Worse",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No Change",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Slightly Improved",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Moderately Improved",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Markedly Improved",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Participant Global Satisfaction at Week 8",
+          "description": "Participant global satisfaction is assessed using Patient Reported Treatment Impact (PRTI) which is a self-administered questionnaire containing four items to assess participant satisfaction, previous treatment, preference and willingness to continue using the study medication. Participant's response is rated on a 5-point scale where 1 = extremely satisfied, 2 = satisfied, 3 = neither satisfied nor dissatisfied, 4 = dissatisfied and 5 = extremely dissatisfied. Number of participants with each response is reported.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Extremely satisfied",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Satisfied",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Neither satisfied nor dissatisfied",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dissatisfied",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Extremely dissatisfied",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Participant Global Preference at Week 8",
+          "description": "Participant global preference is assessed using PRTI, which is a self-administered questionnaire containing four items to assess participant satisfaction, previous treatment, preference and willingness to continue using the study medication. Participant reported previous treatment under following categories: hormonal contraceptive, painkiller, and hormone treatment by injection, hormone treatment by tablet, surgery, and no treatment. Participant preference was assessed using following categories: definitely prefer study medication, slightly prefer study medication, no preference, slightly prefer previous treatment, and definitely prefer previous treatment. Number of participants under each of the categories is reported. For previous treatment, a single participant may be represented in more than 1 category.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Hormonal contraceptive",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Painkiller",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hormone treatment by injection",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hormone treatment by tablet",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Surgery",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Definitely prefer study medication",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Slightly prefer study medication",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No preference",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Slightly prefer previous treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Definitely prefer previous treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Participant Willingness to Re-use Study Medication",
+          "description": "Participant willingness to re-use study medication is assessed using PRTI, which is a self-administered questionnaire containing four items to assess participant satisfaction, previous treatment, preference and willingness to continue using the study medication. Participant willingness to re-use study medication was assessed using following categories: definitely want to re-use, might want to re-use, not sure, might not want to re-use, definitely would not want to re-use.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Week 8",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Definitely want to re-use",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Might want to re-use",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not sure",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Might not want to re-use",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Definitely would not want to re-use",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Plasma Nerve Growth Factor (NGF) Concentration",
+          "populationDescription": "FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure and 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "picogram per milliliter (pg/mL)",
+          "timeFrame": "Day 1, Week 8, and Week 16 (End of Treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "21"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "24"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Day 1",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "301",
+                      "spread": "1217"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32.7",
+                      "spread": "10.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4053",
+                      "spread": "1276"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30.7",
+                      "spread": "7.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3010",
+                      "spread": "921"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "31.4",
+                      "spread": "10.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Amount of Rescue Medication Used",
+          "description": "Mean amount of daily rescue medication (acetaminophen 500 mg tablet/capsule) taken for endometriosis associated pain (in mg) was assessed.",
+          "populationDescription": "Restricted FAS. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure and 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mg/day",
+          "timeFrame": "Baseline, Weeks 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "66.78",
+                      "spread": "34.60"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "56.60",
+                      "spread": "61.39"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "41.78",
+                      "spread": "38.69"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "48.86",
+                      "spread": "50.57"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.73",
+                      "spread": "37.21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "43.20",
+                      "spread": "28.95"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21.25",
+                      "spread": "20.57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29.33",
+                      "spread": "28.09"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.13",
+                      "spread": "27.33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.40",
+                      "spread": "25.81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Treatment Emergent Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "An AE was any untoward medical occurrence in a participant who received study medication without regard to possibility of causal relationship. SAE: an AE resulting in any of following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study medication and up to 113 days after last dose that were absent before treatment or worsened relative to pre-treatment state.",
+          "populationDescription": "Safety analysis set included all randomized participants who received at least 1 dose of study medication.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline up to 113 days after last dose of study medication",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "AEs",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SAEs",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With New or Worsened Neurological Examinations",
+          "description": "A neurological evaluation was performed by a consulting neurologist if adverse events suggested new or worsening peripheral neuropathy with respect to baseline or any adverse event of abnormal peripheral sensation was recorded. A neurological evaluation was done as soon as the above signs and symptoms were known, preferably within 7 days of becoming aware of such problems if possible. Neurological evaluation was done using Neuropathy Impairment Score (NIS) by investigator. Neurologic examination assessment included strength of groups of muscles of the head and neck, upper limbs and lower limbs, deep tendon reflexes and sensation (tactile, vibration, joint position sense and pin prick) of index fingers and great toes. Abnormality was judged by the investigator.",
+          "populationDescription": "Safety analysis set included all randomized participants who received at least 1 dose of study medication. Here 'overall number of participants analyzed' signifies those participants who were evaluable for this measure and 'number analyzed' signifies those participants who were evaluable at specified time point for each treatment arm, respectively.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Weeks 2, 4, 8, 12, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 2",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Anti-Drug Antibody (ADA)",
+          "description": "Serum samples were analyzed for the presence or absence of anti-tanezumab antibodies using validated semi-quantitative enzyme linked immunosorbent assay (ELISA).",
+          "populationDescription": "Safety analysis set included all randomized participants who received at least 1 dose of study medication. Here 'number analyzed' signifies those participants who were evaluable at specified time point. Only participants who received tanezumab were planned to be analyzed for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Day 1 (pre-dose), Weeks 2, 4, 8, and 16",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Day 1",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 2",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Positive Urine or Serum Pregnancy Test",
+          "populationDescription": "Safety analysis set included all randomized participants who received at least 1 dose of study medication.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Screening, Weeks 2, 4, 8, 12, and Early termination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Tanezumab",
+              "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "description": "The same event may appear as both an AE and a SAE. However, what is presented are distinct events. An event may be categorized as serious in one participant and as non-serious in another participant, or one participant may have experienced both a serious and non-serious event during the study.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Tanezumab",
+          "description": "A single dose of tanezumab (RN624 or PF-04383119) 15 milligram (mg) intravenous infusion on Day 1. Participants were followed up to Week 16.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 16,
+          "otherNumAtRisk": 22
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "A single dose of placebo matched to tanezumab intravenous infusion on Day 1. Participants were followed up to Week 16.",
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 21,
+          "otherNumAtRisk": 25
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vertigo",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Eyelid ptosis",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Gaze palsy",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vision blurred",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Visual impairment",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Toothache",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Chest discomfort",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Feeling cold",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Infusion site pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Injection site erythema",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Temperature intolerance",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Bronchitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Cystitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Ear infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Folliculitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Fungal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Gastroenteritis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Hordeolum",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Influenza",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Laryngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Otitis media",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Pharyngitis streptococcal",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Viral infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Viral upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vulvovaginal mycotic infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Wound infection staphylococcal",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Contusion",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Limb injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Venomous sting",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Blood iron decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Cardiac murmur",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Platelet count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Weight increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Facial asymmetry",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Muscular weakness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal stiffness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Allodynia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Carpal tunnel syndrome",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dysarthria",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Facial neuralgia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Hyperreflexia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Hypoaesthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Mental impairment",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Migraine",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Paraesthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Tremor",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Panic attack",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dysmenorrhoea",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Endometriosis",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Genital haemorrhage",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vaginal haemorrhage",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Pharyngeal disorder",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Rhinitis seasonal",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Madarosis",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Peripheral coldness",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 13.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "Nerve growth factor (NGF) results were reported only for plasma since a reliable assay was not available for analyzing NGF in urine. Study was prematurely terminated and recruitment was stopped due to futility shown in pre-planned interim analysis."
@@ -636,5 +6141,109 @@
         "phone": "1-800-718-1021"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004715",
+          "term": "Endometriosis"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009477",
+          "term": "Hereditary Sensory and Autonomic Neuropathies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009421",
+          "term": "Nervous System Malformations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D020271",
+          "term": "Heredodegenerative Disorders, Nervous System"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D011115",
+          "term": "Polyneuropathies"
+        },
+        {
+          "id": "D010523",
+          "term": "Peripheral Nervous System Diseases"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549319",
+          "term": "tanezumab"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

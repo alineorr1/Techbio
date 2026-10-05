@@ -1,0 +1,53 @@
+{
+  "nct_id": "NCT03481842",
+  "targets": [
+    {
+      "name": "Linifanib",
+      "gene_symbol": null,
+      "modality": "biologic",
+      "confidence": "high"
+    },
+    {
+      "name": "BIBW2992",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    },
+    {
+      "name": "Axitinib",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "Linifanib, BIBW2992, Axitinib evaluated in Safety, Tolerability and Efficacy of Vaginal Suppositories for Treatment of the Endometriosis. Stopped: Change in study design and sponsor.",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "laparoscopy",
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": false,
+    "menstrual_cycle_phase_controlled": false,
+    "hormonal_contraceptive_use_addressed": false,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": false
+  },
+  "stop_reason_raw": "Change in study design and sponsor",
+  "stop_reason_category": "strategic",
+  "stop_reason_evidence": "Change in study design and sponsor",
+  "endpoint_quality": {
+    "primary_endpoint": "Local tolerability of the vaginal suppository ELTA defined as a cumulative sum of clinical signs for each patient",
+    "endpoint_type": "unclear",
+    "endpoint_appropriate_for_indication": "uncertain",
+    "reasoning": "Primary endpoint taken verbatim from the outcomes module."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "disease severity / stage not stated in the record",
+    "menopausal status not stated in the record",
+    "menstrual cycle phase not stated in the record",
+    "hormonal contraceptive use not stated in the record",
+    "prior treatment history not stated in the record",
+    "biomarker or molecular subtype not stated in the record"
+  ]
+}

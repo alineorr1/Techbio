@@ -1,0 +1,150 @@
+{
+  "nct_id": "NCT03970330",
+  "programme_id": "p_ee21f2560ee9bf49",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT03970330",
+      "hit_count": 3,
+      "papers": [
+        {
+          "id": "41893019",
+          "source": "MED",
+          "pmid": "41893019",
+          "pmcid": "PMC13027662",
+          "doi": "10.3390/jpm16030151",
+          "title": "Low-Dose Naltrexone in Chronic Pain Management: Mechanisms, Evidence, and Clinical Implications.",
+          "pub_year": "2026",
+          "first_publication_date": "2026-03-06",
+          "journal": "J Pers Med",
+          "authors": "McKenzie A, Bittar T, Dombrower R, Raman D, Hussain H, Theeraphapphong N, McKenzie SM, Abd-Elsayed A.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/41893019"
+        },
+        {
+          "id": "32412587",
+          "source": "MED",
+          "pmid": "32412587",
+          "pmcid": "PMC7317284",
+          "doi": "10.1093/humupd/dmaa009",
+          "title": "Progesterone receptor ligands for the treatment of endometriosis: the mechanisms behind therapeutic success and failure.",
+          "pub_year": "2020",
+          "first_publication_date": "2020-06-01",
+          "journal": "Hum Reprod Update",
+          "authors": "Reis FM, Coutinho LM, Vannuccini S, Batteux F, Chapron C, Petraglia F.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/32412587"
+        },
+        {
+          "id": "33948974",
+          "source": "MED",
+          "pmid": "33948974",
+          "pmcid": "PMC8252000",
+          "doi": "10.1002/med.21802",
+          "title": "Pharmaceuticals targeting signaling pathways of endometriosis as potential new medical treatment: A review.",
+          "pub_year": "2021",
+          "first_publication_date": "2021-05-05",
+          "journal": "Med Res Rev",
+          "authors": "Hung SW, Zhang R, Tan Z, Chung JPW, Zhang T, Wang CC.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/33948974"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "41893019",
+        "source": "MED",
+        "pmid": "41893019",
+        "pmcid": "PMC13027662",
+        "doi": "10.3390/jpm16030151",
+        "title": "Low-Dose Naltrexone in Chronic Pain Management: Mechanisms, Evidence, and Clinical Implications.",
+        "pub_year": "2026",
+        "first_publication_date": "2026-03-06",
+        "journal": "J Pers Med",
+        "authors": "McKenzie A, Bittar T, Dombrower R, Raman D, Hussain H, Theeraphapphong N, McKenzie SM, Abd-Elsayed A.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/41893019"
+      },
+      {
+        "id": "32412587",
+        "source": "MED",
+        "pmid": "32412587",
+        "pmcid": "PMC7317284",
+        "doi": "10.1093/humupd/dmaa009",
+        "title": "Progesterone receptor ligands for the treatment of endometriosis: the mechanisms behind therapeutic success and failure.",
+        "pub_year": "2020",
+        "first_publication_date": "2020-06-01",
+        "journal": "Hum Reprod Update",
+        "authors": "Reis FM, Coutinho LM, Vannuccini S, Batteux F, Chapron C, Petraglia F.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/32412587"
+      },
+      {
+        "id": "33948974",
+        "source": "MED",
+        "pmid": "33948974",
+        "pmcid": "PMC8252000",
+        "doi": "10.1002/med.21802",
+        "title": "Pharmaceuticals targeting signaling pathways of endometriosis as potential new medical treatment: A review.",
+        "pub_year": "2021",
+        "first_publication_date": "2021-05-05",
+        "journal": "Med Res Rev",
+        "authors": "Hung SW, Zhang R, Tan Z, Chung JPW, Zhang T, Wang CC.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/33948974"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2026,
+      2020,
+      2021
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03970330&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "Milton S. Hershey Medical Center",
+    "matched_lead": "Milton S. Hershey Medical Center",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.pennstatehealth.org",
+    "notes": "Naltrexone endometriosis: PI left plus lack of funding; CBD study recruitment-limited",
+    "sponsor_entity": {
+      "name": "Milton S. Hershey Medical Center",
+      "legal_name": "Milton S. Hershey Medical Center",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT03970330",
+    "programme_id": "p_ee21f2560ee9bf49",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT03970330.json"
+  }
+}

@@ -208,8 +208,202 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Proellex®",
+          "description": "25 or 50 mg capsules once per day"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Study prematurely terminated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "27"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Study prematurely terminated",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "50 mg Proellex®",
+          "description": "Proellex: 2, 25 mg capsules once per day"
+        },
+        {
+          "id": "BG001",
+          "title": "25 mg Proellex®",
+          "description": "Proellex: 1, 25 mg capsule once per day"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "0"
+            },
+            {
+              "groupId": "BG001",
+              "value": "0"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "<=18 years"
+            },
+            {
+              "title": "Between 18 and 65 years"
+            },
+            {
+              "title": ">=65 years"
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Female"
+            },
+            {
+              "title": "Male"
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States"
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "To Assess the Incidence of Adverse Events (AE) and Serious Adverse Events (SAEs)",
+          "reportingStatus": "POSTED",
+          "timeFrame": "During two 4 month treatment periods",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "50 mg Proellex®",
+              "description": "Proellex: 2, 25 mg capsules once per day"
+            },
+            {
+              "id": "OG001",
+              "title": "25 mg Proellex®",
+              "description": "Proellex: 1, 25 mg capsule once per day"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "description": "No adverse events data is available.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "50 mg Proellex®",
+          "description": "Proellex: 2, 25 mg capsules once per day",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "25 mg Proellex®",
+          "description": "Proellex: 1, 25 mg capsule once per day",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
@@ -227,5 +421,45 @@
         "phone": "2817193402"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007889",
+          "term": "Leiomyoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009379",
+          "term": "Neoplasms, Muscle Tissue"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C461063",
+          "term": "telapristone acetate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

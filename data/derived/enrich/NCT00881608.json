@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT00881608",
+  "programme_id": "p_a8c0c6029ccf92d8",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT00881608",
+      "hit_count": 0,
+      "papers": []
+    },
+    "papers": [],
+    "has_results_publication": false,
+    "publication_years": [],
+    "silence_after_completion": true,
+    "sponsor_published_after": false,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT00881608&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "acquired",
+    "sponsor_name": "Repros Therapeutics Inc.",
+    "matched_lead": "Repros Therapeutics Inc.",
+    "as_of": "2017-12-12",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm",
+    "notes": "Acquired by Allergan (now AbbVie); Proellex (telapristone) under FDA clinical hold",
+    "sponsor_entity": {
+      "name": "Repros Therapeutics Inc.",
+      "legal_name": "Repros Therapeutics Inc.",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT00881608",
+    "programme_id": "p_a8c0c6029ccf92d8",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT00881608.json"
+  }
+}

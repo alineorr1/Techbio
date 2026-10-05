@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT02728245",
+  "targets": [
+    {
+      "name": "Dienogest",
+      "gene_symbol": null,
+      "modality": "hormone",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "Dienogest evaluated in Trial Comparing Preoperative Dienogest Therapy Followed by Surgery vs. Upfront Surgery to Save Ovarian Reserve in Young Women With Ovarian Endometrioma. Stopped: Placebo cannot be prepared.",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "endometrioma imaging",
+    "disease_severity_stratified": true,
+    "age_range_specified": true,
+    "menopausal_status_specified": false,
+    "menstrual_cycle_phase_controlled": false,
+    "hormonal_contraceptive_use_addressed": false,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": true
+  },
+  "stop_reason_raw": "Placebo cannot be prepared",
+  "stop_reason_category": "design",
+  "stop_reason_evidence": "Placebo cannot be prepared",
+  "endpoint_quality": {
+    "primary_endpoint": "Compare the mean change of serum Anti-Mullerian Hormone (AMH) level",
+    "endpoint_type": "objective",
+    "endpoint_appropriate_for_indication": "uncertain",
+    "reasoning": "Primary endpoint taken verbatim from the outcomes module."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "menopausal status not stated in the record",
+    "menstrual cycle phase not stated in the record",
+    "hormonal contraceptive use not stated in the record",
+    "prior treatment history not stated in the record"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT03481842",
+  "programme_id": "p_4f900da37005a857",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT03481842",
+      "hit_count": 1,
+      "papers": [
+        {
+          "id": "36686440",
+          "source": "MED",
+          "pmid": "36686440",
+          "pmcid": "PMC9848590",
+          "doi": "10.3389/fendo.2022.1073261",
+          "title": "Impacts of endometrioma on ovarian aging from basic science to clinical management.",
+          "pub_year": "2022",
+          "first_publication_date": "2023-01-04",
+          "journal": "Front Endocrinol (Lausanne)",
+          "authors": "Tan Z, Gong X, Li Y, Hung SW, Huang J, Wang CC, Chung JPW.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/36686440"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "36686440",
+        "source": "MED",
+        "pmid": "36686440",
+        "pmcid": "PMC9848590",
+        "doi": "10.3389/fendo.2022.1073261",
+        "title": "Impacts of endometrioma on ovarian aging from basic science to clinical management.",
+        "pub_year": "2022",
+        "first_publication_date": "2023-01-04",
+        "journal": "Front Endocrinol (Lausanne)",
+        "authors": "Tan Z, Gong X, Li Y, Hung SW, Huang J, Wang CC, Chung JPW.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/36686440"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2022
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03481842&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "unknown",
+    "sponsor_name": "BioGene Pharmaceutical Ltd.",
+    "matched_lead": "BioGene Pharmaceutical Ltd.",
+    "as_of": "2020-01-01",
+    "source_url": "https://clinicaltrials.gov/study/NCT03481842",
+    "notes": "Vaginal-suppository endometriosis study withdrawn after design/sponsor change",
+    "sponsor_entity": {
+      "name": "BioGene Pharmaceutical Ltd.",
+      "legal_name": "BioGene Pharmaceutical Ltd.",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT03481842",
+    "programme_id": "p_4f900da37005a857",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT03481842.json"
+  }
+}

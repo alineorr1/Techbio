@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT03373422",
+  "targets": [
+    {
+      "name": "BAY1128688",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "BAY1128688 evaluated in A Study to Test Whether Study Drug BAY1128688 Brings Pain Relief to Women With Endometriosis and if so to Get a First Idea Which Dose(s) Work Best. Stopped: Study BAY1128688/17472 (AKRENDO 1) was terminated early on 20",
+  "population": {
+    "diagnosis_method_stated": false,
+    "diagnosis_method": null,
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": false,
+    "menstrual_cycle_phase_controlled": true,
+    "hormonal_contraceptive_use_addressed": true,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": false
+  },
+  "stop_reason_raw": "Study BAY1128688/17472 (AKRENDO 1) was terminated early on 20 July 2018 due to hepatotoxicity",
+  "stop_reason_category": "safety",
+  "stop_reason_evidence": "Study BAY1128688/17472 (AKRENDO 1) was terminated early on 20 July 2018 due to hepatotoxicity",
+  "endpoint_quality": {
+    "primary_endpoint": "Absolute change in mean pain of the 7 days with worst EAPP comparing the 28-day baseline cycle (baseline period of daily pain recordings) to the 28-day end of treatment cycle (daily pain recordings during the last 28 days of the treatment period)",
+    "endpoint_type": "patient_reported",
+    "endpoint_appropriate_for_indication": "yes",
+    "reasoning": "Pain-related patient-reported primary matches endometriosis symptom trials."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "diagnosis method not stated in the record",
+    "disease severity / stage not stated in the record",
+    "menopausal status not stated in the record",
+    "prior treatment history not stated in the record",
+    "biomarker or molecular subtype not stated in the record"
+  ]
+}

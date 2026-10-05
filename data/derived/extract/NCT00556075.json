@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT00556075",
+  "targets": [
+    {
+      "name": "Proellex 25 mg",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    },
+    {
+      "name": "Proellex 50 mg",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "Proellex 25 mg, Proellex 50 mg evaluated in Safety and Efficacy Study to Evaluate Proellex in the Treatment of Premenopausal Women With Symptomatic Endometriosis. Stopped: Clinical hold for safety.",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "laparoscopy",
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": true,
+    "menstrual_cycle_phase_controlled": true,
+    "hormonal_contraceptive_use_addressed": false,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": false
+  },
+  "stop_reason_raw": "Clinical hold for safety",
+  "stop_reason_category": "safety",
+  "stop_reason_evidence": "Clinical hold for safety",
+  "endpoint_quality": {
+    "primary_endpoint": "Difference Between the 50 mg Proellex Group and Placebo Group in the Month 4 Subject Diary Composite Pain Score",
+    "endpoint_type": "patient_reported",
+    "endpoint_appropriate_for_indication": "yes",
+    "reasoning": "Pain-related patient-reported primary matches endometriosis symptom trials."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "disease severity / stage not stated in the record",
+    "hormonal contraceptive use not stated in the record",
+    "prior treatment history not stated in the record",
+    "biomarker or molecular subtype not stated in the record"
+  ]
+}

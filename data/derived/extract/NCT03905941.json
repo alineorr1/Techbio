@@ -1,0 +1,43 @@
+{
+  "nct_id": "NCT03905941",
+  "targets": [
+    {
+      "name": "Metformin",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    },
+    {
+      "name": "Oral combined hormonal contraceptives",
+      "gene_symbol": null,
+      "modality": "hormone",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "Metformin, Oral combined hormonal contraceptives evaluated in Relative Desirability of Metformin vs. Birth Control Pill in Treating PCOS in Women of Later Reproductive Age. Stopped: No funding, time, or personnel to complete this study..",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "ultrasound",
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": true,
+    "menstrual_cycle_phase_controlled": true,
+    "hormonal_contraceptive_use_addressed": true,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": true
+  },
+  "stop_reason_raw": "No funding, time, or personnel to complete this study.",
+  "stop_reason_category": "funding_or_sponsor",
+  "stop_reason_evidence": "No funding, time, or personnel to complete this study.",
+  "endpoint_quality": {
+    "primary_endpoint": "Polycystic Ovary Syndrome Health-Related Quality of Life Questionnaire (PCOSQ) score",
+    "endpoint_type": "unclear",
+    "endpoint_appropriate_for_indication": "uncertain",
+    "reasoning": "Primary endpoint taken verbatim from the outcomes module."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "disease severity / stage not stated in the record",
+    "prior treatment history not stated in the record"
+  ]
+}

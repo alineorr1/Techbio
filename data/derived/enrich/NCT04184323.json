@@ -1,0 +1,985 @@
+{
+  "nct_id": "NCT04184323",
+  "programme_id": "p_499c2f19bc3e739f",
+  "open_targets": {
+    "overall_association_score": 0.10802976959641901,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": true,
+    "per_target": [
+      {
+        "query_symbol": "SIRT1",
+        "ensembl_id": "ENSG00000096717",
+        "overall_association_score": 0.10802976959641901,
+        "datatype_scores": {
+          "literature": 0.8885038397531082
+        },
+        "tractability": [
+          {
+            "label": "Approved Drug",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Structure with Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Ligand",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "High-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Med-Quality Pocket",
+            "modality": "SM",
+            "value": false
+          },
+          {
+            "label": "Druggable Family",
+            "modality": "SM",
+            "value": true
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC high conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt loc med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "UniProt SigP or TMHMM",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "GO CC med conf",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Human Protein Atlas loc",
+            "modality": "AB",
+            "value": false
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "Literature",
+            "modality": "PR",
+            "value": false
+          },
+          {
+            "label": "UniProt Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Database Ubiquitination",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Half-life Data",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Small Molecule Binder",
+            "modality": "PR",
+            "value": true
+          },
+          {
+            "label": "Approved Drug",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Advanced Clinical",
+            "modality": "OC",
+            "value": false
+          },
+          {
+            "label": "Phase 1 Clinical",
+            "modality": "OC",
+            "value": false
+          }
+        ],
+        "safety_liabilities": []
+      }
+    ],
+    "evidence_items": [
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 1,
+        "publication_year": 2021,
+        "publication_date": "2021-09-28",
+        "evidence_date": "2021-09-28",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 1,
+        "publication_year": 2017,
+        "publication_date": "2017-07-28",
+        "evidence_date": "2017-07-28",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.99,
+        "publication_year": 2022,
+        "publication_date": "2022-07-19",
+        "evidence_date": "2022-07-19",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.8,
+        "publication_year": 2021,
+        "publication_date": "2021-02-13",
+        "evidence_date": "2021-02-13",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.42,
+        "publication_year": 2022,
+        "publication_date": "2022-02-01",
+        "evidence_date": "2022-02-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.34,
+        "publication_year": 2020,
+        "publication_date": "2020-01-01",
+        "evidence_date": "2020-01-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.31,
+        "publication_year": 2026,
+        "publication_date": "2026-05-13",
+        "evidence_date": "2026-05-13",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.28,
+        "publication_year": 2020,
+        "publication_date": "2020-07-01",
+        "evidence_date": "2020-07-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.27,
+        "publication_year": 2023,
+        "publication_date": "2023-06-23",
+        "evidence_date": "2023-06-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.25,
+        "publication_year": 2021,
+        "publication_date": "2021-01-10",
+        "evidence_date": "2021-01-10",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.19,
+        "publication_year": 2013,
+        "publication_date": "2013-12-10",
+        "evidence_date": "2013-12-10",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.17,
+        "publication_year": 2023,
+        "publication_date": "2023-04-23",
+        "evidence_date": "2023-04-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.17,
+        "publication_year": 2022,
+        "publication_date": "2022-11-01",
+        "evidence_date": "2022-11-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.16,
+        "publication_year": 2022,
+        "publication_date": "2022-08-18",
+        "evidence_date": "2022-08-18",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.16,
+        "publication_year": 2022,
+        "publication_date": "2022-07-07",
+        "evidence_date": "2022-07-07",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.13,
+        "publication_year": 2023,
+        "publication_date": "2023-02-17",
+        "evidence_date": "2023-02-17",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.13,
+        "publication_year": 2023,
+        "publication_date": "2023-06-23",
+        "evidence_date": "2023-06-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.12,
+        "publication_year": 2025,
+        "publication_date": "2025-06-27",
+        "evidence_date": "2025-06-27",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.1,
+        "publication_year": 2026,
+        "publication_date": "2026-04-25",
+        "evidence_date": "2026-04-25",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.1,
+        "publication_year": 2021,
+        "publication_date": "2021-11-23",
+        "evidence_date": "2021-11-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.1,
+        "publication_year": 2021,
+        "publication_date": "2021-11-23",
+        "evidence_date": "2021-11-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.1,
+        "publication_year": 2024,
+        "publication_date": "2024-01-23",
+        "evidence_date": "2024-01-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.08,
+        "publication_year": 2021,
+        "publication_date": "2021-11-01",
+        "evidence_date": "2021-11-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.08,
+        "publication_year": 2025,
+        "publication_date": "2025-07-28",
+        "evidence_date": "2025-07-28",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.08,
+        "publication_year": 2024,
+        "publication_date": "2024-06-22",
+        "evidence_date": "2024-06-22",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Open Targets association endometriosis–SIRT1",
+        "url": "https://platform.opentargets.org/disease/MONDO_0005133"
+      },
+      {
+        "label": "Open Targets target SIRT1",
+        "url": "https://platform.opentargets.org/target/ENSG00000096717"
+      }
+    ],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT04184323",
+      "hit_count": 15,
+      "papers": [
+        {
+          "id": "33738067",
+          "source": "MED",
+          "pmid": "33738067",
+          "pmcid": "PMC7957943",
+          "doi": "10.1021/acsmedchemlett.0c00559",
+          "title": "Discovery of 5-Benzylidene-2-phenyl-1,3-dioxane-4,6-diones as Highly Potent and Selective SIRT1 Inhibitors.",
+          "pub_year": "2021",
+          "first_publication_date": "2021-03-01",
+          "journal": "ACS Med Chem Lett",
+          "authors": "Li C, Hu SS, Yang L, Wang M, Long JD, Wang B, Han H, Zhu H, Zhao S, Liu JG, Liu D, Liu H.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/33738067"
+        },
+        {
+          "id": "34744791",
+          "source": "MED",
+          "pmid": "34744791",
+          "pmcid": "PMC8568457",
+          "doi": "10.3389/fphys.2021.752117",
+          "title": "Human Sirtuin Regulators: The \"Success\" Stories.",
+          "pub_year": "2021",
+          "first_publication_date": "2021-10-21",
+          "journal": "Front Physiol",
+          "authors": "Curry AM, White DS, Donu D, Cen Y.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/34744791"
+        },
+        {
+          "id": "42449637",
+          "source": "MED",
+          "pmid": "42449637",
+          "pmcid": "PMC13359528",
+          "doi": "10.3390/cancers18132093",
+          "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
+          "pub_year": "2026",
+          "first_publication_date": "2026-06-27",
+          "journal": "Cancers (Basel)",
+          "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/42449637"
+        },
+        {
+          "id": "38961108",
+          "source": "MED",
+          "pmid": "38961108",
+          "pmcid": "PMC11222414",
+          "doi": "10.1038/s41467-024-49930-6",
+          "title": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2.",
+          "pub_year": "2024",
+          "first_publication_date": "2024-07-03",
+          "journal": "Nat Commun",
+          "authors": "Bi S, Huang L, Chen Y, Hu Z, Li S, Wang Y, Huang B, Zhang L, Huang Y, Dai B, Du L, Tu Z, Wang Y, Xu D, Xu X, Sun W, Kzhyshkowska J, Wang H, Chen D, Wang F, Zhang S.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/38961108"
+        },
+        {
+          "id": "35247119",
+          "source": "MED",
+          "pmid": "35247119",
+          "pmcid": "PMC9051010",
+          "doi": "10.1007/s10815-022-02437-9",
+          "title": "Protective effects of a SIRT1 inhibitor on primordial follicle activation and growth induced by cyclophosphamide: insights from a bovine in vitro folliculogenesis system.",
+          "pub_year": "2022",
+          "first_publication_date": "2022-03-05",
+          "journal": "J Assist Reprod Genet",
+          "authors": "Di Emidio G, Tatone C, Barbato V, Genovese V, Placidi M, Talevi R, Gualtieri R, Italian Society of Embryology, Reproduction, Research (SIERR).",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/35247119"
+        },
+        {
+          "id": "34638546",
+          "source": "MED",
+          "pmid": "34638546",
+          "pmcid": "PMC8508766",
+          "doi": "10.3390/ijms221910204",
+          "title": "Selective Extracellular Signal-Regulated Kinase 1/2 (ERK1/2) Inhibition by the SCH772984 Compound Attenuates In Vitro and In Vivo Inflammatory Responses and Prolongs Survival in Murine Sepsis Models.",
+          "pub_year": "2021",
+          "first_publication_date": "2021-09-22",
+          "journal": "Int J Mol Sci",
+          "authors": "Kopczynski M, Rumienczyk I, Kulecka M, Statkiewicz M, Pysniak K, Sandowska-Markiewicz Z, Wojcik-Trechcinska U, Goryca K, Pyziak K, Majewska E, Masiejczyk M, Wojcik-Jaszczynska K, Rzymski T, Bomsztyk K, Ostrowski J, Mikula M.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/34638546"
+        },
+        {
+          "id": "32029457",
+          "source": "MED",
+          "pmid": "32029457",
+          "pmcid": "PMC7050480",
+          "doi": "10.1101/gad.335109.119",
+          "title": "Interplay between compartmentalized NAD<sup>+</sup> synthesis and consumption: a focus on the PARP family.",
+          "pub_year": "2020",
+          "first_publication_date": "2020-02-06",
+          "journal": "Genes Dev",
+          "authors": "Cohen MS.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/32029457"
+        },
+        {
+          "id": "35775648",
+          "source": "MED",
+          "pmid": "35775648",
+          "pmcid": "PMC9340481",
+          "doi": "10.15252/embj.2021110218",
+          "title": "CRIP1 suppresses BBOX1-mediated carnitine metabolism to promote stemness in hepatocellular carcinoma.",
+          "pub_year": "2022",
+          "first_publication_date": "2022-07-01",
+          "journal": "EMBO J",
+          "authors": "Wang J, Zhou Y, Zhang D, Zhao W, Lu Y, Liu C, Lin W, Zhang Y, Chen K, Wang H, Zhao L.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/35775648"
+        },
+        {
+          "id": "38474697",
+          "source": "MED",
+          "pmid": "38474697",
+          "pmcid": "PMC10934002",
+          "doi": "10.3390/molecules29051185",
+          "title": "Current Trends in Sirtuin Activator and Inhibitor Development.",
+          "pub_year": "2024",
+          "first_publication_date": "2024-03-06",
+          "journal": "Molecules",
+          "authors": "Bursch KL, Goetz CJ, Smith BC.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/38474697"
+        },
+        {
+          "id": "38794171",
+          "source": "MED",
+          "pmid": "38794171",
+          "pmcid": "PMC11123952",
+          "doi": "10.3390/ph17050601",
+          "title": "Recent Advances in the Discovery of SIRT1/2 Inhibitors via Computational Methods: A Perspective.",
+          "pub_year": "2024",
+          "first_publication_date": "2024-05-08",
+          "journal": "Pharmaceuticals (Basel)",
+          "authors": "Scarano N, Brullo C, Musumeci F, Millo E, Bruzzone S, Schenone S, Cichero E.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/38794171"
+        },
+        {
+          "id": "32366137",
+          "source": "MED",
+          "pmid": "32366137",
+          "pmcid": "PMC7241506",
+          "doi": "10.1080/14756366.2020.1758691",
+          "title": "Biochemical mechanism and biological effects of the inhibition of silent information regulator 1 (SIRT1) by EX-527 (SEN0014196 or selisistat).",
+          "pub_year": "2020",
+          "first_publication_date": "2020-12-01",
+          "journal": "J Enzyme Inhib Med Chem",
+          "authors": "Broussy S, Laaroussi H, Vidal M.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/32366137"
+        },
+        {
+          "id": "39215785",
+          "source": "MED",
+          "pmid": "39215785",
+          "pmcid": "PMC11796339",
+          "doi": "10.1002/med.22076",
+          "title": "Activation and inhibition of sirtuins: From bench to bedside.",
+          "pub_year": "2025",
+          "first_publication_date": "2024-08-31",
+          "journal": "Med Res Rev",
+          "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/39215785"
+        },
+        {
+          "id": "36358940",
+          "source": "MED",
+          "pmid": "36358940",
+          "pmcid": "PMC9687810",
+          "doi": "10.3390/biom12111590",
+          "title": "Druggable Metabolic Vulnerabilities Are Exposed and Masked during Progression to Castration Resistant Prostate Cancer.",
+          "pub_year": "2022",
+          "first_publication_date": "2022-10-28",
+          "journal": "Biomolecules",
+          "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/36358940"
+        },
+        {
+          "id": "39592582",
+          "source": "MED",
+          "pmid": "39592582",
+          "pmcid": "PMC11627502",
+          "doi": "10.1038/s41392-024-02039-0",
+          "title": "Epigenetics-targeted drugs: current paradigms and future challenges.",
+          "pub_year": "2024",
+          "first_publication_date": "2024-11-26",
+          "journal": "Signal Transduct Target Ther",
+          "authors": "Dai W, Qiao X, Fang Y, Guo R, Bai P, Liu S, Li T, Jiang Y, Wei S, Na Z, Xiao X, Li D.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/39592582"
+        },
+        {
+          "id": "33330467",
+          "source": "MED",
+          "pmid": "33330467",
+          "pmcid": "PMC7717970",
+          "doi": "10.3389/fcell.2020.589016",
+          "title": "The Versatility of Sirtuin-1 in Endocrinology and Immunology.",
+          "pub_year": "2020",
+          "first_publication_date": "2020-11-19",
+          "journal": "Front Cell Dev Biol",
+          "authors": "Rasha F, Mims BM, Castro-Piedras I, Barnes BJ, Grisham MB, Rahman RL, Pruitt K.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/33330467"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "33738067",
+        "source": "MED",
+        "pmid": "33738067",
+        "pmcid": "PMC7957943",
+        "doi": "10.1021/acsmedchemlett.0c00559",
+        "title": "Discovery of 5-Benzylidene-2-phenyl-1,3-dioxane-4,6-diones as Highly Potent and Selective SIRT1 Inhibitors.",
+        "pub_year": "2021",
+        "first_publication_date": "2021-03-01",
+        "journal": "ACS Med Chem Lett",
+        "authors": "Li C, Hu SS, Yang L, Wang M, Long JD, Wang B, Han H, Zhu H, Zhao S, Liu JG, Liu D, Liu H.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/33738067"
+      },
+      {
+        "id": "34744791",
+        "source": "MED",
+        "pmid": "34744791",
+        "pmcid": "PMC8568457",
+        "doi": "10.3389/fphys.2021.752117",
+        "title": "Human Sirtuin Regulators: The \"Success\" Stories.",
+        "pub_year": "2021",
+        "first_publication_date": "2021-10-21",
+        "journal": "Front Physiol",
+        "authors": "Curry AM, White DS, Donu D, Cen Y.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/34744791"
+      },
+      {
+        "id": "42449637",
+        "source": "MED",
+        "pmid": "42449637",
+        "pmcid": "PMC13359528",
+        "doi": "10.3390/cancers18132093",
+        "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
+        "pub_year": "2026",
+        "first_publication_date": "2026-06-27",
+        "journal": "Cancers (Basel)",
+        "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/42449637"
+      },
+      {
+        "id": "38961108",
+        "source": "MED",
+        "pmid": "38961108",
+        "pmcid": "PMC11222414",
+        "doi": "10.1038/s41467-024-49930-6",
+        "title": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2.",
+        "pub_year": "2024",
+        "first_publication_date": "2024-07-03",
+        "journal": "Nat Commun",
+        "authors": "Bi S, Huang L, Chen Y, Hu Z, Li S, Wang Y, Huang B, Zhang L, Huang Y, Dai B, Du L, Tu Z, Wang Y, Xu D, Xu X, Sun W, Kzhyshkowska J, Wang H, Chen D, Wang F, Zhang S.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/38961108"
+      },
+      {
+        "id": "35247119",
+        "source": "MED",
+        "pmid": "35247119",
+        "pmcid": "PMC9051010",
+        "doi": "10.1007/s10815-022-02437-9",
+        "title": "Protective effects of a SIRT1 inhibitor on primordial follicle activation and growth induced by cyclophosphamide: insights from a bovine in vitro folliculogenesis system.",
+        "pub_year": "2022",
+        "first_publication_date": "2022-03-05",
+        "journal": "J Assist Reprod Genet",
+        "authors": "Di Emidio G, Tatone C, Barbato V, Genovese V, Placidi M, Talevi R, Gualtieri R, Italian Society of Embryology, Reproduction, Research (SIERR).",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/35247119"
+      },
+      {
+        "id": "34638546",
+        "source": "MED",
+        "pmid": "34638546",
+        "pmcid": "PMC8508766",
+        "doi": "10.3390/ijms221910204",
+        "title": "Selective Extracellular Signal-Regulated Kinase 1/2 (ERK1/2) Inhibition by the SCH772984 Compound Attenuates In Vitro and In Vivo Inflammatory Responses and Prolongs Survival in Murine Sepsis Models.",
+        "pub_year": "2021",
+        "first_publication_date": "2021-09-22",
+        "journal": "Int J Mol Sci",
+        "authors": "Kopczynski M, Rumienczyk I, Kulecka M, Statkiewicz M, Pysniak K, Sandowska-Markiewicz Z, Wojcik-Trechcinska U, Goryca K, Pyziak K, Majewska E, Masiejczyk M, Wojcik-Jaszczynska K, Rzymski T, Bomsztyk K, Ostrowski J, Mikula M.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/34638546"
+      },
+      {
+        "id": "32029457",
+        "source": "MED",
+        "pmid": "32029457",
+        "pmcid": "PMC7050480",
+        "doi": "10.1101/gad.335109.119",
+        "title": "Interplay between compartmentalized NAD<sup>+</sup> synthesis and consumption: a focus on the PARP family.",
+        "pub_year": "2020",
+        "first_publication_date": "2020-02-06",
+        "journal": "Genes Dev",
+        "authors": "Cohen MS.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/32029457"
+      },
+      {
+        "id": "35775648",
+        "source": "MED",
+        "pmid": "35775648",
+        "pmcid": "PMC9340481",
+        "doi": "10.15252/embj.2021110218",
+        "title": "CRIP1 suppresses BBOX1-mediated carnitine metabolism to promote stemness in hepatocellular carcinoma.",
+        "pub_year": "2022",
+        "first_publication_date": "2022-07-01",
+        "journal": "EMBO J",
+        "authors": "Wang J, Zhou Y, Zhang D, Zhao W, Lu Y, Liu C, Lin W, Zhang Y, Chen K, Wang H, Zhao L.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/35775648"
+      },
+      {
+        "id": "38474697",
+        "source": "MED",
+        "pmid": "38474697",
+        "pmcid": "PMC10934002",
+        "doi": "10.3390/molecules29051185",
+        "title": "Current Trends in Sirtuin Activator and Inhibitor Development.",
+        "pub_year": "2024",
+        "first_publication_date": "2024-03-06",
+        "journal": "Molecules",
+        "authors": "Bursch KL, Goetz CJ, Smith BC.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/38474697"
+      },
+      {
+        "id": "38794171",
+        "source": "MED",
+        "pmid": "38794171",
+        "pmcid": "PMC11123952",
+        "doi": "10.3390/ph17050601",
+        "title": "Recent Advances in the Discovery of SIRT1/2 Inhibitors via Computational Methods: A Perspective.",
+        "pub_year": "2024",
+        "first_publication_date": "2024-05-08",
+        "journal": "Pharmaceuticals (Basel)",
+        "authors": "Scarano N, Brullo C, Musumeci F, Millo E, Bruzzone S, Schenone S, Cichero E.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/38794171"
+      },
+      {
+        "id": "32366137",
+        "source": "MED",
+        "pmid": "32366137",
+        "pmcid": "PMC7241506",
+        "doi": "10.1080/14756366.2020.1758691",
+        "title": "Biochemical mechanism and biological effects of the inhibition of silent information regulator 1 (SIRT1) by EX-527 (SEN0014196 or selisistat).",
+        "pub_year": "2020",
+        "first_publication_date": "2020-12-01",
+        "journal": "J Enzyme Inhib Med Chem",
+        "authors": "Broussy S, Laaroussi H, Vidal M.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/32366137"
+      },
+      {
+        "id": "39215785",
+        "source": "MED",
+        "pmid": "39215785",
+        "pmcid": "PMC11796339",
+        "doi": "10.1002/med.22076",
+        "title": "Activation and inhibition of sirtuins: From bench to bedside.",
+        "pub_year": "2025",
+        "first_publication_date": "2024-08-31",
+        "journal": "Med Res Rev",
+        "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/39215785"
+      },
+      {
+        "id": "36358940",
+        "source": "MED",
+        "pmid": "36358940",
+        "pmcid": "PMC9687810",
+        "doi": "10.3390/biom12111590",
+        "title": "Druggable Metabolic Vulnerabilities Are Exposed and Masked during Progression to Castration Resistant Prostate Cancer.",
+        "pub_year": "2022",
+        "first_publication_date": "2022-10-28",
+        "journal": "Biomolecules",
+        "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/36358940"
+      },
+      {
+        "id": "39592582",
+        "source": "MED",
+        "pmid": "39592582",
+        "pmcid": "PMC11627502",
+        "doi": "10.1038/s41392-024-02039-0",
+        "title": "Epigenetics-targeted drugs: current paradigms and future challenges.",
+        "pub_year": "2024",
+        "first_publication_date": "2024-11-26",
+        "journal": "Signal Transduct Target Ther",
+        "authors": "Dai W, Qiao X, Fang Y, Guo R, Bai P, Liu S, Li T, Jiang Y, Wei S, Na Z, Xiao X, Li D.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/39592582"
+      },
+      {
+        "id": "33330467",
+        "source": "MED",
+        "pmid": "33330467",
+        "pmcid": "PMC7717970",
+        "doi": "10.3389/fcell.2020.589016",
+        "title": "The Versatility of Sirtuin-1 in Endocrinology and Immunology.",
+        "pub_year": "2020",
+        "first_publication_date": "2020-11-19",
+        "journal": "Front Cell Dev Biol",
+        "authors": "Rasha F, Mims BM, Castro-Piedras I, Barnes BJ, Grisham MB, Rahman RL, Pruitt K.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/33330467"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2021,
+      2021,
+      2026,
+      2024,
+      2022,
+      2021,
+      2020,
+      2022,
+      2024,
+      2024,
+      2020,
+      2025,
+      2022,
+      2024,
+      2020
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT04184323&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "Wake Forest University Health Sciences",
+    "matched_lead": "Wake Forest University Health Sciences",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.wakehealth.edu",
+    "notes": "SIRT1 endometriosis study withdrawn for lack of funding",
+    "sponsor_entity": {
+      "name": "Wake Forest University Health Sciences",
+      "legal_name": "Wake Forest University Health Sciences",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT04184323",
+    "programme_id": "p_499c2f19bc3e739f",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT04184323.json"
+  }
+}

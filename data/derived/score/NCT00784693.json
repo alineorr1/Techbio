@@ -1,0 +1,211 @@
+{
+  "nct_id": "NCT00784693",
+  "score": 37.6,
+  "raw_weighted_sum": 37.6,
+  "arithmetic": "(18.0×35 + 40.0×30 + 62.5×20 + 45.0×15) / 100 = 37.6",
+  "weights": {
+    "mechanism_evidence": 35.0,
+    "failure_mode": 30.0,
+    "population_definition": 20.0,
+    "asset_accessibility": 15.0
+  },
+  "components": {
+    "mechanism_evidence": {
+      "value": 18.0,
+      "overall_association_score": null,
+      "genetic_association_score": 0.0,
+      "known_drug": false,
+      "literature_only": true,
+      "note": "No Open Targets association for a named gene; mechanism component is a floor, not a pass.",
+      "sources": []
+    },
+    "failure_mode": {
+      "value": 40.0,
+      "failure_mode": "unclear",
+      "rule_fired": "6_unclear_surface_for_review",
+      "note": "Lookup of unclear in config/scoring.yaml failure_mode_scores."
+    },
+    "population_definition": {
+      "value": 62.5,
+      "captured": [
+        "age_range_specified",
+        "menstrual_cycle_phase_controlled",
+        "hormonal_contraceptive_use_addressed"
+      ],
+      "missing": [
+        "diagnosis_method_stated",
+        "disease_severity_stratified",
+        "menopausal_status_specified",
+        "prior_treatment_history_specified",
+        "biomarker_or_molecular_subtype_used"
+      ],
+      "n_captured": 3,
+      "n_fields": 8,
+      "note": "Inverted capture rate of female-specific population variables from the extraction."
+    },
+    "asset_accessibility": {
+      "value": 45.05,
+      "sponsor_status": "operating",
+      "sponsor_points": 28.0,
+      "phase": [
+        "PHASE2"
+      ],
+      "phase_points": 78.0,
+      "years_since_stop": 16.5,
+      "years_points": 29.16,
+      "sponsor_source_url": "https://www.pfizer.com",
+      "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
+    }
+  },
+  "caps_applied": [],
+  "rule_a_safety_cap": false,
+  "rule_b_organon_guard": true,
+  "commercial_gate": {
+    "verdict": "empty_stub",
+    "reason_codes": [
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+    "intermezzo": {
+      "named": false,
+      "sex_diff": false,
+      "cheap_generic_no_power": false,
+      "shaped": false
+    },
+    "teratogen_rems": {
+      "matched": false,
+      "hard_disqualify": false,
+      "strong_downrank": false,
+      "matches": [],
+      "reason_codes": [],
+      "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+    },
+    "caps": {
+      "intermezzo": 20.0,
+      "rems_hard": 10.0,
+      "rems_downrank": 25.0,
+      "walk_away": 20.0
+    },
+    "empty_stub": true,
+    "rights_unknown": true,
+    "missing_ownership_fill": true
+  },
+  "pre_pass": {
+    "verdict": "empty_stub",
+    "optionable": false,
+    "shortlist_ownable": false,
+    "surface": "NOT OPTIONABLE",
+    "md_status": "HOLD",
+    "block_pass": true,
+    "reason_codes": [
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "commercial_gate": {
+      "verdict": "empty_stub",
+      "reason_codes": [
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": false,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": false,
+        "hard_disqualify": false,
+        "strong_downrank": false,
+        "matches": [],
+        "reason_codes": [],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": true,
+      "rights_unknown": true,
+      "missing_ownership_fill": true
+    },
+    "walk_away_codes": [],
+    "rights_unknown": true,
+    "missing_ownership_fill": true,
+    "empty_stub": true,
+    "desk_classification": null
+  },
+  "optionable": false,
+  "shortlist_ownable": false,
+  "gate_surface": "NOT OPTIONABLE",
+  "walk_away_codes": [],
+  "ownability": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT00784693",
+    "programme_id": "p_72ec4cfb6061305d",
+    "thesis_mismatch": false,
+    "kill_triggered": false,
+    "kill_codes": [
+      "S_TAXONOMY_FIX",
+      "S_COI_UNCLEAR",
+      "S_LICENSE_MAP_MISSING",
+      "RIGHTS_UNKNOWN",
+      "MISSING_OWNERSHIP_FILL",
+      "NOT_OPTIONABLE"
+    ],
+    "hard_codes": [],
+    "soft_codes": [
+      "S_TAXONOMY_FIX",
+      "S_COI_UNCLEAR",
+      "S_LICENSE_MAP_MISSING"
+    ],
+    "ownership_ownable": false,
+    "optionable": false,
+    "shortlist_ownable": false,
+    "surface": "NOT OPTIONABLE",
+    "md_status": "HOLD",
+    "confidence": "empty_stub",
+    "rights_unknown": true,
+    "missing_ownership_fill": true,
+    "desk_classification": null,
+    "decision_required": true
+  },
+  "pretrial_mechanism": {
+    "trial_start": "2008-12-18",
+    "has_pretrial_evidence": false,
+    "pretrial_count": 0,
+    "posttrial_count": 0,
+    "pretrial": [],
+    "posttrial": []
+  },
+  "uncertainty": {
+    "extraction_confidence": "high",
+    "n_unresolved": 5,
+    "unresolved": [
+      "diagnosis method not stated in the record",
+      "disease severity / stage not stated in the record",
+      "menopausal status not stated in the record",
+      "prior treatment history not stated in the record",
+      "biomarker or molecular subtype not stated in the record"
+    ],
+    "high_uncertainty": true,
+    "interval_halfwidth": 15.0,
+    "flag": "HIGH_UNCERTAINTY"
+  },
+  "confidence_interval": [
+    22.6,
+    52.6
+  ],
+  "failure_mode": "unclear",
+  "classification_rule": "6_unclear_surface_for_review"
+}

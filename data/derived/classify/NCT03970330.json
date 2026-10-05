@@ -1,0 +1,216 @@
+{
+  "nct_id": "NCT03970330",
+  "failure_mode": "funding_or_sponsor",
+  "confidence": "medium",
+  "signals": {
+    "extracted_category": "funding_or_sponsor",
+    "enrolment_actual": 9,
+    "enrolment_anticipated": null,
+    "enrolment_type": "ACTUAL",
+    "enrolment_ratio": null,
+    "enrolment_proceeding": true,
+    "sponsor_match": {
+      "sponsor_name": "Milton S. Hershey Medical Center",
+      "normalized_name": "milton s. hershey medical center",
+      "status": "operating",
+      "as_of": "2026-01-01",
+      "source_url": "https://www.pennstatehealth.org",
+      "notes": "Naltrexone endometriosis: PI left plus lack of funding; CBD study recruitment-limited",
+      "matched_lead": "Milton S. Hershey Medical Center"
+    },
+    "sponsor_ceased_near_stop": false,
+    "peer_trials_stopped_same_window": 0,
+    "female_specific_vars_captured": 4,
+    "safety_signal": false,
+    "results_published": true,
+    "target_advanced_elsewhere": false,
+    "stop_reason_evidence": "Original PI left institution, lack of funding to continue",
+    "stop_reason_raw": "Original PI left institution, lack of funding to continue",
+    "commercial_gate": {
+      "verdict": "HOLD",
+      "reason_codes": [],
+      "notes": "",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": true,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": false,
+        "hard_disqualify": false,
+        "strong_downrank": false,
+        "matches": [],
+        "reason_codes": [],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": false,
+      "rights_unknown": false,
+      "missing_ownership_fill": false
+    },
+    "disqualifier_codes": [],
+    "walk_away_codes": [],
+    "ownability": {
+      "schema_version": "wave-1b.rights-stub.v1",
+      "nct_id": "NCT03970330",
+      "programme_id": "p_ee21f2560ee9bf49",
+      "thesis_mismatch": false,
+      "kill_triggered": true,
+      "kill_codes": [
+        "K_COM_ELSEWHERE",
+        "K_VALUE_NOT_CAPTURED",
+        "NOT_OPTIONABLE"
+      ],
+      "hard_codes": [
+        "K_COM_ELSEWHERE",
+        "K_VALUE_NOT_CAPTURED"
+      ],
+      "soft_codes": [],
+      "ownership_ownable": false,
+      "optionable": false,
+      "shortlist_ownable": false,
+      "surface": "WALK_AWAY",
+      "md_status": "LIVE",
+      "confidence": "high",
+      "rights_unknown": false,
+      "missing_ownership_fill": false,
+      "desk_classification": "WALK_AWAY",
+      "decision_required": true
+    },
+    "thesis_mismatch": false,
+    "kill_triggered": true,
+    "kill_codes": [
+      "K_COM_ELSEWHERE",
+      "K_VALUE_NOT_CAPTURED",
+      "NOT_OPTIONABLE"
+    ],
+    "pre_pass": {
+      "verdict": "HOLD",
+      "optionable": false,
+      "shortlist_ownable": false,
+      "surface": "WALK_AWAY",
+      "md_status": "LIVE",
+      "block_pass": true,
+      "reason_codes": [
+        "NOT_OPTIONABLE"
+      ],
+      "commercial_gate": {
+        "verdict": "HOLD",
+        "reason_codes": [],
+        "notes": "",
+        "intermezzo": {
+          "named": false,
+          "sex_diff": false,
+          "cheap_generic_no_power": true,
+          "shaped": false
+        },
+        "teratogen_rems": {
+          "matched": false,
+          "hard_disqualify": false,
+          "strong_downrank": false,
+          "matches": [],
+          "reason_codes": [],
+          "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+        },
+        "caps": {
+          "intermezzo": 20.0,
+          "rems_hard": 10.0,
+          "rems_downrank": 25.0,
+          "walk_away": 20.0
+        },
+        "empty_stub": false,
+        "rights_unknown": false,
+        "missing_ownership_fill": false
+      },
+      "walk_away_codes": [],
+      "rights_unknown": false,
+      "missing_ownership_fill": false,
+      "empty_stub": false,
+      "desk_classification": "WALK_AWAY"
+    }
+  },
+  "rule_fired": "6_extracted_funding",
+  "notes": "Extracted stop category is funding/sponsor; no earlier rule fired.",
+  "commercial_gate": {
+    "verdict": "HOLD",
+    "reason_codes": [],
+    "notes": "",
+    "intermezzo": {
+      "named": false,
+      "sex_diff": false,
+      "cheap_generic_no_power": true,
+      "shaped": false
+    },
+    "teratogen_rems": {
+      "matched": false,
+      "hard_disqualify": false,
+      "strong_downrank": false,
+      "matches": [],
+      "reason_codes": [],
+      "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+    },
+    "caps": {
+      "intermezzo": 20.0,
+      "rems_hard": 10.0,
+      "rems_downrank": 25.0,
+      "walk_away": 20.0
+    },
+    "empty_stub": false,
+    "rights_unknown": false,
+    "missing_ownership_fill": false
+  },
+  "disqualifier_codes": [
+    "NOT_OPTIONABLE"
+  ],
+  "pre_pass": {
+    "verdict": "HOLD",
+    "optionable": false,
+    "shortlist_ownable": false,
+    "surface": "WALK_AWAY",
+    "md_status": "LIVE",
+    "block_pass": true,
+    "reason_codes": [
+      "NOT_OPTIONABLE"
+    ],
+    "commercial_gate": {
+      "verdict": "HOLD",
+      "reason_codes": [],
+      "notes": "",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": true,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": false,
+        "hard_disqualify": false,
+        "strong_downrank": false,
+        "matches": [],
+        "reason_codes": [],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": false,
+      "rights_unknown": false,
+      "missing_ownership_fill": false
+    },
+    "walk_away_codes": [],
+    "rights_unknown": false,
+    "missing_ownership_fill": false,
+    "empty_stub": false,
+    "desk_classification": "WALK_AWAY"
+  },
+  "walk_away_codes": []
+}

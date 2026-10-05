@@ -237,8 +237,647 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Proellex",
+          "description": "Proellex: one (1) 25 mg capsule daily Study was terminated prematurely and no data is available"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Study prematurely terminated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "A total of 18 participants were randomized; study prematurely terminated.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Proellex®",
+          "description": "Proellex®: one (1) 25 mg capsule daily"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "18"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "18"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "To Evaluate Incidence of Adverse Events (AEs) and Safety of Proellex® Administered Once Daily",
+          "description": "Number of participants who experienced 1 or more adverse event.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Proellex®",
+              "description": "Proellex®: one (1) 25 mg capsule daily"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "6 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Proellex®",
+          "description": "Proellex®: one (1) 25 mg capsule daily No data available",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 18,
+          "otherNumAffected": 16,
+          "otherNumAtRisk": 18
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Seasonal Allergies",
+          "organSystem": "Immune system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "1.5 % decrease femur bone density",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "abnormal labs",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "cervical tenderness",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Crying",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Cystic Left Ovary",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Decrease in Bone mineral Density",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Decreased bone Mineral Density in the Lumbar Spine",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Decreased Libido",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Elevated ALT",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "ALT (Alanine Transaminase)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Elevated AST",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "AST (Aspartate Transaminase)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "exacerbation migraine",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Hematuria",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Hot Flashes",
+          "organSystem": "Vascular disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Influenza",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Irregular Heart Beat",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "joint pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Left Cystic Ovary",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Left hip bone mineral density decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "left lower quadrant pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "left ovarian complex cyst",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Lumbar Spine Bone Mineral Density Decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Mood Swings",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Right lower quadrant abdomen pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Right ovarian complex cyst",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "right ovarian cyst 1.5cm",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Right Paraovarian cyst",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "sinus infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "skin rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "vaginal discharge",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "verruca vulgaris",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "weight gain",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Yeast Infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "sexual desire loss",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "insomnia",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 18
+            }
+          ]
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
@@ -256,5 +895,69 @@
         "phone": "714-246-4500"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004715",
+          "term": "Endometriosis"
+        },
+        {
+          "id": "D017699",
+          "term": "Pelvic Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C461063",
+          "term": "telapristone acetate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT03905941",
+  "programme_id": "p_216b3149076131dd",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT03905941",
+      "hit_count": 1,
+      "papers": [
+        {
+          "id": "32794179",
+          "source": "MED",
+          "pmid": "32794179",
+          "pmcid": "PMC7437400",
+          "doi": "10.1002/14651858.cd005552.pub3",
+          "title": "Metformin versus the combined oral contraceptive pill for hirsutism, acne, and menstrual pattern in polycystic ovary syndrome.",
+          "pub_year": "2020",
+          "first_publication_date": "2020-08-13",
+          "journal": "Cochrane Database Syst Rev",
+          "authors": "Fraison E, Kostova E, Moran LJ, Bilal S, Ee CC, Venetis C, Costello MF.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/32794179"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "32794179",
+        "source": "MED",
+        "pmid": "32794179",
+        "pmcid": "PMC7437400",
+        "doi": "10.1002/14651858.cd005552.pub3",
+        "title": "Metformin versus the combined oral contraceptive pill for hirsutism, acne, and menstrual pattern in polycystic ovary syndrome.",
+        "pub_year": "2020",
+        "first_publication_date": "2020-08-13",
+        "journal": "Cochrane Database Syst Rev",
+        "authors": "Fraison E, Kostova E, Moran LJ, Bilal S, Ee CC, Venetis C, Costello MF.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/32794179"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2020
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": false,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03905941&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "University of Virginia",
+    "matched_lead": "University of Virginia",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.virginia.edu",
+    "notes": "Several early-phase androgen-suppression PCOS studies withdrawn by the study team",
+    "sponsor_entity": {
+      "name": "University of Virginia",
+      "legal_name": "University of Virginia",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT03905941",
+    "programme_id": "p_216b3149076131dd",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT03905941.json"
+  }
+}

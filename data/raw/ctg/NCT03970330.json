@@ -245,8 +245,1583 @@
       "accessCriteria": "Data will plan to be published in a peer-reviewed journal and /or posted at clinicaltrials.gov websites or other websites per request of the NIH. Materials will also be accessible through email contact of Primary Investigator."
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Low-Dose Naltrexone",
+          "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Low-Dose Naltrexone",
+          "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "5"
+            },
+            {
+              "groupId": "BG001",
+              "value": "4"
+            },
+            {
+              "groupId": "BG002",
+              "value": "9"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30",
+                      "spread": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "27.5",
+                      "spread": "3.4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28.9",
+                      "spread": "6.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Pain Score Area Under the Curve (AUC)",
+          "description": "Pain is reported daily using the Visual Analog Scale, a 100mm horizontal line on which the patient's pain intensity is represented by a point between the extremities of 0 (no pain) and 100 (worst pain). The final outcome measure will be calculated as area under the curve from randomization through 12-weeks of intervention. AUC was calculated using the trapezoid rule. Calculated AUC per subject across this 12-week period can range from 0 - 8300.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "units on a scale*days",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low-Dose Naltrexone",
+              "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2461",
+                      "spread": "1445"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1338",
+                      "spread": "697"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.20",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "1123",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-755",
+              "ciUpperLimit": "3000",
+              "estimateComment": "Difference calculated as Naltrexone minus Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "EHP-30 Score",
+          "description": "Quality of life measured by the validated Endometriosis Health Profile (EHP-30) questionnaire. Scores range from 0 (best health status) to 100 (worst health status).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "Baseline, 4, 8, 12, and 16 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low-Dose Naltrexone",
+              "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Baseline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56.5",
+                      "spread": "18.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27.6",
+                      "spread": "19.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35.5",
+                      "spread": "16.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25.1",
+                      "spread": "17.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.9",
+                      "spread": "22.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16.0",
+                      "spread": "8.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.1",
+                      "spread": "26.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18.6",
+                      "spread": "15.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35.7",
+                      "spread": "28.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.9",
+                      "spread": "23.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at BASELINE",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.06",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "A single model was run with comparisons between naltrexone and placebo at each visit (not adjusted for multiple comparisons)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "28.9",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.9",
+              "ciUpperLimit": "59.6",
+              "estimateComment": "Difference calculated as Naltrexone minus Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 4",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.48",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "A single model was run with comparisons between naltrexone and placebo at each visit (not adjusted for multiple comparisons)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "10.4",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-20.3",
+              "ciUpperLimit": "41.2",
+              "estimateComment": "Difference calculated as Naltrexone minus Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 8",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.21",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "A single model was run with comparisons between naltrexone and placebo at each visit (not adjusted for multiple comparisons)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "18.9",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-11.8",
+              "ciUpperLimit": "49.6",
+              "estimateComment": "Difference calculated as Naltrexone minus Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 12",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.30",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "A single model was run with comparisons between naltrexone and placebo at each visit (not adjusted for multiple comparisons)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "15.5",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-15.2",
+              "ciUpperLimit": "46.2",
+              "estimateComment": "Difference calculated as Naltrexone minus Placebo"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 16",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.65",
+              "statisticalMethod": "Mixed Models Analysis",
+              "statisticalComment": "A single model was run with comparisons between naltrexone and placebo at each visit (not adjusted for multiple comparisons)",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "6.8",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-24.0",
+              "ciUpperLimit": "37.5",
+              "estimateComment": "Difference calculated as Naltrexone minus Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PGIC Score (Painful Periods)",
+          "description": "Patient's Global Impression of Change (PGIC) scale will be used to rate painful periods. This is a 7 point scale ranging from 1 (much worse) to 7 (much better).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "4, 8, 12 and 16 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low-Dose Naltrexone",
+              "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "4 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "lowerLimit": "5.5",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "8 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "lowerLimit": "5.5",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "12 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "lowerLimit": "6.0",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "16 weeks",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "5.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.5",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "5.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 4",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.07",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 8",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.07",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 12",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.06",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 16",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "1.00",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PGIC Score (Nonmenstrual Pelvic Pain)",
+          "description": "Patient's Global Impression of Change (PGIC) scale will be used to rate nonmenstrual pelvic pain. This is a 7 point scale ranging from 1 (much worse) to 7 (much better).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "4, 8, 12 and 16 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low-Dose Naltrexone",
+              "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "6.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "lowerLimit": "5.5",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "6.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "lowerLimit": "5.5",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "6.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.5",
+                      "lowerLimit": "6.0",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "6.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.5",
+                      "lowerLimit": "4.5",
+                      "upperLimit": "6.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treament groups at WEEK 4",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.29",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 8",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.24",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 12",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.20",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 16",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.53",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PGIC Score (Dyspareunia)",
+          "description": "Patient's Global Impression of Change (PGIC) scale will be used to rate pelvic pain during sex. This is a 7 point scale ranging from 1 (much worse) to 7 (much better).",
+          "populationDescription": "This measure was only assessed in patients who had intercourse during study treatment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "units on a scale",
+          "timeFrame": "4, 8, 12 and 16 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low-Dose Naltrexone",
+              "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "2"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Week 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "6.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 12",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "6.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Week 16",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "4.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.0",
+                      "lowerLimit": "4.0",
+                      "upperLimit": "7.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 4",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.37",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 8",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.39",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 12",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.37",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Comparison of treatment groups at WEEK 16",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.39",
+              "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Ibuprofen Use",
+          "description": "Average # of ibuprofen 200 mg pills per week during the study treatment period",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "pills/week",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low-Dose Naltrexone",
+              "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.5",
+                      "spread": "3.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.2",
+                      "spread": "1.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.08",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "4.3",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.6",
+              "ciUpperLimit": "9.2",
+              "estimateComment": "Difference calculated as Naltrexone minus Placebo"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Oxycodone Use",
+          "description": "Number of subjects who used oxycodone at any time during the study",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Low-Dose Naltrexone",
+              "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "5"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "16 weeks",
+      "description": "Adverse event collection occurred every 4 weeks (during study visits).",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Low-Dose Naltrexone",
+          "description": "12-week intervention period of 4.5 mg daily naltrexone in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNaltrexone: 4.5mg daily dose, taken orally\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 5,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 5,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 5
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "12-week intervention period of daily placebo in combination with standard treatment of 5-15 mg daily norethindrone acetate\n\nNorethindrone Acetate: 5 - 15mg daily dose, taken orally\n\nPlacebo: daily placebo pill, taken orally",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 4,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Gastritis",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Acne",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Poison Ivy",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Skin sensitivity",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Sinus infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Strep throat",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Night sweats",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Vivid dreams",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Headaches",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "Leg contusion",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 5
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        }
+      ]
+    },
     "moreInfoModule": {
       "certainAgreement": {
         "piSponsorEmployee": false,
@@ -259,5 +1834,168 @@
         "phone": "717-531-6447"
       }
     }
-  }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2022-04-15",
+          "uploadDate": "2022-08-15T15:12",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 401551
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2022-09-15",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004715",
+          "term": "Endometriosis"
+        },
+        {
+          "id": "D017699",
+          "term": "Pelvic Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009271",
+          "term": "Naltrexone"
+        },
+        {
+          "id": "D000077563",
+          "term": "Norethindrone Acetate"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009270",
+          "term": "Naloxone"
+        },
+        {
+          "id": "D009019",
+          "term": "Morphinans"
+        },
+        {
+          "id": "D053610",
+          "term": "Opiate Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006572",
+          "term": "Heterocyclic Compounds, Bridged-Ring"
+        },
+        {
+          "id": "D006576",
+          "term": "Heterocyclic Compounds, 4 or More Rings"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D010616",
+          "term": "Phenanthrenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D009640",
+          "term": "Norethindrone"
+        },
+        {
+          "id": "D009652",
+          "term": "Norpregnenes"
+        },
+        {
+          "id": "D009650",
+          "term": "Norpregnanes"
+        },
+        {
+          "id": "D009654",
+          "term": "Norsteroids"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

@@ -208,8 +208,253 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "50 mg Proellex Mild Impairment",
+          "description": "50 mg Proellex single dose Female subjects with mild renal impairment function.\n\n50 mg Proellex: Single dose"
+        },
+        {
+          "id": "FG001",
+          "title": "50 mg Proellex Moderate",
+          "description": "50 mg Proellex, Female subjects with moderate renal impairment function.\n\n50 mg Proellex: Single dose"
+        },
+        {
+          "id": "FG002",
+          "title": "50 mg Proellex, Normal",
+          "description": "50 mg Proellex, Female subjects with normal renal function.\n\n50 mg Proellex: Single dose"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Study prematurely terminated, no data available",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "50 mg Proellex Mild Impairment",
+          "description": "50 mg Proellex single dose Female subjects with mild renal impairment function.\n\n50 mg Proellex: Single dose"
+        },
+        {
+          "id": "BG001",
+          "title": "50 mg Proellex Moderate",
+          "description": "50 mg Proellex, Female subjects with moderate renal impairment function.\n\n50 mg Proellex: Single dose"
+        },
+        {
+          "id": "BG002",
+          "title": "50 mg Proellex, Normal",
+          "description": "50 mg Proellex, Female subjects with normal renal function.\n\n50 mg Proellex: Single dose"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "0"
+            },
+            {
+              "groupId": "BG001",
+              "value": "0"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            },
+            {
+              "groupId": "BG003",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "<=18 years"
+            },
+            {
+              "title": "Between 18 and 65 years"
+            },
+            {
+              "title": ">=65 years"
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Female"
+            },
+            {
+              "title": "Male"
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States"
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Cmax of Proellex",
+          "populationDescription": "Study prematurely terminated",
+          "reportingStatus": "POSTED",
+          "timeFrame": "48 hours",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "50 mg Proellex Mild Impairment",
+              "description": "50 mg Proellex single dose Female subjects with mild renal impairment function.\n\n50 mg Proellex: Single dose"
+            },
+            {
+              "id": "OG001",
+              "title": "50 mg Proellex Moderate",
+              "description": "50 mg Proellex, Female subjects with moderate renal impairment function.\n\n50 mg Proellex: Single dose"
+            },
+            {
+              "id": "OG002",
+              "title": "50 mg Proellex, Normal",
+              "description": "50 mg Proellex, Female subjects with normal renal function.\n\n50 mg Proellex: Single dose"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "description": "No adverse event data is available",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "50 mg Proellex Mild Impairment",
+          "description": "50 mg Proellex single dose Female subjects with mild renal impairment function.\n\n50 mg Proellex: Single dose",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "50 mg Proellex Moderate",
+          "description": "50 mg Proellex, Female subjects with moderate renal impairment function.\n\n50 mg Proellex: Single dose",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG002",
+          "title": "50 mg Proellex, Normal",
+          "description": "50 mg Proellex, Female subjects with normal renal function.\n\n50 mg Proellex: Single dose",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
@@ -227,5 +472,53 @@
         "phone": "2817193402"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C461063",
+          "term": "telapristone acetate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

@@ -177,8 +177,238 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Fiber-Stat",
+          "description": "2 tablespoons daily\n\nFiber-Stat: Liquid fiber supplement, 2 tablespoons twice daily."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Fiber-Stat",
+          "description": "2 tablespoons daily\n\nFiber-Stat: Liquid fiber supplement, 2 tablespoons twice daily."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Generate Preliminary Data on the Range of Outcome Measures at Baseline and After 6 Months of Fiber Supplementation in Terms of: Ovulation Rates, Insulin Sensitivity, Concentrations of Circulating Androgens and Satiety.",
+          "populationDescription": "This study was terminated early due to lack of enrollment. No assays were run so there is no data to report.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "10 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Fiber-Stat",
+              "description": "2 tablespoons daily\n\nFiber-Stat: Liquid fiber supplement, 2 tablespoons twice daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Quantify Enrollment Strategies, Retention, Compliance, Participant Characteristics, and Data Collection Challenges.",
+          "populationDescription": "This study was terminated early due to lack of enrollment. No assays were run so there is no data to report.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "10 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Fiber-Stat",
+              "description": "2 tablespoons daily\n\nFiber-Stat: Liquid fiber supplement, 2 tablespoons twice daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Fiber-Stat",
+          "description": "2 tablespoons daily\n\nFiber-Stat: Liquid fiber supplement, 2 tablespoons twice daily.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 2,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 2
+        }
+      ]
+    },
     "moreInfoModule": {
       "certainAgreement": {
         "piSponsorEmployee": false,
@@ -191,5 +421,11 @@
         "phone": "804-828-3389"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    }
+  },
+  "hasResults": true
 }

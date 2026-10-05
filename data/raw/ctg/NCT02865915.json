@@ -534,8 +534,899 @@
       "ipdSharing": "NO"
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Prior to randomization, subjects completed a screening period with a wash-out of medications for PCOS symptoms (if needed). Eligible subjects then completed an 8-week Lead-in Period with an initial 5-day progestin challenge, self-report of menstrual bleeding, and assessment of ovulation status by urine pregnenediol-3-glucuronide.",
+      "recruitmentDetails": "The study was conducted at 30 US sites. The study was initiated on 27 July 2016 and completed on 04 August 2017. Study sites consisted of a combination of private clinical research centers, medical clinics, and academic practices.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Placebo Treatment Arm",
+          "description": "Treatment with 1 matching placebo tablet self-administered twice daily"
+        },
+        {
+          "id": "FG001",
+          "title": "MLE4901 Treatment Arm",
+          "description": "Treatment with 1 tablet of MLE4901 self-administered twice daily \\[80% treated with dose of 40 mg twice daily\\]"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "25"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "30"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Study terminated prior to completion by any subject",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "comment": "Study terminated prior to completion by any subject",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "25"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "30"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Pregnancy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Study terminated by sponsor",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "Dosing group discontinued",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Placebo Treatment Arm",
+          "description": "Matching placebo tablet self-administered twice daily"
+        },
+        {
+          "id": "BG001",
+          "title": "MLE4901 Treatment Arm",
+          "description": "Treatment with 1 tablet of MLE4901 self-administered twice daily \\[80% treated with dose of 40 mg twice daily\\]"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "25"
+            },
+            {
+              "groupId": "BG001",
+              "value": "30"
+            },
+            {
+              "groupId": "BG002",
+              "value": "55"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "55"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "29.8",
+                      "spread": "5.16"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "28.5",
+                      "spread": "5.71"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "29.1",
+                      "spread": "5.46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "55"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "49"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "44"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Menstrual cycle frequency",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "cycles/year",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3.1",
+                      "spread": "1.74"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2.8",
+                      "spread": "1.83"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2.9",
+                      "spread": "1.78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Menstrual Cycle Duration",
+          "description": "Assessment of the number of days between menstrual cycles (i.e., days between the start of a menstrual period and the start of the next consecutive menstrual period) from baseline to end of 28 week double blind treatment period",
+          "populationDescription": "The trial was terminated prior to collection of any efficacy data.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "28 Week double blind treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo Treatment Arm",
+              "description": "Treatment with 1 matching placebo tablet self-administered twice daily"
+            },
+            {
+              "id": "OG001",
+              "title": "MLE4901 Treatment Arm",
+              "description": "Treatment with 1 tablet of study drug self-administered twice daily (most dosed with 40 mg BID)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Menstrual Periods",
+          "description": "Number of menstrual periods from baseline to the end of the 28 week double blind treatment period",
+          "populationDescription": "Study terminated prior to collection of efficacy data.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "28 Week double blind treatment period",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo Treatment Arm",
+              "description": "Treatment with 1 matching placebo tablet self-administered twice daily"
+            },
+            {
+              "id": "OG001",
+              "title": "MLE4901 Treatment Arm",
+              "description": "Treatment with 1 tablet of study drug self-administered twice daily (most dosed with 40 mg BID)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "During the time period between enrollment of the first subject until the data lock date, approximately 9 months.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Placebo Treatment Arm",
+          "description": "Treatment with 1 matching placebo tablet self-administered twice daily",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 25,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 15,
+          "otherNumAtRisk": 25
+        },
+        {
+          "id": "EG001",
+          "title": "MLE4901 Treatment Arm",
+          "description": "Treatment with 1 tablet of MLE4901 self-administered twice daily \\[80% treated with dose of 40 mg twice daily\\]",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 18,
+          "otherNumAtRisk": 30
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Enteritis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Streptococcal pharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            }
+          ]
+        },
+        {
+          "term": "Decreased appetite",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (19.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 30
+            }
+          ]
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "Due to termination of the study by the Sponsor, no patients completed the study. No efficacy data are available because study termination occurred prior to scheduled assessments."
@@ -551,5 +1442,157 @@
         "phone": "734-845-9000"
       }
     }
-  }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2017-03-08",
+          "uploadDate": "2020-06-01T16:19",
+          "filename": "Prot_000.pdf",
+          "size": 1856965
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2017-06-29",
+          "uploadDate": "2020-06-01T16:20",
+          "filename": "SAP_001.pdf",
+          "size": 308639
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011085",
+          "term": "Polycystic Ovary Syndrome"
+        },
+        {
+          "id": "D000152",
+          "term": "Acne Vulgaris"
+        },
+        {
+          "id": "D006628",
+          "term": "Hirsutism"
+        },
+        {
+          "id": "D008599",
+          "term": "Menstruation Disturbances"
+        },
+        {
+          "id": "D000505",
+          "term": "Alopecia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010048",
+          "term": "Ovarian Cysts"
+        },
+        {
+          "id": "D003560",
+          "term": "Cysts"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D010049",
+          "term": "Ovarian Diseases"
+        },
+        {
+          "id": "D000291",
+          "term": "Adnexal Diseases"
+        },
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D017486",
+          "term": "Acneiform Eruptions"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D012625",
+          "term": "Sebaceous Gland Diseases"
+        },
+        {
+          "id": "D006201",
+          "term": "Hair Diseases"
+        },
+        {
+          "id": "D014770",
+          "term": "Virilism"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D007039",
+          "term": "Hypotrichosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

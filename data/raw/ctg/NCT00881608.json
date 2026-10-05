@@ -208,8 +208,351 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "All Subjects Enrolled",
+          "description": "All subjects initiated treatment with placebo. Further information is not availasble due to premature termination of the study."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Study prematurely terminated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Study prematurely terminated, no data available",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Placebo",
+          "description": "Initiation-Placebo Cycle-Five (5) placebo capsules will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nPlacebo: Placebo, 1 capsule daily for five days"
+        },
+        {
+          "id": "BG001",
+          "title": "3 mg Proellex",
+          "description": "First Cycle (3 mg)- Five (5) 3 mg capsules of Proellex will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+        },
+        {
+          "id": "BG002",
+          "title": "6 mg Proellex",
+          "description": "Second Cycle (6 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed ten (10) 3 mg capsules of Proellex to self-administer 2, 3 mg capsules each day for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+        },
+        {
+          "id": "BG003",
+          "title": "12 mg Proellex",
+          "description": "Third Cycle (12 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed twenty (20) 3 mg capsules of Proellex to self-administer 4, 3 mg capsules for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+        },
+        {
+          "id": "BG004",
+          "title": "25 mg Proellex",
+          "description": "Fourth Cycle (25 mg)-Subjects, who have not experienced menses, will be dispensed five (5) 25 mg capsules of Proellex to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+        },
+        {
+          "id": "BG005",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "0"
+            },
+            {
+              "groupId": "BG001",
+              "value": "0"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            },
+            {
+              "groupId": "BG003",
+              "value": "0"
+            },
+            {
+              "groupId": "BG004",
+              "value": "0"
+            },
+            {
+              "groupId": "BG005",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years"
+        },
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "<=18 years"
+            },
+            {
+              "title": "Between 18 and 65 years"
+            },
+            {
+              "title": ">=65 years"
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Female"
+            },
+            {
+              "title": "Male"
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States"
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Day of Initial Vaginal Bleeding Event Following Treatment With Proellex.",
+          "populationDescription": "Study prematurely terminated",
+          "reportingStatus": "POSTED",
+          "timeFrame": "An early vaginal bleeding event lasting at least two days and occurring on or before day 24 will be deemed to have achieved an induced menses",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Initiation-Placebo Cycle-Five (5) placebo capsules will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nPlacebo: Placebo, 1 capsule daily for five days"
+            },
+            {
+              "id": "OG001",
+              "title": "3 mg Proellex",
+              "description": "First Cycle (3 mg)- Five (5) 3 mg capsules of Proellex will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            },
+            {
+              "id": "OG002",
+              "title": "6 mg Proellex",
+              "description": "Second Cycle (6 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed ten (10) 3 mg capsules of Proellex to self-administer 2, 3 mg capsules each day for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            },
+            {
+              "id": "OG003",
+              "title": "12 mg Proellex",
+              "description": "Third Cycle (12 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed twenty (20) 3 mg capsules of Proellex to self-administer 4, 3 mg capsules for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            },
+            {
+              "id": "OG004",
+              "title": "25 mg Proellex",
+              "description": "Fourth Cycle (25 mg)-Subjects, who have not experienced menses, will be dispensed five (5) 25 mg capsules of Proellex to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Duration of Vaginal Bleeding Following Treatment With Proellex.",
+          "populationDescription": "Study prematurely terminated",
+          "reportingStatus": "POSTED",
+          "timeFrame": "At least 2 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Initiation-Placebo Cycle-Five (5) placebo capsules will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nPlacebo: Placebo, 1 capsule daily for five days"
+            },
+            {
+              "id": "OG001",
+              "title": "3 mg Proellex",
+              "description": "First Cycle (3 mg)- Five (5) 3 mg capsules of Proellex will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            },
+            {
+              "id": "OG002",
+              "title": "6 mg Proellex",
+              "description": "Second Cycle (6 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed ten (10) 3 mg capsules of Proellex to self-administer 2, 3 mg capsules each day for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            },
+            {
+              "id": "OG003",
+              "title": "12 mg Proellex",
+              "description": "Third Cycle (12 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed twenty (20) 3 mg capsules of Proellex to self-administer 4, 3 mg capsules for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            },
+            {
+              "id": "OG004",
+              "title": "25 mg Proellex",
+              "description": "Fourth Cycle (25 mg)-Subjects, who have not experienced menses, will be dispensed five (5) 25 mg capsules of Proellex to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "description": "No adverse event data is available.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Placebo",
+          "description": "Initiation-Placebo Cycle-Five (5) placebo capsules will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nPlacebo: Placebo, 1 capsule daily for five days",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "3 mg Proellex",
+          "description": "First Cycle (3 mg)- Five (5) 3 mg capsules of Proellex will be dispensed to subjects to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG002",
+          "title": "6 mg Proellex",
+          "description": "Second Cycle (6 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed ten (10) 3 mg capsules of Proellex to self-administer 2, 3 mg capsules each day for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG003",
+          "title": "12 mg Proellex",
+          "description": "Third Cycle (12 mg)-Subjects, who have not experienced menses, will have their dose of Proellex escalated, and be dispensed twenty (20) 3 mg capsules of Proellex to self-administer 4, 3 mg capsules for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG004",
+          "title": "25 mg Proellex",
+          "description": "Fourth Cycle (25 mg)-Subjects, who have not experienced menses, will be dispensed five (5) 25 mg capsules of Proellex to self-administer for five days starting on cycle day 18.\n\nProellex: Proellex, one 3, 6, 12 or 25 mg capsule daily for five days",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
@@ -227,5 +570,41 @@
         "phone": "2817193402"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000568",
+          "term": "Amenorrhea"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008599",
+          "term": "Menstruation Disturbances"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C461063",
+          "term": "telapristone acetate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

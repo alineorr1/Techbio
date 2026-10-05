@@ -361,8 +361,236 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "All Arms",
+          "description": "Proellex: 25 mg or 50 mg or placebo oral daily dose"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "71"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "71"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Study prematurely terminated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "71"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Study prematurely terminated",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "25 g Proellex",
+          "description": "Proellex: 25 mg oral daily dose vs. 50 mg oral daily dose vs. placebo"
+        },
+        {
+          "id": "BG001",
+          "title": "50 mg Proellex",
+          "description": "Proellex: 25 mg oral daily dose vs. 50 mg oral daily dose vs. placebo"
+        },
+        {
+          "id": "BG002",
+          "title": "Placebo",
+          "description": "Placebo treatment"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "0"
+            },
+            {
+              "groupId": "BG001",
+              "value": "0"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            },
+            {
+              "groupId": "BG003",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years"
+        },
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "<=18 years"
+            },
+            {
+              "title": "Between 18 and 65 years"
+            },
+            {
+              "title": ">=65 years"
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Female"
+            },
+            {
+              "title": "Male"
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States"
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "To Determine the Efficacy of 50 mg Proellex® Versus Placebo in the Treatment of Subjects With Symptomatic Uterine Fibroids From Baseline to Month 4 as Determined by Scoring Changes in the Pictorial Blood Loss Assessment Chart (PBAC)",
+          "populationDescription": "Study prematurely terminated",
+          "reportingStatus": "POSTED",
+          "timeFrame": "4 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "25 g Proellex",
+              "description": "25 mg oral daily dose of Proellex\n\nProellex: 25 mg oral daily dose vs. 50 mg oral daily dose vs. placebo"
+            },
+            {
+              "id": "OG001",
+              "title": "50 mg Proellex",
+              "description": "50 mg oral daily dose of Proellex\n\nProellex: 25 mg oral daily dose vs. 50 mg oral daily dose vs. placebo"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Placebo treatment\n\nplacebo: Placebo"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "description": "No adverse events data is available.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "25 g Proellex",
+          "description": "25 mg oral daily dose of Proellex\n\nProellex: 25 mg oral daily dose vs. 50 mg oral daily dose vs. placebo",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "50 mg Proellex",
+          "description": "50 mg oral daily dose of Proellex\n\nProellex: 25 mg oral daily dose vs. 50 mg oral daily dose vs. placebo",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG002",
+          "title": "Placebo",
+          "description": "Placebo treatment\n\nplacebo: Placebo",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
@@ -380,5 +608,45 @@
         "phone": "2817193402"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007889",
+          "term": "Leiomyoma"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009379",
+          "term": "Neoplasms, Muscle Tissue"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C461063",
+          "term": "telapristone acetate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

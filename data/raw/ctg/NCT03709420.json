@@ -1,0 +1,278 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03709420",
+      "orgStudyIdInfo": {
+        "id": "40-533-001"
+      },
+      "organization": {
+        "fullName": "Forendo Pharma Ltd",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Investigate the Safety, Tolerability, Food Effect, Pharmacokinetics and Pharmacodynamics of FOR-6219",
+      "officialTitle": "A Phase I/Ib, Randomised, Double-blind, Placebo-controlled Study in Healthy Postmenopausal and Pre-menopausal Women to Investigate the Safety, Tolerability, Food Effect, Pharmacokinetics of Single and Multiple Ascending Oral Doses of FOR-6219 and the Pharmacodynamics of Multiple Oral Doses of FOR-6219"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-08-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-11-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-11-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-10-08",
+      "studyFirstSubmitQcDate": "2018-10-12",
+      "studyFirstPostDateStruct": {
+        "date": "2018-10-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-11-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-11-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Forendo Pharma Ltd",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Richmond Pharmacology Limited",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomised, double-blind, placebo-controlled, Phase I/Ib study which will assess the safety, tolerability, food effect, pharmacokinetics and pharmacodynamics of FOR-6219, a hydroxysteroid (17B) dehydrogenase (HSD17B1) inhibitor. The study will be performed in three parts: (I) Single ascending doses (SAD) in healthy post-menopausal women; (II) multiple ascending doses (MAD) in post-menopausal women; (III) multiple ascending doses in healthy pre-menopausal women."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ],
+      "keywords": [
+        "Hydroxysteroid (17B) dehydrogenase",
+        "HSD17B1"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 87,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Matching placebo capsule",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "FOR-6219",
+          "type": "EXPERIMENTAL",
+          "description": "Part I (SAD): Single oral doses of 2 mg, 10 mg, 25 mg, 50 mg, 100 mg and 175 mg.\n\nPart II (MAD): Multiple oral doses of 50 mg QD, 75 mg BID and 150 mg BID.\n\nPart III: Multiple oral doses of 10 mg, 25 mg, 75 mg and 150 mg BID",
+          "interventionNames": [
+            "Drug: FOR-6219"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo capsule to match active drug",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "FOR-6219",
+          "description": "FOR-6219 capsule",
+          "armGroupLabels": [
+            "FOR-6219"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability as measured by the incidence of treatment-emergent adverse events (TEAEs).",
+          "description": "All adverse events will be assessed by the investigator and graded for severity according to the criteria from National Cancer Institute Common Terminology Criteria for AEs (NCI CTCAE) v4.03.",
+          "timeFrame": "Throughout the study until the follow-up visit, i.e. 7 days after the last dose in Parts I and II and until day 35 in Part III."
+        },
+        {
+          "measure": "Proportion of subjects with clinically significant changes in laboratory safety tests.",
+          "description": "Laboratory safety tests include haematology, chemistry, coagulation and urinalysis.",
+          "timeFrame": "Throughout the study until the follow-up visit, i.e. 7 days after the last dose in Parts I and II and until day 35 in Part III."
+        },
+        {
+          "measure": "Proportion of subjects with changes in vital signs (blood pressure, diastolic blood pressure and pulse)",
+          "description": "Vital signs will be measures using automated monitors in supine position after 5 minute rest.",
+          "timeFrame": "Throughout the study until the follow-up visit, i.e. 7 days after the last dose in Parts I and II and until day 35 in Part III."
+        },
+        {
+          "measure": "Proportion of subjects with ECG changes.",
+          "description": "12-lead ECGs and ECG telemetry (only Parts I and II) will be used to measure ECG parameters.",
+          "timeFrame": "Throughout the study until the follow-up visit, i.e. 7 days after the last dose in Parts I and II and until day 35 in Part III."
+        },
+        {
+          "measure": "Presence of any pathology in transvaginal ultrasound (Part III).",
+          "description": "Transvaginal ultrasound will be performed at multiple timepoints.",
+          "timeFrame": "Throughout the study until the day of the last dose (day 14)."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Maximum observed plasma concentration (Cmax).",
+          "timeFrame": "Pharmacokinetic measures will be taken predose and multiple timepoints postdose after the single dose (SAD) and up to 72 hours after the last dose (Parts II and III)."
+        },
+        {
+          "measure": "Area under the plasma concentration-time curve (AUC).",
+          "timeFrame": "Pharmacokinetic measures will be taken predose and multiple timepoints postdose after the single dose (SAD) and up to 72 hours after the last dose (Parts II and III)."
+        },
+        {
+          "measure": "Time to maximum plasma concentration (Cmax).",
+          "timeFrame": "Pharmacokinetic measures will be taken predose and multiple timepoints postdose after the single dose (SAD) and up to 72 hours after the last dose (Parts II and III)."
+        },
+        {
+          "measure": "Terminal half-life (t½).",
+          "timeFrame": "Pharmacokinetic measures will be taken predose and multiple timepoints postdose after the single dose (SAD) and up to 72 hours after the last dose (Parts II and III)."
+        },
+        {
+          "measure": "Effect of food on the pharmacokinetic profile of FOR-6219 and metabolite FOR-6287 based on maximum observed plasma concentration (Cmax) (Part II).",
+          "timeFrame": "Predose and multiple timepoints post-dose in fed (Day 1) and fasted conditions (Days 3-10)."
+        },
+        {
+          "measure": "Effect of food on the pharmacokinetic profile of FOR-6219 and metabolite FOR-6287 based on area under the plasma concentration-time curve (AUC) (Part II).",
+          "timeFrame": "Predose and multiple timepoints post-dose in fed (Day 1) and fasted conditions (Days 3-10)."
+        },
+        {
+          "measure": "Change in systemic hormone levels (Part III).",
+          "description": "Systemic hormones include oestradiol (E2), estrone (E1), luteinizing hormone (LH), follicle stimulating hormone (FSH) and progesterone.",
+          "timeFrame": "Days 1, 3, 5, 7, 10, 12 and 14."
+        },
+        {
+          "measure": "Change in endometrial thickness (Part III).",
+          "description": "Endometrial thickness will be measured by transvaginal ultrasound.",
+          "timeFrame": "Days 3, 7, 10 and 14."
+        },
+        {
+          "measure": "Change in follicle volume (Part III).",
+          "description": "Follicle volume will be measured by transvaginal ultrasound.",
+          "timeFrame": "Days 3, 7, 10 and 14."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "PART I and II (postmenopausal women):\n\nInclusion Criteria:\n\n* Healthy Caucasian female volunteers between 45 and 65 years (inclusive) at screening.\n* Female volunteers must be either naturally (spontaneously) post-menopausal: Natural (spontaneous) postmenopause is defined as being amenorrheic for at least 12 months without an alternative medical cause with a screening follicle stimulating hormone level \\>25.8 IU/L and 17β-oestradiol serum levels less than 183 pmol/L (or the local laboratory levels for post-menopause) OR must have had a bilateral oophorectomy/bilateral salpingo-oophorectomy. Hysterectomised women can be included only if they have had bilateral oophorectomy.\n* Volunteers not taking hormone replacement therapy (HRT).\n* Has a body weight between 50kg and 100kg inclusive and a body mass index (BMI) between 18.0-32.0 kg/m\\^2 inclusive.\n* Satisfactory medical assessment with no clinically significant or relevant abnormalities as determined by medical history, physical examination, vital signs, 12-lead electrocardiogram (ECG), and clinical laboratory evaluation (haematology, biochemistry, coagulation and urinalysis) that is reasonably likely to interfere with the volunteer's participation in or ability to complete the study as assessed by the investigator.\n* Ability to provide written, personally signed, and dated informed consent to participate in the study, in accordance with the International Conference on Harmonization (ICH) Good Clinical Practice (GCP) Guideline E6 (R2) (2016) and applicable regulations, before completing any study-related procedures.\n* Ability to swallow multiple capsules at a time or (consecutively) one capsule at a time.\n* An understanding, ability, and willingness to fully comply with study procedures and restrictions.\n\nExclusion Criteria:\n\n* Post-menopausal women with less than 12 months amenorrhoea or women with amenorrhoea due to other medical causes.\n* Current or recurrent disease (e.g., cardiovascular, haematological, neurological, endocrine, immunological, renal, hepatic or gastrointestinal or other conditions) that could affect the action, absorption, or disposition of FOR-6219, or could affect clinical assessments or clinical laboratory evaluations.\n* Current or relevant history of physical or psychiatric illness that are not stable or may require a change in treatment, use of prohibited therapies during the study or make the subject unlikely to fully comply with the requirements of the study or complete the study, or any condition that presents undue risk from the investigational product or study procedures.\n* Any other significant disease or disorder which, in the opinion of the Investigator, may either put the subject at risk because of participation in the study may influence the result of the study, or the subject's ability to participate in the study.\n* The history or presence of any of the following cardiac conditions: known structural cardiac abnormalities; family history of long QT syndrome; cardiac syncope or recurrent, idiopathic syncope; exercise related clinically significant cardiac events.\n* Any clinically significant abnormalities in rhythm, conduction or morphology of resting ECG or clinically important abnormalities that may interfere with the interpretation of corrected QT (QTc) interval changes.\n* Has vital signs consistently outside of the following normal range. Supine blood pressure (after at least 5 minutes of supine rest):\n\n  * Systolic blood pressure: 90 - 145 mmHg.\n  * Diastolic blood pressure: 40 - 95 mmHg.\n* Positive test for Hepatitis B surface antigen (HBsAg), Hepatitis C antibody (HCV Ab), or human immunodeficiency virus antibody (HIV Ab) at screening.\n* Evidence of pregnancy.\n* Any other abnormal findings on vital signs, ECG, physical examination or laboratory evaluation of blood and urine samples that the Investigator judges as likely to interfere with the study or pose an additional risk in participating.\n* Positive test results for alcohol or drugs of abuse.\n* History or clinical evidence of substance and/or alcohol abuse within the two years before screening.\n* Use of tobacco in any form (e.g., smoking or chewing) or other nicotine-containing products in any form (e.g., gum, patch, electronic cigarettes) within three months prior to the planned first day of dosing.\n* Has used any medication that is either an inhibitor or inducer of CYP3A4 within 28 days or 10 half-lives (whichever is longer) prior to the planned first day of dosing. Additionally, subjects must not have consumed other substances known to be potent inhibitors or inducers of cytochrome P450 (CYP P450s) in the two weeks before the planned first study drug administration.\n* Has used any other prescription or over-the-counter medication (including herbal or homeopathic preparations; excluding vitamin/mineral supplements and occasional paracetamol) within 14 days or 10 half-lives (whichever is longer) prior to the planned first day of dosing that the Investigator judges is likely to interfere with the study or pose an additional risk in participating.\n* Consumption of herbal remedies or dietary supplements containing St. John's Wort in the 3 weeks before the planned Day 1 of the dosing period.\n* Has received an investigational product or been treated with an investigational device within 90 days prior to first drug administration and will not start any other investigational product or device study within 90 days after last study drug administration.\n* Known or suspected intolerance or hypersensitivity to the investigational product, any closely related compound, or any of the stated ingredients.\n* History of significant allergic reaction (anaphylaxis, angioedema) to any product (food, pharmaceutical, etc).\n* Has donated or lost 400 mL blood or more within the last 16 weeks preceding the first day of dosing.\n* Has a mental incapacity or language barriers precluding adequate understanding, cooperation, and compliance with the study requirements.\n* An inability to follow a standardised diet and meal schedule or inability to fast, as required during the study.\n* Prior screen failure (where the cause of the screen failure is not deemed to be temporary), randomisation, participation, or enrolment in this study. Subjects who initially failed due to temporary non-medically significant issues are eligible for rescreening once the cause has resolved.\n\nPART III (premenopausal women):\n\nInclusion Criteria:\n\n* Healthy female volunteers between age 18-39 years (inclusive) at screening and not planning pregnancy during the month following the study completion.\n* The subject is premenopausal with a regular ovulatory menstrual cycle with an interval of 26-31 days based on medical history during the past 3 months and as confirmed by the control menstrual cycle prior to dosing.\n* Volunteers not taking oral contraceptives.\n* Has a body weight between 45kg and 90kg inclusive and a body mass index (BMI between 18.0-30.0 kg/m\\^2 inclusive).\n* Satisfactory medical assessment with no clinically significant or relevant abnormalities as determined by medical history, physical examination, vital signs, 12-lead ECG, and clinical laboratory evaluation (haematology, biochemistry, coagulation and urinalysis) that is reasonably likely to interfere with the volunteer's participation in or ability to complete the study as assessed by the investigator.\n* Satisfactory medical assessment with no clinically significant or relevant abnormalities as determined by gynaecological examination and transvaginal ultrasound (TVUS), that would interfere with the assessment of the endometrial thickness or endometrial biopsy.\n* Ability to provide written, personally signed, and dated informed consent to participate in the study, in accordance with the ICH Good Clinical Practice (GCP) Guideline E6 (R2) (2016) and applicable regulations, before completing any study-related procedures.\n* Ability to swallow multiple capsules at a time or (consecutively) one capsule at a time.\n* An understanding, ability, and willingness to fully comply with study procedures and restrictions.\n* The subjects must agree to use the study-specific contraceptive methods from screening up to 30 days after the follow-up visit.\n\nExclusion Criteria:\n\n* Post-menopausal women, defined as with more than 12 months amenorrhoea.\n* Current or recurrent disease (e.g., cardiovascular, haematological, neurological, endocrine, immunological, renal, hepatic or gastrointestinal or other conditions) that could affect the action, absorption, or disposition of FOR-6219, or could affect clinical assessments or clinical laboratory evaluations.\n* Current or recurrent gynaecological disease that could affect the clinical assessments.\n* Current or relevant history of physical or psychiatric illness that are not stable or may require a change in treatment, use of prohibited therapies during the study or make the subject unlikely to fully comply with the requirements of the study or complete the study, or any condition that presents undue risk from the investigational product or study procedures.\n* Any other significant disease or disorder which, in the opinion of the Investigator, may either put the subject at risk because of participation in the study may influence the result of the study, or the subject's ability to participate in the study.\n* The history or presence of any of the following cardiac conditions: known structural cardiac abnormalities; family history of long QT syndrome; cardiac syncope or recurrent, idiopathic syncope; exercise related clinically significant cardiac events.\n* Any clinically significant abnormalities in rhythm, conduction or morphology of resting ECG or clinically important abnormalities that may interfere with the interpretation of QTc interval changes.\n* Has vital signs consistently outside of the following normal range. Supine blood pressure (after at least 5 minutes of supine rest):\n\n  * Systolic blood pressure: 90 - 140 mmHg.\n  * Diastolic blood pressure: 40 - 90 mmHg.\n* Positive test for Hepatitis B surface antigen (HBsAg), Hepatitis C antibody (HCV Ab), or human immunodeficiency virus antibody (HIV Ab) at screening.\n* Evidence of pregnancy\n* Any other abnormal findings on vital signs, ECG, physical examination or laboratory evaluation of blood and urine samples that the Investigator judges as likely to interfere with the study or pose an additional risk in participating.\n* Positive test results for alcohol or drugs of abuse.\n* History or clinical evidence of substance and/or alcohol abuse within the two years before screening.\n* Use of tobacco in any form (e.g., smoking or chewing) or other nicotine-containing products in any form (e.g., gum, patch, electronic cigarettes) within three months prior to the planned first day of dosing.\n* Has used any medication that is either an inhibitor or inducer of CYP3A4 within 28 days or 10 half-lives (whichever is longer) prior to the planned first day of dosing. Additionally, subjects must not have consumed other substances known to be potent inhibitors or inducers of cytochrome P450 (CYP P450s) in the two weeks before the planned first study drug administration.\n* Has used any other prescription or over-the-counter medication (including herbal or homeopathic preparations; excluding vitamin/mineral supplements, measures for pain relief during biopsy (such as use of local anaesthetic and/or NSAIDs) and occasional paracetamol) within 14 days or 10 half-lives (whichever is longer) prior to the planned first day of dosing that the Investigator judges is likely to interfere with the study or pose an additional risk in participating.\n* Consumption of herbal remedies or dietary supplements containing St. John's Wort in the 3 weeks before the planned Day 1 of the dosing period.\n* Use of oral contraceptives, contraceptive intrauterine device, or any other hormonal medication that may have an impact on the hormonal levels, assessment of endometrium or follicle assessment during the menstrual cycle. The wash-out period for any hormonal treatment is at least 3 menstrual cycles before dosing.\n* Has received an investigational product or been treated with an investigational device within 90 days prior to first drug administration and will not start any other investigational product or device study within 90 days after last study drug administration.\n* Known or suspected intolerance or hypersensitivity to the investigational product, any closely related compound, or any of the stated ingredients.\n* History of significant allergic reaction (anaphylaxis, angioedema) to any product (food, pharmaceutical, etc).\n* Has donated or lost 400 mL blood or more within the last 16 weeks preceding the first day of dosing.\n* Has a mental incapacity or language barriers precluding adequate understanding, cooperation, and compliance with the study requirements.\n* An inability to follow a standardised diet and meal schedule or inability to fast, as required during the study.\n* Prior screen failure (where the cause of the screen failure is not deemed to be temporary), randomisation, participation, or enrolment in this study. Subjects who initially failed due to temporary non-medically significant issues are eligible for rescreening once the cause has resolved.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Naturally (spontaneously) post-menopausal women or women with bilateral oophorectomy/bilateral salpingo-oophorectomy (Parts I and II) or premenopausal women (Part III).",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ulrike Lorch, M.D.",
+          "affiliation": "Richmond Pharmacology Limited",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Richmond Pharmacology Ltd.",
+          "city": "London",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004715",
+          "term": "Endometriosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

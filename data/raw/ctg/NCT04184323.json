@@ -233,5 +233,60 @@
       "timeFrame": "After completion of the study that includes live birth data"
     }
   },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004715",
+          "term": "Endometriosis"
+        },
+        {
+          "id": "D014591",
+          "term": "Uterine Diseases"
+        },
+        {
+          "id": "D007246",
+          "term": "Infertility"
+        },
+        {
+          "id": "C564871",
+          "term": "Progesterone Resistance"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C550547",
+          "term": "6-chloro-2,3,4,9-tetrahydro-1H-carbazole-1-carboxamide"
+        }
+      ]
+    }
+  },
   "hasResults": false
 }

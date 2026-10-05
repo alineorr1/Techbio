@@ -1,0 +1,179 @@
+{
+  "nct_id": "NCT03709420",
+  "programme_id": "p_e0eec4f1cae0db4f",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT03709420",
+      "hit_count": 4,
+      "papers": [
+        {
+          "id": "40392231",
+          "source": "MED",
+          "pmid": "40392231",
+          "pmcid": "PMC12092000",
+          "doi": "10.7554/elife.103825",
+          "title": "Endometriosis is not the endometrium: Reviewing the over-representation of eutopic endometrium in endometriosis research.",
+          "pub_year": "2025",
+          "first_publication_date": "2025-05-20",
+          "journal": "Elife",
+          "authors": "Gunther K, Fisher T, Liu D, Abbott J, Ford CE.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/40392231"
+        },
+        {
+          "id": "38884026",
+          "source": "MED",
+          "pmid": "38884026",
+          "pmcid": "PMC11175833",
+          "doi": "10.1055/a-2306-8759",
+          "title": "The Hallmarks of Endometriosis.",
+          "pub_year": "2024",
+          "first_publication_date": "2024-06-13",
+          "journal": "Geburtshilfe Frauenheilkd",
+          "authors": "Psilopatis I, Burghaus S, Au K, Hofbeck L, Windischbauer L, Lotz L, Beckmann MW.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/38884026"
+        },
+        {
+          "id": "36204107",
+          "source": "MED",
+          "pmid": "36204107",
+          "pmcid": "PMC9531311",
+          "doi": "10.3389/fendo.2022.950866",
+          "title": "Is intracrinology of endometriosis relevant in clinical practice? A systematic review on estrogen metabolism.",
+          "pub_year": "2022",
+          "first_publication_date": "2022-09-20",
+          "journal": "Front Endocrinol (Lausanne)",
+          "authors": "Mercorio A, Giampaolino P, Romano A, Dällenbach P, Pluchino N.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/36204107"
+        },
+        {
+          "id": "37188267",
+          "source": "MED",
+          "pmid": "37188267",
+          "pmcid": "PMC10175629",
+          "doi": "10.3389/fphar.2023.1155558",
+          "title": "Targeting the formation of estrogens for treatment of hormone dependent diseases-current status.",
+          "pub_year": "2023",
+          "first_publication_date": "2023-04-28",
+          "journal": "Front Pharmacol",
+          "authors": "Rižner TL, Romano A.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/37188267"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "40392231",
+        "source": "MED",
+        "pmid": "40392231",
+        "pmcid": "PMC12092000",
+        "doi": "10.7554/elife.103825",
+        "title": "Endometriosis is not the endometrium: Reviewing the over-representation of eutopic endometrium in endometriosis research.",
+        "pub_year": "2025",
+        "first_publication_date": "2025-05-20",
+        "journal": "Elife",
+        "authors": "Gunther K, Fisher T, Liu D, Abbott J, Ford CE.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/40392231"
+      },
+      {
+        "id": "38884026",
+        "source": "MED",
+        "pmid": "38884026",
+        "pmcid": "PMC11175833",
+        "doi": "10.1055/a-2306-8759",
+        "title": "The Hallmarks of Endometriosis.",
+        "pub_year": "2024",
+        "first_publication_date": "2024-06-13",
+        "journal": "Geburtshilfe Frauenheilkd",
+        "authors": "Psilopatis I, Burghaus S, Au K, Hofbeck L, Windischbauer L, Lotz L, Beckmann MW.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/38884026"
+      },
+      {
+        "id": "36204107",
+        "source": "MED",
+        "pmid": "36204107",
+        "pmcid": "PMC9531311",
+        "doi": "10.3389/fendo.2022.950866",
+        "title": "Is intracrinology of endometriosis relevant in clinical practice? A systematic review on estrogen metabolism.",
+        "pub_year": "2022",
+        "first_publication_date": "2022-09-20",
+        "journal": "Front Endocrinol (Lausanne)",
+        "authors": "Mercorio A, Giampaolino P, Romano A, Dällenbach P, Pluchino N.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/36204107"
+      },
+      {
+        "id": "37188267",
+        "source": "MED",
+        "pmid": "37188267",
+        "pmcid": "PMC10175629",
+        "doi": "10.3389/fphar.2023.1155558",
+        "title": "Targeting the formation of estrogens for treatment of hormone dependent diseases-current status.",
+        "pub_year": "2023",
+        "first_publication_date": "2023-04-28",
+        "journal": "Front Pharmacol",
+        "authors": "Rižner TL, Romano A.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/37188267"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2025,
+      2024,
+      2022,
+      2023
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03709420&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "acquired",
+    "sponsor_name": "Forendo Pharma Ltd",
+    "matched_lead": "Forendo Pharma Ltd",
+    "as_of": "2021-11-11",
+    "source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
+    "notes": "Acquired by Organon in 2021",
+    "sponsor_entity": {
+      "name": "Forendo Pharma Ltd",
+      "legal_name": "Forendo Pharma Ltd",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT03709420",
+    "programme_id": "p_e0eec4f1cae0db4f",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT03709420.json"
+  }
+}

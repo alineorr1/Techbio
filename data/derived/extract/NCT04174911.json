@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04174911",
+  "targets": [
+    {
+      "name": "BOL-DP-o-08",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "BOL-DP-o-08 evaluated in A Study to Evaluate the Safety and Efficacy of BOL-DP-o-08 in Patients With Endometriosis Syndrome. Stopped: covid 19.",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "laparoscopy",
+    "disease_severity_stratified": true,
+    "age_range_specified": true,
+    "menopausal_status_specified": false,
+    "menstrual_cycle_phase_controlled": true,
+    "hormonal_contraceptive_use_addressed": true,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": false
+  },
+  "stop_reason_raw": "covid 19",
+  "stop_reason_category": "other",
+  "stop_reason_evidence": "covid 19",
+  "endpoint_quality": {
+    "primary_endpoint": "Change in a pain Numeric Rating Scale",
+    "endpoint_type": "patient_reported",
+    "endpoint_appropriate_for_indication": "yes",
+    "reasoning": "Pain-related patient-reported primary matches endometriosis symptom trials."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "menopausal status not stated in the record",
+    "prior treatment history not stated in the record",
+    "biomarker or molecular subtype not stated in the record"
+  ]
+}

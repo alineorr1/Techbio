@@ -1,0 +1,456 @@
+{
+  "nct_id": "NCT04184323",
+  "score": 20.0,
+  "raw_weighted_sum": 29.9,
+  "arithmetic": "(4.9×35 + 18.0×30 + 62.5×20 + 68.7×15) / 100 = 29.9 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
+  "weights": {
+    "mechanism_evidence": 35.0,
+    "failure_mode": 30.0,
+    "population_definition": 20.0,
+    "asset_accessibility": 15.0
+  },
+  "components": {
+    "mechanism_evidence": {
+      "value": 4.86,
+      "overall_association_score": 0.10802976959641901,
+      "genetic_association_score": 0.0,
+      "known_drug": false,
+      "literature_only": true,
+      "note": "Open Targets overall association scaled to 0-100, plus genetic bonus. Literature-only evidence penalised (Organon-relevant: papers after a failed trial are not independent).",
+      "sources": [
+        {
+          "label": "Open Targets association endometriosis–SIRT1",
+          "url": "https://platform.opentargets.org/disease/MONDO_0005133"
+        },
+        {
+          "label": "Open Targets target SIRT1",
+          "url": "https://platform.opentargets.org/target/ENSG00000096717"
+        }
+      ]
+    },
+    "failure_mode": {
+      "value": 18.0,
+      "failure_mode": "never_started",
+      "rule_fired": "walk_away_withdrawn_or_zero_enrolment",
+      "note": "Lookup of never_started in config/scoring.yaml failure_mode_scores."
+    },
+    "population_definition": {
+      "value": 62.5,
+      "captured": [
+        "diagnosis_method_stated",
+        "age_range_specified",
+        "menstrual_cycle_phase_controlled"
+      ],
+      "missing": [
+        "disease_severity_stratified",
+        "menopausal_status_specified",
+        "hormonal_contraceptive_use_addressed",
+        "prior_treatment_history_specified",
+        "biomarker_or_molecular_subtype_used"
+      ],
+      "n_captured": 3,
+      "n_fields": 8,
+      "note": "Inverted capture rate of female-specific population variables from the extraction."
+    },
+    "asset_accessibility": {
+      "value": 68.67,
+      "sponsor_status": "operating",
+      "sponsor_points": 28.0,
+      "phase": [
+        "PHASE2"
+      ],
+      "phase_points": 78.0,
+      "years_since_stop": 2.84,
+      "years_points": 100.0,
+      "sponsor_source_url": "https://www.wakehealth.edu",
+      "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
+    }
+  },
+  "caps_applied": [
+    "Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0"
+  ],
+  "rule_a_safety_cap": false,
+  "rule_b_organon_guard": false,
+  "commercial_gate": {
+    "verdict": "empty_stub",
+    "reason_codes": [
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+    "intermezzo": {
+      "named": false,
+      "sex_diff": false,
+      "cheap_generic_no_power": false,
+      "shaped": false
+    },
+    "teratogen_rems": {
+      "matched": false,
+      "hard_disqualify": false,
+      "strong_downrank": false,
+      "matches": [],
+      "reason_codes": [],
+      "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+    },
+    "caps": {
+      "intermezzo": 20.0,
+      "rems_hard": 10.0,
+      "rems_downrank": 25.0,
+      "walk_away": 20.0
+    },
+    "empty_stub": true,
+    "rights_unknown": true,
+    "missing_ownership_fill": true
+  },
+  "pre_pass": {
+    "verdict": "empty_stub",
+    "optionable": false,
+    "shortlist_ownable": false,
+    "surface": "NOT OPTIONABLE",
+    "md_status": "HOLD",
+    "block_pass": true,
+    "reason_codes": [
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL",
+      "WALK_AWAY_WITHDRAWN",
+      "WALK_AWAY_ZERO_ENROLMENT"
+    ],
+    "commercial_gate": {
+      "verdict": "empty_stub",
+      "reason_codes": [
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": false,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": false,
+        "hard_disqualify": false,
+        "strong_downrank": false,
+        "matches": [],
+        "reason_codes": [],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": true,
+      "rights_unknown": true,
+      "missing_ownership_fill": true
+    },
+    "walk_away_codes": [
+      "WALK_AWAY_WITHDRAWN",
+      "WALK_AWAY_ZERO_ENROLMENT"
+    ],
+    "rights_unknown": true,
+    "missing_ownership_fill": true,
+    "empty_stub": true,
+    "desk_classification": null
+  },
+  "optionable": false,
+  "shortlist_ownable": false,
+  "gate_surface": "NOT OPTIONABLE",
+  "walk_away_codes": [
+    "WALK_AWAY_WITHDRAWN",
+    "WALK_AWAY_ZERO_ENROLMENT"
+  ],
+  "ownability": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT04184323",
+    "programme_id": "p_499c2f19bc3e739f",
+    "thesis_mismatch": false,
+    "kill_triggered": false,
+    "kill_codes": [
+      "S_TAXONOMY_FIX",
+      "S_COI_UNCLEAR",
+      "S_LICENSE_MAP_MISSING",
+      "RIGHTS_UNKNOWN",
+      "MISSING_OWNERSHIP_FILL",
+      "NOT_OPTIONABLE"
+    ],
+    "hard_codes": [],
+    "soft_codes": [
+      "S_TAXONOMY_FIX",
+      "S_COI_UNCLEAR",
+      "S_LICENSE_MAP_MISSING"
+    ],
+    "ownership_ownable": false,
+    "optionable": false,
+    "shortlist_ownable": false,
+    "surface": "NOT OPTIONABLE",
+    "md_status": "HOLD",
+    "confidence": "empty_stub",
+    "rights_unknown": true,
+    "missing_ownership_fill": true,
+    "desk_classification": null,
+    "decision_required": true
+  },
+  "pretrial_mechanism": {
+    "trial_start": "2022-01-01",
+    "has_pretrial_evidence": true,
+    "pretrial_count": 10,
+    "posttrial_count": 15,
+    "pretrial": [
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 1,
+        "publication_year": 2021,
+        "publication_date": "2021-09-28",
+        "evidence_date": "2021-09-28",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 1,
+        "publication_year": 2017,
+        "publication_date": "2017-07-28",
+        "evidence_date": "2017-07-28",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.8,
+        "publication_year": 2021,
+        "publication_date": "2021-02-13",
+        "evidence_date": "2021-02-13",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.34,
+        "publication_year": 2020,
+        "publication_date": "2020-01-01",
+        "evidence_date": "2020-01-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.28,
+        "publication_year": 2020,
+        "publication_date": "2020-07-01",
+        "evidence_date": "2020-07-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.25,
+        "publication_year": 2021,
+        "publication_date": "2021-01-10",
+        "evidence_date": "2021-01-10",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.19,
+        "publication_year": 2013,
+        "publication_date": "2013-12-10",
+        "evidence_date": "2013-12-10",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.1,
+        "publication_year": 2021,
+        "publication_date": "2021-11-23",
+        "evidence_date": "2021-11-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "pre_trial"
+      }
+    ],
+    "posttrial": [
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.99,
+        "publication_year": 2022,
+        "publication_date": "2022-07-19",
+        "evidence_date": "2022-07-19",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.42,
+        "publication_year": 2022,
+        "publication_date": "2022-02-01",
+        "evidence_date": "2022-02-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.31,
+        "publication_year": 2026,
+        "publication_date": "2026-05-13",
+        "evidence_date": "2026-05-13",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.27,
+        "publication_year": 2023,
+        "publication_date": "2023-06-23",
+        "evidence_date": "2023-06-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.17,
+        "publication_year": 2023,
+        "publication_date": "2023-04-23",
+        "evidence_date": "2023-04-23",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.17,
+        "publication_year": 2022,
+        "publication_date": "2022-11-01",
+        "evidence_date": "2022-11-01",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.16,
+        "publication_year": 2022,
+        "publication_date": "2022-08-18",
+        "evidence_date": "2022-08-18",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      },
+      {
+        "target": "SIRT1",
+        "datasource_id": "europepmc",
+        "datatype_id": "literature",
+        "score": 0.16,
+        "publication_year": 2022,
+        "publication_date": "2022-07-07",
+        "evidence_date": "2022-07-07",
+        "study_start_date": null,
+        "drug_from_source": null,
+        "clinical_stage": null,
+        "source_url": "https://platform.opentargets.org/target/ENSG00000096717",
+        "timing": "post_trial"
+      }
+    ]
+  },
+  "uncertainty": {
+    "extraction_confidence": "high",
+    "n_unresolved": 5,
+    "unresolved": [
+      "disease severity / stage not stated in the record",
+      "menopausal status not stated in the record",
+      "hormonal contraceptive use not stated in the record",
+      "prior treatment history not stated in the record",
+      "biomarker or molecular subtype not stated in the record"
+    ],
+    "high_uncertainty": true,
+    "interval_halfwidth": 15.0,
+    "flag": "HIGH_UNCERTAINTY"
+  },
+  "confidence_interval": [
+    5.0,
+    35.0
+  ],
+  "failure_mode": "never_started",
+  "classification_rule": "walk_away_withdrawn_or_zero_enrolment"
+}

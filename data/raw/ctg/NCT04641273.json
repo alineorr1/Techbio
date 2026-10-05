@@ -706,5 +706,110 @@
       "description": "Availability of this study's data will later be determined according to Bayer's commitment to the EFPIA/PhRMA \"Principles for responsible clinical trial data sharing\". This pertains to scope, timepoint and process of data access. As such, Bayer commits to sharing upon request from qualified researchers patient-level clinical trial data, study-level clinical trial data, and protocols from clinical trials in patients for medicines and indications approved in the US and EU as necessary for conducting legitimate research. This applies to data on new medicines and indications that have been approved by the EU and US regulatory agencies on or after January 01, 2014. Interested researchers can use www.clinicalstudydatarequest.com to request access to anonymized patient-level data and supporting documents from clinical studies to conduct research. Information on the Bayer criteria for listing studies and other relevant information is provided in the Study sponsors section of the portal."
     }
   },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05",
+      "removedCountries": [
+        "Austria",
+        "Japan"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009437",
+          "term": "Neuralgia"
+        },
+        {
+          "id": "D003929",
+          "term": "Diabetic Neuropathies"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010523",
+          "term": "Peripheral Nervous System Diseases"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D048909",
+          "term": "Diabetes Complications"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069583",
+          "term": "Pregabalin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005680",
+          "term": "gamma-Aminobutyric Acid"
+        },
+        {
+          "id": "D000613",
+          "term": "Aminobutyrates"
+        },
+        {
+          "id": "D002087",
+          "term": "Butyrates"
+        },
+        {
+          "id": "D000144",
+          "term": "Acids, Acyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
   "hasResults": false
 }

@@ -265,5 +265,110 @@
       "accessCriteria": "Researchers who provide a methodologically sound proposal. Depending on the level of the proposed use of data, approval by an independent review committee will be required for the identified purpose."
     }
   },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004715",
+          "term": "Endometriosis"
+        },
+        {
+          "id": "D017699",
+          "term": "Pelvic Pain"
+        },
+        {
+          "id": "D002189",
+          "term": "Marijuana Abuse"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D019966",
+          "term": "Substance-Related Disorders"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000080066",
+          "term": "Contraceptive Agents, Hormonal"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003270",
+          "term": "Contraceptive Agents"
+        },
+        {
+          "id": "D012102",
+          "term": "Reproductive Control Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        }
+      ]
+    }
+  },
   "hasResults": false
 }

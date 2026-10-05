@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT03342859",
+  "programme_id": "p_df51269b2cdd89a2",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT03342859",
+      "hit_count": 0,
+      "papers": []
+    },
+    "papers": [],
+    "has_results_publication": false,
+    "publication_years": [],
+    "silence_after_completion": true,
+    "sponsor_published_after": false,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03342859&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "Bayer",
+    "matched_lead": "Bayer",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.bayer.com/en/pharma/womens-healthcare",
+    "notes": "Large-cap; vilaprisan and P2X3 programmes discontinued as portfolio decisions",
+    "sponsor_entity": {
+      "name": "Bayer",
+      "legal_name": "Bayer",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT03342859",
+    "programme_id": "p_df51269b2cdd89a2",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT03342859.json"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "nct_id": "NCT00556075",
+  "programme_id": "p_85833ade2f858258",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT00556075",
+      "hit_count": 3,
+      "papers": [
+        {
+          "id": "31862211",
+          "source": "MED",
+          "pmid": "31862211",
+          "pmcid": "PMC7175958",
+          "doi": "10.1016/j.neubiorev.2019.12.004",
+          "title": "Endometriosis and pain in the adolescent- striking early to limit suffering: A narrative review.",
+          "pub_year": "2020",
+          "first_publication_date": "2019-12-17",
+          "journal": "Neurosci Biobehav Rev",
+          "authors": "Sieberg CB, Lunde CE, Borsook D.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/31862211"
+        },
+        {
+          "id": "32365199",
+          "source": "MED",
+          "pmid": "32365199",
+          "pmcid": "PMC8659360",
+          "doi": "10.1210/endrev/bnaa012",
+          "title": "Selective Progesterone Receptor Modulators-Mechanisms and Therapeutic Utility.",
+          "pub_year": "2020",
+          "first_publication_date": "2020-10-01",
+          "journal": "Endocr Rev",
+          "authors": "Islam MS, Afrin S, Jones SI, Segars J.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/32365199"
+        },
+        {
+          "id": "19264712",
+          "source": "MED",
+          "pmid": "19264712",
+          "pmcid": "PMC4102915",
+          "doi": "10.1093/humrep/dep045",
+          "title": "A call for more transparency of registered clinical trials on endometriosis.",
+          "pub_year": "2009",
+          "first_publication_date": "2009-03-04",
+          "journal": "Hum Reprod",
+          "authors": "Guo SW, Hummelshoj L, Olive DL, Bulun SE, D'Hooghe TM, Evers JL.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/19264712"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "31862211",
+        "source": "MED",
+        "pmid": "31862211",
+        "pmcid": "PMC7175958",
+        "doi": "10.1016/j.neubiorev.2019.12.004",
+        "title": "Endometriosis and pain in the adolescent- striking early to limit suffering: A narrative review.",
+        "pub_year": "2020",
+        "first_publication_date": "2019-12-17",
+        "journal": "Neurosci Biobehav Rev",
+        "authors": "Sieberg CB, Lunde CE, Borsook D.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/31862211"
+      },
+      {
+        "id": "32365199",
+        "source": "MED",
+        "pmid": "32365199",
+        "pmcid": "PMC8659360",
+        "doi": "10.1210/endrev/bnaa012",
+        "title": "Selective Progesterone Receptor Modulators-Mechanisms and Therapeutic Utility.",
+        "pub_year": "2020",
+        "first_publication_date": "2020-10-01",
+        "journal": "Endocr Rev",
+        "authors": "Islam MS, Afrin S, Jones SI, Segars J.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/32365199"
+      },
+      {
+        "id": "19264712",
+        "source": "MED",
+        "pmid": "19264712",
+        "pmcid": "PMC4102915",
+        "doi": "10.1093/humrep/dep045",
+        "title": "A call for more transparency of registered clinical trials on endometriosis.",
+        "pub_year": "2009",
+        "first_publication_date": "2009-03-04",
+        "journal": "Hum Reprod",
+        "authors": "Guo SW, Hummelshoj L, Olive DL, Bulun SE, D'Hooghe TM, Evers JL.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/19264712"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2020,
+      2020,
+      2009
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT00556075&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "acquired",
+    "sponsor_name": "Repros Therapeutics Inc.",
+    "matched_lead": "Repros Therapeutics Inc.",
+    "as_of": "2017-12-12",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm",
+    "notes": "Acquired by Allergan (now AbbVie); Proellex (telapristone) under FDA clinical hold",
+    "sponsor_entity": {
+      "name": "Repros Therapeutics Inc.",
+      "legal_name": "Repros Therapeutics Inc.",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT00556075",
+    "programme_id": "p_85833ade2f858258",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT00556075.json"
+  }
+}

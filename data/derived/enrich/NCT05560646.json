@@ -1,0 +1,179 @@
+{
+  "nct_id": "NCT05560646",
+  "programme_id": "p_0fe529c18be36369",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT05560646",
+      "hit_count": 4,
+      "papers": [
+        {
+          "id": "42733850",
+          "source": "MED",
+          "pmid": "42733850",
+          "pmcid": "PMC13571635",
+          "doi": "10.2147/ijwh.s622776",
+          "title": "A Phase 2a/b, Randomized, Double-Blind, Placebo-Controlled, Parallel Group, Study to Evaluate the Efficacy and Safety of Linustedastat (OG-6219) in Women with Moderate to Severe Endometriosis-Related Pain.",
+          "pub_year": "2026",
+          "first_publication_date": "2026-09-09",
+          "journal": "Int J Womens Health",
+          "authors": "Arbelaez F, Yureneva J, Larsson P, Colaci D, Gordon K, Dupclay L, Wilk K.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/42733850"
+        },
+        {
+          "id": "40704733",
+          "source": "MED",
+          "pmid": "40704733",
+          "pmcid": "PMC12621312",
+          "doi": "10.1093/biolre/ioaf164",
+          "title": "Endometriosis: new insights and opportunities for relief of symptoms.",
+          "pub_year": "2025",
+          "first_publication_date": "2025-11-01",
+          "journal": "Biol Reprod",
+          "authors": "Saunders PTK, Horne AW.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/40704733"
+        },
+        {
+          "id": "40392231",
+          "source": "MED",
+          "pmid": "40392231",
+          "pmcid": "PMC12092000",
+          "doi": "10.7554/elife.103825",
+          "title": "Endometriosis is not the endometrium: Reviewing the over-representation of eutopic endometrium in endometriosis research.",
+          "pub_year": "2025",
+          "first_publication_date": "2025-05-20",
+          "journal": "Elife",
+          "authors": "Gunther K, Fisher T, Liu D, Abbott J, Ford CE.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/40392231"
+        },
+        {
+          "id": "37188267",
+          "source": "MED",
+          "pmid": "37188267",
+          "pmcid": "PMC10175629",
+          "doi": "10.3389/fphar.2023.1155558",
+          "title": "Targeting the formation of estrogens for treatment of hormone dependent diseases-current status.",
+          "pub_year": "2023",
+          "first_publication_date": "2023-04-28",
+          "journal": "Front Pharmacol",
+          "authors": "Rižner TL, Romano A.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/37188267"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "42733850",
+        "source": "MED",
+        "pmid": "42733850",
+        "pmcid": "PMC13571635",
+        "doi": "10.2147/ijwh.s622776",
+        "title": "A Phase 2a/b, Randomized, Double-Blind, Placebo-Controlled, Parallel Group, Study to Evaluate the Efficacy and Safety of Linustedastat (OG-6219) in Women with Moderate to Severe Endometriosis-Related Pain.",
+        "pub_year": "2026",
+        "first_publication_date": "2026-09-09",
+        "journal": "Int J Womens Health",
+        "authors": "Arbelaez F, Yureneva J, Larsson P, Colaci D, Gordon K, Dupclay L, Wilk K.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/42733850"
+      },
+      {
+        "id": "40704733",
+        "source": "MED",
+        "pmid": "40704733",
+        "pmcid": "PMC12621312",
+        "doi": "10.1093/biolre/ioaf164",
+        "title": "Endometriosis: new insights and opportunities for relief of symptoms.",
+        "pub_year": "2025",
+        "first_publication_date": "2025-11-01",
+        "journal": "Biol Reprod",
+        "authors": "Saunders PTK, Horne AW.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/40704733"
+      },
+      {
+        "id": "40392231",
+        "source": "MED",
+        "pmid": "40392231",
+        "pmcid": "PMC12092000",
+        "doi": "10.7554/elife.103825",
+        "title": "Endometriosis is not the endometrium: Reviewing the over-representation of eutopic endometrium in endometriosis research.",
+        "pub_year": "2025",
+        "first_publication_date": "2025-05-20",
+        "journal": "Elife",
+        "authors": "Gunther K, Fisher T, Liu D, Abbott J, Ford CE.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/40392231"
+      },
+      {
+        "id": "37188267",
+        "source": "MED",
+        "pmid": "37188267",
+        "pmcid": "PMC10175629",
+        "doi": "10.3389/fphar.2023.1155558",
+        "title": "Targeting the formation of estrogens for treatment of hormone dependent diseases-current status.",
+        "pub_year": "2023",
+        "first_publication_date": "2023-04-28",
+        "journal": "Front Pharmacol",
+        "authors": "Rižner TL, Romano A.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/37188267"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2026,
+      2025,
+      2025,
+      2023
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT05560646&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "Organon and Co",
+    "matched_lead": "Organon and Co",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
+    "notes": "Acquired Forendo; OG-6219 (HSD17B1) Phase 2 completed 2025 and discontinued",
+    "sponsor_entity": {
+      "name": "Organon and Co",
+      "legal_name": "Organon and Co",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT05560646",
+    "programme_id": "p_0fe529c18be36369",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT05560646.json"
+  }
+}

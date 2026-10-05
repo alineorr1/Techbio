@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT00159575",
+  "programme_id": "p_d0f5ec08c972ae73",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT00159575",
+      "hit_count": 2,
+      "papers": [
+        {
+          "id": "21606131",
+          "source": "MED",
+          "pmid": "21606131",
+          "pmcid": null,
+          "doi": "10.1093/humrep/der154",
+          "title": "Use of metformin before and during assisted reproductive technology in non-obese young infertile women with polycystic ovary syndrome: a prospective, randomized, double-blind, multi-centre study.",
+          "pub_year": "2011",
+          "first_publication_date": "2011-05-23",
+          "journal": "Hum Reprod",
+          "authors": "Kjøtrød SB, Carlsen SM, Rasmussen PE, Holst-Larsen T, Mellembakken J, Thurin-Kjellberg A, Haapaniemikouru K, Morin-Papunen L, Humaidan P, Sunde A, von Düring V.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/21606131"
+        },
+        {
+          "id": "33347618",
+          "source": "MED",
+          "pmid": "33347618",
+          "pmcid": "PMC8171384",
+          "doi": "10.1002/14651858.cd006105.pub4",
+          "title": "Metformin treatment before and during IVF or ICSI in women with polycystic ovary syndrome.",
+          "pub_year": "2020",
+          "first_publication_date": "2020-12-21",
+          "journal": "Cochrane Database Syst Rev",
+          "authors": "Tso LO, Costello MF, Albuquerque LET, Andriolo RB, Macedo CR.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/33347618"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "21606131",
+        "source": "MED",
+        "pmid": "21606131",
+        "pmcid": null,
+        "doi": "10.1093/humrep/der154",
+        "title": "Use of metformin before and during assisted reproductive technology in non-obese young infertile women with polycystic ovary syndrome: a prospective, randomized, double-blind, multi-centre study.",
+        "pub_year": "2011",
+        "first_publication_date": "2011-05-23",
+        "journal": "Hum Reprod",
+        "authors": "Kjøtrød SB, Carlsen SM, Rasmussen PE, Holst-Larsen T, Mellembakken J, Thurin-Kjellberg A, Haapaniemikouru K, Morin-Papunen L, Humaidan P, Sunde A, von Düring V.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/21606131"
+      },
+      {
+        "id": "33347618",
+        "source": "MED",
+        "pmid": "33347618",
+        "pmcid": "PMC8171384",
+        "doi": "10.1002/14651858.cd006105.pub4",
+        "title": "Metformin treatment before and during IVF or ICSI in women with polycystic ovary syndrome.",
+        "pub_year": "2020",
+        "first_publication_date": "2020-12-21",
+        "journal": "Cochrane Database Syst Rev",
+        "authors": "Tso LO, Costello MF, Albuquerque LET, Andriolo RB, Macedo CR.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/33347618"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2011,
+      2020
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT00159575&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "unknown",
+    "sponsor_name": "Norwegian University of Science and Technology",
+    "source_url": null,
+    "notes": "Lead sponsor not in the curated CSV; do not infer solvency.",
+    "sponsor_entity": {
+      "name": "Norwegian University of Science and Technology",
+      "legal_name": null,
+      "resolution_status": "unknown",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "unstructured_registry"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT00159575",
+    "programme_id": "p_d0f5ec08c972ae73",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT00159575.json"
+  }
+}

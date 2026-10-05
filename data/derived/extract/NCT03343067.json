@@ -1,0 +1,46 @@
+{
+  "nct_id": "NCT03343067",
+  "targets": [
+    {
+      "name": "elagolix",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    },
+    {
+      "name": "estradiol/norethindrone acetate (E2/NETA)",
+      "gene_symbol": null,
+      "modality": "hormone",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "elagolix, estradiol/norethindrone acetate (E2/NETA) evaluated in A Study to Evaluate Safety and Efficacy of Elagolix in Participants With Endometriosis With Associated Moderate to Severe Pain. Stopped: The study was terminated early for business reasons, not for safety concerns..",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "laparoscopy",
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": true,
+    "menstrual_cycle_phase_controlled": false,
+    "hormonal_contraceptive_use_addressed": false,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": false
+  },
+  "stop_reason_raw": "The study was terminated early for business reasons, not for safety concerns.",
+  "stop_reason_category": "strategic",
+  "stop_reason_evidence": "The study was terminated early for business reasons, not for safety concerns.",
+  "endpoint_quality": {
+    "primary_endpoint": "Proportion of Responders at Month 6 Based on DYS Pain Scale",
+    "endpoint_type": "unclear",
+    "endpoint_appropriate_for_indication": "uncertain",
+    "reasoning": "Primary endpoint taken verbatim from the outcomes module."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "disease severity / stage not stated in the record",
+    "menstrual cycle phase not stated in the record",
+    "hormonal contraceptive use not stated in the record",
+    "prior treatment history not stated in the record",
+    "biomarker or molecular subtype not stated in the record"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nct_id": "NCT04347135",
+  "targets": [
+    {
+      "name": "F-18 FES",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "F-18 FES evaluated in Evaluating Endometriosis With 16α-(18)F-fluoro-17β-estradiol ([F-18] FES) PET/MRI. Stopped: No Enrollment.",
+  "population": {
+    "diagnosis_method_stated": false,
+    "diagnosis_method": null,
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": true,
+    "menstrual_cycle_phase_controlled": false,
+    "hormonal_contraceptive_use_addressed": false,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": false
+  },
+  "stop_reason_raw": "No Enrollment",
+  "stop_reason_category": "recruitment",
+  "stop_reason_evidence": "No Enrollment",
+  "endpoint_quality": {
+    "primary_endpoint": "Detection of Endometriosis",
+    "endpoint_type": "objective",
+    "endpoint_appropriate_for_indication": "no",
+    "reasoning": "Lesion score without a pain primary is a poor match for symptom burden."
+  },
+  "extraction_confidence": "high",
+  "unresolved": [
+    "diagnosis method not stated in the record",
+    "disease severity / stage not stated in the record",
+    "menstrual cycle phase not stated in the record",
+    "hormonal contraceptive use not stated in the record",
+    "prior treatment history not stated in the record",
+    "biomarker or molecular subtype not stated in the record"
+  ]
+}

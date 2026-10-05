@@ -1,0 +1,237 @@
+{
+  "nct_id": "NCT00001848",
+  "programme_id": "p_15af2717196944f5",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT00001848",
+      "hit_count": 6,
+      "papers": [
+        {
+          "id": "33973648",
+          "source": "MED",
+          "pmid": "33973648",
+          "pmcid": "PMC8130989",
+          "doi": "10.1002/14651858.cd011169.pub2",
+          "title": "Selective oestrogen receptor modulators (SERMs) for endometriosis.",
+          "pub_year": "2021",
+          "first_publication_date": "2021-05-11",
+          "journal": "Cochrane Database Syst Rev",
+          "authors": "van Hoesel MH, Chen YL, Zheng A, Wan Q, Mourad SM.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/33973648"
+        },
+        {
+          "id": "21145540",
+          "source": "MED",
+          "pmid": "21145540",
+          "pmcid": "PMC3415219",
+          "doi": "10.1016/j.fertnstert.2010.11.037",
+          "title": "Migraine in women with chronic pelvic pain with and without endometriosis.",
+          "pub_year": "2011",
+          "first_publication_date": "2010-12-10",
+          "journal": "Fertil Steril",
+          "authors": "Karp BI, Sinaii N, Nieman LK, Silberstein SD, Stratton P.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/21145540"
+        },
+        {
+          "id": "21775836",
+          "source": "MED",
+          "pmid": "21775836",
+          "pmcid": "PMC3155822",
+          "doi": "10.1097/aog.0b013e318223fed0",
+          "title": "Relating pelvic pain location to surgical findings of endometriosis.",
+          "pub_year": "2011",
+          "first_publication_date": "2011-08-01",
+          "journal": "Obstet Gynecol",
+          "authors": "Hsu AL, Sinaii N, Segars J, Nieman LK, Stratton P.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/21775836"
+        },
+        {
+          "id": "26188274",
+          "source": "MED",
+          "pmid": "26188274",
+          "pmcid": "PMC4714951",
+          "doi": "10.1016/j.jbi.2015.06.023",
+          "title": "Standardizing data exchange for clinical research protocols and case report forms: An assessment of the suitability of the Clinical Data Interchange Standards Consortium (CDISC) Operational Data Model (ODM).",
+          "pub_year": "2015",
+          "first_publication_date": "2015-07-15",
+          "journal": "J Biomed Inform",
+          "authors": "Huser V, Sastry C, Breymaier M, Idriss A, Cimino JJ.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/26188274"
+        },
+        {
+          "id": "18165396",
+          "source": "MED",
+          "pmid": "18165396",
+          "pmcid": "PMC2755201",
+          "doi": "10.1097/01.aog.0000297307.35024.b5",
+          "title": "Return of chronic pelvic pain from endometriosis after raloxifene treatment: a randomized controlled trial.",
+          "pub_year": "2008",
+          "first_publication_date": "2008-01-01",
+          "journal": "Obstet Gynecol",
+          "authors": "Stratton P, Sinaii N, Segars J, Koziol D, Wesley R, Zimmer C, Winkel C, Nieman LK.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/18165396"
+        },
+        {
+          "id": "19264712",
+          "source": "MED",
+          "pmid": "19264712",
+          "pmcid": "PMC4102915",
+          "doi": "10.1093/humrep/dep045",
+          "title": "A call for more transparency of registered clinical trials on endometriosis.",
+          "pub_year": "2009",
+          "first_publication_date": "2009-03-04",
+          "journal": "Hum Reprod",
+          "authors": "Guo SW, Hummelshoj L, Olive DL, Bulun SE, D'Hooghe TM, Evers JL.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/19264712"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "33973648",
+        "source": "MED",
+        "pmid": "33973648",
+        "pmcid": "PMC8130989",
+        "doi": "10.1002/14651858.cd011169.pub2",
+        "title": "Selective oestrogen receptor modulators (SERMs) for endometriosis.",
+        "pub_year": "2021",
+        "first_publication_date": "2021-05-11",
+        "journal": "Cochrane Database Syst Rev",
+        "authors": "van Hoesel MH, Chen YL, Zheng A, Wan Q, Mourad SM.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/33973648"
+      },
+      {
+        "id": "21145540",
+        "source": "MED",
+        "pmid": "21145540",
+        "pmcid": "PMC3415219",
+        "doi": "10.1016/j.fertnstert.2010.11.037",
+        "title": "Migraine in women with chronic pelvic pain with and without endometriosis.",
+        "pub_year": "2011",
+        "first_publication_date": "2010-12-10",
+        "journal": "Fertil Steril",
+        "authors": "Karp BI, Sinaii N, Nieman LK, Silberstein SD, Stratton P.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/21145540"
+      },
+      {
+        "id": "21775836",
+        "source": "MED",
+        "pmid": "21775836",
+        "pmcid": "PMC3155822",
+        "doi": "10.1097/aog.0b013e318223fed0",
+        "title": "Relating pelvic pain location to surgical findings of endometriosis.",
+        "pub_year": "2011",
+        "first_publication_date": "2011-08-01",
+        "journal": "Obstet Gynecol",
+        "authors": "Hsu AL, Sinaii N, Segars J, Nieman LK, Stratton P.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/21775836"
+      },
+      {
+        "id": "26188274",
+        "source": "MED",
+        "pmid": "26188274",
+        "pmcid": "PMC4714951",
+        "doi": "10.1016/j.jbi.2015.06.023",
+        "title": "Standardizing data exchange for clinical research protocols and case report forms: An assessment of the suitability of the Clinical Data Interchange Standards Consortium (CDISC) Operational Data Model (ODM).",
+        "pub_year": "2015",
+        "first_publication_date": "2015-07-15",
+        "journal": "J Biomed Inform",
+        "authors": "Huser V, Sastry C, Breymaier M, Idriss A, Cimino JJ.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/26188274"
+      },
+      {
+        "id": "18165396",
+        "source": "MED",
+        "pmid": "18165396",
+        "pmcid": "PMC2755201",
+        "doi": "10.1097/01.aog.0000297307.35024.b5",
+        "title": "Return of chronic pelvic pain from endometriosis after raloxifene treatment: a randomized controlled trial.",
+        "pub_year": "2008",
+        "first_publication_date": "2008-01-01",
+        "journal": "Obstet Gynecol",
+        "authors": "Stratton P, Sinaii N, Segars J, Koziol D, Wesley R, Zimmer C, Winkel C, Nieman LK.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/18165396"
+      },
+      {
+        "id": "19264712",
+        "source": "MED",
+        "pmid": "19264712",
+        "pmcid": "PMC4102915",
+        "doi": "10.1093/humrep/dep045",
+        "title": "A call for more transparency of registered clinical trials on endometriosis.",
+        "pub_year": "2009",
+        "first_publication_date": "2009-03-04",
+        "journal": "Hum Reprod",
+        "authors": "Guo SW, Hummelshoj L, Olive DL, Bulun SE, D'Hooghe TM, Evers JL.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/19264712"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2021,
+      2011,
+      2011,
+      2015,
+      2008,
+      2009
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT00001848&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+    "matched_lead": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.nichd.nih.gov",
+    "notes": "Rosiglitazone endometriosis programme stopped after CV-safety meta-analysis",
+    "sponsor_entity": {
+      "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+      "legal_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT00001848",
+    "programme_id": "p_15af2717196944f5",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT00001848.json"
+  }
+}

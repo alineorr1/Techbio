@@ -389,8 +389,1314 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "C Placebo",
+          "description": "Placebo: 1 capsule daily for 4 months"
+        },
+        {
+          "id": "FG001",
+          "title": "A 25 mg",
+          "description": "Proellex 25 mg: 1 capsule daily for 4 months"
+        },
+        {
+          "id": "FG002",
+          "title": "B 50 mg",
+          "description": "Proellex 50 mg: 2 capsules daily for 4 months"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "23"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "15"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Not eligible",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Personal issues",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Endometrial stripe not viewed on 2 tvu",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Safety population",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Placebo",
+          "description": "Placebo: 1 capsule daily for 4 months"
+        },
+        {
+          "id": "BG001",
+          "title": "25 mg",
+          "description": "Proellex 25 mg: 1 capsule daily for 4 months"
+        },
+        {
+          "id": "BG002",
+          "title": "50 mg",
+          "description": "Proellex 50 mg: 2 capsules daily for 4 months"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "22"
+            },
+            {
+              "groupId": "BG001",
+              "value": "22"
+            },
+            {
+              "groupId": "BG002",
+              "value": "23"
+            },
+            {
+              "groupId": "BG003",
+              "value": "67"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "67"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "67"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Difference Between the 50 mg Proellex Group and Placebo Group in the Month 4 Subject Diary Composite Pain Score",
+          "populationDescription": "Zero participants were analyzed because no data were collected due to early termination",
+          "reportingStatus": "POSTED",
+          "timeFrame": "4 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG001",
+              "title": "25 mg",
+              "description": "Proellex 25 mg: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG002",
+              "title": "50 mg",
+              "description": "Proellex 50 mg: 2 capsules daily for 4 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Difference Between the 25 mg and 50 mg Proellex Groups and Placebo Group in the Month 4 Subject Diary Composite Pain Score",
+          "populationDescription": "Zero participants were analyzed because no data were collected due to early termination",
+          "reportingStatus": "POSTED",
+          "timeFrame": "4 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG001",
+              "title": "25 mg",
+              "description": "Proellex 25 mg: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG002",
+              "title": "50 mg",
+              "description": "Proellex 50 mg: 2 capsules daily for 4 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Difference Between Each Treatment Group in the Subject Diary Composite Pain Score at the Monthly Visits",
+          "populationDescription": "Zero participants were analyzed because no data were collected due to early termination",
+          "reportingStatus": "POSTED",
+          "timeFrame": "monthly",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo: 1capsule daily for 4 months"
+            },
+            {
+              "id": "OG001",
+              "title": "25 mg",
+              "description": "Proellex 25 mg\n\nProellex 25 mg: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG002",
+              "title": "50 mg",
+              "description": "Proellex 50 mg\n\nProellex 50 mg: 2 capsules daily for 4 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Pain-free Assessments Using the Composite Pain Score as Determined by Data Recorded in the Subject Diaries",
+          "populationDescription": "Zero participants were analyzed because no data were collected due to early termination",
+          "reportingStatus": "POSTED",
+          "timeFrame": "days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo\n\nPlacebo: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG001",
+              "title": "25 mg",
+              "description": "Proellex 25 mg\n\nProellex 25 mg: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG002",
+              "title": "50 mg",
+              "description": "Proellex 50 mg\n\nProellex 50 mg: 2 capsules daily for 4 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Duration of Pain-free Assessments Using the Composite Pain Score as Determined by Data Recorded in the Subject Diaries",
+          "populationDescription": "Zero participants were analyzed because no data were collected due to early termination",
+          "reportingStatus": "POSTED",
+          "timeFrame": "days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG001",
+              "title": "25 mg",
+              "description": "Proellex 25 mg: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG002",
+              "title": "50 mg",
+              "description": "Proellex 50 mg: 2 capsules daily for 4 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "The Number of Days With Pain as Determined by Data Recorded in the Subject Diaries, Analyzed Between Treatment Groups at the Monthly Visits",
+          "populationDescription": "Zero participants were analyzed because no data were collected due to early termination",
+          "reportingStatus": "POSTED",
+          "timeFrame": "days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo",
+              "description": "Placebo: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG001",
+              "title": "25 mg",
+              "description": "Proellex 25 mg: 1 capsule daily for 4 months"
+            },
+            {
+              "id": "OG002",
+              "title": "50 mg",
+              "description": "Proellex 50 mg: 2 capsules daily for 4 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Placebo",
+          "description": "Placebo: 1 capsule daily for 4 months",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 18,
+          "otherNumAtRisk": 22
+        },
+        {
+          "id": "EG001",
+          "title": "25 mg",
+          "description": "Proellex 25 mg: 1 capsule daily for 4 months",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 22,
+          "otherNumAtRisk": 22
+        },
+        {
+          "id": "EG002",
+          "title": "50 mg",
+          "description": "Proellex 50 mg: 2 capsules daily for 4 months",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 23,
+          "otherNumAffected": 22,
+          "otherNumAtRisk": 23
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Elevated LFTs",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Subject taking 50 mg/day",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Grand Mal Seizure",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Subject taking placebo. Attributed to water intoxication",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 23
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Adominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 8,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 11,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Irritability",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Seasonal allergy",
+          "organSystem": "Immune system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Pharyngitis streptococcal",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "URI",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "UTI",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Vulvovaginal mycotic infection",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Procedural pain",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Bone density decreased",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 11,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Migraine",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Cervical cyst",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Endometrial disorder",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Endometrial hypertrophy",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Ovarian cyst",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 16,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 15,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Parovarian cyst",
+          "organSystem": "Reproductive system and breast disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 23
+            }
+          ]
+        },
+        {
+          "term": "Hot flush",
+          "organSystem": "Vascular disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 23
+            }
+          ]
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with complete study data."
@@ -408,5 +1714,69 @@
         "phone": "2817193402"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004715",
+          "term": "Endometriosis"
+        },
+        {
+          "id": "D017699",
+          "term": "Pelvic Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C461063",
+          "term": "telapristone acetate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }

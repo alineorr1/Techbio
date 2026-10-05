@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT00682890",
+  "programme_id": "p_e314cb9b1f0a8ae2",
+  "open_targets": {
+    "overall_association_score": null,
+    "genetic_association_score": 0.0,
+    "literature_only": true,
+    "known_drugs": [],
+    "target_advanced_elsewhere": false,
+    "per_target": [],
+    "evidence_items": [],
+    "sources": [],
+    "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+    "disease_ids_queried": [
+      "MONDO_0005133",
+      "MONDO_0010888",
+      "EFO_0001065",
+      "MONDO_0008487",
+      "EFO_0000668"
+    ]
+  },
+  "europepmc": {
+    "nct_query": {
+      "query": "NCT00682890",
+      "hit_count": 2,
+      "papers": [
+        {
+          "id": "26871978",
+          "source": "MED",
+          "pmid": "26871978",
+          "pmcid": "PMC4900190",
+          "doi": "10.1089/jwh.2015.5418",
+          "title": "Metabolic Effects of a Commonly Used Combined Hormonal Oral Contraceptive in Women With and Without Polycystic Ovary Syndrome.",
+          "pub_year": "2016",
+          "first_publication_date": "2016-02-12",
+          "journal": "J Womens Health (Larchmt)",
+          "authors": "Adeniji AA, Essah PA, Nestler JE, Cheang KI.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/26871978"
+        },
+        {
+          "id": "21733508",
+          "source": "MED",
+          "pmid": "21733508",
+          "pmcid": "PMC4480914",
+          "doi": "10.1016/j.fertnstert.2011.05.091",
+          "title": "Effect of combined metformin and oral contraceptive therapy on metabolic factors and endothelial function in overweight and obese women with polycystic ovary syndrome.",
+          "pub_year": "2011",
+          "first_publication_date": "2011-07-05",
+          "journal": "Fertil Steril",
+          "authors": "Essah PA, Arrowood JA, Cheang KI, Adawadkar SS, Stovall DW, Nestler JE.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/21733508"
+        }
+      ]
+    },
+    "papers": [
+      {
+        "id": "26871978",
+        "source": "MED",
+        "pmid": "26871978",
+        "pmcid": "PMC4900190",
+        "doi": "10.1089/jwh.2015.5418",
+        "title": "Metabolic Effects of a Commonly Used Combined Hormonal Oral Contraceptive in Women With and Without Polycystic Ovary Syndrome.",
+        "pub_year": "2016",
+        "first_publication_date": "2016-02-12",
+        "journal": "J Womens Health (Larchmt)",
+        "authors": "Adeniji AA, Essah PA, Nestler JE, Cheang KI.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/26871978"
+      },
+      {
+        "id": "21733508",
+        "source": "MED",
+        "pmid": "21733508",
+        "pmcid": "PMC4480914",
+        "doi": "10.1016/j.fertnstert.2011.05.091",
+        "title": "Effect of combined metformin and oral contraceptive therapy on metabolic factors and endothelial function in overweight and obese women with polycystic ovary syndrome.",
+        "pub_year": "2011",
+        "first_publication_date": "2011-07-05",
+        "journal": "Fertil Steril",
+        "authors": "Essah PA, Arrowood JA, Cheang KI, Adawadkar SS, Stovall DW, Nestler JE.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/21733508"
+      }
+    ],
+    "has_results_publication": true,
+    "publication_years": [
+      2016,
+      2011
+    ],
+    "silence_after_completion": false,
+    "sponsor_published_after": true,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT00682890&format=json",
+    "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  "sponsor": {
+    "status": "operating",
+    "sponsor_name": "Virginia Commonwealth University",
+    "matched_lead": "Virginia Commonwealth University",
+    "as_of": "2026-01-01",
+    "source_url": "https://www.vcu.edu",
+    "notes": "Multiple PCOS metabolic studies terminated for lack of recruitment",
+    "sponsor_entity": {
+      "name": "Virginia Commonwealth University",
+      "legal_name": "Virginia Commonwealth University",
+      "resolution_status": "resolved",
+      "jurisdiction": null,
+      "opencorporates_id": null,
+      "company_number": null,
+      "source": "curated_csv"
+    }
+  },
+  "rights": {
+    "schema_version": "wave-1b.rights-stub.v1",
+    "nct_id": "NCT00682890",
+    "programme_id": "p_e314cb9b1f0a8ae2",
+    "confidence": "empty_stub",
+    "path": "data/derived/rights/NCT00682890.json"
+  }
+}

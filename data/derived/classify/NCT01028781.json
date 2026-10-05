@@ -1,0 +1,305 @@
+{
+  "nct_id": "NCT01028781",
+  "failure_mode": "funding_or_sponsor",
+  "confidence": "medium",
+  "signals": {
+    "extracted_category": "funding_or_sponsor",
+    "enrolment_actual": 9,
+    "enrolment_anticipated": null,
+    "enrolment_type": "ACTUAL",
+    "enrolment_ratio": null,
+    "enrolment_proceeding": true,
+    "sponsor_match": null,
+    "sponsor_ceased_near_stop": false,
+    "peer_trials_stopped_same_window": 0,
+    "female_specific_vars_captured": 3,
+    "safety_signal": false,
+    "results_published": true,
+    "target_advanced_elsewhere": false,
+    "stop_reason_evidence": "Difficulty finding eligible participants and lack of funding.",
+    "stop_reason_raw": "Difficulty finding eligible participants and lack of funding.",
+    "commercial_gate": {
+      "verdict": "FAIL",
+      "reason_codes": [
+        "REMS_TERATOGEN",
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "notes": "REMS/teratogen hard disqualifier (table match, not a biology claim). Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": false,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": true,
+        "hard_disqualify": true,
+        "strong_downrank": false,
+        "matches": [
+          {
+            "substance": "thalidomide",
+            "alias": "thalidomide",
+            "program": "THALOMID REMS",
+            "reason_code": "REMS_TERATOGEN",
+            "action": "hard_disqualify",
+            "note": "FDA REMS teratogen program. Not a biology-failure claim."
+          }
+        ],
+        "reason_codes": [
+          "REMS_TERATOGEN"
+        ],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": true,
+      "rights_unknown": true,
+      "missing_ownership_fill": true
+    },
+    "disqualifier_codes": [
+      "REMS_TERATOGEN",
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "walk_away_codes": [],
+    "ownability": {
+      "schema_version": "wave-1b.rights-stub.v1",
+      "nct_id": "NCT01028781",
+      "programme_id": "p_e64bcfcef394d840",
+      "thesis_mismatch": false,
+      "kill_triggered": true,
+      "kill_codes": [
+        "K_REG_CAPTURE_DESTROY",
+        "S_TAXONOMY_FIX",
+        "S_COI_UNCLEAR",
+        "S_LICENSE_MAP_MISSING",
+        "RIGHTS_UNKNOWN",
+        "MISSING_OWNERSHIP_FILL",
+        "NOT_OPTIONABLE"
+      ],
+      "hard_codes": [
+        "K_REG_CAPTURE_DESTROY"
+      ],
+      "soft_codes": [
+        "S_TAXONOMY_FIX",
+        "S_COI_UNCLEAR",
+        "S_LICENSE_MAP_MISSING"
+      ],
+      "ownership_ownable": false,
+      "optionable": false,
+      "shortlist_ownable": false,
+      "surface": "NOT OPTIONABLE",
+      "md_status": "HOLD",
+      "confidence": "empty_stub",
+      "rights_unknown": true,
+      "missing_ownership_fill": true,
+      "desk_classification": null,
+      "decision_required": true
+    },
+    "thesis_mismatch": false,
+    "kill_triggered": true,
+    "kill_codes": [
+      "K_REG_CAPTURE_DESTROY",
+      "S_TAXONOMY_FIX",
+      "S_COI_UNCLEAR",
+      "S_LICENSE_MAP_MISSING",
+      "RIGHTS_UNKNOWN",
+      "MISSING_OWNERSHIP_FILL",
+      "NOT_OPTIONABLE"
+    ],
+    "pre_pass": {
+      "verdict": "FAIL",
+      "optionable": false,
+      "shortlist_ownable": false,
+      "surface": "NOT OPTIONABLE",
+      "md_status": "HOLD",
+      "block_pass": true,
+      "reason_codes": [
+        "REMS_TERATOGEN",
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "commercial_gate": {
+        "verdict": "FAIL",
+        "reason_codes": [
+          "REMS_TERATOGEN",
+          "EMPTY_RIGHTS_NOT_OWNABLE",
+          "RIGHTS_UNKNOWN",
+          "NOT_OPTIONABLE",
+          "MISSING_OWNERSHIP_FILL"
+        ],
+        "notes": "REMS/teratogen hard disqualifier (table match, not a biology claim). Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+        "intermezzo": {
+          "named": false,
+          "sex_diff": false,
+          "cheap_generic_no_power": false,
+          "shaped": false
+        },
+        "teratogen_rems": {
+          "matched": true,
+          "hard_disqualify": true,
+          "strong_downrank": false,
+          "matches": [
+            {
+              "substance": "thalidomide",
+              "alias": "thalidomide",
+              "program": "THALOMID REMS",
+              "reason_code": "REMS_TERATOGEN",
+              "action": "hard_disqualify",
+              "note": "FDA REMS teratogen program. Not a biology-failure claim."
+            }
+          ],
+          "reason_codes": [
+            "REMS_TERATOGEN"
+          ],
+          "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+        },
+        "caps": {
+          "intermezzo": 20.0,
+          "rems_hard": 10.0,
+          "rems_downrank": 25.0,
+          "walk_away": 20.0
+        },
+        "empty_stub": true,
+        "rights_unknown": true,
+        "missing_ownership_fill": true
+      },
+      "walk_away_codes": [],
+      "rights_unknown": true,
+      "missing_ownership_fill": true,
+      "empty_stub": true,
+      "desk_classification": null
+    }
+  },
+  "rule_fired": "6_extracted_funding",
+  "notes": "Extracted stop category is funding/sponsor; no earlier rule fired.",
+  "commercial_gate": {
+    "verdict": "FAIL",
+    "reason_codes": [
+      "REMS_TERATOGEN",
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "notes": "REMS/teratogen hard disqualifier (table match, not a biology claim). Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+    "intermezzo": {
+      "named": false,
+      "sex_diff": false,
+      "cheap_generic_no_power": false,
+      "shaped": false
+    },
+    "teratogen_rems": {
+      "matched": true,
+      "hard_disqualify": true,
+      "strong_downrank": false,
+      "matches": [
+        {
+          "substance": "thalidomide",
+          "alias": "thalidomide",
+          "program": "THALOMID REMS",
+          "reason_code": "REMS_TERATOGEN",
+          "action": "hard_disqualify",
+          "note": "FDA REMS teratogen program. Not a biology-failure claim."
+        }
+      ],
+      "reason_codes": [
+        "REMS_TERATOGEN"
+      ],
+      "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+    },
+    "caps": {
+      "intermezzo": 20.0,
+      "rems_hard": 10.0,
+      "rems_downrank": 25.0,
+      "walk_away": 20.0
+    },
+    "empty_stub": true,
+    "rights_unknown": true,
+    "missing_ownership_fill": true
+  },
+  "disqualifier_codes": [
+    "REMS_TERATOGEN",
+    "EMPTY_RIGHTS_NOT_OWNABLE",
+    "RIGHTS_UNKNOWN",
+    "NOT_OPTIONABLE",
+    "MISSING_OWNERSHIP_FILL"
+  ],
+  "pre_pass": {
+    "verdict": "FAIL",
+    "optionable": false,
+    "shortlist_ownable": false,
+    "surface": "NOT OPTIONABLE",
+    "md_status": "HOLD",
+    "block_pass": true,
+    "reason_codes": [
+      "REMS_TERATOGEN",
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "commercial_gate": {
+      "verdict": "FAIL",
+      "reason_codes": [
+        "REMS_TERATOGEN",
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "notes": "REMS/teratogen hard disqualifier (table match, not a biology claim). Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": false,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": true,
+        "hard_disqualify": true,
+        "strong_downrank": false,
+        "matches": [
+          {
+            "substance": "thalidomide",
+            "alias": "thalidomide",
+            "program": "THALOMID REMS",
+            "reason_code": "REMS_TERATOGEN",
+            "action": "hard_disqualify",
+            "note": "FDA REMS teratogen program. Not a biology-failure claim."
+          }
+        ],
+        "reason_codes": [
+          "REMS_TERATOGEN"
+        ],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": true,
+      "rights_unknown": true,
+      "missing_ownership_fill": true
+    },
+    "walk_away_codes": [],
+    "rights_unknown": true,
+    "missing_ownership_fill": true,
+    "empty_stub": true,
+    "desk_classification": null
+  },
+  "walk_away_codes": []
+}

@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05560646",
+  "targets": [
+    {
+      "name": "OG-6219",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "OG-6219 evaluated in A Study to Investigate Efficacy and Safety of OG-6219 BID in 3 Dose Levels Compared With Placebo in Participants Aged 18 to 49 With Moderate to Severe Endometriosis-related Pain.",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "laparoscopy",
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": true,
+    "menstrual_cycle_phase_controlled": true,
+    "hormonal_contraceptive_use_addressed": true,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": true
+  },
+  "stop_reason_raw": null,
+  "stop_reason_category": "not_stated",
+  "stop_reason_evidence": "Overall status: COMPLETED",
+  "endpoint_quality": {
+    "primary_endpoint": "Change From Baseline Cycle in Mean Overall Pelvic Pain Score at Treatment Cycle 3",
+    "endpoint_type": "patient_reported",
+    "endpoint_appropriate_for_indication": "yes",
+    "reasoning": "Pain-related patient-reported primary matches endometriosis symptom trials."
+  },
+  "extraction_confidence": "medium",
+  "unresolved": [
+    "disease severity / stage not stated in the record",
+    "prior treatment history not stated in the record",
+    "why stopped not stated"
+  ]
+}

@@ -511,8 +511,232 @@
       ]
     }
   },
-  "hasResults": true,
   "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "All Groups",
+          "description": "Proellex 25 mg, 50 mg or placebo"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "56"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "56"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Study prematurely terminated",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "56"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Study prematurely terminated for safety reasons",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "25 mg",
+          "description": "Proellex 25 mg, 1 - 25 mg capsule and 1 placebo capsule daily for 3 months"
+        },
+        {
+          "id": "BG001",
+          "title": "50 mg",
+          "description": "Proellex 50 mg, 1 - 50 mg capsule and 1 placebo capsule daily for 3 months"
+        },
+        {
+          "id": "BG002",
+          "title": "Placebo",
+          "description": "Placebo, 2 placebo capsules daily for 3 months"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "0"
+            },
+            {
+              "groupId": "BG001",
+              "value": "0"
+            },
+            {
+              "groupId": "BG002",
+              "value": "0"
+            },
+            {
+              "groupId": "BG003",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "<=18 years"
+            },
+            {
+              "title": "Between 18 and 65 years"
+            },
+            {
+              "title": ">=65 years"
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Female"
+            },
+            {
+              "title": "Male"
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States"
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Hemoglobin vs Placebo",
+          "description": "Comparison between 50 mg Proellex and placebo of change in hemoglobin at month 3",
+          "populationDescription": "Study prematurely terminated for safety reasons",
+          "reportingStatus": "POSTED",
+          "timeFrame": "3 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "25 mg",
+              "description": "Proellex 25 mg, 1 - 25 mg capsule and 1 placebo capsule daily for 3 months"
+            },
+            {
+              "id": "OG001",
+              "title": "50 mg",
+              "description": "Proellex 50 mg, 1 - 50 mg capsule and 1 placebo capsule daily for 3 months"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo",
+              "description": "Placebo, 2 placebo capsules daily for 3 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Until 1 month after end of treatment, 4 months total.",
+      "description": "No adverse event data is available.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "A 25 mg",
+          "description": "Proellex 25 mg, 1 - 25 mg capsule and 1 placebo capsule daily for 3 months",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG001",
+          "title": "B 50 mg",
+          "description": "Proellex 50 mg, 2 - 25 mg capsules daily for 3 months",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        },
+        {
+          "id": "EG002",
+          "title": "C Placebo",
+          "description": "Placebo, 2 capsules daily for 3 months",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
     "moreInfoModule": {
       "limitationsAndCaveats": {
         "description": "The study was prematurely terminated for safety reasons (Proellex studies were put on clinical hold due to liver toxicity). Sponsor was unable to pay vendor, and was therefore not provided with any study data."
@@ -530,5 +754,57 @@
         "phone": "281-719-3402"
       }
     }
-  }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-05"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007889",
+          "term": "Leiomyoma"
+        },
+        {
+          "id": "D000740",
+          "term": "Anemia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009379",
+          "term": "Neoplasms, Muscle Tissue"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D006402",
+          "term": "Hematologic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C461063",
+          "term": "telapristone acetate"
+        }
+      ]
+    }
+  },
+  "hasResults": true
 }
