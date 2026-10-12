@@ -81,20 +81,6 @@
           "url": "https://europepmc.org/article/MED/38897171"
         },
         {
-          "id": "41693781",
-          "source": "MED",
-          "pmid": "41693781",
-          "pmcid": "PMC12894019",
-          "doi": "10.3389/fphar.2026.1742212",
-          "title": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
-          "pub_year": "2026",
-          "first_publication_date": "2026-01-29",
-          "journal": "Front Pharmacol",
-          "authors": "Zhao Z, Liu F, Yu Y, Shen Y, Ding D, Han F.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/41693781"
-        },
-        {
           "id": "40703363",
           "source": "MED",
           "pmid": "40703363",
@@ -107,6 +93,20 @@
           "authors": "Yu Y, Zhu Y, Gao M, Wang Y, Li S, Gou Y.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/40703363"
+        },
+        {
+          "id": "41693781",
+          "source": "MED",
+          "pmid": "41693781",
+          "pmcid": "PMC12894019",
+          "doi": "10.3389/fphar.2026.1742212",
+          "title": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
+          "pub_year": "2026",
+          "first_publication_date": "2026-01-29",
+          "journal": "Front Pharmacol",
+          "authors": "Zhao Z, Liu F, Yu Y, Shen Y, Ding D, Han F.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/41693781"
         },
         {
           "id": "PMC11152417",
@@ -182,20 +182,6 @@
         "url": "https://europepmc.org/article/MED/38897171"
       },
       {
-        "id": "41693781",
-        "source": "MED",
-        "pmid": "41693781",
-        "pmcid": "PMC12894019",
-        "doi": "10.3389/fphar.2026.1742212",
-        "title": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
-        "pub_year": "2026",
-        "first_publication_date": "2026-01-29",
-        "journal": "Front Pharmacol",
-        "authors": "Zhao Z, Liu F, Yu Y, Shen Y, Ding D, Han F.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/41693781"
-      },
-      {
         "id": "40703363",
         "source": "MED",
         "pmid": "40703363",
@@ -208,6 +194,20 @@
         "authors": "Yu Y, Zhu Y, Gao M, Wang Y, Li S, Gou Y.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/40703363"
+      },
+      {
+        "id": "41693781",
+        "source": "MED",
+        "pmid": "41693781",
+        "pmcid": "PMC12894019",
+        "doi": "10.3389/fphar.2026.1742212",
+        "title": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
+        "pub_year": "2026",
+        "first_publication_date": "2026-01-29",
+        "journal": "Front Pharmacol",
+        "authors": "Zhao Z, Liu F, Yu Y, Shen Y, Ding D, Han F.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/41693781"
       },
       {
         "id": "PMC11152417",
@@ -230,8 +230,8 @@
       2026,
       2024,
       2024,
-      2026,
       2025,
+      2026,
       2024
     ],
     "silence_after_completion": false,

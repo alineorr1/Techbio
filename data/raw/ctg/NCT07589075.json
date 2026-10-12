@@ -1,0 +1,361 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07589075",
+      "orgStudyIdInfo": {
+        "id": "IORG2226240"
+      },
+      "organization": {
+        "fullName": "Beni-Suef University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy With Letrozole in Induction of Ovulation in Women With Polycystic Ovarian Syndrome",
+      "officialTitle": "Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy With Letrozole in Induction of Ovulation in Women With Polycystic Ovarian Syndrome",
+      "acronym": "SGLT-2/PCOS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-10-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-08-08",
+      "studyFirstSubmitQcDate": "2026-05-09",
+      "studyFirstPostDateStruct": {
+        "date": "2026-05-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nourhan Thabet Farag Ahmed Sakran",
+        "investigatorTitle": "Principle Investigator",
+        "investigatorAffiliation": "Beni-Suef University"
+      },
+      "leadSponsor": {
+        "name": "Beni-Suef University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the study is to assess the efficacy of adjuvant therapy dapagliflozin, metformin as monotherapy and combination of both in comparison to control group in induction of ovulation with letrozole in women PCOS, focusing specifically on rates of ovulation and pregnancy.",
+      "detailedDescription": "The study will be a randomized controlled clinical trial. Once the eligibility from screening visit is determined prior to baseline visit, randomization will be made by computer randomization for women who are admitted to Beni-Suef University Hospital. The Sample size will be 500 divided equally into 4 groups calculated with power=0.8.\n\nBefore initiation of the study, the population will be divided randomly into 4 equal groups: group A, B, C and D. The adjuvant therapy of each group will be group (A) Metformin , group (B) Dapagliflozin , Group(C) Combined Dapagliflozin-Metformin and group (D) with no adjuvant therapy (control group). The adjuvant therapy will be taken once daily with a main meal and started one month before initiation of letrozole. All groups will take letrozole 2.5mg twice daily from the third day of the cycle for 5 days.\n\nOvulation rate (percentage of ovulatory cycles in the whole follow up period),Pregnancy rate (clinical pregnancy will be considered when an intrauterine gestational sac is seen and presence of a fetal heartbeat),Serum progesterone on day 21,Endometrial thickness at the time of ovulation and Weight, waist/hip ratio, height and body mass index (BMI) will be measured"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Induction of Ovulation",
+        "PCO - Polycystic Ovaries"
+      ],
+      "keywords": [
+        "Polycystic Ovarian Syndrome",
+        "Induction of Ovulation",
+        "Sodium-Glucose Co-Transporter-2 Inhibitors",
+        "Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy with Letrozole in Induction of Ovulation",
+        "Adjuvant Therapy with Letrozole in Induction of Ovulation in Women with Polycystic Ovarian Syndrome",
+        "Adjuvant Therapy with Letrozole",
+        "Letrozole in Induction of Ovulation in Women with Polycystic Ovarian Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized Control Trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "\"metformin\"",
+          "type": "EXPERIMENTAL",
+          "description": "will take Metformin 1000mg as adjuvant therapy+Letrozole2.5mg",
+          "interventionNames": [
+            "Drug: Metformin 1000 mg Oral Tablet",
+            "Drug: Letrozole 2.5Mg Tablet"
+          ]
+        },
+        {
+          "label": "\"Dapagliflozin\"",
+          "type": "EXPERIMENTAL",
+          "description": "will take Dapagliflozin 10mg as adjuvant therapy+Letrozole2.5mg",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10 MG Oral Tablet [Farxiga]",
+            "Drug: Letrozole 2.5Mg Tablet"
+          ]
+        },
+        {
+          "label": "\"Dapagliflozin-Metformin\"",
+          "type": "EXPERIMENTAL",
+          "description": "will take combined Dapagliflozin-Metformin 5/1000 as adjuvant therapy+Letrozole2.5mg",
+          "interventionNames": [
+            "Drug: Combined Dapagliflozin-Metformin 5/1000mg",
+            "Drug: Letrozole 2.5Mg Tablet"
+          ]
+        },
+        {
+          "label": "\"control\"",
+          "type": "OTHER",
+          "description": "will take letrozole 2.5mg without adjuvant therapy",
+          "interventionNames": [
+            "Drug: Letrozole 2.5Mg Tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin 1000 mg Oral Tablet",
+          "description": "will take Metformin 1000 mg once daily with a main meal and started one month before initiation of the first cycle of induction.",
+          "armGroupLabels": [
+            "\"metformin\""
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10 MG Oral Tablet [Farxiga]",
+          "description": "will take Dapagliflozin 10mg once daily with a main meal and started one month before initiation of the first cycle of induction.",
+          "armGroupLabels": [
+            "\"Dapagliflozin\""
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Combined Dapagliflozin-Metformin 5/1000mg",
+          "description": "will take Combined Dapagliflozin-Metformin 5/1000mg once daily with a main meal and started one month before initiation of the first cycle of induction.",
+          "armGroupLabels": [
+            "\"Dapagliflozin-Metformin\""
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole 2.5Mg Tablet",
+          "description": "will take letrozole 2.5mg twice daily from the third day of the cycle for 5 days.",
+          "armGroupLabels": [
+            "\"Dapagliflozin\"",
+            "\"Dapagliflozin-Metformin\"",
+            "\"control\"",
+            "\"metformin\""
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ovulation rate",
+          "description": "percentage of ovulatory cycles",
+          "timeFrame": "\"through study completion, an average of 1 year\"."
+        },
+        {
+          "measure": "Pregnancy rate",
+          "description": "when an intrauterine gestational sac is seen and presence of a fetal heartbeat)",
+          "timeFrame": "\"through study completion, an average of 1 year\"."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Serum progesterone",
+          "description": "Serum progesterone",
+          "timeFrame": "\"through study completion, an average of 1 year\"."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPre-menopausal women aged 20-40 with primary or secondary infertility and PCOS which render them unable to become pregnant. Diagnosis of PCOS will based on European Society of Human Reproduction and Embryology/American Society for Reproductive Medicine (ESHRE/ASRM) criteria, the diagnosis is made when at least two of the following criteria are met: oilgo and/or anovulation (infrequent or no ovulation), clinical and/or biochemical signs of hyperandrogenism including hirsutism, acne and/or increased testosterone levels or polycystic ovaries on ultrasound (defined as those containing at least 12 follicles measuring 2-9 mm in diameter arranged peripherally around an echo-dense stroma and/or with increased ovarian volume of at least 10 ml).\n\nExclusion Criteria:\n\nOther causes of hyperandrogenism mimic PCOS such as congenital adrenal hyperplasia, Cushing's syndrome, or androgen secreting tumors are excluded.\n\nPersistent hyperprolactinemia, thyroid dysfunction defined as TSH \\< 0.2 mIU/ML or \\>5.5 mIU/mL) or patients with menopausal levels of FSH (\\> 15 mIU/mL) (A normal level within the last year is adequate for enter the study).\n\nLiver disease is defined as AST or ALT \\> 2 times normal or total bilirubin \\>2.5 mg/dL, kidney disease defined as BUN \\> 30 mg/dL or serum creatinine\\> 1.4 mg/dL or significant anemia defined as Hemoglobin \\< 10 mg/dL.\n\nWomen with Type I or II diabetes mellitus who are poorly controlled (defined as a HA1c level \\> 7.0%).\n\nUntreated poorly controlled hypertension is defined as a systolic blood pressure ≥ 160 mm Hg or a diastolic ≥ 100 mm Hg obtained on two measures obtained at least 60 minutes apart.\n\nHistory of deep venous thrombosis, pulmonary embolus, or cerebrovascular accident.\n\nWomen who have undergone a bariatric surgery procedure in the recent past (\\<12 months) and are in a period of acute weight loss or have been advised against pregnancy by their bariatric surgeon.\n\nPresence of any urinary symptom such as frequency, urgency, or bloody micturition.\n\nIn case of metabolic acidosis, osteoporosis, endometrial hyperplasia, or endometrial neoplasia.\n\nWomen who had gonadotropin induction, ovarian drilling before or women with hypergonadotropic hypogonadism or functional ovarian cysts (\\> 5cm).\n\nCriteria of IVF/ICSI as poor Response, no Eggs or ectopic pregnancy. Women who receive antidiabetic medications such as insulin, thiazolidinediones, acarbose, or sulfonylureas are likely to confound the effects of study medication or who are currently receiving metformin XR for a diagnosis of Type I or Type II diabetes or for PCOS are also specifically excluded.\n\nConcomitant use of medication that could interfere with the absorption, metabolism, and excretion of drugs involved in the study as the use of Furosemide, cimetidine increase metformin concentration and nifedipine enhances the absorption of metformin.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "20 Years",
+      "maximumAge": "40 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Gynecology and Reproductive department in Beni-Suef University Hospital",
+          "city": "Banī Suwayf",
+          "zip": "62517",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 29.07441,
+            "lon": 31.09785
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-09"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011085",
+          "term": "Polycystic Ovary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010048",
+          "term": "Ovarian Cysts"
+        },
+        {
+          "id": "D003560",
+          "term": "Cysts"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D010049",
+          "term": "Ovarian Diseases"
+        },
+        {
+          "id": "D000291",
+          "term": "Adnexal Diseases"
+        },
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        },
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

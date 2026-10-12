@@ -1,6 +1,6 @@
 {
-  "snapshot_id": "20261005T142326Z",
-  "created_at": "2026-10-05T14:23:26.491039+00:00",
+  "snapshot_id": "20261012T151037Z",
+  "created_at": "2026-10-12T15:10:37.322877+00:00",
   "extract_model": "mock-prompt-aware-v1",
   "extract_mode": "mock",
   "scoring": {
@@ -443,7 +443,7 @@
         "nct_id": "NCT05670353",
         "score": 60.0,
         "raw_weighted_sum": 60.0,
-        "arithmetic": "(18.0×35 + 92.0×30 + 75.0×20 + 73.9×15) / 100 = 60.0",
+        "arithmetic": "(18.0×35 + 92.0×30 + 75.0×20 + 74.2×15) / 100 = 60.0 then Rule B (Organon guard): no pre-trial independent mechanism evidence; cap 60.0 → 60.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -485,7 +485,7 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 73.88,
+            "value": 74.2,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
@@ -493,13 +493,15 @@
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 1.87,
-            "years_points": 93.63,
+            "years_since_stop": 1.89,
+            "years_points": 94.59,
             "sponsor_source_url": "https://www.usp.br",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
         },
-        "caps_applied": [],
+        "caps_applied": [
+          "Rule B (Organon guard): no pre-trial independent mechanism evidence; cap 60.0"
+        ],
         "rule_a_safety_cap": false,
         "rule_b_organon_guard": true,
         "commercial_gate": {
@@ -717,20 +719,6 @@
               "url": "https://europepmc.org/article/MED/38897171"
             },
             {
-              "id": "41693781",
-              "source": "MED",
-              "pmid": "41693781",
-              "pmcid": "PMC12894019",
-              "doi": "10.3389/fphar.2026.1742212",
-              "title": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
-              "pub_year": "2026",
-              "first_publication_date": "2026-01-29",
-              "journal": "Front Pharmacol",
-              "authors": "Zhao Z, Liu F, Yu Y, Shen Y, Ding D, Han F.",
-              "is_open_access": "Y",
-              "url": "https://europepmc.org/article/MED/41693781"
-            },
-            {
               "id": "40703363",
               "source": "MED",
               "pmid": "40703363",
@@ -743,6 +731,20 @@
               "authors": "Yu Y, Zhu Y, Gao M, Wang Y, Li S, Gou Y.",
               "is_open_access": "Y",
               "url": "https://europepmc.org/article/MED/40703363"
+            },
+            {
+              "id": "41693781",
+              "source": "MED",
+              "pmid": "41693781",
+              "pmcid": "PMC12894019",
+              "doi": "10.3389/fphar.2026.1742212",
+              "title": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
+              "pub_year": "2026",
+              "first_publication_date": "2026-01-29",
+              "journal": "Front Pharmacol",
+              "authors": "Zhao Z, Liu F, Yu Y, Shen Y, Ding D, Han F.",
+              "is_open_access": "Y",
+              "url": "https://europepmc.org/article/MED/41693781"
             },
             {
               "id": "PMC11152417",
@@ -988,7 +990,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:25Z",
+        "updated_at": "2026-10-12T15:10:35Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. None found mapped to USP/DREAMLAND. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -1163,12 +1165,12 @@
           "url": "https://europepmc.org/article/MED/38897171"
         },
         {
-          "label": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
-          "url": "https://europepmc.org/article/MED/41693781"
-        },
-        {
           "label": "Research progress on natural plant metabolites targeting apoptosis for endometriosis prevention and treatment: a systematic review.",
           "url": "https://europepmc.org/article/MED/40703363"
+        },
+        {
+          "label": "Natural products modulate programmed cell death signaling mechanism for treating endometriosis: a review.",
+          "url": "https://europepmc.org/article/MED/41693781"
         },
         {
           "label": "Poster Presentations - Abstracts of the 3rd Brazilian Congress of PRONUCLEO and Regional Meeting Brazil Red Latinoamericana de Reproducción Asistida (REDLARA)",
@@ -1560,7 +1562,7 @@
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 5.29,
+            "years_since_stop": 5.31,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.pennstatehealth.org",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -1992,7 +1994,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:15Z",
+        "updated_at": "2026-10-12T15:10:23Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. None found. Generic naltrexone; no Hershey exclusive endometriosis MOU patent. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -2521,15 +2523,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 42.12,
+            "value": 42.07,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 16.6,
-            "years_points": 28.36,
+            "years_since_stop": 16.62,
+            "years_points": 28.2,
             "sponsor_source_url": "https://www.vcu.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -2919,7 +2921,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:02Z",
+        "updated_at": "2026-10-12T15:10:10Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. None found for VCU/PCOS. Adjacent US8178150 not VCU-mapped exclusive. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -3439,7 +3441,7 @@
         "nct_id": "NCT00729560",
         "score": 52.4,
         "raw_weighted_sum": 52.4,
-        "arithmetic": "(18.0×35 + 86.0×30 + 75.0×20 + 35.5×15) / 100 = 52.4",
+        "arithmetic": "(18.0×35 + 86.0×30 + 75.0×20 + 35.4×15) / 100 = 52.4",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -3481,15 +3483,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 35.46,
+            "value": 35.41,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "NA"
             ],
             "phase_points": 34.0,
-            "years_since_stop": 14.67,
-            "years_points": 44.38,
+            "years_since_stop": 14.69,
+            "years_points": 44.22,
             "sponsor_source_url": "https://www.vcu.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -3877,7 +3879,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:02Z",
+        "updated_at": "2026-10-12T15:10:10Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -4381,9 +4383,9 @@
       },
       "score": {
         "nct_id": "NCT00159575",
-        "score": 51.7,
-        "raw_weighted_sum": 51.7,
-        "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 47.0×15) / 100 = 51.7",
+        "score": 51.6,
+        "raw_weighted_sum": 51.6,
+        "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 47.0×15) / 100 = 51.6",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -4425,15 +4427,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 47.02,
+            "value": 46.97,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 16.51,
-            "years_points": 29.07,
+            "years_since_stop": 16.53,
+            "years_points": 28.91,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -4585,8 +4587,8 @@
           "flag": "HIGH_UNCERTAINTY"
         },
         "confidence_interval": [
-          34.8,
-          68.6
+          34.7,
+          68.5
         ],
         "failure_mode": "recruitment",
         "classification_rule": "6_extracted_recruitment"
@@ -4848,7 +4850,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:22:58Z",
+        "updated_at": "2026-10-12T15:10:06Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -5449,7 +5451,7 @@
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 18.34,
+            "years_since_stop": 18.36,
             "years_points": 25.0,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -5850,7 +5852,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:22:59Z",
+        "updated_at": "2026-10-12T15:10:07Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -6381,9 +6383,9 @@
       },
       "score": {
         "nct_id": "NCT00682890",
-        "score": 50.9,
-        "raw_weighted_sum": 50.9,
-        "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 41.7×15) / 100 = 50.9",
+        "score": 50.8,
+        "raw_weighted_sum": 50.8,
+        "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 41.6×15) / 100 = 50.8",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -6425,15 +6427,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 41.67,
+            "value": 41.62,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 16.76,
-            "years_points": 27.01,
+            "years_since_stop": 16.78,
+            "years_points": 26.85,
             "sponsor_source_url": "https://www.vcu.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -6584,8 +6586,8 @@
           "flag": "HIGH_UNCERTAINTY"
         },
         "confidence_interval": [
-          35.9,
-          65.9
+          35.8,
+          65.8
         ],
         "failure_mode": "recruitment",
         "classification_rule": "6_extracted_recruitment"
@@ -6849,7 +6851,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:00Z",
+        "updated_at": "2026-10-12T15:10:08Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -7397,7 +7399,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 3.1,
+            "years_since_stop": 3.12,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/1600172/000160017225000038/sprb-20250331.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -7807,7 +7809,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:24Z",
+        "updated_at": "2026-10-12T15:10:34Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. Spruce/Lilly tildacerfont families; program value not captured after failed pivotal. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -8387,7 +8389,7 @@
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 7.95,
+            "years_since_stop": 7.97,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.abbvie.com/science/pipeline.html",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -8846,7 +8848,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:12Z",
+        "updated_at": "2026-10-12T15:10:20Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -9395,9 +9397,9 @@
       },
       "score": {
         "nct_id": "NCT00784693",
-        "score": 37.6,
-        "raw_weighted_sum": 37.6,
-        "arithmetic": "(18.0×35 + 40.0×30 + 62.5×20 + 45.0×15) / 100 = 37.6",
+        "score": 37.5,
+        "raw_weighted_sum": 37.5,
+        "arithmetic": "(18.0×35 + 40.0×30 + 62.5×20 + 45.0×15) / 100 = 37.5",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -9439,15 +9441,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 45.05,
+            "value": 45.0,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 16.5,
-            "years_points": 29.16,
+            "years_since_stop": 16.52,
+            "years_points": 29.0,
             "sponsor_source_url": "https://www.pfizer.com",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -9598,8 +9600,8 @@
           "flag": "HIGH_UNCERTAINTY"
         },
         "confidence_interval": [
-          22.6,
-          52.6
+          22.5,
+          52.5
         ],
         "failure_mode": "unclear",
         "classification_rule": "6_unclear_surface_for_review"
@@ -9863,7 +9865,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:04Z",
+        "updated_at": "2026-10-12T15:10:12Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -10465,7 +10467,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 4.42,
+            "years_since_stop": 4.44,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.bayer.com/en/pharma/womens-healthcare",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -11020,7 +11022,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:21Z",
+        "updated_at": "2026-10-12T15:10:32Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -11647,7 +11649,7 @@
               "PHASE1"
             ],
             "phase_points": 38.0,
-            "years_since_stop": 5.9,
+            "years_since_stop": 5.92,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -12091,7 +12093,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:14Z",
+        "updated_at": "2026-10-12T15:10:22Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -12683,7 +12685,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 20.76,
+            "years_since_stop": 20.78,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.nichd.nih.gov",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -13156,7 +13158,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:22:56Z",
+        "updated_at": "2026-10-12T15:10:04Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -13359,6 +13361,1003 @@
         "classification_json": "data/derived/classify/NCT00001848.json",
         "score_json": "data/derived/score/NCT00001848.json",
         "rights_json": "data/derived/rights/NCT00001848.json"
+      }
+    },
+    {
+      "nct_id": "NCT07589075",
+      "programme_id": "p_b6e473907564aa44",
+      "primary_display_id": "NCT07589075",
+      "source": "ctg",
+      "brief_title": "Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy With Letrozole in Induction of Ovulation in Women With Polycystic Ovarian Syndrome",
+      "official_title": "Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy With Letrozole in Induction of Ovulation in Women With Polycystic Ovarian Syndrome",
+      "indication": "pcos",
+      "indication_label": "Polycystic ovary syndrome",
+      "conditions": [
+        "Induction of Ovulation",
+        "PCO - Polycystic Ovaries"
+      ],
+      "phase": [
+        "PHASE4"
+      ],
+      "overall_status": "COMPLETED",
+      "why_stopped": null,
+      "start_date": "2023-10-20",
+      "primary_completion_date": "2024-07-01",
+      "completion_date": "2025-10-30",
+      "last_update_date": "2026-10-06",
+      "year_stopped": "2025",
+      "sponsor_name": "Beni-Suef University",
+      "sponsor_class": "OTHER",
+      "sponsor_status": "unknown",
+      "enrolment": {
+        "count": 500,
+        "type": "ACTUAL"
+      },
+      "has_results": false,
+      "interventions": [
+        {
+          "name": "Metformin 1000 mg Oral Tablet",
+          "type": "DRUG"
+        },
+        {
+          "name": "Dapagliflozin 10 MG Oral Tablet [Farxiga]",
+          "type": "DRUG"
+        },
+        {
+          "name": "Combined Dapagliflozin-Metformin 5/1000mg",
+          "type": "DRUG"
+        },
+        {
+          "name": "Letrozole 2.5Mg Tablet",
+          "type": "DRUG"
+        }
+      ],
+      "targets": [
+        {
+          "name": "Metformin 1000 mg Oral Tablet",
+          "gene_symbol": null,
+          "modality": "small molecule",
+          "confidence": "high"
+        },
+        {
+          "name": "Dapagliflozin 10 MG Oral Tablet [Farxiga]",
+          "gene_symbol": null,
+          "modality": "small molecule",
+          "confidence": "high"
+        },
+        {
+          "name": "Combined Dapagliflozin-Metformin 5/1000mg",
+          "gene_symbol": null,
+          "modality": "small molecule",
+          "confidence": "high"
+        },
+        {
+          "name": "Letrozole 2.5Mg Tablet",
+          "gene_symbol": null,
+          "modality": "hormone",
+          "confidence": "high"
+        }
+      ],
+      "mechanism_summary": "Metformin 1000 mg Oral Tablet, Dapagliflozin 10 MG Oral Tablet [Farxiga], Combined Dapagliflozin-Metformin 5/1000mg evaluated in Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy With Letrozole in Induction of Ovulation in Women With Polycystic Ovarian Syndrome.",
+      "extraction": {
+        "nct_id": "NCT07589075",
+        "targets": [
+          {
+            "name": "Metformin 1000 mg Oral Tablet",
+            "gene_symbol": null,
+            "modality": "small molecule",
+            "confidence": "high"
+          },
+          {
+            "name": "Dapagliflozin 10 MG Oral Tablet [Farxiga]",
+            "gene_symbol": null,
+            "modality": "small molecule",
+            "confidence": "high"
+          },
+          {
+            "name": "Combined Dapagliflozin-Metformin 5/1000mg",
+            "gene_symbol": null,
+            "modality": "small molecule",
+            "confidence": "high"
+          },
+          {
+            "name": "Letrozole 2.5Mg Tablet",
+            "gene_symbol": null,
+            "modality": "hormone",
+            "confidence": "high"
+          }
+        ],
+        "mechanism_summary": "Metformin 1000 mg Oral Tablet, Dapagliflozin 10 MG Oral Tablet [Farxiga], Combined Dapagliflozin-Metformin 5/1000mg evaluated in Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy With Letrozole in Induction of Ovulation in Women With Polycystic Ovarian Syndrome.",
+        "population": {
+          "diagnosis_method_stated": true,
+          "diagnosis_method": "ultrasound",
+          "disease_severity_stratified": true,
+          "age_range_specified": true,
+          "menopausal_status_specified": true,
+          "menstrual_cycle_phase_controlled": false,
+          "hormonal_contraceptive_use_addressed": true,
+          "prior_treatment_history_specified": false,
+          "biomarker_or_molecular_subtype_used": false
+        },
+        "stop_reason_raw": null,
+        "stop_reason_category": "not_stated",
+        "stop_reason_evidence": "Overall status: COMPLETED",
+        "endpoint_quality": {
+          "primary_endpoint": "Ovulation rate",
+          "endpoint_type": "objective",
+          "endpoint_appropriate_for_indication": "yes",
+          "reasoning": "Ovulatory, androgen, or metabolic primary matches the stated PCOS aim."
+        },
+        "extraction_confidence": "medium",
+        "unresolved": [
+          "menstrual cycle phase not stated in the record",
+          "prior treatment history not stated in the record",
+          "biomarker or molecular subtype not stated in the record",
+          "why stopped not stated"
+        ]
+      },
+      "classification": {
+        "nct_id": "NCT07589075",
+        "failure_mode": "unclear",
+        "confidence": "low",
+        "signals": {
+          "extracted_category": "not_stated",
+          "enrolment_actual": 500,
+          "enrolment_anticipated": null,
+          "enrolment_type": "ACTUAL",
+          "enrolment_ratio": null,
+          "enrolment_proceeding": true,
+          "sponsor_match": null,
+          "sponsor_ceased_near_stop": false,
+          "peer_trials_stopped_same_window": 0,
+          "female_specific_vars_captured": 5,
+          "safety_signal": false,
+          "results_published": false,
+          "target_advanced_elsewhere": false,
+          "stop_reason_evidence": "Overall status: COMPLETED",
+          "stop_reason_raw": null,
+          "commercial_gate": {
+            "verdict": "empty_stub",
+            "reason_codes": [
+              "EMPTY_RIGHTS_NOT_OWNABLE",
+              "RIGHTS_UNKNOWN",
+              "NOT_OPTIONABLE",
+              "MISSING_OWNERSHIP_FILL"
+            ],
+            "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+            "intermezzo": {
+              "named": false,
+              "sex_diff": false,
+              "cheap_generic_no_power": false,
+              "shaped": false
+            },
+            "teratogen_rems": {
+              "matched": false,
+              "hard_disqualify": false,
+              "strong_downrank": false,
+              "matches": [],
+              "reason_codes": [],
+              "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+            },
+            "caps": {
+              "intermezzo": 20.0,
+              "rems_hard": 10.0,
+              "rems_downrank": 25.0,
+              "walk_away": 20.0
+            },
+            "empty_stub": true,
+            "rights_unknown": true,
+            "missing_ownership_fill": true
+          },
+          "disqualifier_codes": [
+            "EMPTY_RIGHTS_NOT_OWNABLE",
+            "RIGHTS_UNKNOWN",
+            "NOT_OPTIONABLE",
+            "MISSING_OWNERSHIP_FILL"
+          ],
+          "walk_away_codes": [],
+          "ownability": {
+            "schema_version": "wave-1b.rights-stub.v1",
+            "nct_id": "NCT07589075",
+            "programme_id": "p_b6e473907564aa44",
+            "thesis_mismatch": false,
+            "kill_triggered": false,
+            "kill_codes": [
+              "S_TAXONOMY_FIX",
+              "S_COI_UNCLEAR",
+              "S_LICENSE_MAP_MISSING",
+              "RIGHTS_UNKNOWN",
+              "MISSING_OWNERSHIP_FILL",
+              "NOT_OPTIONABLE"
+            ],
+            "hard_codes": [],
+            "soft_codes": [
+              "S_TAXONOMY_FIX",
+              "S_COI_UNCLEAR",
+              "S_LICENSE_MAP_MISSING"
+            ],
+            "ownership_ownable": false,
+            "optionable": false,
+            "shortlist_ownable": false,
+            "surface": "NOT OPTIONABLE",
+            "md_status": "HOLD",
+            "confidence": "empty_stub",
+            "rights_unknown": true,
+            "missing_ownership_fill": true,
+            "desk_classification": null,
+            "decision_required": true
+          },
+          "thesis_mismatch": false,
+          "kill_triggered": false,
+          "kill_codes": [
+            "S_TAXONOMY_FIX",
+            "S_COI_UNCLEAR",
+            "S_LICENSE_MAP_MISSING",
+            "RIGHTS_UNKNOWN",
+            "MISSING_OWNERSHIP_FILL",
+            "NOT_OPTIONABLE"
+          ],
+          "pre_pass": {
+            "verdict": "empty_stub",
+            "optionable": false,
+            "shortlist_ownable": false,
+            "surface": "NOT OPTIONABLE",
+            "md_status": "HOLD",
+            "block_pass": true,
+            "reason_codes": [
+              "EMPTY_RIGHTS_NOT_OWNABLE",
+              "RIGHTS_UNKNOWN",
+              "NOT_OPTIONABLE",
+              "MISSING_OWNERSHIP_FILL"
+            ],
+            "commercial_gate": {
+              "verdict": "empty_stub",
+              "reason_codes": [
+                "EMPTY_RIGHTS_NOT_OWNABLE",
+                "RIGHTS_UNKNOWN",
+                "NOT_OPTIONABLE",
+                "MISSING_OWNERSHIP_FILL"
+              ],
+              "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+              "intermezzo": {
+                "named": false,
+                "sex_diff": false,
+                "cheap_generic_no_power": false,
+                "shaped": false
+              },
+              "teratogen_rems": {
+                "matched": false,
+                "hard_disqualify": false,
+                "strong_downrank": false,
+                "matches": [],
+                "reason_codes": [],
+                "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+              },
+              "caps": {
+                "intermezzo": 20.0,
+                "rems_hard": 10.0,
+                "rems_downrank": 25.0,
+                "walk_away": 20.0
+              },
+              "empty_stub": true,
+              "rights_unknown": true,
+              "missing_ownership_fill": true
+            },
+            "walk_away_codes": [],
+            "rights_unknown": true,
+            "missing_ownership_fill": true,
+            "empty_stub": true,
+            "desk_classification": null
+          }
+        },
+        "rule_fired": "6_unclear_surface_for_review",
+        "notes": "No earlier rule fired. Surface for human review rather than guessing.",
+        "commercial_gate": {
+          "verdict": "empty_stub",
+          "reason_codes": [
+            "EMPTY_RIGHTS_NOT_OWNABLE",
+            "RIGHTS_UNKNOWN",
+            "NOT_OPTIONABLE",
+            "MISSING_OWNERSHIP_FILL"
+          ],
+          "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+          "intermezzo": {
+            "named": false,
+            "sex_diff": false,
+            "cheap_generic_no_power": false,
+            "shaped": false
+          },
+          "teratogen_rems": {
+            "matched": false,
+            "hard_disqualify": false,
+            "strong_downrank": false,
+            "matches": [],
+            "reason_codes": [],
+            "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+          },
+          "caps": {
+            "intermezzo": 20.0,
+            "rems_hard": 10.0,
+            "rems_downrank": 25.0,
+            "walk_away": 20.0
+          },
+          "empty_stub": true,
+          "rights_unknown": true,
+          "missing_ownership_fill": true
+        },
+        "disqualifier_codes": [
+          "EMPTY_RIGHTS_NOT_OWNABLE",
+          "RIGHTS_UNKNOWN",
+          "NOT_OPTIONABLE",
+          "MISSING_OWNERSHIP_FILL"
+        ],
+        "pre_pass": {
+          "verdict": "empty_stub",
+          "optionable": false,
+          "shortlist_ownable": false,
+          "surface": "NOT OPTIONABLE",
+          "md_status": "HOLD",
+          "block_pass": true,
+          "reason_codes": [
+            "EMPTY_RIGHTS_NOT_OWNABLE",
+            "RIGHTS_UNKNOWN",
+            "NOT_OPTIONABLE",
+            "MISSING_OWNERSHIP_FILL"
+          ],
+          "commercial_gate": {
+            "verdict": "empty_stub",
+            "reason_codes": [
+              "EMPTY_RIGHTS_NOT_OWNABLE",
+              "RIGHTS_UNKNOWN",
+              "NOT_OPTIONABLE",
+              "MISSING_OWNERSHIP_FILL"
+            ],
+            "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+            "intermezzo": {
+              "named": false,
+              "sex_diff": false,
+              "cheap_generic_no_power": false,
+              "shaped": false
+            },
+            "teratogen_rems": {
+              "matched": false,
+              "hard_disqualify": false,
+              "strong_downrank": false,
+              "matches": [],
+              "reason_codes": [],
+              "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+            },
+            "caps": {
+              "intermezzo": 20.0,
+              "rems_hard": 10.0,
+              "rems_downrank": 25.0,
+              "walk_away": 20.0
+            },
+            "empty_stub": true,
+            "rights_unknown": true,
+            "missing_ownership_fill": true
+          },
+          "walk_away_codes": [],
+          "rights_unknown": true,
+          "missing_ownership_fill": true,
+          "empty_stub": true,
+          "desk_classification": null
+        },
+        "walk_away_codes": []
+      },
+      "score": {
+        "nct_id": "NCT07589075",
+        "score": 33.8,
+        "raw_weighted_sum": 33.8,
+        "arithmetic": "(18.0×35 + 40.0×30 + 37.5×20 + 53.2×15) / 100 = 33.8",
+        "weights": {
+          "mechanism_evidence": 35.0,
+          "failure_mode": 30.0,
+          "population_definition": 20.0,
+          "asset_accessibility": 15.0
+        },
+        "components": {
+          "mechanism_evidence": {
+            "value": 18.0,
+            "overall_association_score": null,
+            "genetic_association_score": 0.0,
+            "known_drug": false,
+            "literature_only": true,
+            "note": "No Open Targets association for a named gene; mechanism component is a floor, not a pass.",
+            "sources": []
+          },
+          "failure_mode": {
+            "value": 40.0,
+            "failure_mode": "unclear",
+            "rule_fired": "6_unclear_surface_for_review",
+            "note": "Lookup of unclear in config/scoring.yaml failure_mode_scores."
+          },
+          "population_definition": {
+            "value": 37.5,
+            "captured": [
+              "diagnosis_method_stated",
+              "disease_severity_stratified",
+              "age_range_specified",
+              "menopausal_status_specified",
+              "hormonal_contraceptive_use_addressed"
+            ],
+            "missing": [
+              "menstrual_cycle_phase_controlled",
+              "prior_treatment_history_specified",
+              "biomarker_or_molecular_subtype_used"
+            ],
+            "n_captured": 5,
+            "n_fields": 8,
+            "note": "Inverted capture rate of female-specific population variables from the extraction."
+          },
+          "asset_accessibility": {
+            "value": 53.17,
+            "sponsor_status": "unknown",
+            "sponsor_points": 42.0,
+            "phase": [
+              "PHASE4"
+            ],
+            "phase_points": 70.0,
+            "years_since_stop": 0.95,
+            "years_points": 47.5,
+            "sponsor_source_url": null,
+            "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
+          }
+        },
+        "caps_applied": [],
+        "rule_a_safety_cap": false,
+        "rule_b_organon_guard": true,
+        "commercial_gate": {
+          "verdict": "empty_stub",
+          "reason_codes": [
+            "EMPTY_RIGHTS_NOT_OWNABLE",
+            "RIGHTS_UNKNOWN",
+            "NOT_OPTIONABLE",
+            "MISSING_OWNERSHIP_FILL"
+          ],
+          "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+          "intermezzo": {
+            "named": false,
+            "sex_diff": false,
+            "cheap_generic_no_power": false,
+            "shaped": false
+          },
+          "teratogen_rems": {
+            "matched": false,
+            "hard_disqualify": false,
+            "strong_downrank": false,
+            "matches": [],
+            "reason_codes": [],
+            "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+          },
+          "caps": {
+            "intermezzo": 20.0,
+            "rems_hard": 10.0,
+            "rems_downrank": 25.0,
+            "walk_away": 20.0
+          },
+          "empty_stub": true,
+          "rights_unknown": true,
+          "missing_ownership_fill": true
+        },
+        "pre_pass": {
+          "verdict": "empty_stub",
+          "optionable": false,
+          "shortlist_ownable": false,
+          "surface": "NOT OPTIONABLE",
+          "md_status": "HOLD",
+          "block_pass": true,
+          "reason_codes": [
+            "EMPTY_RIGHTS_NOT_OWNABLE",
+            "RIGHTS_UNKNOWN",
+            "NOT_OPTIONABLE",
+            "MISSING_OWNERSHIP_FILL"
+          ],
+          "commercial_gate": {
+            "verdict": "empty_stub",
+            "reason_codes": [
+              "EMPTY_RIGHTS_NOT_OWNABLE",
+              "RIGHTS_UNKNOWN",
+              "NOT_OPTIONABLE",
+              "MISSING_OWNERSHIP_FILL"
+            ],
+            "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+            "intermezzo": {
+              "named": false,
+              "sex_diff": false,
+              "cheap_generic_no_power": false,
+              "shaped": false
+            },
+            "teratogen_rems": {
+              "matched": false,
+              "hard_disqualify": false,
+              "strong_downrank": false,
+              "matches": [],
+              "reason_codes": [],
+              "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+            },
+            "caps": {
+              "intermezzo": 20.0,
+              "rems_hard": 10.0,
+              "rems_downrank": 25.0,
+              "walk_away": 20.0
+            },
+            "empty_stub": true,
+            "rights_unknown": true,
+            "missing_ownership_fill": true
+          },
+          "walk_away_codes": [],
+          "rights_unknown": true,
+          "missing_ownership_fill": true,
+          "empty_stub": true,
+          "desk_classification": null
+        },
+        "optionable": false,
+        "shortlist_ownable": false,
+        "gate_surface": "NOT OPTIONABLE",
+        "walk_away_codes": [],
+        "ownability": {
+          "schema_version": "wave-1b.rights-stub.v1",
+          "nct_id": "NCT07589075",
+          "programme_id": "p_b6e473907564aa44",
+          "thesis_mismatch": false,
+          "kill_triggered": false,
+          "kill_codes": [
+            "S_TAXONOMY_FIX",
+            "S_COI_UNCLEAR",
+            "S_LICENSE_MAP_MISSING",
+            "RIGHTS_UNKNOWN",
+            "MISSING_OWNERSHIP_FILL",
+            "NOT_OPTIONABLE"
+          ],
+          "hard_codes": [],
+          "soft_codes": [
+            "S_TAXONOMY_FIX",
+            "S_COI_UNCLEAR",
+            "S_LICENSE_MAP_MISSING"
+          ],
+          "ownership_ownable": false,
+          "optionable": false,
+          "shortlist_ownable": false,
+          "surface": "NOT OPTIONABLE",
+          "md_status": "HOLD",
+          "confidence": "empty_stub",
+          "rights_unknown": true,
+          "missing_ownership_fill": true,
+          "desk_classification": null,
+          "decision_required": true
+        },
+        "pretrial_mechanism": {
+          "trial_start": "2023-10-20",
+          "has_pretrial_evidence": false,
+          "pretrial_count": 0,
+          "posttrial_count": 0,
+          "pretrial": [],
+          "posttrial": []
+        },
+        "uncertainty": {
+          "extraction_confidence": "medium",
+          "n_unresolved": 4,
+          "unresolved": [
+            "menstrual cycle phase not stated in the record",
+            "prior treatment history not stated in the record",
+            "biomarker or molecular subtype not stated in the record",
+            "why stopped not stated"
+          ],
+          "high_uncertainty": true,
+          "interval_halfwidth": 16.9,
+          "flag": "HIGH_UNCERTAINTY"
+        },
+        "confidence_interval": [
+          16.9,
+          50.7
+        ],
+        "failure_mode": "unclear",
+        "classification_rule": "6_unclear_surface_for_review"
+      },
+      "enrichment": {
+        "open_targets": {
+          "overall_association_score": null,
+          "genetic_association_score": 0.0,
+          "literature_only": true,
+          "known_drugs": [],
+          "target_advanced_elsewhere": false,
+          "per_target": [],
+          "evidence_items": [],
+          "sources": [],
+          "graphql_endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+          "disease_ids_queried": [
+            "MONDO_0005133",
+            "MONDO_0010888",
+            "EFO_0001065",
+            "MONDO_0008487",
+            "EFO_0000668"
+          ]
+        },
+        "europepmc": {
+          "has_results_publication": false,
+          "silence_after_completion": true,
+          "papers": [],
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT07589075&format=json"
+        },
+        "sponsor": {
+          "status": "unknown",
+          "sponsor_name": "Beni-Suef University",
+          "source_url": null,
+          "notes": "Lead sponsor not in the curated CSV; do not infer solvency.",
+          "sponsor_entity": {
+            "name": "Beni-Suef University",
+            "legal_name": null,
+            "resolution_status": "unknown",
+            "jurisdiction": null,
+            "opencorporates_id": null,
+            "company_number": null,
+            "source": "unstructured_registry"
+          }
+        },
+        "rights": {
+          "schema_version": "wave-1b.rights-stub.v1",
+          "nct_id": "NCT07589075",
+          "programme_id": "p_b6e473907564aa44",
+          "confidence": "empty_stub",
+          "path": "data/derived/rights/NCT07589075.json"
+        }
+      },
+      "rights": {
+        "schema_version": "wave-1b.rights-stub.v1",
+        "nct_id": "NCT07589075",
+        "programme_id": "p_b6e473907564aa44",
+        "confidence": "empty_stub",
+        "desk_classification": null,
+        "shortlist_ownable": false,
+        "optionable_candidate": false,
+        "identity": {
+          "nct_id": "NCT07589075",
+          "programme_id": "p_b6e473907564aa44",
+          "eu_ct": null,
+          "eudract": null,
+          "asset_name": null,
+          "taxonomy": {
+            "indication": null,
+            "target": null,
+            "modality": null,
+            "empty": true
+          },
+          "thesis_mismatch": false,
+          "thesis_mismatch_reason": null
+        },
+        "counterparty": {
+          "present": false,
+          "holder_name": "Beni-Suef University",
+          "holder_status": "unknown",
+          "sponsor_entity": {
+            "name": "Beni-Suef University",
+            "legal_name": null,
+            "resolution_status": "unknown",
+            "jurisdiction": null,
+            "opencorporates_id": null,
+            "company_number": null,
+            "source": "unstructured_registry"
+          }
+        },
+        "ind_regulatory": {
+          "ind_number": null,
+          "ind_holder": null,
+          "status": "unknown",
+          "pathway": "unknown",
+          "cmc": {
+            "api_source_identified": "unknown",
+            "formulation_described": "unknown",
+            "impurity_profile_available": "unknown",
+            "stability_data_available": "unknown",
+            "manufacturing_site_known": "unknown",
+            "spec_available": "unknown",
+            "ctd_module_3_available": "unknown",
+            "comparability_risk": "unknown",
+            "notes": "",
+            "confidence": "empty_stub"
+          },
+          "pathway_505b2": {
+            "pathway": "unknown",
+            "rld_ref": null,
+            "listed_drug_name": null,
+            "listed_drug_ref": null,
+            "exclusivity_windows": [],
+            "orange_book_url": null,
+            "orange_book_hook": "orange_book",
+            "confidence": "empty_stub"
+          }
+        },
+        "ip": {
+          "right_class": "unknown",
+          "assignment": {
+            "status": "not_yet_fetched",
+            "assignee": null,
+            "chain_of_title": []
+          },
+          "patent_families": [],
+          "orange_book": {
+            "rld_ref": null,
+            "listed_drug_ref": null,
+            "exclusivity_windows": [],
+            "url": null,
+            "hook": "orange_book",
+            "confidence": "empty_stub"
+          },
+          "listed_drug_ref": null,
+          "docket_empty": true
+        },
+        "fto_lite": {
+          "status": "empty_stub",
+          "blocking_refs": [],
+          "note": "",
+          "confidence": "empty_stub"
+        },
+        "coi": {
+          "status": "unclear",
+          "flags": [],
+          "note": ""
+        },
+        "ownership": {
+          "status": "not_yet_fetched",
+          "holder": null,
+          "ownable": false,
+          "confidence": "empty_stub",
+          "recommendation": null,
+          "note": "Empty stub. Does not imply ownability."
+        },
+        "kill": {
+          "triggered": false,
+          "codes": [
+            "S_TAXONOMY_FIX",
+            "S_COI_UNCLEAR",
+            "S_LICENSE_MAP_MISSING"
+          ],
+          "hard": [],
+          "soft": [
+            "S_TAXONOMY_FIX",
+            "S_COI_UNCLEAR",
+            "S_LICENSE_MAP_MISSING"
+          ],
+          "notes": ""
+        },
+        "process": {
+          "outreach": "none",
+          "updated_by": null,
+          "updated_at": null,
+          "note": null
+        },
+        "commercial_shape": {
+          "sex_dose_differentiation": null,
+          "sex_diff_labeling": null,
+          "generic_available": null,
+          "pricing_power": "unknown"
+        },
+        "commercial_gate": {
+          "verdict": "empty_stub",
+          "reason_codes": [],
+          "notes": ""
+        },
+        "modules": {
+          "uspto_odp": {
+            "module": "uspto_odp",
+            "status": "empty_stub",
+            "confidence": "empty_stub",
+            "env_var": "USPTO_ODP_API_KEY",
+            "note": "uspto_odp stub; USPTO_ODP_API_KEY not used. No live call.",
+            "patent_families": []
+          },
+          "epo_ops": {
+            "module": "epo_ops",
+            "status": "empty_stub",
+            "confidence": "empty_stub",
+            "env_var": "EPO_OPS_KEY",
+            "note": "epo_ops stub; EPO_OPS_KEY not used. No live call.",
+            "patent_families": []
+          },
+          "opencorporates": {
+            "module": "opencorporates",
+            "status": "empty_stub",
+            "confidence": "empty_stub",
+            "env_var": "OPENCORPORATES_API_KEY",
+            "note": "opencorporates stub; OPENCORPORATES_API_KEY not used. No live call.",
+            "sponsor_entity": {
+              "name": null,
+              "legal_name": null,
+              "resolution_status": "not_yet_fetched",
+              "jurisdiction": null,
+              "opencorporates_id": null,
+              "company_number": null,
+              "source": "none"
+            }
+          },
+          "orange_book": {
+            "module": "orange_book",
+            "status": "empty_stub",
+            "confidence": "empty_stub",
+            "env_var": "ORANGE_BOOK_LIVE",
+            "note": "orange_book stub; ORANGE_BOOK_LIVE not used. No live call.",
+            "rld_ref": null,
+            "listed_drug_ref": null,
+            "exclusivity_windows": [],
+            "orange_book_url": null
+          }
+        },
+        "updated_at": "2026-10-12T15:10:36Z",
+        "notes": "Empty rights stub. Does not imply ownability."
+      },
+      "ownability": {
+        "schema_version": "wave-1b.rights-stub.v1",
+        "nct_id": "NCT07589075",
+        "programme_id": "p_b6e473907564aa44",
+        "thesis_mismatch": false,
+        "kill_triggered": false,
+        "kill_codes": [
+          "S_TAXONOMY_FIX",
+          "S_COI_UNCLEAR",
+          "S_LICENSE_MAP_MISSING",
+          "RIGHTS_UNKNOWN",
+          "MISSING_OWNERSHIP_FILL",
+          "NOT_OPTIONABLE"
+        ],
+        "hard_codes": [],
+        "soft_codes": [
+          "S_TAXONOMY_FIX",
+          "S_COI_UNCLEAR",
+          "S_LICENSE_MAP_MISSING"
+        ],
+        "ownership_ownable": false,
+        "optionable": false,
+        "shortlist_ownable": false,
+        "surface": "NOT OPTIONABLE",
+        "md_status": "HOLD",
+        "confidence": "empty_stub",
+        "rights_unknown": true,
+        "missing_ownership_fill": true,
+        "desk_classification": null,
+        "decision_required": true
+      },
+      "pre_pass": {
+        "verdict": "empty_stub",
+        "optionable": false,
+        "shortlist_ownable": false,
+        "surface": "NOT OPTIONABLE",
+        "md_status": "HOLD",
+        "block_pass": true,
+        "reason_codes": [
+          "EMPTY_RIGHTS_NOT_OWNABLE",
+          "RIGHTS_UNKNOWN",
+          "NOT_OPTIONABLE",
+          "MISSING_OWNERSHIP_FILL"
+        ],
+        "commercial_gate": {
+          "verdict": "empty_stub",
+          "reason_codes": [
+            "EMPTY_RIGHTS_NOT_OWNABLE",
+            "RIGHTS_UNKNOWN",
+            "NOT_OPTIONABLE",
+            "MISSING_OWNERSHIP_FILL"
+          ],
+          "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+          "intermezzo": {
+            "named": false,
+            "sex_diff": false,
+            "cheap_generic_no_power": false,
+            "shaped": false
+          },
+          "teratogen_rems": {
+            "matched": false,
+            "hard_disqualify": false,
+            "strong_downrank": false,
+            "matches": [],
+            "reason_codes": [],
+            "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+          },
+          "caps": {
+            "intermezzo": 20.0,
+            "rems_hard": 10.0,
+            "rems_downrank": 25.0,
+            "walk_away": 20.0
+          },
+          "empty_stub": true,
+          "rights_unknown": true,
+          "missing_ownership_fill": true
+        },
+        "walk_away_codes": [],
+        "rights_unknown": true,
+        "missing_ownership_fill": true,
+        "empty_stub": true,
+        "desk_classification": null
+      },
+      "optionable": false,
+      "shortlist_ownable": false,
+      "gate_surface": "NOT OPTIONABLE",
+      "desk_classification": null,
+      "walk_away_codes": [],
+      "cmc": {
+        "api_source_identified": "unknown",
+        "formulation_described": "unknown",
+        "impurity_profile_available": "unknown",
+        "stability_data_available": "unknown",
+        "manufacturing_site_known": "unknown",
+        "spec_available": "unknown",
+        "ctd_module_3_available": "unknown",
+        "comparability_risk": "unknown",
+        "notes": "",
+        "confidence": "empty_stub"
+      },
+      "pathway_505b2": {
+        "pathway": "unknown",
+        "rld_ref": null,
+        "listed_drug_name": null,
+        "listed_drug_ref": null,
+        "exclusivity_windows": [],
+        "orange_book_url": null,
+        "orange_book_hook": "orange_book",
+        "confidence": "empty_stub"
+      },
+      "population_checklist": [
+        {
+          "field": "diagnosis_method_stated",
+          "captured": true,
+          "source": "extraction.population"
+        },
+        {
+          "field": "disease_severity_stratified",
+          "captured": true,
+          "source": "extraction.population"
+        },
+        {
+          "field": "age_range_specified",
+          "captured": true,
+          "source": "extraction.population"
+        },
+        {
+          "field": "menopausal_status_specified",
+          "captured": true,
+          "source": "extraction.population"
+        },
+        {
+          "field": "menstrual_cycle_phase_controlled",
+          "captured": false,
+          "source": "extraction.population"
+        },
+        {
+          "field": "hormonal_contraceptive_use_addressed",
+          "captured": true,
+          "source": "extraction.population"
+        },
+        {
+          "field": "prior_treatment_history_specified",
+          "captured": false,
+          "source": "extraction.population"
+        },
+        {
+          "field": "biomarker_or_molecular_subtype_used",
+          "captured": false,
+          "source": "extraction.population"
+        }
+      ],
+      "links": [
+        {
+          "label": "ClinicalTrials.gov record",
+          "url": "https://clinicaltrials.gov/study/NCT07589075"
+        },
+        {
+          "label": "ClinicalTrials.gov API (verbatim JSON)",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT07589075"
+        },
+        {
+          "label": "Europe PMC search (NCT ID)",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT07589075&format=json"
+        }
+      ],
+      "sources": {
+        "registry_json": "data/raw/ctg/NCT07589075.json",
+        "extraction_json": "data/derived/extract/NCT07589075.json",
+        "classification_json": "data/derived/classify/NCT07589075.json",
+        "score_json": "data/derived/score/NCT07589075.json",
+        "rights_json": "data/derived/rights/NCT07589075.json"
       }
     },
     {
@@ -13709,7 +14708,7 @@
         "nct_id": "NCT05560646",
         "score": 32.0,
         "raw_weighted_sum": 32.0,
-        "arithmetic": "(18.0×35 + 40.0×30 + 25.0×20 + 57.9×15) / 100 = 32.0",
+        "arithmetic": "(18.0×35 + 40.0×30 + 25.0×20 + 58.2×15) / 100 = 32.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -13751,15 +14750,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 57.92,
+            "value": 58.24,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 1.36,
-            "years_points": 67.76,
+            "years_since_stop": 1.37,
+            "years_points": 68.72,
             "sponsor_source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -14201,7 +15200,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:24Z",
+        "updated_at": "2026-10-12T15:10:35Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -14812,7 +15811,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 17.26,
+            "years_since_stop": 17.28,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -15244,7 +16243,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:22:59Z",
+        "updated_at": "2026-10-12T15:10:07Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -15833,7 +16832,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 17.1,
+            "years_since_stop": 17.11,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -16253,7 +17252,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:07Z",
+        "updated_at": "2026-10-12T15:10:15Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -16787,7 +17786,7 @@
         "nct_id": "NCT01208740",
         "score": 25.0,
         "raw_weighted_sum": 29.9,
-        "arithmetic": "(18.0×35 + 4.0×30 + 75.0×20 + 49.6×15) / 100 = 29.9 then Rule A: safety failure cap 25.0 → 25.0",
+        "arithmetic": "(18.0×35 + 4.0×30 + 75.0×20 + 49.5×15) / 100 = 29.9 then Rule A: safety failure cap 25.0 → 25.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -16829,15 +17828,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 49.56,
+            "value": 49.51,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 15.6,
-            "years_points": 36.69,
+            "years_since_stop": 15.62,
+            "years_points": 36.53,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -17240,7 +18239,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:09Z",
+        "updated_at": "2026-10-12T15:10:17Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -17770,7 +18769,7 @@
         "nct_id": "NCT02865915",
         "score": 25.0,
         "raw_weighted_sum": 30.7,
-        "arithmetic": "(18.0×35 + 4.0×30 + 50.0×20 + 88.0×15) / 100 = 30.7 then Rule A: safety failure cap 25.0 → 25.0",
+        "arithmetic": "(18.0×35 + 4.0×30 + 50.0×20 + 87.9×15) / 100 = 30.7 then Rule A: safety failure cap 25.0 → 25.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -17812,15 +18811,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 87.97,
+            "value": 87.91,
             "sponsor_status": "ceased",
             "sponsor_points": 95.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 9.09,
-            "years_points": 90.9,
+            "years_since_stop": 9.11,
+            "years_points": 90.74,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/1641222/000119312521187430/d179015d425.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -18208,7 +19207,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:11Z",
+        "updated_at": "2026-10-12T15:10:18Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -18788,7 +19787,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 7.95,
+            "years_since_stop": 7.97,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.bayer.com/en/pharma/womens-healthcare",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -19347,7 +20346,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:13Z",
+        "updated_at": "2026-10-12T15:10:21Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -19970,7 +20969,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 20.43,
+            "years_since_stop": 20.45,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.nichd.nih.gov",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -20442,7 +21441,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:22:57Z",
+        "updated_at": "2026-10-12T15:10:05Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -21062,7 +22061,7 @@
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 18.43,
+            "years_since_stop": 18.45,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.nichd.nih.gov",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -21504,7 +22503,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:22:57Z",
+        "updated_at": "2026-10-12T15:10:05Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -22068,8 +23067,8 @@
       "score": {
         "nct_id": "NCT02728245",
         "score": 20.0,
-        "raw_weighted_sum": 32.5,
-        "arithmetic": "(18.0×35 + 18.0×30 + 50.0×20 + 71.7×15) / 100 = 32.5 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
+        "raw_weighted_sum": 32.4,
+        "arithmetic": "(18.0×35 + 18.0×30 + 50.0×20 + 71.6×15) / 100 = 32.4 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -22111,15 +23110,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 71.68,
+            "value": 71.62,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 8.6,
-            "years_points": 95.03,
+            "years_since_stop": 8.62,
+            "years_points": 94.87,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -22513,7 +23512,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:09Z",
+        "updated_at": "2026-10-12T15:10:17Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -23114,7 +24113,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 4.99,
+            "years_since_stop": 5.0,
             "years_points": 100.0,
             "sponsor_source_url": "https://clinicaltrials.gov/study/NCT03481842",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -23540,7 +24539,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:14Z",
+        "updated_at": "2026-10-12T15:10:21Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. Patents none found. API COM axitinib/afatinib/linifanib originators. N=0 withdrawn. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -24101,8 +25100,8 @@
       "score": {
         "nct_id": "NCT03905941",
         "score": 20.0,
-        "raw_weighted_sum": 24.2,
-        "arithmetic": "(18.0×35 + 18.0×30 + 25.0×20 + 50.3×15) / 100 = 24.2 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
+        "raw_weighted_sum": 24.3,
+        "arithmetic": "(18.0×35 + 18.0×30 + 25.0×20 + 50.6×15) / 100 = 24.3 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -24144,15 +25143,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 50.32,
+            "value": 50.64,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "EARLY_PHASE1"
             ],
             "phase_points": 30.0,
-            "years_since_stop": 1.86,
-            "years_points": 92.95,
+            "years_since_stop": 1.88,
+            "years_points": 93.91,
             "sponsor_source_url": "https://www.virginia.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -24561,7 +25560,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:15Z",
+        "updated_at": "2026-10-12T15:10:22Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -25162,7 +26161,7 @@
               "NA"
             ],
             "phase_points": 34.0,
-            "years_since_stop": 6.18,
+            "years_since_stop": 6.2,
             "years_points": 100.0,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -25559,7 +26558,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:16Z",
+        "updated_at": "2026-10-12T15:10:24Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -26127,7 +27126,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 5.84,
+            "years_since_stop": 5.86,
             "years_points": 100.0,
             "sponsor_source_url": "https://clinicaltrials.gov/study/NCT04174911",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -26565,7 +27564,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:17Z",
+        "updated_at": "2026-10-12T15:10:24Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -27177,7 +28176,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 2.84,
+            "years_since_stop": 2.86,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.wakehealth.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -28110,20 +29109,6 @@
               "url": "https://europepmc.org/article/MED/34744791"
             },
             {
-              "id": "42449637",
-              "source": "MED",
-              "pmid": "42449637",
-              "pmcid": "PMC13359528",
-              "doi": "10.3390/cancers18132093",
-              "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
-              "pub_year": "2026",
-              "first_publication_date": "2026-06-27",
-              "journal": "Cancers (Basel)",
-              "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
-              "is_open_access": "Y",
-              "url": "https://europepmc.org/article/MED/42449637"
-            },
-            {
               "id": "38961108",
               "source": "MED",
               "pmid": "38961108",
@@ -28136,6 +29121,20 @@
               "authors": "Bi S, Huang L, Chen Y, Hu Z, Li S, Wang Y, Huang B, Zhang L, Huang Y, Dai B, Du L, Tu Z, Wang Y, Xu D, Xu X, Sun W, Kzhyshkowska J, Wang H, Chen D, Wang F, Zhang S.",
               "is_open_access": "Y",
               "url": "https://europepmc.org/article/MED/38961108"
+            },
+            {
+              "id": "42449637",
+              "source": "MED",
+              "pmid": "42449637",
+              "pmcid": "PMC13359528",
+              "doi": "10.3390/cancers18132093",
+              "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
+              "pub_year": "2026",
+              "first_publication_date": "2026-06-27",
+              "journal": "Cancers (Basel)",
+              "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
+              "is_open_access": "Y",
+              "url": "https://europepmc.org/article/MED/42449637"
             },
             {
               "id": "35247119",
@@ -28166,20 +29165,6 @@
               "url": "https://europepmc.org/article/MED/34638546"
             },
             {
-              "id": "32029457",
-              "source": "MED",
-              "pmid": "32029457",
-              "pmcid": "PMC7050480",
-              "doi": "10.1101/gad.335109.119",
-              "title": "Interplay between compartmentalized NAD<sup>+</sup> synthesis and consumption: a focus on the PARP family.",
-              "pub_year": "2020",
-              "first_publication_date": "2020-02-06",
-              "journal": "Genes Dev",
-              "authors": "Cohen MS.",
-              "is_open_access": "Y",
-              "url": "https://europepmc.org/article/MED/32029457"
-            },
-            {
               "id": "35775648",
               "source": "MED",
               "pmid": "35775648",
@@ -28192,6 +29177,20 @@
               "authors": "Wang J, Zhou Y, Zhang D, Zhao W, Lu Y, Liu C, Lin W, Zhang Y, Chen K, Wang H, Zhao L.",
               "is_open_access": "N",
               "url": "https://europepmc.org/article/MED/35775648"
+            },
+            {
+              "id": "32029457",
+              "source": "MED",
+              "pmid": "32029457",
+              "pmcid": "PMC7050480",
+              "doi": "10.1101/gad.335109.119",
+              "title": "Interplay between compartmentalized NAD<sup>+</sup> synthesis and consumption: a focus on the PARP family.",
+              "pub_year": "2020",
+              "first_publication_date": "2020-02-06",
+              "journal": "Genes Dev",
+              "authors": "Cohen MS.",
+              "is_open_access": "Y",
+              "url": "https://europepmc.org/article/MED/32029457"
             },
             {
               "id": "38474697",
@@ -28499,7 +29498,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:19Z",
+        "updated_at": "2026-10-12T15:10:30Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -28692,12 +29691,12 @@
           "url": "https://europepmc.org/article/MED/34744791"
         },
         {
-          "label": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
-          "url": "https://europepmc.org/article/MED/42449637"
-        },
-        {
           "label": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2.",
           "url": "https://europepmc.org/article/MED/38961108"
+        },
+        {
+          "label": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
+          "url": "https://europepmc.org/article/MED/42449637"
         },
         {
           "label": "Protective effects of a SIRT1 inhibitor on primordial follicle activation and growth induced by cyclophosphamide: insights from a bovine in vitro folliculogenesis system.",
@@ -28708,12 +29707,12 @@
           "url": "https://europepmc.org/article/MED/34638546"
         },
         {
-          "label": "Interplay between compartmentalized NAD<sup>+</sup> synthesis and consumption: a focus on the PARP family.",
-          "url": "https://europepmc.org/article/MED/32029457"
-        },
-        {
           "label": "CRIP1 suppresses BBOX1-mediated carnitine metabolism to promote stemness in hepatocellular carcinoma.",
           "url": "https://europepmc.org/article/MED/35775648"
+        },
+        {
+          "label": "Interplay between compartmentalized NAD<sup>+</sup> synthesis and consumption: a focus on the PARP family.",
+          "url": "https://europepmc.org/article/MED/32029457"
         },
         {
           "label": "Current Trends in Sirtuin Activator and Inhibitor Development.",
@@ -29172,7 +30171,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 2.43,
+            "years_since_stop": 2.45,
             "years_points": 100.0,
             "sponsor_source_url": "https://clinicaltrials.gov/study/NCT04347135",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -29586,7 +30585,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:20Z",
+        "updated_at": "2026-10-12T15:10:31Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -30195,8 +31194,8 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": -2.91,
-            "years_points": -145.38,
+            "years_since_stop": -2.89,
+            "years_points": -144.42,
             "sponsor_source_url": "https://www.childrenshospital.org",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -30592,7 +31591,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:23Z",
+        "updated_at": "2026-10-12T15:10:33Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -31224,7 +32223,7 @@
               "PHASE1"
             ],
             "phase_points": 38.0,
-            "years_since_stop": 17.18,
+            "years_since_stop": 17.2,
             "years_points": 25.0,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -31669,7 +32668,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-05T14:23:07Z",
+        "updated_at": "2026-10-12T15:10:15Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -31869,7 +32868,7 @@
     }
   ],
   "landscape": {
-    "n_assets": 30,
+    "n_assets": 31,
     "failure_modes_by_indication": {
       "endometriosis": {
         "efficacy_uninterpretable": 1,
@@ -31881,7 +32880,7 @@
       "pcos": {
         "funding_or_sponsor": 1,
         "recruitment": 4,
-        "unclear": 1,
+        "unclear": 2,
         "safety": 2,
         "never_started": 1
       }
@@ -31905,7 +32904,7 @@
       {
         "bin_start": 30.0,
         "bin_end": 40.0,
-        "count": 5
+        "count": 6
       },
       {
         "bin_start": 40.0,
@@ -31940,44 +32939,44 @@
     ],
     "population_capture_rates": {
       "diagnosis_method_stated": {
-        "captured": 18,
-        "n": 30,
-        "rate": 0.6
+        "captured": 19,
+        "n": 31,
+        "rate": 0.6129
       },
       "disease_severity_stratified": {
-        "captured": 2,
-        "n": 30,
-        "rate": 0.0667
+        "captured": 3,
+        "n": 31,
+        "rate": 0.0968
       },
       "age_range_specified": {
-        "captured": 30,
-        "n": 30,
+        "captured": 31,
+        "n": 31,
         "rate": 1.0
       },
       "menopausal_status_specified": {
-        "captured": 13,
-        "n": 30,
-        "rate": 0.4333
+        "captured": 14,
+        "n": 31,
+        "rate": 0.4516
       },
       "menstrual_cycle_phase_controlled": {
         "captured": 14,
-        "n": 30,
-        "rate": 0.4667
+        "n": 31,
+        "rate": 0.4516
       },
       "hormonal_contraceptive_use_addressed": {
-        "captured": 18,
-        "n": 30,
-        "rate": 0.6
+        "captured": 19,
+        "n": 31,
+        "rate": 0.6129
       },
       "prior_treatment_history_specified": {
         "captured": 0,
-        "n": 30,
+        "n": 31,
         "rate": 0.0
       },
       "biomarker_or_molecular_subtype_used": {
         "captured": 5,
-        "n": 30,
-        "rate": 0.1667
+        "n": 31,
+        "rate": 0.1613
       }
     },
     "assets_by_year_stopped": {
@@ -31994,21 +32993,29 @@
       "2022": 1,
       "2023": 2,
       "2024": 3,
-      "2025": 1,
+      "2025": 2,
       "2029": 1
     },
-    "mean_female_specific_capture": 0.4167
+    "mean_female_specific_capture": 0.4234
   },
   "weekly": {
-    "previous_snapshot": null,
-    "new_in_top20": [],
-    "moved_over_10pts": [],
-    "note": "No previous snapshot; this is the baseline."
+    "previous_snapshot": "/home/runner/work/Techbio/Techbio/data/snapshots/snapshot_20261005T142326Z.json",
+    "new_in_top20": [
+      {
+        "nct_id": "NCT07589075",
+        "primary_display_id": "NCT07589075",
+        "title": "Sodium-Glucose Co-Transporter-2 Inhibitors as Adjuvant Therapy With Letrozole in Induction of Ovulation in Women With Polycystic Ovarian Syndrome",
+        "score": 33.8,
+        "failure_mode": "unclear",
+        "why": "(18.0×35 + 40.0×30 + 37.5×20 + 53.2×15) / 100 = 33.8"
+      }
+    ],
+    "moved_over_10pts": []
   },
   "feedback": [],
   "counts": {
-    "n_assets": 30,
-    "n_raw": 41,
+    "n_assets": 31,
+    "n_raw": 42,
     "n_ctis_raw": 16,
     "n_ctis_in_snapshot": 0,
     "n_ctis_merged_skip": 0,

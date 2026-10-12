@@ -1,0 +1,249 @@
+{
+  "nct_id": "NCT07589075",
+  "failure_mode": "unclear",
+  "confidence": "low",
+  "signals": {
+    "extracted_category": "not_stated",
+    "enrolment_actual": 500,
+    "enrolment_anticipated": null,
+    "enrolment_type": "ACTUAL",
+    "enrolment_ratio": null,
+    "enrolment_proceeding": true,
+    "sponsor_match": null,
+    "sponsor_ceased_near_stop": false,
+    "peer_trials_stopped_same_window": 0,
+    "female_specific_vars_captured": 5,
+    "safety_signal": false,
+    "results_published": false,
+    "target_advanced_elsewhere": false,
+    "stop_reason_evidence": "Overall status: COMPLETED",
+    "stop_reason_raw": null,
+    "commercial_gate": {
+      "verdict": "empty_stub",
+      "reason_codes": [
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": false,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": false,
+        "hard_disqualify": false,
+        "strong_downrank": false,
+        "matches": [],
+        "reason_codes": [],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": true,
+      "rights_unknown": true,
+      "missing_ownership_fill": true
+    },
+    "disqualifier_codes": [
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "walk_away_codes": [],
+    "ownability": {
+      "schema_version": "wave-1b.rights-stub.v1",
+      "nct_id": "NCT07589075",
+      "programme_id": "p_b6e473907564aa44",
+      "thesis_mismatch": false,
+      "kill_triggered": false,
+      "kill_codes": [
+        "S_TAXONOMY_FIX",
+        "S_COI_UNCLEAR",
+        "S_LICENSE_MAP_MISSING",
+        "RIGHTS_UNKNOWN",
+        "MISSING_OWNERSHIP_FILL",
+        "NOT_OPTIONABLE"
+      ],
+      "hard_codes": [],
+      "soft_codes": [
+        "S_TAXONOMY_FIX",
+        "S_COI_UNCLEAR",
+        "S_LICENSE_MAP_MISSING"
+      ],
+      "ownership_ownable": false,
+      "optionable": false,
+      "shortlist_ownable": false,
+      "surface": "NOT OPTIONABLE",
+      "md_status": "HOLD",
+      "confidence": "empty_stub",
+      "rights_unknown": true,
+      "missing_ownership_fill": true,
+      "desk_classification": null,
+      "decision_required": true
+    },
+    "thesis_mismatch": false,
+    "kill_triggered": false,
+    "kill_codes": [
+      "S_TAXONOMY_FIX",
+      "S_COI_UNCLEAR",
+      "S_LICENSE_MAP_MISSING",
+      "RIGHTS_UNKNOWN",
+      "MISSING_OWNERSHIP_FILL",
+      "NOT_OPTIONABLE"
+    ],
+    "pre_pass": {
+      "verdict": "empty_stub",
+      "optionable": false,
+      "shortlist_ownable": false,
+      "surface": "NOT OPTIONABLE",
+      "md_status": "HOLD",
+      "block_pass": true,
+      "reason_codes": [
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "commercial_gate": {
+        "verdict": "empty_stub",
+        "reason_codes": [
+          "EMPTY_RIGHTS_NOT_OWNABLE",
+          "RIGHTS_UNKNOWN",
+          "NOT_OPTIONABLE",
+          "MISSING_OWNERSHIP_FILL"
+        ],
+        "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+        "intermezzo": {
+          "named": false,
+          "sex_diff": false,
+          "cheap_generic_no_power": false,
+          "shaped": false
+        },
+        "teratogen_rems": {
+          "matched": false,
+          "hard_disqualify": false,
+          "strong_downrank": false,
+          "matches": [],
+          "reason_codes": [],
+          "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+        },
+        "caps": {
+          "intermezzo": 20.0,
+          "rems_hard": 10.0,
+          "rems_downrank": 25.0,
+          "walk_away": 20.0
+        },
+        "empty_stub": true,
+        "rights_unknown": true,
+        "missing_ownership_fill": true
+      },
+      "walk_away_codes": [],
+      "rights_unknown": true,
+      "missing_ownership_fill": true,
+      "empty_stub": true,
+      "desk_classification": null
+    }
+  },
+  "rule_fired": "6_unclear_surface_for_review",
+  "notes": "No earlier rule fired. Surface for human review rather than guessing.",
+  "commercial_gate": {
+    "verdict": "empty_stub",
+    "reason_codes": [
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+    "intermezzo": {
+      "named": false,
+      "sex_diff": false,
+      "cheap_generic_no_power": false,
+      "shaped": false
+    },
+    "teratogen_rems": {
+      "matched": false,
+      "hard_disqualify": false,
+      "strong_downrank": false,
+      "matches": [],
+      "reason_codes": [],
+      "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+    },
+    "caps": {
+      "intermezzo": 20.0,
+      "rems_hard": 10.0,
+      "rems_downrank": 25.0,
+      "walk_away": 20.0
+    },
+    "empty_stub": true,
+    "rights_unknown": true,
+    "missing_ownership_fill": true
+  },
+  "disqualifier_codes": [
+    "EMPTY_RIGHTS_NOT_OWNABLE",
+    "RIGHTS_UNKNOWN",
+    "NOT_OPTIONABLE",
+    "MISSING_OWNERSHIP_FILL"
+  ],
+  "pre_pass": {
+    "verdict": "empty_stub",
+    "optionable": false,
+    "shortlist_ownable": false,
+    "surface": "NOT OPTIONABLE",
+    "md_status": "HOLD",
+    "block_pass": true,
+    "reason_codes": [
+      "EMPTY_RIGHTS_NOT_OWNABLE",
+      "RIGHTS_UNKNOWN",
+      "NOT_OPTIONABLE",
+      "MISSING_OWNERSHIP_FILL"
+    ],
+    "commercial_gate": {
+      "verdict": "empty_stub",
+      "reason_codes": [
+        "EMPTY_RIGHTS_NOT_OWNABLE",
+        "RIGHTS_UNKNOWN",
+        "NOT_OPTIONABLE",
+        "MISSING_OWNERSHIP_FILL"
+      ],
+      "notes": "Rights confidence is empty_stub / rights-unknown; does not imply ownability. Ownership fill is missing; empty rights are not optionable.",
+      "intermezzo": {
+        "named": false,
+        "sex_diff": false,
+        "cheap_generic_no_power": false,
+        "shaped": false
+      },
+      "teratogen_rems": {
+        "matched": false,
+        "hard_disqualify": false,
+        "strong_downrank": false,
+        "matches": [],
+        "reason_codes": [],
+        "note": "Structured table only. A match is a regulatory/commercial flag, not a mechanism or efficacy claim."
+      },
+      "caps": {
+        "intermezzo": 20.0,
+        "rems_hard": 10.0,
+        "rems_downrank": 25.0,
+        "walk_away": 20.0
+      },
+      "empty_stub": true,
+      "rights_unknown": true,
+      "missing_ownership_fill": true
+    },
+    "walk_away_codes": [],
+    "rights_unknown": true,
+    "missing_ownership_fill": true,
+    "empty_stub": true,
+    "desk_classification": null
+  },
+  "walk_away_codes": []
+}

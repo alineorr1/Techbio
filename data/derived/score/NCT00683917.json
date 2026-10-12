@@ -51,7 +51,7 @@
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": 17.18,
+      "years_since_stop": 17.2,
       "years_points": 25.0,
       "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

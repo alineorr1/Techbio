@@ -2,7 +2,7 @@
   "nct_id": "NCT01208740",
   "score": 25.0,
   "raw_weighted_sum": 29.9,
-  "arithmetic": "(18.0×35 + 4.0×30 + 75.0×20 + 49.6×15) / 100 = 29.9 then Rule A: safety failure cap 25.0 → 25.0",
+  "arithmetic": "(18.0×35 + 4.0×30 + 75.0×20 + 49.5×15) / 100 = 29.9 then Rule A: safety failure cap 25.0 → 25.0",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 49.56,
+      "value": 49.51,
       "sponsor_status": "unknown",
       "sponsor_points": 42.0,
       "phase": [
         "PHASE4"
       ],
       "phase_points": 70.0,
-      "years_since_stop": 15.6,
-      "years_points": 36.69,
+      "years_since_stop": 15.62,
+      "years_points": 36.53,
       "sponsor_source_url": null,
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }
