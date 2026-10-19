@@ -2,7 +2,7 @@
   "nct_id": "NCT00159575",
   "score": 51.6,
   "raw_weighted_sum": 51.6,
-  "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 47.0×15) / 100 = 51.6",
+  "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 46.9×15) / 100 = 51.6",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 46.97,
+      "value": 46.92,
       "sponsor_status": "unknown",
       "sponsor_points": 42.0,
       "phase": [
         "PHASE4"
       ],
       "phase_points": 70.0,
-      "years_since_stop": 16.53,
-      "years_points": 28.91,
+      "years_since_stop": 16.55,
+      "years_points": 28.75,
       "sponsor_source_url": null,
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

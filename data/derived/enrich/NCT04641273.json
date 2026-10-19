@@ -22,7 +22,7 @@
   "europepmc": {
     "nct_query": {
       "query": "NCT04641273",
-      "hit_count": 7,
+      "hit_count": 8,
       "papers": [
         {
           "id": "37851336",
@@ -121,6 +121,20 @@
           "authors": "Yang Y, Zhao B, Wang Y, Lan H, Liu X, Hu Y, Cao P.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/40274830"
+        },
+        {
+          "id": "PMC13659277",
+          "source": "PMC",
+          "pmid": null,
+          "pmcid": "PMC13659277",
+          "doi": null,
+          "title": "Neuropathic Pain: From Mechanisms to Therapeutic Interventions",
+          "pub_year": "2026",
+          "first_publication_date": "2026-10-01",
+          "journal": "MedComm (2020)",
+          "authors": "Dai Y, Tan M, Yuan M, Zhou H, Xie Q, Zeng J, Yang Y, He X, Song S.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/PMC/PMC13659277"
         }
       ]
     },
@@ -222,6 +236,20 @@
         "authors": "Yang Y, Zhao B, Wang Y, Lan H, Liu X, Hu Y, Cao P.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/40274830"
+      },
+      {
+        "id": "PMC13659277",
+        "source": "PMC",
+        "pmid": null,
+        "pmcid": "PMC13659277",
+        "doi": null,
+        "title": "Neuropathic Pain: From Mechanisms to Therapeutic Interventions",
+        "pub_year": "2026",
+        "first_publication_date": "2026-10-01",
+        "journal": "MedComm (2020)",
+        "authors": "Dai Y, Tan M, Yuan M, Zhou H, Xie Q, Zeng J, Yang Y, He X, Song S.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/PMC/PMC13659277"
       }
     ],
     "has_results_publication": true,
@@ -232,7 +260,8 @@
       2026,
       2021,
       2021,
-      2025
+      2025,
+      2026
     ],
     "silence_after_completion": false,
     "sponsor_published_after": true,

@@ -51,7 +51,7 @@
         "PHASE3"
       ],
       "phase_points": 100.0,
-      "years_since_stop": 5.31,
+      "years_since_stop": 5.33,
       "years_points": 100.0,
       "sponsor_source_url": "https://www.pennstatehealth.org",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

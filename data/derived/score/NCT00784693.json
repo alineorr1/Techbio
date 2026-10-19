@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 45.0,
+      "value": 44.95,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": 16.52,
-      "years_points": 29.0,
+      "years_since_stop": 16.54,
+      "years_points": 28.84,
       "sponsor_source_url": "https://www.pfizer.com",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

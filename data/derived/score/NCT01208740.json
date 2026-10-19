@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 49.51,
+      "value": 49.46,
       "sponsor_status": "unknown",
       "sponsor_points": 42.0,
       "phase": [
         "PHASE4"
       ],
       "phase_points": 70.0,
-      "years_since_stop": 15.62,
-      "years_points": 36.53,
+      "years_since_stop": 15.64,
+      "years_points": 36.37,
       "sponsor_source_url": null,
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

@@ -1,0 +1,371 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07874646",
+      "orgStudyIdInfo": {
+        "id": "SVCP/IEC/DEC/2023/82"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "EC/NEW/INIT/2021/1811",
+          "type": "OTHER",
+          "domain": "Institution Ethical Committee, Vivekanandha Medical Care Hospital."
+        }
+      ],
+      "organization": {
+        "fullName": "Swamy Vivekanandha College of Pharmacy",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of Metformin With and Without Probiotics in Women With PCOS",
+      "officialTitle": "Investigating the Efficacy of Metformin and Metformin With Probiotics in the Management of Polycystic Ovary Syndrome (PCOS): A Prospective Interventional Study",
+      "acronym": "MEP-PCOS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-08-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-10-06",
+      "studyFirstSubmitQcDate": "2026-10-09",
+      "studyFirstPostDateStruct": {
+        "date": "2026-10-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Dhivyaprasath Palaniappan",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "Swamy Vivekanandha College of Pharmacy"
+      },
+      "leadSponsor": {
+        "name": "Dhivyaprasath Palaniappan",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective interventional study evaluated the effectiveness of metformin alone compared with metformin combined with probiotics in women with polycystic ovary syndrome (PCOS). The study included women aged 18-45 years diagnosed with PCOS according to the Rotterdam criteria. Participants received either metformin alone or metformin combined with probiotic supplementation for 12 weeks. The study assessed changes in hormonal parameters such as total testosterone (TT), sex hormone-binding globulin (SHBG), and free androgen index (FAI) to determine whether adding probiotics to metformin provided additional benefits in the management of PCOS.",
+      "detailedDescription": "* Polycystic ovary syndrome (PCOS) is a heterogeneous endocrine and metabolic disorder that commonly affects women of reproductive age. The condition is characterized by a combination of ovulatory dysfunction, hyperandrogenism, and polycystic ovarian morphology. Women with PCOS may experience irregular menstrual cycles, anovulation, clinical manifestations of androgen excess such as hirsutism, and metabolic abnormalities including insulin resistance and altered glucose and lipid metabolism. The clinical presentation varies considerably between individuals, and management may therefore require a combination of pharmacological and lifestyle-based approaches.\n* Insulin resistance and compensatory hyperinsulinemia are important metabolic features in many women with PCOS. Increased insulin concentrations may contribute to excessive ovarian androgen production and may further aggravate reproductive and metabolic abnormalities. Metformin, a biguanide antidiabetic medicine, has been widely investigated and used in PCOS management because of its effects on insulin sensitivity and glucose metabolism. Metformin may also contribute to improvements in menstrual cyclicity, ovulatory function, and androgen-related abnormalities in selected women with PCOS.\n* In addition to conventional pharmacological treatment, increasing evidence has suggested a potential relationship between the gut microbiota and the pathophysiology of PCOS. Alterations in the composition and function of the intestinal microbiota, commonly referred to as gut dysbiosis, have been reported in women with PCOS. Proposed mechanisms linking gut microbiota alterations with PCOS include changes in intestinal barrier function, inflammatory pathways, metabolic regulation, insulin sensitivity, and interactions between the gut microbiota and endocrine pathways.\n* Probiotics are live microorganisms that, when administered in adequate amounts, may provide health benefits to the host. Probiotic supplementation has been investigated in PCOS because of its potential effects on intestinal microbial balance, inflammation, oxidative stress, insulin sensitivity, and metabolic and hormonal parameters. Previous clinical studies have reported variable effects of probiotics on body weight, glucose metabolism, lipid profiles, inflammatory markers, sex hormone-binding globulin (SHBG), and other clinical or biochemical outcomes in women with PCOS. However, findings across studies have not been consistent, and further clinical evaluation of probiotics as an adjunct to conventional PCOS treatment remains relevant.\n* The present prospective interventional study was conducted to compare the effects of metformin alone with those of metformin combined with probiotic supplementation in women diagnosed with PCOS. The primary purpose was to investigate whether the addition of probiotic supplementation to metformin could provide additional benefits compared with metformin alone in the management of PCOS, particularly with respect to hormonal parameters and menstrual regularity.\n* The study was conducted at Vivekanandha Medical Care Hospital, Elayampalayam, Tiruchengode, Tamil Nadu, India. The study was carried out from March 2024 through August 2024. The study protocol received approval from the Institutional Ethics Committee before participant enrollment. Written informed consent was obtained from eligible participants before participation in the study.\n* Women aged 18 to 45 years who were premenopausal and diagnosed with PCOS according to the Rotterdam diagnostic criteria were considered for participation. The Rotterdam criteria require the presence of at least two of the following three features, after appropriate exclusion of other relevant conditions: oligo- or anovulation, clinical and/or biochemical hyperandrogenism, and polycystic ovarian morphology. Participants were required to have a body mass index between 18.5 and 35 kg/m².\n* Women were excluded if they were pregnant or lactating, had used hormonal medications or relevant supplements within the previous three months, had a history of chronic gastrointestinal disorders, severe hepatic or renal impairment, or known allergy or intolerance to metformin. Women with type 2 diabetes mellitus, thyroid disorders, or adrenal hyperplasia were also excluded. Participants who had used anti-obesity medications or antidepressants during the previous three months were excluded according to the study protocol.\n* Approximately 60 eligible participants were included in the study. Participants were allocated into two treatment groups according to the study's predefined allocation procedure and patient preference. The study therefore used a non-randomized comparative interventional design and was not a randomized controlled trial.\n* One treatment group received metformin alone. The second treatment group received metformin in combination with probiotic supplementation. Metformin was administered at a dose of 500 mg twice daily. Participants receiving combination treatment additionally received a probiotic capsule twice daily after meals. The probiotic formulation contained fructooligosaccharide and multiple probiotic microorganisms, including Lactobacillus acidophilus, Lactobacillus rhamnosus, Bifidobacterium bifidum, Bifidobacterium longum, Saccharomyces boulardii, and Streptococcus thermophilus. Treatment was continued for approximately 12 weeks.\n* The study evaluated the effects of the two treatment approaches on hormonal and clinical parameters associated with PCOS. Particular attention was given to androgen-related hormonal parameters, including total testosterone (TT), sex hormone-binding globulin (SHBG), and free androgen index (FAI), together with menstrual regularity. Free androgen index was calculated from the relevant testosterone and SHBG measurements according to the study protocol.\n* Clinical outcomes included menstrual regularity, body mass index, and hirsutism. Quality of life was also assessed using the PCOS-specific quality-of-life assessment included in the study protocol. These outcomes were evaluated to determine whether the addition of probiotic supplementation to metformin was associated with additional clinical benefits compared with metformin treatment alone.\n* Hormonal laboratory investigations were performed according to the study protocol. Blood samples were collected during the appropriate phase of the menstrual cycle and under fasting conditions. Serum samples were processed and stored according to the laboratory procedures specified in the study protocol. Hormonal parameters were subsequently assessed using the laboratory methods available at the study site.\n* The primary outcome of the study was the change in androgen-related hormonal parameters and menstrual regularity following the 12-week intervention. The protocol specifically identified changes in serum free testosterone concentration, free androgen index, and menstrual regularity as primary outcomes. Secondary outcomes included changes in body mass index, hirsutism by PCOS quality-of-life measures.\n* The study also considered the tolerability and occurrence of adverse reactions associated with the interventions. Participants were monitored during the intervention period, and relevant complaints or adverse effects reported during follow-up were documented.\n* Data were obtained directly from participants through interviews and from clinical and laboratory records. Relevant demographic, clinical, treatment, and laboratory information was recorded using the study data collection form. Participant confidentiality was maintained throughout the study. Personal identifying information was collected only when necessary for participant follow-up and was handled confidentially.\n* The study was performed following approval from the Institutional Ethics Committee. Before enrolment, participants were informed about the purpose and procedures of the study, the interventions involved, potential benefits and risks, confidentiality of their information, and their right to decline participation or withdraw without negative consequences. Written informed consent was obtained from participants before study-related procedures were performed.\n* The rationale for comparing the two treatment approaches was based on the established role of metformin in the management of metabolic and reproductive features of PCOS and the emerging evidence regarding the possible role of gut microbiota modulation in PCOS. The addition of probiotics was investigated as an adjunctive approach rather than as a replacement for metformin. The study was designed to determine whether combined treatment could produce greater improvements in selected hormonal and clinical outcomes than metformin alone.\n* The study was initiated following protocol development and Institutional Ethics Committee approval. The first participant was enrolled on 27 March 2024. The final study activities and data collection were completed on 30 August 2024. The study included approximately 60 participants and had a treatment and follow-up period of approximately 12 weeks for each participant.\n* The study findings are intended to contribute to the clinical evidence concerning the potential role of probiotic supplementation as an adjunct to metformin therapy in women with PCOS. In particular, the study provides comparative information regarding hormonal parameters, menstrual regularity, body mass index, hirsutism, and quality of life. The findings may help inform future research evaluating the role of gut microbiota-directed interventions alongside established pharmacological approaches for PCOS.\n* The study should be interpreted in the context of its design and setting. It was a prospective interventional study conducted at a single medical centre with a relatively small sample size and a 12-week intervention period. Participant allocation was based on patient preference rather than randomization, and therefore the study does not provide the same level of evidence as a randomized controlled trial. The findings may not be generalizable to all women with PCOS or to populations with different demographic or clinical characteristics. Larger, multicentre, randomized controlled studies with longer follow-up may be required to confirm the findings and further investigate the clinical role of probiotics as an adjunct to metformin in PCOS.\n* Overall, this study evaluated whether combining probiotic supplementation with metformin could provide additional benefits over metformin alone in women with PCOS. The study focused on hormonal and clinical manifestations of PCOS and assessed changes in androgen-related parameters, menstrual regularity, body mass index, hirsutism, and quality of life following a 12-week intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Poly Cystic Ovary Syndrome"
+      ],
+      "keywords": [
+        "Polycystic Ovary Syndrome",
+        "PCOS",
+        "Metformin",
+        "Probiotics",
+        "Hormonal profile",
+        "Menstrual regularity",
+        "Hyperandrogenism",
+        "Free androgen index",
+        "Sex hormone-binding globulin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This study is a prospective interventional study, but it is not a drug-development trial intended to evaluate a new investigational drug through Phases 1-4. we are studying metformin ± probiotics in women with PCOS in a clinical research setting.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received metformin 500 mg twice daily for 12 weeks.",
+          "interventionNames": [
+            "Drug: Metformin"
+          ]
+        },
+        {
+          "label": "Metformin + Probiotics",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received metformin 500 mg twice daily combined with a probiotic capsule twice daily after meals for 12 weeks.",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Dietary Supplement: Probiotics"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Metformin 500 mg was administered orally twice daily for 12 weeks as the standard treatment for participants with polycystic ovary syndrome (PCOS).",
+          "armGroupLabels": [
+            "Metformin + Probiotics",
+            "Metformin alone"
+          ]
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Probiotics",
+          "description": "A probiotic capsule was administered orally twice daily after meals for 12 weeks in combination with metformin. Each capsule contained fructooligosaccharide 300 mg and Lactobacillus acidophilus, Lactobacillus rhamnosus, Bifidobacterium bifidum, Bifidobacterium longum, Saccharomyces boulardii, and Streptococcus thermophilus.",
+          "armGroupLabels": [
+            "Metformin + Probiotics"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in serum free testosterone concentration",
+          "description": "Serum free testosterone will be measured in a fasting blood sample. The change from baseline to the end of the intervention will be compared between women receiving metformin plus probiotics and women receiving metformin alone. Unit of measure: ng/dL.",
+          "timeFrame": "Baseline and 3 months"
+        },
+        {
+          "measure": "Change in free androgen index",
+          "description": "Free androgen index will be calculated as total testosterone divided by sex hormone binding globulin, multiplied by 100. The change from baseline to the end of the intervention will be compared between the two groups. Unit of measure: unitless index.",
+          "timeFrame": "Baseline and 3 months"
+        },
+        {
+          "measure": "Menstrual regularity",
+          "description": "Menstrual regularity will be assessed from participant-reported cycle dates. A cycle is counted as regular when its length is 21 to 35 days. The number of women with regular cycles at the end of the intervention will be compared between the two groups. Unit of measure: number of participants.",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in polycystic ovary syndrome quality of life score",
+          "description": "Quality of life will be assessed using the Polycystic Ovary Syndrome Quality of Life Questionnaire. Each item is scored from 1 to 5: 5 = never (no effect on quality of life), 4 = seldom, 3 = quite often, 2 = very often, 1 = always (maximal effect on quality of life). The minimum score is 1, and the maximum score is 5. A higher score means a better outcome, meaning less effect of polycystic ovary syndrome on quality of life. Interpretation: 1 to less than 3 = marked effect on quality of life; 3 to less than 4 = marginal effect; 4 to less than 5 = minimal effect; 5 = no effect. The change from baseline to the end of the intervention will be compared between women receiving metformin plus probiotics and women receiving metformin alone. Unit of measure: score on a scale.",
+          "timeFrame": "Baseline and 3 months"
+        },
+        {
+          "measure": "Change in body mass index (BMI)",
+          "description": "Weight and height will be measured and combined to report BMI. The change from baseline to the end of the intervention will be compared between the two groups. Unit of measure: kg/m².",
+          "timeFrame": "Baseline and 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Premenopausal women aged 18-45 years.\n* Diagnosis of PCOS based on the Rotterdam criteria.\n* Body mass index (BMI) between 18.5 and 35 kg/m2.\n\nExclusion Criteria:\n\n* Pregnancy or lactation\n* Use of hormonal medications or supplements within the past 3 months.\n* History of chronic gastrointestinal disorders\n* Severe hepatic or renal impairment.\n* Known allergy or intolerance to metformin.\n* T2DM,Thyroid disorder,adrenal hyperplasia.\n* Intake of antiobesity and antidepressants in the last 3 months.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Dhivyaprasath P, Pharm D",
+          "affiliation": "Swamy Vivekanandha College of Pharmacy",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Vivekanandha Medical Care Hospital",
+          "city": "Tiruchengode",
+          "state": "Tamil Nadu",
+          "zip": "637205",
+          "country": "India",
+          "geoPoint": {
+            "lat": 11.38016,
+            "lon": 77.89444
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Individual participant data will not be shared publicly because the study involves sensitive participant information. Data may be made available in a de-identified form upon reasonable request, subject to applicable ethical, privacy, and institutional requirements."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-10-19",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2026-10-17",
+        "submissionInfos": [
+          {
+            "releaseDate": "2026-10-17"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011085",
+          "term": "Polycystic Ovary Syndrome"
+        },
+        {
+          "id": "D017588",
+          "term": "Hyperandrogenism"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010048",
+          "term": "Ovarian Cysts"
+        },
+        {
+          "id": "D003560",
+          "term": "Cysts"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D010049",
+          "term": "Ovarian Diseases"
+        },
+        {
+          "id": "D000291",
+          "term": "Adnexal Diseases"
+        },
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D058489",
+          "term": "46, XX Disorders of Sex Development"
+        },
+        {
+          "id": "D012734",
+          "term": "Disorders of Sex Development"
+        },
+        {
+          "id": "D014564",
+          "term": "Urogenital Abnormalities"
+        },
+        {
+          "id": "D047808",
+          "term": "Adrenogenital Syndrome"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        },
+        {
+          "id": "D019936",
+          "term": "Probiotics"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D019587",
+          "term": "Dietary Supplements"
+        },
+        {
+          "id": "D005502",
+          "term": "Food"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        },
+        {
+          "id": "D019602",
+          "term": "Food and Beverages"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -51,7 +51,7 @@
         "PHASE1"
       ],
       "phase_points": 38.0,
-      "years_since_stop": 6.75,
+      "years_since_stop": 6.77,
       "years_points": 100.0,
       "sponsor_source_url": "https://www.bayer.com/en/pharma/womens-healthcare",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

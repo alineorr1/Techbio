@@ -52,7 +52,7 @@
         "PHASE3"
       ],
       "phase_points": 100.0,
-      "years_since_stop": 18.45,
+      "years_since_stop": 18.47,
       "years_points": 25.0,
       "sponsor_source_url": "https://www.nichd.nih.gov",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

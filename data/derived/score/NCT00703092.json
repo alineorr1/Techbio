@@ -2,7 +2,7 @@
   "nct_id": "NCT00703092",
   "score": 57.6,
   "raw_weighted_sum": 57.6,
-  "arithmetic": "(18.0×35 + 100.0×30 + 75.0×20 + 42.1×15) / 100 = 57.6",
+  "arithmetic": "(18.0×35 + 100.0×30 + 75.0×20 + 42.0×15) / 100 = 57.6",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 42.07,
+      "value": 42.01,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "PHASE4"
       ],
       "phase_points": 70.0,
-      "years_since_stop": 16.62,
-      "years_points": 28.2,
+      "years_since_stop": 16.64,
+      "years_points": 28.04,
       "sponsor_source_url": "https://www.vcu.edu",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

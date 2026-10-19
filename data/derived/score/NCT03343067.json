@@ -51,7 +51,7 @@
         "PHASE3"
       ],
       "phase_points": 100.0,
-      "years_since_stop": 7.97,
+      "years_since_stop": 7.99,
       "years_points": 100.0,
       "sponsor_source_url": "https://www.abbvie.com/science/pipeline.html",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

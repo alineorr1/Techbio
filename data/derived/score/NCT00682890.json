@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 41.62,
+      "value": 41.56,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "PHASE4"
       ],
       "phase_points": 70.0,
-      "years_since_stop": 16.78,
-      "years_points": 26.85,
+      "years_since_stop": 16.8,
+      "years_points": 26.69,
       "sponsor_source_url": "https://www.vcu.edu",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07874646",
+  "targets": [
+    {
+      "name": "Metformin",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "Metformin evaluated in Efficacy of Metformin With and Without Probiotics in Women With PCOS.",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "Rotterdam criteria",
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": true,
+    "menstrual_cycle_phase_controlled": true,
+    "hormonal_contraceptive_use_addressed": false,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": true
+  },
+  "stop_reason_raw": null,
+  "stop_reason_category": "not_stated",
+  "stop_reason_evidence": "Overall status: COMPLETED",
+  "endpoint_quality": {
+    "primary_endpoint": "Change in serum free testosterone concentration",
+    "endpoint_type": "objective",
+    "endpoint_appropriate_for_indication": "uncertain",
+    "reasoning": "Primary endpoint taken verbatim from the outcomes module."
+  },
+  "extraction_confidence": "medium",
+  "unresolved": [
+    "disease severity / stage not stated in the record",
+    "hormonal contraceptive use not stated in the record",
+    "prior treatment history not stated in the record",
+    "why stopped not stated"
+  ]
+}

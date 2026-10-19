@@ -596,20 +596,6 @@
           "url": "https://europepmc.org/article/MED/34638546"
         },
         {
-          "id": "35775648",
-          "source": "MED",
-          "pmid": "35775648",
-          "pmcid": "PMC9340481",
-          "doi": "10.15252/embj.2021110218",
-          "title": "CRIP1 suppresses BBOX1-mediated carnitine metabolism to promote stemness in hepatocellular carcinoma.",
-          "pub_year": "2022",
-          "first_publication_date": "2022-07-01",
-          "journal": "EMBO J",
-          "authors": "Wang J, Zhou Y, Zhang D, Zhao W, Lu Y, Liu C, Lin W, Zhang Y, Chen K, Wang H, Zhao L.",
-          "is_open_access": "N",
-          "url": "https://europepmc.org/article/MED/35775648"
-        },
-        {
           "id": "32029457",
           "source": "MED",
           "pmid": "32029457",
@@ -622,6 +608,20 @@
           "authors": "Cohen MS.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/32029457"
+        },
+        {
+          "id": "35775648",
+          "source": "MED",
+          "pmid": "35775648",
+          "pmcid": "PMC9340481",
+          "doi": "10.15252/embj.2021110218",
+          "title": "CRIP1 suppresses BBOX1-mediated carnitine metabolism to promote stemness in hepatocellular carcinoma.",
+          "pub_year": "2022",
+          "first_publication_date": "2022-07-01",
+          "journal": "EMBO J",
+          "authors": "Wang J, Zhou Y, Zhang D, Zhao W, Lu Y, Liu C, Lin W, Zhang Y, Chen K, Wang H, Zhao L.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/35775648"
         },
         {
           "id": "38474697",
@@ -809,20 +809,6 @@
         "url": "https://europepmc.org/article/MED/34638546"
       },
       {
-        "id": "35775648",
-        "source": "MED",
-        "pmid": "35775648",
-        "pmcid": "PMC9340481",
-        "doi": "10.15252/embj.2021110218",
-        "title": "CRIP1 suppresses BBOX1-mediated carnitine metabolism to promote stemness in hepatocellular carcinoma.",
-        "pub_year": "2022",
-        "first_publication_date": "2022-07-01",
-        "journal": "EMBO J",
-        "authors": "Wang J, Zhou Y, Zhang D, Zhao W, Lu Y, Liu C, Lin W, Zhang Y, Chen K, Wang H, Zhao L.",
-        "is_open_access": "N",
-        "url": "https://europepmc.org/article/MED/35775648"
-      },
-      {
         "id": "32029457",
         "source": "MED",
         "pmid": "32029457",
@@ -835,6 +821,20 @@
         "authors": "Cohen MS.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/32029457"
+      },
+      {
+        "id": "35775648",
+        "source": "MED",
+        "pmid": "35775648",
+        "pmcid": "PMC9340481",
+        "doi": "10.15252/embj.2021110218",
+        "title": "CRIP1 suppresses BBOX1-mediated carnitine metabolism to promote stemness in hepatocellular carcinoma.",
+        "pub_year": "2022",
+        "first_publication_date": "2022-07-01",
+        "journal": "EMBO J",
+        "authors": "Wang J, Zhou Y, Zhang D, Zhao W, Lu Y, Liu C, Lin W, Zhang Y, Chen K, Wang H, Zhao L.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/35775648"
       },
       {
         "id": "38474697",
@@ -943,8 +943,8 @@
       2026,
       2022,
       2021,
-      2022,
       2020,
+      2022,
       2024,
       2024,
       2020,
