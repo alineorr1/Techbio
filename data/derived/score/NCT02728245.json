@@ -2,7 +2,7 @@
   "nct_id": "NCT02728245",
   "score": 20.0,
   "raw_weighted_sum": 32.4,
-  "arithmetic": "(18.0×35 + 18.0×30 + 50.0×20 + 71.6×15) / 100 = 32.4 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
+  "arithmetic": "(18.0×35 + 18.0×30 + 50.0×20 + 71.5×15) / 100 = 32.4 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 71.57,
+      "value": 71.52,
       "sponsor_status": "unknown",
       "sponsor_points": 42.0,
       "phase": [
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": 8.64,
-      "years_points": 94.71,
+      "years_since_stop": 8.65,
+      "years_points": 94.55,
       "sponsor_source_url": null,
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

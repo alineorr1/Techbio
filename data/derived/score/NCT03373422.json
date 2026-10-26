@@ -2,7 +2,7 @@
   "nct_id": "NCT03373422",
   "score": 25.0,
   "raw_weighted_sum": 30.3,
-  "arithmetic": "(18.0×35 + 4.0×30 + 62.5×20 + 68.7×15) / 100 = 30.3 then Rule A: safety failure cap 25.0 → 25.0",
+  "arithmetic": "(18.0×35 + 4.0×30 + 62.5×20 + 68.6×15) / 100 = 30.3 then Rule A: safety failure cap 25.0 → 25.0",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 68.67,
+      "value": 68.64,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": 7.99,
-      "years_points": 100.0,
+      "years_since_stop": 8.01,
+      "years_points": 99.91,
       "sponsor_source_url": "https://www.bayer.com/en/pharma/womens-healthcare",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

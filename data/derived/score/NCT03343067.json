@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 76.0,
+      "value": 75.98,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "PHASE3"
       ],
       "phase_points": 100.0,
-      "years_since_stop": 7.99,
-      "years_points": 100.0,
+      "years_since_stop": 8.01,
+      "years_points": 99.93,
       "sponsor_source_url": "https://www.abbvie.com/science/pipeline.html",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

@@ -2,7 +2,7 @@
   "nct_id": "NCT00784693",
   "score": 37.5,
   "raw_weighted_sum": 37.5,
-  "arithmetic": "(18.0×35 + 40.0×30 + 62.5×20 + 45.0×15) / 100 = 37.5",
+  "arithmetic": "(18.0×35 + 40.0×30 + 62.5×20 + 44.9×15) / 100 = 37.5",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 44.95,
+      "value": 44.89,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": 16.54,
-      "years_points": 28.84,
+      "years_since_stop": 16.56,
+      "years_points": 28.68,
       "sponsor_source_url": "https://www.pfizer.com",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

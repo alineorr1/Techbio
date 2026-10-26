@@ -60,7 +60,7 @@
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": 2.88,
+      "years_since_stop": 2.9,
       "years_points": 100.0,
       "sponsor_source_url": "https://www.wakehealth.edu",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

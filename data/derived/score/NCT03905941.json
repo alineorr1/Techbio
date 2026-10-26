@@ -1,8 +1,8 @@
 {
   "nct_id": "NCT03905941",
   "score": 20.0,
-  "raw_weighted_sum": 24.3,
-  "arithmetic": "(18.0×35 + 18.0×30 + 25.0×20 + 51.0×15) / 100 = 24.3 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
+  "raw_weighted_sum": 24.4,
+  "arithmetic": "(18.0×35 + 18.0×30 + 25.0×20 + 51.3×15) / 100 = 24.4 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 50.96,
+      "value": 51.27,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "EARLY_PHASE1"
       ],
       "phase_points": 30.0,
-      "years_since_stop": 1.9,
-      "years_points": 94.87,
+      "years_since_stop": 1.92,
+      "years_points": 95.82,
       "sponsor_source_url": "https://www.virginia.edu",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

@@ -2,7 +2,7 @@
   "nct_id": "NCT05670353",
   "score": 60.0,
   "raw_weighted_sum": 60.1,
-  "arithmetic": "(18.0×35 + 92.0×30 + 75.0×20 + 74.5×15) / 100 = 60.1 then Rule B (Organon guard): no pre-trial independent mechanism evidence; cap 60.0 → 60.0",
+  "arithmetic": "(18.0×35 + 92.0×30 + 75.0×20 + 74.8×15) / 100 = 60.1 then Rule B (Organon guard): no pre-trial independent mechanism evidence; cap 60.0 → 60.0",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,7 +44,7 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 74.52,
+      "value": 74.84,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
@@ -52,8 +52,8 @@
         "PHASE3"
       ],
       "phase_points": 100.0,
-      "years_since_stop": 1.91,
-      "years_points": 95.55,
+      "years_since_stop": 1.93,
+      "years_points": 96.51,
       "sponsor_source_url": "https://www.usp.br",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }

@@ -51,7 +51,7 @@
         "PHASE4"
       ],
       "phase_points": 70.0,
-      "years_since_stop": 18.38,
+      "years_since_stop": 18.4,
       "years_points": 25.0,
       "sponsor_source_url": null,
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

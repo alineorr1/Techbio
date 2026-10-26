@@ -1,6 +1,6 @@
 {
-  "snapshot_id": "20261019T125338Z",
-  "created_at": "2026-10-19T12:53:38.165407+00:00",
+  "snapshot_id": "20261026T124531Z",
+  "created_at": "2026-10-26T12:45:31.925744+00:00",
   "extract_model": "mock-prompt-aware-v1",
   "extract_mode": "mock",
   "scoring": {
@@ -443,7 +443,7 @@
         "nct_id": "NCT05670353",
         "score": 60.0,
         "raw_weighted_sum": 60.1,
-        "arithmetic": "(18.0×35 + 92.0×30 + 75.0×20 + 74.5×15) / 100 = 60.1 then Rule B (Organon guard): no pre-trial independent mechanism evidence; cap 60.0 → 60.0",
+        "arithmetic": "(18.0×35 + 92.0×30 + 75.0×20 + 74.8×15) / 100 = 60.1 then Rule B (Organon guard): no pre-trial independent mechanism evidence; cap 60.0 → 60.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -485,7 +485,7 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 74.52,
+            "value": 74.84,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
@@ -493,8 +493,8 @@
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 1.91,
-            "years_points": 95.55,
+            "years_since_stop": 1.93,
+            "years_points": 96.51,
             "sponsor_source_url": "https://www.usp.br",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -990,7 +990,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:35Z",
+        "updated_at": "2026-10-26T12:45:28Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. None found mapped to USP/DREAMLAND. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -1562,7 +1562,7 @@
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 5.33,
+            "years_since_stop": 5.35,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.pennstatehealth.org",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -1994,7 +1994,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:27Z",
+        "updated_at": "2026-10-26T12:45:18Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. None found. Generic naltrexone; no Hershey exclusive endometriosis MOU patent. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -2523,15 +2523,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 42.01,
+            "value": 41.96,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 16.64,
-            "years_points": 28.04,
+            "years_since_stop": 16.65,
+            "years_points": 27.88,
             "sponsor_source_url": "https://www.vcu.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -2921,7 +2921,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:12Z",
+        "updated_at": "2026-10-26T12:45:04Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. None found for VCU/PCOS. Adjacent US8178150 not VCU-mapped exclusive. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -3441,7 +3441,7 @@
         "nct_id": "NCT00729560",
         "score": 52.4,
         "raw_weighted_sum": 52.4,
-        "arithmetic": "(18.0×35 + 86.0×30 + 75.0×20 + 35.4×15) / 100 = 52.4",
+        "arithmetic": "(18.0×35 + 86.0×30 + 75.0×20 + 35.3×15) / 100 = 52.4",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -3483,15 +3483,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 35.35,
+            "value": 35.3,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "NA"
             ],
             "phase_points": 34.0,
-            "years_since_stop": 14.71,
-            "years_points": 44.06,
+            "years_since_stop": 14.73,
+            "years_points": 43.9,
             "sponsor_source_url": "https://www.vcu.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -3879,7 +3879,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:13Z",
+        "updated_at": "2026-10-26T12:45:05Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -4427,15 +4427,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 46.92,
+            "value": 46.86,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 16.55,
-            "years_points": 28.75,
+            "years_since_stop": 16.57,
+            "years_points": 28.59,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -4850,7 +4850,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:09Z",
+        "updated_at": "2026-10-26T12:45:00Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -5451,7 +5451,7 @@
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 18.38,
+            "years_since_stop": 18.4,
             "years_points": 25.0,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -5852,7 +5852,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:09Z",
+        "updated_at": "2026-10-26T12:45:01Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -6385,7 +6385,7 @@
         "nct_id": "NCT00682890",
         "score": 50.8,
         "raw_weighted_sum": 50.8,
-        "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 41.6×15) / 100 = 50.8",
+        "arithmetic": "(18.0×35 + 86.0×30 + 62.5×20 + 41.5×15) / 100 = 50.8",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -6427,15 +6427,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 41.56,
+            "value": 41.51,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 16.8,
-            "years_points": 26.69,
+            "years_since_stop": 16.82,
+            "years_points": 26.53,
             "sponsor_source_url": "https://www.vcu.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -6851,7 +6851,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:10Z",
+        "updated_at": "2026-10-26T12:45:02Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -7399,7 +7399,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 3.13,
+            "years_since_stop": 3.15,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/1600172/000160017225000038/sprb-20250331.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -7809,7 +7809,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:33Z",
+        "updated_at": "2026-10-26T12:45:26Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. Spruce/Lilly tildacerfont families; program value not captured after failed pivotal. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -8382,15 +8382,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 76.0,
+            "value": 75.98,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 7.99,
-            "years_points": 100.0,
+            "years_since_stop": 8.01,
+            "years_points": 99.93,
             "sponsor_source_url": "https://www.abbvie.com/science/pipeline.html",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -8848,7 +8848,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:24Z",
+        "updated_at": "2026-10-26T12:45:15Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -9399,7 +9399,7 @@
         "nct_id": "NCT00784693",
         "score": 37.5,
         "raw_weighted_sum": 37.5,
-        "arithmetic": "(18.0×35 + 40.0×30 + 62.5×20 + 45.0×15) / 100 = 37.5",
+        "arithmetic": "(18.0×35 + 40.0×30 + 62.5×20 + 44.9×15) / 100 = 37.5",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -9441,15 +9441,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 44.95,
+            "value": 44.89,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 16.54,
-            "years_points": 28.84,
+            "years_since_stop": 16.56,
+            "years_points": 28.68,
             "sponsor_source_url": "https://www.pfizer.com",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -9865,7 +9865,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:14Z",
+        "updated_at": "2026-10-26T12:45:06Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -10467,7 +10467,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 4.46,
+            "years_since_stop": 4.48,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.bayer.com/en/pharma/womens-healthcare",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -11022,7 +11022,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:32Z",
+        "updated_at": "2026-10-26T12:45:23Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -11649,7 +11649,7 @@
               "PHASE1"
             ],
             "phase_points": 38.0,
-            "years_since_stop": 5.94,
+            "years_since_stop": 5.95,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -12093,7 +12093,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:25Z",
+        "updated_at": "2026-10-26T12:45:17Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -12685,7 +12685,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 20.8,
+            "years_since_stop": 20.82,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.nichd.nih.gov",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -13158,7 +13158,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:07Z",
+        "updated_at": "2026-10-26T12:44:58Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -13702,9 +13702,9 @@
       },
       "score": {
         "nct_id": "NCT07874646",
-        "score": 34.1,
-        "raw_weighted_sum": 34.1,
-        "arithmetic": "(18.0×35 + 40.0×30 + 37.5×20 + 55.5×15) / 100 = 34.1",
+        "score": 34.2,
+        "raw_weighted_sum": 34.2,
+        "arithmetic": "(18.0×35 + 40.0×30 + 37.5×20 + 55.8×15) / 100 = 34.2",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -13746,15 +13746,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 55.5,
+            "value": 55.81,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "NA"
             ],
             "phase_points": 34.0,
-            "years_since_stop": 1.81,
-            "years_points": 90.49,
+            "years_since_stop": 1.83,
+            "years_points": 91.44,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -13904,8 +13904,8 @@
           "flag": "HIGH_UNCERTAINTY"
         },
         "confidence_interval": [
-          17.2,
-          51.0
+          17.3,
+          51.1
         ],
         "failure_mode": "unclear",
         "classification_rule": "6_unclear_surface_for_review"
@@ -14138,7 +14138,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:36Z",
+        "updated_at": "2026-10-26T12:45:30Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -14699,9 +14699,9 @@
       },
       "score": {
         "nct_id": "NCT07589075",
-        "score": 33.8,
-        "raw_weighted_sum": 33.8,
-        "arithmetic": "(18.0×35 + 40.0×30 + 37.5×20 + 53.5×15) / 100 = 33.8",
+        "score": 33.9,
+        "raw_weighted_sum": 33.9,
+        "arithmetic": "(18.0×35 + 40.0×30 + 37.5×20 + 53.8×15) / 100 = 33.9",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -14743,15 +14743,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 53.49,
+            "value": 53.81,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 0.97,
-            "years_points": 48.46,
+            "years_since_stop": 0.99,
+            "years_points": 49.42,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -14901,8 +14901,8 @@
           "flag": "HIGH_UNCERTAINTY"
         },
         "confidence_interval": [
-          16.9,
-          50.7
+          17.0,
+          50.8
         ],
         "failure_mode": "unclear",
         "classification_rule": "6_unclear_surface_for_review"
@@ -15135,7 +15135,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:35Z",
+        "updated_at": "2026-10-26T12:45:29Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -15660,7 +15660,7 @@
         "nct_id": "NCT05560646",
         "score": 32.1,
         "raw_weighted_sum": 32.1,
-        "arithmetic": "(18.0×35 + 40.0×30 + 25.0×20 + 58.6×15) / 100 = 32.1",
+        "arithmetic": "(18.0×35 + 40.0×30 + 25.0×20 + 58.9×15) / 100 = 32.1",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -15702,15 +15702,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 58.56,
+            "value": 58.88,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 1.39,
-            "years_points": 69.68,
+            "years_since_stop": 1.41,
+            "years_points": 70.64,
             "sponsor_source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -16152,7 +16152,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:34Z",
+        "updated_at": "2026-10-26T12:45:27Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -16763,7 +16763,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 17.3,
+            "years_since_stop": 17.32,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -17195,7 +17195,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:10Z",
+        "updated_at": "2026-10-26T12:45:01Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -17784,7 +17784,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 17.13,
+            "years_since_stop": 17.15,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/897802/000119312518003166/d518116d8k.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -18204,7 +18204,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:18Z",
+        "updated_at": "2026-10-26T12:45:09Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -18738,7 +18738,7 @@
         "nct_id": "NCT01208740",
         "score": 25.0,
         "raw_weighted_sum": 29.9,
-        "arithmetic": "(18.0×35 + 4.0×30 + 75.0×20 + 49.5×15) / 100 = 29.9 then Rule A: safety failure cap 25.0 → 25.0",
+        "arithmetic": "(18.0×35 + 4.0×30 + 75.0×20 + 49.4×15) / 100 = 29.9 then Rule A: safety failure cap 25.0 → 25.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -18780,15 +18780,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 49.46,
+            "value": 49.4,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "PHASE4"
             ],
             "phase_points": 70.0,
-            "years_since_stop": 15.64,
-            "years_points": 36.37,
+            "years_since_stop": 15.66,
+            "years_points": 36.21,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -19191,7 +19191,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:20Z",
+        "updated_at": "2026-10-26T12:45:11Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -19721,7 +19721,7 @@
         "nct_id": "NCT02865915",
         "score": 25.0,
         "raw_weighted_sum": 30.7,
-        "arithmetic": "(18.0×35 + 4.0×30 + 50.0×20 + 87.9×15) / 100 = 30.7 then Rule A: safety failure cap 25.0 → 25.0",
+        "arithmetic": "(18.0×35 + 4.0×30 + 50.0×20 + 87.8×15) / 100 = 30.7 then Rule A: safety failure cap 25.0 → 25.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -19763,15 +19763,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 87.86,
+            "value": 87.81,
             "sponsor_status": "ceased",
             "sponsor_points": 95.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 9.13,
-            "years_points": 90.58,
+            "years_since_stop": 9.15,
+            "years_points": 90.42,
             "sponsor_source_url": "https://www.sec.gov/Archives/edgar/data/1641222/000119312521187430/d179015d425.htm",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -20159,7 +20159,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:22Z",
+        "updated_at": "2026-10-26T12:45:13Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -20690,7 +20690,7 @@
         "nct_id": "NCT03373422",
         "score": 25.0,
         "raw_weighted_sum": 30.3,
-        "arithmetic": "(18.0×35 + 4.0×30 + 62.5×20 + 68.7×15) / 100 = 30.3 then Rule A: safety failure cap 25.0 → 25.0",
+        "arithmetic": "(18.0×35 + 4.0×30 + 62.5×20 + 68.6×15) / 100 = 30.3 then Rule A: safety failure cap 25.0 → 25.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -20732,15 +20732,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 68.67,
+            "value": 68.64,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 7.99,
-            "years_points": 100.0,
+            "years_since_stop": 8.01,
+            "years_points": 99.91,
             "sponsor_source_url": "https://www.bayer.com/en/pharma/womens-healthcare",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -20923,6 +20923,20 @@
           "silence_after_completion": false,
           "papers": [
             {
+              "id": "42773934",
+              "source": "MED",
+              "pmid": "42773934",
+              "pmcid": "PMC13598555",
+              "doi": "10.1002/1878-0261.70295",
+              "title": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
+              "pub_year": "2026",
+              "first_publication_date": "2026-09-23",
+              "journal": "Mol Oncol",
+              "authors": "Mujacic C, Vitale MC, Siino R, Di Giovanni E, Ferrante Bannera C, Di Marco E, Gottardo A, Russo TDB, Barraco N, Perez A, Gristina V, Galvano A, Badalamenti G, Russo A, Bazan V, Incorvaia L.",
+              "is_open_access": "Y",
+              "url": "https://europepmc.org/article/MED/42773934"
+            },
+            {
               "id": "39962616",
               "source": "MED",
               "pmid": "39962616",
@@ -20991,20 +21005,6 @@
               "authors": "Hilpert J, Groettrup-Wolfers E, Kosturski H, Bennett L, Barnes CLK, Gude K, Gashaw I, Reif S, Steger-Hartmann T, Scheerans C, Solms A, Rottmann A, Mao G, Chapron C.",
               "is_open_access": "Y",
               "url": "https://europepmc.org/article/MED/37422772"
-            },
-            {
-              "id": "42773934",
-              "source": "MED",
-              "pmid": "42773934",
-              "pmcid": "PMC13598555",
-              "doi": "10.1002/1878-0261.70295",
-              "title": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
-              "pub_year": "2026",
-              "first_publication_date": "2026-09-23",
-              "journal": "Mol Oncol",
-              "authors": "Mujacic C, Vitale MC, Siino R, Di Giovanni E, Ferrante Bannera C, Di Marco E, Gottardo A, Russo TDB, Barraco N, Perez A, Gristina V, Galvano A, Badalamenti G, Russo A, Bazan V, Incorvaia L.",
-              "is_open_access": "Y",
-              "url": "https://europepmc.org/article/MED/42773934"
             },
             {
               "id": "38523637",
@@ -21298,7 +21298,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:24Z",
+        "updated_at": "2026-10-26T12:45:16Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -21467,6 +21467,10 @@
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NCT03373422&format=json"
         },
         {
+          "label": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
+          "url": "https://europepmc.org/article/MED/42773934"
+        },
+        {
           "label": "AKR1C3 as a therapeutic target to overcome erlotinib resistance in lung adenocarcinoma.",
           "url": "https://europepmc.org/article/MED/39962616"
         },
@@ -21485,10 +21489,6 @@
         {
           "label": "Hepatotoxicity of AKR1C3 Inhibitor BAY1128688: Findings from an Early Terminated Phase IIa Trial for the Treatment of Endometriosis.",
           "url": "https://europepmc.org/article/MED/37422772"
-        },
-        {
-          "label": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
-          "url": "https://europepmc.org/article/MED/42773934"
         },
         {
           "label": "AKR1C3 in carcinomas: from multifaceted roles to therapeutic strategies.",
@@ -21921,7 +21921,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 20.47,
+            "years_since_stop": 20.49,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.nichd.nih.gov",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -22393,7 +22393,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:07Z",
+        "updated_at": "2026-10-26T12:44:58Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -23013,7 +23013,7 @@
               "PHASE3"
             ],
             "phase_points": 100.0,
-            "years_since_stop": 18.47,
+            "years_since_stop": 18.49,
             "years_points": 25.0,
             "sponsor_source_url": "https://www.nichd.nih.gov",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -23455,7 +23455,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:08Z",
+        "updated_at": "2026-10-26T12:44:59Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -24020,7 +24020,7 @@
         "nct_id": "NCT02728245",
         "score": 20.0,
         "raw_weighted_sum": 32.4,
-        "arithmetic": "(18.0×35 + 18.0×30 + 50.0×20 + 71.6×15) / 100 = 32.4 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
+        "arithmetic": "(18.0×35 + 18.0×30 + 50.0×20 + 71.5×15) / 100 = 32.4 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -24062,15 +24062,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 71.57,
+            "value": 71.52,
             "sponsor_status": "unknown",
             "sponsor_points": 42.0,
             "phase": [
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 8.64,
-            "years_points": 94.71,
+            "years_since_stop": 8.65,
+            "years_points": 94.55,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -24464,7 +24464,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:21Z",
+        "updated_at": "2026-10-26T12:45:12Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -25065,7 +25065,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 5.02,
+            "years_since_stop": 5.04,
             "years_points": 100.0,
             "sponsor_source_url": "https://clinicaltrials.gov/study/NCT03481842",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -25491,7 +25491,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:25Z",
+        "updated_at": "2026-10-26T12:45:16Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. Patents none found. API COM axitinib/afatinib/linifanib originators. N=0 withdrawn. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -26052,8 +26052,8 @@
       "score": {
         "nct_id": "NCT03905941",
         "score": 20.0,
-        "raw_weighted_sum": 24.3,
-        "arithmetic": "(18.0×35 + 18.0×30 + 25.0×20 + 51.0×15) / 100 = 24.3 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
+        "raw_weighted_sum": 24.4,
+        "arithmetic": "(18.0×35 + 18.0×30 + 25.0×20 + 51.3×15) / 100 = 24.4 then Walk-away (WALK_AWAY_WITHDRAWN, WALK_AWAY_ZERO_ENROLMENT): not a recruitment win; cap 20.0 → 20.0",
         "weights": {
           "mechanism_evidence": 35.0,
           "failure_mode": 30.0,
@@ -26095,15 +26095,15 @@
             "note": "Inverted capture rate of female-specific population variables from the extraction."
           },
           "asset_accessibility": {
-            "value": 50.96,
+            "value": 51.27,
             "sponsor_status": "operating",
             "sponsor_points": 28.0,
             "phase": [
               "EARLY_PHASE1"
             ],
             "phase_points": 30.0,
-            "years_since_stop": 1.9,
-            "years_points": 94.87,
+            "years_since_stop": 1.92,
+            "years_points": 95.82,
             "sponsor_source_url": "https://www.virginia.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -26512,7 +26512,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:26Z",
+        "updated_at": "2026-10-26T12:45:17Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -27113,7 +27113,7 @@
               "NA"
             ],
             "phase_points": 34.0,
-            "years_since_stop": 6.22,
+            "years_since_stop": 6.24,
             "years_points": 100.0,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -27510,7 +27510,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:27Z",
+        "updated_at": "2026-10-26T12:45:19Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -28078,7 +28078,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 5.88,
+            "years_since_stop": 5.9,
             "years_points": 100.0,
             "sponsor_source_url": "https://clinicaltrials.gov/study/NCT04174911",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -28516,7 +28516,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:28Z",
+        "updated_at": "2026-10-26T12:45:19Z",
         "notes": "desk_classification=WALK_AWAY. Asset IP public-only close. WALK_AWAY. Kindeva pMDI adjacent numbers (AU2024230822A1 / WO2024182699 / WO2017072762 Yissum) are a watchlist note only — not a CONTINGENT reopen. No citable endometriosis-specific patent/app. Soft S_PRIVATE_IP_ONLY + S_LICENSE_MAP_MISSING. Do not reopen as PASS/CONTINGENT. ownable=false. NOT OPTIONABLE. next_diligence=None — closed."
       },
       "ownability": {
@@ -29128,7 +29128,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 2.88,
+            "years_since_stop": 2.9,
             "years_points": 100.0,
             "sponsor_source_url": "https://www.wakehealth.edu",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -30187,20 +30187,6 @@
               "url": "https://europepmc.org/article/MED/32366137"
             },
             {
-              "id": "39215785",
-              "source": "MED",
-              "pmid": "39215785",
-              "pmcid": "PMC11796339",
-              "doi": "10.1002/med.22076",
-              "title": "Activation and inhibition of sirtuins: From bench to bedside.",
-              "pub_year": "2025",
-              "first_publication_date": "2024-08-31",
-              "journal": "Med Res Rev",
-              "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
-              "is_open_access": "Y",
-              "url": "https://europepmc.org/article/MED/39215785"
-            },
-            {
               "id": "36358940",
               "source": "MED",
               "pmid": "36358940",
@@ -30213,6 +30199,20 @@
               "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
               "is_open_access": "Y",
               "url": "https://europepmc.org/article/MED/36358940"
+            },
+            {
+              "id": "39215785",
+              "source": "MED",
+              "pmid": "39215785",
+              "pmcid": "PMC11796339",
+              "doi": "10.1002/med.22076",
+              "title": "Activation and inhibition of sirtuins: From bench to bedside.",
+              "pub_year": "2025",
+              "first_publication_date": "2024-08-31",
+              "journal": "Med Res Rev",
+              "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
+              "is_open_access": "Y",
+              "url": "https://europepmc.org/article/MED/39215785"
             },
             {
               "id": "39592582",
@@ -30450,7 +30450,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:30Z",
+        "updated_at": "2026-10-26T12:45:21Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -30679,12 +30679,12 @@
           "url": "https://europepmc.org/article/MED/32366137"
         },
         {
-          "label": "Activation and inhibition of sirtuins: From bench to bedside.",
-          "url": "https://europepmc.org/article/MED/39215785"
-        },
-        {
           "label": "Druggable Metabolic Vulnerabilities Are Exposed and Masked during Progression to Castration Resistant Prostate Cancer.",
           "url": "https://europepmc.org/article/MED/36358940"
+        },
+        {
+          "label": "Activation and inhibition of sirtuins: From bench to bedside.",
+          "url": "https://europepmc.org/article/MED/39215785"
         },
         {
           "label": "Epigenetics-targeted drugs: current paradigms and future challenges.",
@@ -31123,7 +31123,7 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": 2.47,
+            "years_since_stop": 2.49,
             "years_points": 100.0,
             "sponsor_source_url": "https://clinicaltrials.gov/study/NCT04347135",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -31537,7 +31537,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:31Z",
+        "updated_at": "2026-10-26T12:45:22Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -32146,8 +32146,8 @@
               "PHASE2"
             ],
             "phase_points": 78.0,
-            "years_since_stop": -2.87,
-            "years_points": -143.46,
+            "years_since_stop": -2.85,
+            "years_points": -142.51,
             "sponsor_source_url": "https://www.childrenshospital.org",
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
           }
@@ -32543,7 +32543,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:33Z",
+        "updated_at": "2026-10-26T12:45:25Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -33175,7 +33175,7 @@
               "PHASE1"
             ],
             "phase_points": 38.0,
-            "years_since_stop": 17.22,
+            "years_since_stop": 17.23,
             "years_points": 25.0,
             "sponsor_source_url": null,
             "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
@@ -33620,7 +33620,7 @@
             "orange_book_url": null
           }
         },
-        "updated_at": "2026-10-19T12:53:19Z",
+        "updated_at": "2026-10-26T12:45:10Z",
         "notes": "Empty rights stub. Does not imply ownability."
       },
       "ownability": {
@@ -33951,17 +33951,8 @@
     "mean_female_specific_capture": 0.4297
   },
   "weekly": {
-    "previous_snapshot": "/home/runner/work/Techbio/Techbio/data/snapshots/snapshot_20261012T151037Z.json",
-    "new_in_top20": [
-      {
-        "nct_id": "NCT07874646",
-        "primary_display_id": "NCT07874646",
-        "title": "Efficacy of Metformin With and Without Probiotics in Women With PCOS",
-        "score": 34.1,
-        "failure_mode": "unclear",
-        "why": "(18.0×35 + 40.0×30 + 37.5×20 + 55.5×15) / 100 = 34.1"
-      }
-    ],
+    "previous_snapshot": "/home/runner/work/Techbio/Techbio/data/snapshots/snapshot_20261019T125338Z.json",
+    "new_in_top20": [],
     "moved_over_10pts": []
   },
   "feedback": [],

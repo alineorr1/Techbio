@@ -51,7 +51,7 @@
         "PHASE1"
       ],
       "phase_points": 38.0,
-      "years_since_stop": 5.94,
+      "years_since_stop": 5.95,
       "years_points": 100.0,
       "sponsor_source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."

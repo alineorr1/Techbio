@@ -25,6 +25,20 @@
       "hit_count": 12,
       "papers": [
         {
+          "id": "42773934",
+          "source": "MED",
+          "pmid": "42773934",
+          "pmcid": "PMC13598555",
+          "doi": "10.1002/1878-0261.70295",
+          "title": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
+          "pub_year": "2026",
+          "first_publication_date": "2026-09-23",
+          "journal": "Mol Oncol",
+          "authors": "Mujacic C, Vitale MC, Siino R, Di Giovanni E, Ferrante Bannera C, Di Marco E, Gottardo A, Russo TDB, Barraco N, Perez A, Gristina V, Galvano A, Badalamenti G, Russo A, Bazan V, Incorvaia L.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/42773934"
+        },
+        {
           "id": "39962616",
           "source": "MED",
           "pmid": "39962616",
@@ -93,20 +107,6 @@
           "authors": "Hilpert J, Groettrup-Wolfers E, Kosturski H, Bennett L, Barnes CLK, Gude K, Gashaw I, Reif S, Steger-Hartmann T, Scheerans C, Solms A, Rottmann A, Mao G, Chapron C.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/37422772"
-        },
-        {
-          "id": "42773934",
-          "source": "MED",
-          "pmid": "42773934",
-          "pmcid": "PMC13598555",
-          "doi": "10.1002/1878-0261.70295",
-          "title": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
-          "pub_year": "2026",
-          "first_publication_date": "2026-09-23",
-          "journal": "Mol Oncol",
-          "authors": "Mujacic C, Vitale MC, Siino R, Di Giovanni E, Ferrante Bannera C, Di Marco E, Gottardo A, Russo TDB, Barraco N, Perez A, Gristina V, Galvano A, Badalamenti G, Russo A, Bazan V, Incorvaia L.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/42773934"
         },
         {
           "id": "38523637",
@@ -196,6 +196,20 @@
     },
     "papers": [
       {
+        "id": "42773934",
+        "source": "MED",
+        "pmid": "42773934",
+        "pmcid": "PMC13598555",
+        "doi": "10.1002/1878-0261.70295",
+        "title": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
+        "pub_year": "2026",
+        "first_publication_date": "2026-09-23",
+        "journal": "Mol Oncol",
+        "authors": "Mujacic C, Vitale MC, Siino R, Di Giovanni E, Ferrante Bannera C, Di Marco E, Gottardo A, Russo TDB, Barraco N, Perez A, Gristina V, Galvano A, Badalamenti G, Russo A, Bazan V, Incorvaia L.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/42773934"
+      },
+      {
         "id": "39962616",
         "source": "MED",
         "pmid": "39962616",
@@ -264,20 +278,6 @@
         "authors": "Hilpert J, Groettrup-Wolfers E, Kosturski H, Bennett L, Barnes CLK, Gude K, Gashaw I, Reif S, Steger-Hartmann T, Scheerans C, Solms A, Rottmann A, Mao G, Chapron C.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/37422772"
-      },
-      {
-        "id": "42773934",
-        "source": "MED",
-        "pmid": "42773934",
-        "pmcid": "PMC13598555",
-        "doi": "10.1002/1878-0261.70295",
-        "title": "Cancer-associated mutations in endometriosis reframe a benign disease through molecular oncology.",
-        "pub_year": "2026",
-        "first_publication_date": "2026-09-23",
-        "journal": "Mol Oncol",
-        "authors": "Mujacic C, Vitale MC, Siino R, Di Giovanni E, Ferrante Bannera C, Di Marco E, Gottardo A, Russo TDB, Barraco N, Perez A, Gristina V, Galvano A, Badalamenti G, Russo A, Bazan V, Incorvaia L.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/42773934"
       },
       {
         "id": "38523637",
@@ -366,12 +366,12 @@
     ],
     "has_results_publication": true,
     "publication_years": [
+      2026,
       2025,
       2026,
       2025,
       2024,
       2023,
-      2026,
       2024,
       2023,
       2022,

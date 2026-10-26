@@ -666,20 +666,6 @@
           "url": "https://europepmc.org/article/MED/32366137"
         },
         {
-          "id": "39215785",
-          "source": "MED",
-          "pmid": "39215785",
-          "pmcid": "PMC11796339",
-          "doi": "10.1002/med.22076",
-          "title": "Activation and inhibition of sirtuins: From bench to bedside.",
-          "pub_year": "2025",
-          "first_publication_date": "2024-08-31",
-          "journal": "Med Res Rev",
-          "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/39215785"
-        },
-        {
           "id": "36358940",
           "source": "MED",
           "pmid": "36358940",
@@ -692,6 +678,20 @@
           "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/36358940"
+        },
+        {
+          "id": "39215785",
+          "source": "MED",
+          "pmid": "39215785",
+          "pmcid": "PMC11796339",
+          "doi": "10.1002/med.22076",
+          "title": "Activation and inhibition of sirtuins: From bench to bedside.",
+          "pub_year": "2025",
+          "first_publication_date": "2024-08-31",
+          "journal": "Med Res Rev",
+          "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/39215785"
         },
         {
           "id": "39592582",
@@ -879,20 +879,6 @@
         "url": "https://europepmc.org/article/MED/32366137"
       },
       {
-        "id": "39215785",
-        "source": "MED",
-        "pmid": "39215785",
-        "pmcid": "PMC11796339",
-        "doi": "10.1002/med.22076",
-        "title": "Activation and inhibition of sirtuins: From bench to bedside.",
-        "pub_year": "2025",
-        "first_publication_date": "2024-08-31",
-        "journal": "Med Res Rev",
-        "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/39215785"
-      },
-      {
         "id": "36358940",
         "source": "MED",
         "pmid": "36358940",
@@ -905,6 +891,20 @@
         "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/36358940"
+      },
+      {
+        "id": "39215785",
+        "source": "MED",
+        "pmid": "39215785",
+        "pmcid": "PMC11796339",
+        "doi": "10.1002/med.22076",
+        "title": "Activation and inhibition of sirtuins: From bench to bedside.",
+        "pub_year": "2025",
+        "first_publication_date": "2024-08-31",
+        "journal": "Med Res Rev",
+        "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/39215785"
       },
       {
         "id": "39592582",
@@ -948,8 +948,8 @@
       2024,
       2024,
       2020,
-      2025,
       2022,
+      2025,
       2024,
       2020
     ],
