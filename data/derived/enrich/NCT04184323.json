@@ -540,20 +540,6 @@
           "url": "https://europepmc.org/article/MED/34744791"
         },
         {
-          "id": "38961108",
-          "source": "MED",
-          "pmid": "38961108",
-          "pmcid": "PMC11222414",
-          "doi": "10.1038/s41467-024-49930-6",
-          "title": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2.",
-          "pub_year": "2024",
-          "first_publication_date": "2024-07-03",
-          "journal": "Nat Commun",
-          "authors": "Bi S, Huang L, Chen Y, Hu Z, Li S, Wang Y, Huang B, Zhang L, Huang Y, Dai B, Du L, Tu Z, Wang Y, Xu D, Xu X, Sun W, Kzhyshkowska J, Wang H, Chen D, Wang F, Zhang S.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/38961108"
-        },
-        {
           "id": "42449637",
           "source": "MED",
           "pmid": "42449637",
@@ -566,6 +552,20 @@
           "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/42449637"
+        },
+        {
+          "id": "38961108",
+          "source": "MED",
+          "pmid": "38961108",
+          "pmcid": "PMC11222414",
+          "doi": "10.1038/s41467-024-49930-6",
+          "title": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2.",
+          "pub_year": "2024",
+          "first_publication_date": "2024-07-03",
+          "journal": "Nat Commun",
+          "authors": "Bi S, Huang L, Chen Y, Hu Z, Li S, Wang Y, Huang B, Zhang L, Huang Y, Dai B, Du L, Tu Z, Wang Y, Xu D, Xu X, Sun W, Kzhyshkowska J, Wang H, Chen D, Wang F, Zhang S.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/38961108"
         },
         {
           "id": "35247119",
@@ -666,20 +666,6 @@
           "url": "https://europepmc.org/article/MED/32366137"
         },
         {
-          "id": "36358940",
-          "source": "MED",
-          "pmid": "36358940",
-          "pmcid": "PMC9687810",
-          "doi": "10.3390/biom12111590",
-          "title": "Druggable Metabolic Vulnerabilities Are Exposed and Masked during Progression to Castration Resistant Prostate Cancer.",
-          "pub_year": "2022",
-          "first_publication_date": "2022-10-28",
-          "journal": "Biomolecules",
-          "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/36358940"
-        },
-        {
           "id": "39215785",
           "source": "MED",
           "pmid": "39215785",
@@ -692,6 +678,20 @@
           "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/39215785"
+        },
+        {
+          "id": "36358940",
+          "source": "MED",
+          "pmid": "36358940",
+          "pmcid": "PMC9687810",
+          "doi": "10.3390/biom12111590",
+          "title": "Druggable Metabolic Vulnerabilities Are Exposed and Masked during Progression to Castration Resistant Prostate Cancer.",
+          "pub_year": "2022",
+          "first_publication_date": "2022-10-28",
+          "journal": "Biomolecules",
+          "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/36358940"
         },
         {
           "id": "39592582",
@@ -753,20 +753,6 @@
         "url": "https://europepmc.org/article/MED/34744791"
       },
       {
-        "id": "38961108",
-        "source": "MED",
-        "pmid": "38961108",
-        "pmcid": "PMC11222414",
-        "doi": "10.1038/s41467-024-49930-6",
-        "title": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2.",
-        "pub_year": "2024",
-        "first_publication_date": "2024-07-03",
-        "journal": "Nat Commun",
-        "authors": "Bi S, Huang L, Chen Y, Hu Z, Li S, Wang Y, Huang B, Zhang L, Huang Y, Dai B, Du L, Tu Z, Wang Y, Xu D, Xu X, Sun W, Kzhyshkowska J, Wang H, Chen D, Wang F, Zhang S.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/38961108"
-      },
-      {
         "id": "42449637",
         "source": "MED",
         "pmid": "42449637",
@@ -779,6 +765,20 @@
         "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/42449637"
+      },
+      {
+        "id": "38961108",
+        "source": "MED",
+        "pmid": "38961108",
+        "pmcid": "PMC11222414",
+        "doi": "10.1038/s41467-024-49930-6",
+        "title": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2.",
+        "pub_year": "2024",
+        "first_publication_date": "2024-07-03",
+        "journal": "Nat Commun",
+        "authors": "Bi S, Huang L, Chen Y, Hu Z, Li S, Wang Y, Huang B, Zhang L, Huang Y, Dai B, Du L, Tu Z, Wang Y, Xu D, Xu X, Sun W, Kzhyshkowska J, Wang H, Chen D, Wang F, Zhang S.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/38961108"
       },
       {
         "id": "35247119",
@@ -879,20 +879,6 @@
         "url": "https://europepmc.org/article/MED/32366137"
       },
       {
-        "id": "36358940",
-        "source": "MED",
-        "pmid": "36358940",
-        "pmcid": "PMC9687810",
-        "doi": "10.3390/biom12111590",
-        "title": "Druggable Metabolic Vulnerabilities Are Exposed and Masked during Progression to Castration Resistant Prostate Cancer.",
-        "pub_year": "2022",
-        "first_publication_date": "2022-10-28",
-        "journal": "Biomolecules",
-        "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/36358940"
-      },
-      {
         "id": "39215785",
         "source": "MED",
         "pmid": "39215785",
@@ -905,6 +891,20 @@
         "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/39215785"
+      },
+      {
+        "id": "36358940",
+        "source": "MED",
+        "pmid": "36358940",
+        "pmcid": "PMC9687810",
+        "doi": "10.3390/biom12111590",
+        "title": "Druggable Metabolic Vulnerabilities Are Exposed and Masked during Progression to Castration Resistant Prostate Cancer.",
+        "pub_year": "2022",
+        "first_publication_date": "2022-10-28",
+        "journal": "Biomolecules",
+        "authors": "Choi SYC, Ribeiro CF, Wang Y, Loda M, Plymate SR, Uo T.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/36358940"
       },
       {
         "id": "39592582",
@@ -939,8 +939,8 @@
     "publication_years": [
       2021,
       2021,
-      2024,
       2026,
+      2024,
       2022,
       2021,
       2020,
@@ -948,8 +948,8 @@
       2024,
       2024,
       2020,
-      2022,
       2025,
+      2022,
       2024,
       2020
     ],

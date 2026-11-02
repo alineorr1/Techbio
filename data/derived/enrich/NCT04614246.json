@@ -123,20 +123,6 @@
           "url": "https://europepmc.org/article/MED/34884907"
         },
         {
-          "id": "35437837",
-          "source": "MED",
-          "pmid": "35437837",
-          "pmcid": "PMC9546310",
-          "doi": "10.1111/bcp.15358",
-          "title": "First-in-human study of eliapixant (BAY 1817080), a highly selective P2X3 receptor antagonist: Tolerability, safety and pharmacokinetics.",
-          "pub_year": "2022",
-          "first_publication_date": "2022-05-22",
-          "journal": "Br J Clin Pharmacol",
-          "authors": "Klein S, Gashaw I, Baumann S, Chang X, Hummel T, Thuß U, Friedrich C.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/35437837"
-        },
-        {
           "id": "34615939",
           "source": "MED",
           "pmid": "34615939",
@@ -149,6 +135,20 @@
           "authors": "Davenport AJ, Neagoe I, Bräuer N, Koch M, Rotgeri A, Nagel J, Laux-Biehlmann A, Machet F, Coelho AM, Boyce S, Carty N, Gemkow MJ, Hess SD, Zollner TM, Fischer OM.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/34615939"
+        },
+        {
+          "id": "35437837",
+          "source": "MED",
+          "pmid": "35437837",
+          "pmcid": "PMC9546310",
+          "doi": "10.1111/bcp.15358",
+          "title": "First-in-human study of eliapixant (BAY 1817080), a highly selective P2X3 receptor antagonist: Tolerability, safety and pharmacokinetics.",
+          "pub_year": "2022",
+          "first_publication_date": "2022-05-22",
+          "journal": "Br J Clin Pharmacol",
+          "authors": "Klein S, Gashaw I, Baumann S, Chang X, Hummel T, Thuß U, Friedrich C.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/35437837"
         },
         {
           "id": "35624408",
@@ -294,20 +294,6 @@
         "url": "https://europepmc.org/article/MED/34884907"
       },
       {
-        "id": "35437837",
-        "source": "MED",
-        "pmid": "35437837",
-        "pmcid": "PMC9546310",
-        "doi": "10.1111/bcp.15358",
-        "title": "First-in-human study of eliapixant (BAY 1817080), a highly selective P2X3 receptor antagonist: Tolerability, safety and pharmacokinetics.",
-        "pub_year": "2022",
-        "first_publication_date": "2022-05-22",
-        "journal": "Br J Clin Pharmacol",
-        "authors": "Klein S, Gashaw I, Baumann S, Chang X, Hummel T, Thuß U, Friedrich C.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/35437837"
-      },
-      {
         "id": "34615939",
         "source": "MED",
         "pmid": "34615939",
@@ -320,6 +306,20 @@
         "authors": "Davenport AJ, Neagoe I, Bräuer N, Koch M, Rotgeri A, Nagel J, Laux-Biehlmann A, Machet F, Coelho AM, Boyce S, Carty N, Gemkow MJ, Hess SD, Zollner TM, Fischer OM.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/34615939"
+      },
+      {
+        "id": "35437837",
+        "source": "MED",
+        "pmid": "35437837",
+        "pmcid": "PMC9546310",
+        "doi": "10.1111/bcp.15358",
+        "title": "First-in-human study of eliapixant (BAY 1817080), a highly selective P2X3 receptor antagonist: Tolerability, safety and pharmacokinetics.",
+        "pub_year": "2022",
+        "first_publication_date": "2022-05-22",
+        "journal": "Br J Clin Pharmacol",
+        "authors": "Klein S, Gashaw I, Baumann S, Chang X, Hummel T, Thuß U, Friedrich C.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/35437837"
       },
       {
         "id": "35624408",
@@ -373,8 +373,8 @@
       2024,
       2021,
       2021,
-      2022,
       2021,
+      2022,
       2022,
       2021,
       2022
