@@ -540,20 +540,6 @@
           "url": "https://europepmc.org/article/MED/34744791"
         },
         {
-          "id": "42449637",
-          "source": "MED",
-          "pmid": "42449637",
-          "pmcid": "PMC13359528",
-          "doi": "10.3390/cancers18132093",
-          "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
-          "pub_year": "2026",
-          "first_publication_date": "2026-06-27",
-          "journal": "Cancers (Basel)",
-          "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/42449637"
-        },
-        {
           "id": "38961108",
           "source": "MED",
           "pmid": "38961108",
@@ -580,6 +566,20 @@
           "authors": "Di Emidio G, Tatone C, Barbato V, Genovese V, Placidi M, Talevi R, Gualtieri R, Italian Society of Embryology, Reproduction, Research (SIERR).",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/35247119"
+        },
+        {
+          "id": "42449637",
+          "source": "MED",
+          "pmid": "42449637",
+          "pmcid": "PMC13359528",
+          "doi": "10.3390/cancers18132093",
+          "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
+          "pub_year": "2026",
+          "first_publication_date": "2026-06-27",
+          "journal": "Cancers (Basel)",
+          "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/42449637"
         },
         {
           "id": "34638546",
@@ -666,20 +666,6 @@
           "url": "https://europepmc.org/article/MED/32366137"
         },
         {
-          "id": "39215785",
-          "source": "MED",
-          "pmid": "39215785",
-          "pmcid": "PMC11796339",
-          "doi": "10.1002/med.22076",
-          "title": "Activation and inhibition of sirtuins: From bench to bedside.",
-          "pub_year": "2025",
-          "first_publication_date": "2024-08-31",
-          "journal": "Med Res Rev",
-          "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/39215785"
-        },
-        {
           "id": "36358940",
           "source": "MED",
           "pmid": "36358940",
@@ -694,18 +680,18 @@
           "url": "https://europepmc.org/article/MED/36358940"
         },
         {
-          "id": "39592582",
+          "id": "39215785",
           "source": "MED",
-          "pmid": "39592582",
-          "pmcid": "PMC11627502",
-          "doi": "10.1038/s41392-024-02039-0",
-          "title": "Epigenetics-targeted drugs: current paradigms and future challenges.",
-          "pub_year": "2024",
-          "first_publication_date": "2024-11-26",
-          "journal": "Signal Transduct Target Ther",
-          "authors": "Dai W, Qiao X, Fang Y, Guo R, Bai P, Liu S, Li T, Jiang Y, Wei S, Na Z, Xiao X, Li D.",
+          "pmid": "39215785",
+          "pmcid": "PMC11796339",
+          "doi": "10.1002/med.22076",
+          "title": "Activation and inhibition of sirtuins: From bench to bedside.",
+          "pub_year": "2025",
+          "first_publication_date": "2024-08-31",
+          "journal": "Med Res Rev",
+          "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
           "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/39592582"
+          "url": "https://europepmc.org/article/MED/39215785"
         },
         {
           "id": "33330467",
@@ -720,6 +706,20 @@
           "authors": "Rasha F, Mims BM, Castro-Piedras I, Barnes BJ, Grisham MB, Rahman RL, Pruitt K.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/33330467"
+        },
+        {
+          "id": "39592582",
+          "source": "MED",
+          "pmid": "39592582",
+          "pmcid": "PMC11627502",
+          "doi": "10.1038/s41392-024-02039-0",
+          "title": "Epigenetics-targeted drugs: current paradigms and future challenges.",
+          "pub_year": "2024",
+          "first_publication_date": "2024-11-26",
+          "journal": "Signal Transduct Target Ther",
+          "authors": "Dai W, Qiao X, Fang Y, Guo R, Bai P, Liu S, Li T, Jiang Y, Wei S, Na Z, Xiao X, Li D.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/39592582"
         }
       ]
     },
@@ -753,20 +753,6 @@
         "url": "https://europepmc.org/article/MED/34744791"
       },
       {
-        "id": "42449637",
-        "source": "MED",
-        "pmid": "42449637",
-        "pmcid": "PMC13359528",
-        "doi": "10.3390/cancers18132093",
-        "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
-        "pub_year": "2026",
-        "first_publication_date": "2026-06-27",
-        "journal": "Cancers (Basel)",
-        "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/42449637"
-      },
-      {
         "id": "38961108",
         "source": "MED",
         "pmid": "38961108",
@@ -793,6 +779,20 @@
         "authors": "Di Emidio G, Tatone C, Barbato V, Genovese V, Placidi M, Talevi R, Gualtieri R, Italian Society of Embryology, Reproduction, Research (SIERR).",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/35247119"
+      },
+      {
+        "id": "42449637",
+        "source": "MED",
+        "pmid": "42449637",
+        "pmcid": "PMC13359528",
+        "doi": "10.3390/cancers18132093",
+        "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis.",
+        "pub_year": "2026",
+        "first_publication_date": "2026-06-27",
+        "journal": "Cancers (Basel)",
+        "authors": "Cho KJ, Seo JH, Kwon H, Lee SJ, Hah YS, Park JJ.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/42449637"
       },
       {
         "id": "34638546",
@@ -879,20 +879,6 @@
         "url": "https://europepmc.org/article/MED/32366137"
       },
       {
-        "id": "39215785",
-        "source": "MED",
-        "pmid": "39215785",
-        "pmcid": "PMC11796339",
-        "doi": "10.1002/med.22076",
-        "title": "Activation and inhibition of sirtuins: From bench to bedside.",
-        "pub_year": "2025",
-        "first_publication_date": "2024-08-31",
-        "journal": "Med Res Rev",
-        "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/39215785"
-      },
-      {
         "id": "36358940",
         "source": "MED",
         "pmid": "36358940",
@@ -907,18 +893,18 @@
         "url": "https://europepmc.org/article/MED/36358940"
       },
       {
-        "id": "39592582",
+        "id": "39215785",
         "source": "MED",
-        "pmid": "39592582",
-        "pmcid": "PMC11627502",
-        "doi": "10.1038/s41392-024-02039-0",
-        "title": "Epigenetics-targeted drugs: current paradigms and future challenges.",
-        "pub_year": "2024",
-        "first_publication_date": "2024-11-26",
-        "journal": "Signal Transduct Target Ther",
-        "authors": "Dai W, Qiao X, Fang Y, Guo R, Bai P, Liu S, Li T, Jiang Y, Wei S, Na Z, Xiao X, Li D.",
+        "pmid": "39215785",
+        "pmcid": "PMC11796339",
+        "doi": "10.1002/med.22076",
+        "title": "Activation and inhibition of sirtuins: From bench to bedside.",
+        "pub_year": "2025",
+        "first_publication_date": "2024-08-31",
+        "journal": "Med Res Rev",
+        "authors": "Fiorentino F, Fabbrizi E, Mai A, Rotili D.",
         "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/39592582"
+        "url": "https://europepmc.org/article/MED/39215785"
       },
       {
         "id": "33330467",
@@ -933,25 +919,39 @@
         "authors": "Rasha F, Mims BM, Castro-Piedras I, Barnes BJ, Grisham MB, Rahman RL, Pruitt K.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/33330467"
+      },
+      {
+        "id": "39592582",
+        "source": "MED",
+        "pmid": "39592582",
+        "pmcid": "PMC11627502",
+        "doi": "10.1038/s41392-024-02039-0",
+        "title": "Epigenetics-targeted drugs: current paradigms and future challenges.",
+        "pub_year": "2024",
+        "first_publication_date": "2024-11-26",
+        "journal": "Signal Transduct Target Ther",
+        "authors": "Dai W, Qiao X, Fang Y, Guo R, Bai P, Liu S, Li T, Jiang Y, Wei S, Na Z, Xiao X, Li D.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/39592582"
       }
     ],
     "has_results_publication": true,
     "publication_years": [
       2021,
       2021,
-      2026,
       2024,
       2022,
+      2026,
       2021,
       2020,
       2022,
       2024,
       2024,
       2020,
-      2025,
       2022,
-      2024,
-      2020
+      2025,
+      2020,
+      2024
     ],
     "silence_after_completion": false,
     "sponsor_published_after": true,

@@ -81,20 +81,6 @@
           "url": "https://europepmc.org/article/MED/26188274"
         },
         {
-          "id": "18165396",
-          "source": "MED",
-          "pmid": "18165396",
-          "pmcid": "PMC2755201",
-          "doi": "10.1097/01.aog.0000297307.35024.b5",
-          "title": "Return of chronic pelvic pain from endometriosis after raloxifene treatment: a randomized controlled trial.",
-          "pub_year": "2008",
-          "first_publication_date": "2008-01-01",
-          "journal": "Obstet Gynecol",
-          "authors": "Stratton P, Sinaii N, Segars J, Koziol D, Wesley R, Zimmer C, Winkel C, Nieman LK.",
-          "is_open_access": "N",
-          "url": "https://europepmc.org/article/MED/18165396"
-        },
-        {
           "id": "19264712",
           "source": "MED",
           "pmid": "19264712",
@@ -107,6 +93,20 @@
           "authors": "Guo SW, Hummelshoj L, Olive DL, Bulun SE, D'Hooghe TM, Evers JL.",
           "is_open_access": "N",
           "url": "https://europepmc.org/article/MED/19264712"
+        },
+        {
+          "id": "18165396",
+          "source": "MED",
+          "pmid": "18165396",
+          "pmcid": "PMC2755201",
+          "doi": "10.1097/01.aog.0000297307.35024.b5",
+          "title": "Return of chronic pelvic pain from endometriosis after raloxifene treatment: a randomized controlled trial.",
+          "pub_year": "2008",
+          "first_publication_date": "2008-01-01",
+          "journal": "Obstet Gynecol",
+          "authors": "Stratton P, Sinaii N, Segars J, Koziol D, Wesley R, Zimmer C, Winkel C, Nieman LK.",
+          "is_open_access": "N",
+          "url": "https://europepmc.org/article/MED/18165396"
         }
       ]
     },
@@ -168,20 +168,6 @@
         "url": "https://europepmc.org/article/MED/26188274"
       },
       {
-        "id": "18165396",
-        "source": "MED",
-        "pmid": "18165396",
-        "pmcid": "PMC2755201",
-        "doi": "10.1097/01.aog.0000297307.35024.b5",
-        "title": "Return of chronic pelvic pain from endometriosis after raloxifene treatment: a randomized controlled trial.",
-        "pub_year": "2008",
-        "first_publication_date": "2008-01-01",
-        "journal": "Obstet Gynecol",
-        "authors": "Stratton P, Sinaii N, Segars J, Koziol D, Wesley R, Zimmer C, Winkel C, Nieman LK.",
-        "is_open_access": "N",
-        "url": "https://europepmc.org/article/MED/18165396"
-      },
-      {
         "id": "19264712",
         "source": "MED",
         "pmid": "19264712",
@@ -194,6 +180,20 @@
         "authors": "Guo SW, Hummelshoj L, Olive DL, Bulun SE, D'Hooghe TM, Evers JL.",
         "is_open_access": "N",
         "url": "https://europepmc.org/article/MED/19264712"
+      },
+      {
+        "id": "18165396",
+        "source": "MED",
+        "pmid": "18165396",
+        "pmcid": "PMC2755201",
+        "doi": "10.1097/01.aog.0000297307.35024.b5",
+        "title": "Return of chronic pelvic pain from endometriosis after raloxifene treatment: a randomized controlled trial.",
+        "pub_year": "2008",
+        "first_publication_date": "2008-01-01",
+        "journal": "Obstet Gynecol",
+        "authors": "Stratton P, Sinaii N, Segars J, Koziol D, Wesley R, Zimmer C, Winkel C, Nieman LK.",
+        "is_open_access": "N",
+        "url": "https://europepmc.org/article/MED/18165396"
       }
     ],
     "has_results_publication": true,
@@ -202,8 +202,8 @@
       2011,
       2011,
       2015,
-      2008,
-      2009
+      2009,
+      2008
     ],
     "silence_after_completion": false,
     "sponsor_published_after": true,

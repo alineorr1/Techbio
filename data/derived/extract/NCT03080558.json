@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT03080558",
+  "targets": [
+    {
+      "name": "Indocyanine green",
+      "gene_symbol": null,
+      "modality": "small molecule",
+      "confidence": "high"
+    }
+  ],
+  "mechanism_summary": "Indocyanine green evaluated in Estimation of Vascularization After Treatment of Deep Rectovaginal Endometriosis Node by Rectal Shaving.",
+  "population": {
+    "diagnosis_method_stated": true,
+    "diagnosis_method": "laparoscopy",
+    "disease_severity_stratified": false,
+    "age_range_specified": true,
+    "menopausal_status_specified": false,
+    "menstrual_cycle_phase_controlled": false,
+    "hormonal_contraceptive_use_addressed": false,
+    "prior_treatment_history_specified": false,
+    "biomarker_or_molecular_subtype_used": false
+  },
+  "stop_reason_raw": null,
+  "stop_reason_category": "not_stated",
+  "stop_reason_evidence": "Overall status: COMPLETED",
+  "endpoint_quality": {
+    "primary_endpoint": "Per-operative evaluation of the rectum",
+    "endpoint_type": "unclear",
+    "endpoint_appropriate_for_indication": "uncertain",
+    "reasoning": "Primary endpoint taken verbatim from the outcomes module."
+  },
+  "extraction_confidence": "medium",
+  "unresolved": [
+    "disease severity / stage not stated in the record",
+    "menopausal status not stated in the record",
+    "menstrual cycle phase not stated in the record",
+    "hormonal contraceptive use not stated in the record",
+    "prior treatment history not stated in the record",
+    "biomarker or molecular subtype not stated in the record",
+    "why stopped not stated"
+  ]
+}

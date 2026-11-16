@@ -1,8 +1,8 @@
 {
   "nct_id": "NCT05560646",
-  "score": 32.2,
-  "raw_weighted_sum": 32.2,
-  "arithmetic": "(18.0×35 + 40.0×30 + 25.0×20 + 59.2×15) / 100 = 32.2",
+  "score": 32.3,
+  "raw_weighted_sum": 32.3,
+  "arithmetic": "(18.0×35 + 40.0×30 + 25.0×20 + 59.8×15) / 100 = 32.3",
   "weights": {
     "mechanism_evidence": 35.0,
     "failure_mode": 30.0,
@@ -44,15 +44,15 @@
       "note": "Inverted capture rate of female-specific population variables from the extraction."
     },
     "asset_accessibility": {
-      "value": 59.2,
+      "value": 59.84,
       "sponsor_status": "operating",
       "sponsor_points": 28.0,
       "phase": [
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": 1.43,
-      "years_points": 71.59,
+      "years_since_stop": 1.47,
+      "years_points": 73.51,
       "sponsor_source_url": "https://www.organon.com/news/organon-to-acquire-forendo-pharma/",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }
@@ -201,8 +201,8 @@
     "flag": "OK"
   },
   "confidence_interval": [
-    25.4,
-    39.0
+    25.5,
+    39.1
   ],
   "failure_mode": "unclear",
   "classification_rule": "6_unclear_surface_for_review"

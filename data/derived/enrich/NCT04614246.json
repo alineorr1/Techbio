@@ -123,20 +123,6 @@
           "url": "https://europepmc.org/article/MED/34884907"
         },
         {
-          "id": "34615939",
-          "source": "MED",
-          "pmid": "34615939",
-          "pmcid": "PMC8494816",
-          "doi": "10.1038/s41598-021-99177-0",
-          "title": "Eliapixant is a selective P2X3 receptor antagonist for the treatment of disorders associated with hypersensitive nerve fibers.",
-          "pub_year": "2021",
-          "first_publication_date": "2021-10-06",
-          "journal": "Sci Rep",
-          "authors": "Davenport AJ, Neagoe I, Bräuer N, Koch M, Rotgeri A, Nagel J, Laux-Biehlmann A, Machet F, Coelho AM, Boyce S, Carty N, Gemkow MJ, Hess SD, Zollner TM, Fischer OM.",
-          "is_open_access": "Y",
-          "url": "https://europepmc.org/article/MED/34615939"
-        },
-        {
           "id": "35437837",
           "source": "MED",
           "pmid": "35437837",
@@ -149,6 +135,20 @@
           "authors": "Klein S, Gashaw I, Baumann S, Chang X, Hummel T, Thuß U, Friedrich C.",
           "is_open_access": "Y",
           "url": "https://europepmc.org/article/MED/35437837"
+        },
+        {
+          "id": "34615939",
+          "source": "MED",
+          "pmid": "34615939",
+          "pmcid": "PMC8494816",
+          "doi": "10.1038/s41598-021-99177-0",
+          "title": "Eliapixant is a selective P2X3 receptor antagonist for the treatment of disorders associated with hypersensitive nerve fibers.",
+          "pub_year": "2021",
+          "first_publication_date": "2021-10-06",
+          "journal": "Sci Rep",
+          "authors": "Davenport AJ, Neagoe I, Bräuer N, Koch M, Rotgeri A, Nagel J, Laux-Biehlmann A, Machet F, Coelho AM, Boyce S, Carty N, Gemkow MJ, Hess SD, Zollner TM, Fischer OM.",
+          "is_open_access": "Y",
+          "url": "https://europepmc.org/article/MED/34615939"
         },
         {
           "id": "35624408",
@@ -294,20 +294,6 @@
         "url": "https://europepmc.org/article/MED/34884907"
       },
       {
-        "id": "34615939",
-        "source": "MED",
-        "pmid": "34615939",
-        "pmcid": "PMC8494816",
-        "doi": "10.1038/s41598-021-99177-0",
-        "title": "Eliapixant is a selective P2X3 receptor antagonist for the treatment of disorders associated with hypersensitive nerve fibers.",
-        "pub_year": "2021",
-        "first_publication_date": "2021-10-06",
-        "journal": "Sci Rep",
-        "authors": "Davenport AJ, Neagoe I, Bräuer N, Koch M, Rotgeri A, Nagel J, Laux-Biehlmann A, Machet F, Coelho AM, Boyce S, Carty N, Gemkow MJ, Hess SD, Zollner TM, Fischer OM.",
-        "is_open_access": "Y",
-        "url": "https://europepmc.org/article/MED/34615939"
-      },
-      {
         "id": "35437837",
         "source": "MED",
         "pmid": "35437837",
@@ -320,6 +306,20 @@
         "authors": "Klein S, Gashaw I, Baumann S, Chang X, Hummel T, Thuß U, Friedrich C.",
         "is_open_access": "Y",
         "url": "https://europepmc.org/article/MED/35437837"
+      },
+      {
+        "id": "34615939",
+        "source": "MED",
+        "pmid": "34615939",
+        "pmcid": "PMC8494816",
+        "doi": "10.1038/s41598-021-99177-0",
+        "title": "Eliapixant is a selective P2X3 receptor antagonist for the treatment of disorders associated with hypersensitive nerve fibers.",
+        "pub_year": "2021",
+        "first_publication_date": "2021-10-06",
+        "journal": "Sci Rep",
+        "authors": "Davenport AJ, Neagoe I, Bräuer N, Koch M, Rotgeri A, Nagel J, Laux-Biehlmann A, Machet F, Coelho AM, Boyce S, Carty N, Gemkow MJ, Hess SD, Zollner TM, Fischer OM.",
+        "is_open_access": "Y",
+        "url": "https://europepmc.org/article/MED/34615939"
       },
       {
         "id": "35624408",
@@ -373,8 +373,8 @@
       2024,
       2021,
       2021,
-      2021,
       2022,
+      2021,
       2022,
       2021,
       2022

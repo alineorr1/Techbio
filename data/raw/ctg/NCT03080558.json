@@ -1,0 +1,238 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03080558",
+      "orgStudyIdInfo": {
+        "id": "CHU-305"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-002773-35",
+          "type": "OTHER",
+          "domain": "2016-002773-35"
+        },
+        {
+          "id": "2016",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2016"
+        }
+      ],
+      "organization": {
+        "fullName": "University Hospital, Clermont-Ferrand",
+        "class": "OTHER"
+      },
+      "briefTitle": "Estimation of Vascularization After Treatment of Deep Rectovaginal Endometriosis Node by Rectal Shaving",
+      "officialTitle": "Estimation of Vascularization After Treatment of Deep Rectovaginal Endometriosis Node by Rectal Shaving, Using Indocyanine Green Injection. Feasibility Study",
+      "acronym": "INDIE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-08-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-10-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-11-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-03-06",
+      "studyFirstSubmitQcDate": "2017-03-14",
+      "studyFirstPostDateStruct": {
+        "date": "2017-03-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-11-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-11-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Clermont-Ferrand",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Laboratoire SERB",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Association GEGO",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Indocyanine green is a dye, using in surgery to bring out the intraoperative evaluation of tissue perfusion.\n\nAfter intravenous injection of indocyanine green, using a near infrared light, the vascularisation becomes fluorescent.\n\nIn endometriosis disease, the treatment of recto vaginal node can be complicated by rectovaginal fistula.\n\nAn abnormal vascularisation related to the surgery would be a risk factor of post operative fistulas.\n\nThe aim of this study is to evaluate the rectal and vaginal vascularisation during the treatment of a recto vaginal endometriosis nodule with rectal shaving, using indocyanine green fluorescence.",
+      "detailedDescription": "Investigators are going to inject, at the end of a rectal shaving, a bolus of 0,2mg/kg of indocyanine green after dilution (2,5mg/ml). With de SPIES system (KARL STORZ GmbH \\& Co. KG, Tuttlingen, Germany), the vascularisation would be imediately fluorescent. Investigators are going to estimate the vascularization of the rectal serosa and mucosa where the nodule was located.\n\nIf a vaginal resection has been performed, investigators are going to estimate the vascularization of the vaginal scar.\n\nTo estimate de vascularization, investigators are going tu use a scale with a score between 0 and 4.\n\nAfter the surgery, the post-operative follow-up with be the same as usual after a Rectal Shaving."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Deep Endometriosis",
+        "Recto Vaginal Node"
+      ],
+      "keywords": [
+        "Indocyanine green fluorescence",
+        "Rectal vascularisation",
+        "Vaginal vascularisation",
+        "Laparoscopic surgery",
+        "Rectal shaving",
+        "Recto vaginal node",
+        "Deep Endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "open"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "endometriosis recto vaginal node",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Indocyanine green"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Indocyanine green",
+          "description": "Use of Indocyanine Green during Rectal shaving by laparoscopy.",
+          "armGroupLabels": [
+            "endometriosis recto vaginal node"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Per-operative evaluation of the rectum",
+          "description": "Per-operative evaluation of the rectum after Shaving, using indocyanine green fluorescence, by transperitoneal and intra-rectal approach, and vaginal suture if there is an associated vaginal resection. A fluorescence score between 0 and 4 will be used, based on a Likert scale",
+          "timeFrame": "at day 1"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Side effects after indocyanine green injection",
+          "timeFrame": "at day 1"
+        },
+        {
+          "measure": "Post operative complications",
+          "description": "infections, abdominal abscess, abdominal hematoma, post operative fistula.",
+          "timeFrame": "at day 1"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients above the age of 18 year\n* Patients with endometriosis recto vaginal node\n* Patients with operative indications of rectal shaving, with or without vaginal resection\n* Patients who have accepted to participate\n\nExclusion Criteria:\n\n* minors patients\n* Patients under guardianship or wardship\n* Patients who refused the participation\n* Iodine allergy\n* Pregnant woman\n* Patients during lactation",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nicolas BOURDEL",
+          "affiliation": "University Hospital, Clermont-Ferrand",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CHU Clermont-Ferrand",
+          "city": "Clermont-Ferrand",
+          "zip": "63003",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32646588",
+          "type": "RESULT",
+          "citation": "Bourdel N, Jaillet L, Bar-Shavit Y, Comptour A, Pereira B, Canis M, Chauvet P. Indocyanine green in deep infiltrating endometriosis: a preliminary feasibility study to examine vascularization after rectal shaving. Fertil Steril. 2020 Aug;114(2):367-373. doi: 10.1016/j.fertnstert.2020.03.042. Epub 2020 Jul 7."
+        },
+        {
+          "pmid": "29885885",
+          "type": "DERIVED",
+          "citation": "Bar-Shavit Y, Jaillet L, Chauvet P, Canis M, Bourdel N. Use of indocyanine green in endometriosis surgery. Fertil Steril. 2018 Jun;109(6):1136-1137. doi: 10.1016/j.fertnstert.2018.02.113. Epub 2018 Jun 6."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-16"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007208",
+          "term": "Indocyanine Green"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

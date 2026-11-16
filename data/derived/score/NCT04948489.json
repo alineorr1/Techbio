@@ -51,8 +51,8 @@
         "PHASE2"
       ],
       "phase_points": 78.0,
-      "years_since_stop": -2.83,
-      "years_points": -141.55,
+      "years_since_stop": -2.79,
+      "years_points": -139.63,
       "sponsor_source_url": "https://www.childrenshospital.org",
       "note": "Mean of sponsor-status, phase-reached, and years-since-stop sub-scores from config/scoring.yaml."
     }
